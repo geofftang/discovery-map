@@ -59,6 +59,13 @@ select {
   backdrop-filter: blur(14px);
 }
 
+.toolbar-summary {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 34px;
+  gap: 10px;
+  align-items: center;
+}
+
 .brand h1 {
   margin: 0 0 3px;
   font-size: 16px;
@@ -69,6 +76,19 @@ select {
 .brand span {
   color: var(--muted);
   font-size: 13px;
+}
+
+.toolbar-toggle {
+  display: none;
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink);
+  background: #fff;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
 }
 
 .controls {
@@ -261,6 +281,20 @@ select {
     width: auto;
     grid-template-columns: 1fr;
     gap: 10px;
+  }
+
+  .toolbar-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .toolbar.collapsed {
+    gap: 0;
+  }
+
+  .toolbar.collapsed .controls {
+    display: none;
   }
 
   .controls {

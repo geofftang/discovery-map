@@ -24,6 +24,8 @@ const state = {
 const elements = {
   status: document.querySelector('#status'),
   resultCount: document.querySelector('#result-count'),
+  toolbar: document.querySelector('.toolbar'),
+  toolbarToggle: document.querySelector('#toolbar-toggle'),
   categorySelect: document.querySelector('#category-select'),
   searchInput: document.querySelector('#search-input'),
   details: document.querySelector('#details'),
@@ -58,6 +60,13 @@ function setStatus(message) {
 
 function clearStatus() {
   elements.status.hidden = true;
+}
+
+function setToolbarCollapsed(collapsed) {
+  elements.toolbar.classList.toggle('collapsed', collapsed);
+  elements.toolbarToggle.textContent = collapsed ? '+' : '−';
+  elements.toolbarToggle.setAttribute('aria-label', collapsed ? 'Expand filters' : 'Collapse filters');
+  elements.toolbarToggle.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
 }
 
 function normalize(value) {
@@ -250,6 +259,30 @@ function addPlaceLayers(data) {
       'circle-stroke-width': 2,
     },
   });
+
+  map.addLayer({
+    id: 'place-labels',
+    type: 'symbol',
+    source: 'places',
+    minzoom: 14,
+    filter: ['!', ['has', 'point_count']],
+    layout: {
+      'text-field': ['get', 'name'],
+      'text-size': 11,
+      'text-anchor': 'top',
+      'text-offset': [0, 0.95],
+      'text-max-width': 10,
+      'text-padding': 4,
+      'text-allow-overlap': false,
+      'text-ignore-placement': false,
+    },
+    paint: {
+      'text-color': '#172026',
+      'text-halo-color': '#ffffff',
+      'text-halo-width': 1.4,
+      'text-halo-blur': 0.3,
+    },
+  });
 }
 
 function bindMapInteractions() {
@@ -313,6 +346,7 @@ elements.categorySelect.addEventListener('change', (event) => {
   state.category = event.target.value;
   closeDetails();
   updateSource();
+  if (window.matchMedia('(max-width: 760px)').matches) setToolbarCollapsed(true);
 });
 
 elements.searchInput.addEventListener('input', debounce((event) => {
@@ -320,6 +354,10 @@ elements.searchInput.addEventListener('input', debounce((event) => {
   closeDetails();
   updateSource();
 }, 120));
+
+elements.toolbarToggle.addEventListener('click', () => {
+  setToolbarCollapsed(!elements.toolbar.classList.contains('collapsed'));
+});
 
 elements.detailsClose.addEventListener('click', closeDetails);
 
