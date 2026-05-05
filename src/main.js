@@ -147,12 +147,12 @@ function googleMapsUrl(feature) {
     return `https://www.google.com/maps/search/?api=1&query=${query}&query_place_id=${encodeURIComponent(props.google_place_id)}`;
   }
 
-  if (placeQuery.trim()) {
-    return `https://www.google.com/maps/search/?api=1&query=${query}`;
-  }
-
   if (Number.isFinite(lat) && Number.isFinite(lng)) {
     return `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
+  }
+
+  if (placeQuery.trim()) {
+    return `https://www.google.com/maps/search/?api=1&query=${query}`;
   }
 
   return `https://www.google.com/maps/search/?api=1&query=${query}`;
@@ -207,8 +207,8 @@ function addPlaceLayers(data) {
     type: 'geojson',
     data,
     cluster: true,
-    clusterRadius: 48,
-    clusterMaxZoom: 14,
+    clusterRadius: 32,
+    clusterMaxZoom: 12,
   });
 
   map.addLayer({
