@@ -1,13 +1,13 @@
 # Discovery Map
 
-Public map data and lightweight hosting surface for the Executive Function discovery database.
+Public map app and generated data feed for the Executive Function discovery database.
 
-The private source of truth is not stored in this repo. Generate `docs/discovery.geojson` from the private vault CSV, commit the artifact here, and point map consumers such as uMap at the published raw file or GitHub Pages URL.
+The private source of truth is not stored in this repo. Generate `docs/discovery.geojson` from the private vault CSV, commit the artifact here, and deploy the static MapLibre app from this repo.
 
 ## Files
 
-- `docs/discovery.geojson` - generated public GeoJSON artifact
-- `docs/index.html` - small static index for GitHub Pages
+- `docs/discovery.geojson` - generated public GeoJSON artifact, copied into the app build
+- `src/` - MapLibre app source
 - `scripts/build-discovery-geojson.py` - local builder for converting the private CSV to GeoJSON
 
 ## Build
@@ -20,9 +20,16 @@ python3 scripts/build-discovery-geojson.py \
   --output docs/discovery.geojson
 ```
 
-## Public URL
+## App
 
-After pushing to GitHub, uMap can read the GeoJSON from:
+```bash
+npm install
+npm run dev
+```
+
+## Public Data URL
+
+External consumers can read the GeoJSON from:
 
 ```text
 https://raw.githubusercontent.com/geofftang/discovery-map/main/docs/discovery.geojson
