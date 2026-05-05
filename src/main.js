@@ -1,6 +1,11 @@
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import './styles.css';
+import attractionIcon from '@mapbox/maki/icons/attraction.svg?raw';
+import bakeryIcon from '@mapbox/maki/icons/bakery.svg?raw';
+import barIcon from '@mapbox/maki/icons/bar.svg?raw';
+import cafeIcon from '@mapbox/maki/icons/cafe.svg?raw';
+import restaurantIcon from '@mapbox/maki/icons/restaurant.svg?raw';
 
 const DATA_URL = './discovery.geojson';
 const NYC_CENTER = [-73.9857, 40.7484];
@@ -13,6 +18,20 @@ const CATEGORY_COLORS = {
   Meal: '#dc6b19',
 };
 const DEFAULT_CATEGORY_COLOR = '#475569';
+const CATEGORY_ICONS = {
+  Activities: attractionIcon,
+  Cafe: cafeIcon,
+  Dessert: bakeryIcon,
+  Drinks: barIcon,
+  Meal: restaurantIcon,
+};
+const CATEGORY_ICON_IDS = {
+  Activities: 'category-attraction',
+  Cafe: 'category-cafe',
+  Dessert: 'category-bakery',
+  Drinks: 'category-bar',
+  Meal: 'category-restaurant',
+};
 
 const state = {
   allData: null,
@@ -146,6 +165,46 @@ function categoryColorExpression() {
   return expression;
 }
 
+function categoryIconExpression() {
+  const expression = ['match', ['get', 'category']];
+
+  for (const [category, iconId] of Object.entries(CATEGORY_ICON_IDS)) {
+    expression.push(category, iconId);
+  }
+
+  expression.push('category-restaurant');
+  return expression;
+}
+
+function svgToImage(svgText) {
+  return new Promise((resolve, reject) => {
+    const image = new Image(18, 18);
+    const svg = svgText.replace('<svg ', '<svg fill="#ffffff" ');
+    const blob = new Blob([svg], { type: 'image/svg+xml' });
+    const url = URL.createObjectURL(blob);
+
+    image.onload = () => {
+      URL.revokeObjectURL(url);
+      resolve(image);
+    };
+    image.onerror = () => {
+      URL.revokeObjectURL(url);
+      reject(new Error('Failed to load category icon.'));
+    };
+    image.src = url;
+  });
+}
+
+async function registerCategoryIcons() {
+  for (const [category, svgText] of Object.entries(CATEGORY_ICONS)) {
+    const iconId = CATEGORY_ICON_IDS[category];
+
+    if (!map.hasImage(iconId)) {
+      map.addImage(iconId, await svgToImage(svgText), { pixelRatio: 1 });
+    }
+  }
+}
+
 function googleMapsUrl(feature) {
   const props = feature.properties || {};
   const [lng, lat] = feature.geometry?.coordinates || [];
@@ -261,6 +320,19 @@ function addPlaceLayers(data) {
   });
 
   map.addLayer({
+    id: 'category-icons',
+    type: 'symbol',
+    source: 'places',
+    filter: ['!', ['has', 'point_count']],
+    layout: {
+      'icon-image': categoryIconExpression(),
+      'icon-size': 0.82,
+      'icon-allow-overlap': true,
+      'icon-ignore-placement': true,
+    },
+  });
+
+  map.addLayer({
     id: 'place-labels',
     type: 'symbol',
     source: 'places',
@@ -328,6 +400,7 @@ map.on('load', async () => {
     state.filteredData = state.allData;
 
     fillCategoryOptions(state.allData);
+    await registerCategoryIcons();
     addPlaceLayers(state.filteredData);
     bindMapInteractions();
     updateSource();

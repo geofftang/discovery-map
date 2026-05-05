@@ -9,6 +9,7 @@
     "preview": "vite preview --host 127.0.0.1"
   },
   "dependencies": {
+    "@mapbox/maki": "^8.2.0",
     "maplibre-gl": "^5.9.0"
   },
   "devDependencies": {
