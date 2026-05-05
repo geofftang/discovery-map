@@ -1,10 +1,10 @@
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import './styles.css';
-import attractionIcon from '@mapbox/maki/icons/attraction.svg?raw';
 import bakeryIcon from '@mapbox/maki/icons/bakery.svg?raw';
 import barIcon from '@mapbox/maki/icons/bar.svg?raw';
 import cafeIcon from '@mapbox/maki/icons/cafe.svg?raw';
+import playgroundIcon from '@mapbox/maki/icons/playground.svg?raw';
 import restaurantIcon from '@mapbox/maki/icons/restaurant.svg?raw';
 
 const DATA_URL = './discovery.geojson';
@@ -14,19 +14,19 @@ const CATEGORY_COLORS = {
   Activities: '#7c3aed',
   Cafe: '#0f766e',
   Dessert: '#db2777',
-  Drinks: '#2563eb',
+  Drinks: '#0891b2',
   Meal: '#dc6b19',
 };
 const DEFAULT_CATEGORY_COLOR = '#475569';
 const CATEGORY_ICONS = {
-  Activities: attractionIcon,
+  Activities: playgroundIcon,
   Cafe: cafeIcon,
   Dessert: bakeryIcon,
   Drinks: barIcon,
   Meal: restaurantIcon,
 };
 const CATEGORY_ICON_IDS = {
-  Activities: 'category-attraction',
+  Activities: 'category-playground',
   Cafe: 'category-cafe',
   Dessert: 'category-bakery',
   Drinks: 'category-bar',
@@ -313,9 +313,9 @@ function addPlaceLayers(data) {
     filter: ['!', ['has', 'point_count']],
     paint: {
       'circle-color': categoryColorExpression(),
-      'circle-radius': 7,
+      'circle-radius': 11,
       'circle-stroke-color': '#ffffff',
-      'circle-stroke-width': 2,
+      'circle-stroke-width': 2.5,
     },
   });
 
@@ -326,7 +326,7 @@ function addPlaceLayers(data) {
     filter: ['!', ['has', 'point_count']],
     layout: {
       'icon-image': categoryIconExpression(),
-      'icon-size': 0.82,
+      'icon-size': 0.9,
       'icon-allow-overlap': true,
       'icon-ignore-placement': true,
     },
@@ -342,7 +342,7 @@ function addPlaceLayers(data) {
       'text-field': ['get', 'name'],
       'text-size': 11,
       'text-anchor': 'top',
-      'text-offset': [0, 0.95],
+      'text-offset': [0, 1.35],
       'text-max-width': 10,
       'text-padding': 4,
       'text-allow-overlap': false,
