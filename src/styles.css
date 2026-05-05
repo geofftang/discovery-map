@@ -177,6 +177,31 @@ select {
   color: #47545f;
 }
 
+.pill.category-activities {
+  background: #f0e8ff;
+  color: #5b21b6;
+}
+
+.pill.category-cafe {
+  background: #e6f4f1;
+  color: #115e59;
+}
+
+.pill.category-dessert {
+  background: #fde8f3;
+  color: #be185d;
+}
+
+.pill.category-drinks {
+  background: #e8f0ff;
+  color: #1d4ed8;
+}
+
+.pill.category-meal {
+  background: #fff0df;
+  color: #b45309;
+}
+
 .details-description {
   margin: 0 0 14px;
   color: #303b44;

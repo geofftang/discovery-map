@@ -5,6 +5,14 @@ import './styles.css';
 const DATA_URL = './discovery.geojson';
 const NYC_CENTER = [-73.9857, 40.7484];
 const BASE_STYLE = 'https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json';
+const CATEGORY_COLORS = {
+  Activities: '#7c3aed',
+  Cafe: '#0f766e',
+  Dessert: '#db2777',
+  Drinks: '#2563eb',
+  Meal: '#dc6b19',
+};
+const DEFAULT_CATEGORY_COLOR = '#475569';
 
 const state = {
   allData: null,
@@ -118,13 +126,29 @@ function fillCategoryOptions(data) {
   }
 }
 
+function categoryColorExpression() {
+  const expression = ['match', ['get', 'category']];
+
+  for (const [category, color] of Object.entries(CATEGORY_COLORS)) {
+    expression.push(category, color);
+  }
+
+  expression.push(DEFAULT_CATEGORY_COLOR);
+  return expression;
+}
+
 function googleMapsUrl(feature) {
   const props = feature.properties || {};
   const [lng, lat] = feature.geometry?.coordinates || [];
-  const query = encodeURIComponent([props.name, props.city].filter(Boolean).join(' '));
+  const placeQuery = [props.name, props.city || 'NYC'].filter(Boolean).join(' ');
+  const query = encodeURIComponent(placeQuery);
 
   if (props.google_place_id) {
     return `https://www.google.com/maps/search/?api=1&query=${query}&query_place_id=${encodeURIComponent(props.google_place_id)}`;
+  }
+
+  if (placeQuery.trim()) {
+    return `https://www.google.com/maps/search/?api=1&query=${query}`;
   }
 
   if (Number.isFinite(lat) && Number.isFinite(lng)) {
@@ -141,6 +165,10 @@ function pill(label, variant = '') {
   return item;
 }
 
+function categoryClass(category) {
+  return `category-${normalize(category).replaceAll(/[^a-z0-9]+/g, '-')}`;
+}
+
 function openDetails(feature) {
   const props = feature.properties || {};
   const tags = splitTags(props.secondary_tags).slice(0, 6);
@@ -153,7 +181,7 @@ function openDetails(feature) {
   elements.detailsName.textContent = props.name || 'Untitled place';
   elements.detailsMeta.replaceChildren();
 
-  if (props.category) elements.detailsMeta.appendChild(pill(props.category));
+  if (props.category) elements.detailsMeta.appendChild(pill(props.category, categoryClass(props.category)));
   if (props.signal) elements.detailsMeta.appendChild(pill(props.signal, 'subtle'));
   tags.forEach((tag) => elements.detailsMeta.appendChild(pill(tag, 'subtle')));
 
@@ -216,9 +244,9 @@ function addPlaceLayers(data) {
     source: 'places',
     filter: ['!', ['has', 'point_count']],
     paint: {
-      'circle-color': '#f8fafc',
-      'circle-radius': 6,
-      'circle-stroke-color': '#0f766e',
+      'circle-color': categoryColorExpression(),
+      'circle-radius': 7,
+      'circle-stroke-color': '#ffffff',
       'circle-stroke-width': 2,
     },
   });
