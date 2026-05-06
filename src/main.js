@@ -107,7 +107,6 @@ function searchableText(feature) {
     props.description,
     props.secondary_tags,
     props.city,
-    props.hours_summary,
   ].filter(Boolean).join(' '));
 }
 
@@ -256,8 +255,6 @@ function openDetails(feature) {
   const tags = splitTags(props.secondary_tags).slice(0, 6);
   const detailLines = [
     props.description,
-    props.hours_summary ? `Hours: ${props.hours_summary}` : '',
-    props.rating ? `Rating: ${props.rating}` : '',
   ].filter(Boolean);
 
   elements.detailsName.textContent = props.name || 'Untitled place';
