@@ -11,10 +11,10 @@ const DATA_URL = './discovery.geojson';
 const NYC_CENTER = [-73.9857, 40.7484];
 const BASE_STYLE = 'https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json';
 const CATEGORY_COLORS = {
-  Activities: '#7c3aed',
-  Cafe: '#0f766e',
+  Activities: '#16a34a',
+  Cafe: '#f59e0b',
   Dessert: '#db2777',
-  Drinks: '#0891b2',
+  Drinks: '#7c3aed',
   Meal: '#dc6b19',
 };
 const DEFAULT_CATEGORY_COLOR = '#475569';
@@ -36,7 +36,7 @@ const CATEGORY_ICON_IDS = {
 const state = {
   allData: null,
   filteredData: null,
-  category: '',
+  selectedCategories: new Set(),
   search: '',
 };
 
@@ -45,7 +45,7 @@ const elements = {
   resultCount: document.querySelector('#result-count'),
   toolbar: document.querySelector('.toolbar'),
   toolbarToggle: document.querySelector('#toolbar-toggle'),
-  categorySelect: document.querySelector('#category-select'),
+  categoryOptions: document.querySelector('#category-options'),
   searchInput: document.querySelector('#search-input'),
   details: document.querySelector('#details'),
   detailsName: document.querySelector('#details-name'),
@@ -113,10 +113,9 @@ function searchableText(feature) {
 
 function filterData() {
   const search = normalize(state.search);
-  const category = state.category;
   const features = state.allData.features.filter((feature) => {
     const props = feature.properties || {};
-    const categoryMatch = !category || props.category === category;
+    const categoryMatch = !state.selectedCategories.size || state.selectedCategories.has(props.category);
     const searchMatch = !search || searchableText(feature).includes(search);
     return categoryMatch && searchMatch;
   });
@@ -147,10 +146,25 @@ function fillCategoryOptions(data) {
     .sort((a, b) => a.localeCompare(b));
 
   for (const category of categories) {
-    const option = document.createElement('option');
-    option.value = category;
-    option.textContent = category;
-    elements.categorySelect.appendChild(option);
+    state.selectedCategories.add(category);
+
+    const label = document.createElement('label');
+    label.className = `category-option ${categoryClass(category)}`;
+
+    const input = document.createElement('input');
+    input.type = 'checkbox';
+    input.value = category;
+    input.checked = true;
+
+    const swatch = document.createElement('span');
+    swatch.className = 'category-swatch';
+    swatch.style.backgroundColor = CATEGORY_COLORS[category] || DEFAULT_CATEGORY_COLOR;
+
+    const text = document.createElement('span');
+    text.textContent = category;
+
+    label.append(input, swatch, text);
+    elements.categoryOptions.appendChild(label);
   }
 }
 
@@ -415,11 +429,17 @@ map.on('error', (event) => {
   console.error(event.error || event);
 });
 
-elements.categorySelect.addEventListener('change', (event) => {
-  state.category = event.target.value;
+elements.categoryOptions.addEventListener('change', (event) => {
+  if (!event.target.matches('input[type="checkbox"]')) return;
+
+  if (event.target.checked) {
+    state.selectedCategories.add(event.target.value);
+  } else {
+    state.selectedCategories.delete(event.target.value);
+  }
+
   closeDetails();
   updateSource();
-  if (window.matchMedia('(max-width: 760px)').matches) setToolbarCollapsed(true);
 });
 
 elements.searchInput.addEventListener('input', debounce((event) => {

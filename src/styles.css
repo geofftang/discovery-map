@@ -93,7 +93,7 @@ select {
 
 .controls {
   display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(130px, 0.8fr);
+  grid-template-columns: minmax(180px, 0.85fr) minmax(280px, 1.3fr);
   gap: 8px;
 }
 
@@ -102,14 +102,15 @@ select {
   gap: 4px;
 }
 
-.control span {
+.control span,
+.control legend {
   color: var(--muted);
   font-size: 11px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.control input,
+.control input[type="search"],
 .control select {
   min-width: 0;
   height: 38px;
@@ -121,10 +122,57 @@ select {
   outline: none;
 }
 
-.control input:focus,
+.control input[type="search"]:focus,
 .control select:focus {
   border-color: var(--accent);
   box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.16);
+}
+
+.category-control {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.category-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.category-option {
+  position: relative;
+  display: inline-flex;
+  min-height: 30px;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 4px 8px;
+  background: #fff;
+  color: #34414b;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  user-select: none;
+}
+
+.category-option input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.category-option:has(input:not(:checked)) {
+  opacity: 0.42;
+}
+
+.category-swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.7);
 }
 
 .details {
@@ -198,13 +246,13 @@ select {
 }
 
 .pill.category-activities {
-  background: #f0e8ff;
-  color: #5b21b6;
+  background: #e8f7ed;
+  color: #15803d;
 }
 
 .pill.category-cafe {
-  background: #e6f4f1;
-  color: #115e59;
+  background: #fff4d6;
+  color: #b45309;
 }
 
 .pill.category-dessert {
@@ -213,8 +261,8 @@ select {
 }
 
 .pill.category-drinks {
-  background: #e2f7fb;
-  color: #0e7490;
+  background: #f0e8ff;
+  color: #5b21b6;
 }
 
 .pill.category-meal {
