@@ -259,8 +259,10 @@ select {
   bottom: 14px;
   z-index: 2;
   width: min(390px, calc(100vw - 28px));
-  max-height: min(470px, calc(100vh - 100px));
-  overflow: auto;
+  max-height: min(500px, calc(100vh - 100px));
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
   padding: 16px;
   border: 1px solid rgba(255, 255, 255, 0.82);
   border-radius: 8px;
@@ -349,6 +351,8 @@ select {
 }
 
 .details-description {
+  flex: 1;
+  overflow-y: auto;
   margin: 0 0 14px;
   color: #303b44;
   font-size: 14px;
@@ -357,7 +361,8 @@ select {
 }
 
 .primary-action {
-  display: inline-flex;
+  display: flex;
+  flex-shrink: 0;
   min-height: 40px;
   align-items: center;
   justify-content: center;
