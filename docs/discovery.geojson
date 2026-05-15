@@ -47719,7 +47719,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gastronom",
-        "category": "Shopping",
+        "category": "Activities",
         "signal": "High",
         "description": "Russian grocery in Flushing/Forest Hills",
         "secondary_tags": "NYC",
@@ -47819,7 +47819,7 @@
       "type": "Feature",
       "properties": {
         "name": "fontainhas + (/du.kaan/)",
-        "category": "Shop",
+        "category": "Activities",
         "signal": "Low",
         "city": "NYC",
         "google_place_id": "ChIJT8edfwBbwokRTEMjS7mKyno",
@@ -47898,7 +47898,7 @@
       "type": "Feature",
       "properties": {
         "name": "Moroccan Bites by Siham",
-        "category": "Restaurant",
+        "category": "Meal",
         "description": "Traditional Moroccan from chef/owner Siham Bourhane. Standouts: chicken tagine w/ preserved lemon, lamb tagine w/ prunes or pear, rare fish ball tagine. Served in Moroccan earthenware.",
         "secondary_tags": "moroccan;tagine;astoria;steinway",
         "city": "Astoria",
@@ -47918,7 +47918,7 @@
       "type": "Feature",
       "properties": {
         "name": "Xiaozhan Rice Noodle",
-        "category": "Restaurant",
+        "category": "Meal",
         "description": "Rice noodle soups in mini clay pots with sauce bar. Standout: passionfruit broth (sour/spicy/savory). Proteins: fish, beef, shrimp, chicken. Tiny space, 1hr+ waits at peak. 135-38 39th Ave, Flushing.",
         "secondary_tags": "chinese;rice-noodle;flushing;soup",
         "city": "Flushing",
@@ -47938,7 +47938,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kelang",
-        "category": "Restaurant",
+        "category": "Meal",
         "description": "Malaysian from Chris Low (Hainan Chicken House) opened Dec 2025. Italian-American and Caribbean touches — oxtail rendang with Haitian/Malaysian rice. Dinner + weekend brunch, full bar. 715 Manhattan Ave, Greenpoint.",
         "secondary_tags": "malaysian;greenpoint;brooklyn;brunch",
         "city": "Brooklyn",
@@ -47958,7 +47958,7 @@
       "type": "Feature",
       "properties": {
         "name": "Honey Badger",
-        "category": "Restaurant",
+        "category": "Meal",
         "description": "Reopened March 2026 in Prospect-Lefferts Gardens with fermentation lab. 13-course $295 tasting menu + a la carte for walk-ins. Seasonal/local. Owners Fjölla Sheholli & Junayd Juman. 67 Fenimore St.",
         "secondary_tags": "tasting-menu;fermentation;brooklyn;prospect-lefferts",
         "city": "Brooklyn",
