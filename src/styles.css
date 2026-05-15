@@ -48,9 +48,9 @@ select {
   z-index: 2;
   display: grid;
   width: min(680px, calc(100vw - 92px));
-  grid-template-columns: minmax(150px, 0.8fr) minmax(260px, 1.7fr);
+  grid-template-columns: auto 1fr;
   gap: 12px;
-  align-items: end;
+  align-items: center;
   padding: 12px;
   border: 1px solid rgba(255, 255, 255, 0.78);
   border-radius: 8px;
@@ -93,7 +93,7 @@ select {
 
 .controls {
   display: grid;
-  grid-template-columns: minmax(180px, 0.85fr) minmax(280px, 1.3fr);
+  grid-template-columns: 1fr;
   gap: 8px;
 }
 
@@ -216,18 +216,18 @@ select {
 .category-options {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 7px;
 }
 
 .category-option {
   position: relative;
   display: inline-flex;
-  min-height: 30px;
+  min-height: 32px;
   align-items: center;
   gap: 6px;
   border: 1px solid var(--line);
   border-radius: 999px;
-  padding: 4px 8px;
+  padding: 5px 11px;
   background: #fff;
   color: #34414b;
   font-size: 12px;
