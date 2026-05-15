@@ -37,6 +37,7 @@ const state = {
   allData: null,
   filteredData: null,
   selectedCategories: new Set(),
+  allCategories: new Set(),
   search: '',
 };
 
@@ -47,6 +48,8 @@ const elements = {
   toolbarToggle: document.querySelector('#toolbar-toggle'),
   categoryOptions: document.querySelector('#category-options'),
   searchInput: document.querySelector('#search-input'),
+  searchClear: document.querySelector('#search-clear'),
+  searchResults: document.querySelector('#search-results'),
   details: document.querySelector('#details'),
   detailsName: document.querySelector('#details-name'),
   detailsMeta: document.querySelector('#details-meta'),
@@ -146,6 +149,7 @@ function fillCategoryOptions(data) {
 
   for (const category of categories) {
     state.selectedCategories.add(category);
+    state.allCategories.add(category);
 
     const label = document.createElement('label');
     label.className = `category-option ${categoryClass(category)}`;
@@ -271,6 +275,43 @@ function openDetails(feature) {
 
 function closeDetails() {
   elements.details.hidden = true;
+}
+
+function updateSearchResults() {
+  const query = normalize(state.search);
+  if (!query || !state.allData) {
+    elements.searchResults.hidden = true;
+    return;
+  }
+  const matches = state.allData.features
+    .filter((f) => searchableText(f).includes(query))
+    .slice(0, 5);
+  if (!matches.length) {
+    elements.searchResults.hidden = true;
+    return;
+  }
+  elements.searchResults.replaceChildren();
+  for (const feature of matches) {
+    const props = feature.properties || {};
+    const item = document.createElement('button');
+    item.type = 'button';
+    item.className = 'search-result-item';
+    const nameEl = document.createElement('span');
+    nameEl.className = 'search-result-name';
+    nameEl.textContent = props.name || 'Untitled';
+    const catEl = document.createElement('span');
+    catEl.className = 'search-result-cat';
+    catEl.textContent = props.category || '';
+    item.append(nameEl, catEl);
+    item.addEventListener('click', () => {
+      const [lng, lat] = feature.geometry.coordinates;
+      map.flyTo({ center: [lng, lat], zoom: 16, duration: 500 });
+      openDetails(feature);
+      elements.searchResults.hidden = true;
+    });
+    elements.searchResults.appendChild(item);
+  }
+  elements.searchResults.hidden = false;
 }
 
 function debounce(fn, wait) {
@@ -426,14 +467,24 @@ map.on('error', (event) => {
   console.error(event.error || event);
 });
 
-elements.categoryOptions.addEventListener('change', (event) => {
-  if (!event.target.matches('input[type="checkbox"]')) return;
+elements.categoryOptions.addEventListener('click', (event) => {
+  const label = event.target.closest('.category-option');
+  if (!label) return;
+  event.preventDefault();
+  const input = label.querySelector('input');
+  const category = input.value;
+  const isOnlySelected = state.selectedCategories.size === 1 && state.selectedCategories.has(category);
 
-  if (event.target.checked) {
-    state.selectedCategories.add(event.target.value);
+  if (isOnlySelected) {
+    state.allCategories.forEach((c) => state.selectedCategories.add(c));
   } else {
-    state.selectedCategories.delete(event.target.value);
+    state.selectedCategories.clear();
+    state.selectedCategories.add(category);
   }
+
+  elements.categoryOptions.querySelectorAll('input').forEach((inp) => {
+    inp.checked = state.selectedCategories.has(inp.value);
+  });
 
   closeDetails();
   updateSource();
@@ -441,9 +492,27 @@ elements.categoryOptions.addEventListener('change', (event) => {
 
 elements.searchInput.addEventListener('input', debounce((event) => {
   state.search = event.target.value;
+  elements.searchClear.hidden = !state.search;
   closeDetails();
   updateSource();
+  updateSearchResults();
 }, 120));
+
+elements.searchClear.addEventListener('click', () => {
+  elements.searchInput.value = '';
+  elements.searchClear.hidden = true;
+  elements.searchResults.hidden = true;
+  state.search = '';
+  closeDetails();
+  updateSource();
+  elements.searchInput.focus();
+});
+
+document.addEventListener('click', (event) => {
+  if (!event.target.closest('.search-control')) {
+    elements.searchResults.hidden = true;
+  }
+});
 
 elements.toolbarToggle.addEventListener('click', () => {
   setToolbarCollapsed(!elements.toolbar.classList.contains('collapsed'));

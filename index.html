@@ -19,9 +19,13 @@
         </div>
 
         <div class="controls">
-          <label class="control">
+          <label class="control search-control">
             <span>Search</span>
-            <input id="search-input" type="search" placeholder="Name, note, tag">
+            <div class="search-wrapper">
+              <input id="search-input" type="search" placeholder="Name, note, tag" autocomplete="off">
+              <button id="search-clear" type="button" class="search-clear" aria-label="Clear search" hidden>×</button>
+            </div>
+            <div id="search-results" class="search-results" hidden></div>
           </label>
 
           <fieldset class="control category-control">
