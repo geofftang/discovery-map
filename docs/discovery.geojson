@@ -47973,6 +47973,27 @@
           40.6582688
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kunafa Bites",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Nablus-style kunafa made fresh to order (~7-8 min). Medium ~$15. Crispy on top, gooey stretchy cheese on the bottom; sweet, syrupy, and nutty from pistachios. Excellent.",
+        "secondary_tags": "kunafa; middle-eastern; palestinian; dessert",
+        "city": "NYC",
+        "google_place_id": "hex:0x89c25fce8fb08d29:0x5d034bd74e3695c1",
+        "listing_status": "verified",
+        "sanity_status": "NEEDS_PLACE_ID_NORMALIZATION"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9109403,
+          40.7756803
+        ]
+      }
     }
   ]
 }
