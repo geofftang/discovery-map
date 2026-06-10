@@ -572,26 +572,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Kossar's Bagels & Bialys",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Bialy (baked instead of boiled bagel variation)",
-        "city": "NYC",
-        "google_place_id": "ChIJBU-zddJZwokRzALNfOns9GA",
-        "listing_status": "verified",
-        "sanity_status": "OK"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9888009,
-          40.7164068
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Hot Bread Kitchen",
         "category": "Meal",
         "signal": "High",
@@ -3003,9 +2983,8 @@
         "description": "Two Staten Island restaurant vets have transported Sri Lankan food to this corner spot in Jamaica. At Queens Lanka, chef Rasika Wijayarathne cooks up comfort foods like lamprais, grated coconut roti, and short eats, or fried snacks, while partner Suchira Wettasinghe stocks pantry staples including whole pandan leaves in a grocery section of the shop.\r\n\r\nhttps://www.newyorker.com/magazine/2022/08/01/an-astonishing-array-of-sri-lankan-specialties-at-queens-lanka",
         "obsidian_link": "obsidian://open?vault=executive-function&file=domains/things-to-do/notes/queens-lanka.md",
         "city": "NYC",
-        "google_place_id": "ChIJpdrMVhlhwokRijXXegOJIa4",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -3532,9 +3511,8 @@
         "signal": "High",
         "description": "Pizza",
         "city": "NYC",
-        "google_place_id": "ChIJzzk5JypZwokRQ0tuDC9Cwr8",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -4436,9 +4414,8 @@
         "description": "The Place for Dinner When Fun Is the Top Priority\r\nWin Son\r\nEast Williamsburg, Brooklyn\r\nThe new-school Taiwanese spot is best enjoyed with a group of at least four (or fewer, who really know how to eat). And it’s always more enjoyable if those people aren’t opposed to an impromptu round of shots (which staff may or may not encourage) between excellent fried eggplant and spicy fly’s head (minced pork, fermented beans, chives, and chiles). Win Son is always slammed, so show up early and be ready to hang out by the bar with a drink while you wait.\r\n✵ Order: roasted peanuts, marinated cucumbers, fried eggplant, fly’s head, sesame noodles, and head-on prawns with minced pork in shrimp broth.",
         "obsidian_link": "obsidian://open?vault=executive-function&file=domains/things-to-do/notes/win-son.md",
         "city": "NYC",
-        "google_place_id": "ChIJWUWEmp9bwokRD6Q20axkQoc",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -6732,9 +6709,8 @@
         "description": "might as well try their sjb, they have good xlb\r\n\r\n\"Fried tiny buns w pork\" (sheng jian bao), \"Tangerine beef\"",
         "obsidian_link": "obsidian://open?vault=executive-function&file=domains/things-to-do/notes/shanghai-asian-cuisine.md",
         "city": "NYC",
-        "google_place_id": "ChIJTVG07iZawokRq9rPs7ib8bY",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -8100,9 +8076,8 @@
         "signal": "High",
         "description": "Understandably one of the best known halal trucks in NYC, Sammy's has a great lamb over rice plate. Even more rare is finding juicy, flavorful chicken from a halal truck, and that's really where Sammy's sits on a level of their own, especially if you add their unique green sauce to the mix. I'd go extra on the red sauce as it wasn't too spicy.",
         "city": "NYC",
-        "google_place_id": "ChIJRRa4j2BZwokRHensCB9TrT0",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -8183,9 +8158,8 @@
         "description": "Peking Duck House has long been a stop for celebrations, mainly for its large-format duck feasts and BYOB policy. Eating there is entertainment, too, with toque-wearing chefs slicing up whole ducks with perfectly crisp skins tableside. The restaurant, which also has a Midtown location, is a great option for larger groups, and also has a full Cantonese menu for duck-detesting diners.",
         "obsidian_link": "obsidian://open?vault=executive-function&file=domains/things-to-do/notes/peking-duck-house.md",
         "city": "NYC",
-        "google_place_id": "ChIJOd2Y7yZawokRZrmsAw8Y_U4",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -9652,9 +9626,8 @@
         "description": "There's also this subgenre of Korean restaurant where you're basically getting a set menu with a ton of fish (raw, cooked, whatever), a billion side dishes, and it's meant to be eaten while drinking. I love Pado out by Flushing Cemetary for this.",
         "obsidian_link": "obsidian://open?vault=executive-function&file=domains/things-to-do/notes/pado-sushi.md",
         "city": "NYC",
-        "google_place_id": "ChIJI0hFFyRgwokRZy7nx8t9v-0",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -11250,9 +11223,8 @@
         "description": "the one on the corner of Prince and 39th Ave is the best one I've had. They also have stinky tofu.",
         "obsidian_link": "obsidian://open?vault=executive-function&file=domains/things-to-do/notes/best-meat-skewers.md",
         "city": "NYC",
-        "google_place_id": "ChIJNUhecXNhwokR5udg8JjE71E",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -11475,9 +11447,8 @@
         "description": "Back when we published this map rounding up the city’s best beef patties, one commenter insisted that we had overlooked Taylor Made. Eight months later, I’m finally ready to admit that they’re right. The truth is I’d walked by this counter-service Jamaican spot dozens of times, mostly on my way to the G train a block away, but this past weekend I finally stopped inside, finding a beef patty that’s an easy contender for that map’s next update. At $4, it came brimming with ground meat that’s better seasoned than most I tasted last fall — and while my favorite patties often boast a flakier crust, this one’s generous fillings make it a Bed-Stuy standout worth trying.",
         "obsidian_link": "obsidian://open?vault=executive-function&file=domains/things-to-do/notes/taylor-made.md",
         "city": "NYC",
-        "google_place_id": "ChIJL9IaVaxfwokRZcpmpq4x6BU",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -12735,9 +12706,8 @@
         "signal": "High",
         "description": "For my money, go to a place like Sam's in Cobble Hill. Legitimately great pizza, and it all takes place in an old-school Italian joint that's almost 100 years old, run by an absolute curmudgeon named Lou who will give you shit in the nicest possible way while serving you.",
         "city": "NYC",
-        "google_place_id": "ChIJ8_METu5XwokR8Z4H0U9lr9M",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -16294,9 +16264,8 @@
         "description": "It specifically a Dongbei/northeastern Chinese spot. Would highly recommend the cumin flounder and beef tendon in brown sauce/红烧蹄筋. The salted egg yolk pumpkin/金沙南瓜 is also tasty and the only thing I didn't really liked that much was the deep fried quail/火爆鹌鹑 as it wasn't me that worth it for the price but the flavor was nice. The prices are reasonable especially when ordering a bunch of dishes for a group as the portion sizes are pretty big.",
         "obsidian_link": "obsidian://open?vault=executive-function&file=domains/things-to-do/notes/xing-shun-da.md",
         "city": "NYC",
-        "google_place_id": "ChIJNy68af1hwokR8BOT1po6ROs",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -19247,9 +19216,8 @@
         "description": "For a surprise, it wasn't NYC, but went to an unassuming Mexican place while passing through a little town upstate and it was incredible. They serve nopales and lengua and make their own tortillas for some dishes (they have an amazing quesadilla plate with their homemade tortillas). One of the top Mexican meals I've had in NY period.\r\n\r\nEl Toro Mexican Restaurant in Kinderhook! I saved it on google maps immediately when I visited. Make sure to call ahead to see if they're open since it's a long drive and it's very much a family run business (it also says to on their menu haha). I've been seriously debating driving up just for it, since I didn't get to try very much (was passing through), but two hours up is a bit rough. I don't want to overhype it and disappoint anyone since it's a trek to get there, but I've had a really difficult time finding good Mexican food here so it stood out. (The \"El Toro Quesadilla\" with steak was magical and the rice and beans were really good, they also serve complimentary chips and salsa)",
         "obsidian_link": "obsidian://open?vault=executive-function&file=domains/things-to-do/notes/el-toro-mexican-restaurant.md",
         "city": "Regional",
-        "google_place_id": "ChIJyYO7tBZawokR3caVYcwcX5w",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -19329,9 +19297,8 @@
         "signal": "High",
         "description": "potential chinese bbq",
         "city": "NYC",
-        "google_place_id": "ChIJq7KFj79bwokRbKshg3MaTLY",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -19573,9 +19540,8 @@
         "description": "Kalguksu, korean american vouch: https://www.reddit.com/r/FoodNYC/comments/u5zsht/best_restaurants_in_palisades_park_nj/i5669tn/",
         "obsidian_link": "obsidian://open?vault=executive-function&file=domains/things-to-do/notes/arirang.md",
         "city": "NYC",
-        "google_place_id": "ChIJ1QUYLmBFwokRDwAE7fpO56Y",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -22316,9 +22282,8 @@
         "description": "NYTimes 100\r\n\r\nIn Caribbean New York, the hunt for great jerk never ends. It does pause for meals, though, especially when that meal is smoked in one of the mobile, charcoal-fired, custom-built monster rigs that Forever Jerk sets up on sidewalks in Brooklyn and the Bronx. The shrimp is juicy and brushed with spices, while the chicken imbibes more smoke; for once it’s not blackened to a crisp. But keep an eye out for the jerk pork shoulder, which frequently achieves a melting tenderness that a Carolina pitmaster would recognize.",
         "obsidian_link": "obsidian://open?vault=executive-function&file=domains/things-to-do/notes/forever-jerk.md",
         "city": "NYC",
-        "google_place_id": "ChIJ5dgBKmhdwokRLXssMzZXLnI",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -22689,9 +22654,8 @@
         "description": "An eight-year-old Bronx tamale institution, City Tamale has opened in the Sunnyside Eats ghost kitchen. The tamales feature six versions of owner Israel Veliz’s mom’s Mexican home cooking. The ground corn is soft and moist and the fillings — from the chicken salsa verde to pork salsa roja and roasted jalapeños with cheese — are loaded. Tacos, soups, nachos, and burritos round out the menu.",
         "obsidian_link": "obsidian://open?vault=executive-function&file=domains/things-to-do/notes/city-tamale.md",
         "city": "NYC",
-        "google_place_id": "ChIJl2bDnwj1wokRYXEFYUkIa5c",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -24370,9 +24334,8 @@
         "description": "One of the most famous restaurants in Paterson is the Palestinian Al-Basha, founded in 1998 by an immigrant from Ramallah, and recently reviewed in the New Yorker. We visited instead its sleek fast-casual branch, Al-Basha Quick Serve \r\n\r\nWe sat in the austere adjoining dining room and enjoyed cylindrical falafels rolled inside a laffa with french fries, pickled vegetables, and garlic aioli; hummus dotted with fava beans, irrigated with fruity olive oil; flute-shaped cheese bureks; and a glass of minty frozen lemonade. Total cost: $33.",
         "obsidian_link": "obsidian://open?vault=executive-function&file=domains/things-to-do/notes/al-basha-quick-serve.md",
         "city": "NYC",
-        "google_place_id": "ChIJfcIHDJv-wokRUNIcuu4JRn8",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -27668,9 +27631,8 @@
         "signal": "High",
         "description": "african-caribbean buffet\r\n\r\n$8/lb",
         "city": "NYC",
-        "google_place_id": "ChIJ-dYSwo9XwokRNzN6_hdrts8",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -29630,9 +29592,8 @@
         "description": "#3 Chocolate Chip Cookies (huge, chewy, almost cookie dough-esque)",
         "obsidian_link": "obsidian://open?vault=executive-function&file=domains/things-to-do/notes/levain.md",
         "city": "NYC",
-        "google_place_id": "ChIJ6SmehIlYwokRaO14xlmbWZU",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -29672,9 +29633,8 @@
         "signal": "High",
         "description": "classic American restaurant; tarte tatin worth noting",
         "city": "NYC",
-        "google_place_id": "ChIJa9mUEgFZwokRp_ITmhqS8f4",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -30263,9 +30223,8 @@
         "description": "bubble tea chain focused on milk tea, fruit tea, and cheese foam drinks",
         "secondary_tags": "tea",
         "city": "NYC",
-        "google_place_id": "ChIJkdAoVOVfwokR54C9b3zYP6Q",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -31730,9 +31689,8 @@
         "category": "Dessert",
         "signal": "Low",
         "city": "NYC",
-        "google_place_id": "ChIJfZTvzTxZwokRW8607L0Cu40",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -32831,9 +32789,8 @@
         "description": "sourdough",
         "secondary_tags": "bakery",
         "city": "NYC",
-        "google_place_id": "ChIJw2lMFL9ZwokRCqwckWr0whc",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -36977,9 +36934,8 @@
         "description": "$$$$ mean staff",
         "secondary_tags": "aesthetic; clothing; shopping",
         "city": "NYC",
-        "google_place_id": "ChIJi4E6aolZwokRtWhrcmEn-cE",
-        "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "listing_status": "closed",
+        "sanity_status": "OK"
       },
       "geometry": {
         "type": "Point",
@@ -37379,9 +37335,8 @@
         "signal": "Low",
         "secondary_tags": "aesthetic; clothing; shopping",
         "city": "NYC",
-        "google_place_id": "ChIJ0WZBygdZwokRS0EclHmuxIo",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -37925,9 +37880,8 @@
         "description": "street",
         "secondary_tags": "aesthetic; clothing; shopping",
         "city": "NYC",
-        "google_place_id": "ChIJOQRVshL2wokR9JnNkLP5ABA",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -38152,9 +38106,8 @@
         "signal": "Low",
         "secondary_tags": "aesthetic; clothing; shopping",
         "city": "NYC",
-        "google_place_id": "ChIJi7zDhGVZwokRwoHkVROLwlk",
-        "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "listing_status": "closed",
+        "sanity_status": "OK"
       },
       "geometry": {
         "type": "Point",
@@ -38193,9 +38146,8 @@
         "signal": "Low",
         "secondary_tags": "aesthetic; clothing; shopping",
         "city": "NYC",
-        "google_place_id": "ChIJzf1Na6ZZwokRboc2DKZ-k9w",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -38213,9 +38165,8 @@
         "signal": "Low",
         "secondary_tags": "aesthetic; clothing; shopping",
         "city": "NYC",
-        "google_place_id": "ChIJl44bQ3hZwokRd-Fr3fo_od0",
-        "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "listing_status": "closed",
+        "sanity_status": "OK"
       },
       "geometry": {
         "type": "Point",
@@ -40799,9 +40750,8 @@
         "category": "Activities",
         "signal": "Low",
         "city": "Regional",
-        "google_place_id": "ChIJOYVff1pZwokRfUJCugXW69Y",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -42513,9 +42463,8 @@
         "obsidian_link": "obsidian://open?vault=executive-function&file=domains/things-to-do/notes/jane.md",
         "secondary_tags": "gift-shop; shopping",
         "city": "NYC",
-        "google_place_id": "ChIJLQ5icSxZwokRul6BN7aoLMM",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
@@ -46062,9 +46011,8 @@
         "category": "Activities",
         "signal": "Low",
         "city": "NYC",
-        "google_place_id": "ChIJgRP5FbJQwokRUZnpM8gmUoQ",
         "listing_status": "verified",
-        "sanity_status": "CHIJ_MISMATCH"
+        "sanity_status": "NEEDS_REVERIFICATION"
       },
       "geometry": {
         "type": "Point",
