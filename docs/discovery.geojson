@@ -47973,6 +47973,28 @@
           40.7756803
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cafe Xochimilco",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Authentic Mexican cuisine in LIC. Chilaquiles (especially green sauce), tacos gobernador (shrimp and cheese), al pastor, and breakfast burritos are highly recommended. Warm, friendly service and cozy/vibrant space.",
+        "obsidian_link": "obsidian://open?vault=executive-function&file=domains/things-to-do/notes/cafe-xochimilco.md",
+        "secondary_tags": "mexican, cafe, breakfast, brunch",
+        "city": "NYC",
+        "google_place_id": "ChIJ054iT-FZwokR4yZtY-P622s",
+        "listing_status": "verified",
+        "sanity_status": "OK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9335432,
+          40.7544639
+        ]
+      }
     }
   ]
 }
