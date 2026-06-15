@@ -47943,6 +47943,26 @@
           40.7544639
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Edy's Grocer",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Lebanese specialty grocer + deli by Chef Edouard Massih. Rotating mezze/man'oushe menu. Buy: markouk or lavash bread.",
+        "secondary_tags": "shopping",
+        "city": "NYC",
+        "listing_status": "verified",
+        "sanity_status": "verified"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9510453,
+          40.7274702
+        ]
+      }
     }
   ]
 }
