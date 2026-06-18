@@ -10,6 +10,9 @@ import restaurantIcon from '@mapbox/maki/icons/restaurant.svg?raw';
 const DATA_URL = './discovery.geojson';
 const NYC_CENTER = [-73.9857, 40.7484];
 const BASE_STYLE = 'https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json';
+// Free, no-key OpenStreetMap geocoder (CORS-enabled public instance). Lets the
+// search box find places that aren't on the map yet, not just filter the dataset.
+const PHOTON_URL = 'https://photon.komoot.io/api/';
 const CATEGORY_COLORS = {
   Activities: '#16a34a',
   Cafe: '#f59e0b',
@@ -39,6 +42,10 @@ const state = {
   selectedCategories: new Set(),
   allCategories: new Set(),
   search: '',
+  geoResults: [],
+  geoPending: false,
+  geoController: null,
+  tempMarker: null,
 };
 
 const elements = {
@@ -277,41 +284,177 @@ function closeDetails() {
   elements.details.hidden = true;
 }
 
-function updateSearchResults() {
-  const query = normalize(state.search);
-  if (!query || !state.allData) {
-    elements.searchResults.hidden = true;
-    return;
-  }
-  const matches = state.allData.features
+function buildResultItem({ title, subtitle, remote, onSelect }) {
+  const item = document.createElement('button');
+  item.type = 'button';
+  item.className = remote ? 'search-result-item search-result-item--remote' : 'search-result-item';
+  const nameEl = document.createElement('span');
+  nameEl.className = 'search-result-name';
+  nameEl.textContent = title || 'Untitled';
+  const subEl = document.createElement('span');
+  subEl.className = 'search-result-cat';
+  subEl.textContent = subtitle || '';
+  item.append(nameEl, subEl);
+  item.addEventListener('click', onSelect);
+  return item;
+}
+
+function localMatches(query) {
+  if (!state.allData) return [];
+  return state.allData.features
     .filter((f) => searchableText(f).includes(query))
     .slice(0, 5);
-  if (!matches.length) {
+}
+
+function clearTempMarker() {
+  if (state.tempMarker) {
+    state.tempMarker.remove();
+    state.tempMarker = null;
+  }
+}
+
+// Turn a Photon result into a feature the existing detail panel + Google handoff
+// already know how to render. These places are NOT in the dataset.
+function photonToFeature(raw) {
+  const coords = raw.geometry?.coordinates;
+  if (!Array.isArray(coords) || coords.length < 2) return null;
+  const p = raw.properties || {};
+  const streetLine = [p.housenumber, p.street].filter(Boolean).join(' ');
+  const name = p.name || streetLine || p.city || 'Unnamed place';
+  const address = [streetLine, p.city || p.district, p.state, p.country]
+    .filter(Boolean)
+    .filter((part) => part !== name)
+    .join(', ');
+
+  return {
+    type: 'Feature',
+    geometry: { type: 'Point', coordinates: [coords[0], coords[1]] },
+    properties: {
+      name,
+      signal: 'Not on your map',
+      description: address,
+      city: p.city || '',
+      remote: true,
+    },
+  };
+}
+
+// Picking a result is an act of navigation, not filtering — drop the text filter
+// so the user's own pins stay visible around wherever they're heading.
+function resetSearchFilter() {
+  state.search = '';
+  state.geoResults = [];
+  state.geoPending = false;
+  if (state.geoController) state.geoController.abort();
+  elements.searchInput.value = '';
+  elements.searchClear.hidden = true;
+  updateSource();
+}
+
+function selectGeocoded(feature) {
+  const [lng, lat] = feature.geometry.coordinates;
+  clearTempMarker();
+  state.tempMarker = new maplibregl.Marker({ color: '#2563eb' })
+    .setLngLat([lng, lat])
+    .addTo(map);
+  resetSearchFilter();
+  map.flyTo({ center: [lng, lat], zoom: 16, duration: 600 });
+  openDetails(feature);
+  elements.searchResults.hidden = true;
+}
+
+function renderSearchResults() {
+  const query = normalize(state.search);
+  if (!query) {
+    elements.searchResults.replaceChildren();
     elements.searchResults.hidden = true;
     return;
   }
-  elements.searchResults.replaceChildren();
-  for (const feature of matches) {
+
+  const frag = document.createDocumentFragment();
+  const local = localMatches(query);
+
+  for (const feature of local) {
     const props = feature.properties || {};
-    const item = document.createElement('button');
-    item.type = 'button';
-    item.className = 'search-result-item';
-    const nameEl = document.createElement('span');
-    nameEl.className = 'search-result-name';
-    nameEl.textContent = props.name || 'Untitled';
-    const catEl = document.createElement('span');
-    catEl.className = 'search-result-cat';
-    catEl.textContent = props.category || '';
-    item.append(nameEl, catEl);
-    item.addEventListener('click', () => {
-      const [lng, lat] = feature.geometry.coordinates;
-      map.flyTo({ center: [lng, lat], zoom: 16, duration: 500 });
-      openDetails(feature);
-      elements.searchResults.hidden = true;
-    });
-    elements.searchResults.appendChild(item);
+    frag.appendChild(buildResultItem({
+      title: props.name,
+      subtitle: props.category || '',
+      onSelect: () => {
+        const [lng, lat] = feature.geometry.coordinates;
+        clearTempMarker();
+        resetSearchFilter();
+        map.flyTo({ center: [lng, lat], zoom: 16, duration: 500 });
+        openDetails(feature);
+        elements.searchResults.hidden = true;
+      },
+    }));
   }
-  elements.searchResults.hidden = false;
+
+  if (state.geoResults.length) {
+    const header = document.createElement('div');
+    header.className = 'search-result-header';
+    header.textContent = 'Not on your map · OpenStreetMap';
+    frag.appendChild(header);
+    for (const feature of state.geoResults) {
+      const props = feature.properties || {};
+      frag.appendChild(buildResultItem({
+        title: props.name,
+        subtitle: props.description || '',
+        remote: true,
+        onSelect: () => selectGeocoded(feature),
+      }));
+    }
+  } else if (state.geoPending) {
+    const pending = document.createElement('div');
+    pending.className = 'search-result-pending';
+    pending.textContent = 'Searching everywhere…';
+    frag.appendChild(pending);
+  }
+
+  const hasContent = local.length || state.geoResults.length || state.geoPending;
+  elements.searchResults.replaceChildren(frag);
+  elements.searchResults.hidden = !hasContent;
+}
+
+async function runGeocode() {
+  const query = normalize(state.search);
+  // Skip very short queries — too noisy, and respects the public instance's fair use.
+  if (query.length < 3) {
+    state.geoResults = [];
+    state.geoPending = false;
+    renderSearchResults();
+    return;
+  }
+
+  if (state.geoController) state.geoController.abort();
+  const controller = new AbortController();
+  state.geoController = controller;
+  state.geoPending = true;
+  state.geoResults = [];
+  renderSearchResults();
+
+  const center = map.getCenter();
+  const url = `${PHOTON_URL}?q=${encodeURIComponent(state.search)}&limit=5&lang=en`
+    + `&lat=${center.lat}&lon=${center.lng}`;
+
+  try {
+    const response = await fetch(url, { signal: controller.signal });
+    if (!response.ok) throw new Error(`Photon ${response.status}`);
+    const data = await response.json();
+    if (normalize(state.search) !== query) return; // a newer query superseded this one
+    state.geoResults = (data.features || []).map(photonToFeature).filter(Boolean);
+  } catch (error) {
+    if (error.name !== 'AbortError') {
+      console.error('Geocoder error', error);
+      state.geoResults = [];
+    }
+  } finally {
+    if (state.geoController === controller) {
+      state.geoController = null;
+      state.geoPending = false;
+      renderSearchResults();
+    }
+  }
 }
 
 function debounce(fn, wait) {
@@ -490,12 +633,15 @@ elements.categoryOptions.addEventListener('click', (event) => {
   updateSource();
 });
 
+const debouncedGeocode = debounce(runGeocode, 300);
+
 elements.searchInput.addEventListener('input', debounce((event) => {
   state.search = event.target.value;
   elements.searchClear.hidden = !state.search;
   closeDetails();
   updateSource();
-  updateSearchResults();
+  renderSearchResults();
+  debouncedGeocode();
 }, 120));
 
 elements.searchClear.addEventListener('click', () => {
@@ -503,6 +649,10 @@ elements.searchClear.addEventListener('click', () => {
   elements.searchClear.hidden = true;
   elements.searchResults.hidden = true;
   state.search = '';
+  state.geoResults = [];
+  state.geoPending = false;
+  if (state.geoController) state.geoController.abort();
+  clearTempMarker();
   closeDetails();
   updateSource();
   elements.searchInput.focus();
