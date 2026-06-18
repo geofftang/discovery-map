@@ -1,41 +1,67 @@
 # Discovery Map
 
-An interactive map of curated places — restaurants, bakeries, coffee, shops, parks — built with MapLibre GL and served as a static site from GitHub Pages.
+An interactive map of 2,300+ curated places — restaurants, cafés, bakeries, bars, parks — built with MapLibre GL and served as a static site from GitHub Pages. The data is a public projection of a private personal dataset; the app itself is generic, so you can point it at your own places.
 
-**🗺️ Live map: https://geofftang.github.io/discovery-map/**
+**🗺️ Live: https://geofftang.github.io/discovery-map/**
+
+![Discovery Map](docs/screenshot.png)
+
+## Features
+
+- Thousands of places rendered as clustered **GL layers** (not DOM markers) — stays smooth fully zoomed out.
+- Category filter, with a distinct color + icon per category.
+- Search your places **and anywhere** — a free OpenStreetMap geocoder finds places not on the map yet and flies you there.
+- Detail panel with your notes/tags + one-click **Open in Google Maps**.
+- Locate-me button.
 
 ## How it works
 
-The data (`docs/discovery.geojson`) is a **public projection of a private dataset.** The source of truth is a personal knowledge-vault CSV that mixes public-safe fields (place name, category, city, notes) with private ones (internal vault links, pipeline/QA state) that must never be published.
+The app reads a single file — `docs/discovery.geojson` — and renders it. That file is a **public projection of a private dataset**: a build step copies only public-safe fields out of a personal vault CSV (see [the design note](#design-note-the-publicprivate-split) for why a leak can't slip through).
 
 ```
 private vault CSV  ──►  build-discovery-geojson.py  ──►  docs/discovery.geojson  ──►  MapLibre app
-  (source of truth)      (public-egress projection)        (public artifact)        (this repo, Pages)
+  (source of truth)      (public-egress projection)        (the only data the app reads)
 ```
 
-### Public-egress projection — why a leak can't happen by accident
+## Why this stack
 
-The builder constructs each public record **field-by-field from a positive allowlist** (`PUBLIC_FIELDS`); it never takes the private record and strips sensitive fields out. The distinction is load-bearing: a denylist fails *open* the day a new sensitive column is added to the source, while an allowlist fails *closed* — a new column is excluded by construction. Two backstops reinforce it:
+- **MapLibre GL** (over Leaflet) — renders thousands of points as GL cluster *layers*, not per-pin DOM nodes; Leaflet's DOM markers lagged badly at this scale. Swap cost: low — thin map boundary; Google Maps JS is the documented fallback.
+- **MapLibre** (over Mapbox GL) — same API, open-source fork, **no access token, no billing account**.
+- **Static GeoJSON + GitHub Pages** (no backend) — clustering runs client-side; deploys free on every push.
+- **Photon / OpenStreetMap geocoder** (over Google Places) — free, no API key, powers the "search anywhere" box.
 
-- **Fail-closed egress scan** — the build aborts if any forbidden pattern (vault deep-link, local path, email) appears anywhere in the output, including inside an allowed free-text field.
-- **Unknown-column alert** — an unclassified source column is flagged so it gets a deliberate public/private decision instead of silent inclusion.
-
-The unattended publisher runs an independent copy of the scan before every push.
-
-## Files
-
-- `docs/discovery.geojson` — generated public GeoJSON artifact (the only data the app reads)
-- `src/main.js`, `src/styles.css` — MapLibre app
-- `scripts/build-discovery-geojson.py` — the public-egress builder (the canonical pipeline lives in the private vault; this is the projection step)
-
-## Develop
+## Run it locally
 
 ```bash
 npm install
-npm run dev      # serves on http://127.0.0.1:5173
+npm run dev      # http://127.0.0.1:5173 — no API keys, no credentials
 ```
 
-## Rebuild the data (requires the private source CSV)
+Clone-and-run works immediately: the committed `docs/discovery.geojson` is real sample data.
+
+## Make it your own map
+
+The app is generic — only the data is mine.
+
+1. Replace `docs/discovery.geojson` with your places (schema below).
+2. Adjust the category colors/icons in `src/main.js` (`CATEGORY_COLORS`, `CATEGORY_ICONS`) to match your categories.
+3. Push to `main` — the included workflow (`.github/workflows/pages.yml`) builds and deploys to Pages. Set the repo's **Pages source to "GitHub Actions"** once.
+
+### Data contract
+
+Each pin is a GeoJSON `Feature`; geometry is `[longitude, latitude]`. Properties:
+
+| property | required | drives |
+|---|---|---|
+| `name` | yes | label + search |
+| `category` | yes | pin color + icon (must match a key in `CATEGORY_COLORS`) |
+| `signal` | no | shown in the detail panel (your priority / quality marker) |
+| `description` | no | detail-panel text + search |
+| `secondary_tags` | no | detail-panel pills + search (`;`-separated) |
+| `city` | no | improves the Open-in-Google-Maps handoff |
+| `google_place_id` | no | exact-listing Open-in-Google-Maps handoff |
+
+### Rebuild from a private source (maintainer)
 
 ```bash
 python3 scripts/build-discovery-geojson.py \
@@ -43,11 +69,28 @@ python3 scripts/build-discovery-geojson.py \
   --output docs/discovery.geojson
 ```
 
-## Read the data directly
+## Tests
 
-```text
-https://raw.githubusercontent.com/geofftang/discovery-map/main/docs/discovery.geojson
+The load-bearing test guards the egress boundary — the security property below:
+
+```bash
+python3 scripts/test_build_discovery_geojson.py
 ```
+
+It asserts (1) features carry **only** allowlisted properties, (2) private columns never appear in the output, (3) `google_place_id` is status-gated, and (4) the leak scan fails the build on a planted vault link, local path, or email.
+
+## Design note: the public/private split
+
+The builder constructs each public record **field-by-field from a positive allowlist** (`PUBLIC_FIELDS`); it never takes the private row and strips sensitive fields out. The distinction is load-bearing: a denylist fails *open* the day a new sensitive column is added to the source, while an allowlist fails *closed* — a new column is excluded by construction. Two backstops reinforce it:
+
+- **Fail-closed egress scan** — the build aborts if any forbidden pattern (vault deep-link, local path, email) appears anywhere in the output, including inside an allowed free-text field.
+- **Unknown-column alert** — an unclassified source column is flagged so it gets a deliberate public/private decision instead of silent inclusion.
+
+The unattended publisher runs an independent copy of the scan before every push.
+
+## Out of scope
+
+Editing places from the map, accounts, routing/itineraries, and live opening-hours — the map is a fast read-only view; curation happens in the source dataset. Live Google details would need a separate cache/cost design and are deliberately deferred.
 
 ## License
 
