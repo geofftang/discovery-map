@@ -1,6 +1,7 @@
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import './styles.css';
+import './registerServiceWorker.js';
 import bakeryIcon from '@mapbox/maki/icons/bakery.svg?raw';
 import barIcon from '@mapbox/maki/icons/bar.svg?raw';
 import cafeIcon from '@mapbox/maki/icons/cafe.svg?raw';
