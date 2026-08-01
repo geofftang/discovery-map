@@ -43995,7 +43995,7 @@
         "name": "Basego'",
         "category": "Drinks",
         "signal": "High",
-        "description": "San Polo (Calle dei Saoneri) — MC's personal top pick. Newer (~2023), quiet, genuinely local. Small-producer and natural wines; the wine list changes constantly. Order: a glass of whatever the barman suggests — the wine is entirely the point here. Cicchetti are secondary but good. Come for a slower, less-crowded alternative to the Rialto circuit.",
+        "description": "San Polo (Calle dei Saoneri) — MC's personal top pick. Newer (~2023), quiet, genuinely local. Small-producer and natural wines; the wine list changes constantly. Order: a glass of whatever the barman suggests — the wine is entirely the point here. Cicchetti are secondary but good. Come for a slower, less-crowded alternative to the Rialto circuit. Address corrected 2026-08-02: San Polo 2863, Campo San Toma (NOT Calle del Scaleter, and NOT Castello -- Tripadvisor carries a mislabeled Castello listing that Google fuzzy-matches to; the real bacaro is ~5min from the Frari).",
         "secondary_tags": "bacaro; cicchetti; venice",
         "city": "Venice",
         "google_place_id": "ChIJ1a6wzMWxfkcRRTrEAcfMsX4"
@@ -44003,8 +44003,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.3523099,
-          45.4322579
+          12.327404,
+          45.4360471
         ]
       }
     },
