@@ -44852,6 +44852,330 @@
           45.434
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palazzo Barbaro (Monet stay)",
+        "category": "Activities",
+        "signal": "High",
+        "description": "San Marco 2840-2842, on the Grand Canal between the Accademia Bridge and Palazzo Cavalli-Franchetti. Monet and his wife Alice stayed here for two weeks in Oct 1908 — his only visit to Venice. From this balcony he painted three of the great palaces across the canal: Palazzo da Mula, Palazzo Dario, and Palazzo Contarini. Also the Henry James / John Singer Sargent circle's Venice base. Private residence, view from the exterior/canal only.",
+        "secondary_tags": "monet; art-history; venice; grand-canal",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3305,
+          45.4318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "St. Regis Venice (former Grand Hotel Britannia)",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Grand Canal, near the Giglio vaporetto stop / Santa Maria del Giglio. Monet relocated here partway through his 1908 stay — painted San Giorgio Maggiore and the Doge's Palace facade from his window and balcony. His daily routine: start painting at St Mark's Square, end the day on this balcony. Now a luxury hotel (was Westin Europa & Regina before the St. Regis rebrand) — the Grand Canal view is the same one Monet painted.",
+        "secondary_tags": "monet; art-history; venice; grand-canal; hotel",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3363,
+          45.4326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palazzo Dario",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Dorsoduro, Grand Canal near the Salute. One of the three palazzi Monet painted from Palazzo Barbaro's balcony in 1908. Famous as Venice's \"unlucky palace\" (a string of owner deaths/misfortunes) — also visually striking: leaning facade, inlaid colored marble roundels, distinct from the Gothic palazzi around it. View from the Grand Canal/vaporetto only, not open inside.",
+        "secondary_tags": "monet; art-history; venice; grand-canal",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3286,
+          45.43
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palazzo da Mula",
+        "category": "Activities",
+        "signal": "Low",
+        "description": "Dorsoduro, Grand Canal near Campo San Vio, close to Palazzo Barbaro. One of the three palazzi Monet painted from Barbaro's balcony in 1908 (alongside Dario and Contarini). Lower-confidence pin — exact building identification not independently re-verified beyond the source noting its proximity to Barbaro.",
+        "secondary_tags": "monet; art-history; venice; grand-canal",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3296,
+          45.4312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palazzo Contarini (degli Scrigni)",
+        "category": "Activities",
+        "signal": "Low",
+        "description": "San Marco, Grand Canal adjacent to Palazzo Barbaro near the Accademia Bridge. The third of the palazzi Monet painted from Barbaro's balcony in 1908. Lower-confidence pin — several Grand Canal palazzi share the Contarini family name, exact building not independently re-verified.",
+        "secondary_tags": "monet; art-history; venice; grand-canal",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3302,
+          45.4316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tessitura Luigi Bevilacqua",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Santa Croce 1320. Venice's last atelier weaving silk velvet on 18th-c. looms recovered from the Silk Guild of the Republic — 20 wooden looms, 3,500 historic designs, ~25cm of fabric per weaver per day. Supplies popes, Dior, Dolce & Gabbana. Guided tour of the actual working loom floor — you watch weavers at the 18th-c. looms. Showroom fabric is designer/collector-tier (€1,500-5,000/meter). Mon-Fri 9:30-1/2:30-5, Sat by request, closed Sun. Call +39 041 721566.",
+        "secondary_tags": "monet; craft; artisan; textile; venice",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.325,
+          45.44
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fortuny Factory",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Giudecca. Palazzina/showroom/garden/boutique tour — the actual production floor stays permanently secret per the founder's will, viewable only by factory staff. Free cultural visits run 1st + last Wednesday of every month; fabric and finished goods purchasable in the showroom. See the history + garden + buy the output, not watch the craft happen (contrast with Bevilacqua above).",
+        "secondary_tags": "craft; artisan; textile; venice; giudecca",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.328,
+          45.4271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ca' Macana",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Dorsoduro. Mask atelier founded 1984, hand papier-mâché (cartapesta) technique per 800-year-old method — made masks for Kubrick's Eyes Wide Shut and the Vienna Opera. Most famous/most-reviewed mask workshop in Venice (genuinely artisan-run, not a factory, but not a hidden find either).",
+        "secondary_tags": "craft; artisan; masks; venice; dorsoduro",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3235,
+          45.431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Simone Cenedese (Murano glass furnace)",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Murano. 3rd-generation glass-maker, holds the \"Vetro Artistico® Murano\" certification trademark (verifies traditional technique). Skip the free tourist \"glassblowing show\" funnel tours — book a private/small furnace visit here instead to actually watch a maestro work rather than sit through a sales-floor routine.",
+        "secondary_tags": "craft; artisan; glass; murano",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.354,
+          45.459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Squero di San Trovaso",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Dorsoduro, on Rio di San Trovaso. One of the few surviving squeri where gondolas are actually built and repaired — 17th-c. origin, distinctive Alpine-chalet architecture. Interior visits are by appointment only, but the free view from across the canal is itself a well-reviewed quiet-atmosphere stop, away from San Marco crowds. Pair with cicchetti at Cantine già Schiavi nearby.",
+        "secondary_tags": "craft; artisan; gondola; venice; dorsoduro; free",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3266,
+          45.4308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Querini Stampalia",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Castello, near Campo Santa Maria Formosa. Carlo Scarpa's 1961-63 ground-floor/garden redesign (controlled water, Istrian stone) is itself an atmospheric, almost meditative space. Intimate house-museum (18th-c. furnishings, Murano chandeliers) plus the Scarpa architectural intervention — both art-history and design-history in one visit. Café faces the garden, good for a quiet coffee/aperitivo.",
+        "secondary_tags": "architecture; museum; venice; castello",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.339,
+          45.437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palazzo Grimani",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Castello. Restored Tintoretto-decorated camerini (Camerino di Callisto, Camerino di Apollo) plus a Doge-family palazzo most visitors skip entirely — genuinely off the standard circuit, good pairing with a Castello walk.",
+        "secondary_tags": "architecture; museum; art-history; venice; castello",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3392,
+          45.4362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Musica a Palazzo",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Palazzo Barbarigo Minotto, San Marco 2504, Fondamenta Duodo o Barbarigo (near the Giglio vaporetto stop, on the main walking route between St Mark's and the Accademia Bridge). Immersive opera moving room-to-room through a Grand Canal palazzo — performers interact with the audience across 3 acts/3 rooms. €95pp, book ahead. Honest caveat from reviews: \"touristy but still a nice evening.\" Rooms 2-3 have better sightlines than room 1.",
+        "secondary_tags": "opera; music; venice; signature-experience",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3325,
+          45.4326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Venetian Arsenal (northern section)",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Castello. Birthplace of Venice's naval supremacy — at peak, 16,000 workers built a galley in hours via an early assembly-line process. The famous main gate (Piraeus lion) is NOT enterable; the southern section only opens during the Biennale. The northern section is free, year-round — ancient sheds/docks, Tesa 105 (bar, view of the submarine Enrico Dandolo + 1885 hydraulic crane), and further east Lorenzo Quinn's \"Building Bridges\" sculpture (giant hands). Vaporetto #4.x/#5.x to 'Bacini - Arsenale Nord'.",
+        "secondary_tags": "architecture; history; venice; castello; free",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.355,
+          45.434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Torre dell'Orologio (Clock Tower)",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Piazza San Marco. Astronomical clock mechanism + the two bronze Moors striking the bell — genuinely Venice-specific, not replicable elsewhere. Guided-tour-only, pre-booked, timed slots (not a walk-in). Worth it if a slot is available and doesn't collide with other timing.",
+        "secondary_tags": "architecture; venice; san-marco; booking-required",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3383,
+          45.4341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campo Santa Margherita (night)",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Dorsoduro. Real locals/student hangout, cheap drinks, lively — the social counterpoint to the quiet-calli experience elsewhere in Dorsoduro. 2 min from Pasticceria Tonolo. Worth it if passing through in the evening, not a special detour.",
+        "secondary_tags": "atmosphere; nightlife; venice; dorsoduro",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3241,
+          45.4339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fondamenta Nove (blue hour)",
+        "category": "Activities",
+        "signal": "Low",
+        "description": "Cannaregio, lagoon-facing fondamenta. Blue-hour lantern + lagoon view, less touristy than Accademia/Salute — but on the opposite side of the city from the Dorsoduro sunset route, worth it only as a Cannaregio-day add-on rather than a dedicated trip.",
+        "secondary_tags": "atmosphere; sunset; venice; cannaregio",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.342,
+          45.446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zattere / Giudecca Canal sunset walk",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Dorsoduro, walk the south edge along the Giudecca Canal (Zattere promenade), ending at Punta della Dogana. Two-time pick: early morning to watch the city's own logistics wake up (deliveries, boats — atmosphere not sights), then back at the same spot for sunset — San Giorgio Maggiore front-lit in golden light across the water. Sourced 2026-07-31: two independent r/ItalyTravel voices converged on this exact view unprompted (u/BrunoGerace's original 6-upvote post + thistle0's reply), and the thread's OP (abus00, established track record) confirmed it's likely this same Zattere-to-Punta-della-Dogana route. \"Worth the journey to Venice alone\" — BrunoGerace, an architect by trade.",
+        "secondary_tags": "sunset; atmosphere; venice; dorsoduro; free",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.328,
+          45.4306
+        ]
+      }
     }
   ]
 }
