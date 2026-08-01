@@ -9,7 +9,12 @@ import playgroundIcon from '@mapbox/maki/icons/playground.svg?raw';
 import restaurantIcon from '@mapbox/maki/icons/restaurant.svg?raw';
 
 const DATA_URL = './discovery.geojson';
-const NYC_CENTER = [-73.9857, 40.7484];
+// Fallback default when no one has ever set a home view (see HOME_STORAGE_KEY below).
+// Currently Venice — the active trip leg. Update as the trip moves, or just use the
+// "Set as home" button so this doesn't need a code change each time.
+const DEFAULT_CENTER = [12.3358, 45.4342];
+const DEFAULT_ZOOM = 13;
+const HOME_STORAGE_KEY = 'discovery-map-home-view';
 const BASE_STYLE = 'https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json';
 // Free, no-key OpenStreetMap geocoder (CORS-enabled public instance). Lets the
 // search box find places that aren't on the map yet, not just filter the dataset.
@@ -54,6 +59,7 @@ const elements = {
   resultCount: document.querySelector('#result-count'),
   toolbar: document.querySelector('.toolbar'),
   toolbarToggle: document.querySelector('#toolbar-toggle'),
+  setHome: document.querySelector('#set-home'),
   categoryOptions: document.querySelector('#category-options'),
   searchInput: document.querySelector('#search-input'),
   searchClear: document.querySelector('#search-clear'),
@@ -66,11 +72,31 @@ const elements = {
   googleLink: document.querySelector('#google-link'),
 };
 
+function loadHomeView() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(HOME_STORAGE_KEY) || 'null');
+    if (saved && Array.isArray(saved.center) && typeof saved.zoom === 'number') return saved;
+  } catch {
+    // ignore corrupt localStorage value, fall through to default
+  }
+  return { center: DEFAULT_CENTER, zoom: DEFAULT_ZOOM };
+}
+
+function saveHomeView() {
+  const center = map.getCenter();
+  localStorage.setItem(
+    HOME_STORAGE_KEY,
+    JSON.stringify({ center: [center.lng, center.lat], zoom: map.getZoom() }),
+  );
+}
+
+const homeView = loadHomeView();
+
 const map = new maplibregl.Map({
   container: 'map',
   style: BASE_STYLE,
-  center: NYC_CENTER,
-  zoom: 11,
+  center: homeView.center,
+  zoom: homeView.zoom,
   maxZoom: 18,
 });
 
@@ -667,6 +693,15 @@ document.addEventListener('click', (event) => {
 
 elements.toolbarToggle.addEventListener('click', () => {
   setToolbarCollapsed(!elements.toolbar.classList.contains('collapsed'));
+});
+
+elements.setHome.addEventListener('click', () => {
+  saveHomeView();
+  const label = elements.setHome.textContent;
+  elements.setHome.textContent = '✓ Saved';
+  setTimeout(() => {
+    elements.setHome.textContent = label;
+  }, 1500);
 });
 
 elements.detailsClose.addEventListener('click', closeDetails);

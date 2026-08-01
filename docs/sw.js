@@ -37,9 +37,32 @@ self.addEventListener("activate", (event) => {
   );
 });
 
+// The data feed changes on every publish and staleness here means showing
+// outdated places/hours — worth an extra round trip. Everything else (tiles,
+// app shell) is stable enough that stale-while-revalidate's instant-from-cache
+// win is worth the small staleness risk.
+const NETWORK_FIRST_PATTERN = /discovery\.geojson/;
+
 self.addEventListener("fetch", (event) => {
   const { request } = event;
   if (request.method !== "GET") return;
+
+  if (NETWORK_FIRST_PATTERN.test(request.url)) {
+    event.respondWith(
+      caches.open(CACHE_NAME).then(async (cache) => {
+        try {
+          const response = await fetch(request);
+          if (response.ok) cache.put(request, response.clone());
+          return response;
+        } catch {
+          const cached = await cache.match(request);
+          if (cached) return cached;
+          throw new Error("discovery.geojson unavailable (offline, not yet cached)");
+        }
+      })
+    );
+    return;
+  }
 
   event.respondWith(
     caches.open(CACHE_NAME).then(async (cache) => {

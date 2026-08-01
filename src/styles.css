@@ -91,6 +91,23 @@ select {
   cursor: pointer;
 }
 
+.set-home {
+  height: 34px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink);
+  background: #fff;
+  font-size: 13px;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.set-home:hover {
+  background: #f8fafc;
+}
+
 .controls {
   display: grid;
   grid-template-columns: 1fr;
