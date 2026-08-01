@@ -59,7 +59,6 @@ const elements = {
   resultCount: document.querySelector('#result-count'),
   toolbar: document.querySelector('.toolbar'),
   toolbarToggle: document.querySelector('#toolbar-toggle'),
-  setHome: document.querySelector('#set-home'),
   categoryOptions: document.querySelector('#category-options'),
   searchInput: document.querySelector('#search-input'),
   searchClear: document.querySelector('#search-clear'),
@@ -108,6 +107,36 @@ map.addControl(
   }),
   'top-right',
 );
+
+// Small custom control, styled to match the built-in nav/geolocate buttons above it.
+// Saves the current view as the load-time default (see loadHomeView/saveHomeView) —
+// lets the default follow an active trip leg without a code change each time.
+class SetHomeControl {
+  onAdd() {
+    this._container = document.createElement('div');
+    this._container.className = 'maplibregl-ctrl maplibregl-ctrl-group';
+    this._button = document.createElement('button');
+    this._button.type = 'button';
+    this._button.title = 'Set current view as the default on load';
+    this._button.setAttribute('aria-label', 'Set current view as the default on load');
+    this._button.textContent = '📍';
+    this._button.addEventListener('click', () => {
+      saveHomeView();
+      this._button.textContent = '✓';
+      setTimeout(() => {
+        this._button.textContent = '📍';
+      }, 1200);
+    });
+    this._container.appendChild(this._button);
+    return this._container;
+  }
+
+  onRemove() {
+    this._container.remove();
+  }
+}
+
+map.addControl(new SetHomeControl(), 'top-right');
 
 function setStatus(message) {
   elements.status.textContent = message;
@@ -643,12 +672,21 @@ elements.categoryOptions.addEventListener('click', (event) => {
   event.preventDefault();
   const input = label.querySelector('input');
   const category = input.value;
-  const isOnlySelected = state.selectedCategories.size === 1 && state.selectedCategories.has(category);
+  // Everything selected (the unfiltered default) reads as "no filter" — clicking a
+  // category from there isolates to just that one. From a partial selection, clicks
+  // toggle normally (add if absent, remove if present); emptying the set falls back
+  // to "show everything" rather than showing nothing.
+  const isUnfiltered = state.selectedCategories.size === state.allCategories.size;
 
-  if (isOnlySelected) {
-    state.allCategories.forEach((c) => state.selectedCategories.add(c));
-  } else {
+  if (isUnfiltered) {
     state.selectedCategories.clear();
+    state.selectedCategories.add(category);
+  } else if (state.selectedCategories.has(category)) {
+    state.selectedCategories.delete(category);
+    if (state.selectedCategories.size === 0) {
+      state.allCategories.forEach((c) => state.selectedCategories.add(c));
+    }
+  } else {
     state.selectedCategories.add(category);
   }
 
@@ -695,14 +733,6 @@ elements.toolbarToggle.addEventListener('click', () => {
   setToolbarCollapsed(!elements.toolbar.classList.contains('collapsed'));
 });
 
-elements.setHome.addEventListener('click', () => {
-  saveHomeView();
-  const label = elements.setHome.textContent;
-  elements.setHome.textContent = '✓ Saved';
-  setTimeout(() => {
-    elements.setHome.textContent = label;
-  }, 1500);
-});
 
 elements.detailsClose.addEventListener('click', closeDetails);
 
