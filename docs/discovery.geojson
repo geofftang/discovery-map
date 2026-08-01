@@ -44126,7 +44126,7 @@
       "type": "Feature",
       "properties": {
         "name": "Torrefazione Cannaregio",
-        "category": "Drinks",
+        "category": "Cafe",
         "signal": "High",
         "description": "Cannaregio (Fondamenta dei Ormesini 2804) — self-roasting coffee bar since 1930s. MC's pick as the real local-vs-tourist coffee alternative to Caffè Florian. Order: espresso (roasted on-site, not a chain blend), cornetto if they have them. Mon–Sat ~6:50am–7:30pm. Sat breakfast anchor — on the walking line to Row Venice's Sacca della Misericordia meeting point, passing the laundry-strung canals.",
         "secondary_tags": "bacaro; cicchetti; venice",
@@ -44839,7 +44839,7 @@
       "type": "Feature",
       "properties": {
         "name": "Caffè Florian",
-        "category": "Drinks",
+        "category": "Cafe",
         "signal": "High",
         "description": "Piazza San Marco — open since 1720, Europe's oldest continuously-operating café. Do once despite touristy. Orchestra surcharge ~€6–7pp; a coffee with orchestra = ~€12–15pp. Order: espresso or hot chocolate; the caffè storico (house-blended coffee) if they offer it. The ritual — sitting at a marble table under the Procuratie Vecchie with the orchestra — is the thing, not the coffee itself. Open daily. Sunday breakfast anchor when Rosa Salva is closed.",
         "secondary_tags": "venice; historic; café; san marco",
@@ -44950,7 +44950,7 @@
         "category": "Activities",
         "signal": "High",
         "description": "Santa Croce 1320. Venice's last atelier weaving silk velvet on 18th-c. looms recovered from the Silk Guild of the Republic — 20 wooden looms, 3,500 historic designs, ~25cm of fabric per weaver per day. Supplies popes, Dior, Dolce & Gabbana. Guided tour of the actual working loom floor — you watch weavers at the 18th-c. looms. Showroom fabric is designer/collector-tier (€1,500-5,000/meter). Mon-Fri 9:30-1/2:30-5, Sat by request, closed Sun. Call +39 041 721566.",
-        "secondary_tags": "monet; craft; artisan; textile; venice",
+        "secondary_tags": "craft; artisan; textile; venice",
         "city": "Venice"
       },
       "geometry": {
