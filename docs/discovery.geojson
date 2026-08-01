@@ -165,6 +165,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "Anise and Anephew\n\nThe Greenpoint pizzeria led by Paulie Giannone is known for baking creatively topped pies. Take the Benny Gee, for example, made with fresh mozzarella, Canadian bacon, and a post-oven hollandaise drizzle; or limited specials like the the “anise and anephew,” which has braised fennel fronds, guanciale, and anisette cream. Vegan pies are offered, too. Giannone opened a slice shop in the neighborhood that serves a more straightforward kind of pie.\n\n---\n\nkenji vouch",
+        "secondary_tags": "pizza;owner-priority",
         "city": "NYC"
       },
       "geometry": {
@@ -345,7 +346,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "South Indian vegetarian food in basement\n\n“Any South Asian restaurant list, this place needs to be on there,” says Islam of the basement cafeteria. “I believe it’s one of the oldest Hindu temples in America.” Islam usually orders the Pondicherry dosa, which he says has a little spice to it, and he also enjoys the sambar.\n\nEverything on the menu comes in under $7.50 (and with a side of spicy ground coconut chutney and sambar, a brothy lentil gravy) which means you should show up with a group and order liberally.\n✵ Order: The paper dosa (it’s huge!), spicy butter paneer dosa, idli (steamed lentil cakes), and vada (deep fried lentil doughnuts).",
-        "secondary_tags": "coffee",
+        "secondary_tags": "coffee;south-indian;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJK2i9vj9gwokRmSSSQPoeGb8"
       },
@@ -453,6 +454,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "Bagel & Lox\n\nWhole dissertations could be — and in all likelihood have been — written on the recondite vocabulary that surrounds Jewish bagelry. Neophytes should approach the counter with reverence, having learned to distinguish between the delicatessen and the appetizing store, the lox and the gravlax, the cured and the smoked. At Russ & Daughters (an appetizing store, distinctly not a delicatessen), though, even the untutored can feel in the know by remembering four easy syllables: Gaspé Nova. This is the smoked salmon against which all others must be measured; bagels dream of it. The fish is salt cured and then cold smoked in an oven whose temperature hovers at just under 83 degrees Fahrenheit, which preserves its mild flavor. And its marbled fat gives the fish a luscious texture that’s rightly, if invariably, described as silky. Niki Russ Federman, the great-granddaughter of the store’s founder, Joel Russ, has a simple litmus test for the quality of the salmon: It’s only good enough if you can slice it so thin that you can read The Times through it. Though it’s best ordered right from the counter on East Houston Street, Gaspé Nova is also available for delivery in the city, and Russ & Daughters ships it nationwide. \n\n--\n\nThis Lower East Side icon — the full-service sibling to the appetizing store — reopened last year after being closed through the pandemic. The modern luncheonette feeling is where you’ll find platters of smoked fish, egg creams, and matzo ball soup.",
+        "secondary_tags": "appetizing;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJ7VEEjYNZwokRS0bdsXA3uyg"
       },
@@ -973,6 +975,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "3 most popular dishes:\n1. moo tod: fried garlic pork\n2. baka cha (sp?) pla pad cha??: curried fish\n3. green curry chicken\n\nOver in Elmhurst, a cluster of restaurants and markets makes up Queens’ unofficial Thai Town, which serves a diverse mix of Thai, Chinese, Filipino, Malaysian, and Indonesian locals. Many restaurants are family affairs, where the older, more experienced generation runs the kitchen while their kids manage the dining room. The result is uncompromising Thai food cooked for Thai palates, served in chic spaces built around the aesthetics of Thai youth culture. Meanwhile, at markets like Pata and Thai Thai Grocery, you can score everything from frozen pandan leaves to fresh air-shipped durian, along with all kinds of hand-imported Thai ingredients that are almost impossible to find in the US.\n\nEach of Thai Town’s restaurants has its own specialty, and my favorite spot changes weekly. This week, that’s Khao Kang, a cutely decorated steam-table operation dedicated to southern Thai specialties like twangy fermented-bamboo curry and a searing dish called kua kling: loose ground pork dressed in curry paste, suggesting a Bangkok-style sloppy joe.\n\nI love nearby Ayada for seafood and Chao Thai for fresh salads, but Khao Kang’s saucy home-style cooking is the kind of food I could eat every day. Twelve bucks gets you your choice of three dishes over an ample helping of rice; even by Queens standards, it’s a hell of a deal.",
+        "secondary_tags": "thai;elmhurst;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJRUIkkKpfwokR4j1pp9Vom1A"
       },
@@ -1046,6 +1049,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "old school red sauce",
+        "secondary_tags": "red-sauce;italian;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJxRbhJZbmXIgRXq5i2VErjJ4"
       },
@@ -1458,8 +1462,9 @@
       "properties": {
         "name": "Balthazar",
         "category": "Meal",
-        "signal": "High",
+        "signal": "Medium",
         "description": "\"Go at least once\"\n\nbreakfast\n\nOrder: omelet with herbs, smoked salmon tartine, and a plate of breakfast oysters.\n\n---\n\nBalthazar, restaurateur Keith McNally’s French brasserie opened in 1997, representing a changing tide in what had been an industrial, art-filled downtown Manhattan, and a shift in how and what New Yorkers wanted to eat. Today, the menu still includes mainstays like raw bar seafood towers, French onion soup, steak frites, and profiteroles. It remains relevant as ever, with McNally’s running Instagram commentary, his insistence on treating solo diners as VIPs with a glass of Champagne, and people watching like few places in New York.",
+        "secondary_tags": "brunch;interesting",
         "city": "NYC",
         "google_place_id": "ChIJt7fMLIlZwokRCRtM9bNDg78"
       },
@@ -1550,6 +1555,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "Go at least once\n\nOpen late at night",
+        "secondary_tags": "brasserie;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJQSjQsI1ZwokRu19O824YdH4"
       },
@@ -1676,6 +1682,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "Best Chef NY, formerly ran Spiaggia\n\nnot entirely sure if i want to go here though",
+        "secondary_tags": "italian;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJJXCD6ltZwokRJ_cwjKQH63c"
       },
@@ -1824,6 +1831,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "Godly calzone with daily rotating ingredients:\n\nhttps://www.eater.com/best-american-restaurants-review/2018/9/4/17806442/best-calzone-new-york-city-brooklyn-ops\n\n  The Place to Go to Eat Pizza and Not Worry About Anything Else\nOps\nBushwick, Brooklyn\nWhen decision fatigue is the diagnosis, this buzzy Brooklyn pizza place is the cure. The menus are the size of Hallmark cards, featuring a short list of house cocktails, a handful of snacks, exactly one (always perfect) farmers’ market salad that changes daily, and the main event: a selection of perfectly blistered, thoughtfully topped, naturally leavened pizzas. There isn’t even a wine list to worry about. Tell your server what you like, and they’ll bring you tastes from the ever-changing lineup of natural wines—$14 per glass, $50 per bottle, always.\n✵ Order: the salad (large), the Square (tomatoes, house mozzarella, olives, basil, oregano), Juno (broccoli rabe, potatoes, provola, ricotta salata), and Pops (tomatoes, house mozzarella, guanciale, onions, pecorino) pies.\n\n--\n\nFor years, “Bushwick pizzeria” was synonymous with Roberta’s, the national chain that started with a single location here in 2008. More than a decade later, lots of locals think of Ops. The pizzeria was started in 2016 by sommelier Marie Tribouilloy and Mike Fadem, who previously worked for Andrew Tarlow; and Gavin Compton of Variety Coffee next door. Today, you’ll still find a brief menu of sourdough pies decorated with guanciale, broccoli rabe, and preserved tomatoes. The calzone might be the best of all.\n\n---\n\nWith a tiled pizza oven that keeps its surroundings more than snug, Ops has been leading the pack of Brooklyn sourdough pizza aficionados since it opened in 2016. And in true Bushwick fashion (read: a converted garage space made extra cozy), Ops puts on a spell with its bricked-up interior and a warm staff who’ll happily guide you through their no-wine-list, tell-us-what-you-like, we’ll-pour philosophy.\n\nThe coziest dish: The Juno pie, an Ops standby, which comes topped with broccoli rabe, ricotta salata, provolone, and potatoes, and which you should absolutely add sausage to.",
+        "secondary_tags": "pizza;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJl3Fhlh5cwokRQEja9nTWRv4"
       },
@@ -1950,6 +1958,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "The Place for When You Want to Pick Your Own Fish and Tell the Chefs How to Cook It\nAstoria Seafood\nLong Island City, Queens\nThere won’t be a moment of serenity during your time at this Greek BYOB. Counter staff shout orders to cooks. Chefs shout at waiters. Guests shout to one another. It’s loud. And it’s fun. Especially because you get to walk alongside the beds of ice and choose whichever fish, bivalves, and shellfish look good, and then tell the staff how to cook them. You hold all the cards, especially since it’s a BYOB.\n✵ Order: Grilled octopus, fried shrimp, grilled fish with lemon and herbs, and a large Greek salad.\n\nSeafood feast and lemon potatoes, best dining experience I've had in Astoria and extremely reasonable, BYO",
+        "secondary_tags": "seafood;astoria;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJ-ecLnC5fwokRTsOuoOsTC6U"
       },
@@ -1968,6 +1977,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "Best along with Gregory\n\nThere’s such a comforting homey quality to baked casseroles, and the pastitsio at Telly’s Taverna does the trick. It has layers of fluffy mashed potato, cinnamon-spiced beef, and bucatini tube pasta that gets slathered with a decadent bechamel sauce that brings all the elements together.",
+        "secondary_tags": "greek;astoria;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJ7Sw_SF1fwokRybg2bJuAXd0"
       },
@@ -2040,6 +2050,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "(overly) popular, second to gregory and tellys\n\ngood calamari, delicious galaktaboureko for dessert",
+        "secondary_tags": "greek;astoria;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJ90pvtWdfwokRw86tuNLCG7g"
       },
@@ -2472,8 +2483,9 @@
       "properties": {
         "name": "Mahsil",
         "category": "Meal",
-        "signal": "High",
+        "signal": "Medium",
         "description": "Mahsil is a new Flushing destination for a fun, inventive Korean take on gastropub fare. Filling the gap left behind by the closing of the popular Korea-based chain, Pizza Maru, the specialty here is Korean-style pizza. Hits include the bulgogi pizza (with the typical mozzarella cheese, tomato sauce, mushroom, and bell pepper toppings) and mahsil pizza (a combination of ham, pepperoni, pork, and beef) with a choice of mozzarella-stuffed crust or “gold crust,” topped with sweet potato puree. Other standouts include the black calamari fries — fried calamari topped with black squid ink and sour cream — and fried Spam “spears” served out of a Spam tin.",
+        "secondary_tags": "interesting",
         "city": "NYC",
         "google_place_id": "ChIJUTzQRtlhwokRhwcpmLbLCmQ"
       },
@@ -2601,7 +2613,8 @@
         "category": "Meal",
         "signal": "High",
         "description": "Two Staten Island restaurant vets have transported Sri Lankan food to this corner spot in Jamaica. At Queens Lanka, chef Rasika Wijayarathne cooks up comfort foods like lamprais, grated coconut roti, and short eats, or fried snacks, while partner Suchira Wettasinghe stocks pantry staples including whole pandan leaves in a grocery section of the shop.\n\nhttps://www.newyorker.com/magazine/2022/08/01/an-astonishing-array-of-sri-lankan-specialties-at-queens-lanka",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJ-27Lwd1gwokR38oOWKlBOHM"
       },
       "geometry": {
         "type": "Point",
@@ -3064,7 +3077,8 @@
         "category": "Meal",
         "signal": "High",
         "description": "Pizza",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJjVQ6DCRZwokRfxCMy-8Hh74"
       },
       "geometry": {
         "type": "Point",
@@ -3316,6 +3330,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "many vouches, bourdain\n\nowner's name is Ali\n\nhe can get tired so ideally go earlier on on a less busy weekday\n\nwe did go saturday late one time and he was still very social\n\nhttps://www.reddit.com/r/astoria/comments/wssejl/if_you_could_take_a_friend_to_one_restaurant_in/il0ov2m/\n\nhttps://www.reddit.com/r/astoria/comments/amy03p/my_experience_with_cafe_kebab_on_steinway/\n\nMombar is an unforgettable Egyptian dining experience where one man runs the entire show. it is time consuming. Chat him up for the history of the place.\n\nI love places like Kebab Cafe (if it is still around). The guy wanders around astoria, collects ingredients and cooks up a meal. He takes requests but I like just eating whatever he cooks (I can't remember the guy's name and it is like 4 tables and one guy. Nothing else.)",
+        "secondary_tags": "egyptian;astoria;owner-favorite",
         "city": "NYC",
         "google_place_id": "ChIJR3kMeWpfwokRhQMUqlJb9jE"
       },
@@ -3370,6 +3385,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "Playground. Serious Isan style Thai food. They don't fuck around with heat or fermented stuff here, I love them to bits.\n\nMy personal loves from there are the Curry rice croquet (salad), the pork jerky (appetizer) and then whatever else. Their Kua Kling is good, but I always end up getting that at Khao Kang, so I tend to not get it at Playground.\n\nPlayground dials the funk up to 11 I think, get one of the papaya salads w/ the special fish sauce, you'll notice it as soon as it comes out of the kitchen.\n\nTheir pad kee mao was the first dish I had there and it’s a fave of mine. I also love the grilled chicken gizzards and preserved egg salad.\n\nPlayground was my favorite for a long time, at this point I think it's a tie between Playground and Hug Esan, basically because they both do a great Nam Khao Tod which is my single favorite dish.",
+        "secondary_tags": "indonesian;queens-night-market;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJrc6_ZgRfwokR09_KMeIqiDI"
       },
@@ -3644,6 +3660,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "An offshoot of the popular but now closed Queens Comfort, Comfortland carries on the original outpost’s cozy conceit. The pastel-splashed space also pops its pastries with shades of purple, pink and blue in its Funfetti scones and selections from the rainbow on its take on Cosmic brownies. Grand breakfast sandwiches, “not breakfast” sandwiches and burgers and sides like cheesy tots are among the savory options.\n\n Chicken sandwich\n\nComfortland serves way too many things to even begin to list in this small space, but chief among them is a single destination-worthy cake: the now famous rainbow cookie crumb cake. Made by Donnie’s sister Montana, aka @donutdivany, it has been around since the days of Queens Comfort, their original restaurant at this same location. Thankfully they kept it alive at this location, and if you’re lucky enough, you might see when they make the PB&J variation occasionally. They usually have it in the classic flavor, recently dressed up for Thanksgiving, or optionally filled with a layer of cannoli cream in the middle.",
+        "secondary_tags": "comfort-food;astoria;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJ-5jK5wZfwokRnAxXFeUiL9w"
       },
@@ -3662,6 +3679,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "Al-Nour is the most legit Lebanese place in Astoria, disregard KoF (sold out and now not very good), Duzan (very fast food and commercialized now) and Zyara (good but poor service and unsanitary). Just being real with you as a serious shawarma fan to another.\n\nsabanekh - spinach",
+        "secondary_tags": "tgtg;middle-eastern;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJL3WLxz9fwokR9JLOzq2ttb8"
       },
@@ -3855,7 +3873,8 @@
         "category": "Meal",
         "signal": "High",
         "description": "The Place for Dinner When Fun Is the Top Priority\nWin Son\nEast Williamsburg, Brooklyn\nThe new-school Taiwanese spot is best enjoyed with a group of at least four (or fewer, who really know how to eat). And it’s always more enjoyable if those people aren’t opposed to an impromptu round of shots (which staff may or may not encourage) between excellent fried eggplant and spicy fly’s head (minced pork, fermented beans, chives, and chiles). Win Son is always slammed, so show up early and be ready to hang out by the bar with a drink while you wait.\n✵ Order: roasted peanuts, marinated cucumbers, fried eggplant, fly’s head, sesame noodles, and head-on prawns with minced pork in shrimp broth.",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJ4-bYSvxbwokRPhLlLQFzOEo"
       },
       "geometry": {
         "type": "Point",
@@ -3872,6 +3891,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "I've only had takeout from here once but want to go again to try more things. They had sensationally good lotus root kofta and homemade paneer, while their goat brain fry bheja was flavored really well with spices, peppers and ginger, but definitely requires a high level of appreciation for spiciness to fully enjoy. It's comparable to or better than the more hyped Adda in LIC, and also considerably cheaper.\n\nnever knew how much better saag paneer could be until I tried it here. Everything is great though",
+        "secondary_tags": "indian;owner-favorite",
         "city": "NYC",
         "google_place_id": "ChIJ1wuWgyxfwokRsawxQvB8hMo"
       },
@@ -4862,7 +4882,7 @@
         "category": "Drinks",
         "signal": "High",
         "description": "wine bar\n\npre-fixe lunch menu fri/sat/sun?\n\ncelery and date salad\n\nThe Four Horsemen, open since 2015, has made a name for itself with its extensive natural wine list; its cozy, acoustically impeccable space with sound-absorbing cedar slats and a vintage McIntosh amplifier; and the fact that it’s co-owned by the musician James Murphy of LCD Soundsystem. But the food, by the chef Nick Curtola, is increasingly the most talked-about aspect of the restaurant. Curtola’s ever-evolving menu comprises farm-to-table fare with unusual ingredients, such as ’nduja (a fermented, easy-to-spread pork salumi) and Rodolphe Le Meunier butter from Normandy. The celery salad, unexpectedly pulse-quickening in its simplicity, embodies his attention to detail. Alongside walnuts and plump Medjool dates, the celery is beguiling, with a clean, fresh bite that contrasts with the dates’ chewiness. The salad is blanketed in long, thin shavings of piave vecchio, a Northern Italian alpine cheese with a mild bitterness that complements the walnuts. And yes, it goes well with a glass of wine.\n\nhttps://www.nytimes.com/2019/12/31/dining/four-horseman-review-pete-wells.html\n\n---\n\n Highlights of the meal for me were definitely the veal sweetbread skewers with pimentón served with cured egg yolk as the sauce. It was reminiscent of eating Japanese tsukune with the egg yolk. The flavor almost tasted like jerk in a way that really worked. I absolutely loved this dish. Other top bites were a swordfish with fava leaves and melted cardoons with aioli that went particularly well when paired with the very “of the season” ramp rice. The rice was mixed with green garlic and peas, which gave it a bright green color and flavor that was really earthy and delicious. We finished the meal with a wonderfully oaty tasting sticky toffee pudding.",
-        "secondary_tags": "meal; wine",
+        "secondary_tags": "meal;wine;wine-bar;owner-favorite",
         "city": "NYC",
         "google_place_id": "ChIJbTCMl19ZwokRUohF137p9cQ"
       },
@@ -5225,6 +5245,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "This is a whole afternoon thing, you line up early in the afternoon and hopefully get a spot for way later in the day. It's helpful to plan your day around this because you really have to commit to the line + the wait!\n\ndrop's notes LMAO:\nshow up at 3:20-25(10 for very front) to wait in line and make sure you can get the time you want\nstop at carroll gardens wines & liquors to pick up premixed cocktails (its BYOB)\nalso cash only!\n\ncalzone is a specialty, get a large and take to go to reheat\n\ncalzone, available in small or large; three of us had a large that night, covered with a jungle of basil and so gargantuan it hung over the edges of the tray. It probably had too much cheese, but the tomato sauce alongside was so tart-sweet and pungently seasoned that it cut right through and we kept on going.\n\nGiuseppina’s large calzone erupts ricotta, but the overall effect can sometimes be bland. On my most recent visit, though, I cracked Giuseppina’s calzone code. I went with a friend who is vegetarian. We both ordered small calzones; hers filled with mushrooms and fresh garlic, mine with sausage and peppers. They ended up being the perfect size for a weeknight dinner. We held halves of them in our hands like children gobbling Hot Pockets. But these dapper calzones also possessed a certain refinement. They were as handsomely thin and elegant as, indeed, a trouser leg.\n\n“New York line behavior,” wrote Calvin Trillin in his 1974 culinary essay collection, “American Fried: Adventures of a Happy Eater,” “can be explained only by assuming that just about everyone in the line believes himself to be in possession of what the Wall Street people call inside information.” To wit: the hordes of expectant diners who wait for hours outside Lucali, chef Mark Iacono’s 15-year-old Carroll Gardens, Brooklyn, pizza joint, just to put their names on the list for the evening — the 30-seat restaurant takes no reservations — and be called back perhaps many hours later to eat. Even though Iacono’s pizza-making aplomb has been widely recognized by critics and A-listers alike, Lucali still somehow feels like a secret, if an aggressively open one. But the real inside scoop? His calzones may be even better than his not-quite-Neapolitan-style pies and are almost certainly the best in the city. It’s a discovery that defies all logic. The calzones are made from the same superlative dough — folded around a dense mixture of milky ricotta, mozzarella and other cheeses — baked to the same crisp-chewy perfection and served with a sidecar of the same rich tomato sauce as the pizza, and yet: magic, alchemy, a thing far exceeding the sum of its parts. — A.S.\n\n--\n\nLucali is the kind of cozy sit-down restaurant every neighborhood should have. Mark Iacono’s thin-crust pizzas, made with a three-cheese blend of fresh and imported mozzarella and Grana Padano, plus fresh basil, consistently draw long lines, and it’s impossible to make a reservation. The move is to show up before 5 p.m., add your name to the list, and grab a drink in the neighborhood while you wait. The menu is simple: pies or calzones with a few toppings to choose from. Cash only, BYOB.",
+        "secondary_tags": "pizza;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJ395CMVlawokRt2oLH_8zmvI"
       },
@@ -5848,7 +5869,9 @@
         "category": "Meal",
         "signal": "High",
         "description": "might as well try their sjb, they have good xlb\n\n\"Fried tiny buns w pork\" (sheng jian bao), \"Tangerine beef\"",
-        "city": "NYC"
+        "secondary_tags": "shanghainese;owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJX4-QDSdawokRtFBM1mz6gn4"
       },
       "geometry": {
         "type": "Point",
@@ -5901,6 +5924,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "fishhead soup\n\nsoup dumplings",
+        "secondary_tags": "shanghainese;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJH8LwGw5gwokRk9ncph3wEUI"
       },
@@ -6387,6 +6411,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "banquet but also cheap lunch\n\ngo to for wonton noodles\n\ncantonese wontons > gao choi > shrimp\n\nscallion ginger noodles with wonton noodles\n\nsalt and pepper pork chop\n\nbeef brisket w. tendon\n\"tastes the most like wonton\"\n\n \"three color\" dumplings in bone soup\n\nThough a relatively new addition to the Cantonese restaurants in New York — it opened in 2016 — Wu’s is an old-school counterpoint to the restaurants that surround it on the Lower East Side. The crispy garlic chicken is popular here and so is the whole fried flounder littered with scallions. Other favorites include the char siu buns, shrimp and egg scramble, and crab lo mein. The festive Wu’s has garnered a wine crowd for its welcoming BYOB policy.",
+        "secondary_tags": "cantonese;banquet;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJT5GkdilawokRy9yB3jEG_3Q"
       },
@@ -6443,6 +6468,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "Touristy but fairly historic\n\"a good visit for the building not food\"\n\nThe Place for Chicken, Waffles, and a Religious Experience\nSylvia’s\nHarlem, Manhattan\nMore than 50 years after it opened, this Harlem institution is hallowed ground. Sure, there are gospel singers and crowds that make getting a table for (post-church) Sunday brunch a challenge, but the most intensely religious experience is the soul food itself. Good things come to those who wait.\n✵ Order: chicken and waffles and Sylvia’s World Famous Talked About Bar-B-Que Ribs.\n\nDubbed “the Queen of Soul Food,” Sylvia Woods opened the doors on Sylvia’s Restaurant in 1962, bringing generous servings of Southern comfort food to Harlem. The neighborhood restaurant is world-famous for its timeless cooking and Southern charm, which still endures decades after opening. While Woods died in 2012, her family continues to run the restaurant.",
+        "secondary_tags": "soul-food;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJb8Xw0wz2wokRXhp1-HSLvkI"
       },
@@ -6496,7 +6522,7 @@
       "properties": {
         "name": "Golden Diner",
         "category": "Meal",
-        "signal": "High",
+        "signal": "Medium",
         "description": "The Place For Breakfast at 4 p.m. and Lunch at 10 a.m.\nGolden Diner\nTwo Bridges\nThere’s nowhere we’d rather disobey traditional meal times than at Golden Diner. A super crispy chicken katsu club first thing in the morning? Honey butter pancakes with honey maple butter at 3:30 in the afternoon? YOU CAN DO IT. The menu has something for everyone, without being intimidatingly long, and is served seven days from 10 a.m. to 5 p.m. All that means we love it here for lunch, and for breakfast and dinner, too—no matter what time of the day you’re having it.\n✵ Order: the Chinatown egg & cheese sandwich on a scallion milk bun, chicken katsu club, side of super crispy home fries, turmeric-lemongrass avocado toast (for real), and the cheeseburger.\n\n---\n\ngreen tea cake heavy vouch\n\n---\n\nIt never really occurred to me to order dessert, but after sharing a few options with friends recently, it’s clear I was missing out. Thai tea-flavored tres leches cake puts just an interesting enough spin on the beloved Latin sweet, and the pistachio rice pudding is a study in interesting textures (three words: candied cardamom pistachios).",
         "secondary_tags": "light-food",
         "city": "NYC",
@@ -6590,6 +6616,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "The Place to Go With or Without Your Vegetarian Friends\nSuperiority Burger\nEast Village, Manhattan\nA vegetarian burger joint that meat-eaters love? However unlikely it may sound, it’s real. (And there’s nothing particularly healthy about it—in a good way.) Brooks Headley’s veggie burgers are all kinds of flavorful, from the dill pickles to the Muenster cheese to the kind-of-spicy patty. The tiny spot is almost always slammed, so take your haul half a block down 9th Street to a bench in Tompkins Square Park and get in some prime people watching at the same time.\n✵ Order: Superiority Burger, burnt broccoli salad, and whatever mind-blowing gelato/sorbet is on the menu.\n\nFunnel cake at Superiority Burger\nIt’ll take me a minute to work through the savory dishes at Superiority Burger (in part because the menu is changing, the specials switch up, and offerings dribble out late night — too late for me), but I’m a fan of pastry chef Darcy Spence’s desserts so far, particularly the date milkshake or Nancy’s orange flower funnel cake with preserved blueberry compote and labneh gelato ($16). Who is Nancy? And what did she do to earn an orange flower funnel cake named after her? Yet another thing to discover at the newly reopened spot. \n\nPastry chef Darcy Spence’s desserts are terrific at this East Village reboot, and how could they not be with pastry maven Brooks Headley at the helm? They switch up often, but if they’re on the menu, consider the date milkshake or Nancy’s orange flower funnel cake with preserved blueberry compote and labneh gelato ($16). It’s named for Nancy Silverton.\n\nburnt broccoli salad perfect dish + dessert\n\n---\n\nHow good can a fry really be? That’s what I thought the first time I heard that Superiority Burger had finally started to make them. I can now report that the fries at SB are pretty incredible. Even as a “I’d rather eat two burgers than a burger and fries” type of guy, I don’t think I could ever come back here again and not order them. The fries now come with the burger and are a perfect specimen with a golden crispy outside and creamy mashed potato texture on the inside. I have been a fan of SB since they opened, always loving the vegan junk food vibe paired with fun salads and sides from whatever was in season from the green market. It’s a great concept and has translated really well into their new, much larger operation. The classic burger, which I got on this visit, was as good as ever. I love that it’s not pretending to be meat, but also still feels like a burger. The burger at the original location was much smaller, with the option to get a “Megamouth,” which was a larger version served on a sesame seed bun. The current version is mega-sized, for sure, but is on a potato bun instead of sesame. I must admit, I miss the old bun, but the burger is as delicious as ever (honestly, besides that one note, it might even be better). The sides I went for were fried brussel sprouts over labne and the classic Japanese sweet potato with pickles and labneh that I feel like I also order on most visits. The other great thing about the new SB is that they have a full and constantly rotating dessert menu that is not to be missed. The desserts here are some of the best in the city, and I physically cannot get myself to leave this restaurant without trying at least one. This time the chocolate, peanut butter, and banana sundae was calling my name and it was one of the best desserts I’ve had in a while. The sundae consists of a scoop each of chocolate, peanut butter, and banana ice cream, topped with caramelized banana sauce (wow!), whip, and a chocolate/peanut crumble. I may need another one today.\n\nburnt broccoli salad and ice cream",
+        "secondary_tags": "vegetarian;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJ26fKep1ZwokRrPzNIqBj4xU"
       },
@@ -7042,7 +7069,8 @@
         "category": "Meal",
         "signal": "High",
         "description": "Understandably one of the best known halal trucks in NYC, Sammy's has a great lamb over rice plate. Even more rare is finding juicy, flavorful chicken from a halal truck, and that's really where Sammy's sits on a level of their own, especially if you add their unique green sauce to the mix. I'd go extra on the red sauce as it wasn't too spicy.",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJS36lfQpfwokRA1cAPpT3zUo"
       },
       "geometry": {
         "type": "Point",
@@ -7113,7 +7141,8 @@
         "category": "Meal",
         "signal": "High",
         "description": "Peking Duck House has long been a stop for celebrations, mainly for its large-format duck feasts and BYOB policy. Eating there is entertainment, too, with toque-wearing chefs slicing up whole ducks with perfectly crisp skins tableside. The restaurant, which also has a Midtown location, is a great option for larger groups, and also has a full Cantonese menu for duck-detesting diners.",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJOd2Y7yZawokRZrmsAw8Y_U4"
       },
       "geometry": {
         "type": "Point",
@@ -7492,12 +7521,13 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Rowdy Rooster",
+        "name": "Sanwits",
         "category": "Meal",
         "signal": "High",
-        "description": "https://ny.eater.com/2022/3/17/22982845/rowdy-rooster-fried-chicken-vegetarian-review-nyc-restaurants",
+        "description": "Filipino sandwich shop from the Unapologetic Foods group (same team as Rowdy Rooster, Dhamaka, Adda), replacing Rowdy Rooster at this 1st Ave East Village spot. Overseen by chef Eric Valdez (ex-Dhamaka chef de cuisine, chef-partner at Naks); name is a Tagalog gloss on \"sandwich.\"",
+        "secondary_tags": "filipino;east-village",
         "city": "NYC",
-        "google_place_id": "ChIJ4dHrDSNZwokRAos_Vn0qVAY"
+        "google_place_id": "ChIJf8FDVQBZwokRGscKkSQ9bGo"
       },
       "geometry": {
         "type": "Point",
@@ -7694,6 +7724,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "Tuesday only pop up\n\nTo put oneself in a chef’s hands, to eat whatever they have determined to be the absolute best that day, can be a revelatory experience. It can also, in the case of many of the city’s tasting-menu institutions, be costly and tedious. Blissfully, an afternoon meal at Warung Selasa, a pop-up that takes place once a week at Indo Java, a diminutive Indonesian grocery in Elmhurst, Queens, is all of the former and none of the latter. Every Tuesday, Anastasia Dewi Tjahjadi, who co-opened the store with two other women in 2007, serves one dish and one dish only, and each time it is a flavorful and heartfelt culinary tribute to the country she left in 1999. One week, it might be soto betawi, a slow-simmered beef and coconut milk soup fragrant with lemongrass, galangal and makrut lime and shot through with tender bits of tripe and tendon. The next, it might be nasi pecel, a platter of rice ringed with steamed vegetables and crowned with an impossibly aromatic peanut sauce. Could a prospective diner call ahead or sneak a peek at the pop-up’s Instagram page to discover this week’s offering? Sure. But to walk in unawares, knowing only that $12 will get you a taste of something beautiful and transporting, the generous fruits of Tjahjadi’s openhearted labor, is at least half the fun. \n\nhttp://www.eattheworldnyc.com/2018/01/warung-selasa-at-indo-java-groceries.html\n\n---\n\nArguably the most famous spot in Little Indonesia, Indo Java is a small market packed with all sorts of Indonesian produce, meats, prepared foods, and packaged goods. The restaurant is owned by Anastasia Dewi Tjahjadi, who left Indonesia in 1998 and opened Indo Java in 2007. Navigating the narrow aisles may be challenging, as every nook and cranny is filled with goods. The shop offers everything from sambals to sweet pastries in plastic containers to dozens of noodle soup packages.\n\nPerhaps Indo Java is most known for the one-table eatery Warung Selasa, a neighborhood favorite that operates every Tuesday in Little Indonesia. Once each week, Tjahjadi cooks up her favorite Indonesian dishes for customers who camp out in the back of the restaurant munching on dishes like nasi bebek goreng, or fried duck leg with rice. Over the past few weeks, Warung Selasa has served up beef ball soup, coconut beef and tripe soup, vegetable rice cakes, and pecel (vegetables in a peanut sauce with spicy tofu and egg). The kitchen in the back can only fit one person (if that), making this one of the most intimate restaurant experiences in the city.",
+        "secondary_tags": "indonesian;elmhurst;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJmd1ma1JewokRh5LtJskz5_I"
       },
@@ -7785,6 +7816,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "https://ny.eater.com/2021/8/18/22599891/falansai-bushwick-vietnamese-tasting-menu\n\nVietnamese Mexican chef Eric Tran finds a new Brooklyn home for his now-closed Bushwick hit Falansai inside Pan Pan Vino Vino, reports Greenpointers. Falansai 2.0 opened on Wednesday, November 5, with familiar favorites like shrimp cake lettuce wraps, and curry chicken tostadas. To start, Falansai’s short dinner menu includes six a la carte dishes in addition to two prix fixe options ($58 or $88). Pan Pan will retain its identity as a bakery by day and a wine bar by night.\n \nThere was a time when diners would look askance at any mention of off-cuts on a restaurant menu, but the past decade or so has seen the Overton window of acceptable animal parts shift dramatically. For reasons at once economic, environmental and gustatory, ambitious chefs of all stripes have come to embrace nose-to-tail cooking — pig heads! Fish collars! Chicken livers! — and the city’s open-minded eaters have followed suit. The latest and greatest addition to the roster of covetable dishes crafted from castaways has to be the braised duck necks — a part of the bird enthusiastically eaten in other parts of the world but less often in this country — served at Falansai. Confited until the flavorful meat threatens to fall off the (many) bones and coated with a sticky sauce kissed with five spice, they are no fork-and-knife affair; this is intimate food, the sort that rewards eating with both hands and slurping lustily. The dish is the brainchild of chef Eric Tran, who earned his low-waste stars at Blue Hill at Stone Barns — Dan Barber’s temple of farm-to-table cooking in Tarrytown, N.Y. — before taking Falansai over from an acquaintance late last year and making it his own. The rest of the menu is full of winners, but those duck necks are required eating, the kind of eye-opening dish that turns a new experience into a new craving.",
+        "secondary_tags": "vietnamese;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJc11gFQJcwokRcOejfRbBPpo"
       },
@@ -7873,8 +7905,9 @@
       "properties": {
         "name": "Shukette",
         "category": "Meal",
-        "signal": "High",
+        "signal": "Medium",
         "description": "A well-ordered meal at Shukette, chef Ayesha Nurdjaja’s vibey Middle Eastern restaurant, can feel as gleefully disorienting as a street festival: a riot of boldly flavored dips, elaborately festooned local vegetables and Levantine breads (for sopping and swiping) that test the spatial limits of a table. Amid this spirited free-for-all of small plates, one unassuming condiment sings loudest: cloudlike, shock-white toum, a bracing Lebanese garlic sauce that’s often served with shawarma and shish tawook (chicken skewers). Simultaneously fluffy and dense, arrestingly allium-forward, this delicate emulsion of garlic, oil and lemon manages to excite without overwhelming, steadying a palate ping-ponging between sweet-tart pomegranate, pickled chiles and musky saffron. Two orders of the stuff right off the bat is a pro move; run out of toum halfway through dinner and you’ll find yourself pausing awkwardly while awaiting more. In a way, situating such a majestic condiment at the bottom of the menu under the Accessories 2 heading, as Nurdjaja has done, seems like a slight. But taken a different way, it makes all the sense in the world: In food as in fashion, the right accessory can have a profound effect indeed.\n\n“But my favorite thing at Shukette is the bread basket. [Chef Ayesha Nurdjaja’s] bread program is crazy. There’s one Moroccan bread called frena. It’s so fluffy I always tell my friends, ‘This should be a pillow.’ And then she brushes it with garlic confit, and I’m like, ‘Yes. Please give me more.’ And then the frena with the labneh — that’s the killer combination. Labneh can be so rich, right? It is so thick and has so much fat. But with the mandarin supremes on top, it’s just so fresh. It cuts that heaviness and just makes it so much lighter.”",
+        "secondary_tags": "middle-eastern;bread;interesting",
         "city": "NYC",
         "google_place_id": "ChIJuabZo6hZwokRhGPoGjo0H6k"
       },
@@ -8396,7 +8429,8 @@
         "category": "Meal",
         "signal": "High",
         "description": "There's also this subgenre of Korean restaurant where you're basically getting a set menu with a ton of fish (raw, cooked, whatever), a billion side dishes, and it's meant to be eaten while drinking. I love Pado out by Flushing Cemetary for this.",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJI0hFFyRgwokRZy7nx8t9v-0"
       },
       "geometry": {
         "type": "Point",
@@ -8665,6 +8699,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "same as \"casa del pollo peruano\"\n\nassociated with caravan chicken\n\npollo la brasa and pollo saltado and aguadito\n\nso this is a wildly unpopular opinion since it's not a traditional lomo saltado (with the soy sauce specifically) but casa del pollo has a POLLO saltado that they use the day old leftover pollo a la brasa to make. it's definitely not the traditional style (even the color it's more just white no brown color to it) but with the aji it's fire. and the aguadito as a starter is also delicious.\n\nrecommended by a peruvian",
+        "secondary_tags": "peruvian;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJU40xPKlfwokR3T0dq-_CXKc"
       },
@@ -9135,7 +9170,7 @@
         "name": "Taste of Heaven",
         "category": "Meal",
         "signal": "High",
-        "description": "soul food",
+        "description": "soul food. Monday night deal: $12 entrees.",
         "city": "NYC",
         "google_place_id": "ChIJvUlmNFJZwokRO03STM7jQ8w"
       },
@@ -9352,7 +9387,9 @@
       "properties": {
         "name": "Busan Gukbap",
         "category": "Meal",
-        "signal": "Low",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "korean;gukbap;owner-favorite",
         "city": "NYC",
         "google_place_id": "ChIJufsXpMn2wokRBWBmkJArs94"
       },
@@ -9371,6 +9408,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "DWAEJI GUKBAP",
+        "secondary_tags": "korean;gukbap;nj;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJGavNhBP3wokRwnrVYPbFLyY"
       },
@@ -9786,7 +9824,8 @@
         "category": "Meal",
         "signal": "High",
         "description": "the one on the corner of Prince and 39th Ave is the best one I've had. They also have stinky tofu.",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJC2sgWCZhwokRzq7_E-yBRac"
       },
       "geometry": {
         "type": "Point",
@@ -9984,7 +10023,8 @@
         "category": "Meal",
         "signal": "High",
         "description": "Back when we published this map rounding up the city’s best beef patties, one commenter insisted that we had overlooked Taylor Made. Eight months later, I’m finally ready to admit that they’re right. The truth is I’d walked by this counter-service Jamaican spot dozens of times, mostly on my way to the G train a block away, but this past weekend I finally stopped inside, finding a beef patty that’s an easy contender for that map’s next update. At $4, it came brimming with ground meat that’s better seasoned than most I tasted last fall — and while my favorite patties often boast a flakier crust, this one’s generous fillings make it a Bed-Stuy standout worth trying.",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJuT64ypRcwokRRVOwaKtkeiQ"
       },
       "geometry": {
         "type": "Point",
@@ -10052,8 +10092,9 @@
       "properties": {
         "name": "JG Melon",
         "category": "Meal",
-        "signal": "High",
+        "signal": "Medium",
         "description": "This well-worn barroom was founded in 1972 and keeps its nostalgic feel with melon-themed decor and its signature green gingham tablecloths. J.G. Melon serves other items like sandwiches and chili, but stick to the program and go for the burger with cottage fries. Despite what some critics say, J.G. Melon is one of the most charming restaurants on the Upper East Side.",
+        "secondary_tags": "burger;interesting",
         "city": "NYC",
         "google_place_id": "ChIJORutA8BYwokR6obC5YpaamM"
       },
@@ -10232,8 +10273,9 @@
       "properties": {
         "name": "Satay",
         "category": "Meal",
-        "signal": "High",
+        "signal": "Medium",
         "description": "malaysian go to from flushingfoodie\n\nhainanese chicken\n\nmee goreng",
+        "secondary_tags": "malaysian;breakfast;interesting",
         "city": "NYC",
         "google_place_id": "ChIJ47SFpmpgwokR-mHX51A2Gm0"
       },
@@ -10321,8 +10363,9 @@
       "properties": {
         "name": "Vinegar Hill House",
         "category": "Meal",
-        "signal": "High",
+        "signal": "Medium",
         "description": "Vinegar Hill House's Red Wattle Chop is Peter Luger's pork equivalent.\n\n---\n\nHave you ever been to Vinegar Hill House? I think that’s the only other place I’ve been to that can touch Chez Ma Tante pancakes(similar stylistically, too).",
+        "secondary_tags": "pork-chop;interesting",
         "city": "NYC",
         "google_place_id": "ChIJ1xNe4cxbwokRnDw-6Rvhxng"
       },
@@ -10562,6 +10605,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "Ayada, Lamoon, and Khao Kang/Nom are on that stretch, but I think Hug Esan beats them all. Their Nam Khao Tod is in the running for my favorite dish in New York.\n\n---\n\nThe appetizer selection at this Little Thailand restaurant stars dishes including Tub Yang, grilled chicken livers with Jeaw sauce, crispy frog legs, and taro cakes with a sweet sauce. Signature Esan dishes include a pork crepe, crispy rice salad with sour pork sausage, and a dish called Mok Nor Mai, or steamed bamboo shoots with pork belly and mushroom in banana leaves. The restaurant offers over a dozen types of papaya salad, such as the Hug Esan papaya salad with pork sausage, sun-dried pork, crispy pork skin, and many other ingredients. Other popular dishes include larb, crab meat omelet, and dill soup with Thai eggplant.\n\n---\n\nBefore this avenue in Queens was recognized as Little Thailand by the city, there was Hug Esan. The small business, which has around a dozen seats, became a spokesperson for the food of the Isan Province in northeast Thailand when it opened in 2017: Eater’s critic said it served a wider range of dishes from that region “than any restaurant in New York.” Though the Thai food scene has twisted and turned since then, I know what he means: The half-dozen dishes we ordered tingled our tongues and had me asking for iced coffee, which offered some relief from the spice, at 7 p.m. My favorite on a crowded table: the restaurant’s nam khao tod, a chewy and crispy rice salad with sour sausage and peanuts ($20)\n\n---\n\nYum Khao Tod from Hug Esan. Like, it's one of my favorite dishes, an amazing combination of salty/sour/spicy/crunchy/chewy/soft and then you wrap it up in some lettuce w/ some fresh herbs? Amazing.",
+        "secondary_tags": "thai;isan;owner-favorite",
         "city": "NYC",
         "google_place_id": "ChIJNQQa86pfwokRObYWOXqAYIg"
       },
@@ -10705,6 +10749,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "Technically in the adjoining neighborhood of College Point, this Sichuan spot is a favorite of Simone Tong’s, whose family hails from Sichuan. “The green scallion fried rice is so good,” she starts. “Right now I’m craving the food I grew up with, and that includes really homey Sichuan food. [Little Pepper] is very authentic but quite innovative.”\n\nFounded in 2005, this long-standing favorite was once located on Flushing’s main drag but relocated to College Point in 2012. It’s still one of the city’s best and least expensive Sichuan restaurants but is now a little harder to get to. The menu favors appetizers in chile oil, dumplings, Sichuan classics including hot pots, and lots of offal. French fries dusted with Sichuan peppercorns are a cross-cultural wonder, and the vegetable and tofu section of the menu is formidable, much of it vegetarian.",
+        "secondary_tags": "sichuan;flushing;time-sensitive;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJ1ec4s1P1wokRUK_74W1Q0q0"
       },
@@ -11084,7 +11129,8 @@
         "category": "Meal",
         "signal": "High",
         "description": "For my money, go to a place like Sam's in Cobble Hill. Legitimately great pizza, and it all takes place in an old-school Italian joint that's almost 100 years old, run by an absolute curmudgeon named Lou who will give you shit in the nicest possible way while serving you.",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJj7ehcVBawokRTAvwlbpTvIw"
       },
       "geometry": {
         "type": "Point",
@@ -11349,6 +11395,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "I first hit Calvin Eng’s Cantonese spot, Bonnie’s, on opening night in December of 2021, right before the place promptly took an Omicron-induced time out, morphing briefly into “McBonnie’s” takeout joint (their spin on the McRib is one of the best sandwiches of the year). No matter! Bonnie’s reopened as buzzy and brilliant as ever, and has held strong throughout my multiple visits this year. Get as much food as your party can possibly eat; it’s all great. Make sure you include at least one order of Eng’s fuyu cacio e pepe mein with fermented bean curd, and the chow nai sundae, starring malted fried milk. I’m no longer a drinker, but my, ahem, editors tell me the cocktail list was too “creative” by half.\n\nThe dining room is a maelstrom, everybody taking a second helping of stuffed rainbow trout and waving for a third MSG martini. But Bonnie’s point of view is clear and unmistakable. The chef, Calvin Eng, cooks the Cantonese food of his family like somebody who came of age in 21st-century Brooklyn. This is distilled in the char siu McRib that’s equal parts Chinatown and McDonald’s. It’s probably Bonnie’s most famous dish, unless it’s the cacio e pepe mein — Chinese-Italian noodles cooked with pecorino and fermented tofu. Bonnie’s magnifies some of the flavors beyond the comfort point, but it does nothing without a purpose. Nothing is dull, either.\n\nWho’s that standing in the foyer at Bonnie’s, a Cantonese American hotspot Williamsburg? A well-known patron on the verge of taking yet another chic bathroom selfie. What are the very cool party people drinking at the tables? Long Island Iced tea pitchers, the latest trash cocktail to command a very haute price. What’s the wait time for walk-ins? Like, 27 hours — at least it was earlier this year — but that’s okay because the bartenders are handing out mezcal and vermouth shots while patrons wait for their saucy char siu McRibs.\n\nThe world is burning, but hey, the poached chicken is nice and cool in here, at least until the green chiles kick in. Kudos to chef Calvin Eng and company for curating the salutary escapism and bacchanalia — an increasingly popular vibe that draws in diners who’ve spent too much time doomscrolling while home alone. Patrons will also eat quite well; try the cacio e pepe of the millennium, tossed in a ripping hot wok with MSG and funky fermented beancurd. Then order an espresso martini and go ‘gram another bathroom selfie!\n\n---\n\nYou’ll be tempted to order one of everything at Bonnie’s — from its stunner of a stuffed rainbow trout to its wonderfully al dente cacio e pepe mein — but trust us: You’re going to want to leave room for dessert. Cantonese meals commonly end with slices of fresh fruit, available here as a platter, but there’s also an excellent composed dessert, an ice cream sundae. The creation has cubes of deep fried milk custard hidden throughout, and on top, buttered peanuts and hot fudge ratchet up the indulgence factor even higher. It all makes for a finale best shared among a small group.\n\n---\n\nThe chow nai sundae at Bonnie’s (like a lot of other things at Bonnie’s) is an unmatched update to the sundaes we begged our parents for. Resplendent with malted fried milk custard, Ovaltine hot fudge, vanilla ice cream, and buttered peanuts, it’s definitely the pretty boy of the menu. Also, if you don’t get the pork floss add-on, why are you even here?",
+        "secondary_tags": "cantonese-american;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJbQc9ABZZwokRMAK6C-Ekxg4"
       },
@@ -11420,7 +11467,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "https://ny.eater.com/2022/4/27/23044661/burmese-food-popular-nyc-burmese-bites-yun-cafe-rangoon\n\nMyo Lin Thway began Burmese Bites as a stall in the Queens Night Market selling two items. Later it operated from a cart parked in downtown Long Island City. Now it does business in the food court at the foot of the escalators in the Queens Center mall, next to the Panda Express outlet. The menu has grown since the early days. There is, of course, tea leaf salad, topped with so many peanuts, rice snacks and other crunchy bits that you could serve it as bar snack; the tangy and savory rice-noodle salad nan gyi kaukswe thoke; and ohno kaukswe, noodles in a creamy, fragrant chicken-curry soup thickened with coconut milk. But the main event — not just of Burmese Bites but of the food court itself and perhaps the entire mall — is still palata, the flaky flatbread that Mr. Thway makes by twirling and tossing and thwacking and stretching a lump of dough until it is so thin that when he holds it up in front of his face you can see him on the other side. Then he folds it into a neat envelope and cooks it on the griddle. The most popular version is keema palata, stuffed with fragrantly spiced minced chicken. The menu helpfully describes this as a “Burmese quesadilla.”",
-        "secondary_tags": "coffee",
+        "secondary_tags": "coffee;burmese;owner-favorite",
         "city": "NYC",
         "google_place_id": "ChIJcUH6w1JfwokRvTfUfgVU2rs"
       },
@@ -11439,6 +11486,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "True, this venerable pre-Depression lunch counter was cheaper when it was still called Eisenberg’s and you could get tuna salad smeared over egg salad on rye for $8. Now the sandwich costs $13, but the rye is better. So is almost everything else. The old emblems of Jewish New York are here: sweet, pinkish chopped liver with packets of saltines; pepper-crusted pastrami, steamed overnight and sliced thick, but not too thick. The new owners also brought on some innovations like a double-decker with turkey, corned beef and Swiss on rye. S & P calls it the Jersey Joe in reference to its origins across the Hudson River, where it is known as a sloppy Joe.\n\nOne of New York City’s most quizzical classic dishes is the egg cream, generally available in flavors that run to chocolate, vanilla, strawberry, and sometimes coffee. What’s so unusual about it? Despite the name, there’s no egg and no cream in the recipe, just seltzer, whole milk, and a flavoring (U-Bet syrup is the default) titrated with seltzer in a tall glass as a long-handled spoon is twirled. It’s a refreshing beverage that’s all the more enjoyable at the new place that’s already a classic, S&P, the next iteration of the old Eisenberg Sandwich Shop, from the owners of Court Street Grocers.\n\n---\n\nTuna Melt and 50/50 sandwiches",
+        "secondary_tags": "diner;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJw85ZeK9ZwokRLfXj_uCbn9Q"
       },
@@ -12503,6 +12551,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "tucked away under trains tation\n\nThe udon carbonara and Kara age are to die for. It’s some of the the best food I’ve had anywhere, including Japan, and everyone there is super friendly. Highly highly\n\nsomeone said within last 2 mo may have changed chefs :(",
+        "secondary_tags": "japanese;izakaya;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJP3cSeLRfwokRiQQ4MtBvdtA"
       },
@@ -12573,8 +12622,9 @@
       "properties": {
         "name": "KATSUNO",
         "category": "Meal",
-        "signal": "High",
+        "signal": "Medium",
         "description": "Katsuno- authentic Japanese restaurant on Metropolitan Ave in Forest Hills. I’m from Japan and I feel so at home eating everything from there. They never did takeout before covid but now they do so take advantage of it!\n\nWe have two INCREDIBLE, high end sushi options in the hood. Katsuno in Forest Hills, Sai in Rego Park. They are Manhattan-level Japanese restaurants",
+        "secondary_tags": "japanese;interesting",
         "city": "NYC",
         "google_place_id": "ChIJCZwbxBtewokRY6IbgpR5AbA"
       },
@@ -12826,6 +12876,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "peruvian\n\ni've had great seco and other dishes there\n\nhas peruvian beers\n\npulpo a la parilla\n\ntamal criollo\n\nYou can’t go wrong with anything in the Pescados Mariscos section of the menu, but the Pescado a lo Macho is our favorite.\n\nSeco de Cabrito con Frijoles is a goat stew with yucca, beans, and rice. Next to Lomo Saltado, it’s our second favorite non-seafood dish at Urubamba.",
+        "secondary_tags": "peruvian;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJ_RMsga9fwokRZwl8f7qmjFk"
       },
@@ -12934,6 +12985,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "peruvian-chinese\n\nbest peruvian in manhattan\n\nWord to Flor De Mayo. I live in Chile now and suffice to say there are a lot of Peruvian restaurants here, but Flor de Mayo is better than almost all of them.\n\n---\n\nBest pork chop. Fucking amazing. Juicy, tender, and with a garlic sauce. It's a peruvian/chinese restaurant. My favorite on the UWS because of that one dish.\n\nYes the fried rice is great, so is the rotisserie chicken, and the octopus in black bean sauce. Also love their Wonton soup.",
+        "secondary_tags": "peruvian;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJKUOZTodZwokRYsUbouBlcgA"
       },
@@ -13366,6 +13418,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "Start at Mo’s General (620 Lorimer St.), at the BQE-adjacent end of the strip, where you can get puffy squares by the slice, as well as a thin, reasonably sized bar pie with the killer one-two of pepperoni and banana peppers.",
+        "secondary_tags": "pizza;owner-favorite",
         "city": "NYC",
         "google_place_id": "ChIJI3uMzkdZwokR7gEC0gBf4Zg"
       },
@@ -14193,7 +14246,8 @@
         "category": "Meal",
         "signal": "High",
         "description": "It specifically a Dongbei/northeastern Chinese spot. Would highly recommend the cumin flounder and beef tendon in brown sauce/红烧蹄筋. The salted egg yolk pumpkin/金沙南瓜 is also tasty and the only thing I didn't really liked that much was the deep fried quail/火爆鹌鹑 as it wasn't me that worth it for the price but the flavor was nice. The prices are reasonable especially when ordering a bunch of dishes for a group as the portion sizes are pretty big.",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJYfIoHxJgwokRykH9Bt4ZqmU"
       },
       "geometry": {
         "type": "Point",
@@ -14371,7 +14425,9 @@
       "properties": {
         "name": "Szechuan Mountain House",
         "category": "Meal",
-        "signal": "Low",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "chinese;sichuan;owner-favorite",
         "city": "NYC",
         "google_place_id": "ChIJ2WLOZg5gwokR-ZgAQ3W-sEQ"
       },
@@ -14681,6 +14737,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "Tashkent Supermarket, as you may have guessed, is an Uzbek market selling hot and cold foods from across Central Asia and the former USSR.",
+        "secondary_tags": "uzbek;shawarma;plov;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJzfUU-0FEwokRDb5Vu6QuibA"
       },
@@ -14879,6 +14936,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "multiple vouches\n\naguachile, ceviche",
+        "secondary_tags": "mexican;seafood;jackson-heights;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJCURgyldfwokRvBpy5nCp7qY"
       },
@@ -15404,6 +15462,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "multiple vouches of best ukranian\n\nhttps://ny.eater.com/2024/11/27/24300633/streecha-east-village-reopening",
+        "secondary_tags": "ukrainian;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJq4U9crpZwokRQ1CSpBwEgSw"
       },
@@ -15529,6 +15588,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "Misi is chef Missy Robbins follow-up to Lilia. But just because the restaurant is easier to get into than its sibling, doesn’t mean it's any less of a pasta palace. In fact, we prefer the more lowkey energy at this restaurant located just steps from Domino Park. The calling card here is the decadent ricotta toast and there’s no way to go wrong with your pasta selection. Don’t sleep on the creamy gelato desserts.",
+        "secondary_tags": "italian;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJw7SsU_pZwokREyGSSulF53U"
       },
@@ -15672,6 +15732,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "nigerian: https://www.reddit.com/r/astoria/comments/mztq1l/nytimes_review_of_nneji_west_african_food_on_34th/\n\n[NYTimes review of Nneji, West African food on 34th Ave](https://www.reddit.com/r/astoria/comments/mztq1l/nytimes_review_of_nneji_west_african_food_on_34th/)",
+        "secondary_tags": "west-african;queens;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJpa6hjNpfwokRoJ3lUZdnkUQ"
       },
@@ -15726,6 +15787,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "A spacious multilevel palace of Korean food in downtown Fort Lee, New Jersey, Myung Dong specializes in two types of noodles. The first is the wheat noodle known as kalguksu, served in mildly flavored soups, of which the most engaging throws them into a broth with ground beef and dumplings. The second is naengmyeon, originating in North Korea and made from buckwheat or sweet potato and served cold with boiled egg and pickled vegetables: very refreshing.",
+        "secondary_tags": "korean;noodles;owner-favorite",
         "city": "NYC",
         "google_place_id": "ChIJHZKUH-j2wokR3lrT1EACUOs"
       },
@@ -16235,6 +16297,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "Yuk Jun Gui is the rare Korean barbecue spot that not only barbecues fresh eel but does so over a wood-fired grill. Those who’ve only tasted eel slathered with the viscous nitsume sauce at sushi spots are in for a treat, with the crisp skin and a dipping sauce of sesame oil with coarse rock salt. The restaurant’s other meats — short rib, bulgogi, offal — are grilled superbly and served with the standard ssamjang (gochujang and doenjang blend) and a parade of banchan. The manager’s maternal hospitality — she urges customers to put on the hoods of their coats when venturing back out into the cold — is another reason to visit.\n\n--\n\nSteve: In Flushing, we always go to Yuk Jun Gui. We get fresh eel and intestine to barbecue. They grill everything over charcoal, which amplifies the taste. This is one of the places we go to get real authentic Korean food. There are a lot of kitchens specifically serving offal/intestine, but I feel like they’re the best just because they cook it the right way.\n\nEric: I like getting the barbecued eel, especially when I feel exhausted. In Asian culture, they say eel gives you energy.\n\nDavid: The emos (aunties) are professional. They’re like Michelin-starred chefs. They know when to put the meat in, and when not to put the meat in. Sometimes we get scolded for flipping the meat too fast. We love that kind of vibe.\n\nThey’re like our own emos pretty much. They’re like “try this, try this,” and they’re so happy that we’re clearing out the dishes. It’s that whole concept of jeong, Korean hospitality, that we’re looking for in Korean restaurants.\n\nI heard now, even in Korea, there’s not much of it. But that’s what we remember as Korea when we left there, when we were 10 years old. So when we go to Yuk Jun Gui, it feels like we’re back in the ’90s.\n\n---\n\nOne of the first restaurants in the area is Yuk Jun Gui, and although it offers all the barbecue classics, it specializes in a rarity outside of Korea: grilled eel. Here, it’s cooked over a wood fire by an eemo (auntie) who’s deft with her grilling, knowing exactly when to flip each filleted chunk to the other side. The outcome is perfection: eel that’s meaty, slightly springy, and quite smoky with a char all around the exterior. As with the more mainstream beef barbecue, create lettuce wraps with it. But also leave room for daechang (intestine). The eemo also grills this superbly, creating chewy and super fatty, melt-in-your-mouth pieces with a golden crust.\n---\n\nThe residential community of Queens’ Koreatown — which runs from Flushing to Long Island with Mokja Golmok (Food Alley) located in Murray Hill — shows a world of Korean barbecue that goes way beyond bulgogi. And at Yuk Jun Gui, the calling card is the fresh eel grilled over charcoal. It’s a rare dish that requires finesse with handling eel and hurdles in procuring live fish (it has to be eaten fresh, according to Korean custom). An order of it at Yuk Jun Gui ($40) presents soft, succulent, buoyant meat with a smoky char and all the fixings, like lettuce wraps, ssamjang, and sesame oil with salt flakes and pepper for flavoring the meat, as well as a full spread of complimentary banchan like bubbling egg soufflé, seasoned zucchini, and pickled peppers. For more flame-kissed delights, check out the galbi, pork belly, and intestines. This is the sort of cozy neighborhood spot where an ajumma (Korean auntie) is always a fixture, and she serves, grills, and sweetly offers dalgona candies to little kids.",
+        "secondary_tags": "korean;bbq;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJ5VhNcyNgwokRPuBe_MIDWSU"
       },
@@ -16453,6 +16516,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "nicer sushi, run by japanese couple\n\nsmall bites seem pretty good\n\nTry the grilled mackerel and Chicken Nanban maybe next time. Pretty good.",
+        "secondary_tags": "japanese;izakaya;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJX5sZOzdfwokR7xU29a6wDHk"
       },
@@ -16471,6 +16535,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "Czech American that's moved out of the neighborhood (and out of NYC) here. This is the food I grew up with (grandma's cooking) and I miss it dearly. Outside of the Czech Republic this is the best Czech restaurant I've ever been to.",
+        "secondary_tags": "czech;slovak;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJh9_0AmhfwokRnt4e6aYwMwk"
       },
@@ -16667,6 +16732,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "It took a few hundred years, but this city finally has the Cajun spot it deserves. So why is it on this guide? Because Kjun serves Cajun dishes with a subtle Korean twist. Top Chef alum Chef Jae Jung cooked in some venerable kitchens in the Big Easy before opening up this small, super casual restaurant in Murray Hill. Apart from the colorful beads on every table, this place looks like a fairly generic lunch spot where you’d eat at a high-top with your headphones in, but the fusion dishes feel like Mardi Gras in your mouth. You’ll see Chef Jung walking around the room, mingling with guests like she’s hosting a dinner party. Ask her about the inspiration behind the seafood jjajangmyun. The fried seafood and noodle dish is the best mashup on the menu.\n\n---\n\nKjun has added Korean flavors to a New Orleans menu, hence the name. This gumbo via chef Jae Jung, who worked in the Big Easy, illustrates the technique: Andouille sausage is seasoned with gochujang, and sides include okra kimchi, which gloriously retains some of the slime of the pod vegetable. Cornbread comes alongside, too. Made with a very dark roux, the chicken and andouille gumbo ($25) is very much the genuine article, and a welcome quantity of rice will be discovered in the bottom of the bowl.",
+        "secondary_tags": "korean;cajun;owner-favorite",
         "city": "NYC",
         "google_place_id": "ChIJ7xJ4Rw9ZwokRhQQ-WKtoJFg"
       },
@@ -16776,7 +16842,8 @@
         "category": "Meal",
         "signal": "High",
         "description": "For a surprise, it wasn't NYC, but went to an unassuming Mexican place while passing through a little town upstate and it was incredible. They serve nopales and lengua and make their own tortillas for some dishes (they have an amazing quesadilla plate with their homemade tortillas). One of the top Mexican meals I've had in NY period.\n\nEl Toro Mexican Restaurant in Kinderhook! I saved it on google maps immediately when I visited. Make sure to call ahead to see if they're open since it's a long drive and it's very much a family run business (it also says to on their menu haha). I've been seriously debating driving up just for it, since I didn't get to try very much (was passing through), but two hours up is a bit rough. I don't want to overhype it and disappoint anyone since it's a trek to get there, but I've had a really difficult time finding good Mexican food here so it stood out. (The \"El Toro Quesadilla\" with steak was magical and the rice and beans were really good, they also serve complimentary chips and salsa)",
-        "city": "Regional"
+        "city": "Regional",
+        "google_place_id": "ChIJyYO7tBZawokR3caVYcwcX5w"
       },
       "geometry": {
         "type": "Point",
@@ -16847,7 +16914,9 @@
         "category": "Meal",
         "signal": "High",
         "description": "potential chinese bbq",
-        "city": "NYC"
+        "secondary_tags": "cantonese-bbq;chinatown;owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJq7KFj79bwokRbKshg3MaTLY"
       },
       "geometry": {
         "type": "Point",
@@ -17062,7 +17131,8 @@
         "category": "Meal",
         "signal": "High",
         "description": "Kalguksu, korean american vouch: https://www.reddit.com/r/FoodNYC/comments/u5zsht/best_restaurants_in_palisades_park_nj/i5669tn/",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJHSnGVi5gwokRcgDkGStzYNY"
       },
       "geometry": {
         "type": "Point",
@@ -17361,8 +17431,9 @@
       "properties": {
         "name": "Kuttanadan Indian Restaurant",
         "category": "Meal",
-        "signal": "High",
+        "signal": "Medium",
         "description": "If you venture out to the very edge of Queens, Kuttanadan and Taste of Kerala are the best spots for Kerala food without going into NJ - nothing else in the city scratches my itch for my home cuisine.\n\nOpening during the pandemic, Kuttanadan specializes in the cooking of the far-southwestern state of Kerala, making it nearly unique in the city (actually, it’s right on the border of Long Island and Queens). Perfectly grilled sardines and other seafood make up much of the menu, but perhaps more surprising are dishes featuring pork and beef — the latter found in beef devil, a dish that features brisket and the black peppercorns from a region sometimes called the Malabar Coast.",
+        "secondary_tags": "indian;interesting",
         "city": "NYC",
         "google_place_id": "ChIJA4XcJgdjwokRGz_SQVhhIw0"
       },
@@ -18273,6 +18344,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "goryeo saram - ethnic koreans in russia that were deported to uzbekistan/kazakhstan",
+        "secondary_tags": "goryeo-saram;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJKUwsIAxFwokR62smhFOQnT0"
       },
@@ -18493,6 +18565,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "joseph suggested fox face, all of the starters and desserts but would skip mains\n\npig ear is \"perfectly melted collagen\n---\nThe sandwiches may be gone, but you won’t miss them at this newest iteration of Foxface. Chef David Santos puts forth a menu that’s constantly changing and keeps you in suspense — in a good way. If you’re lucky, his uni-laden ode to the famed malloreddus found at San Francisco’s La Ciccia will be on offer. So will a killer list of decidedly natural wines.\n--\n\nNew York’s most unique sandwich spot has expanded into a sit-down restaurant with just a few lucky tables. The bar is our favorite spot here, as it gives us ample opportunity to chat with the servers. Foxface is perfect for a night of eating adventurously, while still keeping the feeling cozy and special.\n\nThe coziest dishes: The menu changes often, but some recent favorites have included sweetbreads schnitzel with button chanterelles, kangaroo tartare, and surf clam two ways.",
+        "secondary_tags": "new-american;owner-favorite",
         "city": "NYC",
         "google_place_id": "ChIJ-9FmcbhZwokR_2n_KX31fUI"
       },
@@ -19454,7 +19527,8 @@
         "category": "Meal",
         "signal": "High",
         "description": "NYTimes 100\n\nIn Caribbean New York, the hunt for great jerk never ends. It does pause for meals, though, especially when that meal is smoked in one of the mobile, charcoal-fired, custom-built monster rigs that Forever Jerk sets up on sidewalks in Brooklyn and the Bronx. The shrimp is juicy and brushed with spices, while the chicken imbibes more smoke; for once it’s not blackened to a crisp. But keep an eye out for the jerk pork shoulder, which frequently achieves a melting tenderness that a Carolina pitmaster would recognize.",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJ6UDDosRpwokR5GPhyCcZGqU"
       },
       "geometry": {
         "type": "Point",
@@ -19507,6 +19581,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "Each Saturday and Sunday, barring unforeseen complications, half the South Bronx descends on an immobilized trailer on East 152nd Street for a Puerto Rican pork party. All the ordering and cooking is in the hands of one man, Angel Jimenez, whose efficiency is somewhat compromised by his being the center of the party. In due time, he will serve up little fried pastelillos filled with shrimp in a red sofrito; golden Frisbees of salt-cod fritters known as bacalaítos; and octopus salad that crunches with raw peppers and salty olives. Then he raises his machete and whacks apart hulking cuts of lechón, slowly roasted pork rubbed with oregano and black pepper. Molten fat and fragments of glassy skin fly everywhere. The effect on the crowd, like the effect of the lechón itself, is tremendous.\n\n\"This guy must have some sort of secret ingredients. Taste better than what I have tasted in Guavate.\n\"",
+        "secondary_tags": "puerto-rican;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJEe_u1LD1wokROGwc-ZKWQhE"
       },
@@ -19778,7 +19853,8 @@
         "category": "Meal",
         "signal": "High",
         "description": "An eight-year-old Bronx tamale institution, City Tamale has opened in the Sunnyside Eats ghost kitchen. The tamales feature six versions of owner Israel Veliz’s mom’s Mexican home cooking. The ground corn is soft and moist and the fillings — from the chicken salsa verde to pork salsa roja and roasted jalapeños with cheese — are loaded. Tacos, soups, nachos, and burritos round out the menu.",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJl2bDnwj1wokRYXEFYUkIa5c"
       },
       "geometry": {
         "type": "Point",
@@ -20615,6 +20691,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "potential\n\nAmanda Kludt, publisher, Eater, Popsugar, Thrillist, and Punch: I have a meal at Fradei in Fort Greene about once every six months, and I’ve enjoyed the evolution from a creative but not always successful set menu into the more expressive and fluid a la carte set-up they have now. The meal I had in July was an absolute knockout.",
+        "secondary_tags": "fort-greene;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJb7DgrepbwokRfE30Y3z7ZzI"
       },
@@ -20941,6 +21018,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "This is one of two Argentine steakhouses in Elmhurst (the other is Boca Juniors). La Fusta flaunts its equestrian theme, with thoroughbred portraits, riding crops, and other paraphernalia lining the walls, making a meal feel like a few laps around the racetrack. Founded in 1970, La Fusta offers a menu of steaks, pork chops, blood sausage, chitterlings, and sweetbreads, along with empanadas, fried cutlets, Russian salad, and Argentine pastas — including the country’s end-of-the-month mainstay, gnocchi.\n\nSweetbread and morcilla are good and cumin-y sausages\n\n If you get the parillada, tell them you like morcilla and they'll pile 'em on.",
+        "secondary_tags": "argentinian;steakhouse;queens;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJFx8HV6lfwokRZBepb4QEmX8"
       },
@@ -21123,6 +21201,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "Silver Apricot team\n\nI’ve been meaning to try the new Chinese-meets-Southern restaurant Figure Eight from Emmeline Zhao of Silver Apricot for some time — the menu has incredibly fun-sounding dishes, like shrimp cocktail with Chinese horseradish (a brilliant pairing) and mapo buttered grits (yes, it works). Our favorite dish was hot fried skate ($38). The chile crisp-infused batter had a fantastic crunch, and the skate held up and stayed tender. It was served with a buttermilk ranch, pickles, and a flaky sesame biscuit, for what might just be the most creative fish sandwich I’ve had.",
+        "secondary_tags": "chinese;southern;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJCQWJ_6hZwokRxP21FS21clc"
       },
@@ -21139,7 +21218,9 @@
       "properties": {
         "name": "Silver Apricot",
         "category": "Meal",
-        "signal": "Low",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "chinese;southern;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJMZwTwIZZwokRbGe13N3omtU"
       },
@@ -21249,7 +21330,8 @@
         "category": "Meal",
         "signal": "High",
         "description": "One of the most famous restaurants in Paterson is the Palestinian Al-Basha, founded in 1998 by an immigrant from Ramallah, and recently reviewed in the New Yorker. We visited instead its sleek fast-casual branch, Al-Basha Quick Serve \n\nWe sat in the austere adjoining dining room and enjoyed cylindrical falafels rolled inside a laffa with french fries, pickled vegetables, and garlic aioli; hummus dotted with fava beans, irrigated with fruity olive oil; flute-shaped cheese bureks; and a glass of minty frozen lemonade. Total cost: $33.",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJfcIHDJv-wokRUNIcuu4JRn8"
       },
       "geometry": {
         "type": "Point",
@@ -22047,7 +22129,7 @@
         "category": "Drinks",
         "signal": "High",
         "description": "thai bar + food",
-        "secondary_tags": "meal",
+        "secondary_tags": "meal;thai;bar;rooftop;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJBQHBca1fwokRdZE1fgQSd7c"
       },
@@ -22880,6 +22962,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "- \"windowless, bustling, men in suits, women in leopard, service can only be described as correct. pretty sure i've never had a real biscotti till i went there\"\n- it's what you want rao's and il mulino to be\n- really good jarred sauce",
+        "secondary_tags": "red-sauce;italian;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJQ3PWpqRZwokRSdFi7_vvxTo"
       },
@@ -23572,6 +23655,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "The former chef Touria Lamtahaf of the now-closed Moroccan spot, Dar Yemma, has opened her own place and revived all the old favorites at her new Dar Lbahja. They include her flavorful chicken and olives tagine; zaalouk (smokey mashed eggplant studded with herbs and spices); and harira (hearty soup with chickpeas, lentils and meat). Check out her weekend-only couscous specials and Ramadan iftar packages through March.\n\nDar Yemma old notes:\n\"Dar Yemma translates to “Mom’s House,” and this Astoria newcomer’s vast Moroccan menu of homestyle halal dishes has already garnered a local following. The restaurant specializes in tagines — there are six kinds, including lamb and kofta — and stuffed pies called bastilas. The chicken bastila is a sweet, savory, and textured parcel of saffron-seasoned chicken and spicy eggs, wrapped in a crispy warqa pastry shell and topped with fried almonds sweetened with orange flower water. There’s complimentary bread and an assortment of lentils and pickled vegetables.\"",
+        "secondary_tags": "moroccan;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJvSQnKgBfwokRh3-LDnkYgW4"
       },
@@ -24135,7 +24219,8 @@
         "category": "Meal",
         "signal": "High",
         "description": "african-caribbean buffet\n\n$8/lb",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJ9WbzQ6VZwokRJ_qUroHyl6Y"
       },
       "geometry": {
         "type": "Point",
@@ -24478,6 +24563,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "Estela-esque\n\nFood is good and well executed. Certain things are done really well (duck, Comte tarte) and build out is nice. I wouldn’t say it is a ground breaking dining experience. Worth going but not life changing. Would put in the same bucket as Heroes and Claud but I do prefer Claud. Vin jaune gelato is a must try.\n\ncustard and pork chop at Bridges were an all time dish",
+        "secondary_tags": "owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJ5Q8Bl1NbwokRjuIXKz8OfRQ"
       },
@@ -24533,6 +24619,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "A popular ten-year-old pizza pop-up has found a permanent home in Long Island City. Every element of its grandma-style squares — from its 72-hour fermented dough to its many sauces — are made in-house. Its French onion fungi pie ($24) features soupy caramelized onions, gruyere cheese, and huitlacoche mushrooms. Catch the breakfast menu of $6 slices like a veggie, egg and cheese pizza with a creamy herb sauce.",
+        "secondary_tags": "pizza;pop-up;lic;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJ0QxSKQBZwokRCpfABgUi_SI"
       },
@@ -24804,6 +24891,7 @@
         "category": "Meal",
         "signal": "High",
         "description": "Mediteranean nice-ish\n\nTons of vouches\n\ncamembert cheesecake\n\ntomato water martini\n\nricotta toast\n\nchocolate cake\n\ncauliflower\n\nlike oooookay how good could it be its bread, ricotta, honey, and some herbs. People and social media just hyping it up. I was so wrong and it was apparent on the first bite.\n\nThe sourdough is the perfect texture of crunch and chew, none of that gnawing like a rat at the crust to take a bite while the rest has already tumbled into your mouth or down your wrist. The flavor of their sourdough itself is so deliciously developed and slightly smoky from the preparation on their special open fire Mangal grill. The ricotta itself is lighter than AIR but still so incredibly flavorful and rich, the honey chimes in with the brown butter and then the sage. A Ratatouille moment of flavor and texture.\n\nMy friend and I both agreed it was a WOW moment of the many dishes we got (the crudo being another one.) We’re both big restaurant/bakery/all food things people and my mouth is watering thinking about it now. To be fair, taste is very subjective so this was just our (and plenty of other peoples’) experience! The Za’atar bread is the other one everyone raves about and while its also very good, I likely wouldnt get it again. Just didnt hold a candle for us compared to the sourdough ricotta!\n\n-Swordfish Belly Skewers (by far the best dish of the night) -Za’atar Kubaneh -Camembert Cheesecake\n\nBlack Cod (Collar?)\n\nGet everything dry aged fish and skip on things like bread and dip.\n\nCeviche/Crudo with Charred Pineapple",
+        "secondary_tags": "mediterranean;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJJye7jZBbwokRtioAck7uEIg"
       },
@@ -25856,7 +25944,8 @@
         "category": "Dessert",
         "signal": "High",
         "description": "#3 Chocolate Chip Cookies (huge, chewy, almost cookie dough-esque)",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJ6SmehIlYwokRaO14xlmbWZU"
       },
       "geometry": {
         "type": "Point",
@@ -25892,7 +25981,8 @@
         "category": "Meal",
         "signal": "High",
         "description": "classic American restaurant; tarte tatin worth noting",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJ7fzXLK1ZwokRzb8e-lcxUiM"
       },
       "geometry": {
         "type": "Point",
@@ -26345,6 +26435,7 @@
         "category": "Cafe",
         "signal": "High",
         "description": "Veronica Gan had a hard time finding the colorful, bite-sized Southeast Asian desserts known kuih in New York City—so she started making them at home, giving them to friends as treats. She perfected her recipes through trial and error, and eventually she and her husband opened a tiny shop on the Lower East Side. Kuih Cafe is open Friday through Sunday serving a rotating menu of kuih, all of which are worth a weekend pitstop. The variety with subtly floral rose custard might be our favorite, although if you don't get a slice of caramelized durian cheesecake while you're here, you'll be making a grave mistake. The cheesecake is fluffy and tangy, and the durian perfectly compliments the cheesy flavor, accentuating it like a neon highlighter. It's a top-tier New York City dessert.",
+        "secondary_tags": "dessert;malaysian;owner-favorite",
         "city": "NYC",
         "google_place_id": "ChIJQ3RUaiFbwokRfg3fJ4rdgf8"
       },
@@ -26421,7 +26512,8 @@
         "signal": "Low",
         "description": "bubble tea chain focused on milk tea, fruit tea, and cheese foam drinks",
         "secondary_tags": "tea",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJb2I3eIFZwokRJQV_Xcx_gpU"
       },
       "geometry": {
         "type": "Point",
@@ -27711,7 +27803,8 @@
         "name": "Dough",
         "category": "Dessert",
         "signal": "Low",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJoY9kCSVZwokRwYpMScx3sTs"
       },
       "geometry": {
         "type": "Point",
@@ -28690,7 +28783,8 @@
         "signal": "High",
         "description": "sourdough",
         "secondary_tags": "bakery",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJiQ8Ry9NewokRE_NqhfnCs9k"
       },
       "geometry": {
         "type": "Point",
@@ -28850,7 +28944,7 @@
         "category": "Cafe",
         "signal": "High",
         "description": "The only thing I genuinely want to do after a long weekend is prolong the feeling of slowing down. It’s part of why, upon my first visit to Little Flower Cafe in Astoria, I was so pleased to see barista Hayden Dominguez and owner Ali Zaman seeming very at home at the small tables in the airy, sunlit space, chatting with customers and doing some work while enjoying coffee themselves. What I’ll say about the firni doughnut ($5) — filled with a cardamom custard that is popular in Afghan cuisine and that I also grew up eating in my Bengali household — is that I have no regrets. This fluffy, sweet baked good made reporting for work much easier.",
-        "secondary_tags": "dessert",
+        "secondary_tags": "dessert;cafe;owner-favorite",
         "city": "NYC",
         "google_place_id": "ChIJs_GSrAxfwokRrXbHbDCmc5w"
       },
@@ -31501,7 +31595,7 @@
       "type": "Feature",
       "properties": {
         "name": "Hani’s bakery + café",
-        "category": "Cafe",
+        "category": "Dessert",
         "signal": "High",
         "description": "The newest entrant on the list, the highly anticipated bakery from chef Miro Uskokovic of Gramercy Tavern fame had five cakes on offer on opening day, in addition to a dizzying array of other sweet and savory items. Try the crowd-pleasing chocolate tuxedo cake and breathtaking peanut butter crunch cake, but don’t miss the namesake Hani’s honey cake or the brown butter carrot cake with pear-ginger jam.\n\nBack in the day, I made ice cream cakes for a living, and during this time, I ate innumerable spoonfuls of straight chocolate ganache, which we used in the cakes. I was reminded of this experience when I got the brownie at the Cooper Square bakery, Hani’s. For people who prefer dense, fudgy brownies, it might just be the perfect brownie (around $6.50) — with just enough salt and tang to keep it interesting. While it appears to be an homage to the Little Debbie Cosmic Brownie, it’s way better than any packaged brownie I’ve ever had. \n\nchocolate chip cookie, cinnamon roll, and peanut butter cake",
         "secondary_tags": "bakery",
@@ -32354,7 +32448,8 @@
         "signal": "High",
         "description": "$$$$ mean staff",
         "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJ67d2MiJawokRGMbkTuedIOk"
       },
       "geometry": {
         "type": "Point",
@@ -32715,7 +32810,8 @@
         "category": "Activities",
         "signal": "Low",
         "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJ6_9mO6ZZwokRJPrRbi7P8YU"
       },
       "geometry": {
         "type": "Point",
@@ -33206,7 +33302,8 @@
         "signal": "High",
         "description": "street",
         "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJj0s22OBbwokREhMSoo6usmE"
       },
       "geometry": {
         "type": "Point",
@@ -33409,7 +33506,8 @@
         "category": "Activities",
         "signal": "Low",
         "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJ7735OwFZwokRO04QWbNFwxw"
       },
       "geometry": {
         "type": "Point",
@@ -33445,7 +33543,8 @@
         "category": "Activities",
         "signal": "Low",
         "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJq6qqP1P6wokRm1cjg2jolXc"
       },
       "geometry": {
         "type": "Point",
@@ -33462,7 +33561,8 @@
         "category": "Activities",
         "signal": "Low",
         "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJBUcmKmFZwokROMWFdSe44Eo"
       },
       "geometry": {
         "type": "Point",
@@ -35762,7 +35862,8 @@
         "name": "The Meat Hook",
         "category": "Activities",
         "signal": "Low",
-        "city": "Regional"
+        "city": "Regional",
+        "google_place_id": "ChIJOYVff1pZwokRfUJCugXW69Y"
       },
       "geometry": {
         "type": "Point",
@@ -36284,6 +36385,7 @@
         "category": "Drinks",
         "signal": "High",
         "description": "What the owners like eating/drinking there: https://blog.resy.com/2023/03/how-to-get-into-double-chicken-please/\n\nLucas Sin - \"At Double Chicken Please, I drink whatever bartenders GN Chan and Faye Chen hand me. The bar is built to be the best in class, and the drinks whisper sweet notes of creativity and nostalgia for Chinese transplants like myself. Micheladas can take on notes of licorice, shots are accented with savory sour plum, and Negronis might take on hints of red bell pepper.\"\n\nDouble Chicken Please is the result of an eight-year journey for Taiwanese-Americans GN Chan and Faye Chen, who served drinks out of a traveling vintage Volkswagen minivan across the U.S. before opening their cocktail bar on the Lower East Side. The cocktails are named by number (there are 13 in total, one being a mocktail) and are all fantastic, though our favorite drink here might just be their mezcal shot. It’s mixed with plum and shiso, which soften the edge of the mezcal while adding a touch of tartness and herbaceousness. As hinted from the name, they also serve chicken, in the form of three types of fried chicken sandwiches: salted duck egg, hot honey, and bolognese torpedo, each of which is perfect for drunchies after those three shots you just took. If you're looking for a slightly more formal experience, Double Chicken Please is also now serving a more extensive menu in their back room, with dishes like blue crystal prawn ceviche and chicken liver mousse.",
+        "secondary_tags": "cocktails;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJI25hF09ZwokRnmmiXXONRf4"
       },
@@ -36555,6 +36657,7 @@
         "category": "Drinks",
         "signal": "High",
         "description": "What was once an old carriage house on a quiet stretch of Gramercy is now a Japanese-style cocktail destination spread out on three floors. Enter Martiny’s, where Takuma Watanabe of Angel’s Share fame presides over the bar to the tune of jazz and cocktail shaking of the highest order. Pro tip: Book the lounge for a seat on the second floor, with its skylight, plush sofas, and antique furnishings.\n\nThe coziest drinks and dishes: The martini and Tea Ceremony cocktails are exquisite, but you shouldn’t overlook the food. The cheeky tartare with its snowy Parmesan and seaweed cow print or the creamy burrata dotted with trout roe and Lao Gan Ma chili oil take bar food to a whole other level.\n\n---\n\nWhat was once an old carriage house on a quiet stretch of Gramercy is now a Japanese-style cocktail destination spread out on three floors. Enter Martiny’s, where Takuma Watanabe of Angel’s Share fame presides over the bar to the tune of jazz and cocktail shaking of the highest order. Pro tip: Book the lounge for a seat on the second floor, with its skylight, plush sofas, and antique furnishings.\n\nThe coziest drinks and dishes: The martini and Tea Ceremony cocktails are exquisite, but you shouldn’t overlook the food. The cheeky tartare with its snowy Parmesan and seaweed cow print, the tiny river crabs, or most of the rest of the dishes on their ever-changing menu take bar food to a whole other level.",
+        "secondary_tags": "cocktails;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJ_xzMHNtZwokRdVig2X11Rvk"
       },
@@ -37270,7 +37373,8 @@
         "signal": "High",
         "description": "A beautifully curated kitchen, home goods and gift shop.",
         "secondary_tags": "gift-shop; shopping",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJF_Zv-5pwhlQRkP8NC-zLFbU"
       },
       "geometry": {
         "type": "Point",
@@ -40399,7 +40503,8 @@
         "name": "WORD",
         "category": "Activities",
         "signal": "Low",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJgRP5FbJQwokRUZnpM8gmUoQ"
       },
       "geometry": {
         "type": "Point",
@@ -41958,7 +42063,8 @@
         "signal": "High",
         "description": "#5 on tuuthreee Vietnamese food ranking. Ridgewood.",
         "secondary_tags": "vietnamese",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJDWMVZqxZwokRx25yDuIAEHA"
       },
       "geometry": {
         "type": "Point",
@@ -41976,7 +42082,8 @@
         "signal": "High",
         "description": "Quality over quantity — small menu, packs a punch. Pho is spot on. Very similar to High Lua.",
         "secondary_tags": "vietnamese, pho",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJKdI9LbdZwokRzXVotHEiHtA"
       },
       "geometry": {
         "type": "Point",
@@ -42009,6 +42116,7 @@
       "properties": {
         "name": "Moroccan Bites by Siham",
         "category": "Meal",
+        "signal": "Medium",
         "description": "Traditional Moroccan from chef/owner Siham Bourhane. Standouts: chicken tagine w/ preserved lemon, lamb tagine w/ prunes or pear, rare fish ball tagine. Served in Moroccan earthenware.",
         "secondary_tags": "moroccan;tagine;astoria;steinway",
         "city": "Astoria",
@@ -42027,6 +42135,7 @@
       "properties": {
         "name": "Xiaozhan Rice Noodle",
         "category": "Meal",
+        "signal": "Medium",
         "description": "Rice noodle soups in mini clay pots with sauce bar. Standout: passionfruit broth (sour/spicy/savory). Proteins: fish, beef, shrimp, chicken. Tiny space, 1hr+ waits at peak. 135-38 39th Ave, Flushing.",
         "secondary_tags": "chinese;rice-noodle;flushing;soup",
         "city": "Flushing",
@@ -42045,6 +42154,7 @@
       "properties": {
         "name": "Kelang",
         "category": "Meal",
+        "signal": "Medium",
         "description": "Malaysian from Chris Low (Hainan Chicken House) opened Dec 2025. Italian-American and Caribbean touches — oxtail rendang with Haitian/Malaysian rice. Dinner + weekend brunch, full bar. 715 Manhattan Ave, Greenpoint.",
         "secondary_tags": "malaysian;greenpoint;brooklyn;brunch",
         "city": "Brooklyn",
@@ -42063,6 +42173,7 @@
       "properties": {
         "name": "Honey Badger",
         "category": "Meal",
+        "signal": "Medium",
         "description": "Reopened March 2026 in Prospect-Lefferts Gardens with fermentation lab. 13-course $295 tasting menu + a la carte for walk-ins. Seasonal/local. Owners Fjölla Sheholli & Junayd Juman. 67 Fenimore St.",
         "secondary_tags": "tasting-menu;fermentation;brooklyn;prospect-lefferts",
         "city": "Brooklyn",
@@ -42079,13 +42190,32 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Merkin Hudson",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "I wandered into Merkin Hudson, the cheekily named new spot from Cafe Mutton — a rolled-up garage door housing a few scattered wooden tables and chairs, a record player, and a cold case stacked with charcuterie, spreads, and other bits and bobs made from off-cuts. I wanted everything on the menu, especially the pig foot mortadella sandwich I'd seen online. But I decided to go for the head cheese ($20). Atop the thick slab were a few piparra peppers lending necessary acid and welcome heat. Sitting there alone on a sunny day, suddenly, I felt like an old man who had wandered in, finally taking a seat after a toilsome day tilling the field or something (I did pack-mule my bags all the way up from the Amtrak station on my own two feet, fwiw), surrendering to the delicious sustenance in front of him. I literally clocked myself taking a deeper breath. Slowing down, I savored every time my teeth tore through the chewy baguette into which celery root remoulade had seeped. I washed each bite down with sips of a grenache-mourvedre-syrah blend from Tavel in Southern France. Crunchy and jammy, acidic and dry, it was the perfect foil to such a collagen-rich meal. 45 Eighth Street, near Columbia Street, Hudson, New York",
+        "secondary_tags": "charcuterie, head cheese, natural wine, off-cuts, Cafe Mutton spinoff",
+        "city": "Regional",
+        "google_place_id": "ChIJr80eAQCV3YkRS_yLROYogZE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7803877,
+          42.2471286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Kunafa Bites",
         "category": "Dessert",
-        "signal": "High",
+        "signal": "Medium",
         "description": "Nablus-style kunafa made fresh to order (~7-8 min). Medium ~$15. Crispy on top, gooey stretchy cheese on the bottom; sweet, syrupy, and nutty from pistachios. Excellent.",
         "secondary_tags": "kunafa; middle-eastern; palestinian; dessert",
         "city": "NYC",
-        "google_place_id": "hex:0x89c25fce8fb08d29:0x5d034bd74e3695c1"
+        "google_place_id": "ChIJKY2wj85fwokRwZU2TtdLA10"
       },
       "geometry": {
         "type": "Point",
@@ -42098,9 +42228,28 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Oriana",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Wood-fired grill restaurant from the Noortwyck team (Andy Quinn + Cedric Nicaise, both EMP alums). 7,000-bottle wine cellar, listening lounge with vinyl curated by musicians, 25-ft mural. Opened May 2026.",
+        "secondary_tags": "cocktails;wine",
+        "city": "NYC",
+        "google_place_id": "ChIJJd8XwcpZwokRKVTqFenQbt4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9957967,
+          40.7202738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Cafe Xochimilco",
         "category": "Meal",
-        "signal": "High",
+        "signal": "Medium",
         "description": "Authentic Mexican cuisine in LIC. Chilaquiles (especially green sauce), tacos gobernador (shrimp and cheese), al pastor, and breakfast burritos are highly recommended. Warm, friendly service and cozy/vibrant space.",
         "secondary_tags": "mexican, cafe, breakfast, brunch",
         "city": "NYC",
@@ -42122,13 +42271,2585 @@
         "signal": "High",
         "description": "Lebanese specialty grocer + deli by Chef Edouard Massih. Rotating mezze/man'oushe menu. Buy: markouk or lavash bread.",
         "secondary_tags": "shopping",
-        "city": "NYC"
+        "city": "NYC",
+        "google_place_id": "ChIJe2e8x_lZwokR1n-v9-lYq_I"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -73.9510453,
           40.7274702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Venta Bar El Toro",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "A venta (centuries-old Andalusian roadside inn — not a restaurant, it's their home). No reservations. Show up; sometimes open, sometimes not. José Andrés drives 200km for it.\n\nOrder: huevos estrellados / benaltoro — eggs fried in olive oil over soft-fried potatoes, topped with morcilla, stewed pork, chorizo, jamón, sautéed onions. Eggs from chickens on the property (same-day). Drink with beer or Manzanilla.",
+        "secondary_tags": "venta, no-reservations, eggs, andalusia",
+        "city": "Vejer de la Frontera",
+        "google_place_id": "ChIJ7eMPxudFDA0RZqy-PpovbDQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9739272,
+          36.2680442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bell's Brooklyn Bagels & Bialys",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Bialy and bagel wholesaler in Oceanside LI; bialys sold fresh in their bakery and widely available frozen in grocery stores — typically the best accessible option",
+        "secondary_tags": "bakery",
+        "city": "Oceanside NY",
+        "google_place_id": "ChIJmZTgLu9cwokR2rDjCgxuKG0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6535732,
+          40.6293988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marvel Frozen Dairy",
+        "category": "Dessert",
+        "description": "Old-school ice cream shop; opened an Astoria outpost around 2022.",
+        "secondary_tags": "ice cream",
+        "city": "NYC",
+        "google_place_id": "ChIJJfq3h91fwokR5uO9RJJVdus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.916205,
+          40.7647791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Soosanghan BBQ",
+        "category": "Meal",
+        "description": "Korean BBQ. Recommended: kotdaeji (dry-aged pork) and myeol jeot (fermented anchovy fish sauce).",
+        "secondary_tags": "korean bbq; kotdaeji; myeol jeot; dry-aged pork",
+        "city": "NYC",
+        "google_place_id": "ChIJ94xLvhr3wokRSn8a7bsDjvs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9996599,
+          40.8462285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Poemo Art",
+        "category": "Activities",
+        "description": "Gen Z gift shop",
+        "secondary_tags": "gift-shop; shopping",
+        "city": "NYC",
+        "google_place_id": "ChIJMy4Pa1xZwokRqVXTzUafMJc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9865104,
+          40.7226959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baohaus",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Eddie Huang's Taiwanese/Chinese bao spot, reopened on St. Marks Place with a fuller menu blending his Taiwanese/Chinese roots with newer Italian/Mediterranean influences. Birdhaus Bao (fried chicken, $16/2) is back; standout new dish is ma po gnocchi ($29) — gnocchi treated like Korean rice cakes in a Sichuan-peppercorn sauce with Iberico pork and torched mozzarella.",
+        "secondary_tags": "Taiwanese; bao; Eddie Huang; East Village",
+        "city": "NYC",
+        "google_place_id": "ChIJ614hVBpZwokRiU-yPvA-o7k"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9845869,
+          40.7274705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Huli Huli Hawaiian Rotisserie",
+        "category": "Meal",
+        "signal": "High",
+        "description": "$14 rotisserie chicken plate lunch from the team behind Noreetuh: leg and thigh over ginger-shiitake rice, crunchy salad, choice of side, and sauce. Get the Hawaiian mac salad + umami scallion sauce.",
+        "secondary_tags": "Hawaiian; rotisserie chicken; plate lunch; takeout; Noreetuh team",
+        "city": "NYC",
+        "google_place_id": "ChIJjadZdyhZwokRVDLSeJj69ms"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9849,
+          40.7199574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maqluba Bay Ridge",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Palestinian/Middle Eastern spot in Bay Ridge. Goat maqluba (upside-down rice, meat, and vegetable dish) must be pre-ordered a few hours to a day in advance.",
+        "secondary_tags": "Palestinian; Middle Eastern; maqluba; goat; pre-order required; Bay Ridge",
+        "city": "NYC",
+        "google_place_id": "ChIJ9dbpMN9FwokR0u7CNqGn9KA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0264007,
+          40.6341254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Warude (Crown Heights)",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Ital (Rastafarian-philosophy)-influenced healthy Japanese home cooking from a husband-wife team (Yuichi + Hiroko Iida) — organic rice bowls, Japanese curry, ramen, and freestyle tacos; Osaka family recipes. Curry reviews mixed: good separate packaging to avoid sogginess, flavorful vegan option, but some found sauce too thick / not enough fish for the price.",
+        "secondary_tags": "japanese; ital; rastafarian-influenced; curry; ramen; tacos; organic; healthy",
+        "city": "NYC",
+        "google_place_id": "ChIJJekiITlbwokRDkI450MTV8A"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9505166,
+          40.6726843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Warude (Bed-Stuy)",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Ital (Rastafarian-philosophy)-influenced healthy Japanese home cooking from a husband-wife team (Yuichi + Hiroko Iida) — organic rice bowls, Japanese curry, ramen, and freestyle tacos; Osaka family recipes. Original/flagship location.",
+        "secondary_tags": "japanese; ital; rastafarian-influenced; curry; ramen; tacos; organic; healthy",
+        "city": "NYC",
+        "google_place_id": "ChIJD4Pkzo1bwokRT8tURQ6KU68"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94396,
+          40.6843695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wok Wok Malaysian Cuisine",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Malaysian/Southeast Asian spot in Chinatown (11 Mott St) from chef Erik Cheah — Penang-born, interned at Per Se under Jonathan Benno, previously ran the Love Mamak food cart (2013 Vendy nominee). Penang street-food-inspired menu: nasi lemak, laksa, mee goreng.",
+        "secondary_tags": "malaysian; southeast-asian; chinatown; per-se-alum; street-food",
+        "city": "NYC",
+        "google_place_id": "ChIJ___DlCZawokRHb_wCTtIQPQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9988387,
+          40.7140559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ANDAMIRO",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Gukbap specialist.",
+        "secondary_tags": "korean; gukbap",
+        "city": "NYC",
+        "google_place_id": "ChIJOSgy3YZbwokRCijWwUr1S5o"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9822439,
+          40.6744225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mercato Trionfale",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Katie Parla's favorite Rome market -- farmers' stalls (look for the ALBO PRODUTTORI AGRICOLI banners), great butchers, fishmongers. Just north of the Vatican Museums entrance, close to the hotel. She runs a Prati & Trionfale Food Tour here.",
+        "secondary_tags": "market; shopping; katie parla; near hotel",
+        "city": "Rome",
+        "google_place_id": "ChIJE54gTGJgLxMR19XB9nfJEF8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4526103,
+          41.9095957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mercato di Testaccio",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Katie Parla's other favorite market, with real in-market dining: Mordi e Vai (sandwiches), Artenio (pizzette/baked goods), Casa Manco (pizza by the slice), Sartor (meat), Da Corrado (wine and cheese).",
+        "secondary_tags": "market; shopping; meal; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJB-6b3zFgLxMR7R-kXLa_VYw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4738455,
+          41.8776845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stefano Ferrara Gelato Lab",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Katie Parla gelato pick. currently moving locations, per Katie Parla 2024.",
+        "secondary_tags": "gelato; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJ-4geDQCLJRMRqitPP25_yzU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4725196,
+          41.8645099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Otaleg",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Katie Parla gelato pick.",
+        "secondary_tags": "gelato; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJ9Y5rI7KKJRMRs5I2u26nGM8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4704701,
+          41.8881248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Il Gelato di Claudio Torce'",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Katie Parla gelato pick.",
+        "secondary_tags": "gelato; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJHYPT58xhLxMRY-4ppyv4BNs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4857652,
+          41.8814305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gori",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Katie Parla gelato pick.",
+        "secondary_tags": "gelato; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJ25kpjPtjLxMRQONMexNo3AA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5361566,
+          41.9348941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fatamorgana",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Katie Parla gelato pick.",
+        "secondary_tags": "gelato; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJk76GTrBhLxMRI8p6TBaZ8e8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4932505,
+          41.8956656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fior di Luna",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Katie Parla gelato pick.",
+        "secondary_tags": "gelato; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJzRMkAEhgLxMRNe0Dejg6zd8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.472587,
+          41.889627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Neve di Latte",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Katie Parla gelato pick. new branch on Via dei Banchi Vecchi opened 2022.",
+        "secondary_tags": "gelato; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJwbeSFCFhLxMRTujEZMSUxGg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.467773,
+          41.8976025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al Settimo Gelo",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Katie Parla gelato pick.",
+        "secondary_tags": "gelato; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJ05IB1PJgLxMRnhyT_XhLbkE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4612571,
+          41.9180667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gelateria dei Gracchi",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Katie Parla gelato pick. in Prati, near the hotel.",
+        "secondary_tags": "gelato; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJC-uDrVhgLxMRr3_nDqXRwcw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4669855,
+          41.9091954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Regoli",
+        "category": "Cafe",
+        "signal": "High",
+        "description": "Century-old pasticceria, excellent traditional Roman pastries. Katie Parla pick.",
+        "secondary_tags": "pastry; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJC978ZrthLxMRzYBNfksMM4A"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5009492,
+          41.8948172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Roscioli Caffe'",
+        "category": "Cafe",
+        "signal": "High",
+        "description": "Excellent traditional Roman pastries. Katie Parla pick.",
+        "secondary_tags": "pastry; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJZ846zUhgLxMRzdyZ615Fc4Q"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4744403,
+          41.8941457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Faro",
+        "category": "Cafe",
+        "signal": "High",
+        "description": "Great coffee, near Piazza Fiume. Katie Parla pick.",
+        "secondary_tags": "coffee; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJO2OdIAlhLxMRV3acpzJo9ls"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4983926,
+          41.9101512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Love",
+        "category": "Cafe",
+        "signal": "High",
+        "description": "Great coffee, in Trionfale near the market. Katie Parla pick.",
+        "secondary_tags": "coffee; katie parla; near hotel",
+        "city": "Rome",
+        "google_place_id": "ChIJnXw_1rZhLxMR47ByWoa6Vsc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4520539,
+          41.9092336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pergamino",
+        "category": "Cafe",
+        "signal": "High",
+        "description": "Great coffee, near the Vatican Museums. Katie Parla pick.",
+        "secondary_tags": "coffee; katie parla; near hotel",
+        "city": "Rome",
+        "google_place_id": "ChIJt8oASGFgLxMR14WNPCt_G7c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4566024,
+          41.9066009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "C'e' Pasta...e Pasta",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Roman Jewish classics served cafeteria-style. Katie Parla pick.",
+        "secondary_tags": "jewish; casual; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJk9hVxyZgLxMRG--Sa5ZZvYM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4678045,
+          41.8741721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Casalino",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Kosher, in the Ghetto, nice fried things and pastas. Katie Parla pick.",
+        "secondary_tags": "jewish; kosher; casual; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJVd3Z1qxhLxMRv8fKCJW3eBo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4770248,
+          41.8931696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bulzoni",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Katie Parla favorite wine bar.",
+        "secondary_tags": "wine bar; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJL7b60BhhLxMRQOjYVv2rVs0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4904684,
+          41.924484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Il Goccetto",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Katie Parla favorite wine bar.",
+        "secondary_tags": "wine bar; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJKSl5hkRgLxMRPAPQP8e3xpw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4673106,
+          41.8977936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beppe e I Suoi Formaggi",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Katie Parla favorite wine bar. Ghetto location also serves wine and other food; skip the cured meats, per KP.",
+        "secondary_tags": "wine bar; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJBSyIOklgLxMRKMo8b9mCL3c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5013186,
+          41.8814549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sorso",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Katie Parla favorite wine bar.",
+        "secondary_tags": "wine bar; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJcU0iDIaKJRMR00F12uwnYaI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4786459,
+          41.8604993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Mescita",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Katie Parla favorite wine bar. KP explicitly warns: do not eat the food there, wine only.",
+        "secondary_tags": "wine bar; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJo3bi7n2KJRMRxqjt31VchNw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4848376,
+          41.8629911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Enoteca Il Piccolo",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Katie Parla favorite wine bar.",
+        "secondary_tags": "wine bar; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJbxMFaUVgLxMR3KnnNgap2wg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4715626,
+          41.89809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Latteria",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Katie Parla favorite wine bar. Trastevere; also does cocktails, a KP go-to for aperitivo.",
+        "secondary_tags": "wine bar; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJvebkaUdgLxMRNMTtJMD4S2o"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.468077,
+          41.8908221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bar Bozza",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Katie Parla favorite wine bar.",
+        "secondary_tags": "wine bar; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJgx57OCGLJRMR9SQZqrco7nI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4794448,
+          41.8628524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "L'Angolo Divino",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Katie Parla favorite wine bar.",
+        "secondary_tags": "wine bar; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJc3z__kVgLxMRdvQSySCW5wg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4721626,
+          41.8946373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bottega Liberati",
+        "category": "Activities",
+        "signal": "High",
+        "description": "\"The city's greatest butcher\" per Katie Parla.",
+        "secondary_tags": "shopping; butcher; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJo3rZRdiJJRMRdZlWUI2MNNc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5622535,
+          41.8583259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Tradizione",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Cheese (especially Pecorino Romano), salted anchovies, olive oil, dried pasta -- they vacuum-seal for air travel. Katie Parla pick. Note: meat products can't be brought into the US.",
+        "secondary_tags": "shopping; pantry; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJ7-Wwh3xgLxMRLKZV8k_hJ5M"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4470066,
+          41.9077184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Costantini",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Spirits shop, especially good for amari. Katie Parla pick.",
+        "secondary_tags": "shopping; wine; spirits; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJdw_J9hNiLxMRcoZfIQv8GqM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.548666,
+          41.8758951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trimani",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Wine and spirits shop. Katie Parla pick.",
+        "secondary_tags": "shopping; wine; spirits; katie parla",
+        "city": "Rome",
+        "google_place_id": "ChIJw_RJ-wlhLxMRnz6NiI2fGAw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.500346,
+          41.906221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dar Filettaro a Santa Barbara",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Campo de' Fiori -- THE filetti di baccalà spot, Katie Parla-cited.",
+        "secondary_tags": "casual; street food; rome food.md research",
+        "city": "Rome",
+        "google_place_id": "ChIJkXxQSU9gLxMRrWZIZMIfex0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.473683,
+          41.894683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trapizzino Testaccio",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Original location, Via Branca 88 -- pizza pocket + Roman braise, chicken cacciatore is the must.",
+        "secondary_tags": "casual; street food; rome food.md research",
+        "city": "Rome",
+        "google_place_id": "ChIJr1tH4C9gLxMRzK6xvJtvx-A"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4736352,
+          41.8796102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Antico Forno Roscioli",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Pizza rossa/bianca, a Rome classic.",
+        "secondary_tags": "casual; street food; rome food.md research",
+        "city": "Rome",
+        "google_place_id": "ChIJH7zhM09gLxMRE7MrwkvC6e8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4742778,
+          41.8945667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pizzarium (Bonci)",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Pizza al taglio institution, go after the lunch rush ~4pm to skip the line.",
+        "secondary_tags": "casual; street food; rome food.md research",
+        "city": "Rome",
+        "google_place_id": "ChIJr76feHtgLxMRSpUk8Ed4h24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4466709,
+          41.9066758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Supplizio",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Supplì, potato croquettes, fried pastry cream -- Katie Parla-profiled.",
+        "secondary_tags": "casual; street food; rome food.md research",
+        "city": "Rome",
+        "google_place_id": "ChIJ0expikRgLxMRKURtjxS0dDc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.467911,
+          41.897487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "I Supplì",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Gambero Rosso's own \"best supplì\" roundup pick.",
+        "secondary_tags": "casual; street food; rome food.md research",
+        "city": "Rome",
+        "google_place_id": "ChIJiVCg0jlgLxMR_FKfgfyzbS4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4717456,
+          41.8871466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pasticceria Il Boccione",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Ghetto, 1815 -- ricotta-cherry crostata, tiny window, no signage.",
+        "secondary_tags": "casual; street food; rome food.md research",
+        "city": "Rome",
+        "google_place_id": "ChIJQZsHR0lgLxMRxMojow0zSI4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4771699,
+          41.8931429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sant'Eustachio Il Caffe'",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Historic cafe, Slow Food Presidia-sourced coffee.",
+        "secondary_tags": "casual; street food; rome food.md research",
+        "city": "Rome",
+        "google_place_id": "ChIJF4C_0k9gLxMR2LL_-I4HSWU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4754254,
+          41.8982749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tazza d'Oro",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Historic cafe, Gambero Rosso bar-guide coverage.",
+        "secondary_tags": "casual; street food; rome food.md research",
+        "city": "Rome",
+        "google_place_id": "ChIJxY4y7lFgLxMRTCTRu-sodxk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4773862,
+          41.8994973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Torce'",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Gambero Rosso Tre Coni gelato, pioneer of Rome's natural-gelato movement -- go to Parioli/Aventino not the EUR flagship.",
+        "secondary_tags": "gelato; rome food.md research",
+        "city": "Rome",
+        "google_place_id": "ChIJi5cy7wOLJRMR1GbwfbXDAj4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4763698,
+          41.8327896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Gourmandise",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Monteverde Vecchio -- \"most thoughtful gelato in town\" per Katie Parla.",
+        "secondary_tags": "gelato; rome food.md research",
+        "city": "Rome",
+        "google_place_id": "ChIJGR6OjCJgLxMRWrQeGfnPsmo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4622543,
+          41.878961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Il Cannolo Siciliano",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Founder is a 2020 world gelato champion.",
+        "secondary_tags": "gelato; rome food.md research",
+        "city": "Rome",
+        "google_place_id": "ChIJ6YHTqSRiLxMRJQVAKDASATc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5407237,
+          41.8868855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gelateria Il Capriccio di Carla",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Monti -- strong aggregate signal (Google 4.8), no named critic yet.",
+        "secondary_tags": "gelato; rome food.md research",
+        "city": "Rome",
+        "google_place_id": "ChIJRZFofq9hLxMRJ9nFM4r52fY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4951793,
+          41.8995799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Da Corrado al Banco 18",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Testaccio Market -- natural/low-intervention wines, 8 stools, Katie Parla pick.",
+        "secondary_tags": "wine bar; rome food.md research",
+        "city": "Rome",
+        "google_place_id": "ChIJVXHYaABhLxMRDqfq2svsFns"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4738455,
+          41.8776845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mosto'",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Flaminio -- pet-nat selection, Katie Parla pick.",
+        "secondary_tags": "wine bar; rome food.md research",
+        "city": "Rome",
+        "google_place_id": "ChIJlwBPbsaKJRMRP0B04vv7JFU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4510777,
+          41.8486936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Il Sori'",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "San Lorenzo -- small/intimate, healthy 2025 expansion.",
+        "secondary_tags": "wine bar; rome food.md research",
+        "city": "Rome",
+        "google_place_id": "ChIJOwxBLpphLxMRuoz07FiK75w"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5131786,
+          41.8969739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rimessa Roscioli",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "2,800-label cellar, structured tastings -- bookable for ~10 with advance notice, best full-group wine experience found in Rome.",
+        "secondary_tags": "wine bar; rome food.md research",
+        "city": "Rome",
+        "google_place_id": "ChIJsRjmt1pgLxMRwCL0zMhHdsk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.47277,
+          41.8927125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Necci dal 1924",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Pigneto -- Pasolini's old haunt, large patio, works for both couple- and group-scale.",
+        "secondary_tags": "wine bar; rome food.md research",
+        "city": "Rome",
+        "google_place_id": "ChIJF9GzXSdiLxMRQC104lZsRRU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5302305,
+          41.889073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Freni e Frizioni",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Trastevere -- Europe's 50 Best Bars 2026 #31.",
+        "secondary_tags": "wine bar; rome food.md research",
+        "city": "Rome",
+        "google_place_id": "ChIJS0bh60dgLxMR5n3lh9HtPt8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4707561,
+          41.8913492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cavour 313",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Katie Parla pick, small-group fit.",
+        "secondary_tags": "wine bar; rome food.md research",
+        "city": "Rome",
+        "google_place_id": "ChIJix9057NhLxMROgohl9fgeo0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4891347,
+          41.8938009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vineria Risorgimento",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Slow Food 2025 pick.",
+        "secondary_tags": "wine bar; rome food.md research",
+        "city": "Rome",
+        "google_place_id": "ChIJhZp_Wo9hLxMRLeSiK8qqeS4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4566031,
+          41.9066026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sergio Pollini / Tripperia Pollini",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Lampredotto cart, Stanley Tucci-cited (Nat Geo), away from tourist crowds.",
+        "secondary_tags": "street food; lampredotto; florence",
+        "city": "Florence",
+        "google_place_id": "ChIJUX9gKg9UKhMRpGlN9NhzKZo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.266461,
+          43.7713471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Locale Firenze",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "World-class cocktail bar -- #22 on The World's 50 Best Bars 2026. Food program is secondary/non-starred; treat as a cocktail stop, not a dinner destination. Palazzo Concini, 13th-c cellars.",
+        "secondary_tags": "cocktail bar; florence",
+        "city": "Florence",
+        "google_place_id": "ChIJg0T1mgZUKhMRp59MjreQ_7w"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2600055,
+          43.7712135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DivinPeccato",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Panicale ~15min -- best hill-town aperitivo, taglieri.",
+        "secondary_tags": "enoteca; villa area; umbria",
+        "city": "Trasimeno / Umbria",
+        "google_place_id": "ChIJM_eKRNKtLhMRmI-tGOLUMk0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.07108,
+          43.0223122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "L'Angolo del Buongustaio",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Castiglione del Lago ~10min -- enoteca-bistro + torta al testo.",
+        "secondary_tags": "enoteca; villa area; umbria",
+        "city": "Trasimeno / Umbria",
+        "google_place_id": "ChIJQRhFCD1VKRMRwGD_FRZ7nqw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0511182,
+          43.1269734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wine Bar 13",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Passignano ~15min -- best lakeside view.",
+        "secondary_tags": "enoteca; villa area; umbria",
+        "city": "Trasimeno / Umbria",
+        "google_place_id": "ChIJ4W7wZQoBLBMRdbpqpJcdtKA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1368997,
+          43.1832511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cacio Brillo / Enotria",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Cortona.",
+        "secondary_tags": "enoteca; villa area; umbria",
+        "city": "Trasimeno / Umbria",
+        "google_place_id": "ChIJx_KZ6IH5KxMRFctBFr5zNN0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9850379,
+          43.275233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Opificio 16",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Montepulciano.",
+        "secondary_tags": "enoteca; villa area; umbria",
+        "city": "Trasimeno / Umbria",
+        "google_place_id": "ChIJIc4NtxZcKRMRMoElK_rhyzg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7802643,
+          43.092025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Winebar 491",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Pienza.",
+        "secondary_tags": "enoteca; villa area; umbria",
+        "city": "Trasimeno / Umbria",
+        "google_place_id": "ChIJ4xxrrqBnKRMRdhzRqgIQucU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6775318,
+          43.0774643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cantina del Saltapicchio",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Citta' della Pieve.",
+        "secondary_tags": "enoteca; villa area; umbria",
+        "city": "Trasimeno / Umbria",
+        "google_place_id": "ChIJsSxjckdMKRMRKpxNFsWQrro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0043439,
+          42.9537157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bottega del Vino / Vivace",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Perugia.",
+        "secondary_tags": "enoteca; villa area; umbria",
+        "city": "Trasimeno / Umbria",
+        "google_place_id": "ChIJ9yDx2oCgLhMR38-z8_whAZ0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.389887,
+          43.1127368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Laguna Blu",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Castiglione del Lago, lake-view pizza.",
+        "secondary_tags": "casual; villa area; umbria",
+        "city": "Trasimeno / Umbria",
+        "google_place_id": "ChIJvY7R0D1VKRMR57XqeeUcjSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0573158,
+          43.1254196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sette Rioni",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Perugia -- best wood-fired pizza.",
+        "secondary_tags": "casual; villa area; umbria",
+        "city": "Trasimeno / Umbria",
+        "google_place_id": "ChIJV1WarYimLhMRL4ClUMcFscU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3060709,
+          43.0593987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pizzeria Linda",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Montepulciano.",
+        "secondary_tags": "casual; villa area; umbria",
+        "city": "Trasimeno / Umbria",
+        "google_place_id": "ChIJX7JBJRtcKRMRPByAu3582bk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7858734,
+          43.098146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Faliero (\"da Maria\")",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Magione ~15-20min -- THE torta al testo destination, Gambero Rosso-covered.",
+        "secondary_tags": "casual; villa area; umbria",
+        "city": "Trasimeno / Umbria",
+        "google_place_id": "ChIJr_7KTBOpLhMR2lvza0_1MwY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1860008,
+          43.0871069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Testone / Cukuc",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Perugia -- torta al testo, build-your-own.",
+        "secondary_tags": "casual; villa area; umbria",
+        "city": "Trasimeno / Umbria",
+        "google_place_id": "ChIJ58_QgN6gLhMRMmyLGGid3AU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3649346,
+          43.0755897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ristorante da Settimio",
+        "category": "Meal",
+        "signal": "High",
+        "description": "San Feliciano -- frittura di lago.",
+        "secondary_tags": "casual; villa area; umbria",
+        "city": "Trasimeno / Umbria",
+        "google_place_id": "ChIJKR8BZImpLhMREqu-GXMixTg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1662851,
+          43.1178115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al Sottobosco",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Magione -- bruschette al tartufo.",
+        "secondary_tags": "casual; villa area; umbria",
+        "city": "Trasimeno / Umbria",
+        "google_place_id": "ChIJSUGIwIcCLBMRceVHzKvyC24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2105971,
+          43.1446902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bebop",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Castiglione del Lago gelato.",
+        "secondary_tags": "gelato; pastry; villa area; umbria",
+        "city": "Trasimeno / Umbria",
+        "google_place_id": "ChIJTVwajhNVKRMRStmEj2YqLHw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.042576,
+          43.1319568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gambrinus",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Perugia, artisanal gelato.",
+        "secondary_tags": "gelato; pastry; villa area; umbria",
+        "city": "Trasimeno / Umbria",
+        "google_place_id": "ChIJq6pui4agLhMRvSwSv4bOWy0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3878046,
+          43.1100512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dolce Vita / Snoopy",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Cortona gelato.",
+        "secondary_tags": "gelato; pastry; villa area; umbria",
+        "city": "Trasimeno / Umbria",
+        "google_place_id": "ChIJ8eXmNd_7KxMRS6HCvImZyxo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9852998,
+          43.2754648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pasticceria Sandri",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Perugia, since 1860 -- a destination cafe.",
+        "secondary_tags": "gelato; pastry; villa area; umbria",
+        "city": "Trasimeno / Umbria",
+        "google_place_id": "ChIJqROx3IagLhMRmiyAwuFd0jM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3886752,
+          43.1111401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al Timon",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Cannaregio, Fondamenta degli Ormesini — MC + Gambero Rosso top-4 bacari. Canal-boat seating along the fondamenta. Arrive 18:00–19:30 for a canal-side spot before it fills. Order: an ombra (small glass, ask what's open), baccalà mantecato on crostini, polpette if they have them. The format is stand-and-graze, not table service — grab a glass, take a crostino, move along the counter. Best anchor for the sunset hour.",
+        "secondary_tags": "bacaro; cicchetti; venice",
+        "city": "Venice",
+        "google_place_id": "ChIJWdZxAOqxfkcRUkF0JflPDf4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3284179,
+          45.4455545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vino Vero",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Cannaregio -- natural wine, 3 min from Al Timon.",
+        "secondary_tags": "bacaro; cicchetti; venice",
+        "city": "Venice",
+        "google_place_id": "ChIJ5bseOt2xfkcRgnQ5c7O4fDU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3330828,
+          45.4440594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alla Vedova",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Cannaregio (Calle del Pistor, near Ca' d'Oro) — Gambero Rosso top-4 bacari. Order: polpette (the meatball — this is the benchmark, recipe unchanged for decades, fried to order). Now needs a reservation for dinner; the demand signal is the quality signal. Get here early in the cicchetti window (11:30am or 18:00) before the polpette sell out.",
+        "secondary_tags": "bacaro; cicchetti; venice",
+        "city": "Venice",
+        "google_place_id": "ChIJkf4YWuqxfkcR_DnQplVeEpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3345202,
+          45.4413942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cantine del Vino gia' Schiavi",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Dorsoduro (Fondamenta Nani, near the Accademia) — Gambero Rosso top-4, 19th-century enoteca. The most inventive cicchetti counter in Venice. Order: tuna-cacao tartare crostino (the signature, genuinely unusual), baccalà mantecato, whatever looks freshest on the counter. Buy a glass, grab crostini off the marble slab. No seating — eat standing at the canal edge.",
+        "secondary_tags": "bacaro; cicchetti; venice",
+        "city": "Venice",
+        "google_place_id": "ChIJ1cr93M2xfkcRSIXXQKsP8Jw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3267112,
+          45.4309335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Osteria Al Portego",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Castello (Calle della Malvasia) — Slow Food Osterie d'Italia Chiocciola. Order: sarde in saor (sweet-sour sardines with onion, raisin, pine nut — the quintessential Venetian cicchetto, this version is a benchmark). Also: polenta e baccalà, seasonal crostini. Vibrant, always busy, warm service even in the rush. The Castello alternative to the Cannaregio crawl circuit.",
+        "secondary_tags": "bacaro; cicchetti; venice",
+        "city": "Venice",
+        "google_place_id": "ChIJlzWCISaufkcRqk1dWnSeTEU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3385466,
+          45.4382342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Basego'",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "San Polo (Calle dei Saoneri) — MC's personal top pick. Newer (~2023), quiet, genuinely local. Small-producer and natural wines; the wine list changes constantly. Order: a glass of whatever the barman suggests — the wine is entirely the point here. Cicchetti are secondary but good. Come for a slower, less-crowded alternative to the Rialto circuit.",
+        "secondary_tags": "bacaro; cicchetti; venice",
+        "city": "Venice",
+        "google_place_id": "ChIJ1a6wzMWxfkcRRTrEAcfMsX4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3523099,
+          45.4322579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "El Sbarlefo",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Two locations: Cannaregio (Salizada San Canciano) + Dorsoduro. Order: baccalà mantecato on white polenta (the house signature), the 'Cinico' cocktail (their own, named for the bitter/sardonic Venetian character). Good if you want a proper cocktail alongside cicchetti rather than just wine.",
+        "secondary_tags": "bacaro; cicchetti; venice",
+        "city": "Venice",
+        "google_place_id": "ChIJVclrXdyxfkcR-8Lpw0cWQfo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3365692,
+          45.4410541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "All'Aciugheta",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Near San Marco (Campo SS. Filippo e Giacomo) — Gambero Rosso top-4 bacari. Order: egg-and-anchovy crostino (the classic, the name means 'little anchovy'), baccalà mantecato. No detour if already near San Marco for Doge's Palace / Basilica — it's literally on the walking line. Pass-by, not destination.",
+        "secondary_tags": "bacaro; cicchetti; venice",
+        "city": "Venice",
+        "google_place_id": "ChIJiWB1GtixfkcRrDv1BlczvMk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3416451,
+          45.4352047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "All'Arco",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "San Polo (Calle dell'Arco, just off the Rialto) — Venezia Autentica pick. Real 2025-2026 hype-backlash: go, but temper expectations. Order: whatever's on the counter that day — ingredients are genuinely good, execution can be inconsistent under the rush. Come 11:30–12:30 when it's freshest and before the tourist wave hits.",
+        "secondary_tags": "bacaro; cicchetti; venice",
+        "city": "Venice",
+        "google_place_id": "ChIJTfEoE9uxfkcRnVXNGeYobk8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3340577,
+          45.438892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cantina Do Mori",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "San Polo/Rialto (Calle Do Mori) — oldest bacaro in Venice (1462). Casanova's haunt. Cramped, no on-site bathroom, low ceilings, antique copper pots hanging overhead. Order: ombra + whatever cicchetti are behind the glass (meatballs, baccalà, seasonal). Come for the atmosphere and the history, not for the most inventive cicchetti — the room is the experience.",
+        "secondary_tags": "bacaro; cicchetti; venice",
+        "city": "Venice",
+        "google_place_id": "ChIJlWdkbtuxfkcRW7j8FYLV8_g"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3340309,
+          45.438995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bacareto da Lele",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Santa Croce (Fondamenta dei Tolentini, near the train station) — cheapest eat in Venice. €1–2 sandwiches, €1 wine. Order: a folded white-bread sandwich (whatever's on the board) and an ombra. Closes early evening — this is a morning/lunch stop only, never dinner. The clientele is local workers, students, regulars. No pretense.",
+        "secondary_tags": "bacaro; cicchetti; venice",
+        "city": "Venice",
+        "google_place_id": "ChIJ0yd0YQCxfkcR_VmSRFXG0PA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3212678,
+          45.4375571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ca' Select",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Cannaregio — bar built inside the actual 1920 production home of Select Aperol, the original Venice aperitivo bitter. Order: a Select spritz (not Aperol — this is where Select is from; the two are different drinks). Genuinely unrepeatable elsewhere.",
+        "secondary_tags": "bacaro; cicchetti; venice",
+        "city": "Venice",
+        "google_place_id": "ChIJYYAI_4CxfkcRaZgGW52ro9w"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3329516,
+          45.4459154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Torrefazione Cannaregio",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Cannaregio (Fondamenta dei Ormesini 2804) — self-roasting coffee bar since 1930s. MC's pick as the real local-vs-tourist coffee alternative to Caffè Florian. Order: espresso (roasted on-site, not a chain blend), cornetto if they have them. Mon–Sat ~6:50am–7:30pm. Sat breakfast anchor — on the walking line to Row Venice's Sacca della Misericordia meeting point, passing the laundry-strung canals.",
+        "secondary_tags": "bacaro; cicchetti; venice",
+        "city": "Venice",
+        "google_place_id": "ChIJka7tdpWxfkcRRJDdiS3-sYk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.327885,
+          45.4457284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gallonetto",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Gambero Rosso Due Coni, 3rd-gen, classics-forward.",
+        "secondary_tags": "gelato; pastry; venice",
+        "city": "Venice",
+        "google_place_id": "ChIJ5Q2F5CCxfkcRsUPH8_SeuWc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3393132,
+          45.4372522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Mela Verde",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Gambero Rosso Due Coni, fresh-fruit forward.",
+        "secondary_tags": "gelato; pastry; venice",
+        "city": "Venice",
+        "google_place_id": "ChIJx2dwkieufkcRW28W6ptu9uY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3440083,
+          45.4355981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Il Doge",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Campo Santa Margherita -- best overall pick, sits in the Dorsoduro bacaro-crawl zone.",
+        "secondary_tags": "gelato; pastry; venice",
+        "city": "Venice",
+        "google_place_id": "ChIJKX991s6xfkcRppMbFTupPW4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3240379,
+          45.4338559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Il Pinguino",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "\"Hard core clientele is local\" per Gambero Rosso's own writeup.",
+        "secondary_tags": "gelato; pastry; venice",
+        "city": "Venice",
+        "google_place_id": "ChIJCXvjDC-ufkcRvoOLjJR3SnU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3503159,
+          45.4323025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Suso",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Editorial mention + strong aggregate, popular/crowded.",
+        "secondary_tags": "gelato; pastry; venice",
+        "city": "Venice",
+        "google_place_id": "ChIJF1f31tuxfkcRRjR7GpgldoA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3374098,
+          45.4377263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pasticceria Tonolo",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Family-run since 1886, best pasticceria per aggregate/press reputation.",
+        "secondary_tags": "gelato; pastry; venice",
+        "city": "Venice",
+        "google_place_id": "ChIJycadUM-xfkcRq6u1DF0Z7LY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.325193,
+          45.435947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rialto Market crawl (Erberia + Pescaria)",
+        "category": "Activities",
+        "signal": "High",
+        "description": "1,000-year-old working market, Fri or Sat morning only, Pescaria closed Sun+Mon.",
+        "secondary_tags": "market; venice",
+        "city": "Venice",
+        "google_place_id": "ChIJW0Lx-_yxfkcRKRQZ2kfiIDE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3337524,
+          45.4396574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hosteria Grappolo d'Oro",
+        "category": "Meal",
+        "signal": "High",
+        "description": "LOCKED for Aug 4 dinner, party of 6, 9:30pm. Gambero Rosso Tre Gamberi + Slow Food Chiocciola + Michelin Bib Gourmand + Katie Parla endorsement.",
+        "secondary_tags": "confirmed; aug 4 dinner; rome",
+        "city": "Rome",
+        "google_place_id": "ChIJX-ZriEVgLxMREkFFzy20WyY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4722692,
+          41.8962819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tavernaccia Da Bruno",
+        "category": "Meal",
+        "signal": "High",
+        "description": "LOCKED for Aug 3 dinner, 9pm, Geoff+Ludia. Katie Parla pick, praised for treating tourists and regulars the same.",
+        "secondary_tags": "confirmed; aug 3 dinner; rome",
+        "city": "Rome",
+        "google_place_id": "ChIJ5Y80kyZgLxMRrdv5ES-c8gU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.468621,
+          41.8741173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trattoria dei 13 Gobbi",
+        "category": "Meal",
+        "signal": "High",
+        "description": "LOCKED for Aug 6 Florence dinner, 7:30pm confirmed.",
+        "secondary_tags": "confirmed; aug 6 dinner; florence",
+        "city": "Florence",
+        "google_place_id": "ChIJN60f96tWKhMRozpWCGYxYiU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2467751,
+          43.7723452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Osteria da Fiore",
+        "category": "Meal",
+        "signal": "Low",
+        "description": "STALE ENTRY — do not plan around. Lost Michelin star 2021; current independent reviews describe as 'faded fine dining' (Dissapore 2025/26, 7/10). Al Covo is the actual Sat dinner pick for this trip (same authentic-Venetian-seafood intent, current credentials). Kept for historical reference only.",
+        "secondary_tags": "venice dinner; michelin",
+        "city": "Venice",
+        "google_place_id": "ChIJSxH8ysWxfkcRKkDdrpnjTZc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3292758,
+          45.4386474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Agriturismo Baldeschi",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Fri 8/7 candidate: cooking class 16:30-20:30, doubles as dinner, capacity-capped at exactly 10 -- needs a Ludia conversation first.",
+        "secondary_tags": "villa; cooking class; candidate",
+        "city": "Trasimeno / Umbria",
+        "google_place_id": "ChIJO5ZXwr8ALBMR2hGtfgkj1zU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.093114,
+          43.206927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Madrevite",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Sat 8/8 candidate: sunset picnic 18:00-21:30. Confidence downgraded 2026-07-24 -- villa host Fede called the music \"cheesy,\" still \"a real fun night out.\"",
+        "secondary_tags": "villa; picnic; candidate",
+        "city": "Trasimeno / Umbria",
+        "google_place_id": "ChIJD9awM8hTKRMRhB1U0D5cb3c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0026168,
+          43.0515167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Melaleuca",
+        "category": "Cafe",
+        "signal": "High",
+        "description": "Australian cafe, great coffee and brunch, everything housemade (bacon, sourdough, cinnamon rolls). Emiko Davies pick.",
+        "secondary_tags": "coffee; brunch; emiko davies; florence",
+        "city": "Florence",
+        "google_place_id": "ChIJ6cfyHKBTKhMRdKr5wvAgDOc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2600596,
+          43.7668378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ditta Artigianale",
+        "category": "Cafe",
+        "signal": "High",
+        "description": "Specialty coffee, multiple locations across Florence. Emiko Davies pick.",
+        "secondary_tags": "coffee; emiko davies; florence",
+        "city": "Florence",
+        "google_place_id": "ChIJ-zHyTgdUKhMR7A4snCBn6Bg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2586342,
+          43.7681001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dini Caffe'",
+        "category": "Cafe",
+        "signal": "High",
+        "description": "Only coffee roastery in Florence's city center, family-run since 1939 by sisters Serena and Benedetta Nobili.",
+        "secondary_tags": "coffee; roastery; florence",
+        "city": "Florence",
+        "google_place_id": "ChIJQcjrg_ZTKhMRP94QSvndLZw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.269465,
+          43.7634989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mercato di Sant'Ambrogio",
+        "category": "Activities",
+        "signal": "High",
+        "description": "The authentic-local Florence market -- oldest still standing (1873), where Florentines actually shop, cheaper and less crowded than Mercato Centrale. Skip Mercato Centrale itself (polished food-hall, tourist-oriented, surrounded by leather/knick-knack vendors) in favor of this.",
+        "secondary_tags": "market; authentic; florence",
+        "city": "Florence",
+        "google_place_id": "ChIJYa1JLAlUKhMRi09aQ6yeiaE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.266913,
+          43.7705747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oltrarno / Santa Croce artisan district",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Independent leather workshops, family-run studios, handmade goods -- quieter and more local than the historic-center shopping. Florence's real leather-goods district (bags, wallets, belts, jackets).",
+        "secondary_tags": "shopping; leather; artisan; florence",
+        "city": "Florence",
+        "google_place_id": "ChIJe1LKsVVRKhMRMkl4x3GnPhk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.250063,
+          43.7651277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dalla Lidia Merletti d'Arte",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Burano -- genuinely hand-embroidered lace, refined craftsmanship.",
+        "secondary_tags": "shopping; lace; artisan; venice",
+        "city": "Venice",
+        "google_place_id": "ChIJSf1hQ1KsfkcR-Q1AHOHfZQw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4182644,
+          45.4849631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Materialmente",
+        "category": "Activities",
+        "signal": "High",
+        "description": "San Marco -- sculptural jewelry and objects in bronze, silver, glass, wood.",
+        "secondary_tags": "shopping; jewelry; glass; artisan; venice",
+        "city": "Venice",
+        "google_place_id": "ChIJFdAMJ9qxfkcRvoKNehDiE8s"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3370488,
+          45.4366048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sigfrido Cipolato",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Family workshop near the Rialto bridge -- authentic 17th-century jewelry-making techniques, each piece can take up to a month.",
+        "secondary_tags": "shopping; jewelry; artisan; venice",
+        "city": "Venice",
+        "google_place_id": "ChIJTS59stmxfkcRkk4sz9V6IT8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3336748,
+          45.4350859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wild Sorrel Cookbooks",
+        "category": "Activities",
+        "signal": "Low",
+        "secondary_tags": "cookbooks; shopping",
+        "city": "NYC",
+        "google_place_id": "ChIJSzWjtoRZwokRLqdQO25uMMQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9848079,
+          40.7310195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hyderabad House JC",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Best biryani / Hyderabadi specialist in JC, per Geoff.",
+        "secondary_tags": "indian; biryani; hyderabadi",
+        "city": "Jersey City",
+        "google_place_id": "ChIJc8cFpL9XwokRGBXli6EVp7k"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0558835,
+          40.7302777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rasoi",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Best of the \"classic\" Indian restaurant dishes in JC, per a sourced local rec (810 Newark Ave). Other JC spots specialize regionally -- order those elsewhere.",
+        "secondary_tags": "indian; classic",
+        "city": "Jersey City",
+        "google_place_id": "ChIJEeKl3y9XwokRXCC2Y0led9M"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0653764,
+          40.7357676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Masala Cafe Chettinad",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Tamil/Chettinad specialist in JC, per a sourced local rec (839 Newark Ave).",
+        "secondary_tags": "indian; tamil; chettinad",
+        "city": "Jersey City",
+        "google_place_id": "ChIJRzrfeuNXwokRQFXpMakuHLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0666622,
+          40.7356581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Golconda Chimney",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Hyderabadi specialist in JC, per a sourced local rec (806 Newark Ave) -- distinct from Hyderabad House JC, worth comparing.",
+        "secondary_tags": "indian; hyderabadi",
+        "city": "Jersey City",
+        "google_place_id": "ChIJo6kTIDBXwokRXM1RQlbJgG0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0652024,
+          40.7357835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sri Ganesh Dosa House",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "South Indian/dosa specialist in JC, per a sourced local rec (809 Newark Ave).",
+        "secondary_tags": "indian; south-indian; dosa",
+        "city": "Jersey City",
+        "google_place_id": "ChIJx_lBITBXwokR0ngOyMTeSUc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0653248,
+          40.7354964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Korai Kitchen",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Bengali/Bangladeshi specialist in JC, per a sourced local rec (576 Summit Ave) -- James Beard-nominated chef -- listing flags NO DINE-IN WITHOUT RESERVATIONS.",
+        "secondary_tags": "indian; bengali; bangladeshi",
+        "city": "Jersey City",
+        "google_place_id": "ChIJpTKzKzdXwokRBAdEPsANoRM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.059143,
+          40.733914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Szechaun Mirchi",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Indo-Chinese specialist in JC, per a sourced local rec (850 Newark Ave).",
+        "secondary_tags": "indian; indo-chinese",
+        "city": "Jersey City",
+        "google_place_id": "ChIJjZD4FIhXwokRPOrNbfU-e8k"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0672419,
+          40.7361367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al Covo",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Castello (Campiello della Pescaria 3968) — MC dedicated feature + EM (EAT VENICE) confirmed. Cesare Benelli's mission: rescue genuine Venetian lagoon cuisine from the tourist-lunch model. Two intimate rooms. Confirmed open Thu–Mon. Michelin Plate (possibly starred — sources conflict). Order: whatever the market delivered that day — ask, don't order off-menu instinct. Fritto misto and raw seafood preparations are the play. The kitchen is built around what's alive in the lagoon, not a fixed menu. Saturday dinner pick for this trip.",
+        "secondary_tags": "venice; dinner; seafood; michelin",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3438,
+          45.4351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al Nono Risorto",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Santa Croce (Sottoportego de Siora Bettina) — garden courtyard, ~€25–30pp. Confirmed open Thu–Sun (closed Mon–Wed). Sunday dinner pick for this trip. Order: seasonal Venetian menu, the garden in the evening is the setting. Not a showpiece restaurant — honest, local, relaxed after a full Sunday of sightseeing.",
+        "secondary_tags": "venice; dinner; garden",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3238,
+          45.4372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bacaro Jazz",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "San Marco/Rialto (Salizada del Fontego dei Tedeschi 5546) — walk-in bacaro since 1997, kitchen till 1am, bar till 2–3am. The only Venice option with a kitchen confirmed running at midnight — Friday late-arrival fallback for this trip. Order: spritz + whatever cicchetti are still going at that hour. Note: 12% table service charge + ~€20 minimum if seated. Some 'tourist trap' chatter but complaints are about the surcharge, not the food. Real local following alongside the tourists.",
+        "secondary_tags": "bacaro; cicchetti; late-night; venice",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3355,
+          45.438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al Mercà",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "San Polo (Campiello delle Becarie, Rialto fish market) — cicchetti counter serving Rialto market workers since 1918. Tiny, standing-only, no seats. Order: ombra + baccalà mantecato crostino or whatever's freshest behind the counter. Come before 12:30pm when the market is still live and the cicchetti are at their freshest. Natural anchor after the Rialto Pescaria walk — same piazzetta.",
+        "secondary_tags": "bacaro; cicchetti; venice; market",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3339,
+          45.4394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Acqua e Mais",
+        "category": "Meal",
+        "signal": "High",
+        "description": "San Polo (Campiello dei Meloni) — fried seafood cones, open daily 9am–8pm. Order: fritto misto cone — choose your mix (shrimp, calamari rings, small lagoon fish). Eat walking. €5–8 for a full cone. Venetians actually eat here, not just tourists — the polenta base makes it local rather than generic fried-fish.",
+        "secondary_tags": "venice; street food; fritto misto; seafood",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3352,
+          45.4368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pasticceria Rizzardini",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "San Polo (Campiello dei Meloni — same campiello as Acqua e Mais) — historic bakery. Open daily except Tuesdays. Order: zaleti (cornmeal-raisin cookies, a Venetian specialty), bussolà (ring-shaped butter biscuit), whatever cream pastry is fresh that morning. Frittelle are Carnevale-only (Feb) — don't look for them in August. The pastry case is the menu; point at what looks good.",
+        "secondary_tags": "venice; pastry; historic; dessert",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3353,
+          45.4368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bar Ai Nomboli",
+        "category": "Meal",
+        "signal": "High",
+        "description": "San Polo (Rio Terà dei Nomboli, near Frari) — tramezzini, Sat 7am–3pm only, closed Sunday. Order: tramezzini — Venetian soft white-bread triangles, €2–3 each. Classic fillings: prosciutto e formaggio, tonno e cipolla, gamberi e maionese. Saturday-morning-only window for this trip. Quick standing stop, not a sit-down meal.",
+        "secondary_tags": "venice; tramezzini; saturday only",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3268,
+          45.4368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bar Alla Toletta",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Dorsoduro (Calle della Toletta, near Accademia) — tramezzini, open daily 8am–7:30pm. The natural lunch-substitute during the Dorsoduro wander day. Order: tramezzini — pick 2–3 for a real lunch (€2–3 each). Low-key, local regulars, no tourist premium. No queue, no reservation, no ceremony.",
+        "secondary_tags": "venice; tramezzini; dorsoduro; lunch",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.328,
+          45.4318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Caffè Florian",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Piazza San Marco — open since 1720, Europe's oldest continuously-operating café. Do once despite touristy. Orchestra surcharge ~€6–7pp; a coffee with orchestra = ~€12–15pp. Order: espresso or hot chocolate; the caffè storico (house-blended coffee) if they offer it. The ritual — sitting at a marble table under the Procuratie Vecchie with the orchestra — is the thing, not the coffee itself. Open daily. Sunday breakfast anchor when Rosa Salva is closed.",
+        "secondary_tags": "venice; historic; café; san marco",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3388,
+          45.434
         ]
       }
     }
