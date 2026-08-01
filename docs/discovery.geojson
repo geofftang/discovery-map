@@ -46274,6 +46274,24 @@
           45.4265
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "El Sbarlefo San Pantalon",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Dorsoduro/San Polo border, Calle S. Pantalon 3757, near Campo San Pantalon. Third El Sbarlefo location (distinct from the Cannaregio and other Dorsoduro spots already on the map). Personal rec 2026-08-01: order the crostino con baccala mantecato (\"the best\"), and the polpette specifically the cacio e pepe and meat ones. Tiny room, just 6 tables, usually can't reserve -- go at or before 5pm for a real shot at a table.",
+        "secondary_tags": "bacaro; cicchetti; venice; dorsoduro; san-polo",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.326,
+          45.436
+        ]
+      }
     }
   ]
 }
