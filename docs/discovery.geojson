@@ -43995,7 +43995,7 @@
         "name": "Basego'",
         "category": "Drinks",
         "signal": "High",
-        "description": "San Polo (Calle dei Saoneri) — MC's personal top pick. Newer (~2023), quiet, genuinely local. Small-producer and natural wines; the wine list changes constantly. Order: a glass of whatever the barman suggests — the wine is entirely the point here. Cicchetti are secondary but good. Come for a slower, less-crowded alternative to the Rialto circuit. Address corrected 2026-08-02: San Polo 2863, Campo San Toma (NOT Calle del Scaleter, and NOT Castello -- Tripadvisor carries a mislabeled Castello listing that Google fuzzy-matches to; the real bacaro is ~5min from the Frari).",
+        "description": "Via Giuseppe Garibaldi 1762, CASTELLO (far-east Venice, near the Giardini/Biennale). MC-recommended cicchetti + cocktails; Tripadvisor ~4.6-4.7 across 500-870 reviews. RELOCATION CORRECTED 2026-08-02: Basego MOVED from its original Campo San Toma (San Polo 2863) address to Via Garibaldi, leaving the old San Polo site to a DIFFERENT venue now called \"Basegone.\" Monica Cesarato's recommendation and the NYT bacaro piece both describe the OLD San Polo location -- do not route to Campo San Toma expecting this place. Practical note: the new Castello address is ~500m / 7min walk from Al Covo, so it works as a pre-dinner stop on a Castello evening, NOT as a San Polo/Rialto daytime crawl stop.",
         "secondary_tags": "bacaro; cicchetti; venice",
         "city": "Venice",
         "google_place_id": "ChIJ1a6wzMWxfkcRRTrEAcfMsX4"
@@ -44003,8 +44003,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.327404,
-          45.4360471
+          12.3531181,
+          45.4322598
         ]
       }
     },
