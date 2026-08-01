@@ -46292,6 +46292,24 @@
           45.4356389
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gelateria Da Nico",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "('Zattere, Dorsoduro (Fondamenta Zattere 922). Opened 1937 by Giovanni \"Nico\" Causin, still run under the original name (current owners Maurizio Mutti and Valter Rossi took over early 2000s). Signature dish: the Gianduiotto -- a slab of gianduia (hazelnut-chocolate) gelato served in a glass, drowned in whipped cream and topped with more whipped cream. Eight euro, nine with black cherries added. Terrace suspended directly over the Giudecca Canal, real historic atmosphere -- was a regular haunt of Peggy Guggenheim (her home, now the Guggenheim Collection, is ~500m away). Open 7am-9pm, also does breakfast and aperitivo. CAVEAT 2026-08-02: real decline signal in current reviews -- genuinely mixed, some call the Gianduiotto \"tastes like Nutella, super good,\" others found it \"underwhelming-bland and flavourless.\" Go for the historic charm and canal-side terrace, not a guaranteed best-bite.',)",
+        "secondary_tags": "venice; dorsoduro; zattere; gelato; historic; mixed-signal",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3261443,
+          45.4296093
+        ]
+      }
     }
   ]
 }
