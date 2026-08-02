@@ -1082,24 +1082,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Aux Epices",
-        "category": "Meal",
-        "signal": "High",
-        "description": "French/Malaysian",
-        "city": "NYC",
-        "google_place_id": "ChIJRzod34lZwokRdV-hx_3qbk4"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.99889619999999,
-          40.7180161
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Spaghetti Incident",
         "category": "Meal",
         "signal": "High",
@@ -1335,24 +1317,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Momofuku Ko",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Has a la carte now\n\nbar menu:\nThe nose-clearing mustardy pickle sandwich costs $5. The so-weird-it-works cold fried chicken is $6 per piece (but, uh, get more than one piece). And the deliciously rich $45 duck pie can and should be split among a few friends. It’s like a tasting menu on your terms.\n✵ Order: foie gras–topped hamburger, pickle sandwich, sourdough crepes, duck pie, and cold fried chicken.",
-        "city": "NYC",
-        "google_place_id": "ChIJkXQ3_INZwokRcJD47PFAGvQ"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9916093,
-          40.7249493
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Randazzo's Clam Bar",
         "category": "Meal",
         "signal": "High",
@@ -1383,41 +1347,6 @@
         "coordinates": [
           -73.963421,
           40.677064
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Kyo Ya",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Very highly respected Kaiseki, get the 11 course (Largest)",
-        "city": "NYC",
-        "google_place_id": "ChIJATRXJJ1ZwokRHeym7v0u5qI"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9851958,
-          40.7266629
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Lupa Osteria Romana",
-        "category": "Meal",
-        "signal": "Low",
-        "city": "NYC",
-        "google_place_id": "ChIJcWrDA45ZwokRZnC4PCcrgPI"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0002058,
-          40.7276467
         ]
       }
     },
@@ -1802,25 +1731,6 @@
         "coordinates": [
           -74.00189859999999,
           40.7344879
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "29B Teahouse",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Tea House suggested by Bill Addison and Max Falkowitz\n\nRun by Shin Won-Yoon and her husband Stefen Ramirez, 29B is meant to be a social and interactive setting vs. a traditional tea ceremony, although they do try to keep the reverence close to Korean tea traditions. As tea dealers, they import a variety of single-origin, natural agriculture-conscious teas sourced from farms in Taiwan, Japan, India, China, and Korea where Won-Yoon is from. If you let them know what you’re in the mood for, they’ll curate an experience that will leave a lasting impression. There’s also a whole corner of the East Village shop dedicated to beautiful ceramics and glassware handcrafted by Japanese and Korean artists to peruse.",
-        "secondary_tags": "tea",
-        "city": "NYC",
-        "google_place_id": "ChIJ62Uew5hZwokRPSujS3cnorQ"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9828422,
-          40.7223962
         ]
       }
     },
@@ -2967,23 +2877,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "We Bagel",
-        "category": "Meal",
-        "signal": "Low",
-        "city": "NYC",
-        "google_place_id": "ChIJXSpf4WRZwokRoZmP-a-hVes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9505618,
-          40.744686699999995
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Centro Pizza Bar & Italian Kitchen",
         "category": "Meal",
         "signal": "Low",
@@ -3474,24 +3367,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Suzuki Shokudo",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Suzuki Shokudo is really special Japanese food run by a Japanese couple who retired from running their restaurant in the city, then missed it too much, and opened another as a passion project. It is phenomenal and has a great homecooking vibe: https://www.suzukishokudo.com/",
-        "city": "NYC",
-        "google_place_id": "ChIJWTq1bSxfwokRLhRYPklpnGQ"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9312983,
-          40.7534885
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Abuqir",
         "category": "Meal",
         "signal": "High",
@@ -3523,24 +3398,6 @@
         "coordinates": [
           -73.9216667,
           40.7636111
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Chela & Garnacha",
-        "category": "Meal",
-        "signal": "High",
-        "description": "mexican",
-        "city": "NYC",
-        "google_place_id": "ChIJpRK5SS5fwokRDnlaTx1qgYQ"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9276707,
-          40.7558028
         ]
       }
     },
@@ -3810,23 +3667,6 @@
         "coordinates": [
           -73.9403597,
           40.7480271
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "JACX & CO.",
-        "category": "Meal",
-        "signal": "Low",
-        "city": "NYC",
-        "google_place_id": "ChIJm1yyAxhZwokR-Kn6_4-6yEI"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9387376,
-          40.7489589
         ]
       }
     },
@@ -4915,23 +4755,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Baoburg",
-        "category": "Meal",
-        "signal": "Low",
-        "city": "NYC",
-        "google_place_id": "ChIJRZT7911ZwokRnsLwhRgjn7c"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9504321,
-          40.7234791
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Yetnal Tongdak",
         "category": "Meal",
         "signal": "High",
@@ -5018,25 +4841,6 @@
         "coordinates": [
           -73.9985598,
           40.7288765
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Court Street Grocers Hero Shop",
-        "category": "Meal",
-        "signal": "High",
-        "description": "broccoli Reuben, turkey club, pork roll breakfast sandwich, and a house-made celery soda.",
-        "secondary_tags": "light-food",
-        "city": "NYC",
-        "google_place_id": "ChIJ7XLDj4lawokRxE61isyiJ5U"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0130415,
-          40.678501399999995
         ]
       }
     },
@@ -5181,24 +4985,6 @@
         "coordinates": [
           -73.9960242,
           40.7137682
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Llama San",
-        "category": "Meal",
-        "signal": "High",
-        "description": "peruvian-japanese",
-        "city": "NYC",
-        "google_place_id": "ChIJ8youq41ZwokRqnnXghN1DIs"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.00082789999999,
-          40.7322744
         ]
       }
     },
@@ -5757,24 +5543,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Kung Fu Xiao Long Bao",
-        "category": "Meal",
-        "signal": "High",
-        "description": "As far as soup dumplings go Kung Fu Xiao Long Bao is a bit of a ways out from the main stretch of Flushing by the 7 but they’re my undisputed fave.",
-        "city": "NYC",
-        "google_place_id": "ChIJ7Qk6Qm9gwokRBilBh5_3yrA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8259165,
-          40.7434307
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Ba'al Cafe & Falafel",
         "category": "Meal",
         "signal": "High",
@@ -5805,24 +5573,6 @@
         "coordinates": [
           -73.95753959999999,
           40.7183074
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Zooba",
-        "category": "Meal",
-        "signal": "High",
-        "description": "falafel\n\nThe Place for Off-the-Wall Design and Egyptian Comfort Food\nZooba\nSoHo, Manhattan\nYou’ll fall in love with Zooba before you even taste the food, thanks to all the delightful details—graphic murals, wheatpaste-style posters, colorful LED patterns on the ceiling—inspired by the streets of Cairo. But this fast-casual spot serving Egyptian street-food classics is more than a feast for the eyes. The ta’ameya (freshly fried balls of mashed fava beans), hawashi (a tender meat-veg patty stuffed in fluffy baladi bread), and dips come in a variety of flavors and options, including easy-to-tote salads and sandwiches. Though, with this much to look at, you might choose to grab a seat and stick around.\n✵ Order: Ful medames (stewed fava beans), za’atar fries, cheese hawashi, and pickled lemon ta’ameya.",
-        "city": "NYC",
-        "google_place_id": "ChIJ68lV54hZwokRVy6K2e2KfCY"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9972245,
-          40.7211736
         ]
       }
     },
@@ -6266,24 +6016,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Mei Yu Spring",
-        "category": "Meal",
-        "signal": "High",
-        "description": "dumplings",
-        "city": "NYC",
-        "google_place_id": "ChIJ-7oheCZawokRwZFOixOJO-I"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9969739,
-          40.7125434
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Lan zhou noodles",
         "category": "Meal",
         "signal": "Low",
@@ -6483,25 +6215,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Neil's Coffee Shop",
-        "category": "Cafe",
-        "signal": "High",
-        "description": "The Place for When Diner Cuisine Is First on the To-Do List\nNeil’s Coffee Shop\nUpper East Side, Manhattan\nThe red neon “coffee shop” sign, hanging on the corner of 70th and Lexington, is a beautiful lie. There’s no fancy espresso machine in sight here—just a diner with a massive menu of breakfast classics. The same exact waitstaff has been here for decades, serving neighborhood locals, kids fresh off Central Park’s Little League fields, construction workers, and confused French tourists. If New York were a restaurant, it would be Neil’s.\n✵ Order: You can’t go wrong. Just don’t miss Neil’s exceptional breakfast sausage.",
-        "secondary_tags": "meal",
-        "city": "NYC",
-        "google_place_id": "ChIJ8Q7mr-tYwokRp0ASXm12lSE"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.963133,
-          40.7689544
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Pacific Palace",
         "category": "Meal",
         "signal": "High",
@@ -6533,25 +6246,6 @@
         "coordinates": [
           -73.99402669999999,
           40.712435899999996
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Pakistan Tea House",
-        "category": "Meal",
-        "signal": "High",
-        "description": "The Place for Fresh-Baked Naan and a Cold Can of Coke\nPakistan Tea House\nTribeca, Manhattan\nThis place is small. The tables are few. And the beverage list consists of canned soda and bottled water. And that’s all perfect, because Pakistan Tea House isn’t a place for glitz and glamour. It’s the spot for ripping hot naan, quick service, and consistently excellent, absurdly flavorful steam table Indo-Pakistani food. Even better? It’s open 24 hours a day, making it popular with Tribeca office workers in the afternoon and hungry cabbies in the early morning hours. Unless we have one of those kinds of nights, we’re usually there for an I’ve got a meeting in 30 minutes, but need a real lunch lunch.\n✵ Order: Chicken curry combo special with stewed eggplant and saag, naan, chicken seekh kebab, yogurt sauce, and a cold can of Coke.",
-        "secondary_tags": "tea",
-        "city": "NYC",
-        "google_place_id": "ChIJsf4GbB9awokRt-fMQtZ2Fd4"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.007661,
-          40.7156674
         ]
       }
     },
@@ -7283,24 +6977,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Ming's Cafe",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Over the Essex F train stop on the Lower East Side, Ming’s Caffe is a gloriously casual place that serves an inexpensive Hong Kong menu to immigrants, artists, and scenesters. Some go for the dim sum, which is comparable to any if the better spots in the neighborhood, while others prefer the almost-Western-style breakfasts, like macaroni with spam and egg or toast smeared with condensed milk. Noodle soups and stir fries round out the menu.",
-        "city": "NYC",
-        "google_place_id": "ChIJsVyqoSlawokRZqxapm3b9v4"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9905096,
-          40.7143313
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Taiwanese Gourmet",
         "category": "Meal",
         "signal": "High",
@@ -7623,24 +7299,6 @@
         "coordinates": [
           -73.9859623,
           40.7346247
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Percy's Pizza",
-        "category": "Meal",
-        "signal": "High",
-        "description": "\"The New York City dollar slice is a dying breed, and Percy's Pizza on Bleecker Street serves the best one. The bottom is crispy like a cracker, the low-moisture mozzarella is abundant, and the tomato sauce is flavorful. But what makes it the best is the integrity of their enterprise. In the economic downturn of the pandemic, Percy's went through the effort of totally redesigning their logo to replace the \"$1\" with a \"$2\" sign. It's a two-dollar slice now, but it's still worth every penny.\"",
-        "city": "NYC",
-        "google_place_id": "ChIJjY4hF5JZwokRxhLZRbBeU7c"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.00142009999999,
-          40.7291702
         ]
       }
     },
@@ -8209,24 +7867,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "BILAO",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Lumpiang sariwa; tosilog; pinakbet; laing; ginisang munggo; chicken adobo; chicken inasal; crispy pata; sizzling sisig;\n\nBilao on the Upper East Side restaurant opened when a few Filipino nurses wanted a spot for breakfast that served their native country’s most well-known dishes. Their tiny storefront has more seating outdoors than it has inside, but wherever diners decide to sit, it’s “one of the best overviews of the national cuisine that NYC has seen,” Eater critic Robert Sietsema noted. Classic Filipino dishes like crispy pork or a hearty stew of taro leaves swimming in coconut milk are just a few options available from breakfast through dinner.\n\nLaing is left as a stew of taro leaves and fresh shrimp in a coconut broth with the powerful tidal scent of shrimp paste, not whipped into the glossy green purée that some restaurants favor. Ridged curls of bitter melon lurk in the vegetable stew known as pinakbet among the eggplants, long beans, tomatoes and kabocha. Grilled chicken inasal, dyed to a saffron yellow by ground annatto, has been deeply slashed to let in the marinade of coconut vinegar and calamansi juice.\n\nBilao’s kare-kare, oxtails and tripe cooked in peanut-butter sauce, does not have the swoony intensity you come across in other kitchens. The pork-coconut stew bicol express is seasoned with fresh red and green chiles, but still seemed a bit shy when I had it. But there was nothing retiring about the hash of pigs’ ears, cheeks and livers under a raw egg — hissing on a hot iron plate, as any self-respecting sizzling sisig does.",
-        "city": "NYC",
-        "google_place_id": "ChIJierqy1ZZwokR9eCcG1n0hXU"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9549636,
-          40.7695716
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Tacos El Bronco",
         "category": "Meal",
         "signal": "High",
@@ -8383,24 +8023,6 @@
         "coordinates": [
           -74.0666712,
           40.7356971
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Samudra",
-        "category": "Meal",
-        "signal": "High",
-        "description": "behind ganesh temple, second best southern indian",
-        "city": "NYC",
-        "google_place_id": "ChIJ42LIdAdfwokRt4nWI_oQHJA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8903569,
-          40.7489892
         ]
       }
     },
@@ -8852,24 +8474,6 @@
         "coordinates": [
           -74.0015804,
           40.731703499999995
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ghenet",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Ethiopian here, Ghenet’s Restaurant in BK tastes exactly like my mom’s food, which is a pretty high bar haha\n\nmost popular",
-        "city": "NYC",
-        "google_place_id": "ChIJDSjwPatbwokRcpvuelDQBnc"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9814937,
-          40.6791039
         ]
       }
     },
@@ -9478,24 +9082,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Mama Fina’s",
-        "category": "Meal",
-        "signal": "High",
-        "description": "filipino house of sisig",
-        "city": "NYC",
-        "google_place_id": "ChIJQQGqMXZZwokRismJb2nuLTY"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9821553,
-          40.7282142
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Tong Restaurant টং রেস্টুরেন্ট",
         "category": "Meal",
         "signal": "High",
@@ -9580,24 +9166,6 @@
         "coordinates": [
           -73.9910991,
           40.737584299999995
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Jaya 888",
-        "category": "Meal",
-        "signal": "High",
-        "description": "My GFs mom is from Indonesia and they used to live in Singapore. We always go to Jaya 888 in Chinatown when she is in town. It’s Malaysian but they have some Singaporean dishes. The laksa and kangkung are especially good.",
-        "city": "NYC",
-        "google_place_id": "ChIJIT9eRidawokRe7ZU0AFg858"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9998487,
-          40.7169581
         ]
       }
     },
@@ -9742,24 +9310,6 @@
         "coordinates": [
           -73.9827701,
           40.8314752
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Bada Story, Englewood Cliffs 바다이야기",
-        "category": "Meal",
-        "signal": "High",
-        "description": "The dry-ice fog slinking off each platter of raw fluke at Bada Story may foreshadow the mist of confusion that will surround anybody who approaches this restaurant’s specialty, hwe, with the idea that it is Korean sashimi. By the time the Japanese showed up with their very different take on raw seafood, Korea already had fixed ideas about the subject. Crunch, chew and snap are prized over melting tenderness. Instead of being dipped lightly in soy sauce, the sea creature in question can be subjected to a barrage of fermented soybean paste, salted sesame oil, vinegared chile paste, chopped jalapeños and garlic.\n\nA Bada Story feast (bring a crowd) might start with some excellent fried fingers of fish and a first-rate seafood pancake, then move on to a tableau of marine life not seen on the sashimi special at your corner sushi bar: chewy sea squirts with their wrinkled orange skin; strips of sea cucumber that unfurl like streamers from your chopsticks but tense up again when you bite down; sea worms that look like veins and taste like not very much but have chewiness to spare. Then, in a swirl of mist, arrives a whole imported Korean fluke that a few minutes ago was lounging at the bottom of a pool by the kitchen. The slices, draped over frosty ceramic cups to keep them firm, are arranged as they were on the skeleton, with the lightly crunchy hard-working muscles around the fins showcased at the edge of the platter.",
-        "city": "NYC",
-        "google_place_id": "ChIJPcoYzCjxwokRIzc7-BnCLf0"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9521863,
-          40.8776478
         ]
       }
     },
@@ -10049,24 +9599,6 @@
         "coordinates": [
           -73.9279839,
           40.7583874
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Rodo Foods",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Anticipating a weekend of hot dogs and micheladas, I decided to stumble through Bed-Stuy in search of one last well-rounded meal, eventually landing at Rodo Foods. This takeout lunch counter is improbably narrow and better hidden than some of the city’s so-called “speakeasies,” distinguished only by the handful of folks usually waiting out front and a small “order here” sign. Don’t let the size fool you: Owner Ayo Agbede and chef Seun Ade are churning out orders of beef suya and hot honey salmon at quick pace — my takeout container of sliced beef, jollof rice, salad, and plantain ($16) came out after a few minutes. The crunch of kale paired with the jolt of yaji (a suya seasoning made from ground peanuts, garlic, ginger, and spices) made for a nourishing meal — and as expected, one of my last since.\n\nOne of the most satisfying meals I had all year was actually two meals. I ate the entire menu here at Rodo Foods, a Friday- to-Sunday-only West African restaurant that’s little more than a takeout window and a couple of rickety tables set out on the Putnam Street sidewalk. Ayo Agbede and Seun Ade have turned the modest setup into a popping neighborhood hang with impeccable vibes, great music and two dishes — a grilled salmon plate, sticky with hot honey, and a suya plate, made with top sirloin and loaded with yaji — that I think about all the time. I wish the city had a thousand places like this.",
-        "city": "NYC",
-        "google_place_id": "ChIJZ4YIf_ZbwokRtUbzmGkZ9kE"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9445719,
-          40.684545799999995
         ]
       }
     },
@@ -10710,41 +10242,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "ITSHOW Tendon & Ramen",
-        "category": "Meal",
-        "signal": "Low",
-        "city": "NYC",
-        "google_place_id": "ChIJS5eAbTf3wokRT4HYuArtyYo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9986534,
-          40.846364
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Grain House",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Five years ago it was the foremost Sichuan restaurant in Little Neck, Queens, home to many Asian restaurants, and then in 2018, it picked up and moved to the Manhattan Valley on the Upper West Side. Sour string beans with minced pork, Chengdu green bean noodles, ma po tofu, cumin lamb, and Chongqing stew chicken remained among its menu highlights, now with some Hunan thrown in, but there were some new things, too, like the relentlessly spicy “burning noodles.”",
-        "city": "NYC",
-        "google_place_id": "ChIJVVUZgyT2wokRn-wwz_4ndYQ"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9657474,
-          40.800097699999995
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Little Pepper",
         "category": "Meal",
         "signal": "High",
@@ -10794,24 +10291,6 @@
         "coordinates": [
           -73.83203209999999,
           40.7594624
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "DAXI Sichuan cuisine",
-        "category": "Meal",
-        "signal": "High",
-        "description": "The menus of Flushing’s upscale Sichuan restaurants are full of all sorts of other regional fare, including Dongbei, Tianjin, and Shanghai dishes, reflecting a mix of cuisines now popular back in China. Founded in 2017 in the New World Mall, DaXi — cousin of a restaurant in the Sichuan capital Chengdu — is a vibrant room with plush banquettes. Pork ribs are delivered in a bird cage, kung pao shrimp deconstructed, and the usual spicy cucumber salad turned crunchier by using only the skins.\n\nAfter a stint working in Singapore, this Jersey-based chef admits his high standards for Chinese cooking often leave him wanting: “The Chinese food in Jersey is so insanely bad!” But he’s quick to praise the nuanced Sichuan dishes at high-end spot Da Xi. Wood ear mushrooms, mapo tofu, and dry pot spare ribs are a few of his regular orders. “If someone didn’t invite me for lunch, I never would have found it,” he adds. “Because it’s inside a shopping mall.”",
-        "city": "NYC",
-        "google_place_id": "ChIJPwLjwxFgwokRLQrZ9mQpa9E"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8290528,
-          40.7593211
         ]
       }
     },
@@ -10927,23 +10406,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Szechuan Garden",
-        "category": "Meal",
-        "signal": "Low",
-        "city": "NYC",
-        "google_place_id": "ChIJ4R9c5ST2wokRIznBobbDRzc"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.967566,
-          40.80055
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Mountain House Manhattan 川山甲",
         "category": "Meal",
         "signal": "High",
@@ -11029,43 +10491,6 @@
         "coordinates": [
           -73.7673902,
           40.760824199999995
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Four Coconuts 四季椰林",
-        "category": "Meal",
-        "signal": "High",
-        "description": "For Hainan-style coconut chicken hot pot, choose between half chicken or whole chicken, and the staff determines the right number of coconuts for the broth. They first simmer the coconut juice, and then they add the chicken. Diners can add typical hot pot fixings, e.g. shrimp balls, or tofu. It’s a great alternative to the spicy Sichuan style that dominates the NYC hot pot scene.",
-        "city": "NYC",
-        "google_place_id": "ChIJgae5V-9hwokRWbqaj7eocdI"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8322441,
-          40.7590931
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Kalye Bistro",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Home of the seafood boil birthday cake, Kalye Bistro is a new local favorite for homey Filipino dishes like kare kare bagnet and beef pares as well as a dish less common in restaurants like binagoongan rice (shrimp paste fried rice).\n\n---\n\nAt this casual, BYOB Filipino restaurant in Woodside, you can order any dish and then immediately start dreaming of ordering it again on your next visit. That’s rare. Start with the crispy lumpia, get a sizzling platter of crunchy, creamy milkfish sisig, and a huge portion of deep-fried pork knuckles with thick, crackly skin. Finish with the halo halo, which involves ube ice cream piled with things like beans, gelatin, chunks of banana, and slivers of coconut. Bring a few friends to help you try a bunch of different dishes, and also serve as your backup singers. Familiar pop songs are always playing from the speakers, but you’ll quickly realize this version of “Toxic” is not Britney. (They’re all karaoke covers.)",
-        "secondary_tags": "dessert",
-        "city": "NYC",
-        "google_place_id": "ChIJGaxGEONfwokR99kla7doN3w"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.90005699999999,
-          40.746270599999995
         ]
       }
     },
@@ -11373,24 +10798,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Nura",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Winner of the year’s most spectacular-looking room has to be Nura, a converted auto body shop with soaring ceilings, a huge skylight, various decorative elephants, an open kitchen, an island bar and abundant plant life. Even more important is the food, which leans South Asian but hits lots of spots all over the map. It is outstanding. Must-orders from the kitchen led by Chef Jackie Carnesi and Pastry Chef Sam Short, include the roasted bird with a knee-buckling butter chicken hollandaise, prawns swimming in a fiery passion fruit sauce, and the “breads and dips,” the best such spread in town. Oh, and if Short’s corn ice cream with dulce de leche is on the menu, get it.",
-        "city": "NYC",
-        "google_place_id": "ChIJYzpV4SNZwokRfX0a28jsH5Y"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9535022,
-          40.724717399999996
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Bonnie's",
         "category": "Meal",
         "signal": "High",
@@ -11422,24 +10829,6 @@
         "coordinates": [
           -73.9643957,
           40.6798835
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Gus's Chop House",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Chris McDade and James O’Brien, the team behind the popular Italian restaurant Popina, opened this comfortable, meat-centric neighborhood spot in September, and it goes way harder than it has any right to. The food is terrific, from the Bo Bo chicken in French onion jus to the reasonably priced, perfectly grilled bar steak to the off-menu cheeseburger. The wine list is expansive and not expensive, the service unfailingly friendly. If you don’t live nearby, this place is very much worth a trip.\n\n--\n\nGus’s Chop House straddles the line between cool neighborhood hangout and family-friendly restaurant: There’s a full-length bathroom mirror for documenting your youth, but also a changing table for mourning it; a $30 steak for the masses, and a bo-bo chicken served with its head and feet still attached for those with taste. This chophouse contains multitudes, and quality cuts of meat are the glue that holds it all together. Get there early and ask for the off-menu burger — a thick patty made from a blend of pork and beef that the restaurant makes a handful of each night.\n\n---\n\nLike other entries on this list, the burger at Gus’s is best when shared. The rich patty is made from a blend of pork, chuck, and dry-aged beef, then topped with raw and caramelized onions, aged cheddar, and cornichons for a burger that feels like a full meal. The burger is off-menu, and a limited number are available each night.",
-        "city": "NYC",
-        "google_place_id": "ChIJTb3cUH1bwokRqVj5vctMMXs"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9993123,
-          40.6834499
         ]
       }
     },
@@ -12021,25 +11410,6 @@
         "coordinates": [
           -73.8333631,
           40.7591397
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Miss Li",
-        "category": "Meal",
-        "signal": "High",
-        "description": "For a simple breakfast or lunch, drop by Miss Li Henan Cuisine, a mural-decorated lunchroom loosely representing the cuisine of Henan. How about a bowl of cold skin noodles, not in swatches but in tendrils, slickened with chile oil and decorated with yellow chives? For handheld snacks, egg-stuffed bing are available, as well as the stuffed dough pocket called pork and chive cake. A version of the Xinjiang favorite known in Henan restaurants as big tray chicken is here rendered as a spicy brown stew. It stays open until 10 p.m.",
-        "secondary_tags": "light-food",
-        "city": "NYC",
-        "google_place_id": "ChIJR8lF4hFgwokRVF3ESX8qz4M"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8331334,
-          40.758836699999996
         ]
       }
     },
@@ -13289,24 +12659,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Chopped Parsley",
-        "category": "Meal",
-        "signal": "High",
-        "description": "super dope Japanese comfort food in Sugar Hill, tiny little spot run by a super nice Japanese lady.\n\nseems like just if we need food in the area",
-        "city": "NYC",
-        "google_place_id": "ChIJM3HWz3z2wokR0ktkaSf5gSw"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9474906,
-          40.8259762
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Hakata TonTon",
         "category": "Meal",
         "signal": "High",
@@ -13445,24 +12797,6 @@
         "coordinates": [
           -73.9567886,
           40.7125596
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Emmy Squared Pizza: Williamsburg, Brooklyn",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Detroit-style pizza at Emmy Squared (364 Grand St.) that tastes like gourmet Pizza Hut and makes you feel accordingly\n\nsome say to skip",
-        "city": "NYC",
-        "google_place_id": "ChIJZxMdZV9ZwokRi7-AmeksQRI"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9557056,
-          40.7121694
         ]
       }
     },
@@ -13630,24 +12964,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Union Pizza Works",
-        "category": "Meal",
-        "signal": "High",
-        "description": "especially when the weather is nice enough to be out on the patio.\n\n\"better than ops and roberta\" and most underrated in bushwick",
-        "city": "NYC",
-        "google_place_id": "ChIJg577jqdewokROjjTj7wBKfs"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9224378,
-          40.707260500000004
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Stamatis",
         "category": "Meal",
         "signal": "High",
@@ -13695,24 +13011,6 @@
         "coordinates": [
           -73.9184774,
           40.7699523
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "SVL Souvlaki Bar- Steinway Street",
-        "category": "Meal",
-        "signal": "High",
-        "description": "casual",
-        "city": "NYC",
-        "google_place_id": "ChIJBXjMAYRfwokRH4dbA2KbziA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9207303,
-          40.7564754
         ]
       }
     },
@@ -13952,24 +13250,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Zhego NYC",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Check out their insta for reviews as well: https://www.instagram.com/zhego_nyc_/\n\nThere’s an exciting new infusion of Bhutanese food from Zhego in Woodside, long a home for Himalayan restaurants like the Weekender, Dawa’s and Bhanchha Ghar — with the latter two specializing in Tibetan and Nepalese food. Zhego is a partnership of manager and former professional mountain biker Sonam Tshering Singye and chef Tobden Jamphel, who had an online following for his home-cooked meals. “We’re Bhutanese,” says Singye. “We like our cheese and our chilies. So there you go.” Get the national dish, ema datsi (long green peppers coated in melty cheese), jasha maroo (rich and slightly tangy chicken stew), and cheese momos.\n\nNew York City is sadly deficient in restaurants from Bhutan, a country in the high eastern Himalayas sandwiched between China and India. It probably has the spiciest food in the world, with chiles of several sorts used in profusion, treated as vegetables rather than flavorings. Our newest Bhutanese restaurant is Zhego, from restaurateurs Tobden Jamphel and Sonan Tshering Singye. The national dish is ema datshi ($10.49), a plate of lightly cooked green chiles, seeds intact, swamped with cheese sauce. The dish is served with a cooling and colorful combination of white and red rice, and washing the dish down with the butter tea called suja helps, too.",
-        "city": "NYC",
-        "google_place_id": "ChIJcUvF2cFfwokRgmZtEjHQF0g"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9027366,
-          40.7475612
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Mama Yoshi Mini Mart",
         "category": "Meal",
         "signal": "High",
@@ -14091,24 +13371,6 @@
         "coordinates": [
           -74.0838471,
           40.8309785
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Yukun Shaobing",
-        "category": "Meal",
-        "signal": "High",
-        "description": "several vouches, look up a bit more context\n\nhttps://www.nytimes.com/2021/02/12/dining/shaobing-flushing-chinatown-covid.html",
-        "city": "NYC",
-        "google_place_id": "ChIJQXVQJW1hwokR_VjUVJS4SEo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8293434,
-          40.759998599999996
         ]
       }
     },
@@ -14533,24 +13795,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Akara House",
-        "category": "Meal",
-        "signal": "High",
-        "description": "New to the Crown Heights stretch of Nostrand Avenue is this Nigerian food counter whose specialty is a veggie burger starring black-eyed pea fritters. Patties are made from a mix of mashed black-eyed peas, garlic, ginger, onion, and chile; then fried and stacked with American cheese, mayonnaise, and lightly pickled cucumbers on slices of soft, sweet agege bread. The burgers aren’t perfect, and you might think you’ve been catfished when you see one in person, but they’re a steal at $6 for one or $10 for two.",
-        "city": "NYC",
-        "google_place_id": "ChIJLcGkKiRbwokR6xWIIP4knPE"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.95005739999999,
-          40.676444599999996
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Hainan Chicken House | 海南鸡记",
         "category": "Meal",
         "signal": "High",
@@ -14698,24 +13942,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Al Naimat Sweets & Restaurant",
-        "category": "Meal",
-        "signal": "High",
-        "description": "pakistani vouch\n\nAl Naimat- excellent Pakistani/Indian food. Huge portions and extremely cheap. Definitely don’t go for the ambiance but the food is very good.\n\ngo for breakfast next time\n\nfor sure get:\nhalwa puri\nhaleem\nkashmiri chai\n\ngot some vouches:\nbiryani\nchicken karahi\nchana masala\nchana bhatura",
-        "city": "NYC",
-        "google_place_id": "ChIJW7-gHAdfwokRBtI_VZw06mU"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8916644,
-          40.748818
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Potluck Club",
         "category": "Meal",
         "signal": "Low",
@@ -14764,24 +13990,6 @@
         "coordinates": [
           -73.84931279999999,
           40.731692599999995
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Khiladi NYC",
-        "category": "Meal",
-        "signal": "High",
-        "description": "stacy recommended\n\nseeing people suggest the mango sorbet, vindaloo, og pulao, kheema pao, pickled tomatoes",
-        "city": "NYC",
-        "google_place_id": "ChIJ4bznWw1ZwokRfCZCl74RhOs"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9791691,
-          40.7274737
         ]
       }
     },
@@ -14854,24 +14062,6 @@
         "coordinates": [
           -73.9984559,
           40.7181865
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Fauzia's Heavenly Delights",
-        "category": "Meal",
-        "signal": "High",
-        "description": "https://ny.eater.com/2023/5/3/23707149/fauzias-heavenly-delights-bronx-food-truck?utm_source=Sailthru&utm_medium=email&utm_campaign=Eater%20NY%20-%205/3/23%20A.M.&utm_term=Eater%20NY",
-        "city": "NYC",
-        "google_place_id": "ChIJS5TNPTP0wokRmgqVftDqJwo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9211804,
-          40.8261481
         ]
       }
     },
@@ -15078,25 +14268,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "cocoron market",
-        "category": "Meal",
-        "signal": "High",
-        "description": "curry karaage was sick, demiglace on wagyu was too sweet imo\n\ni want to try katsu and hamburg",
-        "secondary_tags": "dessert",
-        "city": "NYC",
-        "google_place_id": "ChIJLV6AISZZwokRnc4u7B7v3RU"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9910146,
-          40.7191535
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Arepa Lady",
         "category": "Meal",
         "signal": "High",
@@ -15289,24 +14460,6 @@
         "coordinates": [
           -73.8330235,
           40.7606738
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Mahjong Cafe & Bar 麻将茶餐厅&酒馆",
-        "category": "Meal",
-        "signal": "High",
-        "description": "interior design looks cute, prob not notable food but could satisfy a cha chaang teng craving here",
-        "city": "NYC",
-        "google_place_id": "ChIJ_1ema15hwokRilHXUPnujy8"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8325222,
-          40.7611746
         ]
       }
     },
@@ -15728,25 +14881,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Nneji",
-        "category": "Meal",
-        "signal": "High",
-        "description": "nigerian: https://www.reddit.com/r/astoria/comments/mztq1l/nytimes_review_of_nneji_west_african_food_on_34th/\n\n[NYTimes review of Nneji, West African food on 34th Ave](https://www.reddit.com/r/astoria/comments/mztq1l/nytimes_review_of_nneji_west_african_food_on_34th/)",
-        "secondary_tags": "west-african;queens;owner-priority",
-        "city": "NYC",
-        "google_place_id": "ChIJpa6hjNpfwokRoJ3lUZdnkUQ"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9259478,
-          40.758922999999996
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Los Primos Restaurant",
         "category": "Meal",
         "signal": "High",
@@ -15850,24 +14984,6 @@
         "coordinates": [
           -73.8961511,
           40.7462225
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Dollar Hits",
-        "category": "Meal",
-        "signal": "High",
-        "description": "This double storefront with one side devoted to carryout, the other to sit-down dining, is an LA import. In addition to steam-table dishes of a classic sort, and a pig head or two, it offers charcoal grilled brochettes for one dollar that include pig intestines, fried wontons, chicken hearts, and hot dogs.",
-        "city": "NYC",
-        "google_place_id": "ChIJ2WtKyAlfwokRkhQWGQbhrMM"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9000145,
-          40.7463337
         ]
       }
     },
@@ -16019,24 +15135,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "TQTO",
-        "category": "Meal",
-        "signal": "High",
-        "description": "This tiny walk-up space in the hurly burly of MacDougal Streets restaurant row offers a handful of dishes in a Tex-Mex vein, or so it says. Truthfully, its specialty of taquitos are popular across Mexico and the Southwestern United States sometimes under such other names as tacos Dorados, flautas, and rolled tacos (in San Diego). These arrive freshly fried and smothered in salsas and cheese, with potato and chicken favorite fillings.",
-        "city": "NYC",
-        "google_place_id": "ChIJF_QLkMJZwokRL-iRXBjyzYI"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0010291,
-          40.7296283
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Pierozek",
         "category": "Meal",
         "signal": "High",
@@ -16056,24 +15154,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "CHICK OF US",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Korean restaurant Chick of Us is a playful fast food newcomer to the Lower East Side, looking like a chain though this is the only store. The specialty is thigh-meat chicken nuggets with a variety of flavors, but even more snacky are a series of rice noodle skewers interspersed with meats, and dressed potato helixes on sticks, combining the best elements of potato chips and cottage potatoes, giving you yet another opportunity to make an entire meal of potatoes.",
-        "city": "NYC",
-        "google_place_id": "ChIJRWCOsb9ZwokRIEpLQy3XlQI"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.989056,
-          40.722637
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Ankara #3",
         "category": "Meal",
         "signal": "High",
@@ -16086,42 +15166,6 @@
         "coordinates": [
           -73.9880809,
           40.722572899999996
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Yi Zhang Fishball",
-        "category": "Meal",
-        "signal": "High",
-        "description": "This family-run Fujianese lunch counter is one of Chinatown’s best budget-friendly restaurants — and best kept secrets. Like the name suggests, the pork-stuffed fish balls in soup make a memorable repast, but there are also all sorts of other agreeable noodles and soups. The pan-fried pork buns are another standout, darkened on the bottom, puffy on top, and generously stuffed.",
-        "city": "NYC",
-        "google_place_id": "ChIJE-6lYihawokRnPCshh-AiAc"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.99388569999999,
-          40.7146794
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Pera Ždera (Peter Eater)",
-        "category": "Meal",
-        "signal": "High",
-        "description": "This small storefront in the wilds of Glendale specializes in Balkan bar food, an apparent branch of a place in Subotica, Serbia. It concentrates on grilled meats and pastries, the former including the skinless sausages cevapi and the burger-like pljeskavica, which comes on a round bun that may be dressed with kaymak (thick sour cream) and ajvar (a red pepper paste) — plus the usual onions, tomatoes, and lettuce. Burger lovers: Don’t miss it.",
-        "city": "NYC",
-        "google_place_id": "ChIJTfxuqxhdwokR7FI0rGFTm0Y"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.88717079999999,
-          40.7015385
         ]
       }
     },
@@ -16274,25 +15318,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Cheeky Sandwiches",
-        "category": "Meal",
-        "signal": "High",
-        "description": "joseph rec, nola spot",
-        "secondary_tags": "light-food",
-        "city": "NYC",
-        "google_place_id": "ChIJCUBtyylawokRxSQdG7CLg4g"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9881911,
-          40.7180385
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Yuk Jun Gui",
         "category": "Meal",
         "signal": "High",
@@ -16343,25 +15368,6 @@
         "coordinates": [
           -74.06611079999999,
           40.7358877
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Café Kitsuné West Village",
-        "category": "Meal",
-        "signal": "High",
-        "description": "This might be your average egg salad on fluffy white bread, except the bread is brioche, the mayo is liberally applied, and in the middle displays an entire boiled egg. It makes the sandwich ($11) visually appealing, but also further exalts the egg, which is a great thing if it’s the eggs you love about egg salad. The smooch of fresh herbs is an added plus. Sporadically available",
-        "secondary_tags": "bakery",
-        "city": "NYC",
-        "google_place_id": "ChIJa7i0nRRZwokRTe7DnEWsgkg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0057975,
-          40.735073500000006
         ]
       }
     },
@@ -16704,24 +15710,6 @@
         "coordinates": [
           -73.9701343,
           40.7636533
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Day June Luncheonette",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Fabián von Hauske Valtierra and Jeremiah Stone, the restaurateurs most known for their Lower East Side establishments Wildair and Contra, have expanded with another upstate project. Day June Luncheonette opened in the Catskills earlier this summer, serving breakfast burritos, savory cheddar pancakes with chipotle salsa, and omelets. Jonas Offenbach, who worked in the kitchens of both Wildair and Contra, is currently leading the kitchen. Shortly, Oliver Coleman, an alum of the Momofuku group, will be the head of the Day June, while Offenbach prepares to lead another restaurant the Wildair duo has planned upstate, set to open later this year. Day June is located in Hensonville, the same town where Paracasa, a general store with coffee and prepared goods, opened last fall. (Hauske Valtierra and Stone are culinary consultants.) Day June is open Thursday through Monday, 8 a.m. to 3 p.m.",
-        "city": "Regional",
-        "google_place_id": "ChIJ4fOK13mz3YkRBmSd9k06SZM"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.2168549,
-          42.2905637
         ]
       }
     },
@@ -17375,24 +16363,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Mami Best Food",
-        "category": "Meal",
-        "signal": "High",
-        "description": "jokbal, soondae\n\nthey have white soondae which doesn't have blood but \"tastes better than regular soondae\"",
-        "city": "NYC",
-        "google_place_id": "ChIJ7wCpURf3wokRD55C13mrPBc"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9953192,
-          40.8510638
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "PyeongAnDong",
         "category": "Meal",
         "signal": "High",
@@ -17796,25 +16766,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "R&D Foods",
-        "category": "Meal",
-        "signal": "High",
-        "description": "R&D, which sells prepared foods like soup quarts, turns a kale sandwich into a transcendent experience. Order one served hot with mozzarella and balsamic vinegar with add-ons like salami, egg, and anchovy. It’s a surprisingly stellar vegetarian option with lots to love for everyone.",
-        "secondary_tags": "light-food",
-        "city": "NYC",
-        "google_place_id": "ChIJGTjVeqZbwokRcWw3zXSTim0"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9688133,
-          40.6783633
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Sacco Pizza",
         "category": "Meal",
         "signal": "High",
@@ -17953,24 +16904,6 @@
         "coordinates": [
           -73.973457,
           40.8927331
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Catskill Momos",
-        "category": "Meal",
-        "signal": "High",
-        "description": "https://ny.eater.com/2023/8/14/23825976/catskills-momos-wangdak-tagsar",
-        "city": "Regional",
-        "google_place_id": "ChIJzaWuLi553IkR8S9FEUjLd98"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.9104997,
-          42.2810128
         ]
       }
     },
@@ -18561,25 +17494,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Foxface Natural",
-        "category": "Meal",
-        "signal": "High",
-        "description": "joseph suggested fox face, all of the starters and desserts but would skip mains\n\npig ear is \"perfectly melted collagen\n---\nThe sandwiches may be gone, but you won’t miss them at this newest iteration of Foxface. Chef David Santos puts forth a menu that’s constantly changing and keeps you in suspense — in a good way. If you’re lucky, his uni-laden ode to the famed malloreddus found at San Francisco’s La Ciccia will be on offer. So will a killer list of decidedly natural wines.\n--\n\nNew York’s most unique sandwich spot has expanded into a sit-down restaurant with just a few lucky tables. The bar is our favorite spot here, as it gives us ample opportunity to chat with the servers. Foxface is perfect for a night of eating adventurously, while still keeping the feeling cozy and special.\n\nThe coziest dishes: The menu changes often, but some recent favorites have included sweetbreads schnitzel with button chanterelles, kangaroo tartare, and surf clam two ways.",
-        "secondary_tags": "new-american;owner-favorite",
-        "city": "NYC",
-        "google_place_id": "ChIJ-9FmcbhZwokR_2n_KX31fUI"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9816763,
-          40.7289789
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Little Owl",
         "category": "Meal",
         "signal": "High",
@@ -18780,25 +17694,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Point Brazil",
-        "category": "Meal",
-        "signal": "High",
-        "description": "brazilian by the pound buffet\n\ntangy Brazilian passion fruit mousse ($3) and coffee.",
-        "secondary_tags": "coffee",
-        "city": "NYC",
-        "google_place_id": "ChIJF8qZtz5fwokRXXEeqNW2rgw"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.91758850000001,
-          40.761785499999995
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Cali Aji",
         "category": "Meal",
         "signal": "High",
@@ -18811,24 +17706,6 @@
         "coordinates": [
           -73.8707701,
           40.7624588
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "The Crus-Z Family",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Mexican food is tricky business in this area, where, along Roosevelt Avenue, some spots exist more as Corona dispensaries for tired worke...",
-        "city": "NYC",
-        "google_place_id": "ChIJ4RAFt69fwokRNq-ZdFb2MeU"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8789589,
-          40.7482839
         ]
       }
     },
@@ -19143,25 +18020,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Taste of Samarkand",
-        "category": "Meal",
-        "signal": "High",
-        "description": "one of joseph's fav spots\n\nsamsa\nfried manti\ncheburek\nplov\nsweetbreads\nlulya\nlamb ribs\ndjiz biz\nlagman soup - beef and handpulled noodles are popular\nwinter salad is mayo-based\n\nand get a salad to balance your meal, some are covered in mayo tho lmao\n\nhttps://www.nytimes.com/2016/01/20/dining/hungry-city-taste-of-samarkand-uzbek-restaurant-queens.html suggests nakhot garmack, lepeshka, noni toki, mastava, osh-pothce\n\nother waiter recommendations:\nshurpa\nmastava\nbeef skirt skewer\nlamb rib skewer\nveal liver skewer\nchicken thigh\nground chicken",
-        "secondary_tags": "dessert",
-        "city": "NYC",
-        "google_place_id": "ChIJtz7lhUZewokRzhgzB9ghR1k"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8706531,
-          40.7264178
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Village Cafe",
         "category": "Meal",
         "signal": "High",
@@ -19306,24 +18164,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "La Pollera Colorada II",
-        "category": "Meal",
-        "signal": "High",
-        "description": "1 vouch, maybe\n\ncolombian",
-        "city": "NYC",
-        "google_place_id": "ChIJ9Vu9y6ZfwokRpM4Nl6EeRYg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.88486,
-          40.755812
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Seba-Seba Bakery",
         "category": "Dessert",
         "signal": "High",
@@ -19337,24 +18177,6 @@
         "coordinates": [
           -73.8842713,
           40.7558778
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Los Toldos",
-        "category": "Meal",
-        "signal": "High",
-        "description": "maybe colombian",
-        "city": "NYC",
-        "google_place_id": "ChIJN74_rhpgwokRfoDi3w_7T4o"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8834133,
-          40.755977099999996
         ]
       }
     },
@@ -19451,24 +18273,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Ewe’s Delicious Treats",
-        "category": "Meal",
-        "signal": "High",
-        "description": "nyt 100\n\nYou’ll sit in one of a handful of chairs right next to the counter, where there’s no hiding once the chiles in the Nigerian soups and stews start to throttle you. You just have to work it out on your own, playing the mashed black-eyed peas of ewa aganyin against the ruthless heat of their pepper-and-onion gravy. The jollof rice is in no mood to compromise, either, and the meat pies, in their puffy hand-crimped crusts, aren’t as innocent as they appear. Proceed with caution, but by all means proceed.",
-        "city": "NYC",
-        "google_place_id": "ChIJI5s_YeJdwokRou2iEW6J-hA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8940559,
-          40.666186499999995
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Caleta 111",
         "category": "Meal",
         "signal": "High",
@@ -19535,24 +18339,6 @@
         "coordinates": [
           -73.7907528,
           40.5931375
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "M. Wells",
-        "category": "Meal",
-        "signal": "High",
-        "description": "What was a surrealist steakhouse when Hugue Dufour and Sarah Obraitis opened it has evolved into a cracked Québécois bistro; the menu now is somewhat shorter and not the least bit lighter. There is meat inside the meat, fat inside the fat. There is Cheddar cheese inside the cod potpie under a cobbler crust and there is maple-poached foie gras inside the double-decker “burger des rêves.” Will you have poutine in gravy enriched by pork shanks, or pommes aligot so stiff with cheese it has almost become taffy? The answer is yes.\n\n---\n\nBecause to everyone except Long Island City locals, M. Wells still feels like you’ve stumbled across a well-kept secret. Concealed behind a set of large garage doors, the lofty French-Canadian restaurant is anchored by crimson walls, an impeccable bar, and an open kitchen, where most of the menu is put through the wood-fired grill’s flames. The creative (and heavenly decadent) bistro fare is heartiness guaranteed, and the staff is extra lovely, too.\n\nThe coziest dishes: If the French onion soup makes an appearance, get it — it is, hands down, one of the best in the city. Otherwise, we’ve been eyeing trout and crawfish sausage choucroute and the fall tomato and lobster salad ever since they debuted (take note: the menu changes often).",
-        "city": "NYC",
-        "google_place_id": "ChIJGQFa8SlZwokRjkygUnetCuc"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9424763,
-          40.748304999999995
         ]
       }
     },
@@ -19867,24 +18653,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Kaprichos",
-        "category": "Meal",
-        "signal": "High",
-        "description": "An all-day Colombian street food takeout spot has opened in Sunnyside, debuting dishes that reflect the Colombian and white American heritage of married co-owners, restaurant veterans, and couple, Carlos Chaparro and Hannah Zobel. There’s a massive Colombian-style hot dog topped with cheese, bacon, potato chips, carrots, sauces and a skewered quail egg. A smash burger comes with a fried mozzarella patty, sweet plantain, and pineapple sauce. There’s also salchipapas, arepas, bacon and cheese stuffed pancakes, and Nutella buttermilk pancakes.",
-        "city": "NYC",
-        "google_place_id": "ChIJIYLHK-BfwokRLF2iV9lSMCc"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.92155040000002,
-          40.745115399999996
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Phoenicia Diner",
         "category": "Meal",
         "signal": "High",
@@ -20007,24 +18775,6 @@
         "coordinates": [
           -73.8152739,
           40.7624275
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Mail Garden",
-        "category": "Meal",
-        "signal": "High",
-        "description": "It looks like an abandoned office building, but Maeil Garden on the ground floor is the go-to spot for charcoal-fired Yangnyum dweji galbi, where even the rib bones are saved for grilling with bonus flecks of charred meat. In Korean fashion, get it with a bowl of nengmyun either as a pairing or a follow-up to the barbecue. Even the bibim naengmyun here has crushed ice that makes for a lusciously lubricated bowl of noodles. The dipping sauce for the jeon (pancakes) like a shredded potato jeon is extra thick with seasoning like gochugaru and scallions. Across three generations, the restaurant has stayed within the family, and as a testament to its duration in a now-crowded Murray Hill, the dining room is spacious, and has a parking lot and back patio.",
-        "city": "NYC",
-        "google_place_id": "ChIJFeXbFiNgwokRdixtsT0F27s"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8145433,
-          40.762203799999995
         ]
       }
     },
@@ -20261,24 +19011,6 @@
         "coordinates": [
           -74.00257669999999,
           40.7280142
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Juice N’ Bagels",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Eater called out but I haven't heard of it other than that\n\nThe combination of fresh squeezed juice and a freshly toasted and buttered bagel is an undeniable pleasure, and this corner bagel spot provides both. Like the juice, the cream cheese choices tend toward the sweet, as seen in strawberry, apple cinnamon, and walnut raisin, and the bagels of medium size, with some seemingly healthier choices like a whole wheat bagel light enough to not hit your stomach like a rock.",
-        "city": "NYC",
-        "google_place_id": "ChIJDQ0QwfJZwokRZ_YCfNTFMAY"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.95383,
-          40.7427943
         ]
       }
     },
@@ -20942,42 +19674,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Snowdonia",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Named after a national park in Wales, what might be the city’s only Welsh bar occupies an ancient corner barroom off the beaten path, and takes electronic music as its theme (there’s an old Buchla synth in one corner that sees weekly use). The menu runs from fish and chips to cod and kimchi tacos, with lots of things like shepherd’s pie and Yorkshire pudding along the way.\n\nBest fish and chips in astoria\n\nGood bar menu before 7pm mon-thurs",
-        "city": "NYC",
-        "google_place_id": "ChIJ-_hEzDFfwokRCUYJXmi_6g8"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.927495,
-          40.757805
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Shingara / সিংগারা",
-        "category": "Meal",
-        "signal": "High",
-        "description": "https://www.grubstreet.com/2023/11/shingara-nyc.html",
-        "city": "NYC",
-        "google_place_id": "ChIJZW5NK45bwokRjeDymGI1vf8"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9796951,
-          40.6430856
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Rico Chimi Restaurant",
         "category": "Meal",
         "signal": "High",
@@ -21197,44 +19893,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Figure Eight",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Silver Apricot team\n\nI’ve been meaning to try the new Chinese-meets-Southern restaurant Figure Eight from Emmeline Zhao of Silver Apricot for some time — the menu has incredibly fun-sounding dishes, like shrimp cocktail with Chinese horseradish (a brilliant pairing) and mapo buttered grits (yes, it works). Our favorite dish was hot fried skate ($38). The chile crisp-infused batter had a fantastic crunch, and the skate held up and stayed tender. It was served with a buttermilk ranch, pickles, and a flaky sesame biscuit, for what might just be the most creative fish sandwich I’ve had.",
-        "secondary_tags": "chinese;southern;owner-priority",
-        "city": "NYC",
-        "google_place_id": "ChIJCQWJ_6hZwokRxP21FS21clc"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.001914,
-          40.731334499999996
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Silver Apricot",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
-        "secondary_tags": "chinese;southern;owner-priority",
-        "city": "NYC",
-        "google_place_id": "ChIJMZwTwIZZwokRbGe13N3omtU"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0019894,
-          40.7312758
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Esse Taco",
         "category": "Meal",
         "signal": "High",
@@ -21338,24 +19996,6 @@
         "coordinates": [
           -74.1567748,
           40.891636
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "MANSAF BALADNA",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Mansaf Baladna (939 Main Street, corner of Thomas Street) that features mansaf, a popular dish of lamb cooked in a yogurt sauce dribbled over rice. Here, the dish is strewn with toasted almonds, and furnished with a bowl of the yogurt reconstituted into a soup for dipping or drizzling, along with a separate plate of green onions, cracked green olives, and fresh jalapenos. Layered with plenty of lamb, it was a feast.",
-        "city": "NYC",
-        "google_place_id": "ChIJGX5g99D_wokR_Ns7Bl-bZp4"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.16004199999999,
-          40.8956977
         ]
       }
     },
@@ -21481,25 +20121,6 @@
         "coordinates": [
           -73.8296845,
           40.7632665
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Lucky Cafeteria",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Lucky Cafeteria carries solid cha chaan teng (Hong Kong-style cafe) classics at affordable prices in a charming setting. It features breakfast sets such as ham noodle soup with an egg sandwich and a robust milk tea, as well as items like French toast, pineapple bun with a slab of butter, and a robust milk tea. Other Cantonese favorites display finesse, too: rice rolls (seven kinds), clay pots, and dim sum. The black pepper lamb chops are tender, and the turnip cakes are golden crispy. Catch the $3 daily specials like crystal shrimp dumplings on Monday.",
-        "secondary_tags": "coffee",
-        "city": "NYC",
-        "google_place_id": "ChIJ6XFwwCdhwokRBwFwpbZ11FA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.82809519999999,
-          40.7629899
         ]
       }
     },
@@ -21707,24 +20328,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Nansense",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Nansense began serving food out of a converted mail truck in Chelsea, eventually winning a Vendy Award, a review in the New York Times, and becoming a fixture at the Queens Night Market in the process. Now, Mohibullah Rahmati, who goes by Mo, is opening up an Afghan restaurant in Beacon, New York — a town known for its easy access to the Metro North, and the Dia Beacon Museum.\n\nNansense began with a good story: a vendor who got his start selling Afghan food out of a converted mail truck. Now, owner Mohibullah “Mo” Rahmati has opened his first restaurant, decamping to Beacon, New York. At this iteration of Nansense, it’s not about spotlighting the manti — Afghan dumplings — he came to be known for at the Queens Night Market or his stand inside Midtown food hall the Deco. Rather, Nansense is now about Afghan-spiced smash burgers and basmati rice bowls with carrots, raisins, a “zesty salad,” and sauces like mint yogurt — the entire menu is halal. The latter in particular ($15, I ordered mine with chicken), is one of the more memorable bowls I’ve had recently, joining a larger movement diversifying lunch bowls like with Dùndú, the Nigerian grain bowl option in Midtown. 2 Eliza Street, near Main Street, Beacon — Emma Orlow, editor, Eater Northeast",
-        "city": "Regional",
-        "google_place_id": "ChIJN3wp7-4x3YkRiZQ3UEnAGv0"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9687234,
-          41.5047295
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Restaurant Matilda",
         "category": "Meal",
         "signal": "High",
@@ -21791,25 +20394,6 @@
         "coordinates": [
           -73.87864569999999,
           40.7417215
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Blue Hour",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Little Flower Cafe owners\n\nhttps://ny.eater.com/2024/6/12/24175598/blue-hour-opening-gas-station-bushwick",
-        "secondary_tags": "coffee",
-        "city": "NYC",
-        "google_place_id": "ChIJJfg0lRldwokRoTS2qQLnymc"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9143984,
-          40.6993866
         ]
       }
     },
@@ -22198,24 +20782,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Star Light Grill",
-        "category": "Meal",
-        "signal": "High",
-        "description": "good food while sightseeing airplanes\n\nhttps://foodstrolls.com/strolls/plane-spotting-and-pakistani-food",
-        "city": "NYC",
-        "google_place_id": "ChIJr_fmIJ5fwokRI8Cyg_Ygl18"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8888303,
-          40.7651051
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Le Sajj",
         "category": "Meal",
         "signal": "High",
@@ -22228,24 +20794,6 @@
         "coordinates": [
           -74.02478909999999,
           40.62370740000001
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Pikine",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Multiple vouches\n\nPikine is a traditional West African spot right in the heart of Little Senegal. Their Baked Tilapia comes with a fiery red pepper sauce, so careful when ordering for kids. All main dishes come with a side of choice. Alloco, or fried plantains, and Attiéké, or grated cassava, are two of the most traditional.\n\nMaffe is a classic dish consisting of meat, usually lamb, simmered in a stew of peanut butter and tomatoes. It’s our favorite dish in the neighborhood, and you really can’t eat West African food without trying it. FYI, unlike many things at Pikine, it isn’t spicy.\n\nThe Pintade is a whole guinea fowl which we assume they poach before deep frying. Guinea Fowls are indigenous to West Africa and in some cases preferred to chicken. In any case, it’s very good.",
-        "city": "NYC",
-        "google_place_id": "ChIJgdN7yRb2wokRrX83wvtHizs"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9544167,
-          40.8041941
         ]
       }
     },
@@ -22904,24 +21452,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Restaurant Manor Rock",
-        "category": "Meal",
-        "signal": "High",
-        "description": "When Ivy Nallo and Zack Nussdorf moved to Taghkanic, N.Y., in 2020, they envisioned having a small garden where they could grow enough produce to host dinners on the screen porch. Four years later, the 625-square-foot plot has grown into a one-acre farm with greenhouses and a herd of Mangalitsa pigs, known for their lard. At the end of October, Nallo and Nussdorf opened Restaurant Manor Rock in Hudson, N.Y., a 20-minute drive from their farm. Much of the produce, like the patchwork peppers and the Barbarella eggplants, comes from their land, as does the pork for their loin chops and charcuterie. Nussdorf briefly worked as a line cook at the Michelin-starred Brooklyn restaurant the Four Horsemen. Here, he and the chef Diego Romo, previously of Gem and Estela in Manhattan, are making simple, seasonal dishes, like grilled squid with turnips and potatoes cooked in Mangalitsa lard. Before it hosted a string of restaurants, Manor Rock’s Warren Street space was a townhouse. It was overhauled earlier this year by the design and architecture firm Charlap Hyman & Herrero, who outfitted the restaurant with porcelain sconces, cream-colored walls and a red-oak bar made of trees from Manor Rock Farm. “We wanted it to feel like it’s been here for the last hundred years,” Nallo says. instagram.com/manorrockfarm.",
-        "city": "Regional",
-        "google_place_id": "ChIJBzrBo9WX3YkRLmBg1G2XXZE"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.78187969999999,
-          42.246330400000005
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "ODRE",
         "category": "Meal",
         "signal": "High",
@@ -23344,42 +21874,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Mel's",
-        "category": "Meal",
-        "signal": "High",
-        "description": "The gelato sundaes at Mel’s are quite possibly buzzier than the excellent pizzas and here, that’s saying something. We’d go for the tri-color stracciatella, with Italian cookies, fudge sauce, and mascarpone gelato, or the rhubarb custard with graham cracker crumb and crispy meringue. You really, truly, can’t go wrong here.",
-        "city": "NYC",
-        "google_place_id": "ChIJ7cBjmSZZwokRC7PaUNOcmJ0"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0076211,
-          40.743325999999996
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "New Mama’s Restaurant",
-        "category": "Meal",
-        "signal": "High",
-        "description": "new mama's dal and roti\n\ndesi style, more garlic\n\nmidnight is when they cook, freshest possible\n\nnahid\n\nhilsha dish\n\nchili chicken\n\n\"mishit and doi is top tier\"",
-        "city": "NYC",
-        "google_place_id": "ChIJq6gz0pFfwokRKBZ2U4Wp39M"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8928799,
-          40.7485438
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Cafe Kestrel",
         "category": "Meal",
         "signal": "High",
@@ -23554,24 +22048,6 @@
         "coordinates": [
           -73.804744,
           40.7623422
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Authentic Xi’an Flavor 西安面馆",
-        "category": "Meal",
-        "signal": "High",
-        "description": "taiwan justin approves",
-        "city": "NYC",
-        "google_place_id": "ChIJH6_ebwBbwokRc24mPyQHxx8"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9972861,
-          40.7171726
         ]
       }
     },
@@ -23941,24 +22417,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Nasrin's Kitchen",
-        "category": "Meal",
-        "signal": "High",
-        "description": "better options for persian but this is potentially an option if i'm in the area",
-        "city": "NYC",
-        "google_place_id": "ChIJv9BCLUNdwokRzDElFUgCar8"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.975883,
-          40.763953
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Masquerade",
         "category": "Meal",
         "signal": "High",
@@ -24136,25 +22594,6 @@
         "coordinates": [
           -73.992167,
           40.7469663
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Bheja Fry",
-        "category": "Meal",
-        "signal": "High",
-        "description": "bheja (brain) fry and beef chaap , heavily seasoned beef cutlet with fried bread and sauce",
-        "secondary_tags": "bakery",
-        "city": "NYC",
-        "google_place_id": "ChIJd5cBOdVfwokRZd1zJxRDzUM"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8925369,
-          40.7491972
         ]
       }
     },
@@ -25758,25 +24197,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "New Flushing Bakery",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "Speaking of, New Flushing bakery’s charging an arm and a leg these days but the Portuguese egg tarts and their assorted cheese tarts are still some of the best around.\n\nIf you want a massive portion of the rolled style of rice rolls there’s a window near New Flushing Bakery and the Dunkin that’s by the 7. Recommend getting some curry fish balls from there too.\n\n---\n\nPortuguese Egg Tart\n\nThe Place for an Egg Tart\nNew Flushing Bakery\nFlushing, Queens\nThe process at this miniscule storefront takes about three minutes: Walk in, ask the woman behind the counter for as many egg tarts as you can carry, pay with cash, accept the paper bag filled with flaky, sweet, eggy pastries, and walk right out. If you can’t help yourself, stand on the sidewalk outside and rip through a couple of Flushing’s premier pastries.\n✵ Order: many Portuguese egg custard tarts.",
-        "secondary_tags": "pastries; bakery",
-        "city": "NYC",
-        "google_place_id": "ChIJ9T4PJA5gwokRJ3JvPFyF2r4"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8304352,
-          40.759622
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Roni-Sue's Chocolates",
         "category": "Dessert",
         "signal": "High",
@@ -25807,24 +24227,6 @@
         "coordinates": [
           -73.9817477,
           40.7717621
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Glaser's Bake Shop",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "Under $3\nBlack and White Cookie",
-        "city": "NYC",
-        "google_place_id": "ChIJnRcehrpYwokR6-DVmEjvmbc"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9485423,
-          40.7776049
         ]
       }
     },
@@ -25915,25 +24317,6 @@
         "coordinates": [
           -74.0181757,
           40.677780999999996
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "The City Bakery",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "Pretzel Croissant (Combo'ed with hot chocolate)",
-        "secondary_tags": "pastries; bakery",
-        "city": "NYC",
-        "google_place_id": "ChIJd8ak_KJZwokR3SZJfV3v1Kk"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9923333,
-          40.7389472
         ]
       }
     },
@@ -26097,24 +24480,6 @@
         "coordinates": [
           -74.0070155,
           40.7429401
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Treat Petite",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "Frozen Kefir (similar to froyo, they do pomegranate and peanut butter well)",
-        "city": "NYC",
-        "google_place_id": "ChIJIetof5RZwokRa2WIz-sGG6M"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0033119,
-          40.73331700000001
         ]
       }
     },
@@ -26631,24 +24996,6 @@
         "coordinates": [
           -73.99298739999999,
           40.7177901
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Two Little Red Hens",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "brooklyn blackout cupcake",
-        "city": "NYC",
-        "google_place_id": "ChIJE7BUobtYwokRzcmrzzFVPrk"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.95240129999999,
-          40.7773928
         ]
       }
     },
@@ -27349,25 +25696,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Kamboat Bakery & Cafe",
-        "category": "Cafe",
-        "signal": "High",
-        "description": "Lucas Sin - \"The most reliable clue that you're standing in one of the best pastry shops or bakeries in Manhattan Chinatown is the number of elderly folks inside, sipping tea, reading the newspaper, and gossiping about their neighbors. Kamboat (111 Bowery) is one of these places. They make the best egg tart in town, but the key is to flirt with the ladies working the front so they give you a dozen from the freshest batch, usually hidden in the back.\n\nBefore the pandemic, we would’ve recommended going inside Hong Kong bakery Kam Boat in Chinatown for the full Chinese bakery experience: grab a tray, a pair of tongs, and pick out some baked goods from their wide assortment. These days, we still recommend dropping by, but expect that an employee will handle your treats of choice. The egg tarts here are also some of the best in the city. The crust is a little more crumbly than flaky, and the egg custard center is impossibly smooth. We like to buy these egg tarts by the dozen, save a few for ourselves, and bring the rest to potlucks to share friends.",
-        "secondary_tags": "pastries; bakery",
-        "city": "NYC",
-        "google_place_id": "ChIJU_kzBohZwokR-bGMq1J5Cv0"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9949638,
-          40.7178089
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Tadaima",
         "category": "Dessert",
         "signal": "High",
@@ -27564,24 +25892,6 @@
         "coordinates": [
           -73.9584611,
           40.7128552
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Cha-An BONBON",
-        "category": "Cafe",
-        "signal": "High",
-        "description": "Cha-An Bonbon is a charming Japanese cafe located on East 9th Street that’s owned and operated by mother and daughter duo Tomoko and Sakura Yagi, who are Japanese and Japanese-American respectively. This cafe continues to keep the Japanese wagashi tradition alive, pairing matcha and hojicha lattes with a variety of mochi and desserts like the anmitsu. (They also have soft serve versions of both lattes.) For a sit-down experience, you can also visit Cha-An Teahouse, located on the second floor of 230 East 9th St. Stop by for unagi, inari, or something sweet like a matcha affogato or black sesame crème brûlée.",
-        "city": "NYC",
-        "google_place_id": "ChIJ80P0-MVZwokRsHW2P9r9V-E"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9878961,
-          40.7293658
         ]
       }
     },
@@ -27817,23 +26127,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Dough Urbanspace",
-        "category": "Dessert",
-        "signal": "Low",
-        "city": "NYC",
-        "google_place_id": "ChIJ_y7c9v1YwokR-uNhB0PdVHo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.97618299999999,
-          40.754372
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Moe's Doughs",
         "category": "Dessert",
         "signal": "High",
@@ -27882,25 +26175,6 @@
         "coordinates": [
           -73.99872069999999,
           40.7146964
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Mudflow Bubble Tea",
-        "category": "Cafe",
-        "signal": "High",
-        "description": "With bubble tea places on every corner in Sunset Park Chinatown, it can be hard to decide where to go, but Mudflow has a lot to offer.\n\nWhat I love about Mudflow is that they have a huge variety of different drinks, and they offer all the customizations to those drinks that you would get in China.\n\nThey have the classic teas with or without milk, creamy drinks without tea, fresh pressed juices, fresh fruit teas, and Yakult yogurt beverages. There’s so much to enjoy, and everything we’ve tried has been very tasty.\n\nThe customizations help you make sure the drink is just right. Hot or cold? How much ice do you want? Sweetness level? Do you want tapioca pearls, herb jelly, red beans, aloe, whipped cream, etc. etc.? It is really helpful having all the options laid out so you can get the perfect combo.\n\nSome of our favorites are the lychee rose tea (super fragrant and quenching), the classic milk tea (exactly as it should be), and the mango Yakult yogurt (tangy and slightly creamy). While you can’t go wrong with the good ol’ tapioca pearls, the herb jelly and pop boba give you some really fun textures as well.\n\nStop in and get yourself a fun drink to sip as you explore the neighborhood!",
-        "secondary_tags": "tea",
-        "city": "NYC",
-        "google_place_id": "ChIJW9-Z1V5FwokRT4EhCWk5DQw"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0075238,
-          40.637816099999995
         ]
       }
     },
@@ -28297,24 +26571,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Flipper's",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "The specialty of this Japanese import are thick spongy soufflé pancakes, served with fresh fruit. While its specialty isn’t good for eating everyday, there are many other all-day breakfast and brunch options, making this an interesting pit stop until late afternoon. These include sandwiches served with good fries, boba teas, entree salads, and fried chicken with waffles. The upstairs dining room provides good views of this bustling Soho corner.",
-        "city": "NYC",
-        "google_place_id": "ChIJgx0sRypZwokRuk6Tjic2Q4g"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0035218,
-          40.7223798
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Tres Leches Cafe - Harlem",
         "category": "Cafe",
         "signal": "Low",
@@ -28327,25 +26583,6 @@
         "coordinates": [
           -73.9378201,
           40.793518
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Tres Leches Cafe Downtown",
-        "category": "Cafe",
-        "signal": "High",
-        "description": "Tres Leches Café has a slogan — “Por la gracia de Dios” — that goes some way toward explaining its confection-focused perfectionism: The team takes its cues, in other words, from a higher power. The spouses Ronaldo and Luisa Felipe opened their first location, on 112th Street in East Harlem, more than a decade ago, and a second shop arrived on the Lower East Side earlier this year. Growing up in the Dominican Republic, Ronaldo would help his grandmother make cakes and sweets, so it was only natural that eventually he’d want to try his hand at tres leches cake, a favored dessert throughout Latin America. Some classic versions call for condensed milk, evaporated milk and regular milk or cream. At the risk of gilding the lily, the cafe’s cuatro leches cake dares to add a fourth “milk” in the form of dulce de leche icing, with transcendent results; you’ll wonder why the caramel wasn’t always there. It’s one of many cakes that Tres Leches sells whole or by the square slice, each one of which comes swimming, inside its plastic to-go container, in a pool of cream, just as God intended.",
-        "secondary_tags": "dessert",
-        "city": "NYC",
-        "google_place_id": "ChIJOVEDTiFZwokRgf4FVuc7tkA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.98857919999999,
-          40.7210014
         ]
       }
     },
@@ -28383,25 +26620,6 @@
         "coordinates": [
           -73.9064695,
           40.713140599999996
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Santiago’s Beer Garden",
-        "category": "Drinks",
-        "signal": "High",
-        "description": "beer garden with notable tres leches",
-        "secondary_tags": "dessert; meal; beer",
-        "city": "NYC",
-        "google_place_id": "ChIJew0GrQX1wokR4ChwOTIWBrI"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9338581,
-          40.798518099999995
         ]
       }
     },
@@ -28497,25 +26715,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Moge Tee Midtown",
-        "category": "Cafe",
-        "signal": "Low",
-        "description": "bubble tea shop focused on milk tea and fruit tea drinks",
-        "secondary_tags": "tea",
-        "city": "NYC",
-        "google_place_id": "ChIJvWI3OzFZwokRRT1FF5QdbnI"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9916963,
-          40.7554242
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Debutea, tea and coffee",
         "category": "Cafe",
         "signal": "Low",
@@ -28547,25 +26746,6 @@
         "coordinates": [
           -73.98841469999999,
           40.689358299999995
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Thai Thai Grocery",
-        "category": "Activities",
-        "signal": "High",
-        "description": "Zaab Zaab, a new Thai restaurant that has white Manhattan and Brooklynites flocking to Elmhurst — “It smells like lemongrass and sunscreen in here,” I noted to a friend — is as good as they say, but this week’s best bite actually came after our meal, as we searched for dessert at a small Thai market across the street. After meeting the owner of P’Noi Thai Thai Grocery, we walked out the door with grilled sticky rice, a bottle of Shark Sriracha, and this carton of fried bananas in tow ($7). This takeout container overflowing with oily ‘nanners turned out to be exactly what we needed after a gut-busting feast of stuffed tilapia and short rib hot pot",
-        "secondary_tags": "shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJU9S5hapfwokRaFtBYErMUDI"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.888352,
-          40.743693
         ]
       }
     },
@@ -28868,24 +27048,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Sweets Laboratory by Hanamizuki",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "parfaits",
-        "city": "NYC",
-        "google_place_id": "ChIJK-6i_ClZwokR1JpZN9dZgCI"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.99161579999999,
-          40.7475437
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Momoya SoHo",
         "category": "Dessert",
         "signal": "High",
@@ -28898,24 +27060,6 @@
         "coordinates": [
           -73.9958467,
           40.7235132
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Jell and Chill",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "desserts",
-        "city": "NYC",
-        "google_place_id": "ChIJ82xGzcFZwokR541U7kISdq0"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9847324,
-          40.7264095
         ]
       }
     },
@@ -28972,24 +27116,6 @@
         "coordinates": [
           -73.9968898,
           40.8487907
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Mochinut Bayside",
-        "category": "Dessert",
-        "signal": "Low",
-        "description": "mochi donut chain with drinks and Korean-style hot dogs",
-        "city": "NYC",
-        "google_place_id": "ChIJnwqsCtlhwokRvOBhV6Jmtm8"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.768365,
-          40.759153
         ]
       }
     },
@@ -29081,42 +27207,6 @@
         "coordinates": [
           -73.98596309999999,
           40.7293258
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Young's Dessert Bar",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "the owner makes a tofu custard like dessert that is friggen delicious. It’s not listed on a menu but it’s displayed in those glass display fridges in a plastic box",
-        "city": "NYC",
-        "google_place_id": "ChIJFdzhYW1hwokRFbJrvIsA3KA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8327984,
-          40.7600334
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "La Mira Gelateria",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "Know where to find a longan rose gelato in the shape of a cute bear? La Mira Gelateria is helping resuscitate the recently re-opened New World Mall with its Asian twists on gelato from founder Sharon Ye, who studied gelato-making in Italy. Scoops of sesame seaweed and peach oolong flavors are topped with little edible nubs to form a mouse, pig, or panda.",
-        "city": "NYC",
-        "google_place_id": "ChIJwWEJgk9hwokRyY1at9mvp_w"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8330452,
-          40.758715099999996
         ]
       }
     },
@@ -29332,24 +27422,6 @@
         "coordinates": [
           -74.1273451,
           40.6130401
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Boulis Cafe",
-        "category": "Cafe",
-        "signal": "High",
-        "description": "they make fresh loukamades to order. They’re incredible. They also make Greek frappes and other pastries, but the loukamades are the star of the show. I like them with honey and cinnamon.",
-        "city": "NYC",
-        "google_place_id": "ChIJLQ-dJThfwokR-pnV5ZNiGdc"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.923682,
-          40.7646109
         ]
       }
     },
@@ -29766,24 +27838,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Ovenly Greenpoint",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "notable brooklyn blackout cake\n\ndeviates from the original by featuring black cocoa powder and stout beer.",
-        "city": "NYC",
-        "google_place_id": "ChIJyasWgmpZwokRkIN7xKkBPXU"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9595746,
-          40.7298694
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "A&C Super",
         "category": "Dessert",
         "signal": "High",
@@ -29926,25 +27980,6 @@
         "coordinates": [
           -74.0018258,
           40.7326464
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "ALF Bakery",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "This slender example has a crisp, caramelized exterior, and relatively dense flesh. It is more buttery than usual and has an elegant shape and heft. This is a perfect breakfast croissant, but not much of a sandwich croissant, and keeps longer than usual due to its high fat content, via Amadou Ly, formerly of Tribeca’s fabled Arcade Bakery. \n--\n\nAfter much (deserved) fanfare, ALF opened in the lower level of Chelsea Market in April. Baker Amadou Ly worked with the great Roger Gural at Arcade Bakery, and now he brings his spin on laminated baguettes and seasonal danishes to Chelsea Market. The seeded laminated baguette is a dream, as is the buckwheat pear special.",
-        "secondary_tags": "bakery",
-        "city": "NYC",
-        "google_place_id": "ChIJ_wVSG1pZwokRTENu3ZxP0nk"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0064402,
-          40.7424999
         ]
       }
     },
@@ -30630,24 +28665,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Ovenly Cobble Hill",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "notable brooklyn blackout cake\n\ndeviates from the original by featuring black cocoa powder and stout beer.",
-        "city": "NYC",
-        "google_place_id": "ChIJi0egMr5bwokRGv3MrWsiNJQ"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9949911,
-          40.684742899999996
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "The Pastry Box",
         "category": "Dessert",
         "signal": "High",
@@ -31144,43 +29161,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "3 DESSERT 三圓台式甜品",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "taiwanese desserts",
-        "city": "NYC",
-        "google_place_id": "ChIJ49q9RW5hwokRTe8JT02deJ0"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.82913429999999,
-          40.7593046
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "3 DESSERT Café CHINATOWN",
-        "category": "Cafe",
-        "signal": "High",
-        "description": "taiwanese dessert",
-        "secondary_tags": "dessert",
-        "city": "NYC",
-        "google_place_id": "ChIJV-xsW2BbwokR4SKrF0O9Q84"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9982406,
-          40.71717890000001
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Pamina Dolci e Gelato",
         "category": "Dessert",
         "signal": "High",
@@ -31231,25 +29211,6 @@
         "coordinates": [
           -73.9704258,
           40.7637733
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Barachou West Village",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "If you like your croissant soft, almost squishy, this one is for you. The inside of Barachou’s croissant is dense and rich, and provides tensile strength with no crunch or crackle. This West Village bakery specializes in tiny cream puffs in a myriad of flavors, and their French flan and cinnamon buns are justly celebrated.",
-        "secondary_tags": "pastries",
-        "city": "NYC",
-        "google_place_id": "ChIJ4Yyt2fJZwokRHH-wOyCShW8"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0048678,
-          40.737769799999995
         ]
       }
     },
@@ -31912,24 +29873,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Red Hook Coffee Shop",
-        "category": "Cafe",
-        "signal": "High",
-        "description": "has some vintage inside",
-        "city": "NYC",
-        "google_place_id": "ChIJO0Ur2fNbwokRPLJP31sbTgg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0120129,
-          40.6779109
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Mr Buñuelo",
         "category": "Dessert",
         "signal": "High",
@@ -32299,24 +30242,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "GREATS Studio",
-        "category": "Activities",
-        "signal": "Low",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJ3wnCPl1ZwokRJj39yEVrmSY"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9576232,
-          40.7207316
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "The Vans DQM General",
         "category": "Activities",
         "signal": "Low",
@@ -32347,24 +30272,6 @@
         "coordinates": [
           -73.9604799,
           40.7184901
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "House of Vans",
-        "category": "Activities",
-        "signal": "Low",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJCXGbPEJZwokRLUHia8Dh-u8"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.95774089999999,
-          40.725860499999996
         ]
       }
     },
@@ -32456,24 +30363,6 @@
         "coordinates": [
           -74.001044,
           40.719511
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Saturdays NYC Crosby St",
-        "category": "Activities",
-        "signal": "Low",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJgfRtc4lZwokR0wYPhft5r5M"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9993478,
-          40.7207375
         ]
       }
     },
@@ -32782,24 +30671,6 @@
         "coordinates": [
           -73.99432019999999,
           40.7260327
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Bird Brooklyn - Williamsburg",
-        "category": "Activities",
-        "signal": "Low",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJ1y_AemBZwokRdzqKDV4e1oI"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9601598,
-          40.7142315
         ]
       }
     },
@@ -33186,25 +31057,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "J. Lindeberg",
-        "category": "Activities",
-        "signal": "High",
-        "description": "Menswear",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJCwx5p45ZwokRjUN-qHXN9cw"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0005213,
-          40.7237691
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Acne Studios Greene Street",
         "category": "Activities",
         "signal": "Low",
@@ -33273,24 +31125,6 @@
         "coordinates": [
           -73.9961825,
           40.7236847
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Creatures of Comfort",
-        "category": "Activities",
-        "signal": "Low",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJlysAx4hZwokRQ9n294wZZRw"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.99653099999999,
-          40.721624999999996
         ]
       }
     },
@@ -33612,25 +31446,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Life:Curated",
-        "category": "Activities",
-        "signal": "High",
-        "description": "Thrift/local handcraft",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJwxx3QmBZwokR1nLIDQqQqBg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.96096279999999,
-          40.7140965
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Hatchet Outdoor Supply Co.",
         "category": "Activities",
         "signal": "High",
@@ -33644,25 +31459,6 @@
         "coordinates": [
           -73.9975924,
           40.69135910000001
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "WeSC Concept Store",
-        "category": "Activities",
-        "signal": "High",
-        "description": "street",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJrxGwEo9ZwokRcGG8O9cbolU"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9962268,
-          40.7242201
         ]
       }
     },
@@ -34150,25 +31946,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Huiben",
-        "category": "Activities",
-        "signal": "High",
-        "description": "https://www.instagram.com/huibenshop/?hl=en",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJfRmJXQBbwokRlvjayolDebI"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9937016,
-          40.7150056
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Privilege New York",
         "category": "Activities",
         "signal": "High",
@@ -34368,44 +32145,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Canal Street Market",
-        "category": "Activities",
-        "signal": "High",
-        "description": "Greats pop up?",
-        "secondary_tags": "shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJ3bYqHIpZwokRWKXxj76uK4g"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.00087479999999,
-          40.7188807
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "BDDW",
-        "category": "Activities",
-        "signal": "High",
-        "description": "furniture",
-        "secondary_tags": "homegoods",
-        "city": "NYC",
-        "google_place_id": "ChIJ50oCiYlZwokR_vEVMFmcRCY"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.00029339999999,
-          40.7197983
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Tokio 7",
         "category": "Activities",
         "signal": "Low",
@@ -34492,24 +32231,6 @@
         "coordinates": [
           -73.955995,
           40.719283
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "IGWT NYC - Greenpoint",
-        "category": "Activities",
-        "signal": "High",
-        "description": "Women's high end",
-        "city": "NYC",
-        "google_place_id": "ChIJb2jGNUBZwokRVmDuhH3aJ1U"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9581513,
-          40.7295258
         ]
       }
     },
@@ -35715,24 +33436,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Twin Filipino",
-        "category": "Activities",
-        "signal": "High",
-        "description": "small, but if you're in the area",
-        "city": "NYC",
-        "google_place_id": "ChIJfRgdYUhfwokRBMVfZMWvbt4"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9254964,
-          40.7689813
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "The Meat Hook",
         "category": "Activities",
         "signal": "Low",
@@ -35870,23 +33573,6 @@
         "coordinates": [
           -73.7903217,
           42.2525483
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Fletcher & Lu",
-        "category": "Activities",
-        "signal": "Low",
-        "city": "Regional",
-        "google_place_id": "ChIJHc1TogsP3YkRw5K6jF2gnyE"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.00326120000001,
-          41.929256699999996
         ]
       }
     },
@@ -36363,24 +34049,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Sama Street",
-        "category": "Drinks",
-        "signal": "High",
-        "description": "Avi Singh and Rishi Rajpal, who are Indian and Indian Chinese, respectively, opened Greenpoint bar Sama Street in 2019, which serves Asian-inspired cocktails and food. They’re childhood friends and spent the majority of their lives living in and traveling through Asia. “We wanted to highlight the foods and beverages we grew up on, and share these memories... by shining a light on Asian culture and ingredients through cocktails and food,” said Singh. Their extensive cocktail list includes names like Lucy Liu and Bollywood Superstar, which use ingredients typically found in Chinese and Indian dishes such as chili oil (used as a tequila wash) and garam masala. For pre or post-dinner drinks, we recommend pairing drinks with some snacks and lamb skewers—and the pork ribs and steak should truly not be missed. The ribs are super tender and doused in a chili barbecue sauce, and the steak is topped with a sesame chimmi sauce and comes with fries and a side of fish sauce mayo, which is the only way we'll be having mayo from now on.",
-        "city": "NYC",
-        "google_place_id": "ChIJTUmBz7JZwokRghbYmUvFBVQ"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.95452279999999,
-          40.732898899999995
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Double Chicken Please",
         "category": "Drinks",
         "signal": "High",
@@ -36412,25 +34080,6 @@
         "coordinates": [
           -73.9898899,
           40.722780199999995
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Peachy's",
-        "category": "Drinks",
-        "signal": "High",
-        "description": "In 2018, Chinese-American restaurant owner Jeff Lam and his co-owner Eddy Buckingham opened Peachy’s, a cocktail den situated under their restaurant, Chinese Tuxedo, on Chinatown’s infamous Doyers Street. For a first-timer, Peachy’s can come off as a cool kids club—the space is adorned with pink blossoms and tiger-print wallpaper, and the only lighting comes from hanging lanterns, candles, and pink neon lights in the form of dragons and Chinese characters. (The characters spell out “Land of Peach Blossoms,” which signifies a type of paradise.) But after you’ve ordered a 7 Minutes In Heaven (or two)—their signature cocktail with yuzu and Suntory vodka—and sunk into your seat a bit, you’ll feel like you fit right in.",
-        "secondary_tags": "meal; cocktails",
-        "city": "NYC",
-        "google_place_id": "ChIJIc9Bws5bwokRb4SfZ0v-b1Q"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9980357,
-          40.7143302
         ]
       }
     },
@@ -36491,24 +34140,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Lovers Rock",
-        "category": "Drinks",
-        "signal": "High",
-        "description": "The Place for Rum Punches That’ll Knock You Out\nLovers Rock\nBed-Stuy, Brooklyn\nThis Bed-Stuy bar wasn’t around in the ’90s, but you wouldn’t know it from the exposed red light bulbs, palm tree iconography, and thumping Caribbeats. If the need to escape that vibe for a minute overwhelms you, the backyard is big and comfortable.\n✵ Order: Jamaican rums, rum punch, and very cold beer.",
-        "city": "NYC",
-        "google_place_id": "ChIJ6XlJ4Y5bwokR6jN-To8-GNQ"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9436839,
-          40.6830966
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Old Town Bar",
         "category": "Drinks",
         "signal": "High",
@@ -36557,25 +34188,6 @@
         "coordinates": [
           -73.9829505,
           40.724871
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Achilles Heel",
-        "category": "Drinks",
-        "signal": "High",
-        "description": "The Place for When Some People Want to Drink and Other People Want to Have a Nice Dinner\nAchilles Heel\nGreenpoint, Brooklyn\nFour friends walk into a bar. One wants a glass of easy-drinking red. Another wants a cold can of Genesee. The third could go for a bubbly spritz laced with Averna. And the fourth would rather go straight to pasta with braised pork and white beans. That bar is Achilles Heel—a 100-plus-year-old neighborhood spot on a corner in Greenpoint that has...something for everyone.\n✵ Order: the seasonal spritz, oysters, lentil dip, marinated short rib, and anything that involves She Wolf Bakery bread.\n\n---\n\nGreenpoint may take the title for neighborhood we’d most like to be a regular in, if that we’re a thing. Since it’s not, we’re giving you Achilles Heel, a quintessentially Brooklyn bar with truly supreme fare from Banchan by Sunny chef Sunny Lee. Probably, one of your friends with a job title like “creative director” has already taken you here, but if not, do try to become a regular on your own for the kind staff, the rotating wine list, and the craveable trout dip and must-order sesame mochi cake.\n\n---\n\nGreenpoint always delivers when it comes to spots that make us feel like we live just around the corner and come there all the time, even if it’s our first visit. And it’s true: We’d pay lots of money to be able to experience Achilles Heel for the first time. Between their comfy bar seats, quaint space, and menu of creative small plates from chef Sunny Lee, it’s a spot worth returning to again and again.\n\nThe coziest dishes: Hotteok (a Korean street food staple reminiscent of a pancake) stuffed with corn cheese and hot mustard, trout dip with egg salad and cod roe, and a healthy pour of whatever wine your server recommends.",
-        "secondary_tags": "meal",
-        "city": "NYC",
-        "google_place_id": "ChIJfelAXhVZwokRphnsZ_Or_o8"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9596202,
-          40.7331806
         ]
       }
     },
@@ -37035,25 +34647,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Archestratus Books + Foods",
-        "category": "Activities",
-        "signal": "High",
-        "description": "A neighborhood staple since 2015, this hybrid cookbook store, specialty grocer, and Italian cafe doubled in size over the pandemic, leaving plenty of space for Italian pastries, pop-up dinners, and a specialty sandwich menu offering saucy Sicilian staples like a gooey meatball parm on focaccia. Indoor and outdoor seating is available.\n\nPaige Lipari runs the show at Archestratus. She helps customers and handles books, of course, while also making strong coffee and perfect cookies for the café in the back, scheduling programming and events during the week, and hosting community dinners on Thursday nights. The space does not reflect this hubbub, though. Instead, one experiences cleanliness that’s not sterile, a friendliness that’s not cloying and a sense of whimsy that seems authentic. The titles at Archestratus only confirm this feeling: In addition to a deeply solid offering of new and used books in every major category, Archestratus has poetry, fiction, graphic novels and food books by artists—Aleksandra Mir’s The How Not to Cookbook, Cooking with Scorsese Vol. 2 by Hato Press, Osamu Watanabe’s Art Works Sweet Or Unsweet. I stumbled across CCCP Cook Book: True Stories of Soviet Cuisine by Olga and Pavel Syutkin, beautifully bound and illustrated with gorgeous and haunting vintage images, and have dreamt of Technicolor borscht every night since.\n\nSince you’re reading this list, we have to assume that you’re a fan of food and books. Allow us to present heaven, also known as Archestratus Books and Food in Greenpoint. They’ve got a general store and a huge selection of groceries and dry goods. If you’ve been looking for a new cookbook for a while, you’ll find it here, along with three others that you have to have. Grab one of their many food-writing or food-adjacent-writing picks on the side and walk away knowing dinner is about to be great at your house for the next month. Bonus? Walk over to Big Night afterwards for the cutest accessories for the dinner party you’re already planning in your head.",
-        "secondary_tags": "bookstore; shopping; coffee",
-        "city": "NYC",
-        "google_place_id": "ChIJDYmQFT9ZwokR1bSFKsItm5o"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9551597,
-          40.7328678
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "WNYC Transmitter Park",
         "category": "Activities",
         "signal": "High",
@@ -37202,25 +34795,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "The Evolution Store",
-        "category": "Activities",
-        "signal": "High",
-        "description": "notable weird store",
-        "secondary_tags": "shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJ7Rljr45ZwokRKsFnqQir1zs"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9947995,
-          40.7281384
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Exit9 Gift Emporium",
         "category": "Activities",
         "signal": "Low",
@@ -37324,25 +34898,6 @@
         "coordinates": [
           -73.9832614,
           40.7285288
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "The March Hare",
-        "category": "Activities",
-        "signal": "High",
-        "description": "A magical toy shop with a colorful shopfront, and signature hot-air balloon and clouds featured in the window.",
-        "secondary_tags": "gift-shop; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJ5z0pLL1ZwokRoJiOyAsetts"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.986109,
-          40.7288508
         ]
       }
     },
@@ -37984,23 +35539,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "No Particular Hours",
-        "category": "Activities",
-        "signal": "Low",
-        "city": "NYC",
-        "google_place_id": "ChIJxQNbd7BZwokR2rE3trper-g"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0005694,
-          40.7407979
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "African Paradise",
         "category": "Activities",
         "signal": "Low",
@@ -38561,25 +36099,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Kremer Pigments",
-        "category": "Activities",
-        "signal": "High",
-        "description": "One day while walking to class on 29th st, I noticed this little store with tiny brightly colored bottles of powder and chunks of minerals in the window and it turned out to be Kremer Pigments— a shop selling raw materials for art restoration & conservation using historic formulas from when the pieces were actually painted (in addition to modern art supplies).",
-        "secondary_tags": "shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJjXOuw69ZwokRbp_0-ytOUJg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9947334,
-          40.7488306
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Dream Fishing Tackle",
         "category": "Activities",
         "signal": "High",
@@ -38723,24 +36242,6 @@
         "coordinates": [
           -73.9826561,
           40.750674
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Rtv Exotics",
-        "category": "Activities",
-        "signal": "High",
-        "description": "\"All those stores downtown that sell exotic snacks, candy and soda from Asia like RTV Exotics on Rivington\n\"",
-        "city": "NYC",
-        "google_place_id": "ChIJNR1aqRhZwokRktbPPFm-_sM"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9886717,
-          40.7202517
         ]
       }
     },
@@ -38953,25 +36454,6 @@
         "coordinates": [
           -73.9902231,
           40.733043099999996
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "The Real KTV 本色盛典KTV",
-        "category": "Drinks",
-        "signal": "High",
-        "description": "Kang’s business partners first turned her onto this karaoke-destination-cum-event-space-cum-snack-bar; it’s hosted her company’s holiday parties a couple times. “It’s very high tech,” she says, “with a good selection of English and Chinese songs. You can order off screens, there’s quality speakers and lighting effects.” Shatteringly crisp fried chicken wings, skewered fish balls, ramen, and boba tea are usually in her food order, accompanied by plenty of Lana del Rey and Jay Chao.",
-        "secondary_tags": "arcade; light-food",
-        "city": "NYC",
-        "google_place_id": "ChIJ3Q33wxFgwokRivyK5_OSPNI"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8291601,
-          40.7594017
         ]
       }
     },
@@ -39259,23 +36741,6 @@
         "coordinates": [
           -73.9895892,
           40.7615383
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Domus - unaffected living",
-        "category": "Activities",
-        "signal": "Low",
-        "city": "NYC",
-        "google_place_id": "ChIJu3L-R1JYwokR-xVwmnR7UxU"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.992398,
-          40.760186
         ]
       }
     },
@@ -39979,113 +37444,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Boisson West Village - Non-Alcoholic Spirits, Beer, & Wine Shop",
-        "category": "Activities",
-        "signal": "Low",
-        "secondary_tags": "shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJ6_MaqpFZwokRcv9xwPNpyWQ"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0045701,
-          40.7336427
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Boisson Rockefeller Center - Non-Alcoholic Spirits, Beer, & Wine",
-        "category": "Activities",
-        "signal": "Low",
-        "city": "NYC",
-        "google_place_id": "ChIJxamCTd5ZwokRKBQfWoI-sjM"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9786828,
-          40.758778899999996
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Boisson Cobble Hill - Non-Alcoholic Spirits, Beer, and Wine Shop",
-        "category": "Activities",
-        "signal": "Low",
-        "secondary_tags": "shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJZ7ZDFgNbwokR26w4GpUXHXA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9928855,
-          40.6881007
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Boisson Williamsburg - Non-Alcoholic Spirits, Beer, & Wine Shop",
-        "category": "Activities",
-        "signal": "Low",
-        "secondary_tags": "shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJXXgB06tZwokROqMLVREQkWw"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.95689949999999,
-          40.7189039
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Boisson Upper West Side - Non-Alcoholic Spirits, Beer, Wine Shop",
-        "category": "Activities",
-        "signal": "Low",
-        "secondary_tags": "shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJJb6LgDVZwokR6LC3g4BXBTs"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9773223,
-          40.7797456
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Boisson Upper East Side - Non-Alcoholic Spirits, Beer, Wine Shop",
-        "category": "Activities",
-        "signal": "Low",
-        "secondary_tags": "shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJV30cA7VZwokRIKmvyVTjI9Q"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.96132680000001,
-          40.7713282
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Casa Magazines",
         "category": "Activities",
         "signal": "High",
@@ -40309,24 +37667,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Master Kitchen",
-        "category": "Activities",
-        "signal": "High",
-        "description": "A bit on the less unusual side but I love the restaurant supply stores around Bowery. My favorite is Master Kitchen on Delancey.",
-        "city": "NYC",
-        "google_place_id": "ChIJe2LUV4ZZwokRzLuINAz1PsA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9918366,
-          40.719854999999995
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Gothic Renaissance",
         "category": "Activities",
         "signal": "Low",
@@ -40355,23 +37695,6 @@
         "coordinates": [
           -73.9844492,
           40.727837099999995
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Hammacher Schlemmer",
-        "category": "Activities",
-        "signal": "Low",
-        "city": "NYC",
-        "google_place_id": "ChIJ5U85AeVYwokR8VnEaCw6dl0"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.96846959999999,
-          40.7608947
         ]
       }
     },
@@ -41110,25 +38433,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "DAE",
-        "category": "Activities",
-        "signal": "High",
-        "description": "Korean cafe, restaurant and home goods store",
-        "secondary_tags": "shopping; meal; coffee",
-        "city": "NYC",
-        "google_place_id": "ChIJc7sz_cxbwokRruIjAlwlXLo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9957744,
-          40.678605999999995
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Hudson Wilder",
         "category": "Activities",
         "signal": "High",
@@ -41235,25 +38539,6 @@
         "coordinates": [
           -73.9923495,
           40.703405599999996
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Minton's Playhouse",
-        "category": "Activities",
-        "signal": "High",
-        "description": "Jazz club",
-        "secondary_tags": "music",
-        "city": "NYC",
-        "google_place_id": "ChIJ38jfXRH2wokR3ZewiTRd9oU"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9523911,
-          40.8047574
         ]
       }
     },
@@ -41708,25 +38993,6 @@
         "coordinates": [
           -73.98699690000001,
           40.703846399999996
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Bury Your Dead Downwind",
-        "category": "Activities",
-        "signal": "High",
-        "description": "interesting furniture and clothes curation",
-        "secondary_tags": "homegoods",
-        "city": "NYC",
-        "google_place_id": "ChIJG4yajIlZwokRrQD9203jo2Y"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.00028309999999,
-          40.719498400000006
         ]
       }
     },
@@ -46217,24 +43483,6 @@
         "coordinates": [
           12.3421493,
           45.4377817
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Danieli Bistro",
-        "category": "Meal",
-        "signal": "Medium",
-        "description": "Castello, Riva degli Schiavoni 4196 (inside Hotel Danieli, distinct from the hotel's separate rooftop restaurant, Ristorante Terrazza Danieli). Gambero Rosso 2020 feature (\"Ristoranti tipici di Venezia\") and a 2024 feature (\"Mangiare a Venezia durante la Biennale d'arte\"). Verified 2026-08-01: 4.5/5 Tripadvisor (77 reviews) -- confirms, strong rating though on a small sample.",
-        "secondary_tags": "gambero-rosso; venice; castello; hotel",
-        "city": "Venice"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.3420604,
-          45.4339006
         ]
       }
     },
