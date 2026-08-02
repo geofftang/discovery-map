@@ -44694,6 +44694,23 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Cantina Do Spade",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Dinner recommendation, sourced 2026-07-31 same as above — local rec, identity unverified, no institutional backing checked yet. Verified 2026-08-01: real, historic (1415). Specific negative reviews present alongside praise (staff friendliness called out by name) — a legitimacy signal, astroturf rarely includes specific service complaints. Verified 2026-08-01: 4.2 Tripadvisor, 4.9 RestaurantGuru, Gambero Rosso confirms via their own bacari guide. Designation holds up. Also featured in Gambero Rosso 2023 (bacari guide): Runs a dual identity -- a seasonal-menu trattoria (moeche in season March-April and October-November) plus a quick-cicchetti bacaro side (sarde in saor, baccalà, liver alla veneziana, polpette al sugo rosso, calamari, prawns); open later than most bacari, which is unusual for Venice. Verified 2026-08-02 mid-trip: Sun hours 18:00-22:00 confirmed. Real institutional backing beyond the earlier unverified flag -- Gambero Rosso bacari feature + Falstaff 88pts, 4.2 Tripadvisor (2,502 reviews), 4.9 RestaurantGuru (7,751 reviews). Also known locally as \"Ae Do Spade.\"",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3333943,
+          45.4391783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Al Covo",
         "category": "Meal",
         "signal": "High",
@@ -46308,6 +46325,42 @@
         "coordinates": [
           12.3261443,
           45.4296093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ostaria dai Zemei (Al Zemei)",
+        "category": "Drinks",
+        "signal": "Medium",
+        "description": "San Polo, Ruga Rialto -- concierge recommendation (Hotel Firenze), 2026-08-02. Twins-run (Franco and Giovanni), real historic bacaro in the Rialto cicchetti cluster (same neighborhood as All'Arco and Cantina Do Spade). Order: meat/tuna/eggplant croquettes, crostini/panini with radicchio, artichoke, fish, sopressa combos. Sun hours 08:30-19:00 (shorter than its weekday 08:30-20:30 -- closes early Sundays specifically). No numeric rating surfaced in verification -- thinner evidence than Do Spade or Al Timon, not disqualifying. Not visited this trip -- concierge-sourced only, no personal verification.",
+        "secondary_tags": "bacaro; cicchetti; venice",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3338303,
+          45.4382943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ombra del Leone",
+        "category": "Drinks",
+        "signal": "Medium",
+        "description": "Ca' Giustinian, San Marco -- suggested by Al Covo staff, 2026-08-02 dinner, as a waterside drink spot. On the ground floor of Ca' Giustinian (HQ of the Venice Biennale/Film Festival org), directly on the Grand Canal facing the Salute and Punta della Dogana. Terrace/cafe-bar register, wines and spritzes. Not visited this trip -- Al Covo ran late and there wasn't time. Unverified beyond the staff recommendation -- no independent critic or rating check done yet.",
+        "secondary_tags": "waterside; drinks; venice; grand-canal",
+        "city": "Venice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3288921,
+          45.4324393
         ]
       }
     }
