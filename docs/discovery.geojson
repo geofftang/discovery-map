@@ -43629,6 +43629,24 @@
           41.8796221
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Otaleg (Trastevere)",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Via di San Cosimato 14/A, Trastevere -- open daily noon-midnight. Marco Radicioni, master gelato maker, natural ingredients churned in view of customers. Innovative flavors alongside solid classics -- stone fruit sorbets and ricotta-based flavors specifically called out. Zero-detour from Tavernaccia Da Bruno (same neighborhood) -- pairs naturally with an 8/3 Trastevere dinner, before or after.\n\nGambero Rosso \"Tre Coni\" (their top gelato award), multiple consecutive years. Named-critic praise (a food critic, quoted 2026-08-03, unnamed source) + a chef recommendation. CORRECTION 2026-08-03: the chef quote referenced the ORIGINAL Colli Portuensi location (Viale dei Colli Portuensi 594) -- that location is CLOSED. This Trastevere address is the current, correct one. Second branch exists in Monteverde Vecchio (Viale dei Quattro Venti 70) -- different address, appears genuinely current, only relevant if pairing with a Monteverde stop.",
+        "secondary_tags": "gelato; dessert; rome; trastevere; zero-detour",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4704523,
+          41.8881366
+        ]
+      }
     }
   ]
 }
