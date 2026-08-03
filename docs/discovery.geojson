@@ -43647,6 +43647,942 @@
           41.8881366
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cucina del Teatro",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Via di San Simone 70, Centro Storico, near Piazza Navona. Named by gxb (r/rome) as his own romantic-couple pick, contrasted against Baffetto (\"more authentic\") and Roscioli (\"more casual\"); multiple independent posters in that thread reported back positively.\n\nNot in the named-critic table (KP/EM/etc) -- sourced via forum only. Current 2025-26 reviews are POLARIZED: some call it a tourist trap (small portions, inconsistent service), others rave. Real split-verdict risk, go in aware.",
+        "secondary_tags": "trattoria; rome; centro-storico",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4694,
+          41.9004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Da Enzo al 29",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Via dei Vascellari, Trastevere. Elizabeth Minchilli's favorite Trastevere trattoria, also on gxb's list. Tiny, no reservations except the 7:30pm seating.\n\n2025-26 Tripadvisor: repeated complaints about tourist-heavy volume -- pushy staff, refusing drinks-only seating. Food quality itself isn't disputed, the experience is. Classic famous+tiny+no-res failure pattern.",
+        "secondary_tags": "trattoria; rome; trastevere",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4783,
+          41.8887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Da Gino al Parlamento",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Vicolo Rosini 4, between the Pantheon and Parliament -- on the existing 8/3 walking route. Small, political/local crowd. Cash only, reservation recommended.\n\nKatie Parla favorite. Reviews checked 2026-07-23 consistently positive, no tourist-trap complaints.",
+        "secondary_tags": "trattoria; rome; centro-storico; zero-detour",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4773,
+          41.9022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pancrazio",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Piazza del Biscione 92, Campo de' Fiori. Dining rooms sit in/around the excavated ruins of the Theatre of Pompey -- an atmosphere/history pick, not a food-ranking pick.\n\nSourced from a pasted excerpt attributed (unconfirmed) to a Reddit poster (Alex). Explicit trade-off named in source: touristy because genuinely significant, not because it went viral.",
+        "secondary_tags": "trattoria; rome; campo-de-fiori; historic-site",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.473,
+          41.8955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Roscioli Salumeria (deli-restaurant counter)",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Via dei Giubbonari 21. The deli-restaurant counter-table entity -- distinct from Antico Forno Roscioli (bakery) and Rimessa Roscioli (wine cellar). Counter table for two, online booking self-verifies August availability.",
+        "secondary_tags": "trattoria; rome; campo-de-fiori",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4738,
+          41.8944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Agustarello a Testaccio",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Via Giovanni Branca, Testaccio, since 1957. Real, family-run, no institutional designation -- purely a named-critic vouch.\n\nRachel Roddy names it where her own \"education in Roman food\" began -- a personal-formation story, not an award.",
+        "secondary_tags": "trattoria; rome; testaccio",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4733,
+          41.8792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Colline Emiliane",
+        "category": "Meal",
+        "signal": "Low",
+        "description": "Via degli Avignonesi, Trevi. Emilia-Romagna-style cooking transplanted to Rome.\n\nAlex-only source bundle, not independently cross-checked against named critics or awards -- a new lead, not yet corroborated.",
+        "secondary_tags": "trattoria; rome; trevi; unverified",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4877,
+          41.9031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Matricianella",
+        "category": "Meal",
+        "signal": "Low",
+        "description": "Via del Leone, Centro Storico.\n\nAlex-only source bundle, not independently cross-checked -- new lead, not yet corroborated.",
+        "secondary_tags": "trattoria; rome; centro-storico; unverified",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4775,
+          41.9037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Angelina a Testaccio",
+        "category": "Meal",
+        "signal": "Low",
+        "description": "Testaccio (neighborhood-level coords only).\n\nAlex-only source bundle, not independently cross-checked -- new lead, not yet corroborated.",
+        "secondary_tags": "trattoria; rome; testaccio; unverified",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4767,
+          41.8788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Osteria del Velodromo Vecchio",
+        "category": "Meal",
+        "signal": "Low",
+        "description": "Via Vincenzo Coronelli, Pigneto -- off the trip's other Rome anchors, check distance before pursuing.\n\nAlex-only source bundle, not independently cross-checked -- new lead, not yet corroborated.",
+        "secondary_tags": "trattoria; rome; pigneto; unverified",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5332,
+          41.8854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trattoria Trilussa",
+        "category": "Meal",
+        "signal": "Low",
+        "description": "Trastevere (neighborhood-level coords only).\n\nAlex-only source bundle, not independently cross-checked -- new lead, not yet corroborated.",
+        "secondary_tags": "trattoria; rome; trastevere; unverified",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4668,
+          41.8912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pierluigi",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Piazza de' Ricci. Fish-focused, described as \"an institution.\" Very expensive per the source.\n\nSourced from Alex (r/rome, self-identified Roman resident since 2002).",
+        "secondary_tags": "seafood; rome; centro-storico",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4685,
+          41.8967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Il Sanlorenzo",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Via dei Chiavari 4. Crudo/seafood pasta specialist.\n\n\"The best in Rome\" per Alex (r/rome, self-ID'd Roman resident since 2002) -- a direct superlative from one source, not independently cross-checked.",
+        "secondary_tags": "seafood; rome; centro-storico",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4743,
+          41.8949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Borghiciana Pastificio Artigianale",
+        "category": "Meal",
+        "signal": "Low",
+        "description": "Near the Vatican/Prati.\n\nAggregate-only, no critic or institutional backing found in the research pass.",
+        "secondary_tags": "rome; prati; unverified",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4527,
+          41.9081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Luciano",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Piazza del Teatro di Pompeo area. Candidate for the 8/9 pre-flight group lunch -- flight-safe set menu for 6+.\n\nCarbonara specifically backed by 50 Top Italy + Michelin Guide.",
+        "secondary_tags": "trattoria; rome; departure-day-lunch",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4727,
+          41.8962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Perilli a Testaccio",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Via Marmorata 39, Testaccio, since 1911. Real, no decline signal -- Romans still fill it nightly. Own booking widget confirms 10-person capacity. Closed only Tuesdays, 12:30-15:00 / 19:30-23:00.\n\nElizabeth Minchilli's literal \"last meal in Rome\" pick -- the strongest single-critic endorsement found anywhere in this whole multi-city research project. Highest-confidence pick in the group-of-10 batch. Checked live 2026-08, no closure risk found.",
+        "secondary_tags": "trattoria; rome; testaccio; group-of-10; top-pick",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.477,
+          41.8818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Checchino dal 1887",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Via di Monte Testaccio 30. Coda alla vaccinara specialist, 55 covers + private room.\n\nGambero Rosso \"Campione della Tradizione\" 2024. Katie Parla explicitly not a fan overall (dish-specific only); Elizabeth Minchilli recommends mainly for the wine list -- real mixed-quality pattern (\"retro but neglected, slow service\"). ⚠️ LIKELY CLOSED for the entire 8/3-8/5 trip window -- takes an annual August holiday, reopened ~Aug 22 the prior year. Bank for a future trip outside August, not this one.",
+        "secondary_tags": "trattoria; rome; testaccio; group-of-10; likely-closed-this-trip",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4765,
+          41.8749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flavio al Velavevodetto",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Via di Monte Testaccio 97. Best group logistics of the set -- 200 indoor + 50 outdoor + private wine-cellar room.\n\nKatie Parla brought Anthony Bourdain's successor Stanley Tucci here on-camera (Searching for Italy); Rachel Roddy known to meet people there. Founded 1995, now a small chain (Milan too) -- \"a well-executed concept more than a genuine institution.\"",
+        "secondary_tags": "trattoria; rome; testaccio; group-of-10",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4765,
+          41.8749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Piperno",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Via Monte de' Cenci 9, the Ghetto, since 1860. Carciofi alla giudia specialist -- explicitly OUT OF SEASON in August, weakening the case for this specific trip.\n\nElizabeth Minchilli's childhood special-occasion pick. Ownership passed to an unrelated family in 1963.",
+        "secondary_tags": "trattoria; rome; ghetto; group-of-10; seasonal-mismatch",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.476,
+          41.8924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Enoteca La Torre",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Villa Laetitia, Lungotevere delle Armi, Prati. Art Nouveau villa setting, less touristy than Colosseum-view spots. ~€240-260pp. One reviewer called it better than La Pergola.\n\n2 Michelin stars, Gambero Rosso 91/100, OAD #8 Rome/#32 Italy, glowing from Sara Porro (OAD). \"Cleanest sentiment of the whole set\" per the research pass -- zero documented mixed reviews.",
+        "secondary_tags": "fine-dining; rome; prati; splurge",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4697,
+          41.9177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zia",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Via Goffredo Mameli, Trastevere. Best value of the splurge set (€110-150 vs €200-350+ elsewhere).\n\n1 Michelin star, Gambero Rosso 90/100 + newly Tre Forchette 2026, OAD #1 Rome/#16 Italy/#99 global, Passione Gourmet 17.5/20 -- the highest critic score in the whole splurge set. Outranks several 2-stars on every metric except star count itself.",
+        "secondary_tags": "fine-dining; rome; trastevere; splurge; best-value",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4679,
+          41.8871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Pergola",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Via Alberto Cadlolo 101, Balduina, Rome Cavalieri hotel. Most famous name in the set, ~€250-350+pp, 40-60min round trip.\n\n3 Michelin stars -- Italy's only 3-star outside Milan. Andy Hayler 17/20, but flags the cooking as drifted \"cerebral\"; the hilltop/formal/dress-code register reads as stuffy to some. If \"universally loved\" matters more than \"most famous,\" La Torre/Zia are the safer picks.",
+        "secondary_tags": "fine-dining; rome; balduina; splurge",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.446,
+          41.9197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Il Pagliaccio",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Via dei Banchi Vecchi 129. Avant-garde global fusion, not Roman comfort food -- small, precious room. Tasting-only, €180-330pp, ~€200pp no-show fee. Private room caps at 6.\n\n2 Michelin stars, Gambero Rosso 94/100, L'Espresso 4 cappelli.",
+        "secondary_tags": "fine-dining; rome; centro-storico; splurge",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4675,
+          41.8978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Imago (Hotel Hassler)",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Piazza Trinita dei Monti 6, 6th floor of the Hassler -- Spanish Steps location/views. Confirmed reopened 2026 post-20th-anniversary redesign, open kitchen merged with dining room. Currently taking reservations; 2026 pricing not yet published anywhere found.\n\n1 Michelin star (never lost). Gambero Rosso 93/100 -- the highest GR score in the whole splurge set. Carlo Passera (Identita Golose) praises skill, flags overambition. Note: chef is Andrea Antonini.",
+        "secondary_tags": "fine-dining; rome; spanish-steps; splurge",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4837,
+          41.9058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aroma (Palazzo Manfredi)",
+        "category": "Meal",
+        "signal": "Low",
+        "description": "Via Labicana 125. Colosseum-view spot, heavily tourist-trafficked.\n\n1 Michelin star, Gambero Rosso 83/100, positive from Tom Garton (Arbuturian) -- but flagged as \"never rises above meh beyond the view.\" Explicitly recommended to deprioritize despite the name recognition.",
+        "secondary_tags": "fine-dining; rome; colosseum; splurge; overrated-flag",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4981,
+          41.8899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Per Me",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Vicolo del Malpasso 9. Chef Giulio Terrinoni.\n\n1 Michelin star, Gambero Rosso 87/100, OAD #11 Rome -- but split reviews: \"incredible\" vs \"shockingly underwhelming for the price.\" Real, source-documented inconsistency, not disqualifying but not the safe pick for a once-in-a-lifetime night.",
+        "secondary_tags": "fine-dining; rome; centro-storico; splurge; mixed-reviews",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4676,
+          41.8973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pipero Roma",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Corso Vittorio Emanuele II 250. Chef Alessandro Pipero + Ciro Scamardella. Lunch ~€100pp. Strong on hospitality/carbonara, mixed on value.\n\n1 Michelin star, Gambero Rosso 88/100, 50TopItaly #34 (2022, stale), positive from Luca Farina (Identita Golose). Also appears in the couple/small-group research as a group-of-10 elevated-slate candidate needing a 10-top call.",
+        "secondary_tags": "fine-dining; rome; centro-storico; splurge",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4689,
+          41.8977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glass Hostaria",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Vicolo del Cinque 58, Trastevere. Chef Cristina Bowerman. Cheapest 1-star in the splurge set, ~€110pp average.\n\n1 Michelin star, Gambero Rosso 88/100 \"Tre Forchette\" 4th year running -- but NO independent critic coverage found, a real gap flagged in the research. No red flags, just thinnest outside verification.",
+        "secondary_tags": "fine-dining; rome; trastevere; splurge; thin-sourcing",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4696,
+          41.8909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marco Martini",
+        "category": "Meal",
+        "signal": "Low",
+        "description": "Viale Aventino 121.\n\n1 Michelin star, OAD #7 Rome, Passione Gourmet 16/20 -- but flagged for \"cold essentialism\" in the room + a creative-stagnation concern. Solid, not glowing.",
+        "secondary_tags": "fine-dining; rome; aventino; splurge",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.486,
+          41.8818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "All'Oro",
+        "category": "Meal",
+        "signal": "Low",
+        "description": "Via Giuseppe Pisanelli 25, Flaminio. Chef Riccardo Di Giacinto.\n\n1 Michelin star, OAD #459 Europe (weak signal). Most explicit negative critique in the whole splurge research pass -- a direct quote calling it \"not up to the one star they at the moment have.\"",
+        "secondary_tags": "fine-dining; rome; flaminio; splurge; negative-flag",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4731,
+          41.914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Acquolina (Hotel Vilon)",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Hotel Vilon, Via dell'Arancio. High pedigree.\n\n2 Michelin stars -- but thin outside coverage for a 2-star. \"Treat as unverified rather than clean\" per the research pass, real gap for that tier.",
+        "secondary_tags": "fine-dining; rome; centro-storico; splurge; thin-sourcing",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4763,
+          41.9046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Terrazza (Hotel Eden)",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Via Ludovisi 49. Chef Salvatore Bianco (not Antonini -- distinct from Imago, easy to confuse). Consistently positive but very new star, thin track record.\n\n1 Michelin star, awarded Nov 2025.",
+        "secondary_tags": "fine-dining; rome; via-veneto; splurge",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4889,
+          41.9071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Idylio by Apreda",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "The First Roma Arte, Via del Vantaggio. Chef Francesco Apreda. Mostly strong, one uncorroborated outlier pan.\n\n1 Michelin star, Gambero Rosso 90/100, positive from Serena Curto (Reporter Gourmet).",
+        "secondary_tags": "fine-dining; rome; centro-storico; splurge",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4753,
+          41.9086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bistrot 64",
+        "category": "Meal",
+        "signal": "Low",
+        "description": "Via Guglielmo Calderini. Cheapest overall of the splurge set at €75-95pp -- but chef changed (Noda departed, Zezza now), explicitly \"rebuilding,\" not at peak right now.\n\nLOST its Michelin star -- 0 stars currently. Going in during a rebuild period, not a safe bet right now.",
+        "secondary_tags": "fine-dining; rome; splurge; lost-star; rebuild-period",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4662,
+          41.9303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Retrobottega",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Via della Stelletta, Centro Storico. Communal seating only (6-seat counter, no private tables) -- logistically works for a couple/pair only, not a group. Also in the couple/small-group research table.\n\nNo star but Michelin-selected; 50 Best Discovery listed. Split reviews. Strong chef pedigree (both ex-Il Pagliaccio + Piazza Duomo).",
+        "secondary_tags": "fine-dining; rome; centro-storico; splurge; couple-only",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4756,
+          41.9016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Antica Pesa",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Via Garibaldi 18, Trastevere. This is the group's already-booked 8/4 dinner -- confirmed, not a pending decision. Added for map completeness alongside the trip's other locked venues.",
+        "secondary_tags": "rome; trastevere; locked-booking",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4667,
+          41.891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Clemente Basilica (underground/Mithraeum)",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Via di San Giovanni in Laterano, Monti. Three-layer time machine: 12th-c. basilica over 4th-c. church over 1st-c. Mithraic temple, underground stream still audible. 5 min from the Colosseum, underground levels naturally cool. ~45-60 min. Open Tuesdays.\n\nTurismo Roma + consistent archaeological-tourism coverage.",
+        "secondary_tags": "sightseeing; rome; monti; underground",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4975379,
+          41.8891952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Centrale Montemartini",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Via Ostiense 106, Garbatella. Capitoline Museums overflow statuary displayed among a preserved 1912 power plant's turbines and boilers -- genuinely odd juxtaposition. Indoor/AC, real heat refuge. Farthest from the 8/4 anchors (Via Ostiense). Open Tue-Sun.\n\nOfficial Capitoline Museums site + independent coverage.",
+        "secondary_tags": "sightseeing; rome; garbatella; indoor; museum",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.478015,
+          41.8665472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Non-Catholic Cemetery (Cimitero Acattolico)",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Via Caio Cestio, Testaccio. Keats and Shelley's graves. Quiet, green, resident cat colony, free entry (donation box). Adjacent to the Pyramid of Cestius. Open daily except Ferragosto week (Aug 11-17) -- fine for these dates.\n\nContext Travel, Wanted in Rome, Keats-Shelley Memorial Association (scholarly institution).",
+        "secondary_tags": "sightseeing; rome; testaccio; quiet; free",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4794437,
+          41.8763597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Villa Farnesina",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Via della Lungara 230, Trastevere. Raphael-frescoed Renaissance villa, stays uncrowded because everyone defaults to the Vatican instead. Small secret garden. Tue-Sat 9am-2pm, last admission 1pm, CLOSED SUNDAY -- doesn't fit a post-Colosseum 8/4 PM slot.\n\nThrough Eternity Tours + independent guides.",
+        "secondary_tags": "sightseeing; rome; trastevere; villa",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4673333,
+          41.8936284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Galleria Sciarra",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Trevi, 2 min from Trevi Fountain. Hidden 4-story Art Nouveau courtyard, floor-to-ceiling frescoes celebrating women through life stages. Free entry, 5-10 min. Weekday-only (closed weekends), 9am-6:30pm.\n\nAtlas Obscura (editorially-curated).",
+        "secondary_tags": "sightseeing; rome; trevi; free; zero-detour",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4820448,
+          41.8998117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Quartiere Coppede",
+        "category": "Activities",
+        "signal": "Low",
+        "description": "Trieste district, NE Rome. Surreal Art Nouveau/fairy-tale micro-district (1915-27). 20-30 min wander, geographically remote from the center, minimal shade -- do it in late-afternoon light.\n\nMultiple independent Rome-culture blogs, no single named critic.",
+        "secondary_tags": "sightseeing; rome; trieste; remote",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5021894,
+          41.9183644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Casina delle Civette (Villa Torlonia)",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Viale Paolo Antonio Paschetto, Nomentano. Small Art Nouveau \"owl house,\" stained glass by Cambellotti and Bottazzi, inside a park later used as Mussolini's residence. Indoor for the glasswork, shaded park around it. Open Tue-Sun. Real trek from the center.\n\nOfficial Musei di Villa Torlonia site + independent coverage.",
+        "secondary_tags": "sightseeing; rome; nomentano; remote",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5129167,
+          41.9143071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Divinity Terrace (Pantheon Iconic Rome Hotel)",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Confirmed walk-up for small groups (\"no booking option\" for parties under 8, per the hotel's own site), open 11:30am-midnight daily. Literally steps from the Pantheon -- zero transit from the 8/3 walking cluster, unlike Cielo's trip to the Spanish Steps.\n\nElegant/formal restaurant-lounge register, Pantheon itself as the visual focal point. RECOMMENDED NEW FALLBACK -- beats Cielo on both walk-up-convenience and proximity.",
+        "secondary_tags": "rooftop; sunset; rome; pantheon; walk-up; recommended",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4763,
+          41.8993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Vista Rooftop Club",
+        "category": "Drinks",
+        "signal": "Medium",
+        "description": "Via di Torre Argentina, 5 min from the Pantheon. Hidden speakeasy-style entrance (unmarked door, buzz-in, old lift), 360-degree rooftop, small terrace. Membership/private-club model, EUR15 min spend, reservation recommended for sunset.\n\nMore intimate/discovery-oriented register than Cielo (scene) or Borromini (formal) -- reviews note it's cheaper than the big hotel terraces. The club-entry mechanic adds friction similar to Borromini's booking requirement, not a clean walk-up win.",
+        "secondary_tags": "rooftop; sunset; rome; centro-storico; reservation-needed",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4774,
+          41.8958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NOTOS Rooftop (Six Senses Rome)",
+        "category": "Drinks",
+        "signal": "Low",
+        "description": "Piazza San Marcello, near Trevi/Pantheon. Design-hotel garden-terrace aesthetic (Mediterranean plants, terracotta), DJs/live music sessions -- more scene/nightlife register than a quiet sunset closer. Reservation via SevenRooms.\n\nMixed reviews on service/food (\"uninteresting,\" \"unpleasant service\" cited alongside praise). Weaker pick -- register mismatch for a quiet day-closer, and service consistency is a real question mark.",
+        "secondary_tags": "rooftop; sunset; rome; centro-storico; mixed-reviews",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4796,
+          41.9004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Terrazza Caravita (Hotel Caravita)",
+        "category": "Drinks",
+        "signal": "Medium",
+        "description": "Via del Caravita, quiet side street off Via del Corso, close to the Pantheon. Quieter aperitivo/dining register, views toward St. Peter's/Altare della Patria/Quirinale. Open daily lunch through late evening, reservation recommended but not gate-kept like Borromini.\n\nReviews consistently positive on staff/atmosphere. Solid alternative if a calmer setting matters more than Divinity Terrace's Pantheon-facing view specifically.",
+        "secondary_tags": "rooftop; sunset; rome; centro-storico",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4805,
+          41.8988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trattoria del Moro Aronne",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Via San Leonardo 7. 8/5 default pick -- 50 seats. A forum diner's \"favorite dish in Italy\" claim (Nidi di Rondine con Pecorino e Miele) is framed in the source as a signal, not a personal pick. Closed Tue, open Wed.\n\nGenuine family trattoria; a claimed Slow Food \"seat\" is unverified -- trust the local reputation, not the badge claim.",
+        "secondary_tags": "trattoria; orvieto; drive-stop",
+        "city": "Orvieto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1112,
+          42.7188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Il Cocco",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Via Garibaldi 4, historic center. Confirmed-open backup for 8/5 -- closed Thu, open Wed.\n\nAccademia + local favorite.",
+        "secondary_tags": "trattoria; orvieto; drive-stop",
+        "city": "Orvieto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1079,
+          42.7176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Palomba",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Via Cipriano Manente 16. Most decorated of the Orvieto set. Closed Wed -- NOT usable on 8/5 arrival, but fits the 8/9 departure-day drive instead.\n\nElizabeth Minchilli + Michelin Guide + Slow Food + Accademia, all four independently.",
+        "secondary_tags": "trattoria; orvieto; drive-stop; best-in-class; departure-day",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1093,
+          42.7179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Le Grotte del Funaro",
+        "category": "Meal",
+        "signal": "Low",
+        "description": "Via Ripa Serancia 41. Unique Etruscan-cave setting, an ambiance pick rather than designation-backed. Hours marked \"verify\" in the source, not confirmed.",
+        "secondary_tags": "trattoria; orvieto; drive-stop; unverified-hours",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1051,
+          42.7177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ristorante Maurizio",
+        "category": "Meal",
+        "signal": "Low",
+        "description": "Via del Duomo 78. 180 seats, group menus -- a group-guaranteed fallback prioritizing capacity over pedigree. Hours marked \"verify\" in the source.",
+        "secondary_tags": "trattoria; orvieto; drive-stop; group-fallback",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1119,
+          42.7174
+        ]
+      }
     }
   ]
 }
