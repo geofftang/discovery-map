@@ -43607,8 +43607,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.3288921,
-          45.4324393
+          12.3365628,
+          45.4322155
         ]
       }
     },
@@ -43627,6 +43627,24 @@
         "coordinates": [
           12.4407734,
           41.8768509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trecca - Cucina di Mercato",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Via Alessandro Severo 222, Ostiense/Garbatella -- off the beaten path, not central. Modern trattoria, traditional Roman cuisine with a contemporary twist: homemade pasta (ravioli, tonnarelli), bucatini all'amatriciana, carbonara, offal specialties (pajata, animelle). Closed Sundays, dinner-only except Saturday lunch.\n\nFriend recommendation 2026-08-03 (someone who has been to Rome many times), explicitly ranked lowest of four options given: \"last place I would consider given the list you provided\" -- included for completeness per the include-everything-tier-it convention, not a strong endorsement. Not verified beyond this mention.",
+        "secondary_tags": "trattoria; rome; osteria-style",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4867121,
+          41.8534038
         ]
       }
     },
