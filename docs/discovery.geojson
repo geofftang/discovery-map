@@ -43611,6 +43611,24 @@
           45.4324393
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Da Cesare al Casaletto",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Monteverde, ~20-25 min drive from central Rome, not walkable. Friend recommendation 2026-08-03 (someone who has been to Rome many times): \"the absolute definite... you will not have a more authentic experience with top notch food, still expect no frills, it is the Roman way.\" TOP PRIORITY for a future Rome trip -- not attempted this trip (2026 Aug 3-5 leg), time/distance did not fit alongside the already-locked group dinner (Grappolo d'Oro).\n\nEarlier vault research (2026-07): online booking widget was dead (\"restaurant not found\"), no working email found -- phone-only (06 536015). Possibly down to 2 Gamberi Gambero Rosso rating in 2026 (unconfirmed, was previously Tre Gamberi). Book by phone next time, well ahead -- do not rely on the web widget.",
+        "secondary_tags": "trattoria; rome; next-trip-priority; phone-only-booking",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4571095,
+          41.8796221
+        ]
+      }
     }
   ]
 }
