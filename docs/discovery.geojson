@@ -40007,8 +40007,8 @@
         "name": "Roscioli Caffe'",
         "category": "Cafe",
         "signal": "High",
-        "description": "Excellent traditional Roman pastries. Katie Parla pick.",
-        "secondary_tags": "pastry; katie parla",
+        "description": "Excellent traditional Roman pastries. Katie Parla pick. UPGRADE 2026-08-04: also specifically named in Gambero Rosso's own \"best maritozzi in Rome\" ranking -- real institutional confirmation, not just Parla.",
+        "secondary_tags": "pastry; katie parla; maritozzo; gambero rosso",
         "city": "Rome",
         "google_place_id": "ChIJZ846zUhgLxMRzdyZ615Fc4Q"
       },
@@ -48181,6 +48181,114 @@
         "coordinates": [
           12.4593606,
           41.9035699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gigetto al Portico d'Ottavia",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Via del Portico d'Ottavia 21/a, the Ghetto, behind the Synagogue.\n\nCarciofi alla giudia specialist (out of season in August, skip that dish specifically), also praised for supplì, baccalà fritto, vignarola.\n\nSOURCED FROM: r/italy Reddit post by italianjob17 (self-ID'd Garbatella-born Roman local), posted 2012 -- 14 years old. Track-record note: this same source independently named Perilli, Augustarello, Da Baffetto, Dar Filettaro, and Trapizzino's original Testaccio location, all of which separately earned real critic/institutional backing elsewhere -- raises trust in the source generally. BUT this specific pick has NOT been independently re-verified as currently open/good, same caveat class as a historical (non-current-year) Gambero Rosso tier finding. Verify before relying on it.",
+        "secondary_tags": "local-rec-2012-unverified-current",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4783687,
+          41.8926589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ar Grottino der Traslocatore",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Largo delle Sette Chiese, Garbatella -- entrance is stairs down behind a kiosk.\n\nHidden spot, huge pasta portions, cacio e pepe and saltimbocca alla romana specifically praised.\n\nSOURCED FROM: r/italy Reddit post by italianjob17 (self-ID'd Garbatella-born Roman local), posted 2012 -- 14 years old. Track-record note: this same source independently named Perilli, Augustarello, Da Baffetto, Dar Filettaro, and Trapizzino's original Testaccio location, all of which separately earned real critic/institutional backing elsewhere -- raises trust in the source generally. BUT this specific pick has NOT been independently re-verified as currently open/good, same caveat class as a historical (non-current-year) Gambero Rosso tier finding. Verify before relying on it.",
+        "secondary_tags": "local-rec-2012-unverified-current",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4863306,
+          41.8608602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Da Benito",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Via dei Falegnami 14, between Largo Argentina and Piazza Venezia.\n\nLunch-only (closes late afternoon), described as \"the last true Roman hosteria,\" bucatini all'amatriciana specifically named. Very cheap per the source.\n\nSOURCED FROM: r/italy Reddit post by italianjob17 (self-ID'd Garbatella-born Roman local), posted 2012 -- 14 years old. Track-record note: this same source independently named Perilli, Augustarello, Da Baffetto, Dar Filettaro, and Trapizzino's original Testaccio location, all of which separately earned real critic/institutional backing elsewhere -- raises trust in the source generally. BUT this specific pick has NOT been independently re-verified as currently open/good, same caveat class as a historical (non-current-year) Gambero Rosso tier finding. Verify before relying on it.",
+        "secondary_tags": "local-rec-2012-unverified-current",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.476808,
+          41.8939235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Remo (da Remo)",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Piazza Santa Maria Liberatrice 44, Testaccio.\n\nAuthentic Roman-style pizza, gets very crowded for dinner.\n\nSOURCED FROM: r/italy Reddit post by italianjob17 (self-ID'd Garbatella-born Roman local), posted 2012 -- 14 years old. Track-record note: this same source independently named Perilli, Augustarello, Da Baffetto, Dar Filettaro, and Trapizzino's original Testaccio location, all of which separately earned real critic/institutional backing elsewhere -- raises trust in the source generally. BUT this specific pick has NOT been independently re-verified as currently open/good, same caveat class as a historical (non-current-year) Gambero Rosso tier finding. Verify before relying on it.",
+        "secondary_tags": "local-rec-2012-unverified-current",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4753482,
+          41.8809267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Frontoni",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Viale Trastevere 52, since 1921.\n\nPizza bianca sandwiches specifically praised (\"can raise the dead\").\n\nSOURCED FROM: r/italy Reddit post by italianjob17 (self-ID'd Garbatella-born Roman local), posted 2012 -- 14 years old. Track-record note: this same source independently named Perilli, Augustarello, Da Baffetto, Dar Filettaro, and Trapizzino's original Testaccio location, all of which separately earned real critic/institutional backing elsewhere -- raises trust in the source generally. BUT this specific pick has NOT been independently re-verified as currently open/good, same caveat class as a historical (non-current-year) Gambero Rosso tier finding. Verify before relying on it.",
+        "secondary_tags": "local-rec-2012-unverified-current",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4719481,
+          41.8867991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pompi - Il Regno del Tiramisu",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Via Albalonga 7, near Re di Roma metro (Line A).\n\nWell-known Rome tiramisu specialist, 3 flavors (traditional, banana-Nutella, cream-strawberry), sold to-go or eat-in, closed Mondays, gets crowded evenings. This one is more independently well-known/still-operating as a real chain, somewhat lower staleness risk than the smaller single-location picks on this list.\n\nSOURCED FROM: r/italy Reddit post by italianjob17 (self-ID'd Garbatella-born Roman local), posted 2012 -- 14 years old. Track-record note: this same source independently named Perilli, Augustarello, Da Baffetto, Dar Filettaro, and Trapizzino's original Testaccio location, all of which separately earned real critic/institutional backing elsewhere -- raises trust in the source generally. BUT this specific pick has NOT been independently re-verified as currently open/good, same caveat class as a historical (non-current-year) Gambero Rosso tier finding. Verify before relying on it.",
+        "secondary_tags": "local-rec-2012-unverified-current",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5137707,
+          41.8806204
         ]
       }
     }
