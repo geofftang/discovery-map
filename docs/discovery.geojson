@@ -48093,6 +48093,42 @@
           41.9227029
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pizzeria da Baffetto",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Via del Governo Vecchio 114, near Piazza Navona.\n\nThe iconic old-school Roman pizzeria -- thin, crispy, no-frills, cracker-crust tonda romana. Been doing this since before the gourmet-pizza scene existed. Expect a line, best ~6pm before the rush. Added 2026-08-04, verified genuinely Roman-style (not Neapolitan) per direct research.",
+        "secondary_tags": "roman-style pizza; verified",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4703507,
+          41.8983047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Pratolina",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Via degli Scipioni 248, Prati, near NH Collection Roma Centro.\n\nServing Roman-style pizza since 2001. CAVEAT: specializes in pinsa, which is oval-shaped and a modern (2001-invented) product distinct from round pizza tonda romana, despite \"ancient Roman\" marketing -- doesn't match a \"round pizza\" ask specifically, know this before going. Added 2026-08-04, verified genuinely Roman-style (not Neapolitan) per direct research.",
+        "secondary_tags": "roman-style pizza; verified",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4636901,
+          41.9098447
+        ]
+      }
     }
   ]
 }
