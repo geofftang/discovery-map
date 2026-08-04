@@ -47074,7 +47074,7 @@
         "name": "Seu Pizza Illuminati",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Angelo Bargoni 10, Trastevere/Porta Portese.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down). Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "description": "Via Angelo Bargoni 10, Trastevere/Porta Portese.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down). Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling). STYLE FLAG 2026-08-04: explicit Neapolitan/Roman HYBRID per press (\"halfway between fluffy Neapolitan and crunchy Roman\") -- not purely Roman style.",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -47125,6 +47125,24 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "La Gatta Mangiona",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Via Federico Ozanam 30, Monteverde.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down). Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "secondary_tags": "gambero rosso",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4477152,
+          41.8757312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "San Martino - Pizza e Bolle",
         "category": "Meal",
         "signal": "High",
@@ -47164,7 +47182,7 @@
         "name": "Vico Pizza e Wine",
         "category": "Meal",
         "signal": "High",
-        "description": "Piazza Rondanini 47, Centro Storico.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down). Centro Storico -- walkable from the Pantheon cluster, worth checking distance. Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "description": "Piazza Rondanini 47, Centro Storico.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down). Centro Storico -- walkable from the Pantheon cluster, worth checking distance. Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling). STYLE FLAG 2026-08-04: run by Enzo Coccia, a NEAPOLITAN pizzaiolo (\"incredibly light dough\") -- despite the Tre Spicchi tier and near-hotel proximity, this is likely Neapolitan-leaning, not classic Roman tonda. Do not recommend as the Roman-style pick without independently confirming the dough style.",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -47938,7 +47956,7 @@
         "name": "50 Kalo di Ciro Salvo",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Flavia 3b, Roma.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026, 91 points -- confirmed across multiple 2026-edition sources. Added 2026-08-04 via full-roster Gambero Rosso sweep -- coords unknown, needs geocoding (EU IP blocks scrape resolver, do not attempt while traveling).",
+        "description": "Via Flavia 3b, Roma.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026, 91 points -- confirmed across multiple 2026-edition sources. Added 2026-08-04 via full-roster Gambero Rosso sweep -- coords unknown, needs geocoding (EU IP blocks scrape resolver, do not attempt while traveling). STYLE FLAG 2026-08-04: this is NEAPOLITAN style (Ciro Salvo is a Naples pizzaiolo, Michelin/50-Top-Pizza recognized for Neapolitan pizza) -- not Roman, do not recommend for \"Roman-style pizza\" asks.",
         "secondary_tags": "gambero rosso pizza",
         "city": "Rome"
       },
@@ -47956,7 +47974,7 @@
         "name": "Sbanco",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Siria 1, Roma (Appio-Latino).\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026, 91 points -- confirmed 2026 edition. Added 2026-08-04 via full-roster Gambero Rosso sweep -- coords unknown, needs geocoding (EU IP blocks scrape resolver, do not attempt while traveling).",
+        "description": "Via Siria 1, Roma (Appio-Latino).\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026, 91 points -- confirmed 2026 edition. Added 2026-08-04 via full-roster Gambero Rosso sweep -- coords unknown, needs geocoding (EU IP blocks scrape resolver, do not attempt while traveling). STYLE FLAG 2026-08-04: explicit Neapolitan/Roman HYBRID per press (\"blend of Neapolitan and Roman\") -- not purely Roman style.",
         "secondary_tags": "gambero rosso pizza",
         "city": "Rome"
       },
@@ -48037,6 +48055,42 @@
         "coordinates": [
           12.4616072,
           41.9186099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Allegrio",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Via Vittorio Veneto, Roma.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi, 93 points. Added 2026-08-04.",
+        "secondary_tags": "gambero rosso pizza",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4895614,
+          41.9078006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Diego Vitagliano Pizzeria (Roma)",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Via Chiana 80, 00198, Coppede/Trieste.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi -- Diego Vitagliano is a Naples-based pizzaiolo (also #10 nationally on 50 Top Pizza), explicitly \"pizza napoletana contemporanea\" per Italian press -- NOT Roman style. Earlier Via Flaminia 521-525 location appears superseded by this Coppede address. Added 2026-08-04.",
+        "secondary_tags": "gambero rosso pizza",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5027108,
+          41.9227029
         ]
       }
     }
