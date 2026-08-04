@@ -39988,7 +39988,7 @@
         "name": "Regoli",
         "category": "Cafe",
         "signal": "High",
-        "description": "Century-old pasticceria, excellent traditional Roman pastries. Katie Parla pick.",
+        "description": "Century-old pasticceria, excellent traditional Roman pastries. Katie Parla pick. UPGRADE 2026-08-04: also specifically named in Gambero Rosso's \"best maritozzi in Rome\" ranking, including the traditional maritozzo quaresimale (Lenten-style, raisins and candied fruit) -- real institutional confirmation beyond Parla.",
         "secondary_tags": "pastry; katie parla",
         "city": "Rome",
         "google_place_id": "ChIJC978ZrthLxMRzYBNfksMM4A"
@@ -40026,8 +40026,8 @@
         "name": "Faro",
         "category": "Cafe",
         "signal": "High",
-        "description": "Great coffee, near Piazza Fiume. Katie Parla pick.\n\nGambero Rosso Bar d'Italia 2026, Tre Chicchi e Tre Tazzine -- one of only 2 Rome venues holding the max tier (Bar d'Italia rates on Chicchi=coffee quality + Tazzine=overall venue, not a \"Bottiglie\" cocktail scale as sometimes assumed). Verified 2026-08-04.",
-        "secondary_tags": "coffee; katie parla",
+        "description": "Great coffee, near Piazza Fiume. Katie Parla pick.\n\nGambero Rosso Bar d'Italia 2026, Tre Chicchi e Tre Tazzine -- one of only 2 Rome venues holding the max tier (Bar d'Italia rates on Chicchi=coffee quality + Tazzine=overall venue, not a \"Bottiglie\" cocktail scale as sometimes assumed). Verified 2026-08-04. Also specifically named in Gambero Rosso's \"best maritozzi in Rome\" ranking (2026-08-04) -- double-credentialed for both coffee and maritozzi.",
+        "secondary_tags": "coffee; katie parla; maritozzo",
         "city": "Rome",
         "google_place_id": "ChIJO2OdIAlhLxMRV3acpzJo9ls"
       },
@@ -48289,6 +48289,132 @@
         "coordinates": [
           12.5137707,
           41.8806204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cafe Merenda",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Via del Gazometro 5a, Ostiense/Gazometro.\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. Sicily-native pastry chef Chiara Caruso, tall fragrant maritozzi with generous fresh whipped cream. Added 2026-08-04.",
+        "secondary_tags": "maritozzo; gambero rosso",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4790491,
+          41.8711243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Casa Manfredi",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Viale Aventino 91/93, Aventino (2nd loc. Via dei Conciatori 5).\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. Glossy maritozzi with whipped cream and powdered sugar, by Giorgia Proia. Added 2026-08-04.",
+        "secondary_tags": "maritozzo; gambero rosso",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4857587,
+          41.8819065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CON.TRO Contemporary Bistrot",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Via dell'Acquedotto del Peschiera 156, Monte Mario.\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. Light, airy maritozzi generously filled with fresh cream. Added 2026-08-04.",
+        "secondary_tags": "maritozzo; gambero rosso",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.424894,
+          41.9373468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gastromario",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Via Voghera 10, San Giovanni.\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. Cafe/bistrot, maritozzi always available Saturdays. Added 2026-08-04.",
+        "secondary_tags": "maritozzo; gambero rosso",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5189942,
+          41.8860303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grue",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Viale Regina Margherita 95, Nomentano/Trieste.\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. High-end pasticceria, traditional cream-filled + a custard-filled variation on soft tight-crumb bread. Added 2026-08-04.",
+        "secondary_tags": "maritozzo; gambero rosso",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5071375,
+          41.9125507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maritozzo Rosso (Trastevere)",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Vicolo del Cedro 26, Trastevere.\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. Specializes in SAVORY maritozzi (amatriciana, eggplant caponata, chicken curry apple, stracciatella anchovies) -- different register from the classic sweet version. Added 2026-08-04.",
+        "secondary_tags": "maritozzo; gambero rosso",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4682894,
+          41.890212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pasticceria Walter Musco",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Largo Benedetto Bompiani 8, Tor Marancia/Ardeatino.\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. Well-leavened, soft maritozzi, non-cloying fresh whipped cream. Added 2026-08-04.",
+        "secondary_tags": "maritozzo; gambero rosso",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5022899,
+          41.8588994
         ]
       }
     }
