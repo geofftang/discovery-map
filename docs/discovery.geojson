@@ -48165,6 +48165,24 @@
           41.8964432
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Federico Prodon Patisserie",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Vicolo del Farinone 19, Borgo Pio (near Vatican/Prati boundary), 639m from NH Collection Roma Centro.\n\nNamed specifically in Gambero Rosso's own \"best maritozzi in Rome\" ranking -- real institutional backing, unlike Panificio Bonci (aggregate-praised but not GR-listed for maritozzi). Federico Prodon, 3rd place Bake Off Italia 2014. CAVEAT: maritozzi not guaranteed daily, confirmed available Saturdays -- call ahead (06 8941 3947). Added 2026-08-04.",
+        "secondary_tags": "maritozzo; gambero rosso",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4593606,
+          41.9035699
+        ]
+      }
     }
   ]
 }
