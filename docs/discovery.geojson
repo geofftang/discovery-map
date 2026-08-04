@@ -48129,6 +48129,42 @@
           41.9098447
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Montecarlo",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Vicolo Savelli 13, near Piazza Navona.\n\nGenuinely Roman-style pizza -- thin, crispy dough, operating at this same location since 1986. Gambero Rosso has run an editorial feature on it (not confirmed as a Spicchi-tiered rating, but real institutional coverage). Casual neighborhood spot, can be chaotic/noisy at peak times. Closed Mondays. Added 2026-08-04.",
+        "secondary_tags": "pizza",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4707703,
+          41.8976167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mariuccia",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Piazza della Cancelleria 92.\n\nSTYLE FLAG: marketed as Roman but crust described as \"thin in the center, delicately puffy outside\" -- that puffy-edge trait is Neapolitan, not classic Roman tonda, same pattern as Vico/Sbanco. Heavily trafficked (40min wait typical, reservations recommended). Same piazza as the Aug 4 Grappolo d'Oro dinner (Piazza della Cancelleria 80) -- literally next door if you end up there anyway. Added 2026-08-04.",
+        "secondary_tags": "pizza",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4720555,
+          41.8964432
+        ]
+      }
     }
   ]
 }
