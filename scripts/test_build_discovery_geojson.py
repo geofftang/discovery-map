@@ -5,6 +5,12 @@ These assert the load-bearing security property the README claims: the public
 artifact is a POSITIVE ALLOWLIST projection, and a forbidden pattern fails the
 build closed. Zero dependencies.
 
+This file is kept byte-identical in the vault (`system/scripts/`) and in the
+public repo (`~/code/discovery-map/scripts/`). It loads the builder sitting
+NEXT TO IT, so each copy tests its own local builder — which is what makes a
+forked/drifted builder fail its own tests instead of silently regenerating a
+bad feed. If you edit one copy, copy it to the other.
+
 Run:  python3 scripts/test_build_discovery_geojson.py   (also works under pytest)
 """
 import importlib.util
@@ -82,6 +88,41 @@ def test_scan_passes_clean_payload():
     clean = build.build_feature(SOURCE_ROW)
     payload = {"type": "FeatureCollection", "features": [clean]}
     assert build.scan_for_leaks(payload) == []
+
+
+# --- Closure suppression ---------------------------------------------------
+# A closed venue must never render as a live recommendation. There are TWO
+# independent closure signals and nothing propagates between them:
+#   Listing_Status == "closed"      -- hand-maintained  (2026-08-03 fix)
+#   Business_Status  CLOSED_*       -- what Google says (2026-08-11 fix)
+# Both were regressions that shipped to the public map. These tests are the
+# tripwire: a builder missing either filter fails here instead of silently
+# republishing closed venues.
+
+
+def test_listing_status_closed_is_suppressed():
+    assert build.build_feature({**SOURCE_ROW, "Listing_Status": "closed"}) is None
+
+
+def test_google_confirmed_closed_is_suppressed():
+    # Listing_Status still says `verified` -- exactly the live 2026-08-11 state,
+    # where 18 Google-confirmed-closed venues published as live recommendations.
+    for status in ("CLOSED_PERMANENTLY", "CLOSED_TEMPORARILY", "CLOSED_LONG_TERM_RENOVATION"):
+        row = {**SOURCE_ROW, "Listing_Status": "verified", "Business_Status": status}
+        assert build.build_feature(row) is None, f"{status} must not publish"
+
+
+def test_open_venues_still_publish():
+    for status in ("OPERATIONAL", "", None):
+        row = {**SOURCE_ROW, "Business_Status": status}
+        assert build.build_feature(row) is not None, f"Business_Status={status!r} must publish"
+
+
+def test_closure_check_is_not_substring_matched():
+    # Guard the prefix match: a value merely CONTAINING "closed" is not a closure
+    # signal, and a lowercase/mixed-case CLOSED_* still is.
+    assert build.build_feature({**SOURCE_ROW, "Business_Status": "closed_permanently"}) is None
+    assert build.build_feature({**SOURCE_ROW, "Business_Status": "NOT_CLOSED"}) is not None
 
 
 if __name__ == "__main__":

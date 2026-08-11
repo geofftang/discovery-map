@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Build the PUBLIC discovery-map GeoJSON from the private master-discovery CSV.
 
-Egress boundary (public-egress projection): the public artifact is a POSITIVE
-ALLOWLIST projection — every public
+Egress boundary — see `system/data-engineering-patterns.md` §F "Public-egress
+projection". The public artifact is a POSITIVE ALLOWLIST projection: every public
 field is constructed explicitly from PUBLIC_FIELDS, never the private row with
 sensitive fields removed. A new column in the source CSV is therefore excluded by
 construction (fail-safe default). A fail-closed egress scan is the secondary backstop.
@@ -33,7 +33,7 @@ PUBLIC_FIELDS = {
 # added column gets a deliberate public/private decision instead of silence.
 KNOWN_COLUMNS = {
     "Name", "Category", "Signal", "Description", "Obsidian Link", "Latitude",
-    "Longitude", "Secondary Tags", "City", "Google_Place_ID", "Rating",
+    "Longitude", "Secondary Tags", "City", "Country", "Google_Place_ID", "Rating",
     "Hours_Summary", "Last_Updated_At", "Sanity_Status", "Listing_Status",
     "Listing_Verified_At", "Google_Details_Refreshed_At", "Verification_Note",
     "Other_Branches", "Flags", "Business_Status", "Review_Count", "Hours_Weekly",
@@ -111,6 +111,27 @@ def build_feature(row):
     lat = clean_value(row.get("Latitude"))
     lon = clean_value(row.get("Longitude"))
     if not lat or not lon:
+        return None
+
+    # A closed venue must not render as a live recommendation. Caught 2026-08-03:
+    # Listing_Status=closed was tracked internally but nothing ever excluded these
+    # rows from the public feed -- ~150 existing closed rows (plus Danieli Bistro,
+    # closed 3+ years, reopening under different management) rendered identically
+    # to open ones. Filter at the source, not with app-side styling.
+    if clean_value(row.get("Listing_Status")) == "closed":
+        return None
+
+    # Second closure signal, independent of the first. Business_Status is what Google
+    # reports (daemon-maintained); Listing_Status is hand-maintained and nothing
+    # propagates between them, so a venue Google calls CLOSED_PERMANENTLY still read
+    # `verified` and published. Caught 2026-08-11: 18 confirmed-closed venues live on
+    # the map. The STATUS_CHANGED alarm only fires on a *change* from a non-empty
+    # prior value, so a first-ever population never trips it -- these were structurally
+    # undetectable. Prefix match covers CLOSED_PERMANENTLY / CLOSED_TEMPORARILY /
+    # CLOSED_LONG_TERM_RENOVATION. Temporary closures suppress too: a closed door is a
+    # closed door, and the pin returns on its own when Google says OPERATIONAL again.
+    business_status = clean_value(row.get("Business_Status"))
+    if business_status and business_status.upper().startswith("CLOSED"):
         return None
 
     # Positive allowlist projection: build ONLY declared public fields.
