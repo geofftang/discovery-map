@@ -990,24 +990,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Ando",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Cheese Steak",
-        "city": "NYC",
-        "google_place_id": "ChIJIUflsoxZwokRjZOVMKRhjWc"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.995053,
-          40.7369222
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Kalustyan's",
         "category": "Meal",
         "signal": "High",
@@ -1444,42 +1426,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Totto Ramen",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Inexpensive extremely good paitan ramen",
-        "city": "NYC",
-        "google_place_id": "ChIJXR30THNZwokRGhjg6wen5bM"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9876143,
-          40.7643497
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "La Caridad 78",
-        "category": "Meal",
-        "signal": "High",
-        "description": "cuban chinese",
-        "city": "NYC",
-        "google_place_id": "ChIJo_O_AchZwokRW5SZhYoWjJ4"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9807993,
-          40.7832044
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Blue Ribbon Brasserie",
         "category": "Meal",
         "signal": "High",
@@ -1510,24 +1456,6 @@
         "coordinates": [
           -73.9844859,
           40.7436565
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Oiji",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Heard korean is not as good in manhattan but someone liked the janjorim bowl",
-        "city": "NYC",
-        "google_place_id": "ChIJee0VTWZZwokRDYFpAoConlw"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.985845,
-          40.727263
         ]
       }
     },
@@ -2114,24 +2042,6 @@
         "coordinates": [
           -73.97001829999999,
           40.7581212
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Teranga",
-        "category": "Meal",
-        "signal": "High",
-        "description": "The Place for West African Staples Right Off Central Park\nTeranga\nHarlem, Manhattan\n\nhttps://www.newyorker.com/magazine/2019/05/06/west-african-staples-get-the-star-treatment-at-teranga\n\nAncient Vegan Bowl\n\nWho serves New York’s best jollof, a pot of deep red grains cooked with caramelized tomato paste and crowned with diced onions, carrots, and peas? That’s a heated question. But chef Pierre Thiam’s airy all-day café Teranga in Harlem is a top contender. The build-your-own format of the fast-casual spot leaves the construction of a bowl of West African dishes up to you, and you’ll wish you had seconds before you’ve even finished what’s on your tray. Just make sure you don’t get too far without employing the four condiments set out on the table—they’re not to be missed.\n✵ Order: Jollof, garlicky grilled chicken, caramelized plantains, herby black-eyed pea salad, and mafe (a velvety, peanut-y stew).\\\n\nTeranga sits on the ground floor of the Africa Center in Harlem, a museum and cultural hub with an arresting facade. Its vast, welcoming dining room has West African flourishes (elaborate murals and stately yellow armchairs with a kind of outsize craquelure pattern, upholstered with mud cloth from the Ivory Coast) and trapezoidal windows that offer views of Central Park; a brightly painted fishing boat guards the entrance. Pierre Thiam, Teranga’s Senegalese chef and owner, translates the restaurant’s name as “good hospitality,” and has emphasized that it’s a way of life. He sources some of his ingredients from African smallholder farmers, and none is more essential than jollof rice, or jasmine rice parboiled in a broth of tomatoes, onions and spices that lends it a distinctive brown-red hue, which is one of the staples of West African cuisine. Piquant and nourishing, it’s the foundation of Teranga’s Ancient Vegan Bowl, which includes efo riro (a stew of kale, okra and dawadawa, or fermented locust beans), ndambe (another stew, with black-eyed peas and sweet potato), spicy roasted plantains, mafe peanut sauce and more. Additional bowls include tender chicken, steak or salmon and hot sauces made from Scotch bonnet peppers. The portions are generous, and the sweetness of the plantains, especially, brings out the richness of the rice. The restaurant shares a space with the Africa Center’s Reading Room, so if you visit alone, settle in with a book while you eat.",
-        "city": "NYC",
-        "google_place_id": "ChIJi-bJgEtZwokRFayt5jCnQz0"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9493556,
-          40.7963946
         ]
       }
     },
@@ -4271,23 +4181,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Apandi BBQ 阿凡提烧烤",
-        "category": "Meal",
-        "signal": "Low",
-        "city": "NYC",
-        "google_place_id": "ChIJ-WTp2DJZwokRIbqL-Q_c62w"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9396826,
-          40.7480642
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Mission Sandwich Social",
         "category": "Meal",
         "signal": "High",
@@ -5853,24 +5746,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Wonton Noodle Garden",
-        "category": "Meal",
-        "signal": "High",
-        "description": "The owners split off and started HK Wonton Garden and the one left was rebranded. So there might be some similarities. But there are differences.",
-        "city": "NYC",
-        "google_place_id": "ChIJdchGBSdawokRrNBainqPr-I"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.998261,
-          40.715797
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Tonii's Fresh Rice Noodle",
         "category": "Meal",
         "signal": "High",
@@ -6617,24 +6492,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Chilo's",
-        "category": "Meal",
-        "signal": "High",
-        "description": "The Place for When You’ve Lost Faith in New York’s Taco Scene\nChilo’s\nBed-Stuy, Brooklyn\nNo, NYC isn’t known for its Mexican food, and this taco truck perma-parked on a dive bar patio isn’t going to change that. But once you’re a few Tecates and carnitas tacos deep, Chilo’s might make you feel like you’re in Austin or L.A., and sometimes that’s enough.\n✵ Order: Carnitas, cochinita, huitlacoche, and chorizo tacos—and a frozen margarita.",
-        "city": "NYC",
-        "google_place_id": "ChIJ_ar-yZVbwokRtr_5W6WIZ98"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9957119,
-          40.6596858
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Punjabi Deli",
         "category": "Meal",
         "signal": "High",
@@ -6689,23 +6546,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Sammy’s Halal",
-        "category": "Meal",
-        "signal": "Low",
-        "city": "NYC",
-        "google_place_id": "ChIJUerMWapZwokR3ZMk8ytvdks"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9861439,
-          40.726888
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Sammy's Halal",
         "category": "Meal",
         "signal": "Low",
@@ -6735,42 +6575,6 @@
         "coordinates": [
           -74.0007478,
           40.7318137
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Sammy's Halal Food",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Understandably one of the best known halal trucks in NYC, Sammy's has a great lamb over rice plate. Even more rare is finding juicy, flavorful chicken from a halal truck, and that's really where Sammy's sits on a level of their own, especially if you add their unique green sauce to the mix. I'd go extra on the red sauce as it wasn't too spicy. Overall, a great, great truck, and well worth the trip if you're coming from Manhattan, especially if you hit up Merit Kebab for chai + sweets after...",
-        "city": "NYC",
-        "google_place_id": "ChIJUerMWapZwokR3ZMk8ytvdks"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9836733,
-          40.7652261
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Sammy’s Halal Food",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Understandably one of the best known halal trucks in NYC, Sammy's has a great lamb over rice plate. Even more rare is finding juicy, flavorful chicken from a halal truck, and that's really where Sammy's sits on a level of their own, especially if you add their unique green sauce to the mix. I'd go extra on the red sauce as it wasn't too spicy.",
-        "city": "NYC",
-        "google_place_id": "ChIJS36lfQpfwokRA1cAPpT3zUo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.958668,
-          40.7171544
         ]
       }
     },
@@ -7305,25 +7109,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Private Kitchen",
-        "category": "Meal",
-        "signal": "High",
-        "description": "My girlfriend is from Harbin (Dongbei) and takes me Private Kitchen which is supposed to be the cuisine from there. The food is great, some nice dishes are the sweet and sour pork (not sure if it's called that and it's a lot nicer than the American style of the dish) and another one uses these small mushrooms, lotus root in a stir fry kind of thing they pot in a pot which keeps it warm.",
-        "secondary_tags": "dessert",
-        "city": "NYC",
-        "google_place_id": "ChIJVZcG7MlhwokRBW-hPrz3fTc"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8313685,
-          40.7623268
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Mắm",
         "category": "Meal",
         "signal": "High",
@@ -7501,24 +7286,6 @@
         "coordinates": [
           -73.9715702,
           40.755905299999995
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Spice Symphony",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Walter D’Rozario, Anil D’Silva and Luv Koli, the chefs at Spice Symphony, combine Chinese and Indian cuisines in an unpretentious mélange via what D’Rozario has described as “grandmotherly cooking.” With its eclectic tiles and modern globe lights, the restaurant’s 50th Street location — one of two in Midtown — is far from matronly. But its flavors do indeed seem laced with a care that verges on the familial. The menu is full of standard curries and paneers, but the chefs are able to breathe new life into them, and the chile chicken especially shines. An Indo-Chinese mainstay born in Kolkata, India, the dish is prepared with red chiles, green peppers and Vidalia onions; each of the juicy cubes of chicken absorbs elements of the vegetables and the chile sauce, which has surprising dimension despite its surpassing spiciness. A bit of soy sauce, far from overwhelming the palate, functions almost as a binding agent, bringing out a latent sweetness. Another marvel of the dish is its texture, which feels carefully orchestrated: The chicken is crispy and chewy, its pieces so large that they force you to slow down and savor every bite.",
-        "city": "NYC",
-        "google_place_id": "ChIJR1cYdAhZwokRvUA0rSAV9rY"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9812527,
-          40.7447452
         ]
       }
     },
@@ -8147,24 +7914,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.7794898,
-          40.7574356
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Joong Koog Jip",
-        "category": "Meal",
-        "signal": "High",
-        "description": "korean chinese",
-        "city": "NYC",
-        "google_place_id": "ChIJ9w5BICNgwokRm7jU9oySXn8"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -73.8153339,
           40.761938
         ]
@@ -8299,24 +8048,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Tatiana Grill",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Russian. Tatiana reps us so well. Mostly because the owners are (convicted) criminals. Sadly it's closed now.\n\nis it this or the tatiana around the corner or neither of these that was recommended for russian",
-        "city": "NYC",
-        "google_place_id": "ChIJjafDP0BEwokRfRl3S1X4P2c"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9616986,
-          40.575708
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "La Casa del Pollo",
         "category": "Meal",
         "signal": "High",
@@ -8348,25 +8079,6 @@
         "coordinates": [
           -73.9505713,
           40.7166429
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Shuya",
-        "category": "Meal",
-        "signal": "High",
-        "description": "I’m half Japanese (Yokohama raised) and my go to for ramen and Japanese bites is Shuya Cafe de Ramen in Astoria. The spicy miso ramen is bomb and the Japanese style tebasaki chicken wings are amazing! It’s owned by a Japanese guy who works his ass off and I want to support him especially during these crazy times.",
-        "secondary_tags": "coffee",
-        "city": "NYC",
-        "google_place_id": "ChIJl1mCTwBZwokR2pxwHafrjJE"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9168083,
-          40.7581139
         ]
       }
     },
@@ -14014,24 +13726,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Choly Filipino Restaurant",
-        "category": "Meal",
-        "signal": "High",
-        "description": "northern filipino\n\nnot really a destination but there's not much food around here i want to go to so it's def an option",
-        "city": "NYC",
-        "google_place_id": "ChIJzxi2CEFZwokRGLb3H5aeHDU"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9999456,
-          40.7272314
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "China Xiang",
         "category": "Meal",
         "signal": "High",
@@ -15658,24 +15352,6 @@
         "coordinates": [
           -73.8886741,
           42.2503276
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Desi Stop & Deli",
-        "category": "Meal",
-        "signal": "High",
-        "description": "24 hour, samosa burger is a good veggie burger\n\nhttps://ny.eater.com/2023/7/6/23762124/new-yorks-next-great-burger-desi-stop-deli",
-        "city": "NYC",
-        "google_place_id": "ChIJqVBc0n9ZwokR2skiI2SOnpU"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9895454,
-          40.726591
         ]
       }
     },
@@ -41964,7 +41640,8 @@
         "category": "Meal",
         "signal": "Medium",
         "description": "Dinner recommendation, sourced 2026-07-31 same as above — local rec, identity unverified, no institutional backing checked yet. Verified 2026-08-01: real, historic (1415). Specific negative reviews present alongside praise (staff friendliness called out by name) — a legitimacy signal, astroturf rarely includes specific service complaints. Verified 2026-08-01: 4.2 Tripadvisor, 4.9 RestaurantGuru, Gambero Rosso confirms via their own bacari guide. Designation holds up. Also featured in Gambero Rosso 2023 (bacari guide): Runs a dual identity -- a seasonal-menu trattoria (moeche in season March-April and October-November) plus a quick-cicchetti bacaro side (sarde in saor, baccalà, liver alla veneziana, polpette al sugo rosso, calamari, prawns); open later than most bacari, which is unusual for Venice. Verified 2026-08-02 mid-trip: Sun hours 18:00-22:00 confirmed. Real institutional backing beyond the earlier unverified flag -- Gambero Rosso bacari feature + Falstaff 88pts, 4.2 Tripadvisor (2,502 reviews), 4.9 RestaurantGuru (7,751 reviews). Also known locally as \"Ae Do Spade.\"",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJC0H_FduxfkcRdcW4fkdH1lI"
       },
       "geometry": {
         "type": "Point",
@@ -43584,7 +43261,8 @@
         "signal": "Medium",
         "description": "San Polo, Ruga Rialto -- concierge recommendation (Hotel Firenze), 2026-08-02. Twins-run (Franco and Giovanni), real historic bacaro in the Rialto cicchetti cluster (same neighborhood as All'Arco and Cantina Do Spade). Order: meat/tuna/eggplant croquettes, crostini/panini with radicchio, artichoke, fish, sopressa combos. Sun hours 08:30-19:00 (shorter than its weekday 08:30-20:30 -- closes early Sundays specifically). No numeric rating surfaced in verification -- thinner evidence than Do Spade or Al Timon, not disqualifying. Not visited this trip -- concierge-sourced only, no personal verification.",
         "secondary_tags": "bacaro; cicchetti; venice",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJi9ArGduxfkcRieJllnhQ-x0"
       },
       "geometry": {
         "type": "Point",
@@ -43602,7 +43280,8 @@
         "signal": "Medium",
         "description": "Ca' Giustinian, San Marco -- suggested by Al Covo staff, 2026-08-02 dinner, as a waterside drink spot. On the ground floor of Ca' Giustinian (HQ of the Venice Biennale/Film Festival org), directly on the Grand Canal facing the Salute and Punta della Dogana. Terrace/cafe-bar register, wines and spritzes. Not visited this trip -- Al Covo ran late and there wasn't time. Unverified beyond the staff recommendation -- no independent critic or rating check done yet.",
         "secondary_tags": "waterside; drinks; venice; grand-canal",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJSR0F3NaxfkcRuBhuud5wNbI"
       },
       "geometry": {
         "type": "Point",
@@ -43620,7 +43299,8 @@
         "signal": "High",
         "description": "Monteverde, ~20-25 min drive from central Rome, not walkable. Friend recommendation 2026-08-03 (someone who has been to Rome many times): \"the absolute definite... you will not have a more authentic experience with top notch food, still expect no frills, it is the Roman way.\" TOP PRIORITY for a future Rome trip -- not attempted this trip (2026 Aug 3-5 leg), time/distance did not fit alongside the already-locked group dinner (Grappolo d'Oro).\n\nEarlier vault research (2026-07): online booking widget was dead (\"restaurant not found\"), no working email found -- phone-only (06 536015). Possibly down to 2 Gamberi Gambero Rosso rating in 2026 (unconfirmed, was previously Tre Gamberi). Book by phone next time, well ahead -- do not rely on the web widget.\n\nSlow Food Chiocciola confirmed (2026 official list). Gambero Rosso tier possibly downgraded to Due Gamberi in 2026 (unconfirmed, was previously Tre Gamberi) -- see existing note above on the dead booking widget.",
         "secondary_tags": "trattoria; rome; next-trip-priority; phone-only-booking",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJR0wX4QBgLxMR3GfOD-rZFtk"
       },
       "geometry": {
         "type": "Point",
@@ -43638,7 +43318,8 @@
         "signal": "Medium",
         "description": "Via Alessandro Severo 222, Ostiense/Garbatella -- off the beaten path, not central. Modern trattoria, traditional Roman cuisine with a contemporary twist: homemade pasta (ravioli, tonnarelli), bucatini all'amatriciana, carbonara, offal specialties (pajata, animelle). Closed Sundays, dinner-only except Saturday lunch.\n\nFriend recommendation 2026-08-03 (someone who has been to Rome many times), explicitly ranked lowest of four options given: \"last place I would consider given the list you provided\" -- included for completeness per the include-everything-tier-it convention, not a strong endorsement. Not verified beyond this mention.\n\nSlow Food Chiocciola confirmed (2026 official list) -- upgrades this beyond the friend-recommendation-only sourcing noted above; a real institutional tier exists here even though the friend ranked it lowest of four.",
         "secondary_tags": "trattoria; rome; osteria-style",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJQz_4gWGKJRMRb4p1tB5Ddvs"
       },
       "geometry": {
         "type": "Point",
@@ -43656,7 +43337,8 @@
         "signal": "High",
         "description": "Via di San Cosimato 14/A, Trastevere -- open daily noon-midnight. Marco Radicioni, master gelato maker, natural ingredients churned in view of customers. Innovative flavors alongside solid classics -- stone fruit sorbets and ricotta-based flavors specifically called out. Zero-detour from Tavernaccia Da Bruno (same neighborhood) -- pairs naturally with an 8/3 Trastevere dinner, before or after.\n\nGambero Rosso \"Tre Coni\" (their top gelato award), multiple consecutive years. Named-critic praise (a food critic, quoted 2026-08-03, unnamed source) + a chef recommendation. CORRECTION 2026-08-03: the chef quote referenced the ORIGINAL Colli Portuensi location (Viale dei Colli Portuensi 594) -- that location is CLOSED. This Trastevere address is the current, correct one. Second branch exists in Monteverde Vecchio (Viale dei Quattro Venti 70) -- different address, appears genuinely current, only relevant if pairing with a Monteverde stop.",
         "secondary_tags": "gelato; dessert; rome; trastevere; zero-detour",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJ9Y5rI7KKJRMRs5I2u26nGM8"
       },
       "geometry": {
         "type": "Point",
@@ -43674,7 +43356,8 @@
         "signal": "Medium",
         "description": "Via di San Simone 70, Centro Storico, near Piazza Navona. Named by gxb (r/rome) as his own romantic-couple pick, contrasted against Baffetto (\"more authentic\") and Roscioli (\"more casual\"); multiple independent posters in that thread reported back positively.\n\nNot in the named-critic table (KP/EM/etc) -- sourced via forum only. Current 2025-26 reviews are POLARIZED: some call it a tourist trap (small portions, inconsistent service), others rave. Real split-verdict risk, go in aware.",
         "secondary_tags": "trattoria; rome; centro-storico",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJy0NHwFpgLxMR0-hCtVT8Kxo"
       },
       "geometry": {
         "type": "Point",
@@ -43692,7 +43375,8 @@
         "signal": "Medium",
         "description": "Via dei Vascellari, Trastevere. Elizabeth Minchilli's favorite Trastevere trattoria, also on gxb's list. Tiny, no reservations except the 7:30pm seating.\n\n2025-26 Tripadvisor: repeated complaints about tourist-heavy volume -- pushy staff, refusing drinks-only seating. Food quality itself isn't disputed, the experience is. Classic famous+tiny+no-res failure pattern.",
         "secondary_tags": "trattoria; rome; trastevere",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJfy613ThgLxMR-Kr1iDROgrU"
       },
       "geometry": {
         "type": "Point",
@@ -43710,7 +43394,8 @@
         "signal": "High",
         "description": "Vicolo Rosini 4, between the Pantheon and Parliament -- on the existing 8/3 walking route. Small, political/local crowd. Cash only, reservation recommended.\n\nKatie Parla favorite. Reviews checked 2026-07-23 consistently positive, no tourist-trap complaints.",
         "secondary_tags": "trattoria; rome; centro-storico; zero-detour",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJ3crFaFFgLxMRVR9WTcNxVDo"
       },
       "geometry": {
         "type": "Point",
@@ -43728,7 +43413,8 @@
         "signal": "Medium",
         "description": "Piazza del Biscione 92, Campo de' Fiori. Dining rooms sit in/around the excavated ruins of the Theatre of Pompey -- an atmosphere/history pick, not a food-ranking pick.\n\nSourced from a pasted excerpt attributed (unconfirmed) to a Reddit poster (Alex). Explicit trade-off named in source: touristy because genuinely significant, not because it went viral.",
         "secondary_tags": "trattoria; rome; campo-de-fiori; historic-site",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJxYLqXE9gLxMRMiEB2ESvqsw"
       },
       "geometry": {
         "type": "Point",
@@ -43746,7 +43432,8 @@
         "signal": "Medium",
         "description": "Via dei Giubbonari 21. The deli-restaurant counter-table entity -- distinct from Antico Forno Roscioli (bakery) and Rimessa Roscioli (wine cellar). Counter table for two, online booking self-verifies August availability.",
         "secondary_tags": "trattoria; rome; campo-de-fiori",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJ4T6-zEhgLxMRSa1VL3N0DyY"
       },
       "geometry": {
         "type": "Point",
@@ -43764,7 +43451,8 @@
         "signal": "Medium",
         "description": "Via Giovanni Branca, Testaccio, since 1957. Real, family-run, no institutional designation -- purely a named-critic vouch.\n\nRachel Roddy names it where her own \"education in Roman food\" began -- a personal-formation story, not an award.",
         "secondary_tags": "trattoria; rome; testaccio",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJZVR34S9gLxMRXr1Zi8EzglQ"
       },
       "geometry": {
         "type": "Point",
@@ -43782,7 +43470,8 @@
         "signal": "Low",
         "description": "Via degli Avignonesi, Trevi. Emilia-Romagna-style cooking transplanted to Rome.\n\nAlex-only source bundle, not independently cross-checked against named critics or awards -- a new lead, not yet corroborated.",
         "secondary_tags": "trattoria; rome; trevi; unverified",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJYRcthKthLxMR-FPfbPYbePI"
       },
       "geometry": {
         "type": "Point",
@@ -43800,7 +43489,8 @@
         "signal": "Low",
         "description": "Via del Leone, Centro Storico.\n\nAlex-only source bundle, not independently cross-checked -- new lead, not yet corroborated.",
         "secondary_tags": "trattoria; rome; centro-storico; unverified",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJbfrRslZgLxMRKR3a8hnvJD8"
       },
       "geometry": {
         "type": "Point",
@@ -43816,7 +43506,7 @@
         "name": "Angelina a Testaccio",
         "category": "Meal",
         "signal": "Low",
-        "description": "Testaccio (neighborhood-level coords only).\n\nAlex-only source bundle, not independently cross-checked -- new lead, not yet corroborated.",
+        "description": "Testaccio (neighborhood-level coords only).Alex-only source bundle, not independently cross-checked -- new lead, not yet corroborated.",
         "secondary_tags": "trattoria; rome; testaccio; unverified",
         "city": "Rome"
       },
@@ -43852,7 +43542,7 @@
         "name": "Trattoria Trilussa",
         "category": "Meal",
         "signal": "Low",
-        "description": "Trastevere (neighborhood-level coords only).\n\nAlex-only source bundle, not independently cross-checked -- new lead, not yet corroborated.",
+        "description": "Trastevere (neighborhood-level coords only).Alex-only source bundle, not independently cross-checked -- new lead, not yet corroborated.",
         "secondary_tags": "trattoria; rome; trastevere; unverified",
         "city": "Rome"
       },
@@ -43872,7 +43562,8 @@
         "signal": "Medium",
         "description": "Piazza de' Ricci. Fish-focused, described as \"an institution.\" Very expensive per the source.\n\nSourced from Alex (r/rome, self-identified Roman resident since 2002).",
         "secondary_tags": "seafood; rome; centro-storico",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJycEjW0RgLxMRYBO1pi8oKBs"
       },
       "geometry": {
         "type": "Point",
@@ -43890,7 +43581,8 @@
         "signal": "Medium",
         "description": "Via dei Chiavari 4. Crudo/seafood pasta specialist.\n\n\"The best in Rome\" per Alex (r/rome, self-ID'd Roman resident since 2002) -- a direct superlative from one source, not independently cross-checked.",
         "secondary_tags": "seafood; rome; centro-storico",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJGbkfOk9gLxMR98ZqdnBQOJc"
       },
       "geometry": {
         "type": "Point",
@@ -43906,7 +43598,7 @@
         "name": "Borghiciana Pastificio Artigianale",
         "category": "Meal",
         "signal": "Low",
-        "description": "Near the Vatican/Prati.\n\nAggregate-only, no critic or institutional backing found in the research pass.",
+        "description": "Near the Vatican/Prati.Aggregate-only, no critic or institutional backing found in the research pass.",
         "secondary_tags": "rome; prati; unverified",
         "city": "Rome"
       },
@@ -43926,7 +43618,8 @@
         "signal": "Medium",
         "description": "Piazza del Teatro di Pompeo area. Candidate for the 8/9 pre-flight group lunch -- flight-safe set menu for 6+.\n\nCarbonara specifically backed by 50 Top Italy + Michelin Guide.",
         "secondary_tags": "trattoria; rome; departure-day-lunch",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJfbxIbcthLxMRotguzrL5sMc"
       },
       "geometry": {
         "type": "Point",
@@ -43942,7 +43635,7 @@
         "name": "Perilli a Testaccio",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Marmorata 39, Testaccio, since 1911. Real, no decline signal -- Romans still fill it nightly. Own booking widget confirms 10-person capacity. Closed only Tuesdays, 12:30-15:00 / 19:30-23:00.\n\nElizabeth Minchilli's literal \"last meal in Rome\" pick -- the strongest single-critic endorsement found anywhere in this whole multi-city research project. Highest-confidence pick in the group-of-10 batch. Checked live 2026-08, no closure risk found.",
+        "description": "Via Marmorata 39, Testaccio, since 1911. Real, no decline signal -- Romans still fill it nightly. Own booking widget confirms 10-person capacity. Closed only Tuesdays, 12:30-15:00 / 19:30-23:00.Elizabeth Minchilli's literal \"last meal in Rome\" pick -- the strongest single-critic endorsement found anywhere in this whole multi-city research project. Highest-confidence pick in the group-of-10 batch. Checked live 2026-08, no closure risk found.",
         "secondary_tags": "trattoria; rome; testaccio; group-of-10; top-pick",
         "city": "Rome"
       },
@@ -43960,7 +43653,7 @@
         "name": "Checchino dal 1887",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Via di Monte Testaccio 30. Coda alla vaccinara specialist, 55 covers + private room.\n\nGambero Rosso \"Campione della Tradizione\" 2024. Katie Parla explicitly not a fan overall (dish-specific only); Elizabeth Minchilli recommends mainly for the wine list -- real mixed-quality pattern (\"retro but neglected, slow service\"). ⚠️ LIKELY CLOSED for the entire 8/3-8/5 trip window -- takes an annual August holiday, reopened ~Aug 22 the prior year. Bank for a future trip outside August, not this one.",
+        "description": "Via di Monte Testaccio 30. Coda alla vaccinara specialist, 55 covers + private room.Gambero Rosso \"Campione della Tradizione\" 2024. Katie Parla explicitly not a fan overall (dish-specific only); Elizabeth Minchilli recommends mainly for the wine list -- real mixed-quality pattern (\"retro but neglected, slow service\"). ⚠️ LIKELY CLOSED for the entire 8/3-8/5 trip window -- takes an annual August holiday, reopened ~Aug 22 the prior year. Bank for a future trip outside August, not this one.",
         "secondary_tags": "trattoria; rome; testaccio; group-of-10; likely-closed-this-trip",
         "city": "Rome"
       },
@@ -43978,7 +43671,7 @@
         "name": "Flavio al Velavevodetto",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Via di Monte Testaccio 97. Best group logistics of the set -- 200 indoor + 50 outdoor + private wine-cellar room.\n\nKatie Parla brought Anthony Bourdain's successor Stanley Tucci here on-camera (Searching for Italy); Rachel Roddy known to meet people there. Founded 1995, now a small chain (Milan too) -- \"a well-executed concept more than a genuine institution.\"",
+        "description": "Via di Monte Testaccio 97. Best group logistics of the set -- 200 indoor + 50 outdoor + private wine-cellar room.Katie Parla brought Anthony Bourdain's successor Stanley Tucci here on-camera (Searching for Italy); Rachel Roddy known to meet people there. Founded 1995, now a small chain (Milan too) -- \"a well-executed concept more than a genuine institution.\"",
         "secondary_tags": "trattoria; rome; testaccio; group-of-10",
         "city": "Rome"
       },
@@ -43998,7 +43691,8 @@
         "signal": "Medium",
         "description": "Via Monte de' Cenci 9, the Ghetto, since 1860. Carciofi alla giudia specialist -- explicitly OUT OF SEASON in August, weakening the case for this specific trip.\n\nElizabeth Minchilli's childhood special-occasion pick. Ownership passed to an unrelated family in 1963.",
         "secondary_tags": "trattoria; rome; ghetto; group-of-10; seasonal-mismatch",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJzxsJG0lgLxMRc2pwvLR3XOk"
       },
       "geometry": {
         "type": "Point",
@@ -44014,7 +43708,7 @@
         "name": "Enoteca La Torre",
         "category": "Meal",
         "signal": "High",
-        "description": "Villa Laetitia, Lungotevere delle Armi, Prati. Art Nouveau villa setting, less touristy than Colosseum-view spots. ~€240-260pp. One reviewer called it better than La Pergola.\n\n2 Michelin stars, Gambero Rosso 91/100, OAD #8 Rome/#32 Italy, glowing from Sara Porro (OAD). \"Cleanest sentiment of the whole set\" per the research pass -- zero documented mixed reviews.",
+        "description": "Villa Laetitia, Lungotevere delle Armi, Prati. Art Nouveau villa setting, less touristy than Colosseum-view spots. ~€240-260pp. One reviewer called it better than La Pergola.2 Michelin stars, Gambero Rosso 91/100, OAD #8 Rome/#32 Italy, glowing from Sara Porro (OAD). \"Cleanest sentiment of the whole set\" per the research pass -- zero documented mixed reviews.",
         "secondary_tags": "fine-dining; rome; prati; splurge",
         "city": "Rome"
       },
@@ -44034,7 +43728,8 @@
         "signal": "High",
         "description": "Via Goffredo Mameli, Trastevere. Best value of the splurge set (€110-150 vs €200-350+ elsewhere).\n\n1 Michelin star, Gambero Rosso 90/100 + newly Tre Forchette 2026, OAD #1 Rome/#16 Italy/#99 global, Passione Gourmet 17.5/20 -- the highest critic score in the whole splurge set. Outranks several 2-stars on every metric except star count itself.",
         "secondary_tags": "fine-dining; rome; trastevere; splurge; best-value",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJmaZ8kGFhLxMR4ojW0oHmpgE"
       },
       "geometry": {
         "type": "Point",
@@ -44052,7 +43747,8 @@
         "signal": "Medium",
         "description": "Via Alberto Cadlolo 101, Balduina, Rome Cavalieri hotel. Most famous name in the set, ~€250-350+pp, 40-60min round trip.\n\n3 Michelin stars -- Italy's only 3-star outside Milan. Andy Hayler 17/20, but flags the cooking as drifted \"cerebral\"; the hilltop/formal/dress-code register reads as stuffy to some. If \"universally loved\" matters more than \"most famous,\" La Torre/Zia are the safer picks.",
         "secondary_tags": "fine-dining; rome; balduina; splurge",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJHw9AUoRgLxMR2Up1TWI6ZS8"
       },
       "geometry": {
         "type": "Point",
@@ -44070,7 +43766,8 @@
         "signal": "Medium",
         "description": "Via dei Banchi Vecchi 129. Avant-garde global fusion, not Roman comfort food -- small, precious room. Tasting-only, €180-330pp, ~€200pp no-show fee. Private room caps at 6.\n\n2 Michelin stars, Gambero Rosso 94/100, L'Espresso 4 cappelli.",
         "secondary_tags": "fine-dining; rome; centro-storico; splurge",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJxXT3hURgLxMRuzmYPjBhY8k"
       },
       "geometry": {
         "type": "Point",
@@ -44088,7 +43785,8 @@
         "signal": "Medium",
         "description": "Piazza Trinita dei Monti 6, 6th floor of the Hassler -- Spanish Steps location/views. Confirmed reopened 2026 post-20th-anniversary redesign, open kitchen merged with dining room. Currently taking reservations; 2026 pricing not yet published anywhere found.\n\n1 Michelin star (never lost). Gambero Rosso 93/100 -- the highest GR score in the whole splurge set. Carlo Passera (Identita Golose) praises skill, flags overambition. Note: chef is Andrea Antonini.",
         "secondary_tags": "fine-dining; rome; spanish-steps; splurge",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJW6tyLVVgLxMRULTMKJiciGU"
       },
       "geometry": {
         "type": "Point",
@@ -44104,7 +43802,7 @@
         "name": "Aroma (Palazzo Manfredi)",
         "category": "Meal",
         "signal": "Low",
-        "description": "Via Labicana 125. Colosseum-view spot, heavily tourist-trafficked.\n\n1 Michelin star, Gambero Rosso 83/100, positive from Tom Garton (Arbuturian) -- but flagged as \"never rises above meh beyond the view.\" Explicitly recommended to deprioritize despite the name recognition.",
+        "description": "Via Labicana 125. Colosseum-view spot, heavily tourist-trafficked.1 Michelin star, Gambero Rosso 83/100, positive from Tom Garton (Arbuturian) -- but flagged as \"never rises above meh beyond the view.\" Explicitly recommended to deprioritize despite the name recognition.",
         "secondary_tags": "fine-dining; rome; colosseum; splurge; overrated-flag",
         "city": "Rome"
       },
@@ -44124,7 +43822,8 @@
         "signal": "Medium",
         "description": "Vicolo del Malpasso 9. Chef Giulio Terrinoni.\n\n1 Michelin star, Gambero Rosso 87/100, OAD #11 Rome -- but split reviews: \"incredible\" vs \"shockingly underwhelming for the price.\" Real, source-documented inconsistency, not disqualifying but not the safe pick for a once-in-a-lifetime night.",
         "secondary_tags": "fine-dining; rome; centro-storico; splurge; mixed-reviews",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJWYdrYkRgLxMR_lor-OXSdNs"
       },
       "geometry": {
         "type": "Point",
@@ -44142,7 +43841,8 @@
         "signal": "Medium",
         "description": "Corso Vittorio Emanuele II 250. Chef Alessandro Pipero + Ciro Scamardella. Lunch ~€100pp. Strong on hospitality/carbonara, mixed on value.\n\n1 Michelin star, Gambero Rosso 88/100, 50TopItaly #34 (2022, stale), positive from Luca Farina (Identita Golose). Also appears in the couple/small-group research as a group-of-10 elevated-slate candidate needing a 10-top call.",
         "secondary_tags": "fine-dining; rome; centro-storico; splurge",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJ__9P5kRgLxMR8DBAF5WMSiI"
       },
       "geometry": {
         "type": "Point",
@@ -44160,7 +43860,8 @@
         "signal": "Medium",
         "description": "Vicolo del Cinque 58, Trastevere. Chef Cristina Bowerman. Cheapest 1-star in the splurge set, ~€110pp average.\n\n1 Michelin star, Gambero Rosso 88/100 \"Tre Forchette\" 4th year running -- but NO independent critic coverage found, a real gap flagged in the research. No red flags, just thinnest outside verification.",
         "secondary_tags": "fine-dining; rome; trastevere; splurge; thin-sourcing",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJ5UjGdkdgLxMRzT7K8LNlcXU"
       },
       "geometry": {
         "type": "Point",
@@ -44176,7 +43877,7 @@
         "name": "Marco Martini",
         "category": "Meal",
         "signal": "Low",
-        "description": "Viale Aventino 121.\n\n1 Michelin star, OAD #7 Rome, Passione Gourmet 16/20 -- but flagged for \"cold essentialism\" in the room + a creative-stagnation concern. Solid, not glowing.",
+        "description": "Viale Aventino 121.1 Michelin star, OAD #7 Rome, Passione Gourmet 16/20 -- but flagged for \"cold essentialism\" in the room + a creative-stagnation concern. Solid, not glowing.",
         "secondary_tags": "fine-dining; rome; aventino; splurge",
         "city": "Rome"
       },
@@ -44196,7 +43897,8 @@
         "signal": "Low",
         "description": "Via Giuseppe Pisanelli 25, Flaminio. Chef Riccardo Di Giacinto.\n\n1 Michelin star, OAD #459 Europe (weak signal). Most explicit negative critique in the whole splurge research pass -- a direct quote calling it \"not up to the one star they at the moment have.\"",
         "secondary_tags": "fine-dining; rome; flaminio; splurge; negative-flag",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJ78OrZyJhLxMRjI91m6yLGS0"
       },
       "geometry": {
         "type": "Point",
@@ -44214,7 +43916,8 @@
         "signal": "Medium",
         "description": "Hotel Vilon, Via dell'Arancio. High pedigree.\n\n2 Michelin stars -- but thin outside coverage for a 2-star. \"Treat as unverified rather than clean\" per the research pass, real gap for that tier.",
         "secondary_tags": "fine-dining; rome; centro-storico; splurge; thin-sourcing",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJx6Gyx1ZgLxMRNhAuReHiBek"
       },
       "geometry": {
         "type": "Point",
@@ -44230,7 +43933,7 @@
         "name": "La Terrazza (Hotel Eden)",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Via Ludovisi 49. Chef Salvatore Bianco (not Antonini -- distinct from Imago, easy to confuse). Consistently positive but very new star, thin track record.\n\n1 Michelin star, awarded Nov 2025.",
+        "description": "Via Ludovisi 49. Chef Salvatore Bianco (not Antonini -- distinct from Imago, easy to confuse). Consistently positive but very new star, thin track record.1 Michelin star, awarded Nov 2025.",
         "secondary_tags": "fine-dining; rome; via-veneto; splurge",
         "city": "Rome"
       },
@@ -44248,7 +43951,7 @@
         "name": "Idylio by Apreda",
         "category": "Meal",
         "signal": "Medium",
-        "description": "The First Roma Arte, Via del Vantaggio. Chef Francesco Apreda. Mostly strong, one uncorroborated outlier pan.\n\n1 Michelin star, Gambero Rosso 90/100, positive from Serena Curto (Reporter Gourmet).",
+        "description": "The First Roma Arte, Via del Vantaggio. Chef Francesco Apreda. Mostly strong, one uncorroborated outlier pan.1 Michelin star, Gambero Rosso 90/100, positive from Serena Curto (Reporter Gourmet).",
         "secondary_tags": "fine-dining; rome; centro-storico; splurge",
         "city": "Rome"
       },
@@ -44268,7 +43971,8 @@
         "signal": "Low",
         "description": "Via Guglielmo Calderini. Cheapest overall of the splurge set at €75-95pp -- but chef changed (Noda departed, Zezza now), explicitly \"rebuilding,\" not at peak right now.\n\nLOST its Michelin star -- 0 stars currently. Going in during a rebuild period, not a safe bet right now.",
         "secondary_tags": "fine-dining; rome; splurge; lost-star; rebuild-period",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJlelx88FgLxMRqhqNO_W93ok"
       },
       "geometry": {
         "type": "Point",
@@ -44284,7 +43988,7 @@
         "name": "Retrobottega",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Via della Stelletta, Centro Storico. Communal seating only (6-seat counter, no private tables) -- logistically works for a couple/pair only, not a group. Also in the couple/small-group research table.\n\nNo star but Michelin-selected; 50 Best Discovery listed. Split reviews. Strong chef pedigree (both ex-Il Pagliaccio + Piazza Duomo).",
+        "description": "Via della Stelletta, Centro Storico. Communal seating only (6-seat counter, no private tables) -- logistically works for a couple/pair only, not a group. Also in the couple/small-group research table.No star but Michelin-selected; 50 Best Discovery listed. Split reviews. Strong chef pedigree (both ex-Il Pagliaccio + Piazza Duomo).",
         "secondary_tags": "fine-dining; rome; centro-storico; splurge; couple-only",
         "city": "Rome"
       },
@@ -44304,7 +44008,8 @@
         "signal": "High",
         "description": "Via Garibaldi 18, Trastevere. This is the group's already-booked 8/4 dinner -- confirmed, not a pending decision. Added for map completeness alongside the trip's other locked venues.",
         "secondary_tags": "rome; trastevere; locked-booking",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJqXt3rEBgLxMRdiF6txAVabY"
       },
       "geometry": {
         "type": "Point",
@@ -44322,7 +44027,8 @@
         "signal": "High",
         "description": "Via di San Giovanni in Laterano, Monti. Three-layer time machine: 12th-c. basilica over 4th-c. church over 1st-c. Mithraic temple, underground stream still audible. 5 min from the Colosseum, underground levels naturally cool. ~45-60 min. Open Tuesdays.\n\nTurismo Roma + consistent archaeological-tourism coverage.",
         "secondary_tags": "sightseeing; rome; monti; underground",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJ6V1-TbhhLxMRUbEhbeY44Zc"
       },
       "geometry": {
         "type": "Point",
@@ -44340,7 +44046,8 @@
         "signal": "Medium",
         "description": "Via Ostiense 106, Garbatella. Capitoline Museums overflow statuary displayed among a preserved 1912 power plant's turbines and boilers -- genuinely odd juxtaposition. Indoor/AC, real heat refuge. Farthest from the 8/4 anchors (Via Ostiense). Open Tue-Sun.\n\nOfficial Capitoline Museums site + independent coverage.",
         "secondary_tags": "sightseeing; rome; garbatella; indoor; museum",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJpcPlnIGKJRMReN1sXvlbJ2Q"
       },
       "geometry": {
         "type": "Point",
@@ -44358,7 +44065,8 @@
         "signal": "Medium",
         "description": "Via Caio Cestio, Testaccio. Keats and Shelley's graves. Quiet, green, resident cat colony, free entry (donation box). Adjacent to the Pyramid of Cestius. Open daily except Ferragosto week (Aug 11-17) -- fine for these dates.\n\nContext Travel, Wanted in Rome, Keats-Shelley Memorial Association (scholarly institution).",
         "secondary_tags": "sightseeing; rome; testaccio; quiet; free",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJp3EzNCxgLxMRm11PYpmDx4Q"
       },
       "geometry": {
         "type": "Point",
@@ -44376,7 +44084,8 @@
         "signal": "Medium",
         "description": "Via della Lungara 230, Trastevere. Raphael-frescoed Renaissance villa, stays uncrowded because everyone defaults to the Vatican instead. Small secret garden. Tue-Sat 9am-2pm, last admission 1pm, CLOSED SUNDAY -- doesn't fit a post-Colosseum 8/4 PM slot.\n\nThrough Eternity Tours + independent guides.",
         "secondary_tags": "sightseeing; rome; trastevere; villa",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJmUUGzkZgLxMR-T6gV-Qsy4o"
       },
       "geometry": {
         "type": "Point",
@@ -44394,7 +44103,8 @@
         "signal": "Medium",
         "description": "Trevi, 2 min from Trevi Fountain. Hidden 4-story Art Nouveau courtyard, floor-to-ceiling frescoes celebrating women through life stages. Free entry, 5-10 min. Weekday-only (closed weekends), 9am-6:30pm.\n\nAtlas Obscura (editorially-curated).",
         "secondary_tags": "sightseeing; rome; trevi; free; zero-detour",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJrXhe5VJgLxMR953Kq4Cpv-M"
       },
       "geometry": {
         "type": "Point",
@@ -44412,7 +44122,8 @@
         "signal": "Low",
         "description": "Trieste district, NE Rome. Surreal Art Nouveau/fairy-tale micro-district (1915-27). 20-30 min wander, geographically remote from the center, minimal shade -- do it in late-afternoon light.\n\nMultiple independent Rome-culture blogs, no single named critic.",
         "secondary_tags": "sightseeing; rome; trieste; remote",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJEVJSyBNhLxMRfXAh6juHV04"
       },
       "geometry": {
         "type": "Point",
@@ -44430,7 +44141,8 @@
         "signal": "Medium",
         "description": "Viale Paolo Antonio Paschetto, Nomentano. Small Art Nouveau \"owl house,\" stained glass by Cambellotti and Bottazzi, inside a park later used as Mussolini's residence. Indoor for the glasswork, shaded park around it. Open Tue-Sun. Real trek from the center.\n\nOfficial Musei di Villa Torlonia site + independent coverage.",
         "secondary_tags": "sightseeing; rome; nomentano; remote",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJBz9HykNhLxMRtKb6HMPGwKc"
       },
       "geometry": {
         "type": "Point",
@@ -44448,7 +44160,8 @@
         "signal": "High",
         "description": "Confirmed walk-up for small groups (\"no booking option\" for parties under 8, per the hotel's own site), open 11:30am-midnight daily. Literally steps from the Pantheon -- zero transit from the 8/3 walking cluster, unlike Cielo's trip to the Spanish Steps.\n\nElegant/formal restaurant-lounge register, Pantheon itself as the visual focal point. RECOMMENDED NEW FALLBACK -- beats Cielo on both walk-up-convenience and proximity.",
         "secondary_tags": "rooftop; sunset; rome; pantheon; walk-up; recommended",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJnWZD6CRhLxMRTlQfuPEOXD0"
       },
       "geometry": {
         "type": "Point",
@@ -44464,7 +44177,7 @@
         "name": "The Vista Rooftop Club",
         "category": "Drinks",
         "signal": "Medium",
-        "description": "Via di Torre Argentina, 5 min from the Pantheon. Hidden speakeasy-style entrance (unmarked door, buzz-in, old lift), 360-degree rooftop, small terrace. Membership/private-club model, EUR15 min spend, reservation recommended for sunset.\n\nMore intimate/discovery-oriented register than Cielo (scene) or Borromini (formal) -- reviews note it's cheaper than the big hotel terraces. The club-entry mechanic adds friction similar to Borromini's booking requirement, not a clean walk-up win.",
+        "description": "Via di Torre Argentina, 5 min from the Pantheon. Hidden speakeasy-style entrance (unmarked door, buzz-in, old lift), 360-degree rooftop, small terrace. Membership/private-club model, EUR15 min spend, reservation recommended for sunset.More intimate/discovery-oriented register than Cielo (scene) or Borromini (formal) -- reviews note it's cheaper than the big hotel terraces. The club-entry mechanic adds friction similar to Borromini's booking requirement, not a clean walk-up win.",
         "secondary_tags": "rooftop; sunset; rome; centro-storico; reservation-needed",
         "city": "Rome"
       },
@@ -44482,7 +44195,7 @@
         "name": "NOTOS Rooftop (Six Senses Rome)",
         "category": "Drinks",
         "signal": "Low",
-        "description": "Piazza San Marcello, near Trevi/Pantheon. Design-hotel garden-terrace aesthetic (Mediterranean plants, terracotta), DJs/live music sessions -- more scene/nightlife register than a quiet sunset closer. Reservation via SevenRooms.\n\nMixed reviews on service/food (\"uninteresting,\" \"unpleasant service\" cited alongside praise). Weaker pick -- register mismatch for a quiet day-closer, and service consistency is a real question mark.",
+        "description": "Piazza San Marcello, near Trevi/Pantheon. Design-hotel garden-terrace aesthetic (Mediterranean plants, terracotta), DJs/live music sessions -- more scene/nightlife register than a quiet sunset closer. Reservation via SevenRooms.Mixed reviews on service/food (\"uninteresting,\" \"unpleasant service\" cited alongside praise). Weaker pick -- register mismatch for a quiet day-closer, and service consistency is a real question mark.",
         "secondary_tags": "rooftop; sunset; rome; centro-storico; mixed-reviews",
         "city": "Rome"
       },
@@ -44502,7 +44215,8 @@
         "signal": "Medium",
         "description": "Via del Caravita, quiet side street off Via del Corso, close to the Pantheon. Quieter aperitivo/dining register, views toward St. Peter's/Altare della Patria/Quirinale. Open daily lunch through late evening, reservation recommended but not gate-kept like Borromini.\n\nReviews consistently positive on staff/atmosphere. Solid alternative if a calmer setting matters more than Divinity Terrace's Pantheon-facing view specifically.",
         "secondary_tags": "rooftop; sunset; rome; centro-storico",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJQzHTLO5hLxMRvpsASNvgXSg"
       },
       "geometry": {
         "type": "Point",
@@ -44520,7 +44234,8 @@
         "signal": "Medium",
         "description": "Via San Leonardo 7. 8/5 default pick -- 50 seats. A forum diner's \"favorite dish in Italy\" claim (Nidi di Rondine con Pecorino e Miele) is framed in the source as a signal, not a personal pick. Closed Tue, open Wed.\n\nGenuine family trattoria; a claimed Slow Food \"seat\" is unverified -- trust the local reputation, not the badge claim.",
         "secondary_tags": "trattoria; orvieto; drive-stop",
-        "city": "Orvieto"
+        "city": "Orvieto",
+        "google_place_id": "ChIJmfXpEATNLhMRRpdepX6_hZA"
       },
       "geometry": {
         "type": "Point",
@@ -44538,7 +44253,8 @@
         "signal": "Medium",
         "description": "Via Garibaldi 4, historic center. Confirmed-open backup for 8/5 -- closed Thu, open Wed.\n\nAccademia + local favorite.",
         "secondary_tags": "trattoria; orvieto; drive-stop",
-        "city": "Orvieto"
+        "city": "Orvieto",
+        "google_place_id": "ChIJnysDGQXNLhMR7lR1GbvjWmo"
       },
       "geometry": {
         "type": "Point",
@@ -44556,7 +44272,8 @@
         "signal": "High",
         "description": "Via Cipriano Manente 16. Most decorated of the Orvieto set. Closed Wed -- NOT usable on 8/5 arrival, but fits the 8/9 departure-day drive instead.\n\nElizabeth Minchilli + Michelin Guide + Slow Food + Accademia, all four independently.",
         "secondary_tags": "trattoria; orvieto; drive-stop; best-in-class; departure-day",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJKeOtUwTNLhMRw97-RKXsIFg"
       },
       "geometry": {
         "type": "Point",
@@ -44574,7 +44291,8 @@
         "signal": "Low",
         "description": "Via Ripa Serancia 41. Unique Etruscan-cave setting, an ambiance pick rather than designation-backed. Hours marked \"verify\" in the source, not confirmed.",
         "secondary_tags": "trattoria; orvieto; drive-stop; unverified-hours",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJ56bkzRrNLhMRHnnc5rdaXXg"
       },
       "geometry": {
         "type": "Point",
@@ -44592,7 +44310,8 @@
         "signal": "Low",
         "description": "Via del Duomo 78. 180 seats, group menus -- a group-guaranteed fallback prioritizing capacity over pedigree. Hours marked \"verify\" in the source.",
         "secondary_tags": "trattoria; orvieto; drive-stop; group-fallback",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJFckMfgbNLhMRgNQSrVBwY6I"
       },
       "geometry": {
         "type": "Point",
@@ -44610,7 +44329,8 @@
         "signal": "Medium",
         "description": "Lake-fish specialist near Villa Mamo (~10min) — carp 'porchetta-style', tegamaccio (lake-fish stew). Strongest villa-area dinner pick on paper.\n\nMichelin Bib Gourmand 2026 + Slow Food Chiocciola 2026 (dual, confirmed via primary sources 2026-08-03) — the only dual-designated restaurant in the whole Trasimeno town cluster. BLOCKER: confirmed closed Wednesdays via official site — ruled out for a Wed 8/5 dinner specifically, real option for any other villa-leg night.",
         "secondary_tags": "Meal; Bib Gourmand; Chiocciola; lake-fish; villa-area; closed-wednesday",
-        "city": "Castiglione del Lago"
+        "city": "Castiglione del Lago",
+        "google_place_id": "ChIJW-29CT1VKRMRsyM9dP6v31Y"
       },
       "geometry": {
         "type": "Point",
@@ -44628,7 +44348,8 @@
         "signal": "Medium",
         "description": "Lakeside osteria di strada, ~15-20min from the villa along the shore road.\n\nGambero Rosso Due Gamberi (2 of 3, confirmed via Umbria24 + Gambero Rosso's own page) — no Michelin, no Slow Food. Likely closed Tue+Wed per 5 converging current sources (one lone 2017 Yelp listing disagrees) — call +39 075 8476277 to confirm before relying on it for a specific Wed date.",
         "secondary_tags": "Meal; Gambero Rosso Due Gamberi; lake-view; villa-area; likely-closed-wed",
-        "city": "San Feliciano (Magione)"
+        "city": "San Feliciano (Magione)",
+        "google_place_id": "ChIJ8R5a4IqpLhMRaOMZVhjLhYk"
       },
       "geometry": {
         "type": "Point",
@@ -44646,7 +44367,8 @@
         "signal": "Medium",
         "description": "~40min from the villa. Osteria+locanda format, so a 10-top is realistic; €40-55pp.\n\nTriple-crowned: Michelin Bib Gourmand + Slow Food Chiocciola + Gambero Rosso Tre Gamberi — the single strongest credentialed find in the whole Trasimeno/Perugia radius. Confirmed 2026-08-03 via official Michelin/Slow Food/Gambero Rosso list cross-reference.",
         "secondary_tags": "Meal; Bib Gourmand; Chiocciola; Gambero Rosso Tre Gamberi; triple-crowned; Perugia",
-        "city": "Casaglia (Perugia)"
+        "city": "Casaglia (Perugia)",
+        "google_place_id": "ChIJYcWFEQSgLhMR_ldWjEDbq2k"
       },
       "geometry": {
         "type": "Point",
@@ -44664,7 +44386,8 @@
         "signal": "Medium",
         "description": "Perugia city pick, ~40min from the villa.\n\nSlow Food Chiocciola 2026 (single credential, confirmed via official 2026 Umbria Chiocciola list, 10 restaurants total regionwide).",
         "secondary_tags": "Meal; Chiocciola; Perugia",
-        "city": "Perugia"
+        "city": "Perugia",
+        "google_place_id": "ChIJk8xzuoegLhMRTTN1-N9ekDE"
       },
       "geometry": {
         "type": "Point",
@@ -44682,7 +44405,8 @@
         "signal": "Medium",
         "description": "Perugia city pick, ~40min from the villa.\n\nGambero Rosso Due Gamberi (single credential, no Michelin/Slow Food found). Confirmed 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Due Gamberi; Perugia",
-        "city": "Perugia"
+        "city": "Perugia",
+        "google_place_id": "ChIJN7bfAISgLhMR6IOW9oe14uw"
       },
       "geometry": {
         "type": "Point",
@@ -44698,7 +44422,7 @@
         "name": "Ada (Ada Gourmet)",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Perugia city pick, ~40min from the villa. Fine-dining register, ~25-35 covers = tight for a group of 10, €70-110 tasting menus.\n\nMichelin 1 star + Gambero Rosso Due Forchette (their FINE-DINING scale — distinct from the Gamberi trattoria scale, do not conflate). Coordinates approximate — verify before navigating.",
+        "description": "Perugia city pick, ~40min from the villa. Fine-dining register, ~25-35 covers = tight for a group of 10, €70-110 tasting menus.Michelin 1 star + Gambero Rosso Due Forchette (their FINE-DINING scale — distinct from the Gamberi trattoria scale, do not conflate). Coordinates approximate — verify before navigating.",
         "secondary_tags": "Meal; Michelin 1-star; Gambero Rosso Due Forchette; fine-dining; Perugia; coords-approximate",
         "city": "Perugia"
       },
@@ -44718,7 +44442,8 @@
         "signal": "Medium",
         "description": "Perugia city pick, ~40min from the villa.\n\nGambero Rosso Due Forchette (fine-dining scale, single credential, no Michelin/Slow Food found). Confirmed 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Due Forchette; Perugia",
-        "city": "Perugia"
+        "city": "Perugia",
+        "google_place_id": "ChIJAyttTt2gLhMRHsIL8L83DTI"
       },
       "geometry": {
         "type": "Point",
@@ -44734,7 +44459,7 @@
         "name": "Bosco 131",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Perugia city pick, ~40min from the villa.\n\nGambero Rosso Due Forchette (fine-dining scale, single credential). Confirmed 2026-08-03.",
+        "description": "Perugia city pick, ~40min from the villa.Gambero Rosso Due Forchette (fine-dining scale, single credential). Confirmed 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Due Forchette; Perugia",
         "city": "Perugia"
       },
@@ -44754,7 +44479,8 @@
         "signal": "Medium",
         "description": "Perugia city pick, ~40min from the villa.\n\nGambero Rosso Due Tavole — a SEPARATE Gambero Rosso scale from Gamberi/Forchette (their 'tavole' category), single credential. Confirmed 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Due Tavole; Perugia",
-        "city": "Perugia"
+        "city": "Perugia",
+        "google_place_id": "ChIJL_iHBH6gLhMRHGE0dACLuag"
       },
       "geometry": {
         "type": "Point",
@@ -44772,7 +44498,8 @@
         "signal": "Medium",
         "description": "Perugia city pick, ~40min from the villa.\n\nGambero Rosso Due Tavole (separate scale from Gamberi/Forchette, single credential). Confirmed 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Due Tavole; Perugia",
-        "city": "Perugia"
+        "city": "Perugia",
+        "google_place_id": "ChIJ_RqfwoagLhMRbVgfONaKThg"
       },
       "geometry": {
         "type": "Point",
@@ -44790,7 +44517,8 @@
         "signal": "Medium",
         "description": "Perugia city pick, ~40min from the villa.\n\nGambero Rosso Due Forchette (fine-dining scale, single credential). Confirmed 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Due Forchette; Perugia",
-        "city": "Perugia"
+        "city": "Perugia",
+        "google_place_id": "ChIJ_SnTF_ShLhMRSL-IQDWeGpk"
       },
       "geometry": {
         "type": "Point",
@@ -44808,7 +44536,8 @@
         "signal": "Medium",
         "description": "Perugia city pick, ~40min from the villa.\n\nGambero Rosso Una Forchetta (fine-dining scale, lowest formal tier, single credential). Confirmed 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Una Forchetta; Perugia",
-        "city": "Perugia"
+        "city": "Perugia",
+        "google_place_id": "ChIJM-wBOWKgLhMRJag45gGrzhI"
       },
       "geometry": {
         "type": "Point",
@@ -44826,7 +44555,8 @@
         "signal": "Medium",
         "description": "Wine-program-focused. Perugia city pick, ~40min from the villa.\n\nGambero Rosso Due Bottiglie (their wine-list scale, separate from Gamberi/Forchette/Tavole). Confirmed 2026-08-03.",
         "secondary_tags": "Drinks; Gambero Rosso Due Bottiglie; wine-bar; Perugia",
-        "city": "Perugia"
+        "city": "Perugia",
+        "google_place_id": "ChIJ6TU61XuhLhMR4ms7ON366Jo"
       },
       "geometry": {
         "type": "Point",
@@ -44844,7 +44574,8 @@
         "signal": "Medium",
         "description": "Lake fish + poultry, ~15min from the villa. NOTE: an earlier 'Bib Gourmand-ish' claim for this restaurant was checked 2026-08-03 and found FALSE — it's actually Michelin-listed with no star/no Bib (the source of confusion was Michelin's separate comfort/facilities symbol, not a cuisine distinction).\n\nGambero Rosso Due Forchette (fine-dining scale) is the real credential here, confirmed 2026-08-03 — not the Bib Gourmand previously assumed.",
         "secondary_tags": "Meal; Gambero Rosso Due Forchette; lake-view; villa-area; corrected-2026-08-03",
-        "city": "Passignano sul Trasimeno"
+        "city": "Passignano sul Trasimeno",
+        "google_place_id": "ChIJI48TCqAALBMRf4pU3OH7FNc"
       },
       "geometry": {
         "type": "Point",
@@ -44862,7 +44593,8 @@
         "signal": "Medium",
         "description": "~15min from the villa. Modest, only ~20 total covers/6 small tables — real capacity risk for a group.\n\nGambero Rosso Una Forchetta (lowest fine-dining tier). No current Slow Food Chiocciola (checked against 2026 list, not present — a 2022-era claim is stale). Confirmed 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Una Forchetta; small-capacity; villa-area",
-        "city": "Panicale"
+        "city": "Panicale",
+        "google_place_id": "ChIJPSG8tx6tLhMRVaWUnNTYoEA"
       },
       "geometry": {
         "type": "Point",
@@ -44878,7 +44610,7 @@
         "name": "Annina Locanda",
         "category": "Meal",
         "signal": "Medium",
-        "description": "~30min from the villa, toward Perugia.\n\nGambero Rosso Una Forchetta (single credential). Confirmed 2026-08-03.",
+        "description": "~30min from the villa, toward Perugia.Gambero Rosso Una Forchetta (single credential). Confirmed 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Una Forchetta; Corciano",
         "city": "Chiugiana (Corciano)"
       },
@@ -44898,7 +44630,8 @@
         "signal": "Medium",
         "description": "~30min from the villa, toward Perugia.\n\nGambero Rosso Una Forchetta + Michelin Guide-listed (no star/Bib). Confirmed 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Una Forchetta; Michelin-listed; Corciano",
-        "city": "Chiugiana (Corciano)"
+        "city": "Chiugiana (Corciano)",
+        "google_place_id": "ChIJG7o6LA2nLhMRH081M1JV0hQ"
       },
       "geometry": {
         "type": "Point",
@@ -44914,7 +44647,7 @@
         "name": "Aldivino",
         "category": "Meal",
         "signal": "Medium",
-        "description": "~25min from the villa.\n\nGambero Rosso Due Forchette (fine-dining scale) — 2026 new entry. Confirmed 2026-08-03.",
+        "description": "~25min from the villa.Gambero Rosso Due Forchette (fine-dining scale) — 2026 new entry. Confirmed 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Due Forchette; new-2026; Corciano",
         "city": "Corciano"
       },
@@ -44934,7 +44667,8 @@
         "signal": "Medium",
         "description": "18th-century barrel-vaulted room, family-run since 1984, terracotta-pot slow cooking. Legume-forward: ceci e porcini, fagioli e farro, pici all'aglione, peposo, ribollita. ~45min from Pienza, ~40-44min from Trequanda (real detour off the outlets→Pienza line, not on-route).\n\nMichelin Bib Gourmand 2026 + Slow Food Chiocciola 2026 (dual, tied with Il Conte Matto on credentials). Confirmed open Fri lunch Aug 2026 via TheFork's live booking calendar. Capacity for 9-10 unconfirmed — no published covers count, call ahead. Real alternative to Il Conte Matto for 8/7 lunch if extra drive time is acceptable.",
         "secondary_tags": "Meal; Bib Gourmand; Chiocciola; rustic; 8-7-lunch-alternative; capacity-unconfirmed",
-        "city": "Chiusi"
+        "city": "Chiusi",
+        "google_place_id": "ChIJJawk-NlRKRMRR1dSixSDu7Q"
       },
       "geometry": {
         "type": "Point",
@@ -44952,7 +44686,8 @@
         "signal": "Medium",
         "description": "Genuinely rustic, ~40 seats. Pici con ragù di Maremmana, tartare/tagliata di Chianina, peposo. ~42min from Pienza, ~36min from Trequanda — a real detour, not on-route.\n\nSlow Food Chiocciola 2026 only (single credential, no Bib Gourmand). Confirmed 2026-08-03. Weaker pick than La Solita Zuppa (same town) which holds both Bib+Chiocciola.",
         "secondary_tags": "Meal; Chiocciola; rustic; Chiusi",
-        "city": "Chiusi"
+        "city": "Chiusi",
+        "google_place_id": "ChIJOcpeO9pRKRMRvz0RPpXhoLs"
       },
       "geometry": {
         "type": "Point",
@@ -44970,7 +44705,8 @@
         "signal": "Medium",
         "description": "14th-century hunting-lodge osteria. Pici in Chianina ragù. 60+60 covers — largest capacity of any candidate found. Sits almost exactly on the outlets→Pienza route, ~20-24min from Pienza — near-zero detour.\n\nMichelin Bib Gourmand 2026 + Slow Food Chiocciola 2026 (dual). CURRENT PICK for Friday 8/7 lunch — confirmed open, best combination of credentials + route fit + capacity of everything found in the whole Val d'Orcia/Montepulciano/Pienza/Chiusi corridor (21-restaurant full-list sweep, 2026-08-03).",
         "secondary_tags": "Meal; Bib Gourmand; Chiocciola; rustic; 8-7-lunch-PICK; on-route",
-        "city": "Trequanda"
+        "city": "Trequanda",
+        "google_place_id": "ChIJcfhz9CtgKRMRxAKPPUMmOa8"
       },
       "geometry": {
         "type": "Point",
@@ -44988,7 +44724,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Florence.\n\nDesignations (2026): Michelin 3 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 3 star",
-        "city": "Florence"
+        "city": "Florence",
+        "google_place_id": "ChIJJ9GCOAZUKhMRhWUgMfpfvX4"
       },
       "geometry": {
         "type": "Point",
@@ -45006,7 +44743,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Florence.\n\nDesignations (2026): Michelin 2 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 2 star",
-        "city": "Florence"
+        "city": "Florence",
+        "google_place_id": "ChIJ4ZdxZQFUKhMRWpRqKWv90zI"
       },
       "geometry": {
         "type": "Point",
@@ -45024,7 +44762,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Montemerano.\n\nDesignations (2026): Michelin 2 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 2 star",
-        "city": "Montemerano"
+        "city": "Montemerano",
+        "google_place_id": "ChIJBY28iyIDKRMRPCvsN3s5E2A"
       },
       "geometry": {
         "type": "Point",
@@ -45040,7 +44779,7 @@
         "name": "Arnolfo",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Colle di Val d'Elsa.\n\nDesignations (2026): Michelin 2 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Colle di Val d'Elsa.Designations (2026): Michelin 2 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 2 star",
         "city": "Colle di Val d'Elsa"
       },
@@ -45058,7 +44797,7 @@
         "name": "Il Piccolo Principe",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Viareggio.\n\nDesignations (2026): Michelin 2 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Viareggio.Designations (2026): Michelin 2 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 2 star",
         "city": "Viareggio"
       },
@@ -45076,7 +44815,7 @@
         "name": "Campo del Drago",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Montalcino.\n\nDesignations (2026): Michelin 2 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Montalcino.Designations (2026): Michelin 2 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 2 star",
         "city": "Montalcino"
       },
@@ -45094,7 +44833,7 @@
         "name": "La Sala dei Grappoli",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Montalcino.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Montalcino.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Montalcino"
       },
@@ -45114,7 +44853,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Florence.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
-        "city": "Florence"
+        "city": "Florence",
+        "google_place_id": "ChIJ61WyS1VRKhMRE3Fg4XCivBU"
       },
       "geometry": {
         "type": "Point",
@@ -45130,7 +44870,7 @@
         "name": "Il Pievano",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Gaiole in Chianti.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Gaiole in Chianti.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Gaiole in Chianti"
       },
@@ -45148,7 +44888,7 @@
         "name": "La Torre",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Tavarnelle Val di Pesa.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Tavarnelle Val di Pesa.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Tavarnelle Val di Pesa"
       },
@@ -45168,7 +44908,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Cortona.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
-        "city": "Cortona"
+        "city": "Cortona",
+        "google_place_id": "ChIJ5yQMZZr4KxMRNwMIYrcvh-4"
       },
       "geometry": {
         "type": "Point",
@@ -45184,7 +44925,7 @@
         "name": "La Trattoria Enrico Bartolini",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Castiglione della Pescaia.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Castiglione della Pescaia.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Castiglione della Pescaia"
       },
@@ -45202,7 +44943,7 @@
         "name": "Poggio Rosso",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Castelnuovo Berardenga.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Castelnuovo Berardenga.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Castelnuovo Berardenga"
       },
@@ -45220,7 +44961,7 @@
         "name": "Luca's by Paulo Airaudo",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Florence.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Florence.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Florence"
       },
@@ -45238,7 +44979,7 @@
         "name": "Saporium",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Chiusdino.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Chiusdino.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Chiusdino"
       },
@@ -45256,7 +44997,7 @@
         "name": "Serrae Villa Fiesole",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Fiesole.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Fiesole.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Fiesole"
       },
@@ -45274,7 +45015,7 @@
         "name": "Atto di Vito Mollica",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Florence.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Florence.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Florence"
       },
@@ -45294,7 +45035,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Viareggio.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
-        "city": "Viareggio"
+        "city": "Viareggio",
+        "google_place_id": "ChIJ-6kJpvah1RIRtYSYmi0ckHs"
       },
       "geometry": {
         "type": "Point",
@@ -45310,7 +45052,7 @@
         "name": "Osteria di Passignano",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Tavarnelle Val di Pesa.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Tavarnelle Val di Pesa.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Tavarnelle Val di Pesa"
       },
@@ -45328,7 +45070,7 @@
         "name": "Contrada",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Castelnuovo Berardenga.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Castelnuovo Berardenga.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Castelnuovo Berardenga"
       },
@@ -45346,7 +45088,7 @@
         "name": "La Magnolia",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Forte dei Marmi.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Forte dei Marmi.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Forte dei Marmi"
       },
@@ -45364,7 +45106,7 @@
         "name": "Locanda de Banchieri",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Fosdinovo.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Fosdinovo.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Fosdinovo"
       },
@@ -45382,7 +45124,7 @@
         "name": "Osmosi",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Montepulciano.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Montepulciano.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Montepulciano"
       },
@@ -45402,7 +45144,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Casanova di Terricciola.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
-        "city": "Casanova di Terricciola"
+        "city": "Casanova di Terricciola",
+        "google_place_id": "ChIJ-ZdibcELKhMRF7Qt3wnuI9w"
       },
       "geometry": {
         "type": "Point",
@@ -45418,7 +45161,7 @@
         "name": "Sciabola",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Forte dei Marmi.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Forte dei Marmi.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Forte dei Marmi"
       },
@@ -45436,7 +45179,7 @@
         "name": "Linfa",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: San Gimignano.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: San Gimignano.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "San Gimignano"
       },
@@ -45454,7 +45197,7 @@
         "name": "Il Pellicano",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Porto Ercole.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Porto Ercole.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Porto Ercole"
       },
@@ -45472,7 +45215,7 @@
         "name": "Il Palagio",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Florence.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Florence.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Florence"
       },
@@ -45490,7 +45233,7 @@
         "name": "Lux Lucis",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Forte dei Marmi.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Forte dei Marmi.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Forte dei Marmi"
       },
@@ -45508,7 +45251,7 @@
         "name": "Romano",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Viareggio.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Viareggio.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Viareggio"
       },
@@ -45528,7 +45271,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Seggiano.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
-        "city": "Seggiano"
+        "city": "Seggiano",
+        "google_place_id": "ChIJV0mcDAVtKRMRjnfbvbfeS04"
       },
       "geometry": {
         "type": "Point",
@@ -45546,7 +45290,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Massa Marittima (Ghirlanda).\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
-        "city": "Massa Marittima (Ghirlanda)"
+        "city": "Massa Marittima (Ghirlanda)",
+        "google_place_id": "ChIJ4Yd3JRfsKRMRFikscn-uUsE"
       },
       "geometry": {
         "type": "Point",
@@ -45562,7 +45307,7 @@
         "name": "Bistrot",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Forte dei Marmi.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Forte dei Marmi.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Forte dei Marmi"
       },
@@ -45582,7 +45327,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Marina di Bibbona.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
-        "city": "Marina di Bibbona"
+        "city": "Marina di Bibbona",
+        "google_place_id": "ChIJ5wXjDMkG1hIRKaeNWZiPy_M"
       },
       "geometry": {
         "type": "Point",
@@ -45600,7 +45346,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Florence.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
-        "city": "Florence"
+        "city": "Florence",
+        "google_place_id": "ChIJXWil3wBUKhMRCNkg3KPI-FY"
       },
       "geometry": {
         "type": "Point",
@@ -45616,7 +45363,7 @@
         "name": "Il Visibilio",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Castelnuovo Berardenga.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Castelnuovo Berardenga.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Castelnuovo Berardenga"
       },
@@ -45634,7 +45381,7 @@
         "name": "Butterfly",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Capannori (Marlia).\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Capannori (Marlia).Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Capannori (Marlia)"
       },
@@ -45652,7 +45399,7 @@
         "name": "Lorenzo",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Forte dei Marmi.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Forte dei Marmi.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Forte dei Marmi"
       },
@@ -45672,7 +45419,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Castelnuovo Berardenga.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
-        "city": "Castelnuovo Berardenga"
+        "city": "Castelnuovo Berardenga",
+        "google_place_id": "ChIJ8bAZT1XPKxMRC2NvivR7FUQ"
       },
       "geometry": {
         "type": "Point",
@@ -45688,7 +45436,7 @@
         "name": "Paca",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Prato.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Prato.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Prato"
       },
@@ -45708,7 +45456,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Chiusi.\n\nDesignations (2026): Michelin Bib Gourmand. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin Bib Gourmand",
-        "city": "Chiusi"
+        "city": "Chiusi",
+        "google_place_id": "ChIJJawk-NlRKRMRR1dSixSDu7Q"
       },
       "geometry": {
         "type": "Point",
@@ -45724,7 +45473,7 @@
         "name": "Da Pode",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: San Gimignano.\n\nDesignations (2026): Michelin Bib Gourmand. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: San Gimignano.Designations (2026): Michelin Bib Gourmand. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin Bib Gourmand",
         "city": "San Gimignano"
       },
@@ -45742,7 +45491,7 @@
         "name": "Antica Trattoria La Toppa",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Tavarnelle Val di Pesa (San Donato in Poggio).\n\nDesignations (2026): Michelin Bib Gourmand. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Tavarnelle Val di Pesa (San Donato in Poggio).Designations (2026): Michelin Bib Gourmand. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin Bib Gourmand",
         "city": "Tavarnelle Val di Pesa (San Donato in Poggio)"
       },
@@ -45762,7 +45511,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Florence.\n\nDesignations (2026): Michelin Bib Gourmand. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin Bib Gourmand",
-        "city": "Florence"
+        "city": "Florence",
+        "google_place_id": "ChIJW6fDKg9UKhMR8nJYaNkwdDo"
       },
       "geometry": {
         "type": "Point",
@@ -45780,7 +45530,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Florence.\n\nDesignations (2026): Michelin Bib Gourmand. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin Bib Gourmand",
-        "city": "Florence"
+        "city": "Florence",
+        "google_place_id": "ChIJRzCGOglUKhMRIppc_75JGC0"
       },
       "geometry": {
         "type": "Point",
@@ -45798,7 +45549,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Orbetello.\n\nDesignations (2026): Michelin Bib Gourmand; Slow Food Chiocciola 2026; Gambero Rosso Due Gamberi. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin Bib Gourmand; Slow Food Chiocciola 2026; Gambero Rosso Due Gamberi; multi-accolade",
-        "city": "Orbetello"
+        "city": "Orbetello",
+        "google_place_id": "ChIJKQQr30RQKBMRh4Iu-PYQlTs"
       },
       "geometry": {
         "type": "Point",
@@ -45816,7 +45568,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Montalcino.\n\nDesignations (2026): Michelin Bib Gourmand. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin Bib Gourmand",
-        "city": "Montalcino"
+        "city": "Montalcino",
+        "google_place_id": "ChIJd_tRroJ6KRMRMtH9ikrc_Ns"
       },
       "geometry": {
         "type": "Point",
@@ -45834,7 +45587,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Lucca (Ponte a Moriano).\n\nDesignations (2026): Michelin Bib Gourmand. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin Bib Gourmand",
-        "city": "Lucca (Ponte a Moriano)"
+        "city": "Lucca (Ponte a Moriano)",
+        "google_place_id": "ChIJvXtT9LJ41RIRWZG7zNdJxBY"
       },
       "geometry": {
         "type": "Point",
@@ -45852,7 +45606,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Serravalle Pistoiese.\n\nDesignations (2026): Michelin Bib Gourmand. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin Bib Gourmand",
-        "city": "Serravalle Pistoiese"
+        "city": "Serravalle Pistoiese",
+        "google_place_id": "ChIJLz9rvbGJKhMR1otId2Gu5uY"
       },
       "geometry": {
         "type": "Point",
@@ -45868,7 +45623,7 @@
         "name": "Osteria Le Panzanelle",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Radda in Chianti (Lucarelli).\n\nDesignations (2026): Michelin Bib Gourmand; Gambero Rosso Tre Gamberi. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Radda in Chianti (Lucarelli).Designations (2026): Michelin Bib Gourmand; Gambero Rosso Tre Gamberi. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin Bib Gourmand; Gambero Rosso Tre Gamberi; multi-accolade",
         "city": "Radda in Chianti (Lucarelli)"
       },
@@ -45888,7 +45643,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Poppi (Moggiona).\n\nDesignations (2026): Michelin Bib Gourmand. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin Bib Gourmand",
-        "city": "Poppi (Moggiona)"
+        "city": "Poppi (Moggiona)",
+        "google_place_id": "ChIJfwRMGASeKxMRoY-1482Cr0A"
       },
       "geometry": {
         "type": "Point",
@@ -45906,7 +45662,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Follonica.\n\nDesignations (2026): Michelin Bib Gourmand. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin Bib Gourmand",
-        "city": "Follonica"
+        "city": "Follonica",
+        "google_place_id": "ChIJTYNrt_XcKRMRI0QaMNOvXEA"
       },
       "geometry": {
         "type": "Point",
@@ -45924,7 +45681,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Cortona.\n\nDesignations (2026): Michelin Bib Gourmand. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin Bib Gourmand",
-        "city": "Cortona"
+        "city": "Cortona",
+        "google_place_id": "ChIJUR7EYn_5KxMR9XDulS2iyqo"
       },
       "geometry": {
         "type": "Point",
@@ -45942,7 +45700,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Cutigliano.\n\nDesignations (2026): Michelin Bib Gourmand. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin Bib Gourmand",
-        "city": "Cutigliano"
+        "city": "Cutigliano",
+        "google_place_id": "ChIJIYnZsMqbKhMRPllnexLrrjI"
       },
       "geometry": {
         "type": "Point",
@@ -45960,7 +45719,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Florence.\n\nDesignations (2026): Michelin Bib Gourmand. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin Bib Gourmand",
-        "city": "Florence"
+        "city": "Florence",
+        "google_place_id": "ChIJI26mmwZUKhMRh7BBz9Oq8mw"
       },
       "geometry": {
         "type": "Point",
@@ -45976,7 +45736,7 @@
         "name": "Osteria del Mare gia il Votapentole",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Castiglione della Pescaia.\n\nDesignations (2026): Michelin Bib Gourmand. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Castiglione della Pescaia.Designations (2026): Michelin Bib Gourmand. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin Bib Gourmand",
         "city": "Castiglione della Pescaia"
       },
@@ -45996,7 +45756,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Florence.\n\nDesignations (2026): Michelin Bib Gourmand. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin Bib Gourmand",
-        "city": "Florence"
+        "city": "Florence",
+        "google_place_id": "ChIJL6cVr_lTKhMR2YCyNbhpBtY"
       },
       "geometry": {
         "type": "Point",
@@ -46014,7 +45775,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Florence.\n\nDesignations (2026): Michelin Bib Gourmand; Gambero Rosso Tre Gamberi. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin Bib Gourmand; Gambero Rosso Tre Gamberi; multi-accolade",
-        "city": "Florence"
+        "city": "Florence",
+        "google_place_id": "ChIJ1423i15XKhMRE1QWz8txuEs"
       },
       "geometry": {
         "type": "Point",
@@ -46032,7 +45794,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Anghiari.\n\nDesignations (2026): Michelin Bib Gourmand. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin Bib Gourmand",
-        "city": "Anghiari"
+        "city": "Anghiari",
+        "google_place_id": "ChIJg8jenPGJKxMR2ZBRw0eUxek"
       },
       "geometry": {
         "type": "Point",
@@ -46050,7 +45813,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Bolgheri.\n\nDesignations (2026): Michelin Bib Gourmand. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin Bib Gourmand",
-        "city": "Bolgheri"
+        "city": "Bolgheri",
+        "google_place_id": "ChIJo5NUBOIB1hIRtl11zzrk0_w"
       },
       "geometry": {
         "type": "Point",
@@ -46066,7 +45830,7 @@
         "name": "Azzighe - Osteria a Meta",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Livorno.\n\nDesignations (2026): Michelin Bib Gourmand; Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Livorno.Designations (2026): Michelin Bib Gourmand; Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin Bib Gourmand; Slow Food Chiocciola 2026; multi-accolade",
         "city": "Livorno"
       },
@@ -46086,7 +45850,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Monteriggioni.\n\nDesignations (2026): Michelin Bib Gourmand; Gambero Rosso Tre Gamberi. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin Bib Gourmand; Gambero Rosso Tre Gamberi; multi-accolade",
-        "city": "Monteriggioni"
+        "city": "Monteriggioni",
+        "google_place_id": "ChIJ7cYvd9ovKhMR8aHa_BICIS4"
       },
       "geometry": {
         "type": "Point",
@@ -46104,7 +45869,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Lucca.\n\nDesignations (2026): Michelin Bib Gourmand. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin Bib Gourmand",
-        "city": "Lucca"
+        "city": "Lucca",
+        "google_place_id": "ChIJDROZQl-D1RIRMDqlUd7U5Gs"
       },
       "geometry": {
         "type": "Point",
@@ -46120,7 +45886,7 @@
         "name": "Il Nonno Cianco",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Abetone Cutigliano (PT).\n\nDesignations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Abetone Cutigliano (PT).Designations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026",
         "city": "Abetone Cutigliano (PT)"
       },
@@ -46140,7 +45906,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Anghiari (AR).\n\nDesignations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026",
-        "city": "Anghiari (AR)"
+        "city": "Anghiari (AR)",
+        "google_place_id": "ChIJvXIii4eKKxMR1AgoFGNlTnA"
       },
       "geometry": {
         "type": "Point",
@@ -46158,7 +45925,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Barberino di Mugello (FI).\n\nDesignations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026",
-        "city": "Barberino di Mugello (FI)"
+        "city": "Barberino di Mugello (FI)",
+        "google_place_id": "ChIJvedgoa8FKxMRLU-eeNxri6c"
       },
       "geometry": {
         "type": "Point",
@@ -46176,7 +45944,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Bibbiena (AR).\n\nDesignations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026",
-        "city": "Bibbiena (AR)"
+        "city": "Bibbiena (AR)",
+        "google_place_id": "ChIJOVwvVuqbKxMR7L7kKvR5bNI"
       },
       "geometry": {
         "type": "Point",
@@ -46194,7 +45963,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Castelnuovo Berardenga (SI).\n\nDesignations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026",
-        "city": "Castelnuovo Berardenga (SI)"
+        "city": "Castelnuovo Berardenga (SI)",
+        "google_place_id": "ChIJI_Mh8dPMKxMRaJxTle2_1Ug"
       },
       "geometry": {
         "type": "Point",
@@ -46212,7 +45982,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Civitella Paganico (GR).\n\nDesignations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026",
-        "city": "Civitella Paganico (GR)"
+        "city": "Civitella Paganico (GR)",
+        "google_place_id": "ChIJnQgiPVifKRMRL-uqQDjY2WQ"
       },
       "geometry": {
         "type": "Point",
@@ -46230,7 +46001,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Colle di Val d'Elsa (SI).\n\nDesignations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026",
-        "city": "Colle di Val d'Elsa (SI)"
+        "city": "Colle di Val d'Elsa (SI)",
+        "google_place_id": "ChIJJYnN_eY6KhMREviDkzlsWJs"
       },
       "geometry": {
         "type": "Point",
@@ -46248,7 +46020,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Cortona (AR).\n\nDesignations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026",
-        "city": "Cortona (AR)"
+        "city": "Cortona (AR)",
+        "google_place_id": "ChIJ31qaHYL5KxMRWiuDkk-RR8Y"
       },
       "geometry": {
         "type": "Point",
@@ -46264,7 +46037,7 @@
         "name": "Enoteca Spontanea",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Firenze.\n\nDesignations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Firenze.Designations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026",
         "city": "Firenze"
       },
@@ -46284,7 +46057,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Firenze.\n\nDesignations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026",
-        "city": "Firenze"
+        "city": "Firenze",
+        "google_place_id": "ChIJW4MW5ANUKhMRRQmsY7OPdkc"
       },
       "geometry": {
         "type": "Point",
@@ -46302,7 +46076,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Firenze.\n\nDesignations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026",
-        "city": "Firenze"
+        "city": "Firenze",
+        "google_place_id": "ChIJtWlgZVFRKhMRiOTRyNd8uIc"
       },
       "geometry": {
         "type": "Point",
@@ -46320,7 +46095,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Fosdinovo (MS).\n\nDesignations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026",
-        "city": "Fosdinovo (MS)"
+        "city": "Fosdinovo (MS)",
+        "google_place_id": "ChIJrW7nTGIb1RIRzF-YgZ6DZUQ"
       },
       "geometry": {
         "type": "Point",
@@ -46336,7 +46112,7 @@
         "name": "Oste Scuro",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Grosseto.\n\nDesignations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Grosseto.Designations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026",
         "city": "Grosseto"
       },
@@ -46356,7 +46132,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Loro Ciuffenna (AR).\n\nDesignations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026",
-        "city": "Loro Ciuffenna (AR)"
+        "city": "Loro Ciuffenna (AR)",
+        "google_place_id": "ChIJ7dRAeda9KxMRtIUENncqGFs"
       },
       "geometry": {
         "type": "Point",
@@ -46374,7 +46151,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Lucca.\n\nDesignations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026",
-        "city": "Lucca"
+        "city": "Lucca",
+        "google_place_id": "ChIJ42_Tk5KE1RIRazFrmXIlAIk"
       },
       "geometry": {
         "type": "Point",
@@ -46390,7 +46168,7 @@
         "name": "Locanda Agricola Posapiano",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Montecarlo (LU).\n\nDesignations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Montecarlo (LU).Designations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026",
         "city": "Montecarlo (LU)"
       },
@@ -46410,7 +46188,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Montieri (GR).\n\nDesignations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026",
-        "city": "Montieri (GR)"
+        "city": "Montieri (GR)",
+        "google_place_id": "ChIJxZSzSGSSKRMREsyrc7wAI6s"
       },
       "geometry": {
         "type": "Point",
@@ -46428,7 +46207,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Murlo (SI).\n\nDesignations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026",
-        "city": "Murlo (SI)"
+        "city": "Murlo (SI)",
+        "google_place_id": "ChIJo7MW4HTpziWLjaafB9am8Z6fcIIRaAkLtM5"
       },
       "geometry": {
         "type": "Point",
@@ -46444,7 +46224,7 @@
         "name": "Peposo",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Pietrasanta (LU).\n\nDesignations (2026): Slow Food Chiocciola 2026; Gambero Rosso Due Gamberi. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Pietrasanta (LU).Designations (2026): Slow Food Chiocciola 2026; Gambero Rosso Due Gamberi. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026; Gambero Rosso Due Gamberi; multi-accolade",
         "city": "Pietrasanta (LU)"
       },
@@ -46464,7 +46244,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Pistoia.\n\nDesignations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026",
-        "city": "Pistoia"
+        "city": "Pistoia",
+        "google_place_id": "ChIJn5X1h5WLKhMRmBkwLJZG2aE"
       },
       "geometry": {
         "type": "Point",
@@ -46482,7 +46263,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Pratovecchio Stia (AR).\n\nDesignations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026",
-        "city": "Pratovecchio Stia (AR)"
+        "city": "Pratovecchio Stia (AR)",
+        "google_place_id": "ChIJsamw9-SfKxMRBPeeFzJLLaU"
       },
       "geometry": {
         "type": "Point",
@@ -46498,7 +46280,7 @@
         "name": "Antico Ristoro Le Colombaie",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: San Miniato (PI).\n\nDesignations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: San Miniato (PI).Designations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026",
         "city": "San Miniato (PI)"
       },
@@ -46518,7 +46300,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Suvereto (LI).\n\nDesignations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026",
-        "city": "Suvereto (LI)"
+        "city": "Suvereto (LI)",
+        "google_place_id": "ChIJ3dxzdMfjKRMRVSQyucm1D2Q"
       },
       "geometry": {
         "type": "Point",
@@ -46536,7 +46319,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Viareggio (LU).\n\nDesignations (2026): Slow Food Chiocciola 2026; Gambero Rosso Due Gamberi. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026; Gambero Rosso Due Gamberi; multi-accolade",
-        "city": "Viareggio (LU)"
+        "city": "Viareggio (LU)",
+        "google_place_id": "ChIJR1A2keqh1RIRXIluAugOSUQ"
       },
       "geometry": {
         "type": "Point",
@@ -46554,7 +46338,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Vicchio (FI).\n\nDesignations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026",
-        "city": "Vicchio (FI)"
+        "city": "Vicchio (FI)",
+        "google_place_id": "ChIJ0YkZNVgEKxMRNncU4JbMIDk"
       },
       "geometry": {
         "type": "Point",
@@ -46570,7 +46355,7 @@
         "name": "Hiron",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Firenze.\n\nDesignations (2026): Gambero Rosso Due Gamberi. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Firenze.Designations (2026): Gambero Rosso Due Gamberi. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Due Gamberi",
         "city": "Firenze"
       },
@@ -46590,7 +46375,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Firenze.\n\nDesignations (2026): Gambero Rosso Due Gamberi. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Due Gamberi",
-        "city": "Firenze"
+        "city": "Firenze",
+        "google_place_id": "ChIJcV-oO1VRKhMRqQNzDpCABT0"
       },
       "geometry": {
         "type": "Point",
@@ -46606,7 +46392,7 @@
         "name": "Ortone",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Firenze.\n\nDesignations (2026): Gambero Rosso Due Gamberi. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Firenze.Designations (2026): Gambero Rosso Due Gamberi. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Due Gamberi",
         "city": "Firenze"
       },
@@ -46626,7 +46412,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Montenero d'Orcia, Castel del Piano (GR).\n\nDesignations (2026): Gambero Rosso Due Gamberi. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Due Gamberi",
-        "city": "Montenero d'Orcia, Castel del Piano (GR)"
+        "city": "Montenero d'Orcia, Castel del Piano (GR)",
+        "google_place_id": "ChIJ96B2Ye5yKRMREfSX_CaDI9Y"
       },
       "geometry": {
         "type": "Point",
@@ -46644,7 +46431,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Montenero d'Orcia, Castel del Piano (GR).\n\nDesignations (2026): Gambero Rosso Due Gamberi. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Due Gamberi",
-        "city": "Montenero d'Orcia, Castel del Piano (GR)"
+        "city": "Montenero d'Orcia, Castel del Piano (GR)",
+        "google_place_id": "ChIJUxET7QlzKRMRlUlpxL0ZYqk"
       },
       "geometry": {
         "type": "Point",
@@ -46660,7 +46448,7 @@
         "name": "La Terra di Nello",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Castiglione della Pescaia (GR).\n\nDesignations (2026): Gambero Rosso Due Gamberi. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Castiglione della Pescaia (GR).Designations (2026): Gambero Rosso Due Gamberi. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Due Gamberi",
         "city": "Castiglione della Pescaia (GR)"
       },
@@ -46680,7 +46468,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Grosseto.\n\nDesignations (2026): Gambero Rosso Due Gamberi. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Due Gamberi",
-        "city": "Grosseto"
+        "city": "Grosseto",
+        "google_place_id": "ChIJT8SBQvewKRMR7IBg6mEaMSA"
       },
       "geometry": {
         "type": "Point",
@@ -46698,7 +46487,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Massa Marittima (GR).\n\nDesignations (2026): Gambero Rosso Due Gamberi. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Due Gamberi",
-        "city": "Massa Marittima (GR)"
+        "city": "Massa Marittima (GR)",
+        "google_place_id": "ChIJt-W00afuKRMR9CT6Q0t2WNA"
       },
       "geometry": {
         "type": "Point",
@@ -46714,7 +46504,7 @@
         "name": "Trattoria Il Grillo",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Pitigliano (GR).\n\nDesignations (2026): Gambero Rosso Due Gamberi. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Pitigliano (GR).Designations (2026): Gambero Rosso Due Gamberi. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Due Gamberi",
         "city": "Pitigliano (GR)"
       },
@@ -46734,7 +46524,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Podenzana (MS).\n\nDesignations (2026): Gambero Rosso Due Gamberi. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Due Gamberi",
-        "city": "Podenzana (MS)"
+        "city": "Podenzana (MS)",
+        "google_place_id": "ChIJMVYh5BQe1RIRRGwADZiLlN4"
       },
       "geometry": {
         "type": "Point",
@@ -46750,7 +46541,7 @@
         "name": "Stappasogni",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Viareggio (LU).\n\nDesignations (2026): Gambero Rosso Un Gambero. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Viareggio (LU).Designations (2026): Gambero Rosso Un Gambero. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Un Gambero",
         "city": "Viareggio (LU)"
       },
@@ -46770,7 +46561,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Pietrasanta (LU).\n\nDesignations (2026): Gambero Rosso Un Gambero. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Un Gambero",
-        "city": "Pietrasanta (LU)"
+        "city": "Pietrasanta (LU)",
+        "google_place_id": "ChIJSWTVKZMK1RIRqxv9k-k-z0A"
       },
       "geometry": {
         "type": "Point",
@@ -46788,7 +46580,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Pereta, Magliano in Toscana (GR).\n\nDesignations (2026): Gambero Rosso Un Gambero. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Un Gambero",
-        "city": "Pereta, Magliano in Toscana (GR)"
+        "city": "Pereta, Magliano in Toscana (GR)",
+        "google_place_id": "ChIJ2Xh_4YyqKRMRk-MlABvNkDk"
       },
       "geometry": {
         "type": "Point",
@@ -46806,7 +46599,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Manciano (GR).\n\nDesignations (2026): Gambero Rosso Un Gambero. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Un Gambero",
-        "city": "Manciano (GR)"
+        "city": "Manciano (GR)",
+        "google_place_id": "ChIJk-cqRVD9KBMRiq01-ggPSWM"
       },
       "geometry": {
         "type": "Point",
@@ -46822,7 +46616,7 @@
         "name": "Osteria Bolle",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Tuscany-wide credential sweep pick, town: Orbetello (GR).\n\nDesignations (2026): Gambero Rosso Un Gambero. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
+        "description": "Tuscany-wide credential sweep pick, town: Orbetello (GR).Designations (2026): Gambero Rosso Un Gambero. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Un Gambero",
         "city": "Orbetello (GR)"
       },
@@ -46842,7 +46636,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Rocchette di Fazio, Semproniano (GR).\n\nDesignations (2026): Gambero Rosso Un Gambero. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Gambero Rosso Un Gambero",
-        "city": "Rocchette di Fazio, Semproniano (GR)"
+        "city": "Rocchette di Fazio, Semproniano (GR)",
+        "google_place_id": "ChIJJWLii0cFKRMRwR2UdrEdTSc"
       },
       "geometry": {
         "type": "Point",
@@ -47191,24 +46986,6 @@
         "coordinates": [
           12.4759432,
           41.8998666
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Panificio Bonci",
-        "category": "Meal",
-        "signal": "High",
-        "description": "CONFIRMED 2026-08-04 by user on Google Maps: shows as \"Temporarily closed.\" Drop this from recommendations until it reopens -- was previously listed as operating in search results, but live Maps status is the trump signal here, same lesson as the Da Cesare al Casaletto coordinate error earlier this trip: verify against a live source, not stale search snippets, when the two conflict. Via Trionfale 36, Prati.\n\nGambero Rosso Pizzerie d'Italia, Tre Rotelle 2026 (al taglio) -- 2nd Bonci location, same owner as the already-tracked Pizzarium, distinct address, don't merge. Near NH Collection Roma Centro. Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
-        "secondary_tags": "gambero rosso",
-        "city": "Rome"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.4550085,
-          41.90999
         ]
       }
     },
@@ -48397,6 +48174,424 @@
         "coordinates": [
           12.5022899,
           41.8588994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tram Tram",
+        "category": "Meal",
+        "signal": "High",
+        "description": "San Lorenzo trattoria (open since 1991, family-run by the Di Vittorio family) blending Roman classics (carbonara, coratella) with Puglian specialties from the sea/south side of the menu (tiella di riso, patate e cozze). Zinc bar with wine-bottle shelving, warm 1940s-inspired decor.\n\nGambero Rosso Due Gamberi (2 of 3), the trattoria-specific tier. Verified 2026-08-11.",
+        "secondary_tags": "trattoria; gambero rosso; san lorenzo",
+        "city": "Rome",
+        "google_place_id": "ChIJoYXHt4RhLxMRB3ZYfdackwI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.518951,
+          41.8979404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "L'Arcangelo Vino e Cucina",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Prati trattoria helmed by chef Arcangelo Dandini, a standard-bearer for traditional Roman cuisine (rigatoni alla carbonara made with Pastificio dei Campi pasta is the signature order). Closed Sundays, dinner 19:15-22:45.\n\nGambero Rosso Trattoria Premiata designation (confirmed via Gambero Rosso's own listing page). No Michelin star confirmed. Previously sourced only via a friend's (Alex) recommendation, not independently cross-checked -- upgraded 2026-08-11 with a real institutional tier.",
+        "secondary_tags": "trattoria; gambero rosso; prati; dandini",
+        "city": "Rome",
+        "google_place_id": "ChIJl9bqGllgLxMRogJGIa2KNkk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.468639,
+          41.9065935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al Ceppo",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Historic Parioli restaurant (50+ years, female-led management), Marche-influenced seasonal menu with grilled classics. Refined, wood-paneled dining room with vintage portraits.\n\nGambero Rosso guide-listed (confirmed via Gambero Rosso's own page); specific forchette tier not independently confirmed from a reliable source -- treat as guide-covered, not confirmed top-tier, until re-checked. Verified 2026-08-11.",
+        "secondary_tags": "ristorante; parioli; historic",
+        "city": "Rome",
+        "google_place_id": "ChIJfdp5ihdhLxMRrhc7oH-W1-k"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4978793,
+          41.924946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baccano",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Centro storico bistrot near Trevi (Via delle Muratte), chef Nabil Hadj Hassen. Order the rigatoni carbonara -- Gambero Rosso's pick for Rome's best carbonara in 2024 -- or the raw-fish selection. ~400-label wine cellar, Parisian/New York bistro register.\n\nGambero Rosso Tre Forchette (top tier) plus a \"Tre Tavole\" bistrot award (one of 13 nationally) and the 2024 Miglior Carbonara award. Verified 2026-08-11.",
+        "secondary_tags": "bistrot; gambero rosso; carbonara; trevi",
+        "city": "Rome",
+        "google_place_id": "ChIJU6LC5FJgLxMRSIBurXsvO5o"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4823634,
+          41.9003672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kohaku",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Rome's only kaiseki restaurant (opened 2022 near Via Veneto by Sabrina Bai, who also runs Shiroya izakaya). Full kaiseki tasting-menu format, built around the tea-ceremony philosophy of seasonal balance.\n\nGambero Rosso Tre Mappamondi (2024 guide, top ethnic-cuisine tier) plus Tre Bacchette in Gambero Rosso's 2025 Sushi Guide. Michelin Guide-listed since 2023 but not starred in the 2026 guide. Verified 2026-08-11.",
+        "secondary_tags": "japanese; kaiseki; gambero rosso; via veneto",
+        "city": "Rome",
+        "google_place_id": "ChIJqaePq9JhLxMRP80uGrwsl88"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.490352,
+          41.9086322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ilwinebar Trimani",
+        "category": "Drinks",
+        "signal": "Medium",
+        "description": "Historic/authentic wine-bar register. Next to the Trimani family's wine shop (est. 1876) in Castro Pretorio -- Rome's first wine bar (opened 1991), an accessible, well-curated list at shop-adjacent prices rather than a markup. Order off the rotating Roman-leaning food menu or graze cured meats/cheese/oysters at the counter.\n\nGambero Rosso-featured among the best wine bars in Rome and Lazio. Verified 2026-08-11.",
+        "secondary_tags": "wine bar; historic; castro pretorio",
+        "city": "Rome",
+        "google_place_id": "ChIJw_RJ-wlhLxMRqezrhhlFsao"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.500235,
+          41.9064219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Maria Maggiore",
+        "category": "Activities",
+        "signal": "High",
+        "description": "One of Rome's four papal basilicas, on the Esquiline. Free nave/mosaics/Holy Crib relic visit; the Loggia of the Blessings, bell tower, and museum area (incl. Bernini's staircase) are ticketed (~EUR12) separately.\n\nOpen daily 7:00-18:45. Verified 2026-08-11.",
+        "secondary_tags": "church; papal basilica; mosaics; esquiline",
+        "city": "Rome",
+        "google_place_id": "ChIJ1zB926RhLxMRejWMj_tUs_c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4984704,
+          41.8976275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Pietro in Vincoli",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Home to Michelangelo's Moses (1515), carved for Pope Julius II's tomb. Free entry, closed for the midday lunch break -- plan a morning or afternoon visit, not midday. Near the Cavour metro stop, up the Scalinata di Borgia.\n\nOpen 08:00-12:30 and 15:00-18:00 (19:00 in summer). Verified 2026-08-11.",
+        "secondary_tags": "church; michelangelo; moses",
+        "city": "Rome",
+        "google_place_id": "ChIJ9TEpHrFhLxMRMNSr5HbcOzI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4931577,
+          41.893851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Cecilia in Trastevere",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Stefano Maderno's 1600 statue of Santa Cecilia under the altar, sculpted in the exact position her body was found in 1599. Cosmatesque crypt (relics of Cecilia + Valerian) and Cavallini's apse mosaic fragments both cost extra (~EUR2.50 each) and the frescoes are weekday-morning-only.\n\nBasilica free, Mon-Sat 10:00-12:30 and 16:00-18:00; crypt/frescoes weekdays only, 10:00-12:30. Verified 2026-08-11.",
+        "secondary_tags": "church; maderno; cavallini; trastevere; crypt",
+        "city": "Rome",
+        "google_place_id": "ChIJOcrkoX_2JRMRryj2EmIscVE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4758569,
+          41.8875623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Luigi dei Francesi",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Contarelli Chapel holds Caravaggio's three-painting St. Matthew cycle (Calling, Inspiration, Martyrdom) -- his first major public commission. Bring EUR1 coins for the light box; go before 10am for the smallest crowd.\n\nFree entry, Mon-Fri 09:30-12:45 and 14:30-18:30. Verified 2026-08-11.",
+        "secondary_tags": "church; caravaggio",
+        "city": "Rome",
+        "google_place_id": "ChIJLQGCLlBgLxMRuYQp8kv6syI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4745426,
+          41.8995875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Maria del Popolo",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Two Caravaggios (Crucifixion of St. Peter, Conversion of St. Paul) in the Cerasi Chapel, plus the Chigi Chapel designed by Raphael with Bernini sculptures. Coin-operated lights for the Caravaggios.\n\nFree entry, roughly 07:00-12:30 and 16:00-19:00 (hours shift slightly weekday/weekend). Verified 2026-08-11.",
+        "secondary_tags": "church; caravaggio; raphael; bernini; chigi chapel",
+        "city": "Rome",
+        "google_place_id": "ChIJn8_twvhgLxMRrSlE7RYxCbg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4765463,
+          41.9114728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Maria della Vittoria",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Bernini's Ecstasy of St. Teresa (1640s) in the fourth chapel, north side -- positioned under a hidden window so real sunlight hits the sculpture. Modest exterior, one showpiece interior.\n\nFree entry, Mon-Sat 09:00-12:00 and 15:30-18:00, Sun 15:30-18:00 only. Verified 2026-08-11.",
+        "secondary_tags": "church; bernini; ecstasy of st teresa",
+        "city": "Rome",
+        "google_place_id": "ChIJVbqwYKhhLxMRSAkyf1K0z1k"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.494189,
+          41.9047187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sant'Ignazio di Loyola",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Andrea Pozzo's illusionistic ceiling fresco (1685-94) and painted fake dome -- the dome only reads correctly from a marble disc marked on the floor; it collapses into a visible flat canvas from directly underneath. One block from the Pantheon.\n\nFree entry, daily 07:30-19:00. Verified 2026-08-11.",
+        "secondary_tags": "church; andrea pozzo; fake dome; trompe l'oeil",
+        "city": "Rome",
+        "google_place_id": "ChIJzeDkbVJgLxMRf9wy9vdWbgw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4796897,
+          41.8993411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chiesa del Gesu",
+        "category": "Activities",
+        "signal": "High",
+        "description": "The first Jesuit church in Rome (1568-84) and a Baroque template for churches worldwide. Baciccia's ceiling fresco \"The Triumph of the Name of Jesus\" uses stucco figures that spill physically out of the painted frame. At 5:30pm (6pm weekends, Jul-Sep) a light-and-motion \"Macchina Barocca\" display animates the altar.\n\nFree entry, Mon-Fri 07:30-12:30/17:00-19:30, weekends 07:45-13:45/17:00-20:00. Verified 2026-08-11.",
+        "secondary_tags": "church; baroque; jesuit; baciccia",
+        "city": "Rome",
+        "google_place_id": "ChIJK1-CN0xgLxMRZukH0_lPL70"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4798212,
+          41.8958842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Maria sopra Minerva",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Rome's only Gothic church interior, fronted by Bernini's Elephant Obelisk. Michelangelo's Risen Christ (1519-21) stands beside the high altar -- his second attempt, after the first block turned out flawed.\n\nFree entry, daily 07:30-19:00 (closed for lunch on weekends). Verified 2026-08-11.",
+        "secondary_tags": "church; gothic; michelangelo; bernini elephant obelisk",
+        "city": "Rome",
+        "google_place_id": "ChIJU-kfDE5gLxMR1LRHd9Rfx04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4783622,
+          41.8979835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Maria in Trastevere",
+        "category": "Activities",
+        "signal": "High",
+        "description": "One of Rome's oldest churches, anchoring the piazza of the same name. 12th-century apse/triumphal-arch mosaics plus six Pietro Cavallini mosaics on the life of the Virgin; a 12th/13th-c. Madonna della Clemenza mosaic on the facade.\n\nFree entry, 07:30-21:00 (August: 08:00-12:00 and 16:00-21:00). No visits during Mass. Verified 2026-08-11.",
+        "secondary_tags": "church; mosaics; cavallini; trastevere",
+        "city": "Rome",
+        "google_place_id": "ChIJs_RYejhgLxMRIkBM8PNSZzY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.469501,
+          41.8894229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Carlo alle Quattro Fontane",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Borromini's Baroque masterpiece (\"San Carlino\"), squeezed into an awkward crossroads plot near the Quirinale. EUR2 donation gets you into the sacristy, the spare two-level octagonal cloister, and the crypt.\n\nWeekdays 10:00-13:00 and 16:00-19:00 (May-Sep hours; shifts to 15:00-17:00 Oct-Apr). Verified 2026-08-11.",
+        "secondary_tags": "church; borromini; baroque; quirinale",
+        "city": "Rome",
+        "google_place_id": "ChIJJdz7sK5hLxMRqBCQGj4L6u4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4907977,
+          41.901738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sant'Ivo alla Sapienza",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Borromini's spiraling lantern above a hexagram-plan interior, inside the old Palazzo della Sapienza courtyard (now the State Archive). Narrow access window -- interior open Sunday mornings only, closed entirely July-August; the courtyard/facade view is available daily even when the church itself is shut.\n\nSunday 09:00/10:00-12:00 only, closed Jul-Aug. Verified 2026-08-11 -- matches the hard-flag already noted in the original 2026-08-03 research pass.",
+        "secondary_tags": "church; borromini; limited-hours; summer-closed",
+        "city": "Rome",
+        "google_place_id": "ChIJzyf5wE9gLxMRQ5FAydJfyqE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4747676,
+          41.8983563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Prassede",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "The Chapel of St. Zeno (\"Garden of Paradise\") -- a tiny side chapel entirely sheathed in gold-ground 9th-century Byzantine mosaics, built by Pope Paschal I as a mausoleum for his mother. Coin-operated lights (EUR1) for the chapel.\n\nFree entry, 07:30-12:00 and 16:00-18:30. Verified 2026-08-11.",
+        "secondary_tags": "church; byzantine mosaics; chapel of st zeno",
+        "city": "Rome",
+        "google_place_id": "ChIJqfIiLbthLxMRlfAZLBtfCl8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4986732,
+          41.8962418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santi Cosma e Damiano",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "6th-century apse mosaic (Christ flanked by Peter, Paul, Cosma, Damiano) is one of the most important early-Christian mosaics in Italy, plus a permanent 18th-century Neapolitan presepe (nativity scene) with hundreds of hand-carved figures set among Roman ruins. Right on the edge of the Roman Forum.\n\nFree entry, roughly 10:00-13:00 and 15:00-18:00 (some sources give 09:00-13:00/15:00-19:00). Verified 2026-08-11.",
+        "secondary_tags": "church; mosaics; presepe; roman forum",
+        "city": "Rome",
+        "google_place_id": "ChIJ-fCxerRhLxMROMS98ae109U"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4874815,
+          41.8920506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "St. Peter's Basilica",
+        "category": "Activities",
+        "signal": "High",
+        "description": "The big one -- basilica entry itself is free and needs no reservation, but as of the 2026 renewed visitor push (400th anniversary of the basilica's consecration) reserved timed-entry slots for skip-the-line access, the dome climb, and guided tours sell out 1-3 weeks ahead in summer. Book those in advance if wanted; walk-up general-queue entry stays free.\n\nVerified 2026-08-11 -- matches the flag already raised in the original 2026-08-03 research pass.",
+        "secondary_tags": "church; papal basilica; vatican; timed-entry-recommended",
+        "city": "Rome",
+        "google_place_id": "ChIJWZsUt2FgLxMRg1KHzXfwS3I"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4537105,
+          41.9021569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Giovanni in Laterano",
+        "category": "Activities",
+        "signal": "High",
+        "description": "The actual Cathedral of Rome (not St. Peter's) and the Pope's official seat -- oldest and highest-ranking of Rome's four papal basilicas, built 324 AD. The Scala Santa (Holy Stairs, said to be from Jerusalem) and 13th-century cloister are separate, ticketed/timed side visits.\n\nBasilica free, daily 07:00-18:30. Cloister EUR4, 09:00-18:00, closed Sundays + major holidays. Scala Santa Mon-Sat 09:00-13:15/15:00-17:15, closed Sunday. Verified 2026-08-11.",
+        "secondary_tags": "church; papal basilica; cathedral of rome; scala santa",
+        "city": "Rome",
+        "google_place_id": "ChIJc6vKf79hLxMR-JBUkZ--MAE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5055874,
+          41.8858494
         ]
       }
     }
