@@ -46955,6 +46955,24 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Panificio Bonci",
+        "category": "Meal",
+        "signal": "High",
+        "description": "CONFIRMED 2026-08-04 by user on Google Maps: shows as \"Temporarily closed.\" Drop this from recommendations until it reopens -- was previously listed as operating in search results, but live Maps status is the trump signal here, same lesson as the Da Cesare al Casaletto coordinate error earlier this trip: verify against a live source, not stale search snippets, when the two conflict. Via Trionfale 36, Prati.\n\nGambero Rosso Pizzerie d'Italia, Tre Rotelle 2026 (al taglio) -- 2nd Bonci location, same owner as the already-tracked Pizzarium, distinct address, don't merge. Near NH Collection Roma Centro. Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "secondary_tags": "gambero rosso",
+        "city": "Rome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4550085,
+          41.90999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Frumentario",
         "category": "Meal",
         "signal": "High",
