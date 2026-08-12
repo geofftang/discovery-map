@@ -127,11 +127,22 @@ def build_feature(row):
     # `verified` and published. Caught 2026-08-11: 18 confirmed-closed venues live on
     # the map. The STATUS_CHANGED alarm only fires on a *change* from a non-empty
     # prior value, so a first-ever population never trips it -- these were structurally
-    # undetectable. Prefix match covers CLOSED_PERMANENTLY / CLOSED_TEMPORARILY /
-    # CLOSED_LONG_TERM_RENOVATION. Temporary closures suppress too: a closed door is a
-    # closed door, and the pin returns on its own when Google says OPERATIONAL again.
-    business_status = clean_value(row.get("Business_Status"))
-    if business_status and business_status.upper().startswith("CLOSED"):
+    # undetectable.
+    #
+    # PERMANENT vs TEMPORARY ARE NOT THE SAME FACT. Revised 2026-08-12 after this
+    # filter shipped suppressing both. This map is a catalogue of places worth going,
+    # not an is-it-open-right-now service. A permanent closure kills the
+    # recommendation; a temporary one does not -- the place is still worth going,
+    # later. Suppressing temporary closures destroys a good recommendation for a
+    # transient reason, and does it worst exactly when the data is most seasonal:
+    # ~507 rows here are Italian, and Italian venues close en masse for August ferie.
+    # The enricher has barely touched those rows; when it reaches them mid-August it
+    # would mass-suppress a sixth of the dataset and silently restore it in September.
+    # Temporarily-closed rows publish, carrying a flag so the app can mark them.
+    business_status = (clean_value(row.get("Business_Status")) or "").upper()
+    if business_status.startswith("CLOSED") and not business_status == "CLOSED_TEMPORARILY":
+        # CLOSED_PERMANENTLY and CLOSED_LONG_TERM_RENOVATION both end the
+        # recommendation for any useful horizon.
         return None
 
     # Positive allowlist projection: build ONLY declared public fields.
@@ -146,6 +157,12 @@ def build_feature(row):
     place_id = trusted_place_id(row)  # status-gated; reads Listing/Sanity but does not emit them
     if place_id is not None:
         properties["google_place_id"] = place_id
+
+    # Temporarily-closed rows publish (see above) but say so, giving the app the
+    # option to grey the pin rather than the builder deciding to hide it. This is
+    # Google's own public listing state -- no private content crosses the boundary.
+    if business_status == "CLOSED_TEMPORARILY":
+        properties["temporarily_closed"] = True
 
     return {
         "type": "Feature",

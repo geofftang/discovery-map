@@ -50,7 +50,7 @@ SOURCE_ROW = {
 
 def test_feature_emits_only_allowlisted_properties():
     props = build.build_feature(SOURCE_ROW)["properties"]
-    allowed = set(build.PUBLIC_FIELDS) | {"google_place_id"}
+    allowed = set(build.PUBLIC_FIELDS) | {"google_place_id", "temporarily_closed"}
     leaked = set(props) - allowed
     assert not leaked, f"non-allowlisted keys leaked: {leaked}"
 
@@ -107,15 +107,32 @@ def test_listing_status_closed_is_suppressed():
 def test_google_confirmed_closed_is_suppressed():
     # Listing_Status still says `verified` -- exactly the live 2026-08-11 state,
     # where 18 Google-confirmed-closed venues published as live recommendations.
-    for status in ("CLOSED_PERMANENTLY", "CLOSED_TEMPORARILY", "CLOSED_LONG_TERM_RENOVATION"):
+    for status in ("CLOSED_PERMANENTLY", "CLOSED_LONG_TERM_RENOVATION"):
         row = {**SOURCE_ROW, "Listing_Status": "verified", "Business_Status": status}
         assert build.build_feature(row) is None, f"{status} must not publish"
 
 
-def test_open_venues_still_publish():
+def test_temporarily_closed_publishes_with_a_flag():
+    """Temporary closure must NOT suppress -- it is a different fact from permanent.
+
+    This map is a catalogue of places worth going, not an is-it-open-now service.
+    Shipped 2026-08-11 suppressing both; corrected 2026-08-12. The failure this
+    guards is seasonal: ~507 rows are Italian and Italian venues close en masse
+    for August ferie, so suppressing temporary closures silently removes a sixth
+    of the dataset for a few weeks a year.
+    """
+    row = {**SOURCE_ROW, "Listing_Status": "verified", "Business_Status": "CLOSED_TEMPORARILY"}
+    feature = build.build_feature(row)
+    assert feature is not None, "CLOSED_TEMPORARILY must still publish"
+    assert feature["properties"].get("temporarily_closed") is True
+
+
+def test_open_venues_carry_no_closure_flag():
     for status in ("OPERATIONAL", "", None):
         row = {**SOURCE_ROW, "Business_Status": status}
-        assert build.build_feature(row) is not None, f"Business_Status={status!r} must publish"
+        feature = build.build_feature(row)
+        assert feature is not None, f"Business_Status={status!r} must publish"
+        assert "temporarily_closed" not in feature["properties"]
 
 
 def test_closure_check_is_not_substring_matched():
@@ -123,6 +140,10 @@ def test_closure_check_is_not_substring_matched():
     # signal, and a lowercase/mixed-case CLOSED_* still is.
     assert build.build_feature({**SOURCE_ROW, "Business_Status": "closed_permanently"}) is None
     assert build.build_feature({**SOURCE_ROW, "Business_Status": "NOT_CLOSED"}) is not None
+    # Case-insensitive on the temporary branch too, or a lowercase value would
+    # fall through the `!= "CLOSED_TEMPORARILY"` check and be suppressed as permanent.
+    lower = build.build_feature({**SOURCE_ROW, "Business_Status": "closed_temporarily"})
+    assert lower is not None and lower["properties"].get("temporarily_closed") is True
 
 
 if __name__ == "__main__":
