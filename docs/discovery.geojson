@@ -17644,24 +17644,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "La Perra Hambre",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Carnitas specialist: READ THE ARTICLE FOR TIMES https://ny.eater.com/2023/10/18/23901517/la-perra-hambre-bushwick-carnitas-tacos\n\nFind La Perra Hambre at 270 Bleecker Street, between Myrtle and Irving avenues, on Saturdays and Sundays until 10 p.m. Cash only.",
-        "city": "NYC",
-        "google_place_id": "ChIJK7Lw5pcjYYYR4z5aIRBxMJk"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9168984,
-          40.6992694
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Veeray da Dhaba",
         "category": "Meal",
         "signal": "High",
