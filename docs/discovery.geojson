@@ -6546,6 +6546,24 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Sammy’s Halal",
+        "category": "Meal",
+        "signal": "Low",
+        "city": "NYC",
+        "google_place_id": "ChIJUerMWapZwokR3ZMk8ytvdks",
+        "temporarily_closed": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9861439,
+          40.726888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Sammy's Halal",
         "category": "Meal",
         "signal": "Low",
@@ -6575,6 +6593,44 @@
         "coordinates": [
           -74.0007478,
           40.7318137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sammy's Halal Food",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Understandably one of the best known halal trucks in NYC, Sammy's has a great lamb over rice plate. Even more rare is finding juicy, flavorful chicken from a halal truck, and that's really where Sammy's sits on a level of their own, especially if you add their unique green sauce to the mix. I'd go extra on the red sauce as it wasn't too spicy. Overall, a great, great truck, and well worth the trip if you're coming from Manhattan, especially if you hit up Merit Kebab for chai + sweets after...",
+        "city": "NYC",
+        "google_place_id": "ChIJUerMWapZwokR3ZMk8ytvdks",
+        "temporarily_closed": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9836733,
+          40.7652261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sammy’s Halal Food",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Understandably one of the best known halal trucks in NYC, Sammy's has a great lamb over rice plate. Even more rare is finding juicy, flavorful chicken from a halal truck, and that's really where Sammy's sits on a level of their own, especially if you add their unique green sauce to the mix. I'd go extra on the red sauce as it wasn't too spicy.",
+        "city": "NYC",
+        "google_place_id": "ChIJS36lfQpfwokRA1cAPpT3zUo",
+        "temporarily_closed": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.958668,
+          40.7171544
         ]
       }
     },
@@ -16681,7 +16737,8 @@
         "signal": "High",
         "description": "Danny’s is an ancient roadside inn that dates to 1825. For 90 of those years, it has also been a restaurant popular with visitors to the Lower Catskills. It offers a specialty that dates back to the Dirty Dancing era: a roast pork sandwich ($12) on Italian garlic bread with sticky sweet duck sauce.",
         "city": "Regional",
-        "google_place_id": "ChIJN8hzIwBZwokRx9FiuRJdwRs"
+        "google_place_id": "ChIJN8hzIwBZwokRx9FiuRJdwRs",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -17018,24 +17075,6 @@
         "coordinates": [
           -73.9926881,
           40.6831464
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Nikutei Futago",
-        "category": "Meal",
-        "signal": "High",
-        "description": "I was not expecting much as I did not really like their Yakiniku Futago store as much. I really like Yakiniku Toraji\n\nBut the meat was the best meat I’ve had in NYC - I just wish we had more meat for the price point. Service was great and our hostess told us they were just doing soft opening. Every dish was well liked by me and my wife.\n\nHaving gone to lots of places my top 5 so far",
-        "city": "NYC",
-        "google_place_id": "ChIJucdA0KJZwokRSRxyOarSWoI"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0034103,
-          40.7224946
         ]
       }
     },
