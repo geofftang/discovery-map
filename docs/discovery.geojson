@@ -15358,6 +15358,24 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Punjabi Spice & Deli",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Formerly Desi Stop & Deli. 24 hour, samosa burger is a good veggie burger\n\nhttps://ny.eater.com/2023/7/6/23762124/new-yorks-next-great-burger-desi-stop-deli",
+        "city": "NYC",
+        "google_place_id": "ChIJqVBc0n9ZwokR2skiI2SOnpU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9895454,
+          40.726591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "All'Antico Vinaio",
         "category": "Meal",
         "signal": "Low",
@@ -15568,25 +15586,6 @@
         "coordinates": [
           -73.95022759999999,
           40.671363199999995
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Yue Wong 裕旺大饭店",
-        "category": "Meal",
-        "signal": "High",
-        "description": "potential chinese bbq",
-        "secondary_tags": "cantonese-bbq;chinatown;owner-priority",
-        "city": "NYC",
-        "google_place_id": "ChIJq7KFj79bwokRbKshg3MaTLY"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9977492,
-          40.7155505
         ]
       }
     },
@@ -15821,24 +15820,6 @@
         "coordinates": [
           -73.8155717,
           40.7651489
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Hong Chun Cheon Dak Galbi",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Not a huge fan of Dak Galbi personally so haven't tried a lot of places. That being said, my parents took me to Hong Chun Cheon which is a chain and it was decent, and I know it's super trendy among people who like the dish.",
-        "city": "NYC",
-        "google_place_id": "ChIJBbLC7KD3wokRfGbafZAVgXI"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9861263,
-          40.7472682
         ]
       }
     },
@@ -16288,24 +16269,6 @@
         "coordinates": [
           -73.9676163,
           40.8563963
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "KOOKSOO",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Korean fast-casual Kooksoo is named for feast noodles, offering a menu of beef kooksoo and jjamppong soups with seafood, chicken, or beef; fried dumplings; and bulgogi. The newest spot in Fort Lee follows locations in Texas.",
-        "city": "NYC",
-        "google_place_id": "ChIJSXSp1B33wokRPl_G7jq6R3w"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9697189,
-          40.8497106
         ]
       }
     },
