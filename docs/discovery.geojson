@@ -22463,7 +22463,8 @@
         "signal": "High",
         "description": "kenji recommended in their old manhattan location\n\nI finally made it over to Mike Bergmann’s relocated Corner Slice in Maplewood and can confirm he’s still going strong, with a line filing through the entrance and a full dining room. We tried a few slices: their special Jersey Devil, a classic upside-down, and a pepperoni slice so good I had to grab another on the way out to inhale, gremlin-style, on my drive home. A crispy-but-not-stale crust, perfectly sizzly and generously distributed pepperoni cups, plus a stellar sauce easily round out one of the best slices I’ve ever had. I pity New Yorkers who no longer have walk-up access to this gem, but I’m willing to offer round trip transportation to anyone looking to fight me on whether pizza is better on this side of the Hudson. (It is.) 419 Boyden Avenue, at Jacoby Street, Maplewood, NJ — Stefania Orrù, head of video production",
         "city": "NYC",
-        "google_place_id": "ChIJc2micxytw4kRZHOfpoRtevQ"
+        "google_place_id": "ChIJc2micxytw4kRZHOfpoRtevQ",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -23875,24 +23876,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Épicerie Boulud",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "Under $3\nPate de Fruit",
-        "city": "NYC",
-        "google_place_id": "ChIJy5lN_FJZwokRXZ9Yed82gsc"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9817477,
-          40.7717621
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Paris Baguette",
         "category": "Cafe",
         "signal": "High",
@@ -24020,24 +24003,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Gotham Bar and Grill",
-        "category": "Meal",
-        "signal": "High",
-        "description": "classic American restaurant; tarte tatin worth noting",
-        "city": "NYC",
-        "google_place_id": "ChIJ7fzXLK1ZwokRzb8e-lcxUiM"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.993699,
-          40.734207
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "François Payard Bakery",
         "category": "Dessert",
         "signal": "High",
@@ -24088,41 +24053,6 @@
         "coordinates": [
           -73.9686501,
           40.7582895
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Big Gay Ice Cream Shop",
-        "category": "Dessert",
-        "signal": "Low",
-        "city": "NYC",
-        "google_place_id": "ChIJP_GZkCtZwokRmYCDtDVUHMw"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0032401,
-          40.7332758
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Grom",
-        "category": "Dessert",
-        "signal": "Low",
-        "description": "gelato chain",
-        "city": "NYC",
-        "google_place_id": "ChIJMZBuS4hYwokRT-iWFAeUTIY"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0024412,
-          40.730464
         ]
       }
     },
@@ -24193,25 +24123,6 @@
         "coordinates": [
           -73.8303626,
           40.759633199999996
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ceci-Cela Patisserie",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "Best Croissant (seriouseats)",
-        "secondary_tags": "pastries; bakery",
-        "city": "NYC",
-        "google_place_id": "ChIJxXGxTQBZwokRsoHTPey1nwA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.993119,
-          40.720328
         ]
       }
     },
@@ -24365,24 +24276,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Roasting Plant",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "#1 chocolate chip cookie (crisp, chewy)",
-        "city": "NYC",
-        "google_place_id": "ChIJa1pGa4dZwokRmvXVPD1jt_k"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0014137,
-          40.7366986
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Blue Ribbon Bakery & Cafe",
         "category": "Cafe",
         "signal": "High",
@@ -24481,7 +24374,8 @@
         "description": "https://ny.eater.com/2022/4/13/23023477/lady-wong-east-village-kuih-guide-nyc\n\n-\n\nAt Lady Wong, you'll see multicolored cakes and pastries sitting in glass cases as if they're million-dollar watches. That's probably because these baked (and steamed) goods are, indeed, very precious. Opened by husband-and-wife duo Seleste Tan and Mogan Anthony, who previously worked at Jean-Georges and the Four Seasons, Lady Wong is an East Village bakery committed to showcasing Southeast Asian flavors. If you're looking for a snack, there's a large variety of kuih, and you'll also find some elaborate tarts, swiss rolls, and layer cakes. Try any one of these things, and you'll feel compelled to come back once a week. (We suggest the silky, candy-coated taro ube tart.) Before any party or special occasion, stop by for a box of treats that will make your friends and family forgive any past transgressions.\n\n---\n\ncalamansi cake",
         "secondary_tags": "pastries",
         "city": "NYC",
-        "google_place_id": "ChIJB7MDsmJZwokRke4QTDDokko"
+        "google_place_id": "ChIJB7MDsmJZwokRke4QTDDokko",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -24519,7 +24413,8 @@
         "description": "bubble tea chain focused on milk tea, fruit tea, and cheese foam drinks",
         "secondary_tags": "tea",
         "city": "NYC",
-        "google_place_id": "ChIJkdAoVOVfwokR54C9b3zYP6Q"
+        "google_place_id": "ChIJkdAoVOVfwokR54C9b3zYP6Q",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -24538,7 +24433,8 @@
         "description": "bubble tea chain focused on milk tea, fruit tea, and cheese foam drinks",
         "secondary_tags": "tea",
         "city": "NYC",
-        "google_place_id": "ChIJb2I3eIFZwokRJQV_Xcx_gpU"
+        "google_place_id": "ChIJb2I3eIFZwokRJQV_Xcx_gpU",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -25281,25 +25177,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Kitsby Dessert Bar",
-        "category": "Cafe",
-        "signal": "High",
-        "description": "Kitsby is a café/bakery in Williamsburg with Asian-inspired desserts that don’t disappoint. Taiwanese-American Amy Hsiao and Hongkonger Maverick Wong created Kitsby because they were inspired by childhood memories of baking days past. Kitsby started as a standalone DIY baking kit, but as of 2019, Hsiao and Wong have expanded Kitsby to include a full-blown brick-and-mortar location. Order a crème puff baking kit off their website for a fun at-home activity, or stop by their dessert bar. We can’t get enough of the salted egg yolk lava cake, which is basically the warm, oozing salted egg yolk buns found at dim sum but comes dressed in a lava cake outfitted with scoops of vanilla ice cream.",
-        "secondary_tags": "dessert; bakery",
-        "city": "NYC",
-        "google_place_id": "ChIJC6CQTgBZwokRfyb_l3QqEQM"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9609628,
-          40.7140965
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Two Geese Bakery",
         "category": "Dessert",
         "signal": "High",
@@ -25729,24 +25606,6 @@
         "coordinates": [
           -73.9570607,
           40.6890824
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "The Doughnut Project",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "great but expensive\n\ncinnamon roll",
-        "city": "NYC",
-        "google_place_id": "ChIJjbvjqZNZwokRRXxpMTUx0uc"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0035553,
-          40.7311971
         ]
       }
     },
@@ -26618,25 +26477,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Amy's Bread",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "sourdough",
-        "secondary_tags": "bakery",
-        "city": "NYC",
-        "google_place_id": "ChIJiQ8Ry9NewokRE_NqhfnCs9k"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9958811,
-          40.6909887
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Economy Candy",
         "category": "Dessert",
         "signal": "High",
@@ -26720,24 +26560,6 @@
         "coordinates": [
           -73.9958467,
           40.7235132
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "K. Minamoto",
-        "category": "Dessert",
-        "signal": "Low",
-        "description": "Japanese confectionery shop focused on wagashi",
-        "city": "NYC",
-        "google_place_id": "ChIJUw0FZABZwokRkdGMfmwf7Fk"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0117924,
-          40.7103462
         ]
       }
     },
@@ -27646,25 +27468,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Rispoli Pastry Shop & Cafe",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "Rispoli was established in 1937 among the rolling hills of Ridgewood, now a gleaming pastry shop that turns out Neapolitan and Sicilian pastries, and row upon row of butter cookies and biscotti that demand to be dipped in a glass of fortified wine. Sfogliatelle (sometimes called lobster tails) are filled with sweetened ricotta, and so are pasticciotti — little pies once made only for religious festivals, now available every day of the year.",
-        "secondary_tags": "pastries; coffee",
-        "city": "NYC",
-        "google_place_id": "ChIJ7yVQ0_XvwokRZBRn5YzqJrg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.00309,
-          40.840378
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Sweet Rehab",
         "category": "Dessert",
         "signal": "High",
@@ -27751,24 +27554,6 @@
         "coordinates": [
           -73.88236669999999,
           40.701938399999996
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Middle Brook Mill",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "maybe\n\nThis temple of heirloom grains, wholesome pancake mixes, and crunchy cookies also sells loaves of bread seven days a week in Jefferson, just over Mount Jefferson from Stamford. The place really comes alive when the sourdough baguettes ($6 each) fly from the oven Thursdays and Saturdays after 2 p.m. Get one while it’s still warm, and eat it with a stick of butter from the gas station across the street.",
-        "city": "Regional",
-        "google_place_id": "ChIJdaQHLOsV3IkRnU5_cqe880o"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.6106117,
-          42.4810611
         ]
       }
     },
@@ -29029,25 +28814,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Super Nice Coffee (and Donuts)",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "cake donut on weekends",
-        "secondary_tags": "coffee",
-        "city": "NYC",
-        "google_place_id": "ChIJ2xnkaWj3wokRx7sQ9uV_8DM"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9956094,
-          40.7445598
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Super Nice Coffee and Bakery by Danny Macaroons",
         "category": "Dessert",
         "signal": "High",
@@ -29109,7 +28875,8 @@
         "signal": "High",
         "description": "african cafe with african drinks",
         "city": "NYC",
-        "google_place_id": "ChIJGUjxOFtbwokR833quGvO258"
+        "google_place_id": "ChIJGUjxOFtbwokR833quGvO258",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -29835,7 +29602,8 @@
         "signal": "High",
         "description": "Under $3\nParis-Brest 'Eclair'",
         "city": "NYC",
-        "google_place_id": "ChIJGbaABcVZwokRsY-PHJl2TfY"
+        "google_place_id": "ChIJGbaABcVZwokRsY-PHJl2TfY",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -29884,24 +29652,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Comme Des Garcons Boutique",
-        "category": "Activities",
-        "signal": "Low",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJJWQVErhZwokRBoYUnHe-_Gg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0057597,
-          40.747216
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "The Vans DQM General",
         "category": "Activities",
         "signal": "Low",
@@ -29914,24 +29664,6 @@
         "coordinates": [
           -74.0020847,
           40.721409
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "The General by Vans",
-        "category": "Activities",
-        "signal": "Low",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJv0gcWdRZwokRwgxfA_6d3rY"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9604799,
-          40.7184901
         ]
       }
     },
@@ -30066,24 +29798,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Century 21 Department Store",
-        "category": "Activities",
-        "signal": "Low",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJYykGxBlawokRfyUSoa-bv3s"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9818907,
-          40.7739566
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Bergdorf Goodman",
         "category": "Activities",
         "signal": "Low",
@@ -30102,42 +29816,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "J.Crew Liquor Store",
-        "category": "Activities",
-        "signal": "Low",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJ-UXudBtawokRlZkyxuci-oo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.005883,
-          40.719471
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Barbour",
-        "category": "Activities",
-        "signal": "Low",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJ8ZCyd5ZYwokROi4Ex8hg2OU"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0003947,
-          40.7251665
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Brooklyn Industries",
         "category": "Activities",
         "signal": "Low",
@@ -30150,42 +29828,6 @@
         "coordinates": [
           -73.957147,
           40.7185374
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Brooklyn Industries",
-        "category": "Activities",
-        "signal": "Low",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJm5UdQgBZwokRfq1_cYtmB1Q"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9960381,
-          40.7244207
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Onassis Apparel Inc",
-        "category": "Activities",
-        "signal": "Low",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJi-wVBzZZwokRnDhj1fvSEy4"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9777684,
-          40.7592484
         ]
       }
     },
@@ -30342,7 +29984,8 @@
         "signal": "Low",
         "secondary_tags": "aesthetic; clothing; shopping",
         "city": "NYC",
-        "google_place_id": "ChIJ6_9mO6ZZwokRJPrRbi7P8YU"
+        "google_place_id": "ChIJ6_9mO6ZZwokRJPrRbi7P8YU",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -30421,42 +30064,6 @@
         "coordinates": [
           -73.9847831,
           40.7296057
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Engineered Garments Engineered Garments",
-        "category": "Activities",
-        "signal": "Low",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJi7UFIq1ZwokRVnjUpaB9-dA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9922208,
-          40.7551949
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Kamakura Shirts",
-        "category": "Activities",
-        "signal": "Low",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJsSWL2IJZwokR9mOyxSnO3vM"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.976929,
-          40.756375
         ]
       }
     },
@@ -30661,24 +30268,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Steven Alan",
-        "category": "Activities",
-        "signal": "Low",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJjWo8EQBZwokRCk02D3XcY8k"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.005747,
-          40.7183844
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "3.1 Phillip Lim",
         "category": "Activities",
         "signal": "High",
@@ -30766,44 +30355,6 @@
         "coordinates": [
           -74.0084492,
           40.7190746
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Scotch & Soda",
-        "category": "Activities",
-        "signal": "High",
-        "description": "Chicago",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJz_pgj0L1wokRW8lqjcph-mU"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9961825,
-          40.7236847
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Atmos NY",
-        "category": "Activities",
-        "signal": "High",
-        "description": "street",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJj0s22OBbwokREhMSoo6usmE"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9486471,
-          40.8093005
         ]
       }
     },
@@ -31051,24 +30602,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Brooklyn Denim Co.",
-        "category": "Activities",
-        "signal": "Low",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJBUcmKmFZwokROMWFdSe44Eo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.962505,
-          40.7172571
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Idol Brooklyn",
         "category": "Activities",
         "signal": "High",
@@ -31119,44 +30652,6 @@
         "coordinates": [
           -73.9975924,
           40.69135910000001
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Kangol Columbus Ave.",
-        "category": "Activities",
-        "signal": "High",
-        "description": "Interesting hats",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJDXUK3IpYwokRb1YsR_iIgls"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.980481,
-          40.775416
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "rime",
-        "category": "Activities",
-        "signal": "High",
-        "description": "street",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJy2KdGoxZwokRsHvr2S5kJT0"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9905113,
-          40.6863581
         ]
       }
     },
@@ -31600,25 +31095,6 @@
         "coordinates": [
           -73.995966,
           40.713119
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Privilege New York",
-        "category": "Activities",
-        "signal": "High",
-        "description": "recommended by japanese guy who worked at the Japan branch before",
-        "secondary_tags": "aesthetic; clothing; shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJ1ZBusoFZwokRuf7m5KRkPWc"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9872728,
-          40.7208432
         ]
       }
     },
@@ -48594,6 +48070,25 @@
         "coordinates": [
           12.5055874,
           41.8858494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hightide Store NYC",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Japanese stationery and lifestyle shop at 542 LaGuardia Place, NoHo, Manhattan.",
+        "secondary_tags": "stationery; lifestyle",
+        "city": "NYC",
+        "google_place_id": "ChIJgdoXp2JZwokRF8z-x07_pwA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998524,
+          40.7288083
         ]
       }
     }
