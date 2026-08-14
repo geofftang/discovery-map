@@ -31234,7 +31234,8 @@
         "signal": "High",
         "description": "Sri Lankan grocery (seriouseats)",
         "city": "NYC",
-        "google_place_id": "ChIJhbWCBzdOwokRfe56SpubzfE"
+        "google_place_id": "ChIJhbWCBzdOwokRfe56SpubzfE",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -31385,24 +31386,6 @@
         "coordinates": [
           -73.9957008,
           40.7271989
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Belief",
-        "category": "Activities",
-        "signal": "High",
-        "description": "street",
-        "city": "NYC",
-        "google_place_id": "ChIJf-9IqIRbwokRJxbzU2iLs_s"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9165246,
-          40.7727172
         ]
       }
     },
@@ -32131,7 +32114,8 @@
         "category": "Activities",
         "signal": "Low",
         "city": "NYC",
-        "google_place_id": "ChIJcQf09jxhwokRJFhvfUGr4vY"
+        "google_place_id": "ChIJcQf09jxhwokRJFhvfUGr4vY",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -32369,23 +32353,6 @@
         "coordinates": [
           -73.9202814,
           40.766127
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Pierless Fish",
-        "category": "Activities",
-        "signal": "Low",
-        "city": "NYC",
-        "google_place_id": "ChIJy4PYQMlbwokRf91CcILxuDI"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9978088,
-          40.7576178
         ]
       }
     },
