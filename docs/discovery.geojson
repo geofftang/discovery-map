@@ -20135,7 +20135,7 @@
         "name": "R Slice Pizza",
         "category": "Meal",
         "signal": "High",
-        "description": "roberta's slices",
+        "description": "Roberta's slices",
         "city": "NYC",
         "google_place_id": "ChIJ65H5eABZwokRi1pVbvaiwxY"
       },
@@ -20808,7 +20808,7 @@
         "name": "NY Jumbo Bagels",
         "category": "Meal",
         "signal": "High",
-        "description": "under the radar apparently but very good bagel\n\nBEC is good",
+        "description": "Bagel and bialy wholesaler supplying NYC appetizing stores (incl. Sable's); among the last good bialy sources in Manhattan; 2nd Ave & 56th",
         "city": "NYC",
         "google_place_id": "ChIJI9IJoOZYwokRkmkmNAZd2uo"
       },
@@ -23879,7 +23879,7 @@
         "name": "Paris Baguette",
         "category": "Cafe",
         "signal": "High",
-        "description": "Under $3",
+        "description": "Korean bakery-cafe with pastries, cakes, and coffee drinks",
         "city": "NYC",
         "google_place_id": "ChIJA34-5ahZwokRumNK9CKW-uk"
       },
@@ -28855,7 +28855,7 @@
         "name": "Ginjan Cafe",
         "category": "Cafe",
         "signal": "High",
-        "description": "african cafe with some african drinks",
+        "description": "african cafe with african drinks",
         "city": "NYC",
         "google_place_id": "ChIJf16Dxmn3wokRk42r0rrArAg"
       },
@@ -30401,7 +30401,6 @@
         "name": "COS",
         "category": "Activities",
         "signal": "High",
-        "description": "street",
         "secondary_tags": "aesthetic; clothing; shopping",
         "city": "NYC",
         "google_place_id": "ChIJM5fnoI5ZwokRqtrhrc_igL8"
@@ -34520,23 +34519,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Stick Stone & Bone",
-        "category": "Activities",
-        "signal": "Low",
-        "city": "Regional",
-        "google_place_id": "ChIJJcf3XpNZwokRywyVwZ9K6CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.7246621,
-          37.2948475
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "peace & RIOT",
         "category": "Activities",
         "signal": "Low",
@@ -34998,24 +34980,6 @@
         "coordinates": [
           -74.0035137,
           40.720776300000004
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Sleepy Jones",
-        "category": "Activities",
-        "signal": "High",
-        "description": "Sleepy Jones in Chinatown/Soho sells just PJs. They also sell pencils from the aforementioned CW Pencils and vintage romance books but pajamas are the main thing. It's a cool shop just to walk around in and explore.",
-        "city": "NYC",
-        "google_place_id": "ChIJ-RNjg-VYwokRCJTSRaHml6E"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9630577,
-          40.7747711
         ]
       }
     },
@@ -35764,23 +35728,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Printed Matter St Marks",
-        "category": "Activities",
-        "signal": "Low",
-        "city": "NYC",
-        "google_place_id": "ChIJLQJnarhZwokRHJ0KgCtCSdA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9875484,
-          40.7284172
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Pageant Print Shop",
         "category": "Activities",
         "signal": "Low",
@@ -36024,25 +35971,6 @@
         "coordinates": [
           -73.9863716,
           40.6877403
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Radicle Herb Shop",
-        "category": "Activities",
-        "signal": "High",
-        "description": "Jars of dried herbs and tinctures line the shelved walls of Radicle Herb Shop, suppliers of an amazing array of herbal products.",
-        "secondary_tags": "shopping",
-        "city": "NYC",
-        "google_place_id": "ChIJw_F4MvZawokRujrWVgCuRrM"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9853381,
-          40.6869335
         ]
       }
     },
@@ -37024,7 +36952,8 @@
         "description": "Powerhouse is there for all your art and art book needs. It’s a publisher bookstore right under the bridge in DUMBO, with plenty of room to spread out and browse, which we can guarantee you’ll want to do. They also have a very nice selection of New York photo books that we could look through all day.",
         "secondary_tags": "bookstore",
         "city": "NYC",
-        "google_place_id": "ChIJi-GsFTFawokRXHiJIV3rhLk"
+        "google_place_id": "ChIJi-GsFTFawokRXHiJIV3rhLk",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -38214,6 +38143,7 @@
         "name": "ROOME",
         "category": "Activities",
         "signal": "Low",
+        "description": "Chinese brand fashion boutique",
         "city": "NYC",
         "google_place_id": "ChIJKXK8ypBZwokR9VsP07v3jZA"
       },
@@ -40649,7 +40579,7 @@
         "name": "Hosteria Grappolo d'Oro",
         "category": "Meal",
         "signal": "High",
-        "description": "LOCKED for Aug 4 dinner, party of 6, 9:30pm. Gambero Rosso Tre Gamberi + Slow Food Chiocciola + Michelin Bib Gourmand + Katie Parla endorsement.",
+        "description": "Gambero Rosso Tre Gamberi + Slow Food Chiocciola + Michelin Bib Gourmand + Katie Parla endorsement.",
         "secondary_tags": "confirmed; aug 4 dinner; rome",
         "city": "Rome",
         "google_place_id": "ChIJX-ZriEVgLxMREkFFzy20WyY"
@@ -40668,7 +40598,7 @@
         "name": "Tavernaccia Da Bruno",
         "category": "Meal",
         "signal": "High",
-        "description": "LOCKED for Aug 3 dinner, 9pm, Geoff+Ludia. Katie Parla pick, praised for treating tourists and regulars the same.",
+        "description": "Katie Parla pick, praised for treating tourists and regulars the same.",
         "secondary_tags": "confirmed; aug 3 dinner; rome",
         "city": "Rome",
         "google_place_id": "ChIJ5Y80kyZgLxMRrdv5ES-c8gU"
@@ -40687,7 +40617,6 @@
         "name": "Trattoria dei 13 Gobbi",
         "category": "Meal",
         "signal": "High",
-        "description": "LOCKED for Aug 6 Florence dinner, 7:30pm confirmed.",
         "secondary_tags": "confirmed; aug 6 dinner; florence",
         "city": "Florence",
         "google_place_id": "ChIJN60f96tWKhMRozpWCGYxYiU"
@@ -40725,7 +40654,7 @@
         "name": "Agriturismo Baldeschi",
         "category": "Activities",
         "signal": "High",
-        "description": "Fri 8/7 candidate: cooking class 16:30-20:30, doubles as dinner, capacity-capped at exactly 10 -- needs a Ludia conversation first.",
+        "description": "Fri 8/7 candidate: cooking class 16:30-20:30, doubles as dinner, capacity-capped at exactly 10 -- needs a conversation first.",
         "secondary_tags": "villa; cooking class; candidate",
         "city": "Trasimeno / Umbria",
         "google_place_id": "ChIJO5ZXwr8ALBMR2hGtfgkj1zU"
@@ -42838,7 +42767,7 @@
         "name": "Pancrazio",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Piazza del Biscione 92, Campo de' Fiori. Dining rooms sit in/around the excavated ruins of the Theatre of Pompey -- an atmosphere/history pick, not a food-ranking pick.\n\nSourced from a pasted excerpt attributed (unconfirmed) to a Reddit poster (Alex). Explicit trade-off named in source: touristy because genuinely significant, not because it went viral.",
+        "description": "Piazza del Biscione 92, Campo de' Fiori. Dining rooms sit in/around the excavated ruins of the Theatre of Pompey -- an atmosphere/history pick, not a food-ranking pick.\n\nSourced from a pasted excerpt attributed (unconfirmed) to a Reddit poster. Explicit trade-off named in source: touristy because genuinely significant, not because it went viral.",
         "secondary_tags": "trattoria; rome; campo-de-fiori; historic-site",
         "city": "Rome",
         "google_place_id": "ChIJxYLqXE9gLxMRMiEB2ESvqsw"
@@ -42895,7 +42824,7 @@
         "name": "Colline Emiliane",
         "category": "Meal",
         "signal": "Low",
-        "description": "Via degli Avignonesi, Trevi. Emilia-Romagna-style cooking transplanted to Rome.\n\nAlex-only source bundle, not independently cross-checked against named critics or awards -- a new lead, not yet corroborated.",
+        "description": "Via degli Avignonesi, Trevi. Emilia-Romagna-style cooking transplanted to Rome.",
         "secondary_tags": "trattoria; rome; trevi; unverified",
         "city": "Rome",
         "google_place_id": "ChIJYRcthKthLxMR-FPfbPYbePI"
@@ -42914,7 +42843,7 @@
         "name": "Matricianella",
         "category": "Meal",
         "signal": "Low",
-        "description": "Via del Leone, Centro Storico.\n\nAlex-only source bundle, not independently cross-checked -- new lead, not yet corroborated.",
+        "description": "Via del Leone, Centro Storico.",
         "secondary_tags": "trattoria; rome; centro-storico; unverified",
         "city": "Rome",
         "google_place_id": "ChIJbfrRslZgLxMRKR3a8hnvJD8"
@@ -42933,7 +42862,7 @@
         "name": "Angelina a Testaccio",
         "category": "Meal",
         "signal": "Low",
-        "description": "Testaccio (neighborhood-level coords only).Alex-only source bundle, not independently cross-checked -- new lead, not yet corroborated.",
+        "description": "Testaccio.",
         "secondary_tags": "trattoria; rome; testaccio; unverified",
         "city": "Rome"
       },
@@ -42951,7 +42880,7 @@
         "name": "Osteria del Velodromo Vecchio",
         "category": "Meal",
         "signal": "Low",
-        "description": "Via Vincenzo Coronelli, Pigneto -- off the trip's other Rome anchors, check distance before pursuing.\n\nAlex-only source bundle, not independently cross-checked -- new lead, not yet corroborated.",
+        "description": "Via Genzano 139, Appio-Tuscolano/Quadraro.\n\nGambero Rosso Ristoranti d'Italia (trattoria tier), Un Gambero 2026 -- 30-year neighborhood institution, Slow Food presidi ingredients.",
         "secondary_tags": "trattoria; rome; pigneto; unverified",
         "city": "Rome"
       },
@@ -42969,7 +42898,7 @@
         "name": "Trattoria Trilussa",
         "category": "Meal",
         "signal": "Low",
-        "description": "Trastevere (neighborhood-level coords only).Alex-only source bundle, not independently cross-checked -- new lead, not yet corroborated.",
+        "description": "Trastevere.",
         "secondary_tags": "trattoria; rome; trastevere; unverified",
         "city": "Rome"
       },
@@ -42987,7 +42916,7 @@
         "name": "Pierluigi",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Piazza de' Ricci. Fish-focused, described as \"an institution.\" Very expensive per the source.\n\nSourced from Alex (r/rome, self-identified Roman resident since 2002).",
+        "description": "Piazza de' Ricci. Fish-focused, described as \"an institution.\" Very expensive per the source.\n\nSourced from an r/rome local ( self-identified Roman resident since 2002).",
         "secondary_tags": "seafood; rome; centro-storico",
         "city": "Rome",
         "google_place_id": "ChIJycEjW0RgLxMRYBO1pi8oKBs"
@@ -43006,7 +42935,7 @@
         "name": "Il Sanlorenzo",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Via dei Chiavari 4. Crudo/seafood pasta specialist.\n\n\"The best in Rome\" per Alex (r/rome, self-ID'd Roman resident since 2002) -- a direct superlative from one source, not independently cross-checked.",
+        "description": "Via dei Chiavari 4. Crudo/seafood pasta specialist.",
         "secondary_tags": "seafood; rome; centro-storico",
         "city": "Rome",
         "google_place_id": "ChIJGbkfOk9gLxMR98ZqdnBQOJc"
@@ -46080,7 +46009,7 @@
         "name": "Da Armando al Pantheon",
         "category": "Meal",
         "signal": "High",
-        "description": "Salita de' Crescenzi 31, 00186 -- Roman trattoria, Gargioli family since 1961, now 3rd generation. Steps from the Pantheon.\n\nSlow Food Chiocciola 2026. Also Michelin Guide-listed (unstarred). ~150m from the 9Hotel Cesari cluster. Added 2026-08-04 via full-roster Gambero Rosso/Slow Food/Michelin sweep, not yet geocode-verified.",
+        "description": "Salita de' Crescenzi 31, 00186 -- Roman trattoria, Gargioli family since 1961, now 3rd generation. Steps from the Pantheon.\n\nSlow Food Chiocciola 2026. Also Michelin Guide-listed (unstarred). ~150m from the 9Hotel Cesari cluster.",
         "secondary_tags": "slow food chiocciola",
         "city": "Rome"
       },
@@ -46098,7 +46027,7 @@
         "name": "Da Cesare al Pellegrino",
         "category": "Meal",
         "signal": "High",
-        "description": "Via del Pellegrino 117, 00186 -- Roman trattoria, sister restaurant to Da Cesare al Casaletto (same ownership team, took over 2022), centro storico location near Campo de' Fiori.\n\nSlow Food Chiocciola 2026. Added 2026-08-04 via full-roster Gambero Rosso/Slow Food/Michelin sweep, not yet geocode-verified.",
+        "description": "Via del Pellegrino 117, 00186 -- Roman trattoria, sister restaurant to Da Cesare al Casaletto (same ownership team, took over 2022), centro storico location near Campo de' Fiori.\n\nSlow Food Chiocciola 2026.",
         "secondary_tags": "slow food chiocciola",
         "city": "Rome"
       },
@@ -46116,7 +46045,7 @@
         "name": "Menabo Vino e Cucina",
         "category": "Meal",
         "signal": "High",
-        "description": "Via delle Palme 44D, Centocelle -- Modern wine-and-kitchen spot in Centocelle, outside the tourist center.\n\nSlow Food Chiocciola 2026. Added 2026-08-04 via full-roster Gambero Rosso/Slow Food/Michelin sweep, not yet geocode-verified.",
+        "description": "Via delle Palme 44D, Centocelle -- Modern wine-and-kitchen spot in Centocelle, outside the tourist center.\n\nSlow Food Chiocciola 2026.",
         "secondary_tags": "slow food chiocciola",
         "city": "Rome"
       },
@@ -46134,7 +46063,7 @@
         "name": "Trattoria Pennestri",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Giovanni Da Empoli 5, 00154, Ostiense/Garbatella -- Lazio-cuisine trattoria, Ostiense/Garbatella.\n\nDUAL: Slow Food Chiocciola 2026 + Michelin Bib Gourmand -- one of the more decorated finds in this sweep. Note: food.md flags this restaurant as closed for August ferie this trip -- verify before planning around it. Added 2026-08-04 via full-roster Gambero Rosso/Slow Food/Michelin sweep, not yet geocode-verified.",
+        "description": "Via Giovanni Da Empoli 5, 00154, Ostiense/Garbatella -- Lazio-cuisine trattoria, Ostiense/Garbatella.\n\nDUAL: Slow Food Chiocciola 2026 + Michelin Bib Gourmand -- one of the more decorated finds in this sweep. Note: food.md flags this restaurant as closed for August ferie this trip -- verify before planning around it.",
         "secondary_tags": "slow food chiocciola; bib gourmand",
         "city": "Rome"
       },
@@ -46152,7 +46081,7 @@
         "name": "Pro Loco Centocelle",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Domenico Panaroli 35, Centocelle -- Neighborhood osteria in Centocelle, official signage reads \"Pro Loco D.O.L.\"\n\nSlow Food Chiocciola 2026. Added 2026-08-04 via full-roster Gambero Rosso/Slow Food/Michelin sweep, not yet geocode-verified. DUAL DESIGNATION found 2026-08-04: same address (Via Domenico Panaroli 35) also carries Gambero Rosso Pizzerie d'Italia Tre Spicchi, 91pts (sourced to a ~2023-edition article, current 2026 status unconfirmed) -- if accurate, this is both a Slow Food Chiocciola trattoria AND a Tre Spicchi pizzeria.",
+        "description": "Via Domenico Panaroli 35, Centocelle -- Neighborhood osteria in Centocelle, official signage reads \"Pro Loco D. O. L.\"\n\nSlow Food Chiocciola 2026. DUAL DESIGNATION found 2026-08-04: same address (Via Domenico Panaroli 35) also carries Gambero Rosso Pizzerie d'Italia Tre Spicchi, 91pts (sourced to a ~2023-edition article, current 2026 status unconfirmed) -- if accurate, this is both a Slow Food Chiocciola trattoria AND a Tre Spicchi pizzeria.",
         "secondary_tags": "slow food chiocciola",
         "city": "Rome"
       },
@@ -46170,7 +46099,7 @@
         "name": "Lievito (Francesco Arnesano)",
         "category": "Meal",
         "signal": "High",
-        "description": "Viale Europa 339, EUR (verify vs. newer Via Simone Martini 6 location) -- Bakery/pizza-al-taglio format, EUR district, chef Francesco Arnesano -- possibly opened a second location in 2025 (Via Simone Martini 6), unclear which holds the award.\n\nSlow Food Chiocciola 2026 (location TBD between the two addresses). Added 2026-08-04 via full-roster Gambero Rosso/Slow Food/Michelin sweep, not yet geocode-verified.\n\nLocation resolved 2026-08-04: Via Simone Martini 6, EUR confirmed as the Gambero Rosso Pizzerie d'Italia Tre Rotelle (al taglio) address specifically -- this also likely resolves which of the two addresses holds the separately-found Slow Food Chiocciola tag.",
+        "description": "Viale Europa 339, EUR (verify vs. newer Via Simone Martini 6 location) -- Bakery/pizza-al-taglio format, EUR district, chef Francesco Arnesano -- possibly opened a second location in 2025 (Via Simone Martini 6), unclear which holds the award.\n\nSlow Food Chiocciola 2026 (location TBD between the two addresses).\n\nLocation resolved 2026-08-04: Via Simone Martini 6, EUR confirmed as the Gambero Rosso Pizzerie d'Italia Tre Rotelle (al taglio) address specifically -- this also likely resolves which of the two addresses holds the separately-found Slow Food Chiocciola tag.",
         "secondary_tags": "slow food chiocciola",
         "city": "Rome"
       },
@@ -46188,7 +46117,7 @@
         "name": "SantoPalato",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Gallia 28, 00183, San Giovanni -- Modern Roman trattoria, San Giovanni neighborhood.\n\nSlow Food Chiocciola 2026. Added 2026-08-04 via full-roster Gambero Rosso/Slow Food/Michelin sweep, not yet geocode-verified.",
+        "description": "Via Gallia 28, 00183, San Giovanni -- Modern Roman trattoria, San Giovanni neighborhood.\n\nSlow Food Chiocciola 2026.",
         "secondary_tags": "slow food chiocciola",
         "city": "Rome"
       },
@@ -46206,7 +46135,7 @@
         "name": "Green T.",
         "category": "Meal",
         "signal": "High",
-        "description": "Via del Pie' di Marmo 28, 00186, Pigna/Pantheon -- Chinese restaurant, near the Pantheon.\n\nMichelin Bib Gourmand, current guide. Unusual pick for the category -- worth knowing Rome's Bib list isn't all-Italian. Added 2026-08-04 via full-roster Gambero Rosso/Slow Food/Michelin sweep, not yet geocode-verified.",
+        "description": "Via del Pie' di Marmo 28, 00186, Pigna/Pantheon -- Chinese restaurant, near the Pantheon.\n\nMichelin Bib Gourmand, current guide. Unusual pick for the category -- worth knowing Rome's Bib list isn't all-Italian.",
         "secondary_tags": "bib gourmand",
         "city": "Rome"
       },
@@ -46224,7 +46153,7 @@
         "name": "53 Untitled",
         "category": "Meal",
         "signal": "High",
-        "description": "Via del Monte della Farina 53, 00186, Sant'Eustachio -- Contemporary Italian, Sant'Eustachio (near Campo de' Fiori/Pantheon cluster).\n\nMichelin Bib Gourmand, current guide. Added 2026-08-04 via full-roster Gambero Rosso/Slow Food/Michelin sweep, not yet geocode-verified.",
+        "description": "Via del Monte della Farina 53, 00186, Sant'Eustachio -- Contemporary Italian, Sant'Eustachio (near Campo de' Fiori/Pantheon cluster).\n\nMichelin Bib Gourmand, current guide.",
         "secondary_tags": "bib gourmand",
         "city": "Rome"
       },
@@ -46242,7 +46171,7 @@
         "name": "Domenico dal 1968",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Satrico 21, 00183, Appio-Latino/Tuscolano -- Old-school Roman trattoria, Appio-Latino, since 1968 (same founding year as Tavernaccia Da Bruno -- an interesting parallel).\n\nMichelin Bib Gourmand, current guide. Added 2026-08-04 via full-roster Gambero Rosso/Slow Food/Michelin sweep, not yet geocode-verified.",
+        "description": "Via Satrico 21, 00183, Appio-Latino/Tuscolano -- Old-school Roman trattoria, Appio-Latino, since 1968 (same founding year as Tavernaccia Da Bruno -- an interesting parallel).\n\nMichelin Bib Gourmand, current guide.",
         "secondary_tags": "bib gourmand",
         "city": "Rome"
       },
@@ -46260,7 +46189,7 @@
         "name": "L'Osteria della Trippa",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Goffredo Mameli 15, 00153, Trastevere -- Lazio-cuisine osteria in Trastevere -- name signals a tripe/offal focus, same register as the coda alla vaccinara/pajata dishes already tracked for this trip.\n\nMichelin Bib Gourmand, current guide. Added 2026-08-04 via full-roster Gambero Rosso/Slow Food/Michelin sweep, not yet geocode-verified.",
+        "description": "Via Goffredo Mameli 15, 00153, Trastevere -- Lazio-cuisine osteria in Trastevere -- name signals a tripe/offal focus, same register as the coda alla vaccinara/pajata dishes already tracked for this trip.\n\nMichelin Bib Gourmand, current guide.",
         "secondary_tags": "bib gourmand",
         "city": "Rome"
       },
@@ -46278,7 +46207,7 @@
         "name": "Romane",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Cipro 106, 00136, Prati/Trionfale (near Vatican) -- Roman-cuisine restaurant near the Vatican/Prati -- walkable from NH Collection Roma Centro.\n\nMichelin Bib Gourmand, current guide. Added 2026-08-04 via full-roster Gambero Rosso/Slow Food/Michelin sweep, not yet geocode-verified.",
+        "description": "Via Cipro 106, 00136, Prati/Trionfale (near Vatican) -- Roman-cuisine restaurant near the Vatican/Prati -- walkable from NH Collection Roma Centro.\n\nMichelin Bib Gourmand, current guide.",
         "secondary_tags": "bib gourmand",
         "city": "Rome"
       },
@@ -46296,7 +46225,7 @@
         "name": "Seu Pizza Illuminati",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Angelo Bargoni 10, Trastevere/Porta Portese.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down). Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling). STYLE FLAG 2026-08-04: explicit Neapolitan/Roman HYBRID per press (\"halfway between fluffy Neapolitan and crunchy Roman\") -- not purely Roman style.",
+        "description": "Via Angelo Bargoni 10, Trastevere/Porta Portese.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down). STYLE FLAG 2026-08-04: explicit Neapolitan/Roman HYBRID per press (\"halfway between fluffy Neapolitan and crunchy Roman\") -- not purely Roman style.",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -46314,7 +46243,7 @@
         "name": "TAC - Thin and Crunchy",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Fiume delle Perle 136/138, Mostacciano.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down). Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "description": "Via Fiume delle Perle 136/138, Mostacciano.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down).",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -46332,7 +46261,7 @@
         "name": "180g Pizzeria Romana",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Genazzano 32/34, Casilino/San Paolo.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down). Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "description": "Via Genazzano 32/34, Casilino/San Paolo.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down).",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -46350,7 +46279,7 @@
         "name": "La Gatta Mangiona",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Federico Ozanam 30, Monteverde.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down). Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "description": "Via Federico Ozanam 30, Monteverde.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down).",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -46368,7 +46297,7 @@
         "name": "San Martino - Pizza e Bolle",
         "category": "Meal",
         "signal": "High",
-        "description": "Lungotevere di Pietra Papa 201, Gasometro/Ostiense.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down). Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "description": "Lungotevere di Pietra Papa 201, Gasometro/Ostiense.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down).",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -46386,7 +46315,7 @@
         "name": "Tonda",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Valle Corteno 31, Montesacro.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down). Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "description": "Via Valle Corteno 31, Montesacro.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down).",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -46404,7 +46333,7 @@
         "name": "Vico Pizza e Wine",
         "category": "Meal",
         "signal": "High",
-        "description": "Piazza Rondanini 47, Centro Storico.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down). Centro Storico -- walkable from the Pantheon cluster, worth checking distance. Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling). STYLE FLAG 2026-08-04: run by Enzo Coccia, a NEAPOLITAN pizzaiolo (\"incredibly light dough\") -- despite the Tre Spicchi tier and near-hotel proximity, this is likely Neapolitan-leaning, not classic Roman tonda. Do not recommend as the Roman-style pick without independently confirming the dough style.",
+        "description": "Piazza Rondanini 47, Centro Storico.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down). Centro Storico -- walkable from the Pantheon cluster, worth checking distance. STYLE FLAG 2026-08-04: run by Enzo Coccia, a NEAPOLITAN pizzaiolo (\"incredibly light dough\") -- despite the Tre Spicchi tier and near-hotel proximity, this is likely Neapolitan-leaning, not classic Roman tonda. Do not recommend as the Roman-style pick without independently confirming the dough style.",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -46422,7 +46351,7 @@
         "name": "Panificio Bonci",
         "category": "Meal",
         "signal": "High",
-        "description": "CONFIRMED 2026-08-04 by user on Google Maps: shows as \"Temporarily closed.\" Drop this from recommendations until it reopens -- was previously listed as operating in search results, but live Maps status is the trump signal here, same lesson as the Da Cesare al Casaletto coordinate error earlier this trip: verify against a live source, not stale search snippets, when the two conflict. Via Trionfale 36, Prati.\n\nGambero Rosso Pizzerie d'Italia, Tre Rotelle 2026 (al taglio) -- 2nd Bonci location, same owner as the already-tracked Pizzarium, distinct address, don't merge. Near NH Collection Roma Centro. Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "description": "CONFIRMED 2026-08-04 by user on Google Maps: shows as \"Temporarily closed.\" Drop this from recommendations until it reopens -- was previously listed as operating in search results, but live Maps status is the trump signal here, same lesson as the Da Cesare al Casaletto coordinate error earlier this trip: verify against a live source, not stale search snippets, when the two conflict. Via Trionfale 36, Prati.\n\nGambero Rosso Pizzerie d'Italia, Tre Rotelle 2026 (al taglio) -- 2nd Bonci location, same owner as the already-tracked Pizzarium, distinct address, don't merge. Near NH Collection Roma Centro.",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -46440,7 +46369,7 @@
         "name": "Frumentario",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Tuscolana 26, Appio/Re di Roma.\n\nGambero Rosso Pizzerie d'Italia, Tre Rotelle 2026 (al taglio). Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "description": "Via Tuscolana 26, Appio/Re di Roma.\n\nGambero Rosso Pizzerie d'Italia, Tre Rotelle 2026 (al taglio).",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -46458,7 +46387,7 @@
         "name": "Ruver Teglia Frazionata",
         "category": "Meal",
         "signal": "High",
-        "description": "Viale Aventino 46, Aventino/Piramide.\n\nGambero Rosso Pizzerie d'Italia, Tre Rotelle 2026 (al taglio). Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "description": "Viale Aventino 46, Aventino/Piramide.\n\nGambero Rosso Pizzerie d'Italia, Tre Rotelle 2026 (al taglio).",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -46476,7 +46405,7 @@
         "name": "Pizza Chef",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Clelia 63/A, Appio.\n\nGambero Rosso Pizzerie d'Italia, Tre Rotelle 2026 (al taglio). Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "description": "Via Clelia 63/A, Appio.\n\nGambero Rosso Pizzerie d'Italia, Tre Rotelle 2026 (al taglio).",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -46494,7 +46423,7 @@
         "name": "Spiazzo",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Antonio Pacinotti 83, Ostiense/Gazometro.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi 2026 (sit-down). Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "description": "Via Antonio Pacinotti 83, Ostiense/Gazometro.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi 2026 (sit-down).",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -46512,7 +46441,7 @@
         "name": "I Mannari",
         "category": "Dessert",
         "signal": "High",
-        "description": "Via di Grotta Perfetta 125, Colli Portuensi/Trigoria area.\n\nGambero Rosso Gelaterie d'Italia, Due Coni (2027 edition, lower confidence). Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "description": "Via di Grotta Perfetta 125, Colli Portuensi/Trigoria area.\n\nGambero Rosso Gelaterie d'Italia, Due Coni (2027 edition, lower confidence).",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -46530,7 +46459,7 @@
         "name": "Gelasio",
         "category": "Dessert",
         "signal": "High",
-        "description": "Via Portuense 727 f/g, Portuense.\n\nGambero Rosso Gelaterie d'Italia, Due Coni (2027 edition, lower confidence). Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "description": "Via Portuense 727 f/g, Portuense.\n\nGambero Rosso Gelaterie d'Italia, Due Coni (2027 edition, lower confidence).",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -46548,7 +46477,7 @@
         "name": "Come il Latte",
         "category": "Dessert",
         "signal": "High",
-        "description": "Via Silvio Spaventa 24/26, Sallustiano/Centro.\n\nGambero Rosso Gelaterie d'Italia, Due Coni (2027 edition, lower confidence). Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "description": "Via Silvio Spaventa 24/26, Sallustiano/Centro.\n\nGambero Rosso Gelaterie d'Italia, Due Coni (2027 edition, lower confidence).",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -46566,7 +46495,7 @@
         "name": "Spazio Niko Romito Bar e Cucina",
         "category": "Drinks",
         "signal": "High",
-        "description": "Piazza Verdi 9/E, Parioli.\n\nGambero Rosso Bar d'Italia 2026, Tre Chicchi e Tre Tazzine -- one of only 2 Rome venues at the max tier. Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "description": "Piazza Verdi 9/E, Parioli.\n\nGambero Rosso Bar d'Italia 2026, Tre Chicchi e Tre Tazzine -- one of only 2 Rome venues at the max tier.",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -46584,7 +46513,7 @@
         "name": "Osteria Pocci",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Cesena 6, Nomentano/Africano.\n\nGambero Rosso Ristoranti d'Italia (trattoria tier), Un Gambero 2026 -- \"nessun effetto speciale, solo sostanza,\" traditional Roman. Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "description": "Via Cesena 6, Nomentano/Africano.\n\nGambero Rosso Ristoranti d'Italia (trattoria tier), Un Gambero 2026 -- \"nessun effetto speciale, solo sostanza,\" traditional Roman.",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -46602,7 +46531,7 @@
         "name": "Mangiadischi - La Moderna Trattoria",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Val di Sangro 35, Nomentano/Africano.\n\nGambero Rosso Ristoranti d'Italia (trattoria tier), Un Gambero 2026 -- eclectic/contemporary, small-producer ingredients. Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "description": "Via Val di Sangro 35, Nomentano/Africano.\n\nGambero Rosso Ristoranti d'Italia (trattoria tier), Un Gambero 2026 -- eclectic/contemporary, small-producer ingredients.",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -46620,7 +46549,7 @@
         "name": "Trattoria dell'Omo",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Vicenza 18, Castro Pretorio/Termini.\n\nGambero Rosso Ristoranti d'Italia (trattoria tier), Un Gambero 2026 -- old-school Roman, family-run since the 1960s. Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "description": "Via Vicenza 18, Castro Pretorio/Termini.\n\nGambero Rosso Ristoranti d'Italia (trattoria tier), Un Gambero 2026 -- old-school Roman, family-run since the 1960s.",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -46638,7 +46567,7 @@
         "name": "Trattoria Monti",
         "category": "Meal",
         "signal": "High",
-        "description": "Via San Vito 13/A, Esquilino.\n\nGambero Rosso Ristoranti d'Italia (trattoria tier), Un Gambero 2026 -- Marche regional cuisine (vincisgrassi, ciauscolo), not Roman-specific. Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "description": "Via San Vito 13/A, Esquilino.\n\nGambero Rosso Ristoranti d'Italia (trattoria tier), Un Gambero 2026 -- Marche regional cuisine (vincisgrassi, ciauscolo), not Roman-specific.",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -46656,7 +46585,7 @@
         "name": "Osteria del Velodromo Vecchio",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Genzano 139, Appio-Tuscolano/Quadraro.\n\nGambero Rosso Ristoranti d'Italia (trattoria tier), Un Gambero 2026 -- 30-year neighborhood institution, Slow Food presidi ingredients. Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "description": "Via Genzano 139, Appio-Tuscolano/Quadraro.\n\nGambero Rosso Ristoranti d'Italia (trattoria tier), Un Gambero 2026 -- 30-year neighborhood institution, Slow Food presidi ingredients.",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -46674,7 +46603,7 @@
         "name": "Dar Parucca",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Macerata 89, Pigneto.\n\nGambero Rosso Ristoranti d'Italia (trattoria tier), Un Gambero 2026 -- traditional Roman. Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "description": "Via Macerata 89, Pigneto.\n\nGambero Rosso Ristoranti d'Italia (trattoria tier), Un Gambero 2026 -- traditional Roman.",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -46692,7 +46621,7 @@
         "name": "Conciabocca",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Rubattino 22, Testaccio.\n\nGambero Rosso Ristoranti d'Italia (trattoria tier), Un Gambero 2026 -- modern trattoria in classic Testaccio setting, noted carbonara. Added 2026-08-04 via full-roster Gambero Rosso sweep, not yet geocode-verified -- coords unknown, needs geocoding (EU IP blocks the scrape resolver per runbook, do not attempt while traveling).",
+        "description": "Via Rubattino 22, Testaccio.\n\nGambero Rosso Ristoranti d'Italia (trattoria tier), Un Gambero 2026 -- modern trattoria in classic Testaccio setting, noted carbonara.",
         "secondary_tags": "gambero rosso",
         "city": "Rome"
       },
@@ -46710,7 +46639,7 @@
         "name": "Gunther Gelato Italiano",
         "category": "Dessert",
         "signal": "High",
-        "description": "Via dei Pettinari 43, Campo de' Fiori (also Piazza Sant'Eustachio, Via Giolitti locations).\n\nGambero Rosso Gelaterie d'Italia, Due Coni -- current, per the 2025 Ice Cream Guide (not just historical). Campo de' Fiori location is walkable from the 9Hotel Cesari/Pantheon cluster. Added 2026-08-04 via wider Gambero Rosso sweep (site: search + archived scheda pages) -- coords unknown, needs geocoding (EU IP blocks scrape resolver, do not attempt while traveling).",
+        "description": "Via dei Pettinari 43, Campo de' Fiori (also Piazza Sant'Eustachio, Via Giolitti locations).\n\nGambero Rosso Gelaterie d'Italia, Due Coni -- current, per the 2025 Ice Cream Guide (not just historical). Campo de' Fiori location is walkable from the 9Hotel Cesari/Pantheon cluster.",
         "secondary_tags": "gambero rosso; due coni",
         "city": "Rome"
       },
@@ -46728,7 +46657,7 @@
         "name": "La Gelateria del Pigneto",
         "category": "Dessert",
         "signal": "High",
-        "description": "Via Pesaro 11, 00176, Pigneto.\n\nGambero Rosso Gelaterie d'Italia, Due Coni -- confirmed via live scheda page icon (2021 snapshot, page since redirected/merged, likely still active under a new URL, worth a live check). Added 2026-08-04 via wider Gambero Rosso sweep (site: search + archived scheda pages) -- coords unknown, needs geocoding (EU IP blocks scrape resolver, do not attempt while traveling).",
+        "description": "Via Pesaro 11, 00176, Pigneto.\n\nGambero Rosso Gelaterie d'Italia, Due Coni -- confirmed via live scheda page icon (2021 snapshot, page since redirected/merged, likely still active under a new URL, worth a live check).",
         "secondary_tags": "gambero rosso; due coni",
         "city": "Rome"
       },
@@ -46746,7 +46675,7 @@
         "name": "Gelato d'Essai da Geppy Sferra",
         "category": "Dessert",
         "signal": "High",
-        "description": "Via Tor de' Schiavi 295, 00171, Centocelle.\n\nGambero Rosso Gelaterie d'Italia, Due Coni (2020 edition; current scheda page fetched but icon not re-confirmed in that snapshot -- likely unchanged, not independently re-verified). Added 2026-08-04 via wider Gambero Rosso sweep (site: search + archived scheda pages) -- coords unknown, needs geocoding (EU IP blocks scrape resolver, do not attempt while traveling).",
+        "description": "Via Tor de' Schiavi 295, 00171, Centocelle.\n\nGambero Rosso Gelaterie d'Italia, Due Coni (2020 edition; current scheda page fetched but icon not re-confirmed in that snapshot -- likely unchanged, not independently re-verified).",
         "secondary_tags": "gambero rosso; due coni",
         "city": "Rome"
       },
@@ -46764,7 +46693,7 @@
         "name": "Cremeria Aurelia",
         "category": "Dessert",
         "signal": "Medium",
-        "description": "Via Aurelia 388/B, 00167.\n\nGambero Rosso Gelaterie d'Italia, Due Coni -- sourced from the 2020 edition (Wayback Machine snapshot, guide was briefly unpaywalled). Current 2027-edition status NOT independently confirmed -- treat as a lead to verify, not a locked-in current tier. Added 2026-08-04, coords unknown, needs geocoding.",
+        "description": "Via Aurelia 388/B, 00167.\n\nGambero Rosso Gelaterie d'Italia, Due Coni. Current 2027-edition status NOT independently confirmed -- treat as a lead to verify, not a locked-in current tier.",
         "secondary_tags": "gambero rosso; due coni; historical-2020-unconfirmed-current",
         "city": "Rome"
       },
@@ -46782,7 +46711,7 @@
         "name": "DaRe",
         "category": "Dessert",
         "signal": "Medium",
-        "description": "Via Bisagno 19, 00198.\n\nGambero Rosso Gelaterie d'Italia, Due Coni -- sourced from the 2020 edition (Wayback Machine snapshot, guide was briefly unpaywalled). Current 2027-edition status NOT independently confirmed -- treat as a lead to verify, not a locked-in current tier. Added 2026-08-04, coords unknown, needs geocoding.",
+        "description": "Via Bisagno 19, 00198.\n\nGambero Rosso Gelaterie d'Italia, Due Coni. Current 2027-edition status NOT independently confirmed -- treat as a lead to verify, not a locked-in current tier.",
         "secondary_tags": "gambero rosso; due coni; historical-2020-unconfirmed-current",
         "city": "Rome"
       },
@@ -46800,7 +46729,7 @@
         "name": "Gelateria del Teatro",
         "category": "Dessert",
         "signal": "Medium",
-        "description": "Via dei Coronari 65/66, 00186 (near Piazza Navona).\n\nGambero Rosso Gelaterie d'Italia, Due Coni -- sourced from the 2020 edition (Wayback Machine snapshot, guide was briefly unpaywalled). Current 2027-edition status NOT independently confirmed -- treat as a lead to verify, not a locked-in current tier. Added 2026-08-04, coords unknown, needs geocoding.",
+        "description": "Via dei Coronari 65/66, 00186 (near Piazza Navona).\n\nGambero Rosso Gelaterie d'Italia, Due Coni. Current 2027-edition status NOT independently confirmed -- treat as a lead to verify, not a locked-in current tier.",
         "secondary_tags": "gambero rosso; due coni; historical-2020-unconfirmed-current",
         "city": "Rome"
       },
@@ -46818,7 +46747,7 @@
         "name": "Gelato San Lorenzo",
         "category": "Dessert",
         "signal": "Medium",
-        "description": "Via Tiburtina 190, 00185.\n\nGambero Rosso Gelaterie d'Italia, Due Coni -- sourced from the 2020 edition (Wayback Machine snapshot, guide was briefly unpaywalled). Current 2027-edition status NOT independently confirmed -- treat as a lead to verify, not a locked-in current tier. Added 2026-08-04, coords unknown, needs geocoding.",
+        "description": "Via Tiburtina 190, 00185.\n\nGambero Rosso Gelaterie d'Italia, Due Coni. Current 2027-edition status NOT independently confirmed -- treat as a lead to verify, not a locked-in current tier.",
         "secondary_tags": "gambero rosso; due coni; historical-2020-unconfirmed-current",
         "city": "Rome"
       },
@@ -46836,7 +46765,7 @@
         "name": "Il Gelato di San Crispino",
         "category": "Dessert",
         "signal": "Medium",
-        "description": "Piazza della Maddalena 3, 00186 (near Pantheon).\n\nGambero Rosso Gelaterie d'Italia, Due Coni -- sourced from the 2020 edition (Wayback Machine snapshot, guide was briefly unpaywalled). Current 2027-edition status NOT independently confirmed -- treat as a lead to verify, not a locked-in current tier. Added 2026-08-04, coords unknown, needs geocoding.",
+        "description": "Piazza della Maddalena 3, 00186 (near Pantheon).\n\nGambero Rosso Gelaterie d'Italia, Due Coni. Current 2027-edition status NOT independently confirmed -- treat as a lead to verify, not a locked-in current tier.",
         "secondary_tags": "gambero rosso; due coni; historical-2020-unconfirmed-current",
         "city": "Rome"
       },
@@ -46854,7 +46783,7 @@
         "name": "L'Officina - Gelato&Bakery",
         "category": "Dessert",
         "signal": "Medium",
-        "description": "Viale Aurelio Galleppini 13, 00127.\n\nGambero Rosso Gelaterie d'Italia, Due Coni -- sourced from the 2020 edition (Wayback Machine snapshot, guide was briefly unpaywalled). Current 2027-edition status NOT independently confirmed -- treat as a lead to verify, not a locked-in current tier. Added 2026-08-04, coords unknown, needs geocoding.",
+        "description": "Viale Aurelio Galleppini 13, 00127.\n\nGambero Rosso Gelaterie d'Italia, Due Coni. Current 2027-edition status NOT independently confirmed -- treat as a lead to verify, not a locked-in current tier.",
         "secondary_tags": "gambero rosso; due coni; historical-2020-unconfirmed-current",
         "city": "Rome"
       },
@@ -46872,7 +46801,7 @@
         "name": "Ristoro La Dispensa",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Via Boccea 1401, Aurelio/GRA edge.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- sourced from a Wayback Machine snapshot of a GR roundup page dated Nov 2020 but still live with 2025 copyright footer; tier not independently reconfirmed per-venue against the newest edition, treat as a solid lead not a locked-in current tier. Added 2026-08-04, coords approximate from search snippet.",
+        "description": "Via Boccea 1401, Aurelio/GRA edge.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead).",
         "secondary_tags": "gambero rosso; due spicchi",
         "city": "Rome"
       },
@@ -46890,7 +46819,7 @@
         "name": "Eataly Roma",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Piazzale XII Ottobre 1492, Garbatella/Ostiense.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- sourced from a Wayback Machine snapshot of a GR roundup page dated Nov 2020 but still live with 2025 copyright footer; tier not independently reconfirmed per-venue against the newest edition, treat as a solid lead not a locked-in current tier. Added 2026-08-04, coords approximate from search snippet.",
+        "description": "Piazzale XII Ottobre 1492, Garbatella/Ostiense.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead).",
         "secondary_tags": "gambero rosso; due spicchi",
         "city": "Rome"
       },
@@ -46908,7 +46837,7 @@
         "name": "Emma Pizzeria",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Via Monte della Farina 28, Centro Storico.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- sourced from a Wayback Machine snapshot of a GR roundup page dated Nov 2020 but still live with 2025 copyright footer; tier not independently reconfirmed per-venue against the newest edition, treat as a solid lead not a locked-in current tier. Walkable from 9Hotel Cesari/Pantheon cluster. Added 2026-08-04, coords approximate from search snippet.",
+        "description": "Via Monte della Farina 28, Centro Storico.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead). Walkable from 9Hotel Cesari/Pantheon cluster.",
         "secondary_tags": "gambero rosso; due spicchi",
         "city": "Rome"
       },
@@ -46926,7 +46855,7 @@
         "name": "Farine La Pizza",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Via degli Aurunci 6, San Lorenzo.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- sourced from a Wayback Machine snapshot of a GR roundup page dated Nov 2020 but still live with 2025 copyright footer; tier not independently reconfirmed per-venue against the newest edition, treat as a solid lead not a locked-in current tier. Added 2026-08-04, coords approximate from search snippet.",
+        "description": "Via degli Aurunci 6, San Lorenzo.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead).",
         "secondary_tags": "gambero rosso; due spicchi",
         "city": "Rome"
       },
@@ -46944,7 +46873,7 @@
         "name": "Al Grottino",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Via Orvieto 6, Piazza Bologna.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- sourced from a Wayback Machine snapshot of a GR roundup page dated Nov 2020 but still live with 2025 copyright footer; tier not independently reconfirmed per-venue against the newest edition, treat as a solid lead not a locked-in current tier. Added 2026-08-04, coords approximate from search snippet.",
+        "description": "Via Orvieto 6, Piazza Bologna.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead).",
         "secondary_tags": "gambero rosso; due spicchi",
         "city": "Rome"
       },
@@ -46962,7 +46891,7 @@
         "name": "Lievito Madre a Roma (Sorbillo)",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Piazza Augusto Imperatore 46, Centro Storico.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- sourced from a Wayback Machine snapshot of a GR roundup page dated Nov 2020 but still live with 2025 copyright footer; tier not independently reconfirmed per-venue against the newest edition, treat as a solid lead not a locked-in current tier. Verify still trading under this name before relying on it. Added 2026-08-04, coords approximate from search snippet.",
+        "description": "Piazza Augusto Imperatore 46, Centro Storico.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead). Verify still trading under this name before relying on it.",
         "secondary_tags": "gambero rosso; due spicchi",
         "city": "Rome"
       },
@@ -46980,7 +46909,7 @@
         "name": "La Mangiatoia",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Via dei Due Ponti 181, Due Ponti/Flaminio Nord.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- sourced from a Wayback Machine snapshot of a GR roundup page dated Nov 2020 but still live with 2025 copyright footer; tier not independently reconfirmed per-venue against the newest edition, treat as a solid lead not a locked-in current tier. Added 2026-08-04, coords approximate from search snippet.",
+        "description": "Via dei Due Ponti 181, Due Ponti/Flaminio Nord.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead).",
         "secondary_tags": "gambero rosso; due spicchi",
         "city": "Rome"
       },
@@ -46998,7 +46927,7 @@
         "name": "Moma / GioMa Pizzeria Romana",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Via Calpurnio Fiamma 40, Cinecittà.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- sourced from a Wayback Machine snapshot of a GR roundup page dated Nov 2020 but still live with 2025 copyright footer; tier not independently reconfirmed per-venue against the newest edition, treat as a solid lead not a locked-in current tier. CONFIRMED 2026-08-04: GioMa is a rename of the same entity (same address, same wood-fired oven, described as the renovated former \"storica pizzeria Moma\") -- not a different venue, not a tier loss. Added 2026-08-04, coords approximate from search snippet.",
+        "description": "Via Calpurnio Fiamma 40, Cinecittà.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead). CONFIRMED 2026-08-04: GioMa is a rename of the same entity (same address, same wood-fired oven, described as the renovated former \"storica pizzeria Moma\") -- not a different venue, not a tier loss.",
         "secondary_tags": "gambero rosso; due spicchi",
         "city": "Rome"
       },
@@ -47016,7 +46945,7 @@
         "name": "La Pariolina",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Viale dei Parioli 93c, Parioli.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- sourced from a Wayback Machine snapshot of a GR roundup page dated Nov 2020 but still live with 2025 copyright footer; tier not independently reconfirmed per-venue against the newest edition, treat as a solid lead not a locked-in current tier. Added 2026-08-04, coords approximate from search snippet.",
+        "description": "Viale dei Parioli 93c, Parioli.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead).",
         "secondary_tags": "gambero rosso; due spicchi",
         "city": "Rome"
       },
@@ -47034,7 +46963,7 @@
         "name": "Angelo Pezzella",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Via Appia Nuova 1095, Capannelle, 00178.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- sourced from a Wayback Machine snapshot of a GR roundup page dated Nov 2020 but still live with 2025 copyright footer; tier not independently reconfirmed per-venue against the newest edition, treat as a solid lead not a locked-in current tier. Added 2026-08-04, coords unknown, needs geocoding.",
+        "description": "Via Appia Nuova 1095, Capannelle, 00178.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead).",
         "secondary_tags": "gambero rosso; due spicchi",
         "city": "Rome"
       },
@@ -47052,7 +46981,7 @@
         "name": "Piccolo Buco",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Via del Lavatore 91, Trevi.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- sourced from a Wayback Machine snapshot of a GR roundup page dated Nov 2020 but still live with 2025 copyright footer; tier not independently reconfirmed per-venue against the newest edition, treat as a solid lead not a locked-in current tier. Corroborated by an independent romeing.it roundup, not just the GR list -- somewhat stronger signal. Near the Trevi/Pantheon cluster. Added 2026-08-04, coords approximate from search snippet.",
+        "description": "Via del Lavatore 91, Trevi.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead). Corroborated by an independent romeing.it roundup, not just the GR list -- somewhat stronger signal. Near the Trevi/Pantheon cluster.",
         "secondary_tags": "gambero rosso; due spicchi",
         "city": "Rome"
       },
@@ -47070,7 +46999,7 @@
         "name": "I Quintili",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Via San Biagio Platani 320, Tor Bella Monaca (2nd loc. Furio Camillo/EUR).\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- sourced from a Wayback Machine snapshot of a GR roundup page dated Nov 2020 but still live with 2025 copyright footer; tier not independently reconfirmed per-venue against the newest edition, treat as a solid lead not a locked-in current tier. Added 2026-08-04, coords approximate from search snippet.",
+        "description": "Via San Biagio Platani 320, Tor Bella Monaca (2nd loc. Furio Camillo/EUR).\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead).",
         "secondary_tags": "gambero rosso; due spicchi",
         "city": "Rome"
       },
@@ -47088,7 +47017,7 @@
         "name": "Qvinto",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Via Fornaci di Tor di Quinto 10, Tor di Quinto.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- sourced from a Wayback Machine snapshot of a GR roundup page dated Nov 2020 but still live with 2025 copyright footer; tier not independently reconfirmed per-venue against the newest edition, treat as a solid lead not a locked-in current tier. Added 2026-08-04, coords approximate from search snippet.",
+        "description": "Via Fornaci di Tor di Quinto 10, Tor di Quinto.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead).",
         "secondary_tags": "gambero rosso; due spicchi",
         "city": "Rome"
       },
@@ -47106,7 +47035,7 @@
         "name": "A Rota",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Via di Tor Pignattara 190a, Tor Pignattara.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- sourced from a Wayback Machine snapshot of a GR roundup page dated Nov 2020 but still live with 2025 copyright footer; tier not independently reconfirmed per-venue against the newest edition, treat as a solid lead not a locked-in current tier. CONFIRMED 2026-08-04 open (active listings/Instagram/booking as of 2026) -- resolves the earlier closure conflict in favor of open. Added 2026-08-04, coords approximate from search snippet. ⚠️ Tier discrepancy found 2026-08-04: a 2026-dated source (cronachedigusto) lists A Rota as Tre Spicchi/90pts, not Due Spicchi as sourced above -- unresolved, worth a direct check before relying on either tier.",
+        "description": "Via di Tor Pignattara 190a, Tor Pignattara.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead). CONFIRMED 2026-08-04 open (active listings/Instagram/booking as of 2026) -- resolves the earlier closure conflict in favor of open. ⚠️ Tier discrepancy found 2026-08-04: a 2026-dated source (cronachedigusto) lists A Rota as Tre Spicchi/90pts, not Due Spicchi as sourced above -- unresolved, worth a direct check before relying on either tier.",
         "secondary_tags": "gambero rosso; due spicchi",
         "city": "Rome"
       },
@@ -47124,7 +47053,7 @@
         "name": "7cereali",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Via Isonzo 16, Pinciano/Salario.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- sourced from a Wayback Machine snapshot of a GR roundup page dated Nov 2020 but still live with 2025 copyright footer; tier not independently reconfirmed per-venue against the newest edition, treat as a solid lead not a locked-in current tier. Added 2026-08-04, coords approximate from search snippet.",
+        "description": "Via Isonzo 16, Pinciano/Salario.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead).",
         "secondary_tags": "gambero rosso; due spicchi",
         "city": "Rome"
       },
@@ -47142,7 +47071,7 @@
         "name": "Papanostro",
         "category": "Meal",
         "signal": "High",
-        "description": "Viale delle Orchidee 2, 00171, Centocelle.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- GR's own story article confirms \"won two slices\" in 2023. Higher confidence than the 2020-list batch -- this is the restaurant already flagged in an earlier task file as \"solid, current.\" Added 2026-08-04, coords approximate from search snippet, needs geocode verification.",
+        "description": "Viale delle Orchidee 2, 00171, Centocelle.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- GR's own story article confirms \"won two slices\" in 2023.",
         "secondary_tags": "gambero rosso; due spicchi",
         "city": "Rome"
       },
@@ -47160,7 +47089,7 @@
         "name": "Avenida Calo",
         "category": "Meal",
         "signal": "High",
-        "description": "Viale Pinturicchio 38, 00196, Flaminio.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- GR's own story article confirms it's in \"the latest\" guide (opened ~1yr before the article, likely current 2025/26 edition). Higher confidence than the 2020-list batch. Added 2026-08-04, coords approximate from search snippet, needs geocode verification.",
+        "description": "Viale Pinturicchio 38, 00196, Flaminio.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- GR's own story article confirms it's in \"the latest\" guide (opened ~1yr before the article, likely current 2025/26 edition). Higher confidence than the 2020-list batch.",
         "secondary_tags": "gambero rosso; due spicchi",
         "city": "Rome"
       },
@@ -47178,7 +47107,7 @@
         "name": "50 Kalo di Ciro Salvo",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Flavia 3b, Roma.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026, 91 points -- confirmed across multiple 2026-edition sources. Added 2026-08-04 via full-roster Gambero Rosso sweep -- coords unknown, needs geocoding (EU IP blocks scrape resolver, do not attempt while traveling). STYLE FLAG 2026-08-04: this is NEAPOLITAN style (Ciro Salvo is a Naples pizzaiolo, Michelin/50-Top-Pizza recognized for Neapolitan pizza) -- not Roman, do not recommend for \"Roman-style pizza\" asks.",
+        "description": "Via Flavia 3b, Roma.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026, 91 points -- confirmed across multiple 2026-edition sources. STYLE FLAG 2026-08-04: this is NEAPOLITAN style (Ciro Salvo is a Naples pizzaiolo, Michelin/50-Top-Pizza recognized for Neapolitan pizza) -- not Roman, do not recommend for \"Roman-style pizza\" asks.",
         "secondary_tags": "gambero rosso pizza",
         "city": "Rome"
       },
@@ -47196,7 +47125,7 @@
         "name": "Sbanco",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Siria 1, Roma (Appio-Latino).\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026, 91 points -- confirmed 2026 edition. Added 2026-08-04 via full-roster Gambero Rosso sweep -- coords unknown, needs geocoding (EU IP blocks scrape resolver, do not attempt while traveling). STYLE FLAG 2026-08-04: explicit Neapolitan/Roman HYBRID per press (\"blend of Neapolitan and Roman\") -- not purely Roman style.",
+        "description": "Via Siria 1, Roma (Appio-Latino).\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026, 91 points -- confirmed 2026 edition. STYLE FLAG 2026-08-04: explicit Neapolitan/Roman HYBRID per press (\"blend of Neapolitan and Roman\") -- not purely Roman style.",
         "secondary_tags": "gambero rosso pizza",
         "city": "Rome"
       },
@@ -47214,7 +47143,7 @@
         "name": "Extremis",
         "category": "Meal",
         "signal": "High",
-        "description": "Via del Casale Rocchi 22, Pietralata.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- plus won the 2026 special award \"Marinara dell'Anno\" (Pizza of the Year), a real distinguishing accolade beyond the base tier. Added 2026-08-04 via full-roster Gambero Rosso sweep -- coords unknown, needs geocoding (EU IP blocks scrape resolver, do not attempt while traveling).",
+        "description": "Via del Casale Rocchi 22, Pietralata.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- plus won the 2026 special award \"Marinara dell'Anno\" (Pizza of the Year), a real distinguishing accolade beyond the base tier.",
         "secondary_tags": "gambero rosso pizza",
         "city": "Rome"
       },
@@ -47232,7 +47161,7 @@
         "name": "L'Elementare",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Benedetta 23, Trastevere (flagship; also Testaccio, Parco Appio, Tuscolano/Don Bosco, San Giovanni locations).\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- confirmed for the 2025 edition, 2026 continuation not independently re-confirmed. Trastevere flagship is relevant if you're back in that neighborhood. Added 2026-08-04 via full-roster Gambero Rosso sweep -- coords unknown, needs geocoding (EU IP blocks scrape resolver, do not attempt while traveling).",
+        "description": "Via Benedetta 23, Trastevere (flagship; also Testaccio, Parco Appio, Tuscolano/Don Bosco, San Giovanni locations).\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- confirmed for the 2025 edition, 2026 continuation not independently re-confirmed. Trastevere flagship is relevant if you're back in that neighborhood.",
         "secondary_tags": "gambero rosso pizza",
         "city": "Rome"
       },
@@ -47250,7 +47179,7 @@
         "name": "Sforno",
         "category": "Meal",
         "signal": "Medium",
-        "description": "Via Statilio Ottato 110, Tuscolano/Don Bosco.\n\nHistorically cited as the FIRST-EVER Tre Spicchi winner in Italy (Stefano Callegari) -- no 2026-dated source confirms current tier, treat as a strong historical lead not a locked-in current designation. Added 2026-08-04 via full-roster Gambero Rosso sweep -- coords unknown, needs geocoding (EU IP blocks scrape resolver, do not attempt while traveling).",
+        "description": "Via Statilio Ottato 110, Tuscolano/Don Bosco.\n\nHistorically cited as the FIRST-EVER Tre Spicchi winner in Italy (Stefano Callegari) -- no 2026-dated source confirms current tier, treat as a strong historical lead not a locked-in current designation.",
         "secondary_tags": "gambero rosso pizza",
         "city": "Rome"
       },
@@ -47268,7 +47197,7 @@
         "name": "Sant'Isidoro - Pizza e Bolle",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Oslavia 41, Prati/Della Vittoria border, ~1.0km from NH Collection Roma Centro.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (sit-down) -- sister restaurant to San Martino Pizza e Bolle (Ostiense, Tre Spicchi). Real find near tonight's hotel. Added 2026-08-04 via Prati/Vatican-focused Gambero Rosso sweep -- coords unknown, needs geocoding.",
+        "description": "Via Oslavia 41, Prati/Della Vittoria border, ~1.0km from NH Collection Roma Centro.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (sit-down) -- sister restaurant to San Martino Pizza e Bolle (Ostiense, Tre Spicchi). Real find near tonight's hotel.",
         "secondary_tags": "gambero rosso pizza; near NH hotel",
         "city": "Rome"
       },
@@ -47286,7 +47215,7 @@
         "name": "Allegrio",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Vittorio Veneto, Roma.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi, 93 points. Added 2026-08-04.",
+        "description": "Via Vittorio Veneto, Roma.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi, 93 points.",
         "secondary_tags": "gambero rosso pizza",
         "city": "Rome"
       },
@@ -47304,7 +47233,7 @@
         "name": "Diego Vitagliano Pizzeria (Roma)",
         "category": "Meal",
         "signal": "High",
-        "description": "Via Chiana 80, 00198, Coppede/Trieste.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi -- Diego Vitagliano is a Naples-based pizzaiolo (also #10 nationally on 50 Top Pizza), explicitly \"pizza napoletana contemporanea\" per Italian press -- NOT Roman style. Earlier Via Flaminia 521-525 location appears superseded by this Coppede address. Added 2026-08-04.",
+        "description": "Via Chiana 80, 00198, Coppede/Trieste.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi -- Diego Vitagliano is a Naples-based pizzaiolo (also #10 nationally on 50 Top Pizza), explicitly \"pizza napoletana contemporanea\" per Italian press -- NOT Roman style. Earlier Via Flaminia 521-525 location appears superseded by this Coppede address.",
         "secondary_tags": "gambero rosso pizza",
         "city": "Rome"
       },
@@ -47322,7 +47251,7 @@
         "name": "Pizzeria da Baffetto",
         "category": "Meal",
         "signal": "High",
-        "description": "Via del Governo Vecchio 114, near Piazza Navona.\n\nThe iconic old-school Roman pizzeria -- thin, crispy, no-frills, cracker-crust tonda romana. Been doing this since before the gourmet-pizza scene existed. Expect a line, best ~6pm before the rush. Added 2026-08-04, verified genuinely Roman-style (not Neapolitan) per direct research.",
+        "description": "Via del Governo Vecchio 114, near Piazza Navona.\n\nThe iconic old-school Roman pizzeria -- thin, crispy, no-frills, cracker-crust tonda romana. Been doing this since before the gourmet-pizza scene existed. Expect a line, best ~6pm before the rush.",
         "secondary_tags": "roman-style pizza; verified",
         "city": "Rome"
       },
@@ -47340,7 +47269,7 @@
         "name": "La Pratolina",
         "category": "Meal",
         "signal": "High",
-        "description": "Via degli Scipioni 248, Prati, near NH Collection Roma Centro.\n\nServing Roman-style pizza since 2001. CAVEAT: specializes in pinsa, which is oval-shaped and a modern (2001-invented) product distinct from round pizza tonda romana, despite \"ancient Roman\" marketing -- doesn't match a \"round pizza\" ask specifically, know this before going. Added 2026-08-04, verified genuinely Roman-style (not Neapolitan) per direct research.",
+        "description": "Via degli Scipioni 248, Prati, near NH Collection Roma Centro.\n\nServing Roman-style pizza since 2001. CAVEAT: specializes in pinsa, which is oval-shaped and a modern (2001-invented) product distinct from round pizza tonda romana, despite \"ancient Roman\" marketing -- doesn't match a \"round pizza\" ask specifically, know this before going.",
         "secondary_tags": "roman-style pizza; verified",
         "city": "Rome"
       },
@@ -47358,7 +47287,7 @@
         "name": "La Montecarlo",
         "category": "Meal",
         "signal": "High",
-        "description": "Vicolo Savelli 13, near Piazza Navona.\n\nGenuinely Roman-style pizza -- thin, crispy dough, operating at this same location since 1986. Gambero Rosso has run an editorial feature on it (not confirmed as a Spicchi-tiered rating, but real institutional coverage). Casual neighborhood spot, can be chaotic/noisy at peak times. Closed Mondays. Added 2026-08-04.",
+        "description": "Vicolo Savelli 13, near Piazza Navona.\n\nGenuinely Roman-style pizza -- thin, crispy dough, operating at this same location since 1986. Gambero Rosso has run an editorial feature on it (not confirmed as a Spicchi-tiered rating, but real institutional coverage). Casual neighborhood spot, can be chaotic/noisy at peak times. Closed Mondays.",
         "secondary_tags": "pizza",
         "city": "Rome"
       },
@@ -47376,7 +47305,7 @@
         "name": "Mariuccia",
         "category": "Meal",
         "signal": "High",
-        "description": "Piazza della Cancelleria 92.\n\nSTYLE FLAG: marketed as Roman but crust described as \"thin in the center, delicately puffy outside\" -- that puffy-edge trait is Neapolitan, not classic Roman tonda, same pattern as Vico/Sbanco. Heavily trafficked (40min wait typical, reservations recommended). Same piazza as the Aug 4 Grappolo d'Oro dinner (Piazza della Cancelleria 80) -- literally next door if you end up there anyway. Added 2026-08-04.",
+        "description": "Piazza della Cancelleria 92.\n\nSTYLE FLAG: marketed as Roman but crust described as \"thin in the center, delicately puffy outside\" -- that puffy-edge trait is Neapolitan, not classic Roman tonda, same pattern as Vico/Sbanco. Heavily trafficked (40min wait typical, reservations recommended). Same piazza as the Aug 4 Grappolo d'Oro dinner (Piazza della Cancelleria 80) -- literally next door if you end up there anyway.",
         "secondary_tags": "pizza",
         "city": "Rome"
       },
@@ -47502,7 +47431,7 @@
         "name": "Cafe Merenda",
         "category": "Dessert",
         "signal": "High",
-        "description": "Via del Gazometro 5a, Ostiense/Gazometro.\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. Sicily-native pastry chef Chiara Caruso, tall fragrant maritozzi with generous fresh whipped cream. Added 2026-08-04.",
+        "description": "Via del Gazometro 5a, Ostiense/Gazometro.\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. Sicily-native pastry chef Chiara Caruso, tall fragrant maritozzi with generous fresh whipped cream.",
         "secondary_tags": "maritozzo; gambero rosso",
         "city": "Rome"
       },
@@ -47520,7 +47449,7 @@
         "name": "Casa Manfredi",
         "category": "Dessert",
         "signal": "High",
-        "description": "Viale Aventino 91/93, Aventino (2nd loc. Via dei Conciatori 5).\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. Glossy maritozzi with whipped cream and powdered sugar, by Giorgia Proia. Added 2026-08-04.",
+        "description": "Viale Aventino 91/93, Aventino (2nd loc. Via dei Conciatori 5).\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. Glossy maritozzi with whipped cream and powdered sugar, by Giorgia Proia.",
         "secondary_tags": "maritozzo; gambero rosso",
         "city": "Rome"
       },
@@ -47538,7 +47467,7 @@
         "name": "CON.TRO Contemporary Bistrot",
         "category": "Dessert",
         "signal": "High",
-        "description": "Via dell'Acquedotto del Peschiera 156, Monte Mario.\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. Light, airy maritozzi generously filled with fresh cream. Added 2026-08-04.",
+        "description": "Via dell'Acquedotto del Peschiera 156, Monte Mario.\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. Light, airy maritozzi generously filled with fresh cream.",
         "secondary_tags": "maritozzo; gambero rosso",
         "city": "Rome"
       },
@@ -47556,7 +47485,7 @@
         "name": "Gastromario",
         "category": "Dessert",
         "signal": "High",
-        "description": "Via Voghera 10, San Giovanni.\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. Cafe/bistrot, maritozzi always available Saturdays. Added 2026-08-04.",
+        "description": "Via Voghera 10, San Giovanni.\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. Cafe/bistrot, maritozzi always available Saturdays.",
         "secondary_tags": "maritozzo; gambero rosso",
         "city": "Rome"
       },
@@ -47574,7 +47503,7 @@
         "name": "Grue",
         "category": "Dessert",
         "signal": "High",
-        "description": "Viale Regina Margherita 95, Nomentano/Trieste.\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. High-end pasticceria, traditional cream-filled + a custard-filled variation on soft tight-crumb bread. Added 2026-08-04.",
+        "description": "Viale Regina Margherita 95, Nomentano/Trieste.\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. High-end pasticceria, traditional cream-filled + a custard-filled variation on soft tight-crumb bread.",
         "secondary_tags": "maritozzo; gambero rosso",
         "city": "Rome"
       },
@@ -47592,7 +47521,7 @@
         "name": "Maritozzo Rosso (Trastevere)",
         "category": "Dessert",
         "signal": "High",
-        "description": "Vicolo del Cedro 26, Trastevere.\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. Specializes in SAVORY maritozzi (amatriciana, eggplant caponata, chicken curry apple, stracciatella anchovies) -- different register from the classic sweet version. Added 2026-08-04.",
+        "description": "Vicolo del Cedro 26, Trastevere.\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. Specializes in SAVORY maritozzi (amatriciana, eggplant caponata, chicken curry apple, stracciatella anchovies) -- different register from the classic sweet version.",
         "secondary_tags": "maritozzo; gambero rosso",
         "city": "Rome"
       },
@@ -47610,7 +47539,7 @@
         "name": "Pasticceria Walter Musco",
         "category": "Dessert",
         "signal": "High",
-        "description": "Largo Benedetto Bompiani 8, Tor Marancia/Ardeatino.\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. Well-leavened, soft maritozzi, non-cloying fresh whipped cream. Added 2026-08-04.",
+        "description": "Largo Benedetto Bompiani 8, Tor Marancia/Ardeatino.\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. Well-leavened, soft maritozzi, non-cloying fresh whipped cream.",
         "secondary_tags": "maritozzo; gambero rosso",
         "city": "Rome"
       },
@@ -47647,7 +47576,7 @@
         "name": "L'Arcangelo Vino e Cucina",
         "category": "Meal",
         "signal": "High",
-        "description": "Prati trattoria helmed by chef Arcangelo Dandini, a standard-bearer for traditional Roman cuisine (rigatoni alla carbonara made with Pastificio dei Campi pasta is the signature order). Closed Sundays, dinner 19:15-22:45.\n\nGambero Rosso Trattoria Premiata designation (confirmed via Gambero Rosso's own listing page). No Michelin star confirmed. Previously sourced only via a friend's (Alex) recommendation, not independently cross-checked -- upgraded 2026-08-11 with a real institutional tier.",
+        "description": "Prati trattoria helmed by chef Arcangelo Dandini, a standard-bearer for traditional Roman cuisine (rigatoni alla carbonara made with Pastificio dei Campi pasta is the signature order). Closed Sundays, dinner 19:15-22:45.\n\nGambero Rosso Trattoria Premiata designation (confirmed via Gambero Rosso's own listing page). No Michelin star confirmed.",
         "secondary_tags": "trattoria; gambero rosso; prati; dandini",
         "city": "Rome",
         "google_place_id": "ChIJl9bqGllgLxMRogJGIa2KNkk"
