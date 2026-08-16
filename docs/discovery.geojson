@@ -6549,6 +6549,7 @@
         "name": "Sammy’s Halal",
         "category": "Meal",
         "signal": "Low",
+        "description": "Sammy's Halal cart location. No location-specific vouch -- the Sammy's reputation belongs to the Jackson Heights original (which locals say has declined) and the West Village cart. Sustenance marker, not a recommendation.",
         "city": "NYC",
         "google_place_id": "ChIJUerMWapZwokR3ZMk8ytvdks",
         "temporarily_closed": true
@@ -6567,6 +6568,7 @@
         "name": "Sammy's Halal",
         "category": "Meal",
         "signal": "Low",
+        "description": "Sammy's Halal cart location. No location-specific vouch -- the Sammy's reputation belongs to the Jackson Heights original (which locals say has declined) and the West Village cart. Sustenance marker, not a recommendation.",
         "city": "NYC",
         "google_place_id": "ChIJUerMWapZwokR3ZMk8ytvdks"
       },
@@ -6583,8 +6585,8 @@
       "properties": {
         "name": "Sammy’s Halal food",
         "category": "Meal",
-        "signal": "High",
-        "description": "Understandably one of the best known halal trucks in NYC, Sammy's has a great lamb over rice plate. Even more rare is finding juicy, flavorful chicken from a halal truck, and that's really where Sammy's sits on a level of their own, especially if you add their unique green sauce to the mix. I'd go extra on the red sauce as it wasn't too spicy.",
+        "signal": "Low",
+        "description": "Halal cart at 6th Ave & W 4th. The Sammy's location New Yorkers actually rate now -- green sauce and hot sauce are the draw. Neighbourhood-good, not a destination: go if you're nearby, don't cross town.",
         "city": "NYC",
         "google_place_id": "ChIJIxRwYJFZwokRf7ywCaYQB_k"
       },
@@ -6601,8 +6603,8 @@
       "properties": {
         "name": "Sammy's Halal Food",
         "category": "Meal",
-        "signal": "High",
-        "description": "Understandably one of the best known halal trucks in NYC, Sammy's has a great lamb over rice plate. Even more rare is finding juicy, flavorful chicken from a halal truck, and that's really where Sammy's sits on a level of their own, especially if you add their unique green sauce to the mix. I'd go extra on the red sauce as it wasn't too spicy. Overall, a great, great truck, and well worth the trip if you're coming from Manhattan, especially if you hit up Merit Kebab for chai + sweets after...",
+        "signal": "Low",
+        "description": "Sammy's Halal cart location. No location-specific vouch -- the Sammy's reputation belongs to the Jackson Heights original (which locals say has declined) and the West Village cart. Sustenance marker, not a recommendation.",
         "city": "NYC",
         "google_place_id": "ChIJUerMWapZwokR3ZMk8ytvdks",
         "temporarily_closed": true
@@ -6618,29 +6620,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Sammy’s Halal Food",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Understandably one of the best known halal trucks in NYC, Sammy's has a great lamb over rice plate. Even more rare is finding juicy, flavorful chicken from a halal truck, and that's really where Sammy's sits on a level of their own, especially if you add their unique green sauce to the mix. I'd go extra on the red sauce as it wasn't too spicy.",
-        "city": "NYC",
-        "google_place_id": "ChIJS36lfQpfwokRA1cAPpT3zUo",
-        "temporarily_closed": true
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.958668,
-          40.7171544
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Sammy's Halal Food",
         "category": "Meal",
-        "signal": "High",
-        "description": "Understandably one of the best known halal trucks in NYC, Sammy's has a great lamb over rice plate. Even more rare is finding juicy, flavorful chicken from a halal truck, and that's really where Sammy's sits on a level of their own, especially if you add their unique green sauce to the mix. I'd go extra on the red sauce as it wasn't too spicy. Overall, a great, great truck, and well worth the trip if you're coming from Manhattan, especially if you hit up Merit Kebab for chai + sweets after...",
+        "signal": "Low",
+        "description": "The original Sammy's cart, 73rd & Broadway -- won the 2006 Vendy under the current owner's father. Locals say it has dropped off since, though still better than most. Sustenance marker, not a destination.",
         "city": "NYC",
         "google_place_id": "ChIJS36lfQpfwokRA1cAPpT3zUo"
       },
