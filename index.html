@@ -39,7 +39,16 @@
           <button id="details-close" type="button" aria-label="Close details">×</button>
         </div>
         <div id="details-meta" class="details-meta"></div>
-        <p id="details-description" class="details-description"></p>
+        <div id="details-scroll" class="details-scroll">
+          <section id="details-take-block" class="details-take" hidden>
+            <h3 class="details-label details-label--take">My take</h3>
+            <p id="details-take" class="details-take-body"></p>
+          </section>
+          <section id="details-notes-block">
+            <h3 id="details-notes-label" class="details-label" hidden>Notes</h3>
+            <p id="details-description" class="details-description"></p>
+          </section>
+        </div>
         <a id="google-link" class="primary-action" href="#" target="_blank" rel="noopener">Open in Google Maps</a>
       </aside>
 

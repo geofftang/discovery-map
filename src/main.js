@@ -67,6 +67,9 @@ const elements = {
   detailsName: document.querySelector('#details-name'),
   detailsMeta: document.querySelector('#details-meta'),
   detailsDescription: document.querySelector('#details-description'),
+  detailsTake: document.querySelector('#details-take'),
+  detailsTakeBlock: document.querySelector('#details-take-block'),
+  detailsNotesLabel: document.querySelector('#details-notes-label'),
   detailsClose: document.querySelector('#details-close'),
   googleLink: document.querySelector('#google-link'),
 };
@@ -171,6 +174,7 @@ function searchableText(feature) {
     props.name,
     props.category,
     props.description,
+    props.my_take,
     props.secondary_tags,
     props.city,
   ].filter(Boolean).join(' '));
@@ -331,7 +335,20 @@ function openDetails(feature) {
   if (props.signal) elements.detailsMeta.appendChild(pill(props.signal, 'subtle'));
   tags.forEach((tag) => elements.detailsMeta.appendChild(pill(tag, 'subtle')));
 
-  elements.detailsDescription.textContent = detailLines.length ? detailLines.join('\n\n') : 'No notes yet.';
+  // Two separate blocks, not one string with a separator in it. The user's own
+  // verdict and third-party sourced notes are different things and answer
+  // different questions; merging them re-creates the mixed-purpose field the
+  // schema split exists to avoid. textContent (not innerHTML) throughout —
+  // this text comes from a CSV, so rendering it as markup would be an
+  // injection hole.
+  const take = props.my_take;
+  elements.detailsTakeBlock.hidden = !take;
+  elements.detailsTake.textContent = take || '';
+
+  const notes = detailLines.length ? detailLines.join('\n\n') : '';
+  // Only label the notes when there is a take to distinguish them from.
+  elements.detailsNotesLabel.hidden = !(take && notes);
+  elements.detailsDescription.textContent = notes || (take ? '' : 'No notes yet.');
   elements.googleLink.href = googleMapsUrl(feature);
   elements.details.hidden = false;
 }

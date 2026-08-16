@@ -383,10 +383,47 @@ select {
   color: #b45309;
 }
 
-.details-description {
+/* Scroll container for the two content blocks (my take + notes). */
+.details-scroll {
   flex: 1;
   overflow-y: auto;
   margin: 0 0 14px;
+  min-height: 0;
+}
+
+.details-label {
+  margin: 0 0 4px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.details-label--take {
+  color: var(--accent-strong);
+}
+
+/* The user's own verdict: accent rule + tinted ground, so it reads as a
+   different kind of statement from the sourced notes below it. */
+.details-take {
+  margin: 0 0 14px;
+  padding: 8px 0 8px 12px;
+  border-left: 3px solid var(--accent);
+  background: linear-gradient(90deg, var(--subtle), transparent 85%);
+  border-radius: 0 4px 4px 0;
+}
+
+.details-take-body {
+  margin: 0;
+  color: var(--ink);
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.details-description {
+  margin: 0;
   color: #303b44;
   font-size: 14px;
   line-height: 1.45;

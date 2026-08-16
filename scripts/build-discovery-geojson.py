@@ -24,6 +24,7 @@ PUBLIC_FIELDS = {
     "category": "Category",
     "signal": "Signal",
     "description": "Description",
+    "my_take": "My_Take",
     "secondary_tags": "Secondary Tags",
     "city": "City",
 }
@@ -37,6 +38,7 @@ KNOWN_COLUMNS = {
     "Hours_Summary", "Last_Updated_At", "Sanity_Status", "Listing_Status",
     "Listing_Verified_At", "Google_Details_Refreshed_At", "Verification_Note",
     "Other_Branches", "Flags", "Business_Status", "Review_Count", "Hours_Weekly",
+    "Visibility", "My_Take",
 }
 
 # Patterns that must NEVER appear in the public artifact. Fail closed if seen.
@@ -119,6 +121,16 @@ def build_feature(row):
     # closed 3+ years, reopening under different management) rendered identically
     # to open ones. Filter at the source, not with app-side styling.
     if clean_value(row.get("Listing_Status")) == "closed":
+        return None
+
+    # THE visibility gate. Single-purpose, human-written, read by nothing else.
+    # Every other filter here is a side effect of some unrelated concern --
+    # Listing_Status conflates identity/closure/publishing, Business_Status is
+    # Google's opinion. Those answer "what is true about this place?"; this one
+    # answers "do I want it on my map?", which is a different question and the
+    # only one a publish gate should actually ask. "This is fine, I just don't
+    # want it here" had no way to be said before.
+    if (clean_value(row.get("Visibility")) or "").lower() == "hide":
         return None
 
     # Second closure signal, independent of the first. Business_Status is what Google

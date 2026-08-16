@@ -135,6 +135,49 @@ def test_open_venues_carry_no_closure_flag():
         assert "temporarily_closed" not in feature["properties"]
 
 
+def test_visibility_hide_suppresses():
+    """The single-purpose, human-only publish gate.
+
+    Distinct from every other filter here: those answer "what is true about this
+    place", this answers "do I want it on my map". An operational, open,
+    correctly-identified venue must still be hideable.
+    """
+    row = {**SOURCE_ROW, "Listing_Status": "verified", "Business_Status": "OPERATIONAL",
+           "Visibility": "hide"}
+    assert build.build_feature(row) is None
+    # Case-insensitive, and blank/absent/show all publish.
+    assert build.build_feature({**SOURCE_ROW, "Visibility": "HIDE"}) is None
+    for value in ("show", "", None):
+        assert build.build_feature({**SOURCE_ROW, "Visibility": value}) is not None
+
+
+def test_visibility_is_never_published():
+    """Visibility gates the feed; it must not itself appear in the feed."""
+    feature = build.build_feature({**SOURCE_ROW, "Visibility": "show"})
+    assert "visibility" not in feature["properties"]
+    assert "Visibility" not in feature["properties"]
+
+
+def test_my_take_publishes_separately_from_description():
+    """My_Take is its own public field, not appended into description.
+
+    The whole point is that the app can render the user's own verdict as a
+    distinct block from third-party sourced notes. Merging them into one string
+    would recreate the mixed-purpose field this exists to avoid.
+    """
+    row = {**SOURCE_ROW, "My_Take": "Order the cumin flounder; skip the pumpkin."}
+    props = build.build_feature(row)["properties"]
+    assert props["my_take"] == "Order the cumin flounder; skip the pumpkin."
+    assert props["description"] == SOURCE_ROW["Description"]
+    assert "cumin flounder" not in props["description"]
+
+
+def test_my_take_absent_when_empty():
+    for value in ("", "   ", None):
+        props = build.build_feature({**SOURCE_ROW, "My_Take": value})["properties"]
+        assert "my_take" not in props
+
+
 def test_closure_check_is_not_substring_matched():
     # Guard the prefix match: a value merely CONTAINING "closed" is not a closure
     # signal, and a lowercase/mixed-case CLOSED_* still is.
