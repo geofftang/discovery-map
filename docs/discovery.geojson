@@ -38676,25 +38676,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Baohaus",
-        "category": "Meal",
-        "signal": "Medium",
-        "description": "Eddie Huang's Taiwanese/Chinese bao spot, reopened on St. Marks Place with a fuller menu blending his Taiwanese/Chinese roots with newer Italian/Mediterranean influences. Birdhaus Bao (fried chicken, $16/2) is back; standout new dish is ma po gnocchi ($29) — gnocchi treated like Korean rice cakes in a Sichuan-peppercorn sauce with Iberico pork and torched mozzarella.",
-        "secondary_tags": "Taiwanese; bao; Eddie Huang; East Village",
-        "city": "NYC",
-        "google_place_id": "ChIJ614hVBpZwokRiU-yPvA-o7k"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9845869,
-          40.7274705
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Huli Huli Hawaiian Rotisserie",
         "category": "Meal",
         "signal": "High",
@@ -38847,25 +38828,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Stefano Ferrara Gelato Lab",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "Katie Parla gelato pick. currently moving locations, per Katie Parla 2024.\n\nGambero Rosso Gelaterie d'Italia, Tre Coni (2027 edition, published June 2026). Verified 2026-08-04.",
-        "secondary_tags": "gelato; katie parla",
-        "city": "Rome",
-        "google_place_id": "ChIJ-4geDQCLJRMRqitPP25_yzU"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.4725196,
-          41.8645099
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Otaleg",
         "category": "Dessert",
         "signal": "High",
@@ -38879,25 +38841,6 @@
         "coordinates": [
           12.4704701,
           41.8881248
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Il Gelato di Claudio Torce'",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "Katie Parla gelato pick.\n\nGambero Rosso Gelaterie d'Italia, Tre Coni (2027 edition). Verified 2026-08-04.",
-        "secondary_tags": "gelato; katie parla",
-        "city": "Rome",
-        "google_place_id": "ChIJHYPT58xhLxMRY-4ppyv4BNs"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.4857652,
-          41.8814305
         ]
       }
     },
