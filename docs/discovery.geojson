@@ -39171,7 +39171,8 @@
         "description": "Katie Parla favorite wine bar. KP explicitly warns: do not eat the food there, wine only.",
         "secondary_tags": "wine bar; katie parla",
         "city": "Rome",
-        "google_place_id": "ChIJo3bi7n2KJRMRxqjt31VchNw"
+        "google_place_id": "ChIJo3bi7n2KJRMRxqjt31VchNw",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -39323,7 +39324,8 @@
         "description": "Wine and spirits shop. Katie Parla pick.",
         "secondary_tags": "shopping; wine; spirits; katie parla",
         "city": "Rome",
-        "google_place_id": "ChIJw_RJ-wlhLxMRnz6NiI2fGAw"
+        "google_place_id": "ChIJw_RJ-wlhLxMRnz6NiI2fGAw",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -39437,7 +39439,8 @@
         "description": "Gambero Rosso's own \"best supplì\" roundup pick.",
         "secondary_tags": "casual; street food; rome food.md research",
         "city": "Rome",
-        "google_place_id": "ChIJiVCg0jlgLxMR_FKfgfyzbS4"
+        "google_place_id": "ChIJiVCg0jlgLxMR_FKfgfyzbS4",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
