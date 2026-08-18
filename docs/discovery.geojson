@@ -44041,7 +44041,8 @@
         "description": "Tuscany-wide credential sweep pick, town: Florence.\n\nDesignations (2026): Michelin 2 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 2 star",
         "city": "Florence",
-        "google_place_id": "ChIJ4ZdxZQFUKhMRWpRqKWv90zI"
+        "google_place_id": "ChIJ4ZdxZQFUKhMRWpRqKWv90zI",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -44569,7 +44570,8 @@
         "description": "Tuscany-wide credential sweep pick, town: Seggiano.\n\nDesignations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Michelin 1 star",
         "city": "Seggiano",
-        "google_place_id": "ChIJV0mcDAVtKRMRjnfbvbfeS04"
+        "google_place_id": "ChIJV0mcDAVtKRMRjnfbvbfeS04",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
