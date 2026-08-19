@@ -397,23 +397,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Caracas Arepa Bar",
-        "category": "Meal",
-        "signal": "Low",
-        "city": "NYC",
-        "google_place_id": "ChIJDyuVOTFowokRxoNiIObm4Tk"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9853368,
-          40.7269388
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Di Fara Pizza",
         "category": "Meal",
         "signal": "High",
@@ -704,24 +687,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Gazala's Place",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Druse Israeli Food",
-        "city": "NYC",
-        "google_place_id": "ChIJzTGU4GxZwokRi7JGJTqGBtw"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.989908,
-          40.762707
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Sigiri",
         "category": "Meal",
         "signal": "High",
@@ -940,7 +905,8 @@
         "signal": "High",
         "description": "Baja Fish Taco",
         "city": "NYC",
-        "google_place_id": "ChIJYWxdtplZwokRvN8nXc1PFE0"
+        "google_place_id": "ChIJYWxdtplZwokRvN8nXc1PFE0",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -1671,7 +1637,8 @@
         "description": "Godly calzone with daily rotating ingredients:\n\nhttps://www.eater.com/best-american-restaurants-review/2018/9/4/17806442/best-calzone-new-york-city-brooklyn-ops\n\n  The Place to Go to Eat Pizza and Not Worry About Anything Else\nOps\nBushwick, Brooklyn\nWhen decision fatigue is the diagnosis, this buzzy Brooklyn pizza place is the cure. The menus are the size of Hallmark cards, featuring a short list of house cocktails, a handful of snacks, exactly one (always perfect) farmers’ market salad that changes daily, and the main event: a selection of perfectly blistered, thoughtfully topped, naturally leavened pizzas. There isn’t even a wine list to worry about. Tell your server what you like, and they’ll bring you tastes from the ever-changing lineup of natural wines—$14 per glass, $50 per bottle, always.\n✵ Order: the salad (large), the Square (tomatoes, house mozzarella, olives, basil, oregano), Juno (broccoli rabe, potatoes, provola, ricotta salata), and Pops (tomatoes, house mozzarella, guanciale, onions, pecorino) pies.\n\n--\n\nFor years, “Bushwick pizzeria” was synonymous with Roberta’s, the national chain that started with a single location here in 2008. More than a decade later, lots of locals think of Ops. The pizzeria was started in 2016 by sommelier Marie Tribouilloy and Mike Fadem, who previously worked for Andrew Tarlow; and Gavin Compton of Variety Coffee next door. Today, you’ll still find a brief menu of sourdough pies decorated with guanciale, broccoli rabe, and preserved tomatoes. The calzone might be the best of all.\n\n---\n\nWith a tiled pizza oven that keeps its surroundings more than snug, Ops has been leading the pack of Brooklyn sourdough pizza aficionados since it opened in 2016. And in true Bushwick fashion (read: a converted garage space made extra cozy), Ops puts on a spell with its bricked-up interior and a warm staff who’ll happily guide you through their no-wine-list, tell-us-what-you-like, we’ll-pour philosophy.\n\nThe coziest dish: The Juno pie, an Ops standby, which comes topped with broccoli rabe, ricotta salata, provolone, and potatoes, and which you should absolutely add sausage to.",
         "secondary_tags": "pizza;owner-priority",
         "city": "NYC",
-        "google_place_id": "ChIJl3Fhlh5cwokRQEja9nTWRv4"
+        "google_place_id": "ChIJl3Fhlh5cwokRQEja9nTWRv4",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -45563,7 +45530,8 @@
         "description": "Tuscany-wide credential sweep pick, town: Pratovecchio Stia (AR).\n\nDesignations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Meal; Slow Food Chiocciola 2026",
         "city": "Pratovecchio Stia (AR)",
-        "google_place_id": "ChIJsamw9-SfKxMRBPeeFzJLLaU"
+        "google_place_id": "ChIJsamw9-SfKxMRBPeeFzJLLaU",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
