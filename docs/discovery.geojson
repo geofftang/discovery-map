@@ -1765,7 +1765,8 @@
         "description": "The Place for When You Want to Pick Your Own Fish and Tell the Chefs How to Cook It\nAstoria Seafood\nLong Island City, Queens\nThere won’t be a moment of serenity during your time at this Greek BYOB. Counter staff shout orders to cooks. Chefs shout at waiters. Guests shout to one another. It’s loud. And it’s fun. Especially because you get to walk alongside the beds of ice and choose whichever fish, bivalves, and shellfish look good, and then tell the staff how to cook them. You hold all the cards, especially since it’s a BYOB.\n✵ Order: Grilled octopus, fried shrimp, grilled fish with lemon and herbs, and a large Greek salad.\n\nSeafood feast and lemon potatoes, best dining experience I've had in Astoria and extremely reasonable, BYO",
         "secondary_tags": "seafood;astoria;owner-priority",
         "city": "NYC",
-        "google_place_id": "ChIJ-ecLnC5fwokRTsOuoOsTC6U"
+        "google_place_id": "ChIJ-ecLnC5fwokRTsOuoOsTC6U",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -1857,7 +1858,8 @@
         "description": "(overly) popular, second to gregory and tellys\n\ngood calamari, delicious galaktaboureko for dessert",
         "secondary_tags": "greek;astoria;owner-priority",
         "city": "NYC",
-        "google_place_id": "ChIJ90pvtWdfwokRw86tuNLCG7g"
+        "google_place_id": "ChIJ90pvtWdfwokRw86tuNLCG7g",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
