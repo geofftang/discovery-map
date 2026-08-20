@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build the PUBLIC discovery-map GeoJSON from the private master-discovery CSV.
 
-Egress boundary — see `system/data-engineering-patterns.md` §F "Public-egress
+Egress boundary — see `system/patterns/data-engineering-patterns.md` §F "Public-egress
 projection". The public artifact is a POSITIVE ALLOWLIST projection: every public
 field is constructed explicitly from PUBLIC_FIELDS, never the private row with
 sensitive fields removed. A new column in the source CSV is therefore excluded by
