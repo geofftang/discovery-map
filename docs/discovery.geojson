@@ -2549,7 +2549,8 @@
         "signal": "High",
         "description": "pastrami\n\nmultiple vouches\n\nSecond Avenue Deli for the corned beef on rye with Russian or Thousand Island dressing and their matzo ball soup. Second Avenue Deli is definitely my favorite matzo ball soup.\n\nThis Kosher institution is one of the top places to find reliable Jewish deli fare on the Upper East Side. The classics are all there — pastrami and corned beef sandwiches and matzo ball soup — as well as more traditional dishes that are harder to find, like ptcha (jellied calves feet) and kasha varnishkes (bow tie pasta with barley). The original Murray Hill restaurant expanded to this location in 2011, and in 2017 added an upstairs cocktail bar to entice a younger crowd.",
         "city": "NYC",
-        "google_place_id": "ChIJf2oHyMBYwokR_tIsXhKkGd8"
+        "google_place_id": "ChIJf2oHyMBYwokR_tIsXhKkGd8",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -2857,24 +2858,6 @@
         "coordinates": [
           -73.9421362,
           40.7491357
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Levante",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Pizza",
-        "city": "NYC",
-        "google_place_id": "ChIJzzk5JypZwokRQ0tuDC9Cwr8"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9416924,
-          40.747557
         ]
       }
     },
