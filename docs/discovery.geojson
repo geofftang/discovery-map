@@ -4386,24 +4386,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Hou Yi Hot Pot",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Our go-to hot pot restaurant, they run an all-you-can eat operation at a set price that varies by the day of the week (weekend pricing is higher due to demand). Their broths and sauces, while perhaps run-of-the-mill by domestic Chinese standards, still combine for a very satisfying meal. If you’re familiar with hot pot, this place should be a breeze. But if you’re not, check out this post for some tips on how to approach it. It’s a really fun meal to enjoy with a friend or five. (We are also fans of the hot pot at the nearby 99 Favor Taste and usually go to whichever has the shortest wait time.)",
-        "city": "NYC",
-        "google_place_id": "ChIJt4HiLyhawokRhJ8I8nMsxZg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.99257659999999,
-          40.7161827
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "99 Favor Taste",
         "category": "Meal",
         "signal": "Low",
