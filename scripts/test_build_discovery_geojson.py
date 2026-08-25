@@ -33,6 +33,9 @@ PRIVATE_COLUMNS = {
     "Listing_Status": "verified",
     "Verification_Note": "checked by geoff@example.com",
     "Flags": "internal-only",
+    # Private since 2026-08-23. Value deliberately carries the exact shapes that
+    # made publishing reviews unsafe: a third party's name and a gendered pronoun.
+    "My_Take": "Dana thought the potato was too much; she would not come back.",
 }
 SOURCE_ROW = {
     "Name": "Katz's Delicatessen",
@@ -60,8 +63,30 @@ def test_private_columns_never_appear():
     blob = repr(feature)
     for value in PRIVATE_COLUMNS.values():
         assert value not in blob, f"private value leaked into output: {value!r}"
-    for col in ("Obsidian Link", "Listing_Status", "Sanity_Status", "Flags"):
+    for col in ("Obsidian Link", "Listing_Status", "Sanity_Status", "Flags", "My_Take"):
         assert col not in feature["properties"], f"private column became a property: {col}"
+
+
+def test_reviews_are_never_published():
+    """My_Take must not reach the public artifact, under any key.
+
+    Reviews carry third-party names, visit dates and gendered pronouns. Publishing
+    them required getting a per-row PII judgment right every time, and one row
+    (Burrow) nearly shipped with "she" in it. The column was dropped from
+    PUBLIC_FIELDS on 2026-08-23 so the guard is mechanical rather than a judgment
+    call. This test is that guard: re-adding my_take to the allowlist fails here.
+    """
+    assert "my_take" not in build.PUBLIC_FIELDS, (
+        "My_Take was re-added to PUBLIC_FIELDS. Reviews are deliberately not "
+        "published -- see decisions/2026-08-23-reviews-not-published.md before changing this."
+    )
+    assert "My_Take" in build.KNOWN_COLUMNS, (
+        "My_Take must stay classified so a future column audit does not treat it as new"
+    )
+    feature = build.build_feature(SOURCE_ROW)
+    blob = repr(feature).lower()
+    for token in ("dana", "she would not come back", "my_take", "mytake"):
+        assert token not in blob, f"review content leaked into public output: {token!r}"
 
 
 def test_place_id_is_status_gated():
@@ -158,21 +183,26 @@ def test_visibility_is_never_published():
     assert "Visibility" not in feature["properties"]
 
 
-def test_my_take_publishes_separately_from_description():
-    """My_Take is its own public field, not appended into description.
+def test_my_take_never_publishes_even_when_populated():
+    """Superseded 2026-08-23. Was `test_my_take_publishes_separately_from_description`.
 
-    The whole point is that the app can render the user's own verdict as a
-    distinct block from third-party sourced notes. Merging them into one string
-    would recreate the mixed-purpose field this exists to avoid.
+    That test asserted My_Take rendered as its own public block beside the sourced
+    description. Reviews are no longer published at all, so the assertion is
+    inverted rather than deleted -- keeping it named and explained is what stops a
+    future reader reinstating the old behaviour from the git history without
+    finding the reasoning.
     """
     row = {**SOURCE_ROW, "My_Take": "Order the cumin flounder; skip the pumpkin."}
     props = build.build_feature(row)["properties"]
-    assert props["my_take"] == "Order the cumin flounder; skip the pumpkin."
+    assert "my_take" not in props, "reviews must not publish"
+    # And it must not be smuggled into description either.
     assert props["description"] == SOURCE_ROW["Description"]
     assert "cumin flounder" not in props["description"]
 
 
 def test_my_take_absent_when_empty():
+    """Kept as a regression guard: absent-when-empty must hold whether or not the
+    column is on the allowlist, so this passes under both the old and new policy."""
     for value in ("", "   ", None):
         props = build.build_feature({**SOURCE_ROW, "My_Take": value})["properties"]
         assert "my_take" not in props

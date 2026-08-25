@@ -19,12 +19,21 @@ from pathlib import Path
 # Public field -> source CSV column. Positive allowlist: ONLY these reach the
 # public artifact. Anything not listed is excluded by construction.
 # `google_place_id` is derived via trusted_place_id() (status-gated), not copied.
+#
+# `My_Take` was REMOVED from this allowlist 2026-08-23. It is a real, classified
+# column (see KNOWN_COLUMNS) -- it is simply private now. Reviews carry third-party
+# names, visit dates and pronouns, and publishing them required a per-row PII
+# judgment that has to be right forever; one row (Burrow) nearly went out with "she"
+# in it. The map's goal is the pipeline and a stable public URL, not opinions, so
+# the reviews bought no goal at real recurring risk. Dropping the column converts a
+# recurring human judgment into one mechanical guard, which test_build_discovery_geojson
+# asserts. Full reasoning: work/branches/executive-function/decisions/
+# 2026-08-23-reviews-not-published.md
 PUBLIC_FIELDS = {
     "name": "Name",
     "category": "Category",
     "signal": "Signal",
     "description": "Description",
-    "my_take": "My_Take",
     "secondary_tags": "Secondary Tags",
     "city": "City",
 }
