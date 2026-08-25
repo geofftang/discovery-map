@@ -1392,6 +1392,24 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "La Caridad 72",
+        "category": "Meal",
+        "signal": "High",
+        "description": "cuban chinese\n\nSuccessor to La Caridad 78, which ran 52 years at 2197 Broadway (W 78th) and closed in 2020. Reopened 2023 at 130 W 72nd St, run by the younger generation of the same family. Verified open 2026-08-25: still Cuban-Chinese, hours current, well reviewed.",
+        "city": "NYC",
+        "google_place_id": "ChIJo_O_AchZwokRW5SZhYoWjJ4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9800415,
+          40.7777321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Blue Ribbon Brasserie",
         "category": "Meal",
         "signal": "High",
