@@ -3612,7 +3612,6 @@
         "category": "Meal",
         "signal": "High",
         "description": "Goat Jhol Momo\n\nThe last 20 years have seen a boom of immigration to the US from Nepal, Tibet, and Bhutan, and many people from these places have settled in Jackson Heights. Immigration plus 10 years in America usually translates into restaurants, and the neighborhood is now chock-full of Himalayan sit-down spots and carts.\n\nMy current favorite is the relatively new Nepali Bhanchha Ghar, though I’m also a fan of longtime fixtures like Phayul, Woodside Cafe, and Amdo Kitchen. However, they don’t make sweet-rice doughnuts. Bhanchha Ghar does. This alone makes it worth a visit.\n\nThat doughnut’s proper name is sel roti, and it’s a lightly sweetened ring of glutinous rice that, when fried, achieves a chewy-sweet-savory character that no cake or yeast doughnut ever could. It’s served with a tomato relish that tastes oddly like pico de gallo, but it works—as does Bhanchha Ghar’s jhol momo, a delicately seasoned tomato and sesame seed broth full of juicy dumplings folded just minutes before cooking.\n\nBhanchha Ghar also offers a rare chance to try Nepali barbecue, such as flame-licked cubes of goat sekuwa jumbled with pungent spices, or a cold dish of chicken choila, made of grilled chunks of chicken that are then marinated with mustard oil and seasonings, which deeply penetrate the meat post-cook. Whether you eat in the tight ground-floor seating area or the spacious basement dining room, outfitted with the finest comfy office chairs at the tables, take note: The service here is well-meaning but fairly slow. It is certainly worth the wait.\n\n----\n\nThe Tibetan- and Nepali-style dumplings known as momo have garnered such a loyal New York fan base that every autumn for the past ten years (2020 excepted), hordes have descended on Jackson Heights, Queens, so-called momo maps in hand, for the annual Momo Crawl. But just as Joey Chestnut’s dominance has reduced the Nathan’s Hot Dog Eating Contest to something of a formality in recent years, Nepali Bhanchha Ghar has worn the crawl crown so often — having recently won for a fourth consecutive year — as to dispel all suspense. Its success owes not a little to its goat jhol momo, which consists of pillowy pockets of the underappreciated meat bathed in a spicy chicken-and-tomato soup and garnished with cooling cilantro. While the dumplings can be stuffed any of seven different ways, there’s something about the gamy but slightly sweet taste of goat that pairs particularly well with the chutney-like broth.",
-        "my_take": "Momos, on the walk from LIC through Sunnyside/Woodside to Jackson Heights, with a friend.",
         "city": "NYC",
         "google_place_id": "ChIJd06GLQdfwokRQunm5arxBcM"
       },
@@ -5735,25 +5734,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Shui Mei Cafe",
-        "category": "Meal",
-        "signal": "High",
-        "description": "breakfast",
-        "secondary_tags": "light-food",
-        "city": "NYC",
-        "google_place_id": "ChIJqSOHHyZawokRCqHPbjs1IGw"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9949121,
-          40.7135385
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Wo Hop",
         "category": "Meal",
         "signal": "High",
@@ -5813,7 +5793,8 @@
         "signal": "High",
         "description": "A few steps away from Nom Wah is this noodle purveyor with its numerous noodle options, many handmade on the premises. Styles vary — the kind of noodle, toppings, and whether it arrives pan-fried or in a soup — but it’s difficult to land on a bowl that’s not a winner. Go for the thicker and wider noodle options, and don’t miss the pan-fried pork dumplings, often better than what’s found at some of the specialty dumpling shops.",
         "city": "NYC",
-        "google_place_id": "ChIJmZTuWtBbwokRWxbraRwj8xA"
+        "google_place_id": "ChIJmZTuWtBbwokRWxbraRwj8xA",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -6030,7 +6011,8 @@
         "signal": "High",
         "description": "The Place to Flag Down Delicious Dim Sum\nPacificana\nSunset Park, Brooklyn\nThis large ballroom looks like it came straight out of Beauty and the Beast (ceiling moldings, chandeliers, gold accents) and is sacred ground for dim sum lovers. But it’s also a lesson in strategy: When a cart comes by with the best stuff—shu mai, har cheung (rice noodle rolls), dan tat (egg tarts)—don’t hesitate for a moment. Eyes on the prize!\n✵ Order: cold jellyfish, spare ribs with squash, chicken feet, shu mai, har gow (shrimp dumplings), har cheung, and dan tat.",
         "city": "NYC",
-        "google_place_id": "ChIJ9dmmYTVFwokRn1hcXklqp8g"
+        "google_place_id": "ChIJ9dmmYTVFwokRn1hcXklqp8g",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -6047,7 +6029,6 @@
         "category": "Meal",
         "signal": "Medium",
         "description": "The Place For Breakfast at 4 p.m. and Lunch at 10 a.m.\nGolden Diner\nTwo Bridges\nThere’s nowhere we’d rather disobey traditional meal times than at Golden Diner. A super crispy chicken katsu club first thing in the morning? Honey butter pancakes with honey maple butter at 3:30 in the afternoon? YOU CAN DO IT. The menu has something for everyone, without being intimidatingly long, and is served seven days from 10 a.m. to 5 p.m. All that means we love it here for lunch, and for breakfast and dinner, too—no matter what time of the day you’re having it.\n✵ Order: the Chinatown egg & cheese sandwich on a scallion milk bun, chicken katsu club, side of super crispy home fries, turmeric-lemongrass avocado toast (for real), and the cheeseburger.\n\n---\n\ngreen tea cake heavy vouch\n\n---\n\nIt never really occurred to me to order dessert, but after sharing a few options with friends recently, it’s clear I was missing out. Thai tea-flavored tres leches cake puts just an interesting enough spin on the beloved Latin sweet, and the pistachio rice pudding is a study in interesting textures (three words: candied cardamom pistachios).",
-        "my_take": "Kimchi tomato soup — standout of the meal, most interesting thing we had that day. Very unassuming but landed hard.\nPapaya salad — chayote instead of green papaya, candied sunflower seeds on top, dressing heavy on sugar/fish sauce/lime/garlic.\nHoney butter pancake — way less heavy than expected, very solid.\nEgg and cheese on scallion milk bun — a friend really liked this.\nKitchen counter seating — always a pleasant surprise.",
         "secondary_tags": "light-food",
         "city": "NYC",
         "google_place_id": "ChIJ1-mW-LhbwokR7Ryv5ha-gzc"
@@ -6085,7 +6066,6 @@
         "category": "Meal",
         "signal": "High",
         "description": "The Place Where the Best Dishes on the Menu Are Free\nCho Dang Gol\nKoreatown, Manhattan\nThey say you should be able to judge a Korean restaurant by its banchan, the welcome wave of small, highly seasoned, free dishes that arrive at the start of a meal to stoke your appetite. And at this homey, low-key spot a few blocks north of the main K-Town stretch on 32nd Street, all signs point to top marks. A small bowl of delicate house-made tofu curds. Wheels of sticky-sweet braised lotus root. Zucchini rounds battered in egg. Cucumber-seaweed salad. And more. All before you’ve even had a moment to look at the stews.\n✵ Order: mini bossam, dumpling jeongol (a hot pot you should split with a group), seafood stew, kimchi biji (a thick and spicy soybean stew), and extra banchan (it’s free!).",
-        "my_take": "Got the duck jeonggol (hot pot) — duck leg, abalone, octopus, jujube, chive, mungbean and barley, snow fungus, shiitake, crown daisy (ssukgat). Ingredient mixture was excellent, genuine inspiration for stews generally. Abalone and shiitake in the same bite is a great combo. The mungbean and barley sink to the bottom and become a hearty final course once the broth and protein are eaten down. Banchan standout: unusually fatty mackerel jorim, best mackerel fattiness had. Don't know where to buy mackerel that fatty yet. Recipe ideas from this visit logged in [[../../food/cooking/to-cook|to-cook.md]] (Duck Jeonggol, Fatty Mackerel Jorim).",
         "city": "NYC",
         "google_place_id": "ChIJU0c2Y6lZwokRKlyc_R8HN88"
       },
@@ -6507,7 +6487,8 @@
         "signal": "Low",
         "description": "Sammy's Halal cart location. No location-specific vouch -- the Sammy's reputation belongs to the Jackson Heights original (which locals say has declined) and the West Village cart. Sustenance marker, not a recommendation.",
         "city": "NYC",
-        "google_place_id": "ChIJUerMWapZwokR3ZMk8ytvdks"
+        "google_place_id": "ChIJUerMWapZwokR3ZMk8ytvdks",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -6525,7 +6506,8 @@
         "signal": "Low",
         "description": "Halal cart at 6th Ave & W 4th. The Sammy's location New Yorkers actually rate now -- green sauce and hot sauce are the draw. Neighbourhood-good, not a destination: go if you're nearby, don't cross town.",
         "city": "NYC",
-        "google_place_id": "ChIJIxRwYJFZwokRf7ywCaYQB_k"
+        "google_place_id": "ChIJIxRwYJFZwokRf7ywCaYQB_k",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -6562,7 +6544,8 @@
         "signal": "Low",
         "description": "The original Sammy's cart, 73rd & Broadway -- won the 2006 Vendy under the current owner's father. Locals say it has dropped off since, though still better than most. Sustenance marker, not a destination.",
         "city": "NYC",
-        "google_place_id": "ChIJS36lfQpfwokRA1cAPpT3zUo"
+        "google_place_id": "ChIJS36lfQpfwokRA1cAPpT3zUo",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -6678,25 +6661,6 @@
         "coordinates": [
           -73.9972861,
           40.7171726
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Golden Steamer",
-        "category": "Cafe",
-        "signal": "High",
-        "description": "As the old-guard Cantonese coffee shops like Hop Shing have closed, where does one go for the baked and steamed bao, steamed dumplings, and rice noodle rolls that are one of Chinatown’s greatest treasures? Golden Steamer is a narrow stall resembling a steam room in a spa, except the shelves and cabinets are lined with farinaceous treats, with fillings that run from savory to sweet, so it’s a great dessert spot, too. There’s no seating, however.\n\nSteamed pork bun/pumpkin bun/custard bun/red bean bun",
-        "secondary_tags": "meal",
-        "city": "NYC",
-        "google_place_id": "ChIJaZcbs8pZwokRZdWSh6rQXeE"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9961695,
-          40.7190587
         ]
       }
     },
@@ -6878,24 +6842,6 @@
         "coordinates": [
           -74.0021307,
           40.7261816
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Famous Ben's Pizza",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Since 1977, when this corner of Thompson and Spring was still largely Italian and Portuguese, Ben’s has been slinging pizza, many of them channeling snack shops back in Sicily. The array displayed behind the glass sneeze guard is impressive, but go for any of the thick, square slices, which is what Ben’s does best. The sweet Palermo slice is heaped with olive-oiled bread crumbs and caramelized onions, and is available almost nowhere else in town, reflecting the style of snacking in Sicily’s capital.\n\n---\n\nFounded in 1979 by Ben and Debbie Aliotta, Famous Ben’s manages to channel a Sicilian focacceria in addition to turning out typical Neapolitan pies with a broad range of toppings. One of the more fascinating offerings is the sfincione — a thick rectangular slice topped with bread crumbs and pureed onions, rather than the usual tomato sauce and cheese. Other Sicilian recipes abound at this atypical neighborhood pizzeria.",
-        "city": "NYC",
-        "google_place_id": "ChIJSQFeRoxZwokRtd_PeFDrtO0"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0024511,
-          40.7249292
         ]
       }
     },
@@ -7162,7 +7108,6 @@
         "category": "Meal",
         "signal": "High",
         "description": "chicken chiccharon sandwich\n\nThat Bolivian food remains something of a rarity in New York is all the more reason to seek out Bolivian Llama Party. When the brothers Alex, David and Patrick Oropeza opened their first location in 2016, they were literally underground: Their stall was part of a food court just off the Columbus Circle subway stop. It was aimed so squarely at passing commuters that a poster demonstrated how to eat salteñas — meat-filled pastries that hover between empanadas and soup dumplings — standing up without staining your work outfit. Last year, the party came to Sunnyside, Queens, which offers such niceties as outdoor seating and natural light. Salteñas are still at the heart of the menu, but the fried chicken sandwich is not to be missed. The brothers marinate their chicken thighs in Paceña, a Bolivian beer, and serve them with a llajua mayo (made with quilquiña, sometimes called Bolivian coriander, an herb with a distinct flavor somewhere on the cilantro spectrum). Topped with lettuce, tomato and bread-and-butter pickles, this rendition sits well above the fray of the increasingly hyperbolic Chicken Sandwich Wars.",
-        "my_take": "Stop on the LIC-to-Jackson-Heights walk with a friend.",
         "secondary_tags": "light-food",
         "city": "NYC",
         "google_place_id": "ChIJ4T48ovNfwokRzcUcEojz55M"
@@ -7218,7 +7163,6 @@
         "category": "Meal",
         "signal": "High",
         "description": "Birria de res is a beef stew that was popularized in Tijuana, Mexico, and the dish’s litany of spices and guajillo chiles, as well as its requisite long, slow simmer, can turn brisket into an otherworldly pleasure. It was only a matter of time before someone thought to put this concoction in a taco. José and Jesús Moreno, brothers from Coatzingo, have opened a series of food trucks — one in Williamsburg, Brooklyn, and one in Jackson Heights, Queens, with a third coming sometime next year to the Bronx — to give the birria taco, long celebrated on the West Coast, its due in New York. The pair dip the tortillas in the stew’s layer of beef fat before tossing them on the griddle, which gives them a vibrant color somewhere between a camel overcoat and an orange traffic cone: the mark of the genuine article. Topped with cilantro, onion, a spicy red sauce and a wedge of lime, the fully assembled taco is subtly complex. Each bite reveals new flavors as the many forms of umami jostle for primacy. Try one with a cup of Birria-Landia’s beef consommé. Ideal for additional dipping, it gives ecstatic new meaning to the phrase “saturated fat.”\n\nThey use shank, brisket, breast meat, and top round",
-        "my_take": "Went with a friend — same as always, just noting the visit.",
         "city": "NYC",
         "google_place_id": "ChIJ0wbVyUhfwokRd2iTfd08w34"
       },
@@ -7237,7 +7181,6 @@
         "category": "Meal",
         "signal": "High",
         "description": "https://ny.eater.com/2021/8/18/22599891/falansai-bushwick-vietnamese-tasting-menu\n\nVietnamese Mexican chef Eric Tran finds a new Brooklyn home for his now-closed Bushwick hit Falansai inside Pan Pan Vino Vino, reports Greenpointers. Falansai 2.0 opened on Wednesday, November 5, with familiar favorites like shrimp cake lettuce wraps, and curry chicken tostadas. To start, Falansai’s short dinner menu includes six a la carte dishes in addition to two prix fixe options ($58 or $88). Pan Pan will retain its identity as a bakery by day and a wine bar by night.\n \nThere was a time when diners would look askance at any mention of off-cuts on a restaurant menu, but the past decade or so has seen the Overton window of acceptable animal parts shift dramatically. For reasons at once economic, environmental and gustatory, ambitious chefs of all stripes have come to embrace nose-to-tail cooking — pig heads! Fish collars! Chicken livers! — and the city’s open-minded eaters have followed suit. The latest and greatest addition to the roster of covetable dishes crafted from castaways has to be the braised duck necks — a part of the bird enthusiastically eaten in other parts of the world but less often in this country — served at Falansai. Confited until the flavorful meat threatens to fall off the (many) bones and coated with a sticky sauce kissed with five spice, they are no fork-and-knife affair; this is intimate food, the sort that rewards eating with both hands and slurping lustily. The dish is the brainchild of chef Eric Tran, who earned his low-waste stars at Blue Hill at Stone Barns — Dan Barber’s temple of farm-to-table cooking in Tarrytown, N.Y. — before taking Falansai over from an acquaintance late last year and making it his own. The rest of the menu is full of winners, but those duck necks are required eating, the kind of eye-opening dish that turns a new experience into a new craving.",
-        "my_take": "The parfait-style dessert (coconut, sago, lychee or taro-sago on top, jackfruit at the bottom, granita over it) — expected it to be basically a che but it actually landed right, slightly more cleanly executed. Proportions were more to my liking, more deliberately layered like a real parfait than a jumble. Jackfruit at the bottom was much less unwieldy than che usually is. Liked it enough to reference as a format — see `cooking/to-cook.md` Backlog table (Asian Parfait Format). Rest of the meal: sake margarita was bad. Tuna on the puff was unremarkable. Quail was normal, but the pickled quail egg was fascinating in texture and taste even though not really my thing — never realized pickled eggs were a thing people did. Lemongrass skewers were good on char and flavor. Turnip cake red curry was the most interesting dish — solid red curry base, but the real story was the turnip cake's texture: fried, but almost melting into the curry as you ate it, pasty/fatty in a congealed way. Still deciding if I loved it, but it was genuinely interesting. Pickled fruits + boracho beans + salsa verde + lamb in pho broth wasn't a knockout combo on its own, but worked well together — and was noticeably better over claypot rice with the leftovers than with tortillas. Want to work more beans + acidity (like salsa verde) into my Chinese cooking. Overall: they nailed the flavors, with some fairly interesting if not super novel ideas. 7/10.",
         "secondary_tags": "vietnamese;owner-priority",
         "city": "NYC",
         "google_place_id": "ChIJc11gFQJcwokRcOejfRbBPpo"
@@ -7294,7 +7237,8 @@
         "signal": "High",
         "description": "Mei Lee became Mama Lee in 2013, when, having spotted a vacant storefront in Bayside, she decided to open a restaurant that serves Taiwanese food of confident, pared-back utility. Tucked away on an unassuming block in Bayside, Queens, her place is too small to allow for indoor dining during the pandemic, but while you wait for your takeout, Lee herself will offer you a warming cup of roasted-corn tea — you’ll smell it as soon as you enter. Inside, you’ll also find ginger and lemon plants, neat stacks of Chinese newspapers, a serene photo of Lee’s favorite vacation spot in Austria and flyers for a friend’s local business. The quiet star of the menu is the fried egg with preserved turnip: a fluffy, golden-brown omelet large enough to feed a small family. Slightly sweet, with a hint of brine, the preserved turnip is subtle. Its main effect is textural, as its toothsome crunch brings out the flavor of the eggs and scallions. And the dish pairs nicely with Lee’s purple rice, which has a nuttiness and depth of flavor akin to farro.",
         "city": "NYC",
-        "google_place_id": "ChIJ1XMARuZhwokRBRvUfvQg-5U"
+        "google_place_id": "ChIJ1XMARuZhwokRBRvUfvQg-5U",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -8301,7 +8245,6 @@
         "category": "Dessert",
         "signal": "High",
         "description": "Colombian and one of the best places is Cositas Ricas in Jackson heights try the tropical juices and also their bakery was so popular they had to separate it from the main restaurant all Colombian pastries is a must try with hot chocolate or coffee!\n\n\"wayyyy better than pollos mario\"",
-        "my_take": "Borojo in milk was fascinating — almost alcoholic, coffee-like, reminded friends of Kahlua too. Not sure I'd recommend it, but a genuine novelty. Guava drink was solid. Want to come back and try more of their other drinks — several looked interesting.",
         "secondary_tags": "bakery; meal",
         "city": "NYC",
         "google_place_id": "ChIJA769CqlfwokRHUZ4voTVf-8"
@@ -9031,7 +8974,8 @@
         "signal": "High",
         "description": "allegedly the best pelicana",
         "city": "NYC",
-        "google_place_id": "ChIJtzNwtC9gwokR15oOVjsGA3U"
+        "google_place_id": "ChIJtzNwtC9gwokR15oOVjsGA3U",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -11886,7 +11830,6 @@
         "category": "Meal",
         "signal": "High",
         "description": "a vouch for the place right next to the station\n\nTheir chicken samosa with the green chutney is to die for. $1.50 each. They'll also make fresh hot naan while you wait.\n\napparently momo and noodle combo in the store in the back??",
-        "my_take": "Samosa, on the LIC-to-Jackson-Heights walk with a friend.",
         "city": "NYC",
         "google_place_id": "ChIJu0l0LQdfwokRw-iIRRX5cWc"
       },
@@ -14979,7 +14922,6 @@
         "category": "Meal",
         "signal": "High",
         "description": "We envy Los Angeles for its under-the-highway, bacon-wrapped Sonoran hot dogs with a shifting roster of toppings, and this Colombian snack shop in Elmhurst comes close to emulating them. Ask for “super perro a la Mexicana,” which comes with a strip of bacon on top, guacamole, coleslaw, jalapeños, cheese, potato chips, Russian dressing, pico de gallo, and — improbably — a quail egg impaled on a toothpick.",
-        "my_take": "Was tempted by a review calling this the closest NYC gets to Sonoran hot dogs — personally not close at all. A bit overwrought with toppings, not well balanced, though maybe decent as a late-night spot. Watch out: they ask if you want fries and it bumps the price up noticeably — take them off if you don't want them. 5/10.",
         "city": "NYC",
         "google_place_id": "ChIJVZSI_q5fwokR-cNigwaX4ag"
       },
@@ -22955,7 +22897,6 @@
         "category": "Meal",
         "signal": "High",
         "description": "The runaway hit from the Queens Night Market, Karachi Kabab Boiz, a stand-turned-food-truck has branched out into Jackson Heights with a hybrid truck-storefront operation. The food menu is still focused on its three signature Pakistani kabab rolls: beef behari ($9) that has kick of spiciness, cream-marinated chicken malai ($8), tangy chicken tikka ($8). All the meats are grilled tender over charcoal, slathered with cilantro chutney, and wrapped in a fried paratha. One is great for a snack; two to fill you up. Its newest offering is the chai at the brick-and-mortar takeout window. Six chais include saffron Kashmiri and a super strong Quetta chai. Co-owner Azhar Parvez told Eater a rollout of new drinks and desserts is forthcoming.",
-        "my_take": "Got the beef roll — a bit expensive for what it was, but tasted solid. The sauce was a garlic-yogurt-mayo, which was genuinely decent — worth remembering as a condiment idea (see `cooking/to-cook.md` Backlog table, Garlic-Yogurt-Mayo Condiment).",
         "city": "NYC",
         "google_place_id": "ChIJHeeI8w9fwokRWhZYAcnd0yc"
       },
@@ -22974,7 +22915,6 @@
         "category": "Meal",
         "signal": "High",
         "description": "Vouch for the truck from a bangladeshi person to try instead of Tong for fuchka",
-        "my_take": "Tried this as the vouched alternative to Tong for fuchka. Solid — no reason to stick to just Tong. Surprised the line was as long as it was.",
         "city": "NYC",
         "google_place_id": "ChIJLbmsYsJfwokRT42JOEBryh4"
       },
@@ -27642,7 +27582,6 @@
         "category": "Cafe",
         "signal": "High",
         "description": "Mokafé, a Yemeni- and Palestinian-owned coffee shop, is now open in Astoria. The cafe opened last week at 25-73 Steinway Street, near 28th Avenue; there’s another location in Paterson, New Jersey. The shop imports its beans from Yemen and roasts them, one of several businesses in the area to do so. Aside from coffee, it has croissants, avocado toast, and sabayah, a sweet Yemeni pastry.\n\nCoffee culture in Astoria is strong so anything will be a contentious pick, but Mokafe stands out for its flavors: bright and fruity with a roast that’s light enough that a pour-over produces a dark reddish hue. The growing chain is a partnership between a Yemeni American family — Astoria locals for decades — and a Guatemalan American coffee guru, who’s worked at roasteries and cafes in his native country for over a decade. Together, they source directly from small farms in Guatemala and Yemen, where the fruits of the coffee plants are hand-picked and air-dried with the beans then removed, producing those fruit-forward notes. The Yemeni beans, imported green, get roasted in Long Island and shuttled into the Astoria storefront to brew into a number of drinks like maple oat lattes. The space is modern with sage green, light wood, and golden accents that extend into the quiet room behind the shop. Multiple locations",
-        "my_take": "Pistachio latte, in Astoria with a friend.",
         "city": "NYC",
         "google_place_id": "ChIJwQ1sixRfwokRKYHuVItD2Wc"
       },
@@ -47863,6 +47802,44 @@
         "coordinates": [
           -73.998524,
           40.7288083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Panaderya Salvaje",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Filipino bakery. Captured from owner 2026-08-23; no source or review attached yet, description is the owner’s one-line framing only.",
+        "secondary_tags": "filipino;bakery",
+        "city": "Jersey City",
+        "google_place_id": "ChIJjWTlDwBXwokRr9G7gGiyKeQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0445177,
+          40.7213171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rokhat Kosher Bakery",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Kosher bakery in Rego Park, Queens. Captured 2026-08-23; no source or review attached yet.",
+        "secondary_tags": "bakery;kosher;rego-park;queens",
+        "city": "NYC",
+        "google_place_id": "ChIJs8S3JzpewokRtsDn6qZsZeg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8594444,
+          40.7258333
         ]
       }
     }
