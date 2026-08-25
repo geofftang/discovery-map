@@ -2035,6 +2035,24 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Teranga Midtown",
+        "category": "Meal",
+        "signal": "High",
+        "description": "West African, Pierre Thiam. Moved from the Africa Center in Harlem (closed 15 Jun 2025) to 601 Lexington Ave.\n\nThe New Yorker piece linked below was written about the Harlem room, not this one — same chef and concept, but the review predates the move and has not been re-verified here.",
+        "city": "NYC",
+        "google_place_id": "ChIJi-bJgEtZwokRFayt5jCnQz0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9698216,
+          40.758362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Cơm Tấm Ninh Kiều",
         "category": "Meal",
         "signal": "High",
@@ -6481,44 +6499,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Sammy’s Halal",
-        "category": "Meal",
-        "signal": "Low",
-        "description": "Sammy's Halal cart location. No location-specific vouch -- the Sammy's reputation belongs to the Jackson Heights original (which locals say has declined) and the West Village cart. Sustenance marker, not a recommendation.",
-        "city": "NYC",
-        "google_place_id": "ChIJUerMWapZwokR3ZMk8ytvdks",
-        "temporarily_closed": true
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9861439,
-          40.726888
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Sammy's Halal",
-        "category": "Meal",
-        "signal": "Low",
-        "description": "Sammy's Halal cart location. No location-specific vouch -- the Sammy's reputation belongs to the Jackson Heights original (which locals say has declined) and the West Village cart. Sustenance marker, not a recommendation.",
-        "city": "NYC",
-        "google_place_id": "ChIJUerMWapZwokR3ZMk8ytvdks",
-        "temporarily_closed": true
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9860791,
-          40.7534115
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Sammy’s Halal food",
         "category": "Meal",
         "signal": "Low",
@@ -6532,25 +6512,6 @@
         "coordinates": [
           -74.0007478,
           40.7318137
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Sammy's Halal Food",
-        "category": "Meal",
-        "signal": "Low",
-        "description": "Sammy's Halal cart location. No location-specific vouch -- the Sammy's reputation belongs to the Jackson Heights original (which locals say has declined) and the West Village cart. Sustenance marker, not a recommendation.",
-        "city": "NYC",
-        "google_place_id": "ChIJUerMWapZwokR3ZMk8ytvdks",
-        "temporarily_closed": true
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9836733,
-          40.7652261
         ]
       }
     },
