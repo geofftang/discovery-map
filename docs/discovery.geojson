@@ -12423,7 +12423,8 @@
         "signal": "High",
         "description": "a cornucopia of grandma slices. Fittingly, it was opened by a pizza chef who migrated from Gravesend in the greater region of Real Pizza.\n\nkenji vouch, good crust, herbal sauce\n\nno frills, he prefers cheese slice",
         "city": "NYC",
-        "google_place_id": "ChIJRYbaqeNbwokRGOxeKiWF1aM"
+        "google_place_id": "ChIJRYbaqeNbwokRGOxeKiWF1aM",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -13065,24 +13066,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Stretch Pizza",
-        "category": "Meal",
-        "signal": "High",
-        "description": "wylie dufresne pizza\n\nWhether you come to Stretch for its pizza, salad, or fun new bar menu (hello, jamón fried rice), we strongly advise you to save room for a helping of their seasonal soft-serve ice cream with flavors that change every month, and there are always at least two flavors to choose from. The banana, topped with peanut butter and chocolate babka from Breads Bakery is always a winner if it’s being served. But in all honesty, you can’t go wrong with whichever flavor you choose — so why not order both?",
-        "city": "NYC",
-        "google_place_id": "ChIJETw36R9ZwokRmPYazyfvpZ4"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9854036,
-          40.7410247
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Lenny's Clam Bar",
         "category": "Meal",
         "signal": "High",
@@ -13404,24 +13387,6 @@
         "coordinates": [
           -74.237166,
           40.538448
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Hainan Chicken House | 海南鸡记",
-        "category": "Meal",
-        "signal": "High",
-        "description": "As the name suggests, Hainanese chicken rice, in all its variations, is the star at this Sunset Park restaurant. While the dish is found all over the city, Hainan Chicken House is one of the only places to make a Malaysian version, where the rice is shaped into a ball. In addition to chicken over rice, there’s a spicy shrimp curry laksa mee soup that shouldn’t be missed. Portions are large and prices are quite affordable.\n---\n\nchar siu, asam laksa, burrata paratha(?)\n\n--\n\nAt 4807 Eighth Avenue, at 48th Street, Sunset Park’s Hainan Chicken House, opened by Chris Low and his family, lives up to its name by serving supple, comforting Hainan chicken — a Malaysian rendition with rice balls, a lesser-seen variation here in New York. Its namesake dish, as well as other items, like its heaping portion of curry laksa, warrants returns throughout the year. But it’s Low and his family’s constant innovations in its specials menu — from rose chiffon cake with lychee-champagne jam to yellowtail fish curry and mussels in a curry broth with roti — that makes every visit so satisfying, with something new for even the most steadfast regulars. \n\n---\n\nThe Hainan Chicken, Chicken Rice, and Char Siu are some of the best in NYC, but the real gems here are the Bak Kut Teh, a robust pork bone soup that owner Chris himself said is his favorite, along with the Asam Laksa, a slightly tangy, sour, and super savory noodle soup.\n\n---\n\nHainan Chicken House won an Eater Award in 2023 for the restaurant where we’d most want to be regulars. This family-run spot serves plenty of iterations of its Hainan chicken namesake — it’s particularly known for a Malaysian rendition with rice balls. But the menu excels beyond chicken: Go for the curry laksa and always ask about daily specials.",
-        "city": "NYC",
-        "google_place_id": "ChIJI0YyYNhbwokRrrCRyPRN6M4"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0025724,
-          40.6418895
         ]
       }
     },
@@ -14304,7 +14269,8 @@
         "signal": "High",
         "description": "For the last decade, the food of the former Soviet republic of Georgia has been taking off in New York City, launched by our love of the bread with a handle that surrounds a lake of cheese called khachapuri. Well, the bread freshly made is available in several variations at Chama Mama, along with charcoal kebabs, stews in which herbs function as vegetables, and a distinguished wine list with some varietals you probably haven’t tasted before.",
         "city": "NYC",
-        "google_place_id": "ChIJp4h8O45ZwokRiZ6Zhg0hV8M"
+        "google_place_id": "ChIJp4h8O45ZwokRiZ6Zhg0hV8M",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
