@@ -17790,7 +17790,8 @@
         "signal": "High",
         "description": "NYT 100\n\nmaybe\n\nWhile Txikito has the more modern outlook, Ernesto’s tries to capture the elemental, plain-spoken spirit of a Basque taverna. You might find grilled turbot in pil-pil, the miraculous liaison of garlic, oil and fish juices. Or grilled pork collar, pink inside and rich as rib-eye; housemade blood sausage, aromatic with onions and spices; baked crab dripping, in the San Sebastián style, with butter and brandy. Ryan Bartlow doesn’t pretty up his plates so that you don’t know what you’re eating. His food is authentically unembarrassed to be what it is.",
         "city": "NYC",
-        "google_place_id": "ChIJyaTH_pRbwokRp4SVDyxdALw"
+        "google_place_id": "ChIJyaTH_pRbwokRp4SVDyxdALw",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -18901,7 +18902,8 @@
         "signal": "High",
         "description": "can order a prime, dry-aged steak at the butcher counter and have them cook it for you for free",
         "city": "NYC",
-        "google_place_id": "ChIJ3_iXoR1fwokRZgdc7Y9jsaQ"
+        "google_place_id": "ChIJ3_iXoR1fwokRZgdc7Y9jsaQ",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
