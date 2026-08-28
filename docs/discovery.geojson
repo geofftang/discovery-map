@@ -14740,7 +14740,8 @@
         "signal": "High",
         "description": "Many places make their own Salvadoran pupusas, sometimes hand-patting the masa or rice dough, but this establishment takes the process one step further. Its pupusas are of larger circumference, juicier, and stuffed with a choice of 10 fillings. Some, like broccoli and cheese, are unusual, but neophytes should first try cheese and loroco — a pickled flower that resembles oregano; and revueltas, which combines pork rind, beans, and cheese.",
         "city": "NYC",
-        "google_place_id": "ChIJRRxg9y5dwokRSeT-3Z1_cv8"
+        "google_place_id": "ChIJRRxg9y5dwokRSeT-3Z1_cv8",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -14777,7 +14778,8 @@
         "signal": "High",
         "description": "Culpepper’s, opened in 1998 by Winston Lewis, is one of the city’s very small collection of Barbadian (Bajan) restaurants. Since the pandemic, it’s takeout only so make a plan where you want to eat the excellent island food. Often identified as the national dish, the cou cou and flying fish consists of a cornmeal porridge shot with okra and said fish. Jerk specialties and pastries are also available.",
         "city": "NYC",
-        "google_place_id": "ChIJG9-BKW5bwokR_KjbhhaMqvs"
+        "google_place_id": "ChIJG9-BKW5bwokR_KjbhhaMqvs",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -15484,7 +15486,8 @@
         "signal": "High",
         "description": "roast beef hero: https://www.instagram.com/p/CWWDuG2lj41/\n\ndiscount version of the spicy rigatoni from carbone",
         "city": "NYC",
-        "google_place_id": "ChIJy0e8RY9ZwokR-zqC89eWtnY"
+        "google_place_id": "ChIJy0e8RY9ZwokR-zqC89eWtnY",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -15617,24 +15620,6 @@
         "coordinates": [
           -73.9126124,
           40.7524285
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Donohue's Steak House",
-        "category": "Meal",
-        "signal": "High",
-        "description": "old school neighborhood joint\n\nburger that's \"happily under the radar\" - questi0neverythin9",
-        "city": "NYC",
-        "google_place_id": "ChIJ3SY60u5YwokRU9T-obR5cXY"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.96552989999999,
-          40.7654387
         ]
       }
     },
@@ -16340,24 +16325,6 @@
         "coordinates": [
           -73.9952318,
           40.7545009
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Sofia Pizza Shoppe",
-        "category": "Meal",
-        "signal": "High",
-        "description": "on kenji pizza tour: it’s just a collection of places I either know are good because I’ve been, or have heard are good and want to check out, or have some cultural, historical, or taxonomic merit beyond just the pizza I want my daughter to be familiar with.",
-        "city": "NYC",
-        "google_place_id": "ChIJFdfAReFYwokRjX6hjVWiFhM"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.96435079999999,
-          40.7566759
         ]
       }
     },
