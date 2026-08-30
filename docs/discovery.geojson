@@ -19395,7 +19395,8 @@
         "description": "The menu was mainly kebabs and all-day breakfasts: We chose makhlama ($12), eggs finely scrambled with ground lamb, tomato, and onions, seeping a bit of sunflower oil. It was served with two breads, one round, the other diamond shaped, and a bowl of mixed pickles with copious brine, into which we dipped the warm bread again and again. We also ordered an Iraqi kebab ($19), which featured four smoky ground-lamb kebabs wrapped in a pita with grilled tomatoes and onions. We washed it down with a minted drink called smoked yogurt ($6), possibly for its foamy white appearance.",
         "secondary_tags": "bakery",
         "city": "NYC",
-        "google_place_id": "ChIJnRx-xyf8wokRo5kqQKvIYuY"
+        "google_place_id": "ChIJnRx-xyf8wokRo5kqQKvIYuY",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
