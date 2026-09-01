@@ -20448,7 +20448,8 @@
         "description": "Algerian, few vouches\n\nhttps://culinarybackstreets.com/cities-category/queens/2023/kasbah-cafe-algerian-rhapsody/",
         "secondary_tags": "coffee",
         "city": "NYC",
-        "google_place_id": "ChIJZbXi7g1fwokRI7aPpYIe834"
+        "google_place_id": "ChIJZbXi7g1fwokRI7aPpYIe834",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -20859,24 +20860,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Bayon - Cambodian Restaurant",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Bayon is one of the city’s rare Cambodian restaurants, the interior decorated like a Buddhist Temple and glinting with silver and gold. Try the trio of dips featuring ground pork and fish sauce in contrasting recipes, good for dipping with raw vegetables and wrapping in lettuce leaves, big fun for a group. There are snacks like fishcakes and satays aplenty, and for a little luxury try sliced roast duck in a red curry sauce.",
-        "city": "NYC",
-        "google_place_id": "ChIJ_xTxLRpZwokRCIo4c-DuKMA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9591276,
-          40.76229980000001
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Oh! Calcutta",
         "category": "Meal",
         "signal": "High",
@@ -20889,24 +20872,6 @@
         "coordinates": [
           -73.9527208,
           40.7427859
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "ODRE",
-        "category": "Meal",
-        "signal": "High",
-        "description": "maybe\n\n$42 hand hospitality pre-fixe",
-        "city": "NYC",
-        "google_place_id": "ChIJA4qq2sNZwokRYPPHJ7jwTAc"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.98588629999999,
-          40.7314067
         ]
       }
     },
@@ -21275,24 +21240,6 @@
         "coordinates": [
           -73.9626279,
           40.672908299999996
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Agi's Counter",
-        "category": "Meal",
-        "signal": "High",
-        "description": "Domed high onto a thick slab of griddled potato Pullman like a towering scoop of gelato that somehow fits into what seems like the tiniest cup or cone, the sultry-smooth texture of this mousse ($13) could not have been more spot on. Amplified by what I imagine was a healthy pour of Ruby Port, a good dose of cracked black pepper, and tons of flaky sea salt, the crispy fried sage and juicy halved grapes were quite literally the cherry on top of this dish. When I took my seat at the counter, it was crisp and fall-like outside, rendering perhaps Brooklyn’s coziest little dining room even cozier. If it ever rains again in this city of ours, or—dare I even mention it—snows later this winter, this is where you’ll find me.",
-        "city": "NYC",
-        "google_place_id": "ChIJgbi06LFbwokRGr3pch2KH_A"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9583818,
-          40.6700133
         ]
       }
     },
