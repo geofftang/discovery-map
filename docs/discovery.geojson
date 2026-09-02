@@ -22445,25 +22445,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Traze",
-        "category": "Meal",
-        "signal": "High",
-        "description": "A popular ten-year-old pizza pop-up has found a permanent home in Long Island City. Every element of its grandma-style squares — from its 72-hour fermented dough to its many sauces — are made in-house. Its French onion fungi pie ($24) features soupy caramelized onions, gruyere cheese, and huitlacoche mushrooms. Catch the breakfast menu of $6 slices like a veggie, egg and cheese pizza with a creamy herb sauce.",
-        "secondary_tags": "pizza; pop-up; lic; owner-priority",
-        "city": "NYC",
-        "google_place_id": "ChIJ0QxSKQBZwokRCpfABgUi_SI"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.94760389999999,
-          40.7467323
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Lou Yau Kee",
         "category": "Meal",
         "signal": "High",
@@ -22760,7 +22741,8 @@
         "signal": "High",
         "description": "The runaway hit from the Queens Night Market, Karachi Kabab Boiz, a stand-turned-food-truck has branched out into Jackson Heights with a hybrid truck-storefront operation. The food menu is still focused on its three signature Pakistani kabab rolls: beef behari ($9) that has kick of spiciness, cream-marinated chicken malai ($8), tangy chicken tikka ($8). All the meats are grilled tender over charcoal, slathered with cilantro chutney, and wrapped in a fried paratha. One is great for a snack; two to fill you up. Its newest offering is the chai at the brick-and-mortar takeout window. Six chais include saffron Kashmiri and a super strong Quetta chai. Co-owner Azhar Parvez told Eater a rollout of new drinks and desserts is forthcoming.",
         "city": "NYC",
-        "google_place_id": "ChIJHeeI8w9fwokRWhZYAcnd0yc"
+        "google_place_id": "ChIJHeeI8w9fwokRWhZYAcnd0yc",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -22921,7 +22903,8 @@
         "signal": "High",
         "description": "https://www.youtube.com/watch?v=BzKjBMDQDxI",
         "city": "Regional",
-        "google_place_id": "ChIJNRAMCPPhwokREkq1k9nRkjs"
+        "google_place_id": "ChIJNRAMCPPhwokREkq1k9nRkjs",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -23307,24 +23290,6 @@
         "coordinates": [
           -73.81390429999999,
           40.7629206
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Adda Ghor",
-        "category": "Meal",
-        "signal": "High",
-        "description": "This sleek new Jackson Heights counter spot has generous portions of well executed Bangladeshi dishes. The unbeatable $6 street snack menu includes fuchka and haleem (meat and lamb stew). The full entrees from the steam table features daily specials: a saucy chicken roast, beef biryani. The savory pastries, too, have light flaky crusts that pair well with milk tea.",
-        "city": "NYC",
-        "google_place_id": "ChIJtba0rRxfwokR5eFWz3SsWuI"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.89305689999999,
-          40.749078399999995
         ]
       }
     },
@@ -23793,7 +23758,8 @@
         "category": "Dessert",
         "signal": "Low",
         "city": "NYC",
-        "google_place_id": "ChIJeygrnpNZwokRJTHAp_ssF3I"
+        "google_place_id": "ChIJeygrnpNZwokRJTHAp_ssF3I",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -24124,7 +24090,8 @@
         "description": "homemade ice cream",
         "secondary_tags": "pastries",
         "city": "NYC",
-        "google_place_id": "ChIJOwvHmGdfwokRrieDCqwqul8"
+        "google_place_id": "ChIJOwvHmGdfwokRrieDCqwqul8",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -24263,25 +24230,6 @@
         "coordinates": [
           -74.0047474,
           40.7404517
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Harpers Bread House",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "Harpers Bread House on the corner of Forsyth and Grand have excellent egg tarts especially when hot out of the oven. The Chinese name of the bakery is actually Egg Tart King!\n\nThe decades-old institution remains one of Chinatown’s top bakeries, a place for ultra-affordable Chinese pastries. Hot dog scallion buns are always a smart move, as are the freshly made onigiri rice balls. But the chief draw is a warm egg tart (dan tat), filled with custard dense with the richness of egg yolks and with the top bruleed for a Portuguese-style treat. Also, look out for the ham-and-omelet breakfast sandwich.",
-        "secondary_tags": "pastries; bakery",
-        "city": "NYC",
-        "google_place_id": "ChIJB4CXlodZwokRedm8nzlddvA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.99298739999999,
-          40.7177901
         ]
       }
     },
@@ -24783,7 +24731,8 @@
         "description": "babka",
         "secondary_tags": "pastries; bakery",
         "city": "NYC",
-        "google_place_id": "ChIJFVypLuZbwokRYokrp1bGHW4"
+        "google_place_id": "ChIJFVypLuZbwokRYokrp1bGHW4",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -24857,7 +24806,8 @@
         "description": "This Bushwick bakery from Gus Reckel opened in 2016 and still turns out terrific neighborhood favorites. A bit of the bread starter goes into the croissant dough, which then are baked into a handful of flavors: chocolate, beet chocolate, almond meringue, sausage, raisin, pistachio, ham and cheese, and jalapeno cheddar, depending on the day, for around $6.50.\n\nalso a good cookie",
         "secondary_tags": "bakery",
         "city": "NYC",
-        "google_place_id": "ChIJrzLMnhhcwokR7jqV_veobUI"
+        "google_place_id": "ChIJrzLMnhhcwokR7jqV_veobUI",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
