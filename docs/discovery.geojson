@@ -50861,6 +50861,500 @@
           37.7955487
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nari",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Pim Techamuanvivit's Thai dining room in the Hotel Kabuki, Japantown — à la carte, sharing plates, the serious end of her Kin Khao lineage.\n\nMichelin one star 2026; SF Chronicle Top 100 #45 (2026). Accolade sweep 2026-09-03.",
+        "secondary_tags": "thai; asian-american; michelin",
+        "city": "San Francisco",
+        "google_place_id": "ChIJCf9p82aBhYARQolIoRsK6fE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4287888,
+          37.7854185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Copra",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Srijith Gopinathan's coastal-Indian restaurant (Fillmore) — Kerala- and coconut-leaning cooking on California produce, à la carte.\n\nSF Chronicle Top 100 #4 (2026); James Beard Outstanding Restaurateur finalist 2026 (Gopinathan and Ayesha Thapar). Accolade sweep 2026-09-03.",
+        "secondary_tags": "indian; cal-indian; asian-american",
+        "city": "San Francisco",
+        "google_place_id": "ChIJGx1jA6SBhYARLMB1ta069Bs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4327894,
+          37.7853703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Good Good Culture Club",
+        "category": "Meal",
+        "signal": "High",
+        "description": "The Liholiho Yacht Club team's Mission restaurant — Filipino and broader Southeast Asian American cooking, loud and casual.\n\nMichelin Bib Gourmand 2026. Accolade sweep 2026-09-03; concept from general knowledge, confirm on the menu.",
+        "secondary_tags": "filipino; asian-american; bib-gourmand",
+        "city": "San Francisco",
+        "google_place_id": "ChIJ5XSspPF_j4ARuI5plZ5X93Q"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4229679,
+          37.7618143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Liholiho Yacht Club",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Ravi Kapur's Hawaiian-rooted, Asian-inflected restaurant on Sutter St — the one SF institution of the 2010s that has held its list placements.\n\nSF Chronicle Top 100 #57 (2026); Eater SF 38 (2026, via aggregator). Accolade sweep 2026-09-03.",
+        "secondary_tags": "hawaiian; asian-american",
+        "city": "San Francisco",
+        "google_place_id": "ChIJkVSnJpKAhYARCSaDnRo5brE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4146051,
+          37.7882263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Soba Ichi",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Handmade soba in a converted West Oakland warehouse — buckwheat milled and cut in-house, lunch-heavy hours; go early.\n\nSF Chronicle Top 100 #13 (2026). Accolade sweep 2026-09-03.",
+        "secondary_tags": "japanese; soba; asian-american",
+        "city": "Oakland",
+        "google_place_id": "ChIJwd37EJ1_hYARtZsEaaPvI8I"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2851254,
+          37.8170756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Popoca",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Anthony Salguero's Salvadoran restaurant in Old Oakland — wood-fire cooking, pupusas and whole-animal plates well beyond pupusería range.\n\nSF Chronicle Top 100 #6 (2026). Accolade sweep 2026-09-03 (the sweep listed it as Mexican; it is Salvadoran).",
+        "secondary_tags": "salvadoran; wood-fire",
+        "city": "Oakland",
+        "google_place_id": "ChIJI_joGhOBj4ARoZJyTNAMBBQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2741989,
+          37.8015027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MAMA Oakland",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Sri Lankan in Oakland — rice-and-curry plates, hoppers.\n\nMichelin Bib Gourmand 2026. Accolade sweep 2026-09-03; menu specifics unverified.",
+        "secondary_tags": "sri-lankan; asian-american; bib-gourmand",
+        "city": "Oakland",
+        "google_place_id": "ChIJP3byt5iHj4ARj2K4nYYLMco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2545103,
+          37.8090835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vik's Chaat",
+        "category": "Meal",
+        "signal": "High",
+        "description": "The Chokkanathan family's chaat house and grocery in West Berkeley since 1989 — cholle bhature, dahi puri, weekend specials, cafeteria trays.\n\nSF Chronicle Top 100 #62 (2026). Legacy institution. Accolade sweep 2026-09-03.",
+        "secondary_tags": "indian; chaat; asian-american; legacy",
+        "city": "Berkeley",
+        "google_place_id": "ChIJfbzMc-h-hYARG3cEXmb1XRU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2980556,
+          37.8613889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Azalina's",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Azalina Eusope's Malaysian restaurant (Tenderloin) — fifth-generation street-food cook, laksa and rendang on a short menu.\n\nSF Chronicle Top 100 #64 (2026). Accolade sweep 2026-09-03.",
+        "secondary_tags": "malaysian; asian-american",
+        "city": "San Francisco",
+        "google_place_id": "ChIJQWq7yBaBhYARAW1YO8VAzB4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4143076,
+          37.7845857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Prubechu",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "The only Chamorro (Guam) restaurant of note on the mainland, in the Mission — red rice, kelaguen, tinaktak.\n\nSF Chronicle Top 100 #53 (2026). Accolade sweep 2026-09-03.",
+        "secondary_tags": "chamorro; guam; pacific-islander",
+        "city": "San Francisco",
+        "google_place_id": "ChIJxesKArN_j4AR4rL6f1X6iec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4196269,
+          37.7613362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shizen",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Vegan sushi and izakaya in the Mission — the rare vegan place a sushi eater would choose.\n\nSF Chronicle Top 100 #99 (2026). Accolade sweep 2026-09-03.",
+        "secondary_tags": "japanese; sushi; vegan; asian-american",
+        "city": "San Francisco",
+        "google_place_id": "ChIJIVHOoCF-j4ARnw6y25XWmMA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4216815,
+          37.7683125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mashaallah Halal Pakistani Food",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Casual Pakistani halal counter — nihari, karahi, cheap.\n\nSF Chronicle Top 100 #95 (2026). Accolade sweep 2026-09-03; address unverified.",
+        "secondary_tags": "pakistani; halal; asian-american",
+        "city": "San Francisco",
+        "google_place_id": "ChIJnZjkgGGBj4AR8LRC8Agjg34"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.402901,
+          37.7800982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cafe Colucci",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Fetlework Tefferi's Ethiopian restaurant on Telegraph Ave since 1991 — the pioneering Oakland Ethiopian room; her Brundo spice shop is next door.\n\nSF Chronicle Top 100 #82 (2026). Legacy institution. Accolade sweep 2026-09-03.",
+        "secondary_tags": "ethiopian; legacy",
+        "city": "Oakland",
+        "google_place_id": "ChIJAU8uONd9hYARuDjBMqEE9O4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.283709,
+          37.8418587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Reem's California",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Reem Assil's Arab street-corner bakery — mana'eesh from the saj, the Mission original; also Jack London Square, Oakland.\n\nSF Chronicle Top 100 #81 (2026); Infatuation East Bay Hit List (Jack London). Accolade sweep 2026-09-03.",
+        "secondary_tags": "palestinian; arab; bakery",
+        "city": "San Francisco",
+        "google_place_id": "ChIJo5ZK6U1_j4ARzzvu7N7rK5I"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4179873,
+          37.7505546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "China Live",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "George Chen's Chinatown market-hall restaurant on Broadway — open kitchens, Peking duck, dumplings, a retail floor; Eight Tables upstairs is the tasting menu (not this pin).\n\nEater SF 38 (2026, via aggregator — not read directly). Accolade sweep 2026-09-03.",
+        "secondary_tags": "chinese; chinatown; asian-american",
+        "city": "San Francisco",
+        "google_place_id": "ChIJx1IXkvOAhYARMNdQA5IcmEc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4078833,
+          37.7978556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ruay Mitr Chicken & Rice",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Thai chicken-and-rice specialist on Nob Hill, new in 2026 — khao man gai as the whole menu.\n\nThe Infatuation SF Hit List 2026. Accolade sweep 2026-09-03.",
+        "secondary_tags": "thai; khao-man-gai; asian-american",
+        "city": "San Francisco",
+        "google_place_id": "ChIJBXIBZQCBhYARvpKom0nuQgA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4098198,
+          37.7945332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pacific Cocktail Haven",
+        "category": "Drinks",
+        "signal": "Medium",
+        "description": "Purpose: craft cocktails. Kevin Diedrich's bar on Sutter St (Lower Nob Hill) — Asian-ingredient-led cocktail list, rebuilt after the 2021 fire.\n\nJames Beard Outstanding Professional in Cocktail Service, winner 2026. Accolade sweep 2026-09-03.",
+        "secondary_tags": "cocktails; asian-american",
+        "city": "San Francisco",
+        "google_place_id": "ChIJi2fwgI6AhYARglQgXX2A3WU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4095652,
+          37.7894294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Smuggler's Cove",
+        "category": "Drinks",
+        "signal": "Medium",
+        "description": "Purpose: the tiki/rum program. Martin Cate's three-level rum bar on Gough St, 2009 — 500+ rums, historic tiki recipes.\n\nJames Beard Outstanding Bar finalist 2026. Accolade sweep 2026-09-03.",
+        "secondary_tags": "tiki; rum; cocktails; legacy",
+        "city": "San Francisco",
+        "google_place_id": "ChIJZYKHDZiAhYARXV0sNJgKAi8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4233722,
+          37.7794028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "House of Prime Rib",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Van Ness Ave prime-rib house since 1949 — carved tableside from silver carts, spinning salad, Yorkshire pudding; book well ahead.\n\nSF Chronicle Top 100 #88 (2026). Legacy institution. Accolade sweep 2026-09-03.",
+        "secondary_tags": "steakhouse; prime-rib; legacy",
+        "city": "San Francisco",
+        "google_place_id": "ChIJg67caeqAhYAR2UQjKb1a8j4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.422732,
+          37.7934329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sotto Mare",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "North Beach seafood counter on Green St — the cioppino ('best damn crab cioppino') and an old-school Italian-seafood room.\n\nEater SF 38 (2026, via aggregator). Accolade sweep 2026-09-03.",
+        "secondary_tags": "italian; seafood; cioppino; legacy",
+        "city": "San Francisco",
+        "google_place_id": "ChIJQfYyVvGAhYARJVwoboB1WKQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4083449,
+          37.7997503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brenda's French Soul Food",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Brenda Buenviaje's Creole-soul brunch room on Polk St since 2007 — crawfish beignets, shrimp and grits; long line.\n\nEater SF 38 (2026, via aggregator). Accolade sweep 2026-09-03.",
+        "secondary_tags": "creole; soul-food; brunch; legacy",
+        "city": "San Francisco",
+        "google_place_id": "ChIJZ9s5SJeAhYARIX3Fxl6oj6c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4188995,
+          37.7829132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Minnie Bell's Soul Movement",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Fernay McPherson's rosemary fried chicken and soul plates, Fillmore.\n\nSF Chronicle Top 100 #31 (2026). Accolade sweep 2026-09-03.",
+        "secondary_tags": "soul-food; fried-chicken",
+        "city": "San Francisco",
+        "google_place_id": "ChIJcYgzNSOBhYARPI-O97Gqi1g"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4327686,
+          37.7821663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tacos Oscar",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Shipping-container taco spot in Temescal, Oakland — rotating handmade-tortilla tacos.\n\nSF Chronicle Top 100 #19 (2026). Accolade sweep 2026-09-03 (the sweep placed it in SF; it is Oakland).",
+        "secondary_tags": "mexican; tacos",
+        "city": "Oakland",
+        "google_place_id": "ChIJWcB7kPx9hYARbxLgBuMvLYw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2604481,
+          37.8287207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Vaca Birria",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Mission birria specialist — birria de res tacos and consommé.\n\nSF Chronicle Top 100 #38 (2026). Accolade sweep 2026-09-03.",
+        "secondary_tags": "mexican; birria",
+        "city": "San Francisco",
+        "google_place_id": "ChIJ9QKs3yR_j4ARHuXwnup3Rs0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4114313,
+          37.7529153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Outerlands",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Outer Sunset driftwood-panelled Californian, 2009 — brunch and dinner near Ocean Beach.\n\nMichelin Bib Gourmand 2026. Accolade sweep 2026-09-03.",
+        "secondary_tags": "californian; brunch; outer-sunset",
+        "city": "San Francisco",
+        "google_place_id": "ChIJf-NCNpeHhYARLeneHNw3WWs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5050311,
+          37.7602689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "True Laurel",
+        "category": "Drinks",
+        "signal": "Medium",
+        "description": "Purpose: craft cocktails with a real kitchen. Nicolas Torres and David Barzelay's Mission bar (Lazy Bear group) — ingredient-driven drinks, bar food that made a food list.\n\nSF Chronicle Top 100 #15 (2026). Accolade sweep 2026-09-03.",
+        "secondary_tags": "cocktails",
+        "city": "San Francisco",
+        "google_place_id": "ChIJz2enRzd-j4ARkM49V6yDT2U"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4114663,
+          37.7595236
+        ]
+      }
     }
   ]
 }
