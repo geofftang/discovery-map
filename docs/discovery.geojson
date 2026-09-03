@@ -48401,6 +48401,25 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Breadbelly",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Bakery with Outer Richmond and Pier 70 locations — twice-baked croissant, kaya toast/kaya bun, breakfast sandwich, shrimpwich. Asian-fusion (kaya/Southeast Asian-inflected), outdoor seating at both.\n\n#7 SF Chronicle Top 100 (2026) as \"Breadbelly.\" ~74 vouches on r/AskSF bakery threads.",
+        "secondary_tags": "bakery",
+        "city": "San Francisco",
+        "google_place_id": "ChIJ06Hh75aHhYARre2ZXOUDzXY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.474388,
+          37.7827006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Neighbor Bakehouse",
         "category": "Dessert",
         "signal": "High",
@@ -48414,6 +48433,63 @@
         "coordinates": [
           -122.3881812,
           37.7596427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arsicault Bakery",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Bakery, 3 SF locations (Arguello, Civic Center, China Basin) — almond croissant, chocolate almond croissant, kouign amann.\n\n~130 vouches on r/AskSF bakery threads, the top-ranked bakery in that source.",
+        "secondary_tags": "bakery",
+        "city": "San Francisco",
+        "google_place_id": "ChIJJ09d9DmHhYARkrToDt9JCy8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4593062,
+          37.7834259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "b. patisserie",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Bakery, California St flagship — seasonal kouign amann, chocolate-almond-banana croissant.\n\n~118 vouches on r/AskSF bakery threads.",
+        "secondary_tags": "bakery",
+        "city": "San Francisco",
+        "google_place_id": "ChIJ59WgYcmAhYARu5gLD0FVpw4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4408389,
+          37.7878443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tartine Bakery",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Bakery, Guerrero St flagship — sourdough/country loaf, focaccia; long line.\n\n~44 vouches on r/AskSF bakery threads.",
+        "secondary_tags": "bakery",
+        "city": "San Francisco",
+        "google_place_id": "ChIJBVY2Bxh-j4ARa2zO8Jd6H2A"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4240821,
+          37.7614347
         ]
       }
     },
@@ -48496,6 +48572,25 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Philz Coffee",
+        "category": "Cafe",
+        "signal": "Medium",
+        "description": "Coffee chain, multiple Bay Area locations.",
+        "secondary_tags": "coffee",
+        "city": "San Francisco",
+        "google_place_id": "ChIJXdV9NAx-j4ARbaEXhONbYvc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4383819,
+          37.7511819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Four Barrel Coffee",
         "category": "Cafe",
         "signal": "Medium",
@@ -48515,6 +48610,25 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Craftsman and Wolves",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Bakery, Valencia St + Yosemite Ave — \"Rebel Within\" (savory muffin with a soft egg baked in) is the signature.",
+        "secondary_tags": "bakery",
+        "city": "San Francisco",
+        "google_place_id": "ChIJc3PCIT1-j4ARgxykctQlAaY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4216833,
+          37.7609056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Acme Bread Company",
         "category": "Dessert",
         "signal": "Medium",
@@ -48528,6 +48642,25 @@
         "coordinates": [
           -122.3933208,
           37.7955703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Humphry Slocombe",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Ice cream shop; the original Mission (24th/Harrison) location closed Oct 2024, Ferry Bldg + Dogpatch locations remain.",
+        "secondary_tags": "ice cream",
+        "city": "San Francisco",
+        "google_place_id": "ChIJWUj0iEh-j4ARPJYe1823nnU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3940961,
+          37.7959588
         ]
       }
     },
@@ -48946,6 +49079,424 @@
         "coordinates": [
           -122.2467551,
           37.8128318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bernal Cutlery",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Knife shop at 766 Valencia St (Mission), second counter in the Ferry Building — Japanese, French, German, Catalan, English and American kitchen knives, vintage culinary knives, sharpening supplies, select cookware and tools. Owners Kelly Kozak and Josh Donald since 2005; the shop SF chefs actually use.\n\nVerified open 2026-09-03 (bernalcutlery.com, Ferry Building directory).",
+        "secondary_tags": "shopping; kitchenware; knives",
+        "city": "San Francisco",
+        "google_place_id": "ChIJQ00L_lt-j4AR4J0dp5EkxRM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4218286,
+          37.7606847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Wok Shop",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Chinatown institution at 718 Grant Ave — carbon-steel woks, cleavers, steamers, clay pots and every Chinese cooking implement, packed floor to ceiling. Open 11-5 daily.\n\nVerified open 2026-09-03 (wokshop.com; SF Chronicle profile).",
+        "secondary_tags": "shopping; kitchenware; chinese",
+        "city": "San Francisco",
+        "google_place_id": "ChIJd81KaYuAhYARZ5Maz8NcU_M"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4060319,
+          37.7937367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kamei Restaurant Supply",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Kamei Housewares & Restaurant Supply, 525-547 Clement St (Richmond) — a warehouse-scale run of Japanese ceramics, kitchen tools and hard-to-find Asian cooking essentials at restaurant-supply prices. Mon-Fri 10-5.\n\nVerified open 2026-09-03 (Yelp Aug 2026).",
+        "secondary_tags": "shopping; kitchenware; japanese",
+        "city": "San Francisco",
+        "google_place_id": "ChIJZ54NPjyHhYARCCDk1I9TfeY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4652148,
+          37.7827606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Soko Hardware",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Japantown hardware store at 1698 Post St, run by four generations of the Ashizawa family since 1925 — alongside ordinary hardware: Japanese whetstones, yanagi-ba and other Japanese knives, chisels, pull saws, sake sets and housewares. Closed Mondays; Tue-Sat 9-5:30, Sun 10-5:30.\n\nVerified open 2026-09-03 (Yelp Aug 2026; sfjapantown.org directory).",
+        "secondary_tags": "shopping; kitchenware; knives; japanese",
+        "city": "San Francisco",
+        "google_place_id": "ChIJiUbXKr-AhYARWhvFmOTO30o"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4296803,
+          37.785716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Heath Ceramics",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Mission showroom at 2900 18th St — Heath's tile factory, showroom, clay studio and a collective of designer-maker studios; the original 1959 dinnerware factory is in Sausalito (400 Gate 5 Rd, daily 10-5, factory tours). Tableware, not generic homegoods.\n\nVerified open 2026-09-03 (heathceramics.com).",
+        "secondary_tags": "shopping; tableware; design; factory",
+        "city": "San Francisco",
+        "google_place_id": "ChIJbwiQkzB-j4ARLtXkpZ4t3SM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4113242,
+          37.7618438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Umami Mart",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Japanese barware, glassware and kitchen tools importer at 4027 Broadway, Oakland, with a bottle shop (sake, shochu, Japanese whisky, beer) and a tasting bar in the back. Tue-Sun 11-7.\n\nVerified open 2026-09-03 (umamimart.com).",
+        "secondary_tags": "shopping; kitchenware; barware; japanese; sake",
+        "city": "Oakland",
+        "google_place_id": "ChIJVVVZ_baAj4ARAnnR2CQCitk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2567234,
+          37.8280476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jubba Somali Restaurant",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Family-run Somali restaurant at 5330 Terner Way, San Jose (by the light rail), 20+ years — goat platters, samosas, the 'sports plate' of grilled steak/chicken/goat over rice or pasta; huge portions, low prices. Closed Wednesdays.\n\nFrom the 'Bay with Bae' KMZ; verified open 2026-09-03 (Yelp Sep 2026).",
+        "secondary_tags": "somali; east-african; halal",
+        "city": "San Jose",
+        "google_place_id": "ChIJ_1BR69MzjoARsjSJtBRGdwU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8606689,
+          37.2573744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palace Hotel Garden Court",
+        "category": "Activities",
+        "signal": "Low",
+        "description": "The 1909 Palace Hotel's glass-domed Garden Court, 2 New Montgomery St — walk in and look up; tea or a drink if you want to linger.\n\nFrom the 'Bay with Bae' KMZ, 2026-09-03.",
+        "secondary_tags": "landmark; historic",
+        "city": "San Francisco",
+        "google_place_id": "ChIJ150MH4iAhYARbDxiSCtJd0s"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4023705,
+          37.7882432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MMclay",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Mary Mar Keenan's 1,500 sq ft working studio and showroom at 69 Gough St, Hayes Valley — the handmade tableware on the tables of many SF restaurants, sold at the source, production visible. Mon-Sat 10-6, Sun 11-6.\n\nVerified open 2026-09-03 (mmclay.com).",
+        "secondary_tags": "shopping; ceramics; tableware; local-maker",
+        "city": "San Francisco",
+        "google_place_id": "ChIJcyWt90mBhYARzXYU23wWh_4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4225476,
+          37.7733537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jered's Pottery",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Jered Nelson's studio and boutique at 5743a Horton St, Emeryville — restaurant dinnerware in his own California porcelain blend, used by chefs nationally. Open by appointment; message first.\n\nVerified 2026-09-03 (jeredspottery.com).",
+        "secondary_tags": "shopping; ceramics; tableware; local-maker",
+        "city": "Emeryville",
+        "google_place_id": "ChIJ47n0KPN-hYARJEBhD7KoTZg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2908804,
+          37.8381342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Heath Ceramics (Sausalito factory)",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Heath's original 1959 factory at 400 Gate 5 Rd, Sausalito — where the dinnerware is still formed, glazed and fired; factory store daily 10-5, tours bookable. A different visit from the Mission tile showroom.\n\nVerified open 2026-09-03 (heathceramics.com).",
+        "secondary_tags": "shopping; tableware; design; factory",
+        "city": "Sausalito",
+        "google_place_id": "ChIJs0Ao4gSFhYARVtvCgfJzQkI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4997911,
+          37.869314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Acme Bread Company (Berkeley)",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "The original Acme at 1601 San Pablo Ave, Berkeley (1983) — the bread bakery that set the Bay Area standard; savory, not sweet. The Ferry Building stall is the SF pin.\n\nAdded 2026-09-03.",
+        "secondary_tags": "bakery; bread",
+        "city": "Berkeley",
+        "google_place_id": "ChIJcSjwf8Z-hYARu81RUdsuexQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2935774,
+          37.8751319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Song Tea & Ceramics",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Peter Luong's tea-tasting room and ceramics gallery at 2120 Sutter St (Lower Pac Heights, since 2013) — single-origin Chinese and Taiwanese teas beside a collection of contemporary and antique ceramics chosen to the same standard; tastings and 'Quiet Mornings' sessions bookable on Tock. Luong grew up in the family's Chinatown shop, Red Blossom.\n\nVerified open 2026-09-03 (songtea.com; Tock events 2026).",
+        "secondary_tags": "shopping; ceramics; tea; chinese; asian-american; second-generation",
+        "city": "San Francisco",
+        "google_place_id": "ChIJhdFZ_7eAhYARPwcETfqzaxM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4354884,
+          37.7860004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Red Blossom Tea Company",
+        "category": "Activities",
+        "signal": "High",
+        "description": "The Luong family's Chinatown tea house at 831 Grant Ave since 1985 (the family's first shop opened on Jackson St after arriving from Vietnam), now run by second-generation Alice Luong — direct-sourced oolongs, puerh and greens, tasting at the counter.\n\nVerified open 2026-09-03 (redblossomtea.com; Tripadvisor 2026).",
+        "secondary_tags": "shopping; tea; chinese; asian-american; second-generation",
+        "city": "San Francisco",
+        "google_place_id": "ChIJp1DLUYuAhYAROcTT4bNguRQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4065433,
+          37.7946973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paper Tree",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Japantown's origami and washi paper shop, opened 1968 by the Mihara family and run by their daughter Linda Mihara (whose grandfather wrote the first English-language origami book) — Japanese paper, books, gifts, ceramics, origami classes and exhibits. In the Japan Center malls.\n\nVerified open 2026-09-03 (sfjapantown.org directory).",
+        "secondary_tags": "shopping; stationery; japanese; asian-american; second-generation",
+        "city": "San Francisco",
+        "google_place_id": "ChIJj5Rxo9x-hYARF32G3iQgcqw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4301342,
+          37.7863029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yasukochi's Sweet Stop",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Tiny counter inside the Super Mira market, 1790 Sutter St, Japantown — the Coffee Crunch Cake the Yasukochi family has made since 1974; go in the morning, it sells out. Wed-Sat 10-4 only.\n\nVerified open 2026-09-03 (sweetstopsf.com; Yelp Aug 2026).",
+        "secondary_tags": "bakery; japanese; asian-american; second-generation",
+        "city": "San Francisco",
+        "google_place_id": "ChIJ0clYyriAhYARC8bZ6x6wXBc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4297775,
+          37.7866553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Asakichi",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Japanese antiques and arts shop in the Japan Center West Mall (1737 Post St #365) since 1978 — tea-ceremony ware, ceramics, incense, kimono, iron kettles.\n\nVerified open 2026-09-03 (sfjapantown.org directory).",
+        "secondary_tags": "shopping; ceramics; antiques; japanese",
+        "city": "San Francisco",
+        "google_place_id": "ChIJb9_SK7mAhYARquuxB-gJX1Y"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4301147,
+          37.7853203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SF76",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Formerly Sanko (45+ years in Japantown), renamed SF76 in 2021 — a gallery-like Japanese homeware shop at 1758 Buchanan St: Hasami porcelain, Tomoro and local ceramicists, kitchen tools, incense. Daily 12-6.\n\nVerified open 2026-09-03 (sf-76.com).",
+        "secondary_tags": "shopping; ceramics; tableware; japanese; asian-american",
+        "city": "San Francisco",
+        "google_place_id": "ChIJAUr7NyqBhYAREAycRBO4zls"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.429792,
+          37.78636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Third Culture Bakery",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Home of the original mochi muffin and butter-mochi donuts at 2701 Eighth St, West Berkeley — Sam Butarbutar and Wenter Shyu's gluten-free mochi bakery, Sonoma butter and Indonesian coconut sugar; matcha drinks. Daily 9-4.\n\nVerified open 2026-09-03 (thirdculturebakery.com; Yelp Aug 2026).",
+        "secondary_tags": "bakery; mochi; asian-american",
+        "city": "Berkeley",
+        "google_place_id": "ChIJy_LqU91-hYARrF2Z8bMXT-w"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2917118,
+          37.8569603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bake Sum",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Asian American viennoiserie and cakes at 3249 Grand Ave, Oakland (Grand Lake) — the pop-up that became a bakery; a second shop opened May 2026 in Alameda Marketplace.\n\nVerified open 2026-09-03 (bakesum.com; Yelp Aug 2026).",
+        "secondary_tags": "bakery; asian-american",
+        "city": "Oakland",
+        "google_place_id": "ChIJ25FmqBN_hYAR3SAwarunIMc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2475999,
+          37.8126761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oakland Fortune Factory",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Oakland Chinatown's fortune-cookie bakery at 261 12th St, family-run and hand-folding cookies since 1957 — three generations, the oldest in Oakland; buy custom and unfolded 'flat' cookies at the counter. Mon-Fri 10:30-3:30 only.\n\nVerified open 2026-09-03 (oaklandfortunefactory.com; Yelp 2026).",
+        "secondary_tags": "factory; chinese; asian-american; third-generation",
+        "city": "Oakland",
+        "google_place_id": "ChIJ7zLfDrWAj4ARZt1gir68c1E"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.267793,
+          37.8011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R&G Lounge",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Chinatown Cantonese institution at 631 Kearny St since 1985 — salt-and-pepper Dungeness crab is the order; now run by second-generation CEO Chelsea Hung, daughter of founder Henry Hung, who is opening the restaurant's first outpost in Las Vegas in 2026.\n\nVerified open 2026-09-03 (rnglounge.com; Hoodline Aug 2026).",
+        "secondary_tags": "cantonese; chinese; asian-american; second-generation",
+        "city": "San Francisco",
+        "google_place_id": "ChIJVQHYG4uAhYARy5TU756NqIk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.404942,
+          37.794115
         ]
       }
     }
