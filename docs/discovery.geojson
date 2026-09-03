@@ -38721,24 +38721,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Twister Cake Bakery",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
-        "secondary_tags": "chimney-cake; queens-night-market; owner-priority",
-        "city": "NYC"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.9427086,
-          46.423669
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Dangol",
         "category": "Drinks",
         "signal": "High",
