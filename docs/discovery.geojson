@@ -47888,6 +47888,24 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Taishan Cuisine",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Taishanese regional Chinese specialty in Chinatown, open till 3am, known for eel claypot rice; cult favorite among regional-Chinese connoisseurs.\n\n#11 SF Chronicle Top 100 (2026).",
+        "secondary_tags": "chinese; chinatown; late-night",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4098768,
+          37.797336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "San Ho Won",
         "category": "Meal",
         "signal": "Low",
@@ -48154,6 +48172,24 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Turtle Tower",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Vietnamese pho restaurant; relocated to the Financial District after a 2023 closure, reopened Feb 2025.",
+        "secondary_tags": "vietnamese; pho",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4022482,
+          37.7760845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Omnivore Books on Food",
         "category": "Activities",
         "signal": "Medium",
@@ -48401,6 +48437,24 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Billy Goat Hill",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Small hilltop park/viewpoint, Noe Valley.",
+        "secondary_tags": "park; viewpoint",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4329806,
+          37.741492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Breadbelly",
         "category": "Dessert",
         "signal": "High",
@@ -48610,6 +48664,24 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Plentea",
+        "category": "Cafe",
+        "signal": "Medium",
+        "description": "Boba tea, Kearny St / 3rd St locations.",
+        "secondary_tags": "tea; boba",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4044011,
+          37.7913725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Craftsman and Wolves",
         "category": "Dessert",
         "signal": "Medium",
@@ -48743,6 +48815,24 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Arizmendi Bakery",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Worker-owned bakery (Inner Sunset, 9th Ave) — ginger molasses cookie, and the daily pizza slice; commenters rate the bread and pizza above the pastries.\n\n~79 vouches on r/AskSF bakery threads (2026-08).",
+        "secondary_tags": "bakery; pizza",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4664211,
+          37.7634051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Butter & Crumble",
         "category": "Dessert",
         "signal": "Medium",
@@ -48762,6 +48852,24 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Noe Valley Bakery",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Neighbourhood bakery in Noe Valley — chocolate cake, morning buns, scones, pomegranate galette.\n\n~39 vouches on r/AskSF bakery threads (2026-08).",
+        "secondary_tags": "bakery",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4334253,
+          37.7512004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Juniper",
         "category": "Dessert",
         "signal": "Medium",
@@ -48775,6 +48883,24 @@
         "coordinates": [
           -122.4207557,
           37.789742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jane The Bakery",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Bakery, Geary St location — cardamom lattice bun, sourdough.\n\n~35 vouches on r/AskSF bakery threads (2026-08).",
+        "secondary_tags": "bakery",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4342756,
+          37.7837753
         ]
       }
     },
@@ -48838,6 +48964,24 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Devil's Teeth Baking Company",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Outer Sunset bakery at 3876 Noriega St (also an Embarcadero branch) — the cinnamon roll is the named item; breakfast sandwiches.\n\n~22 vouches on r/AskSF bakery threads (2026-08).",
+        "secondary_tags": "bakery",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5050296,
+          37.7531266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Schubert's Bakery",
         "category": "Dessert",
         "signal": "Medium",
@@ -48870,6 +49014,24 @@
         "coordinates": [
           -122.407371,
           37.7862462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cinderella Bakery",
+        "category": "Dessert",
+        "signal": "Low",
+        "description": "Richmond staple Russian bakery/cafe.\n\n~10 vouches on r/AskSF bakery threads (2026-08).",
+        "secondary_tags": "bakery; russian",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4637195,
+          37.7773682
         ]
       }
     },
@@ -49218,6 +49380,24 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Grizzly Peak",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Viewpoint on Grizzly Peak Blvd in the Berkeley hills — the wide bay panorama (both bridges, SF skyline) at sunset. Public road pull-outs; no closure to check.\n\nFrom the 'Bay with Bae' KMZ, 2026-09-03.",
+        "secondary_tags": "viewpoint; sunset",
+        "city": "Berkeley"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2336459,
+          37.8822472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Palace Hotel Garden Court",
         "category": "Activities",
         "signal": "Low",
@@ -49269,6 +49449,60 @@
         "coordinates": [
           -122.2908804,
           37.8381342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bernal Cutlery (Ferry Building)",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Ferry Building counter of the Valencia St knife shop — exclusives and best sellers, plus Sarah Kersten ceramics. Pinned separately because the Ferry Building is a cluster you'd be in anyway (Acme, Humphry Slocombe, Roli Roti market days).\n\nVerified open 2026-09-03 (Ferry Building directory).",
+        "secondary_tags": "shopping; kitchenware; knives",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3934746,
+          37.7955487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Humphry Slocombe (Dogpatch)",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Dogpatch scoop shop — one of the two remaining after the original Mission shop closed Oct 2024. Pinned because it sits in the Dogpatch cluster (Sohn, Neighbor Bakehouse, Breadbelly Pier 70).\n\nClosure-checked 2026-08-13.",
+        "secondary_tags": "ice cream",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3880854,
+          37.7543072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Breadbelly (Pier 70)",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Second Breadbelly, at Pier 70 in Dogpatch — same kaya toast, twice-baked croissant and shrimpwich as the Clement St original, outdoor seating. Pinned for the Dogpatch cluster.\n\n~74 vouches on r/AskSF bakery threads (2026-08).",
+        "secondary_tags": "bakery; asian-american",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3854586,
+          37.7614544
         ]
       }
     },
@@ -49497,6 +49731,42 @@
         "coordinates": [
           -122.404942,
           37.794115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "House of Pancakes",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Cash-only northern Chinese spot at 937 Taraval St (Parkside) — beef roll in a crisp scallion pancake, lamb hand-pulled noodle soup, dumplings; big portions, cheap. Closed Wed; lunch 11-3 and dinner 5-9.\n\nFrom the 'Bay with Bae' KMZ (missed on 08-13); verified open 2026-09-03 (Yelp Sep 2026).",
+        "secondary_tags": "chinese; northern-chinese; noodles",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4763491,
+          37.7429027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lunette Cambodia",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Nite Yun's Cambodian noodle-and-rice counter in the Ferry Building (opened June 2024) — Khmer fried chicken wings in rice-flour batter with lime, kuy teav noodles, rice plates; all day, unfussy, well priced. In the Ferry Building cluster with Acme, Humphry Slocombe, Bernal Cutlery and Roli Roti.\n\nSuccessor to Nyum Bai (Oakland, closed 2022; Bon Appétit best new restaurants and James Beard semifinalist 2019 travel with the chef, not the door). SF Chronicle 2024: 'some of the best food in the city'. Verified open 2026-09-03 (Ferry Building directory).",
+        "secondary_tags": "cambodian; asian-american; street food",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3934746,
+          37.7955487
         ]
       }
     }
