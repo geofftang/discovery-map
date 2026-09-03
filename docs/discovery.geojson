@@ -27391,6 +27391,24 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Thame Kafe",
+        "category": "Cafe",
+        "signal": "Medium",
+        "description": "Nepali-owned coffee shop, 23-28 Steinway St, Astoria. Greek-island-vibes decor, pet-friendly, chess boards. Banana Oat Latte (espresso, oat milk, banana, cinnamon) is a menu highlight.",
+        "city": "NYC",
+        "google_place_id": "ChIJ-4__O7hfwokRkk7y7IHkpJQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9092299,
+          40.770534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Mel The Bakery",
         "category": "Dessert",
         "signal": "High",
@@ -38209,6 +38227,25 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Ga Ga Jiao Cafe",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Potato balls (potato dumplings with Fuzhou-style minced pork); cash only.",
+        "secondary_tags": "chinese; fuzhounese",
+        "city": "NYC",
+        "google_place_id": "ChIJVzl_NgBbwokRIZxGTGcZ8fQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9948814,
+          40.713547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Cafe Xochimilco",
         "category": "Meal",
         "signal": "Medium",
@@ -38247,6 +38284,25 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "L'Abeille",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Bar menu is a la carte (ordered as plates, not the tasting menu) — a way into this fine-dining French room without the tasting-menu commitment; worth-it ambiance at controlled cost. Noted as an a la carte fine-dining option, 2026-06.",
+        "secondary_tags": "wine",
+        "city": "NYC",
+        "google_place_id": "ChIJq75Ur-tZwokRo7I_F_PhlcU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0099342,
+          40.7220453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Venta Bar El Toro",
         "category": "Meal",
         "signal": "Medium",
@@ -38260,6 +38316,803 @@
         "coordinates": [
           -5.9739272,
           36.2680442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Somssi",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Greenwich Village neo-bistro from Ahris Kim of the Atomix/Atoboy/Naro world; Korean/Asian/European influences, serious food in a playful downtown format.",
+        "secondary_tags": "korean; asian-bistro; neo-bistro; greenwich-village; wine; sake",
+        "city": "NYC",
+        "google_place_id": "ChIJA952EcJZwokRxXKIjaqR1rw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0017165,
+          40.7287459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Venhue",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Owner interesting list; caveat that it might be too cringey.",
+        "secondary_tags": "interesting",
+        "city": "NYC",
+        "google_place_id": "ChIJbzLdhstZwokRXV0VHS5XSqg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983154,
+          40.7221008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Foul Witch",
+        "category": "Drinks",
+        "signal": "Medium",
+        "description": "Owner interesting list: Italian wine bar by Roberta’s.",
+        "secondary_tags": "italian; wine bar; interesting",
+        "city": "NYC",
+        "google_place_id": "ChIJq6oPsoNZwokR1hGiiD3wy8g"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9862513,
+          40.7227931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tres Leches Cafe",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Owner interesting restaurant lead from Notion migration; save for surfacing at medium priority.",
+        "secondary_tags": "interesting",
+        "city": "NYC",
+        "google_place_id": "ChIJX1fZNgf2wokR3NYbpz0Hu5w"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9378201,
+          40.793518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Keens",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Owner interesting restaurant lead from Notion migration; save for surfacing at medium priority.",
+        "secondary_tags": "steakhouse; mutton-chop; interesting",
+        "city": "NYC",
+        "google_place_id": "ChIJ5804KalZwokRzGll2Rm7nag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9864611,
+          40.7507861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Peter Luger",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Owner interesting list; caveat that it may be going downhill.",
+        "secondary_tags": "steakhouse; interesting",
+        "city": "NYC",
+        "google_place_id": "ChIJR_bK295bwokR8gM6QgEdmkY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9625052,
+          40.7098774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Frankel's",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Owner interesting restaurant lead from Notion migration; save for surfacing at medium priority.",
+        "secondary_tags": "deli; interesting",
+        "city": "NYC",
+        "google_place_id": "ChIJLdFlUkRZwokR6UTdWztXjSI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9510201,
+          40.7239096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rezdora",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Owner interesting list; note says do not get the tasting.",
+        "secondary_tags": "italian; interesting",
+        "city": "NYC",
+        "google_place_id": "ChIJDdKSyCVZwokR-9svvc9YDFo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.989044,
+          40.739083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seoul Ttuekbaegi",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "korean; owner-favorite",
+        "city": "NYC",
+        "google_place_id": "ChIJj4nJe4ZhwokRpM_2wjMuHv8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8152639,
+          40.7621167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Renee's",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "filipino; owner-favorite",
+        "city": "NYC",
+        "google_place_id": "ChIJZ949wwNfwokRhpCbCHtoMyQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8956964,
+          40.7462644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Souk El Shatar",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "halal; middle-eastern; owner-favorite",
+        "city": "NYC",
+        "google_place_id": "ChIJU5mA_CBhwokRot30p0FOX5M"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9211617,
+          40.7437391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philomena's",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "pizza; owner-favorite",
+        "city": "NYC",
+        "google_place_id": "ChIJvXR6z1VfwokRYGnzn7W9eao"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9229366,
+          40.7432931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Noortwyck",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "new-american; owner-favorite",
+        "city": "NYC",
+        "google_place_id": "ChIJ6wJ-in5ZwokRRuY3ZKS6BOA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0032725,
+          40.7321673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zhego",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "bhutanese; owner-favorite",
+        "city": "NYC",
+        "google_place_id": "ChIJcUvF2cFfwokRgmZtEjHQF0g"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9027366,
+          40.7475612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sinsa",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Owner urgent list: Sinsa, rice-thief wine bar.",
+        "secondary_tags": "wine bar; korean; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJee-_eQBZwokR0r0HfFPH7s8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9890289,
+          40.7272417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lai Rai",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Owner urgent list: Lai Rai / Mam wine bar.",
+        "secondary_tags": "wine bar; vietnamese; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJu72rPwBZwokRb_yHiC2rVIM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9931387,
+          40.7172141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "C by C Chocolate and Pastry",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "pastry; chocolate; sunnyside; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJ3yrpRkVZwokRuL2tExwEMik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.979506,
+          40.6971415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nangma",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Owner priority: Burmese breakfast Sundays 8-11am.",
+        "secondary_tags": "burmese; breakfast; sunday; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJs4eWfnlfwokRtrchD1lEkBw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8793295,
+          40.7409359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yingtao",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Owner priority: Yingtao bar menu.",
+        "secondary_tags": "chinese; bar-menu; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJkYkkoh1ZwokRE01ymVZhhpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987724,
+          40.7657219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lei Wine",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Owner priority: new wine bar from King’s Chinese co-owner.",
+        "secondary_tags": "wine bar; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJX97UMwBbwokRIFRlD1YzSRc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.998267,
+          40.714595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Queen's Night Market",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "food-market; queens; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJ50BH9tpfwokREN2-D3gMVnc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8505135,
+          40.7480643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Twister Cake Bakery",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "chimney-cake; queens-night-market; owner-priority",
+        "city": "NYC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.9427086,
+          46.423669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dangol",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "korean; pocha; murray-hill; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJda-p_kRhwokRuRpj0itjNS0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8046418,
+          40.7624273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zurang",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "korean; pocha; murray-hill; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJL-f3sS9gwokRP3sTrdeXhgk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8040289,
+          40.7609592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sonamu House",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "korean; gamjatang; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJkXd0F3NhwokRAD-_elSUaLQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8068151,
+          40.7636074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ruffian",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "wine bar; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJHfvtRp1ZwokREpFE8Z1BEKs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9841019,
+          40.7264264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Terroir",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "wine bar; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJ1Z3-Oh5awokR6ReR4JZHAfA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0099419,
+          40.7189062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Compagnie des Vins Surnaturels",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "wine bar; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJLdUjBIlZwokRE7GSMUrqovY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9981652,
+          40.7205157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aldo Sohm",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "wine bar; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJFbIdkvhYwokRAicwcVjJ2io"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9813963,
+          40.7616018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ten Bells",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "wine bar; happy-hour; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJPeCaOIdZwokRXr36ali2z_k"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9898524,
+          40.7178285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Farra",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "wine bar; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJYw5z8rhbwokRvlPiJa21fuI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0056975,
+          40.7170313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Place des Fetes",
+        "category": "Drinks",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "wine bar; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJtx7ymGVbwokRzDZBJ8NVJz0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9628829,
+          40.6868258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pho Ga Vang",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "vietnamese; pho-ga; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJJ0T0WQBbwokRIn9_9gL_ejU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9943086,
+          40.7127388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Di Fara",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "pizza; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJM2mGRMhEwokRv1Fy6oFJ570"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9615228,
+          40.6250267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Giuseppina's Brick Oven Pizza",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "pizza; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJo67U5-ZawokRPfORVM3NpTo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9905395,
+          40.6603878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lord's",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "british; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJ-XcRtjdZwokRMcgZdhVjqYg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9995539,
+          40.7277403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Claud",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "wine; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJWRt4WAtZwokRDRClJ45Ohzg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9896832,
+          40.7308579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nepali Bhancha Ghar",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "nepali; momos; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJd06GLQdfwokRQunm5arxBcM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8909012,
+          40.7471014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "886",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "taiwanese; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJKbjLf5xZwokRYa6BYJg0Xns"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9887127,
+          40.7287968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New Arping",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "fuzhounese; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJR7DpJCZawokR4is6gJL3UmI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9953761,
+          40.7140177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Warung Selasa",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Owner urgent/up-next/favorites restaurant lead from Notion migration; save for surfacing at high priority.",
+        "secondary_tags": "indonesian; pop-up; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJmd1ma1JewokRh5LtJskz5_I"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8783259,
+          40.7366517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NY Jumbo Bagels",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Bagel and bialy wholesaler supplying NYC appetizing stores (incl. Sable's); among the last good bialy sources in Manhattan; 2nd Ave & 56th",
+        "secondary_tags": "bakery",
+        "city": "NYC",
+        "google_place_id": "ChIJI9IJoOZYwokRkmkmNAZd2uo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9653739,
+          40.7587265
         ]
       }
     },
@@ -40601,6 +41454,78 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Paradiso Perduto",
+        "category": "Drinks",
+        "signal": "Medium",
+        "description": "Bar on Fondamenta della Misericordia, Cannaregio. Sourced 2026-07-31: pasted first-hand rec from someone claiming to be Venice born-and-raised, no attributable source/link, identity unverified. Corroborating signal: content is granular (specific street, specific dish caveats) and independently converges with existing vault research on this same street as the real cicchetti-anchor area of Cannaregio. Verified 2026-08-01: real, 3.7/5 on Tripadvisor (3,200+ reviews), genuine mixed feedback (billing/consistency complaints) — organic reputation, not astroturf. Known for live jazz/poetry readings, a real cultural anchor.",
+        "city": "Venice",
+        "google_place_id": "ChIJ1fg_hcKxfkcR9RCjKatQy24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3320647,
+          45.4445902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Birreria Zanon",
+        "category": "Drinks",
+        "signal": "Medium",
+        "description": "Bar on Fondamenta della Misericordia, Cannaregio. Same sourcing as Paradiso Perduto — local rec, identity unverified, converges with existing research on this street. Verified 2026-08-01: real, #10 of 78 Venice bars on Tripadvisor (454 reviews), specific idiosyncratic details across reviews (90s hip-hop soundtrack, tramezzini specialty) — reads as organic regulars, not planted copy.",
+        "city": "Venice",
+        "google_place_id": "ChIJpwDp_-mxfkcRnZJS2ajOpEk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3287191,
+          45.4455775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bacaro del Gelato",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Gelato shop on Fondamenta della Misericordia, Cannaregio, same street as Paradiso Perduto/Zanon/Al Timon. Same sourcing — local rec, identity unverified. Verified 2026-08-01: real, 4.8/5 (#53 of 1,398), genuine mixed service feedback alongside praise — organic.",
+        "city": "Venice",
+        "google_place_id": "ChIJnaUgvMKxfkcRy7vpxXOr0WQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3330303,
+          45.4440787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taverna Al Remer",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Dinner recommendation, sourced 2026-07-31 same as above — local rec, identity unverified, no institutional backing checked yet. Verified 2026-08-01: real, mid-pack (3.9/5, #459 of 1,426) — reviews specifically flag \"pricey a la carte, better at the buffet\" and \"limited menu.\" Real tradeoffs, not oversold — organic.",
+        "city": "Venice",
+        "google_place_id": "ChIJ90HGZdyxfkcRr2fcXGrHxIM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3364913,
+          45.4394573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Cantina Do Spade",
         "category": "Meal",
         "signal": "Medium",
@@ -40613,6 +41538,115 @@
         "coordinates": [
           12.3333943,
           45.4391783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ai Nevodi",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Near Giardini/Arsenale (quieter, less-touristy area per the same source). Specific caveat from the source: order the seafood, not the pizza. Local rec, identity unverified. Verified 2026-08-01 — FLAG, not fully vouched: shows as several duplicate Tripadvisor listings at slightly different addresses, and RestaurantGuru review count (6,371) is disproportionate to its Tripadvisor footprint for a small neighborhood spot. Not conclusive astroturf, but a pattern worth distrusting more than the others in this batch — treat as lower-confidence. Update 2026-08-01: featured directly in Gambero Rosso's own current Venice guide (not just aggregate reviews) — family-run ~10 years by an uncle-and-nephews team, dishes driven by the nearby Rialto market and lagoon gardens. Baccalà trio (mantecato/vicentina/in umido con polenta) and polenta con schie specifically named. This is a real, current first-party critic vouch, not just aggregate reviews — upgrading confidence; the earlier duplicate-listing concern reads more like a TripAdvisor data-quality artifact than a real red flag. Also featured in Gambero Rosso 2025 (\"Trattorie e osterie di Venezia da scoprire questa estate\"): Confirms the uncle-and-nephews team (~10 years running), names a tris of baccalà (mantecato / alla vicentina / in umido con polenta), polenta con schie, and notes vegan options are available.",
+        "city": "Venice",
+        "google_place_id": "ChIJ7UYO5C-ufkcRxl8L-pdKygM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3530772,
+          45.4321591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Maria Gloriosa dei Frari",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Art-historical church, named by a second local source (art-history focused) as a must-see beyond San Marco/Ducale/Accademia. Identity unverified.",
+        "city": "Venice",
+        "google_place_id": "ChIJm6Zpg8WxfkcRC_yc4Q1GulQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3266004,
+          45.4369864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Giorgio Maggiore",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Art-historical church/island, same source as Frari. Identity unverified. Monet painted this view repeatedly during his sole 1908 Venice visit, from the balcony of the Grand Hotel Britannia (now St. Regis Venice) across the basin — a distant, hazy vantage where church, dome, and bell tower blend into sky and water. Sunset pick (r/ItalyTravel, u/BrunoGerace + thistle0, 2026-07-31 capture): climb the bell tower here at sunset for an elevated view back across the basin — the alternative to watching from the Dorsoduro/Zattere side (see 'Zattere / Giudecca Canal sunset walk').",
+        "secondary_tags": "monet; art-history; church; sunset",
+        "city": "Venice",
+        "google_place_id": "ChIJqTo_liuufkcReyfjNGX85P8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3438017,
+          45.4288691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Scuola Grande di San Rocco",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "60+ Tintoretto paintings in situ. Already independently vetted in prior trip research (2026-07-28 pass) as a real, off-the-radar pick — this local art-history source's mention is a second, independent hit on the same venue.",
+        "city": "Venice",
+        "google_place_id": "ChIJLS-2B8axfkcRYcksJO3KDpw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3254746,
+          45.4366549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Maria dei Miracoli",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Art-historical church, named by the same art-history-focused local source. Identity unverified.",
+        "city": "Venice",
+        "google_place_id": "ChIJ62lRTdmxfkcRyvFRIr5As2c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3391512,
+          45.4394001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Zaccaria",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Art-historical church, named by the same art-history-focused local source. Identity unverified.",
+        "city": "Venice",
+        "google_place_id": "ChIJcUSm_ieufkcRciKs7QhAtAE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3429312,
+          45.4343986
         ]
       }
     },
@@ -46284,6 +47318,25 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Pico",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "5 locations: Parioli, Piazza Bologna, Flaminio, Lanciani, Balduina/Piazza delle Medaglie d'Oro 6.\n\nGambero Rosso Gelaterie d'Italia, Due Coni -- most current confirmation in this whole sweep (2024-02-28 snapshot of the scheda page icon).",
+        "secondary_tags": "gambero rosso; due coni",
+        "city": "Rome",
+        "google_place_id": "ChIJg3lqNmFnLxMR_wz6tC8HJ6o"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4433964,
+          41.9745163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Gelato d'Essai da Geppy Sferra",
         "category": "Dessert",
         "signal": "High",
@@ -46806,6 +47859,25 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Proloco Pinciano",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Piazza Fiume/Porta Pia area.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi per a ~2023-edition article -- current 2026 status unconfirmed.",
+        "secondary_tags": "gambero rosso pizza",
+        "city": "Rome",
+        "google_place_id": "ChIJy1x1yw5hLxMRZbxNX65hjvM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4994862,
+          41.9111481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Sant'Isidoro - Pizza e Bolle",
         "category": "Meal",
         "signal": "High",
@@ -46818,6 +47890,25 @@
         "coordinates": [
           12.4616072,
           41.9186099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sancho (Prati)",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Via Giuseppe Gioacchino Belli 3/A, Prati, ~0.5-0.6km from NH Collection Roma Centro.\n\nSame brand as the Fiumicino original, which independently holds Gambero Rosso Tre Rotelle -- but multiple sources confirm that rating belongs specifically to the Fiumicino location, not this newer (May 2024) Prati branch. Same kitchen/brand, tier NOT independently confirmed for this address -- treat as a promising lead, not a verified Tre Rotelle.",
+        "secondary_tags": "gambero rosso pizza; near NH hotel",
+        "city": "Rome",
+        "google_place_id": "ChIJg5ApDwBhLxMRuvvAcDcosEw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4719362,
+          41.9076655
         ]
       }
     },
@@ -47034,6 +48125,25 @@
         "coordinates": [
           12.5137707,
           41.8806204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "200Gradi",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Piazza Risorgimento, between St. Peter's and the Vatican Museums.\n\nSandwich maker, fresh bread/fillings praised, also good salads. Near a good gelateria \"round the corner\" per the source (unnamed). Close to NH Collection Roma Centro -- worth checking distance if this one verifies as still open.\n\nSOURCED FROM: r/italy Reddit post by italianjob17 (self-ID'd Garbatella-born Roman local), posted 2012 -- 14 years old. Track-record note: this same source independently named Perilli, Augustarello, Da Baffetto, Dar Filettaro, and Trapizzino's original Testaccio location, all of which separately earned real critic/institutional backing elsewhere -- raises trust in the source generally. BUT this specific pick has NOT been independently re-verified as currently open/good, same caveat class as a historical (non-current-year) Gambero Rosso tier finding. Verify before relying on it.",
+        "secondary_tags": "local-rec-2012-unverified-current",
+        "city": "Rome",
+        "google_place_id": "ChIJaVa3SWFgLxMRoJDHWzGuMNs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4565817,
+          41.9064553
         ]
       }
     },
