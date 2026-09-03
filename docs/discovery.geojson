@@ -51355,6 +51355,24 @@
           37.7595236
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tartine Manufactory",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Tartine's big Mission bakery-restaurant at 595 Alabama St, in the Heath Ceramics building — bread and pastry counter and coffee bar by day, dinner Wed-Sun 5-9. The one to sit down in; the Guerrero St original is the line for a loaf.\n\nVerified open 2026-09-03 (OpenTable, Infatuation). Owner request.",
+        "secondary_tags": "bakery; californian; coffee; bread",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.411796,
+          37.7617712
+        ]
+      }
     }
   ]
 }
