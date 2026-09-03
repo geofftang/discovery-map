@@ -47603,6 +47603,975 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Four Kings",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Cantonese izakaya in Chinatown built on millennial Asian American nostalgia — elevated claypot rice, Hong Kong pepper steak, Canto-pop soundtrack. Chefs Franky Ho & Mike Long (ex-Mister Jiu's).\n\n#1 on SF Chronicle Top 100 (2026). NYT top-50 2024, Bon Appétit top-20 new restaurants, Esquire Restaurant of the Year.",
+        "secondary_tags": "izakaya; cantonese; asian-american; cocktails",
+        "city": "San Francisco",
+        "google_place_id": "ChIJD_erQf2BhYARF5m3aYOjjDk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4051035,
+          37.7940708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "State Bird Provisions",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Legacy SF small-plates restaurant, dim-sum-cart-style service of California-inflected dishes.\n\n#36 SF Chronicle Top 100 (2026).",
+        "secondary_tags": "californian; small-plates",
+        "city": "San Francisco",
+        "google_place_id": "ChIJQ7kGpLmAhYARKeCe2pDobWk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4329951,
+          37.7837322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rich Table",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Californian cooking in Hayes Valley; sourdough pancake with maitake mushrooms and raclette is the signature.\n\n#8 SF Chronicle Top 100 (2026).",
+        "secondary_tags": "californian",
+        "city": "San Francisco",
+        "google_place_id": "ChIJh_24QJ-AhYAR_xbUNVN2Xns"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4228497,
+          37.7748657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rintaro",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Mission District izakaya from Kyoto-trained chef Sylvan Mishima Brackett — rigorous Japanese craft applied to California produce; exposed wood interior, courtyard.\n\n#74 SF Chronicle Top 100 (2026); Michelin Bib Gourmand 2026.",
+        "secondary_tags": "izakaya; japanese",
+        "city": "San Francisco",
+        "google_place_id": "ChIJgcIdeSZ-j4AR1BE-49mhR-E"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4151361,
+          37.768875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Taqueria",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Mission taqueria, no-rice burritos, decades-long cult favorite.\n\n#50 SF Chronicle Top 100 (2026).",
+        "secondary_tags": "mexican; taqueria",
+        "city": "San Francisco",
+        "google_place_id": "ChIJrTYB1UZ-j4ARdeRB5Wzp_CE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4180867,
+          37.7508961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Z&Y Restaurant",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Sichuan restaurant in Chinatown, known for the spicy \"Chicken with Explosive Chile Peppers.\"\n\nEater 38 (essential SF restaurants) pick.",
+        "secondary_tags": "sichuan; chinatown",
+        "city": "San Francisco",
+        "google_place_id": "ChIJmevPu_SAhYARMmQlHRt_Rj4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4060612,
+          37.7960301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mister Jiu's",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Contemporary Chinese restaurant in Chinatown.\n\n#47 SF Chronicle Top 100 (2026).",
+        "secondary_tags": "chinese; chinatown",
+        "city": "San Francisco",
+        "google_place_id": "ChIJyRDJYIuAhYARyAPkIc7A2Vo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4066569,
+          37.79371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cotogna",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Casual Italian restaurant in Jackson Square.\n\n#51 SF Chronicle Top 100 (2026); Eater 38 pick.",
+        "secondary_tags": "italian",
+        "city": "San Francisco",
+        "google_place_id": "ChIJA0YvGPWAhYAReXmaDTTdWzU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4035759,
+          37.7974453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sons & Daughters",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Tasting-menu restaurant, Nob Hill.\n\n#21 SF Chronicle Top 100 (2026).",
+        "secondary_tags": "tasting-menu; californian",
+        "city": "San Francisco",
+        "google_place_id": "ChIJvXXIOoyAhYARe-ixq3WdmrY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4108486,
+          37.7616252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Californios",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Mexican tasting-menu restaurant.\n\n#26 SF Chronicle Top 100 (2026); 3 Michelin stars (2026) — world's first Mexican restaurant at that tier.",
+        "secondary_tags": "mexican; tasting-menu; fine-dining",
+        "city": "San Francisco",
+        "google_place_id": "ChIJIfD0wjh-j4ARbWVBlaGpKnU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.413044,
+          37.7712976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kin Khao",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Thai restaurant from chef Pim Techamuanvivit.\n\n#58 SF Chronicle Top 100 (2026); Michelin Bib Gourmand 2026.",
+        "secondary_tags": "thai",
+        "city": "San Francisco",
+        "google_place_id": "ChIJn_ZxYo-AhYAR22wJt4at2K0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.409331,
+          37.7852408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Happy Crane",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Modern Cantonese in Hayes Valley from self-taught chef James Yeun Leong Parry (ex-Benu, grew up in Hong Kong); custom duck oven.\n\n#61 SF Chronicle Top 100 (2026); James Beard 2026 semifinalist; SF Standard called it the year's most exciting SF debut.",
+        "secondary_tags": "cantonese; asian-american",
+        "city": "San Francisco",
+        "google_place_id": "ChIJtxEtPwCBhYARjixit0xj2Ws"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4233003,
+          37.7774909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ippuku",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Japanese izakaya, Berkeley.\n\n#91 SF Chronicle Top 100 (2026); Michelin Bib Gourmand 2026.",
+        "secondary_tags": "izakaya; japanese",
+        "city": "Berkeley",
+        "google_place_id": "ChIJucLtwJ1-hYAR7qhrXpzINOo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.267111,
+          37.870291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fu Hui Hua",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Tiny chef's-counter restaurant in the Mission from Chef Ge — Chinese/Japanese technique honed over a decade in Tokyo; $258 tasting menu.\n\n#10 SF Chronicle Top 100 (2026); SF Chronicle Best New Restaurants 2025.",
+        "secondary_tags": "chinese; japanese; tasting-menu; fine-dining",
+        "city": "San Francisco",
+        "google_place_id": "ChIJs7GuaQCBhYARzbng5vHP75I"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4084334,
+          37.7526995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joodooboo",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Tofu-centric restaurant from chef Steve Joo — house-made dooboo (tofu) via traditional Korean coagulation methods, reinterpreted through California farmers-market produce.\n\nFood & Wine \"Best New Chef.\"",
+        "secondary_tags": "korean; californian; tofu",
+        "city": "Oakland",
+        "google_place_id": "ChIJm2GURx1_hYARbws7G22yXEM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.273704,
+          37.8325196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Ho Won",
+        "category": "Meal",
+        "signal": "Low",
+        "description": "Korean BBQ without tableside DIY grilling, bespoke lychee-wood charcoal, from Corey Lee (Benu) + Jeong-In Hwang.\n\n#20 SF Chronicle Top 100 (2026); Michelin 1 star (2026).",
+        "secondary_tags": "korean; bbq",
+        "city": "San Francisco",
+        "google_place_id": "ChIJBQpgwVh_j4ARocWBZnqOXEg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4102473,
+          37.759599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ABACA",
+        "category": "Meal",
+        "signal": "High",
+        "description": "First Filipino fine-dining restaurant in SF (Kimpton Alton Hotel, Fisherman's Wharf), chef Francis Ang; inventive cocktail program (ube colada, calamansi daiquiri).\n\nEsquire's America's Best New Restaurant; James Beard semifinalist; NYT 2022 America's Best Restaurants; Eater SF \"Most Innovative Menu.\"",
+        "secondary_tags": "filipino; fine-dining; cocktails",
+        "city": "San Francisco",
+        "google_place_id": "ChIJvUR84BqBhYARPsQEVivxTec"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4169367,
+          37.8067367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bay Pocha",
+        "category": "Drinks",
+        "signal": "Medium",
+        "description": "Korean pocha/pojangmacha-style pub near Stonestown — 20-person communal table, kimchi seafood pancake, japchae, army stew, tteokbokki, soju/Korean beer, K-pop soundtrack. Open till 1am weekends.\n\nPositive coverage from The Infatuation and KQED; no major critic award found.",
+        "secondary_tags": "korean; late-night",
+        "city": "San Francisco",
+        "google_place_id": "ChIJcdtOuL59j4ARGKQ64ixjhsw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4738176,
+          37.7321598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hem by LeQuy",
+        "category": "Meal",
+        "signal": "Low",
+        "description": "Vietnamese street food and nhậu (drinking food) — garlic butter sea snails, steamed clams, sizzling beef, crispy wings. Opened 2025 from the LeQuy team, Mission District.\n\nNo critic pickup found; mixed customer reviews — some praise, some reports of slow service and inconsistent execution.",
+        "secondary_tags": "vietnamese; nhau",
+        "city": "San Francisco",
+        "google_place_id": "ChIJNWTFKvB_j4AR-gNkg_Y5CY4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.421318,
+          37.755944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Co Nam",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Upscale contemporary Vietnamese in Temescal, Oakland — filet mignon shaken beef, beef carpaccio, sugarcane shrimp; $150-195/guest chef's tasting menu with wine/cocktail pairings.\n\nNot a casual drinking-food (nhậu) spot despite the name/branding — a reservation-worthy special-dinner destination.",
+        "secondary_tags": "vietnamese; fine-dining; tasting-menu",
+        "city": "Oakland",
+        "google_place_id": "ChIJB-wWaCd9hYAR7iFuMQgZDuE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.264284,
+          37.828921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "439 Que Nha",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Authentic quan nhậu (Vietnamese drinking-food pub) on Senter Rd — oc (snails/razor clams), chicken feet salad, bo la lot; cash-only, ice-cold lagers.\n\nThe genuine nhậu spot on the shortlist, as opposed to Co Nam's upscale pivot.",
+        "secondary_tags": "vietnamese; nhau",
+        "city": "San Jose",
+        "google_place_id": "ChIJG33ad_YyjoAR8Q-0uUGYC98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8392136,
+          37.2983875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Golden Boy Pizza",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Slice shop in North Beach.",
+        "secondary_tags": "pizza",
+        "city": "San Francisco",
+        "google_place_id": "ChIJmx3iW_GAhYARrlV9H2vyE-E"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4080927,
+          37.7997625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taqueria El Farolito",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Mission taqueria, flagship at 2779 Mission St.",
+        "secondary_tags": "mexican; taqueria",
+        "city": "San Francisco",
+        "google_place_id": "ChIJ5WRITUd-j4ARIcl68TeeR8M"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4183182,
+          37.7526463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dumpling Home",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Chinese dumpling restaurant, Gough St.",
+        "secondary_tags": "chinese; dumplings",
+        "city": "San Francisco",
+        "google_place_id": "ChIJlYL0Wa-BhYARJi6qr49Ncv0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4226361,
+          37.7758205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zuni Cafe",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Californian restaurant, roast chicken with bread salad is the signature. #33 SF Chronicle Top 100 (2026).",
+        "secondary_tags": "californian",
+        "city": "San Francisco",
+        "google_place_id": "ChIJO7u9q5-AhYARiSSXyWv9eJ8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.421608,
+          37.7736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Swan Oyster Depot",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Seafood counter, SF institution.",
+        "secondary_tags": "seafood",
+        "city": "San Francisco",
+        "google_place_id": "ChIJEdGJjp6AhYAR1LtP-ptLrOg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.420964,
+          37.7908308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tadich Grill",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Seafood/Californian grill, SF institution.",
+        "secondary_tags": "seafood; californian",
+        "city": "San Francisco",
+        "google_place_id": "ChIJqVjXkGGAhYAR5X80yCKz9Wo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3994491,
+          37.7934352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Poc-Chuc",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Yucatecan (Mayan) Mexican restaurant, 16th St.",
+        "secondary_tags": "mexican; yucatecan",
+        "city": "San Francisco",
+        "google_place_id": "ChIJUaWIjCR-j4ARR3YQRmBbujQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4171447,
+          37.7653579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Roli Roti",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Porchetta sandwich vendor, Ferry Plaza Farmers Market (Tue/Thu/Sat only).",
+        "secondary_tags": "sandwich; farmers-market",
+        "city": "San Francisco",
+        "google_place_id": "ChIJeWScZmaAhYARG-EuO8oGxak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3925892,
+          37.7949014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Omnivore Books on Food",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Cookbook specialty bookstore, Cesar Chavez St.",
+        "secondary_tags": "bookstore",
+        "city": "San Francisco",
+        "google_place_id": "ChIJ1QGwTWp-j4ARb4w3FhbHyos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4267609,
+          37.7476062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Clarion Alley",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Mural alley in the Mission, rotating street art.",
+        "secondary_tags": "art; mural",
+        "city": "San Francisco",
+        "google_place_id": "ChIJaxLQJCN-j4AR9ZJpsSa8Lcc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4205961,
+          37.7629977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mosaic Stairway (16th Ave Tiled Steps)",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Community mosaic tile staircase, Golden Gate Heights.",
+        "secondary_tags": "art; public-art",
+        "city": "San Francisco",
+        "google_place_id": "ChIJZbB4wmGHhYAR7dZMVRkEWz0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4732299,
+          37.7562439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lands End Labyrinth",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Stone labyrinth overlooking the Golden Gate, part of the Lands End trail.",
+        "secondary_tags": "park; hike",
+        "city": "San Francisco",
+        "google_place_id": "ChIJNV9g0U2GhYARiv9AFW3-NpU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5058278,
+          37.7880222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baker Beach",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Beach with Golden Gate Bridge views.",
+        "secondary_tags": "beach; park",
+        "city": "San Francisco",
+        "google_place_id": "ChIJp_hAi_yGhYARGdXAfU1rPYs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.483638,
+          37.7935724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kirby Cove",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "GGNRA beach/campground with Golden Gate Bridge views, Marin side.",
+        "secondary_tags": "beach; park",
+        "city": "San Francisco",
+        "google_place_id": "ChIJA0jtL4CGhYARo0PPCMsEU0A"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4898368,
+          37.8260811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Painted Ladies",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Row of Victorian houses at Alamo Square, classic SF postcard view.",
+        "secondary_tags": "landmark",
+        "city": "San Francisco",
+        "google_place_id": "ChIJuX92JKWAhYARxVmeb8DQIYQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4327556,
+          37.7762528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palace of Fine Arts",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Beaux-Arts rotunda and lagoon, Marina District.",
+        "secondary_tags": "landmark; park",
+        "city": "San Francisco",
+        "google_place_id": "ChIJgUYUENWGhYAR9awaWIrbYOk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4484231,
+          37.8029308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Japan Center",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Japantown shopping/cultural complex.",
+        "secondary_tags": "shopping; cultural",
+        "city": "San Francisco",
+        "google_place_id": "ChIJBYGM7JGAhYARewX82XkeUWo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4294444,
+          37.7852778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PIER 39",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Waterfront tourist pier, sea lions.",
+        "secondary_tags": "landmark; tourist",
+        "city": "San Francisco",
+        "google_place_id": "ChIJHSGzi_yAhYARnrPmDWAx9ro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.409821,
+          37.808673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Japanese Tea Garden",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Formal garden in Golden Gate Park.",
+        "secondary_tags": "park; garden",
+        "city": "San Francisco",
+        "google_place_id": "ChIJhVvouY-AhYARt6oYQBabsr8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4704359,
+          37.7700913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Twin Peaks",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Hilltop viewpoint over the city.",
+        "secondary_tags": "park; viewpoint",
+        "city": "San Francisco",
+        "google_place_id": "ChIJp71fQgh-j4ARV7YEtWUmni0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4506849,
+          37.7536596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bernal Heights",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Hilltop park/viewpoint.",
+        "secondary_tags": "park; viewpoint",
+        "city": "San Francisco",
+        "google_place_id": "ChIJSVy9XFx-j4ARMl0msWEEZ7c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4113891,
+          37.7398411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Neighbor Bakehouse",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Bakery in Dogpatch — char siu croissant, pistachio blackberry croissant, savory pastries. Asian American-owned, chef Deuki Hong (also of Sohn).\n\n~94 vouches on r/AskSF bakery threads.",
+        "secondary_tags": "bakery; asian-american",
+        "city": "San Francisco",
+        "google_place_id": "ChIJwxB7url_j4ARDQCaUUgJCwo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3881812,
+          37.7596427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sohn",
+        "category": "Cafe",
+        "signal": "High",
+        "description": "Korean American cafe/community space in Dogpatch (2535 3rd St, opened Aug 2025) from chef Deuki Hong (Neighbor Bakehouse) + Janet Lee — Korean BBQ patty melt, jook, popcorn chicken, house-fermented kimchi, Melona soda. Also a Korean makers/artists shop (Maum) and event space.\n\nSource: Eater SF opening coverage.",
+        "secondary_tags": "korean; asian-american",
+        "city": "San Francisco",
+        "google_place_id": "ChIJH6ixN1F_j4ARNHU1HfGU_KY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3879397,
+          37.757324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bar Shoji / Cafe Shoji",
+        "category": "Drinks",
+        "signal": "Medium",
+        "description": "SoMa — Japanese cocktail bar/izakaya by night, cafe by day. Chef Intu-on Kornnawong (Kin Khao, Jo's Modern Thai) folds her Thai heritage into the Japanese frame — aged sashimi, Thai-accented rice bowls.\n\nSF Standard: \"might make Tokyo jealous.\"",
+        "secondary_tags": "japanese; thai; cocktails; izakaya",
+        "city": "San Francisco",
+        "google_place_id": "ChIJN_JxeQCBhYAR6LTP2YCkTDE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.399674,
+          37.7866713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Naides",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Filipino tasting menu ($205) using New Nordic preservation/fermentation techniques, Nob Hill (former Sons & Daughters space). Chef Patrick Gabon + Celine Wuu (ex-Benu).\n\nMichelin 1 star (2026, first year).",
+        "secondary_tags": "filipino; tasting-menu; fine-dining",
+        "city": "San Francisco",
+        "google_place_id": "ChIJzyIspeuBhYARUNRInz8tBdk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.409088,
+          37.7902449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buoy / Rice Flour",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Hayes Valley, founded 2024 — Korean rice-flour desserts and salt-bread sandwiches, owner Esther Kim; concept built from scratch researching Korean rice-flour baking.",
+        "secondary_tags": "korean; bakery",
+        "city": "San Francisco",
+        "google_place_id": "ChIJK84-R6qBhYARWHOHDki2w6Y"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4206092,
+          37.774757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Four Barrel Coffee",
+        "category": "Cafe",
+        "signal": "Medium",
+        "description": "Coffee roaster/cafe, Valencia St.",
+        "secondary_tags": "coffee",
+        "city": "San Francisco",
+        "google_place_id": "ChIJ__abjyF-j4ARmyuzGS1yOdc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4217806,
+          37.7670234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Acme Bread Company",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Savory bread bakery, Ferry Building.",
+        "secondary_tags": "bakery",
+        "city": "San Francisco",
+        "google_place_id": "ChIJWTGPjmaAhYARUBlHM0tcCLk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3933208,
+          37.7955703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Viridian",
+        "category": "Drinks",
+        "signal": "Medium",
+        "description": "Contemporary Asian American cocktail bar in Uptown Oakland, opened Feb 2020, built around the owners' East Bay upbringing — White Rabbit (oolong tea + condensed milk), Tomato Beef (riffing on the Cantonese Chinatown classic).\n\nEsquire \"27 Best Bars in America\" 2021.",
+        "secondary_tags": "asian-american; cocktails",
+        "city": "Oakland",
+        "google_place_id": "ChIJ6fQ5n_WBj4ART7Pv1tfV14g"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2666264,
+          37.8112077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dragon Gate Bar & Grille",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Chinese/Taiwanese restaurant in Jack London Square, Oakland, opened Jan 2025, from Johnny Chang & Phu Voong — bun cha, tofu, fried prawns.",
+        "secondary_tags": "chinese; taiwanese",
+        "city": "Oakland",
+        "google_place_id": "ChIJ2-MiGciAj4ARUUfRRhSxan0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2762293,
+          37.7935672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Panaderya Salvaje",
         "category": "Dessert",
         "signal": "Medium",
@@ -47635,6 +48604,348 @@
         "coordinates": [
           -73.8594444,
           40.7258333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Butter & Crumble",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Bakery — creative, tasty pastries; notoriously long line.\n\n~45 vouches on r/AskSF bakery threads (2026-08).",
+        "secondary_tags": "bakery",
+        "city": "San Francisco",
+        "google_place_id": "ChIJL7Goh8OBhYAR4ldT4kuPbng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4096941,
+          37.805052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Juniper",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Bakery — cubano croissant, black sesame kouign amann, earl grey choux.\n\n~38 vouches on r/AskSF bakery threads (2026-08).",
+        "secondary_tags": "bakery",
+        "city": "San Francisco",
+        "google_place_id": "ChIJTTq11ZmBhYARmN1Y-YkucFs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4207557,
+          37.789742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Loquat",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Bakery — Middle Eastern/Jewish-inflected pastries, cake slices.\n\n~24 vouches on r/AskSF bakery threads (2026-08).",
+        "secondary_tags": "bakery; middle-eastern; jewish",
+        "city": "San Francisco",
+        "google_place_id": "ChIJ81fzsc-BhYARdZtCXcbJ-7E"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4224081,
+          37.7749306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maison Nico",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "French bakery/épicerie — brioche is the pick.\n\n~27 vouches on r/AskSF bakery threads (2026-08).",
+        "secondary_tags": "bakery; french",
+        "city": "San Francisco",
+        "google_place_id": "ChIJJ5BEyYqAhYAR2Xim_Tv4XhE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4032333,
+          37.7957889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Day Moon",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Bakery — pastries; paired in vouch threads with Devil's Tooth.\n\n~20 vouches on r/AskSF bakery threads (2026-08).",
+        "secondary_tags": "bakery",
+        "city": "San Francisco",
+        "google_place_id": "ChIJKbCa-quHhYARgO4Qx0_OcqQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5001615,
+          37.7627261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Schubert's Bakery",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Old-school Richmond bakery (Clement St) — pain au raisin.\n\n~20 vouches on r/AskSF bakery threads (2026-08).",
+        "secondary_tags": "bakery",
+        "city": "San Francisco",
+        "google_place_id": "ChIJG4tMFDyHhYARU-kle5GPbII"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4649352,
+          37.7827762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "One65 Patisserie",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "French patisserie near Union Square — raspberry Ispahan, lemon yuzu cake.\n\n~17 vouches on r/AskSF bakery threads (2026-08).",
+        "secondary_tags": "bakery; french",
+        "city": "San Francisco",
+        "google_place_id": "ChIJdQxBzpiBhYARz-Gw5FmHn-4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.407371,
+          37.7862462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Thorough Bread and Pastry",
+        "category": "Dessert",
+        "signal": "Low",
+        "description": "Bakery (Church St) — bread, tarts, eclairs.\n\n~9 vouches on r/AskSF bakery threads (2026-08).",
+        "secondary_tags": "bakery",
+        "city": "San Francisco",
+        "google_place_id": "ChIJiQ45Uxd_j4ARTMRoHUgdVNA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4291851,
+          37.766564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fillmore Bake Shop",
+        "category": "Dessert",
+        "signal": "Low",
+        "description": "Bakery on Fillmore St — crunch cookies, princess cake.\n\n~6 vouches on r/AskSF bakery threads (2026-08).",
+        "secondary_tags": "bakery",
+        "city": "San Francisco",
+        "google_place_id": "ChIJMe0SiMeAhYARej9Ch6H8bQQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4333333,
+          37.7869444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Mill",
+        "category": "Cafe",
+        "signal": "Low",
+        "description": "Toast-and-coffee cafe (Divisadero) — thick toast, Four Barrel coffee.\n\n~5 vouches on r/AskSF bakery threads (2026-08).",
+        "secondary_tags": "coffee; bread",
+        "city": "San Francisco",
+        "google_place_id": "ChIJVzS3LbCAhYAR6Dw2KqlhWhg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4378944,
+          37.7764861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CCC Design Store",
+        "category": "Activities",
+        "signal": "High",
+        "description": "Chinese Culture Center's nonprofit storefront at 41 Ross Alley, Chinatown (permanent home since 2025) — curated work from 70+ Asian diasporic designers and makers, plus an on-site experimental studio for residencies, exhibitions and pop-ups. Not a boutique.\n\nFrom the Asian American businesses research pass, 2026-08-13.",
+        "secondary_tags": "shopping; design; asian-american",
+        "city": "San Francisco",
+        "google_place_id": "ChIJ9VdrXQCBhYARsLqePhLsE8I"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4062222,
+          37.793231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "On Waverly",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "AAPI and Native Hawaiian artist/author retail and community event space in Chinatown (opened Dec 2023), founded by sisters Cynthia and Jennifer Huie.\n\nFrom the Asian American businesses research pass, 2026-08-13.",
+        "secondary_tags": "shopping; bookstore; asian-american",
+        "city": "San Francisco",
+        "google_place_id": "ChIJsyarI-uBhYARTTD8hjiemKg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4069298,
+          37.7950135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sunset Night Market",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Recurring Asian night market on Irving St (launched 2023) — three-plus blocks of the Sunset run by a collaborative (Sunset Mercantile, Wah Mei School, Into The Streets, ASIAN Inc) to revitalise the corridor; ~20k attendees by 2024. Check dates before going.\n\nFrom the Asian American businesses research pass, 2026-08-13.",
+        "secondary_tags": "market; street food; asian-american",
+        "city": "San Francisco",
+        "google_place_id": "ChIJ6081zF2HhYAR9QRZwd2IWOA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4790812,
+          37.7637188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "post.script.",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Gift and home-goods shop on Fillmore St (opened 2019) by Chandler Tang, SF-born; curates 100+ brands, prioritising POC- and female-owned makers.\n\nFrom the Asian American businesses research pass, 2026-08-13.",
+        "secondary_tags": "shopping; gift-shop; homegoods",
+        "city": "San Francisco",
+        "google_place_id": "ChIJ1_cT_SGBhYARXSoG0XVE9BQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4342011,
+          37.7887554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TIAT (The Intersection of Art & Technology)",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Art/tech gallery at 151 Powell St, Union Square — interactive installations, monthly artist salons, workshops. Open Thu 2-6pm, Fri 12-6pm, Sat 12-5pm; check the current exhibition at tiat.place.\n\nAdded from Bay Area notes, 2026-08.",
+        "secondary_tags": "gallery; art",
+        "city": "San Francisco",
+        "google_place_id": "ChIJuVNMjW2BhYARyMagafdnXhY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4082452,
+          37.7861601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Burdell",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Contemporary Southern/soul food in Temescal, a la carte (chef Geoff Davis) — collard greens, fried chicken, chicken liver mousse with cornmeal waffle, halibut crudo, dry-aged duck, strawberry shortcake.\n\nSF Chronicle Top 100 #1 overall Bay Area (2025 and 2026); 2023 Nosh Award Best New Restaurant; James Beard Best Chef California finalist. Accolade cross-check 2026-08-27.",
+        "secondary_tags": "southern; soul-food",
+        "city": "Oakland",
+        "google_place_id": "ChIJhbOI3IV9hYARgm81YGBk9CQ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2628742,
+          37.8341322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bombera",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Vegetable-forward Mexican in the Dimond District (chef Dominica Rice-Cisneros).\n\nTwo consecutive Nosh Awards for Best Restaurant Overall — the strongest pure-local-critic signal in the East Bay; also SF Chronicle Top 100. Accolade cross-check 2026-08-27.",
+        "secondary_tags": "mexican",
+        "city": "Oakland",
+        "google_place_id": "ChIJg2VOVxOHj4AR8tUZ3QcYn3A"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2151659,
+          37.7994376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sirene",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Opened 2025 — buttermilk-brined fried chicken and inventive seafood.\n\nNosh Award Best Beverage Program. Accolade cross-check 2026-08-27.",
+        "secondary_tags": "seafood",
+        "city": "Oakland",
+        "google_place_id": "ChIJ25yRfACHj4ARivnFvs-JWOc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2467551,
+          37.8128318
         ]
       }
     }
