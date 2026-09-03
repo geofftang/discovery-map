@@ -25102,7 +25102,8 @@
         "description": "PPL is a Williamsburg cafe serving specialty seasonal coffee by 95 RPM Roasters, a variety of Shizuoka Japanese barley and black teas, and organic matcha from Kagoshima, Japan. Owner Tomo Takasugi was born and raised in Japan and originally started PPL as a clothing brand that transformed into a coffee shop based on Tomo’s love for coffee. Inside the cafe are plant species of all shapes and sizes lining the walls, counter, ceiling, and corners—basically our dream space to enjoy a hoijicha latte and a slice of vegan banana bread.",
         "secondary_tags": "dessert",
         "city": "NYC",
-        "google_place_id": "ChIJEa4-I9BbwokRhCUh5oXkWY0"
+        "google_place_id": "ChIJEa4-I9BbwokRhCUh5oXkWY0",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -25801,24 +25802,6 @@
         "coordinates": [
           -73.9255908,
           40.702802399999996
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "La Cocina De Mama",
-        "category": "Dessert",
-        "signal": "High",
-        "description": "tres leches\n\nalthough has good pernil and mondongo too apparently?\n\nmondongo also good?",
-        "city": "NYC",
-        "google_place_id": "ChIJy53xIJpewokRWOgqyNNmHTc"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9064695,
-          40.713140599999996
         ]
       }
     },
