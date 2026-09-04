@@ -51373,6 +51373,24 @@
           37.7617712
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valencia Street Corridor",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "The Mission's walking-and-shopping stretch of Valencia St, roughly 16th to 24th — pinned once at 19th; the stops worth a detour have their own pins: Bernal Cutlery (766), Craftsman and Wolves (746), Four Barrel Coffee (375), Tartine Bakery one block over on Guerrero, Tartine Manufactory at Alabama. Long-standing fixtures along the way, not individually verified today: Paxton Gate (824), Dog Eared Books (900), 826 Valencia.\n\nArea pin, added 2026-09-03 on owner request.",
+        "secondary_tags": "shopping; corridor; vintage; bookstore; mission",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4213,
+          37.7605
+        ]
+      }
     }
   ]
 }
