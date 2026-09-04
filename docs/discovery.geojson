@@ -49718,25 +49718,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Philz Coffee",
-        "category": "Cafe",
-        "signal": "Medium",
-        "description": "Coffee chain, multiple Bay Area locations.",
-        "secondary_tags": "coffee",
-        "city": "San Francisco",
-        "google_place_id": "ChIJXdV9NAx-j4ARbaEXhONbYvc"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4383819,
-          37.7511819
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Four Barrel Coffee",
         "category": "Cafe",
         "signal": "Medium",
@@ -50549,15 +50530,15 @@
         "name": "Humphry Slocombe (Dogpatch)",
         "category": "Dessert",
         "signal": "Medium",
-        "description": "Dogpatch scoop shop — one of the two remaining after the original Mission shop closed Oct 2024. Pinned because it sits in the Dogpatch cluster (Sohn, Neighbor Bakehouse, Breadbelly Pier 70).\n\nClosure-checked 2026-08-13.",
+        "description": "Dogpatch scoop shop at 699 22nd St (opened May 2023) — one of the two remaining after the original Mission shop closed Oct 2024. Pinned because it sits in the Dogpatch cluster (Sohn, Neighbor Bakehouse, Breadbelly Pier 70).\n\nClosure-checked 2026-08-13.",
         "secondary_tags": "ice cream",
         "city": "San Francisco"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.3880854,
-          37.7543072
+          -122.388076,
+          37.7578339
         ]
       }
     },
@@ -51099,7 +51080,8 @@
         "description": "Reem Assil's Arab street-corner bakery — mana'eesh from the saj, the Mission original; also Jack London Square, Oakland.\n\nSF Chronicle Top 100 #81 (2026); Infatuation East Bay Hit List (Jack London). Accolade sweep 2026-09-03.",
         "secondary_tags": "palestinian; arab; bakery",
         "city": "San Francisco",
-        "google_place_id": "ChIJo5ZK6U1_j4ARzzvu7N7rK5I"
+        "google_place_id": "ChIJo5ZK6U1_j4ARzzvu7N7rK5I",
+        "temporarily_closed": true
       },
       "geometry": {
         "type": "Point",
@@ -51388,6 +51370,726 @@
         "coordinates": [
           -122.3886063,
           37.7751919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cheese Board Collective",
+        "category": "Meal",
+        "signal": "High",
+        "description": "The 1967 worker-owned cheese shop and bakery at 1504 Shattuck Ave (North Berkeley) that seeded the whole Arizmendi network — the pizzeria next door at 1512 does one vegetarian sourdough pizza a day, by the slice or half, Tue-Sat lunch and Wed-Sat dinner, with live jazz and a line on the median. The shop is mid-expansion in 2026: cheese, deli and bakery are sold from a shipping container out front until the corner store reopens (mid-to-late 2026).\n\nVerified 2026-09-03 (Berkeleyside Jan 2026; cheeseboardcollective.coop). Yelp lists the pizzeria as temporarily closed as of Aug 2026 — check the pizza schedule page before going.",
+        "secondary_tags": "pizza; bakery; cheese; worker-coop; legacy",
+        "city": "Berkeley"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2694793,
+          37.8799793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arizmendi Bakery (Valencia)",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "The Mission Arizmendi at 1268 Valencia St — an independent worker co-op on the Cheese Board recipes: the daily sourdough pizza, morning buns, ginger molasses cookie. On the Valencia corridor walk.\n\nVerified 2026-09-03 (arizmendi.coop family list). Six Arizmendi bakeries exist; the co-op network is why they count as one small family rather than a chain.",
+        "secondary_tags": "bakery; pizza; worker-coop",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4210154,
+          37.752556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arizmendi Bakery (Emeryville)",
+        "category": "Dessert",
+        "signal": "Low",
+        "description": "Emeryville Arizmendi at 4301 San Pablo Ave — same co-op pizza and pastries, the East Bay stop near Jered's Pottery.\n\nVerified 2026-09-03 (arizmendi.coop family list).",
+        "secondary_tags": "bakery; pizza; worker-coop",
+        "city": "Emeryville"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2806865,
+          37.8326201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philz Coffee (Noe Valley)",
+        "category": "Cafe",
+        "signal": "Low",
+        "description": "Philz Noe Valley — 4298 24th St. Mint mojito, Philharmonic; one of 13 SF stores, pinned at owner request (chain by the count rule).\n\nphilzcoffee.com/locations, 2026-09-03.",
+        "secondary_tags": "coffee; chain",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4383792,
+          37.7511414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philz Coffee (Castro)",
+        "category": "Cafe",
+        "signal": "Low",
+        "description": "Philz Castro — 549 Castro St. Mint mojito, Philharmonic; one of 13 SF stores, pinned at owner request (chain by the count rule).\n\nphilzcoffee.com/locations, 2026-09-03.",
+        "secondary_tags": "coffee; chain",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4346797,
+          37.7601055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philz Coffee (Potrero)",
+        "category": "Cafe",
+        "signal": "Low",
+        "description": "Philz Potrero — 1775 17th St. Mint mojito, Philharmonic; one of 13 SF stores, pinned at owner request (chain by the count rule).\n\nphilzcoffee.com/locations, 2026-09-03.",
+        "secondary_tags": "coffee; chain",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4011997,
+          37.7647559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philz Coffee (Russian Hill)",
+        "category": "Cafe",
+        "signal": "Low",
+        "description": "Philz Russian Hill — 2234 Polk St. Mint mojito, Philharmonic; one of 13 SF stores, pinned at owner request (chain by the count rule).\n\nphilzcoffee.com/locations, 2026-09-03.",
+        "secondary_tags": "coffee; chain",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219848,
+          37.7975392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philz Coffee (Civic Center)",
+        "category": "Cafe",
+        "signal": "Low",
+        "description": "Philz Civic Center — 399 Golden Gate Ave. Mint mojito, Philharmonic; one of 13 SF stores, pinned at owner request (chain by the count rule).\n\nphilzcoffee.com/locations, 2026-09-03.",
+        "secondary_tags": "coffee; chain",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.416976,
+          37.781385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philz Coffee (Embarcadero)",
+        "category": "Cafe",
+        "signal": "Low",
+        "description": "Philz Embarcadero — 5 Embarcadero Center. Mint mojito, Philharmonic; one of 13 SF stores, pinned at owner request (chain by the count rule).\n\nphilzcoffee.com/locations, 2026-09-03.",
+        "secondary_tags": "coffee; chain",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3951458,
+          37.7945298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philz Coffee (Folsom & Beale)",
+        "category": "Cafe",
+        "signal": "Low",
+        "description": "Philz Folsom & Beale — 300 Folsom St. Mint mojito, Philharmonic; one of 13 SF stores, pinned at owner request (chain by the count rule).\n\nphilzcoffee.com/locations, 2026-09-03.",
+        "secondary_tags": "coffee; chain",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.393156,
+          37.7887269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philz Coffee (Front St)",
+        "category": "Cafe",
+        "signal": "Low",
+        "description": "Philz Front St — 1 Front St. Mint mojito, Philharmonic; one of 13 SF stores, pinned at owner request (chain by the count rule).\n\nphilzcoffee.com/locations, 2026-09-03.",
+        "secondary_tags": "coffee; chain",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3988519,
+          37.7918825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philz Coffee (Second Street)",
+        "category": "Cafe",
+        "signal": "Low",
+        "description": "Philz Second Street — 425 Mission St. Mint mojito, Philharmonic; one of 13 SF stores, pinned at owner request (chain by the count rule).\n\nphilzcoffee.com/locations, 2026-09-03.",
+        "secondary_tags": "coffee; chain",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3968627,
+          37.7891195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philz Coffee (Berry)",
+        "category": "Cafe",
+        "signal": "Low",
+        "description": "Philz Berry — 201 Berry St. Mint mojito, Philharmonic; one of 13 SF stores, pinned at owner request (chain by the count rule).\n\nphilzcoffee.com/locations, 2026-09-03.",
+        "secondary_tags": "coffee; chain",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3933972,
+          37.7755634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philz Coffee (Chase Center)",
+        "category": "Cafe",
+        "signal": "Low",
+        "description": "Philz Chase Center — 1 Warriors Way. Mint mojito, Philharmonic; one of 13 SF stores, pinned at owner request (chain by the count rule).\n\nphilzcoffee.com/locations, 2026-09-03.",
+        "secondary_tags": "coffee; chain",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3874223,
+          37.7679001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philz Coffee (Ocean Ave)",
+        "category": "Cafe",
+        "signal": "Low",
+        "description": "Philz Ocean Ave — 1110 Ocean Ave. Mint mojito, Philharmonic; one of 13 SF stores, pinned at owner request (chain by the count rule).\n\nphilzcoffee.com/locations, 2026-09-03.",
+        "secondary_tags": "coffee; chain",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4537767,
+          37.7236571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taqueria El Farolito (24th St)",
+        "category": "Meal",
+        "signal": "Low",
+        "description": "El Farolito 24th St — 2950 24th St, open late (most nights past 1 AM). One of 10 Bay Area locations; 2779 Mission is the flagship. Pinned at owner request.\n\nelfarolitosf.com/locations, 2026-09-03.",
+        "secondary_tags": "mexican; taqueria; chain",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4111322,
+          37.752779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taqueria El Farolito (Excelsior)",
+        "category": "Meal",
+        "signal": "Low",
+        "description": "El Farolito Excelsior — 4817 Mission St, open late (most nights past 1 AM). One of 10 Bay Area locations; 2779 Mission is the flagship. Pinned at owner request.\n\nelfarolitosf.com/locations, 2026-09-03.",
+        "secondary_tags": "mexican; taqueria; chain",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4372073,
+          37.7211409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taqueria El Farolito (North Beach)",
+        "category": "Meal",
+        "signal": "Low",
+        "description": "El Farolito North Beach — 1230 Grant Ave, open late (most nights past 1 AM). One of 10 Bay Area locations; 2779 Mission is the flagship. Pinned at owner request.\n\nelfarolitosf.com/locations, 2026-09-03.",
+        "secondary_tags": "mexican; taqueria; chain",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4069734,
+          37.7984441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taqueria El Farolito (Oakland)",
+        "category": "Meal",
+        "signal": "Low",
+        "description": "El Farolito Oakland — 3646 International Blvd, open late (most nights past 1 AM). One of 10 Bay Area locations; 2779 Mission is the flagship. Pinned at owner request.\n\nelfarolitosf.com/locations, 2026-09-03.",
+        "secondary_tags": "mexican; taqueria; chain",
+        "city": "Oakland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2208508,
+          37.7755093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arsicault Bakery (Civic Center)",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Arsicault's Civic Center shop, ~3,000 sq ft with an open kitchen, daily 8-3. 87 McAllister St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
+        "secondary_tags": "bakery; croissant",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.413376,
+          37.780787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Reem's (Jack London Square)",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Reem's worker-owned flagship and commissary in Jack London Square, opened 26 Jun 2026 — mana'eesh from the saj; the Mission SF shop is temporarily closed through ~Oct 2026. 85 Webster St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
+        "secondary_tags": "palestinian; arab; bakery; worker-coop",
+        "city": "Oakland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2749495,
+          37.7944524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bake Sum (Alameda)",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Bake Sum's second shop inside Alameda Marketplace, opened May 2026 — the Asian American viennoiserie plus sandwiches and cakes. 1650 Park St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
+        "secondary_tags": "bakery; asian-american",
+        "city": "Alameda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2394615,
+          37.7677188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Craftsman and Wolves (The Den)",
+        "category": "Dessert",
+        "signal": "Low",
+        "description": "C&W's Bayview production bakery and café, weekday hours only. 1598 Yosemite Ave.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
+        "secondary_tags": "bakery",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.391483,
+          37.726846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cinderella Bakery (Mission)",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Cinderella's new 3,500 sq ft Mission shop at 24th and Alabama, opened 28 Aug 2026 after eight years of delays; near-identical menu to the Richmond original. 2937 24th St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
+        "secondary_tags": "bakery; russian",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4108566,
+          37.7526001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Devil's Teeth Baking Company (Outer Richmond)",
+        "category": "Dessert",
+        "signal": "Low",
+        "description": "Second Devil's Teeth, opened 2020 — cinnamon rolls and breakfast sandwiches. 3619 Balboa St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
+        "secondary_tags": "bakery",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4977125,
+          37.7755198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Devil's Teeth Baking Company (Embarcadero)",
+        "category": "Dessert",
+        "signal": "Low",
+        "description": "Devil's Teeth's downtown counter in Embarcadero Center. 1 Embarcadero Center.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
+        "secondary_tags": "bakery",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3993459,
+          37.7946072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jane on Fillmore",
+        "category": "Cafe",
+        "signal": "Low",
+        "description": "Jane's Fillmore St café — one of seven Jane locations (chain by count, pinned at owner request). 2123 Fillmore St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
+        "secondary_tags": "bakery; cafe",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4342372,
+          37.7893481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jane on Larkin",
+        "category": "Cafe",
+        "signal": "Low",
+        "description": "Jane on Larkin, Mon-Fri 7-4, Sat-Sun 8-4. 925 Larkin St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
+        "secondary_tags": "bakery; cafe",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4183401,
+          37.7864812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jane at Cal-Mart",
+        "category": "Cafe",
+        "signal": "Low",
+        "description": "Jane counter inside the Cal-Mart grocery, Presidio Heights. 3585 California St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
+        "secondary_tags": "bakery; cafe",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4530237,
+          37.7863821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Toy Boat by Jane",
+        "category": "Cafe",
+        "signal": "Low",
+        "description": "Jane's take on the old Toy Boat Dessert Cafe on Clement — near Breadbelly and Kamei. 401 Clement St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
+        "secondary_tags": "bakery; cafe; ice cream",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4635199,
+          37.7827719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jane on Third",
+        "category": "Cafe",
+        "signal": "Low",
+        "description": "Jane's SFMOMA ground-floor café, opened Aug 2025. 151 3rd St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
+        "secondary_tags": "bakery; cafe",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4007359,
+          37.785915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Noe Valley Bakery (West Portal)",
+        "category": "Dessert",
+        "signal": "Low",
+        "description": "Noe Valley Bakery's second shop, West Portal, since 2017. 28 West Portal Ave.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
+        "secondary_tags": "bakery",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4663799,
+          37.740636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tartine (Inner Sunset)",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Tartine's Inner Sunset hybrid bakery/Manufactory, daily 8-4 — the Golden Gate Park-side Tartine. The Berkeley Tartine (Graduate Hotel) is closed. 1226 9th Ave.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
+        "secondary_tags": "bakery; bread",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4660973,
+          37.7653767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plentea (Mission Bay)",
+        "category": "Cafe",
+        "signal": "Low",
+        "description": "Plentea's Mission Bay shop. 1515 3rd St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
+        "secondary_tags": "tea; boba",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3888868,
+          37.7693278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plentea (Berkeley)",
+        "category": "Cafe",
+        "signal": "Low",
+        "description": "Plentea Berkeley, by campus. 2430 Durant Ave.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
+        "secondary_tags": "tea; boba",
+        "city": "Berkeley"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2603687,
+          37.8671503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boichik Bagels (Berkeley factory)",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Emily Winston's Boichik Bagels — the New York-style bagel that critics have called the best in the country; this is the West Berkeley bagel factory and shop. 12 shops now (chain by count, pinned at owner request). 1225 6th St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
+        "secondary_tags": "bagels; jewish",
+        "city": "Berkeley"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.30133,
+          37.8805401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boichik Bagels (College Ave)",
+        "category": "Dessert",
+        "signal": "Low",
+        "description": "Boichik's original Elmwood shop (2019). 3170 College Ave.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
+        "secondary_tags": "bagels; jewish",
+        "city": "Berkeley"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2527279,
+          37.8514931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boichik Bagels (Presidio Heights)",
+        "category": "Dessert",
+        "signal": "Low",
+        "description": "Boichik's Sacramento St shop. 3665 Sacramento St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
+        "secondary_tags": "bagels; jewish",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.452977,
+          37.7870388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boichik Bagels (Fillmore)",
+        "category": "Dessert",
+        "signal": "Low",
+        "description": "Boichik on Fillmore. 1946 Fillmore St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
+        "secondary_tags": "bagels; jewish",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.433494,
+          37.7878529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boichik Bagels (Battery St)",
+        "category": "Dessert",
+        "signal": "Low",
+        "description": "Boichik's FiDi shop. 22 Battery St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
+        "secondary_tags": "bagels; jewish",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3993798,
+          37.7915317
         ]
       }
     }
