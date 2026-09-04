@@ -50225,25 +50225,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Sunset Night Market",
-        "category": "Activities",
-        "signal": "Medium",
-        "description": "Recurring Asian night market on Irving St (launched 2023) — three-plus blocks of the Sunset run by a collaborative (Sunset Mercantile, Wah Mei School, Into The Streets, ASIAN Inc) to revitalise the corridor; ~20k attendees by 2024. Check dates before going.\n\nFrom the Asian American businesses research pass, 2026-08-13.",
-        "secondary_tags": "market; street food; asian-american",
-        "city": "San Francisco",
-        "google_place_id": "ChIJ6081zF2HhYAR9QRZwd2IWOA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4790812,
-          37.7637188
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "post.script.",
         "category": "Activities",
         "signal": "Medium",
