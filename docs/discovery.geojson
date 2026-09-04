@@ -6646,6 +6646,25 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Golden Steamer",
+        "category": "Cafe",
+        "signal": "High",
+        "description": "As the old-guard Cantonese coffee shops like Hop Shing have closed, where does one go for the baked and steamed bao, steamed dumplings, and rice noodle rolls that are one of Chinatown’s greatest treasures? Golden Steamer is a narrow stall resembling a steam room in a spa, except the shelves and cabinets are lined with farinaceous treats, with fillings that run from savory to sweet, so it’s a great dessert spot, too. There’s no seating, however.\n\nSteamed pork bun/pumpkin bun/custard bun/red bean bun",
+        "secondary_tags": "Meal",
+        "city": "NYC",
+        "google_place_id": "ChIJaZcbs8pZwokRZdWSh6rQXeE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9961695,
+          40.7190587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Green Garden Village",
         "category": "Meal",
         "signal": "High",
@@ -6821,6 +6840,24 @@
         "coordinates": [
           -74.0021307,
           40.7261816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Famous Ben's Pizza",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Since 1977, when this corner of Thompson and Spring was still largely Italian and Portuguese, Ben’s has been slinging pizza, many of them channeling snack shops back in Sicily. The array displayed behind the glass sneeze guard is impressive, but go for any of the thick, square slices, which is what Ben’s does best. The sweet Palermo slice is heaped with olive-oiled bread crumbs and caramelized onions, and is available almost nowhere else in town, reflecting the style of snacking in Sicily’s capital.\n\n---\n\nFounded in 1979 by Ben and Debbie Aliotta, Famous Ben’s manages to channel a Sicilian focacceria in addition to turning out typical Neapolitan pies with a broad range of toppings. One of the more fascinating offerings is the sfincione — a thick rectangular slice topped with bread crumbs and pureed onions, rather than the usual tomato sauce and cheese. Other Sicilian recipes abound at this atypical neighborhood pizzeria.",
+        "city": "NYC",
+        "google_place_id": "ChIJSQFeRoxZwokRtd_PeFDrtO0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0024511,
+          40.7249292
         ]
       }
     },
@@ -7944,6 +7981,24 @@
         "coordinates": [
           -73.96257740000001,
           40.598312299999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tatiana Grill",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Russian. Tatiana reps us so well. Mostly because the owners are (convicted) criminals. Sadly it's closed now.\n\nis it this or the tatiana around the corner or neither of these that was recommended for russian",
+        "city": "NYC",
+        "google_place_id": "ChIJjafDP0BEwokRfRl3S1X4P2c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9616986,
+          40.575708
         ]
       }
     },
@@ -25312,6 +25367,24 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "The Doughnut Project",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "great but expensive\n\ncinnamon roll",
+        "city": "NYC",
+        "google_place_id": "ChIJjbvjqZNZwokRRXxpMTUx0uc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0035553,
+          40.7311971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Dough Doughnuts",
         "category": "Dessert",
         "signal": "Low",
@@ -30800,6 +30873,25 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Privilege New York",
+        "category": "Activities",
+        "signal": "High",
+        "description": "recommended by japanese guy who worked at the Japan branch before",
+        "secondary_tags": "aesthetic; clothing; shopping",
+        "city": "NYC",
+        "google_place_id": "ChIJ1ZBusoFZwokRuf7m5KRkPWc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9872728,
+          40.7208432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Atelier New York Flushing",
         "category": "Activities",
         "signal": "High",
@@ -34213,6 +34305,23 @@
         "coordinates": [
           -73.9890052,
           40.727080099999995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stick Stone & Bone",
+        "category": "Activities",
+        "signal": "Low",
+        "city": "Regional",
+        "google_place_id": "ChIJJcf3XpNZwokRywyVwZ9K6CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.7246621,
+          37.2948475
         ]
       }
     },
