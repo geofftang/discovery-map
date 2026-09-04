@@ -52479,6 +52479,120 @@
           37.7915317
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lily",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Rob Lam's modern California-Vietnamese room at 225 Clement St, Inner Richmond — bún, shaking beef, the crab-and-pork things; dinner nightly, weekend brunch (confirm current hours; site was down 2026-09-04).\n\nSF Chronicle Top 100 #42 (2026). Verified open 2026-09-04 (Yelp Jul 2026; OpenTable May 2026).",
+        "secondary_tags": "vietnamese; asian-american",
+        "city": "San Francisco",
+        "google_place_id": "ChIJzTvRcRuHhYARMPxqfMH8_Qw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4616947,
+          37.7828365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Capital Restaurant",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Family-run Cantonese at 839 Clay St, Chinatown, since the 1980s — the salt-and-hot-pepper fried chicken wings are the reason to go; also egg tofu with spicy meat sauce, vinegar spareribs. Tue-Sun 11-9, cash only.\n\nSF Chronicle Top 100 #97 (2026). Verified open 2026-09-04 (Yelp Aug 2026).",
+        "secondary_tags": "cantonese; chinese; asian-american; legacy",
+        "city": "San Francisco",
+        "google_place_id": "ChIJXRqnWIuAhYAR8b-4A9UNRHU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.407062,
+          37.7940933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Anchovy Bar",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Brioza and Krasinski's wine-and-seafood bar at 1740 O'Farrell St, Fillmore, next to State Bird — West Coast oysters, small fish, shellfish, à la carte; Thu-Mon 5-9:30, walk-ins at the bar and outside.\n\nJames Beard Outstanding Restaurateur finalist 2025 (the owners). Verified open 2026-09-04 (own site; OpenTable).",
+        "secondary_tags": "seafood; wine; oysters",
+        "city": "San Francisco",
+        "google_place_id": "ChIJN1jrY56BhYAROCDrviZM73k"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4334217,
+          37.7832849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aziza",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Mourad Lahlou's California-Moroccan at 5800 Geary Blvd, Outer Richmond, on the original 1999 corner since reopening in Oct 2019 — shareable plates and mains à la carte (a whole-table tasting exists if anyone orders it). Dinner Wed-Sun 5-10; brunch Sat-Sun.\n\nSF Chronicle Top 100 #39 (2026). Verified open 2026-09-04 (own site Apr 2026 menu; Yelp Jun 2026).",
+        "secondary_tags": "moroccan; californian; legacy",
+        "city": "San Francisco",
+        "google_place_id": "ChIJb-KW6Q-HhYAR4NlucuMP_HE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4816652,
+          37.7804147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chez Panisse",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Alice Waters' 1971 restaurant at 1517 Shattuck Ave, the origin of California cuisine — the upstairs Café is à la carte (lunch Tue-Sat, dinner Mon-Sat); the downstairs Restaurant is a nightly prix fixe (~$175), two seatings, closed Sun. Go to the Café.\n\nEast Bay Nosh Awards Best Restaurant for Special Occasions 2024. Legacy institution. Verified open 2026-09-04 (chezpanisse.com).",
+        "secondary_tags": "californian; legacy; worker-coop",
+        "city": "Berkeley",
+        "google_place_id": "ChIJcYtcJaF-hYAR-VzrwZpQY0E"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.26897,
+          37.8795958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tarts de Feybesse",
+        "category": "Dessert",
+        "signal": "High",
+        "description": "Monique and Paul Feybesse's French-Filipino patisserie at 324 24th St, Uptown Oakland (opened Nov 2024) — trompe-l'œil fruit-shaped entremets in hard chocolate shells, Filipino flavours in French technique. Wed-Sat 9-4:30, Sun 9-3:30.\n\nJames Beard Outstanding Pastry Chef semifinalist 2025. Verified open 2026-09-04 (Yelp Sep 2026; Oaklandside Apr 2026).",
+        "secondary_tags": "patisserie; french; filipino; asian-american",
+        "city": "Oakland",
+        "google_place_id": "ChIJ1SowZQCHj4ARTnZJyPTJC7c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2628838,
+          37.8131071
+        ]
+      }
     }
   ]
 }
