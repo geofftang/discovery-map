@@ -517,3 +517,56 @@ select {
     top: 158px;
   }
 }
+
+/* --- owner (private) build only ------------------------------------------------ */
+.private-badge {
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+  background: #7c3aed;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.show-all-control {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.pill.facet {
+  background: #ecfeff;
+  color: #155e75;
+}
+
+.pill.list {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.pill.status {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.details-advisory {
+  margin: 0.25rem 0 0.5rem;
+  padding: 0.45rem 0.6rem;
+  border-left: 3px solid #f59e0b;
+  background: #fffbeb;
+  color: #78350f;
+  font-size: 0.85rem;
+}
+
+.details-evidence {
+  margin: 0.25rem 0 0.75rem;
+  padding-left: 1.1rem;
+  font-size: 0.85rem;
+  color: #334155;
+}

@@ -1,0 +1,30 @@
+# THE MOST GUARDED FILE IN THIS REPO.
+#
+# Declares exactly which record fields the PUBLIC build may emit. The projector constructs each
+# public feature field-by-field from this list (never "private minus deletions"), the built
+# artifact's field set is diffed against it, and a private-field canary must be absent. A field
+# not on this list cannot reach public.json by construction.
+#
+# Decision 4, 2026-09-03 (vault: work/branches/discovery-map/decisions/2026-09-03-record-schema-facets-allowlist.md):
+# carry over today's public surface as-is under the new names. Zero visibility change at cutover.
+#   name            <- record name
+#   kind            <- primary kind (was `category`)
+#   signal          <- surfacing priority
+#   why             <- ## Why (was `description`)
+#   tags            <- uncontrolled tail only (was `secondary_tags`; `lists:` and ## Log lines never publish)
+#   city
+#   google_place_id <- status-gated (see build_places_index.trusted_place_id)
+#   temporarily_closed <- Google's own temporary-closure flag, from the signals cache
+# geometry is the record's current location.
+#
+# NEVER on this list: ## Visits (reviews; decision 2026-08-23), lists, note, legacy_import,
+# provider ratings/hours, status/hidden themselves (they gate, they do not publish), evidence.
+fields:
+  - name
+  - kind
+  - signal
+  - why
+  - tags
+  - city
+  - google_place_id
+  - temporarily_closed

@@ -2,3 +2,11 @@
 dist/
 node_modules/
 __pycache__/
+
+# council step 4 -- derived/private artifacts, never committed
+private/
+dist-private/
+signals/
+index.db
+index.db.tmp
+/public.json

@@ -95,3 +95,25 @@ Editing places from the map, accounts, routing/itineraries, and live opening-hou
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+## Two builds, one app (owner and public)
+
+Since 2026-09 the collection is a tree of per-place Markdown records (one file per place, YAML
+frontmatter, `## Why` / `## Evidence` / `## Visits` / `## Log` sections) kept in a private repo.
+`scripts/build_places_index.py` parses that tree, joins a regenerable provider-signals cache
+(`signals/`, gitignored, authoritative for nothing), and emits:
+
+| artifact | what | where it goes |
+|---|---|---|
+| `index.db` | SQLite + FTS5 + coordinate index | derived, gitignored, seconds to rebuild |
+| `private/private.json` | full payload: status, hidden, lists, evidence, visits, provider advisories | owner build only (`npm run build:private` → `dist-private/`, served locally) |
+| `public.json` | constructed field-by-field from [`public-allowlist.yml`](public-allowlist.yml) | the public feed, once the cutover lands |
+
+Deploy-blocking assertions: every facet value in the controlled vocab, every `merged_into` target
+exists, ids unique; for the public build the emitted field set is diffed against the allowlist, a
+private-field canary must be absent, and the egress scan must be clean. The builder refuses to
+write the private payload anywhere under `docs/`. Tests: `npm test`.
+
+The owner build shows closed and hidden pins only when asked, and renders a provider's closure
+claim as an advisory next to the owner's own status rather than hiding the pin — a Google
+"permanently closed" has been wrong every time it was checked.

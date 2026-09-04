@@ -8,7 +8,10 @@ import cafeIcon from '@mapbox/maki/icons/cafe.svg?raw';
 import playgroundIcon from '@mapbox/maki/icons/playground.svg?raw';
 import restaurantIcon from '@mapbox/maki/icons/restaurant.svg?raw';
 
-const DATA_URL = './discovery.geojson';
+// Public build reads the committed GeoJSON; the private build (vite --mode private, .env.private)
+// reads ./private.json, the owner payload built by scripts/build_places_index.py.
+const DATA_URL = import.meta.env.VITE_DATA_URL || './discovery.geojson';
+const PRIVATE = import.meta.env.VITE_PRIVATE === '1';
 // Fallback default when no one has ever set a home view (see HOME_STORAGE_KEY below).
 // Currently Venice — the active trip leg. Update as the trip moves, or just use the
 // "Set as home" button so this doesn't need a code change each time.
@@ -48,6 +51,7 @@ const state = {
   selectedCategories: new Set(),
   allCategories: new Set(),
   search: '',
+  showAll: false,
   geoResults: [],
   geoPending: false,
   geoController: null,
@@ -60,6 +64,12 @@ const elements = {
   toolbar: document.querySelector('.toolbar'),
   toolbarToggle: document.querySelector('#toolbar-toggle'),
   categoryOptions: document.querySelector('#category-options'),
+  privateBadge: document.querySelector('#private-badge'),
+  showAllControl: document.querySelector('#show-all-control'),
+  showAll: document.querySelector('#show-all'),
+  detailsAdvisory: document.querySelector('#details-advisory'),
+  detailsEvidenceBlock: document.querySelector('#details-evidence-block'),
+  detailsEvidence: document.querySelector('#details-evidence'),
   searchInput: document.querySelector('#search-input'),
   searchClear: document.querySelector('#search-clear'),
   searchResults: document.querySelector('#search-results'),
@@ -162,6 +172,7 @@ function normalize(value) {
 }
 
 function splitTags(value) {
+  if (Array.isArray(value)) return value.map((tag) => String(tag).trim()).filter(Boolean);
   return String(value || '')
     .split(/[;,]/)
     .map((tag) => tag.trim())
@@ -177,6 +188,12 @@ function searchableText(feature) {
     props.my_take,
     props.secondary_tags,
     props.city,
+    // private payload only: facets, lists, evidence lines (arrays)
+    ...splitTags(props.kind),
+    ...splitTags(props.cuisine),
+    ...splitTags(props.lists),
+    ...splitTags(props.tags),
+    ...splitTags(props.evidence),
   ].filter(Boolean).join(' '));
 }
 
@@ -186,7 +203,10 @@ function filterData() {
     const props = feature.properties || {};
     const categoryMatch = !state.selectedCategories.size || state.selectedCategories.has(props.category);
     const searchMatch = !search || searchableText(feature).includes(search);
-    return categoryMatch && searchMatch;
+    // Owner build: the record's own status/hidden govern display (never a provider claim).
+    // Closed and hidden pins stay out unless "Show closed & hidden" is on.
+    const displayMatch = !PRIVATE || state.showAll || (props.status === 'open' && !props.hidden);
+    return categoryMatch && searchMatch && displayMatch;
   });
 
   return {
@@ -323,7 +343,14 @@ function categoryClass(category) {
 
 function openDetails(feature) {
   const props = feature.properties || {};
-  const tags = splitTags(props.secondary_tags).slice(0, 6);
+  const tags = splitTags(props.secondary_tags ?? props.tags).slice(0, 6);
+  const facetPills = PRIVATE
+    ? [
+      ...splitTags(props.kind).slice(1).map((k) => pill(k, 'facet')),
+      ...splitTags(props.cuisine).map((c) => pill(c, 'facet')),
+      ...splitTags(props.lists).map((l) => pill(l, 'list')),
+    ]
+    : [];
   const detailLines = [
     props.description,
   ].filter(Boolean);
@@ -333,7 +360,29 @@ function openDetails(feature) {
 
   if (props.category) elements.detailsMeta.appendChild(pill(props.category, categoryClass(props.category)));
   if (props.signal) elements.detailsMeta.appendChild(pill(props.signal, 'subtle'));
+  if (PRIVATE && props.status && props.status !== 'open') elements.detailsMeta.appendChild(pill(props.status, 'status'));
+  if (PRIVATE && props.hidden) elements.detailsMeta.appendChild(pill('hidden', 'status'));
+  facetPills.forEach((p) => elements.detailsMeta.appendChild(p));
   tags.forEach((tag) => elements.detailsMeta.appendChild(pill(tag, 'subtle')));
+
+  // Provider claim rendered as an advisory beside the owner's status -- surfaced, never resolved
+  // (a Google closure has been wrong three times out of three noticed). Only the owner build has it.
+  const providerStatus = String(props.provider_status || '');
+  const advisory = PRIVATE && providerStatus && providerStatus !== 'OPERATIONAL'
+    ? `Google reports ${providerStatus.toLowerCase().replaceAll('_', ' ')}`
+      + (props.provider_observed_at ? `, seen ${String(props.provider_observed_at).slice(0, 10)}` : '')
+      + ` — your record says ${props.status || 'open'}`
+    : '';
+  elements.detailsAdvisory.hidden = !advisory;
+  elements.detailsAdvisory.textContent = advisory;
+
+  const evidence = PRIVATE ? splitTags(props.evidence) : [];
+  elements.detailsEvidenceBlock.hidden = !evidence.length;
+  elements.detailsEvidence.replaceChildren(...evidence.map((line) => {
+    const li = document.createElement('li');
+    li.textContent = line;
+    return li;
+  }));
 
   // Two separate blocks, not one string with a separator in it. The user's own
   // verdict and third-party sourced notes are different things and answer
@@ -752,6 +801,16 @@ elements.toolbarToggle.addEventListener('click', () => {
 
 
 elements.detailsClose.addEventListener('click', closeDetails);
+
+if (PRIVATE) {
+  elements.privateBadge.hidden = false;
+  elements.showAllControl.hidden = false;
+  elements.showAll.addEventListener('change', (event) => {
+    state.showAll = event.target.checked;
+    closeDetails();
+    if (state.allData) updateSource();
+  });
+}
 
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape') closeDetails();

@@ -4,7 +4,8 @@
 // the offline value here (the app shell alone is just an empty page without them).
 const CACHE_NAME = "discovery-map-v1";
 const ROOT = new URL(".", self.location.href).href;
-const APP_SHELL = [ROOT, `${ROOT}discovery.geojson`];
+// The private build (dist-private/) copies this file and serves ./private.json instead.
+const APP_SHELL = [ROOT];
 
 // This is a client-rendered SPA (index.html is nearly empty) — the built, content-hashed
 // JS/CSS bundle IS the app. Those filenames change every build, so we can't hardcode them;
@@ -41,7 +42,7 @@ self.addEventListener("activate", (event) => {
 // outdated places/hours — worth an extra round trip. Everything else (tiles,
 // app shell) is stable enough that stale-while-revalidate's instant-from-cache
 // win is worth the small staleness risk.
-const NETWORK_FIRST_PATTERN = /discovery\.geojson/;
+const NETWORK_FIRST_PATTERN = /(discovery\.geojson|private\.json)$/;
 
 self.addEventListener("fetch", (event) => {
   const { request } = event;
@@ -57,7 +58,7 @@ self.addEventListener("fetch", (event) => {
         } catch {
           const cached = await cache.match(request);
           if (cached) return cached;
-          throw new Error("discovery.geojson unavailable (offline, not yet cached)");
+          throw new Error("place feed unavailable (offline, not yet cached)");
         }
       })
     );

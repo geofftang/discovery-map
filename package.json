@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",
-    "preview": "vite preview --host 127.0.0.1"
+    "preview": "vite preview --host 127.0.0.1",
+    "build:private": "vite build --mode private && cp docs/sw.js dist-private/sw.js",
+    "test": "python3 scripts/test_build_discovery_geojson.py && python3 scripts/test_build_places_index.py"
   },
   "dependencies": {
     "@mapbox/maki": "^8.2.0",
