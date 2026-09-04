@@ -52521,6 +52521,42 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Ok's Deli",
+        "category": "Meal",
+        "signal": "Medium",
+        "description": "Temescal sandwich counter at 3932 Telegraph Ave — culturally-crossed sandwiches (Sichuan hot chicken and the like), takeout-first. Thu-Mon 11-3.\n\nSF Chronicle Top 100 #30 (2026) and named in the 2025 coverage. Verified open 2026-09-04 (Yelp Aug 2026; own site). Ownership not sourced.",
+        "secondary_tags": "sandwiches; deli",
+        "city": "Oakland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.264333,
+          37.8289183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fikscue",
+        "category": "Meal",
+        "signal": "High",
+        "description": "Fik and Reka Saleh's Indonesian-Texan craft barbecue at 1708 Park St Ste 120, Alameda, halal-certified — dino beef ribs, brisket, balado sides; weekends only, Sat-Sun 12-4 or until sold out.\n\nSF Chronicle Top 100 #41 (2026); KQED feature 2026. Verified open 2026-09-04 (Yelp Aug 2026).",
+        "secondary_tags": "bbq; indonesian; halal; asian-american",
+        "city": "Alameda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2390543,
+          37.768443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "The Anchovy Bar",
         "category": "Meal",
         "signal": "Medium",
