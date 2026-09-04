@@ -51372,6 +51372,24 @@
           37.7605
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arsicault Bakery (Mission Rock)",
+        "category": "Dessert",
+        "signal": "Medium",
+        "description": "Arsicault's Mission Rock shop at 1070 Bridgeview Way, by the ballpark — same almond and kouign amann as Arguello. Pinned because it sits on the Dogpatch → China Basin walk; the Civic Center shop (87 McAllister) is not pinned. A fourth SF shop is due at 88 Spear St and a Palo Alto one in fall 2026.\n\nVerified open 2026-09-03 (Yelp Jul 2026; SF Chronicle Jan 2026).",
+        "secondary_tags": "bakery; croissant",
+        "city": "San Francisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3886063,
+          37.7751919
+        ]
+      }
     }
   ]
 }
