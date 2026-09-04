@@ -1,5 +1,5 @@
 #!/bin/bash
-# Phone-reachable deployment of the OWNER build, login-gated: https://discovery-map-private.vercel.app/
+# Phone-reachable deployment of the OWNER build, login-gated: https://discovery-map.vercel.app/
 #
 # The private map is also served locally (launchd com.user.discovery-map-private, http://127.0.0.1:8765).
 # The payload carries takes, hidden pins and provider advisories: treat it like the vault.
@@ -12,15 +12,18 @@
 #   * PREVIEW deployments are gated (302 -> vercel.com/sso-api), and a plain alias onto a preview
 #     deployment stays gated. So: never --prod; deploy a preview; alias it to a readable name that is
 #     NOT the project's production domain; verify the payload anonymously before printing anything.
-#   * The project is therefore named discovery-map-owner (its unused production domain 404s) and the
-#     map lives at the alias below.
+#   * A <name>.vercel.app alias is gated only while it is NOT bound to the project as a production
+#     domain. The project is named discovery-map-owner so that discovery-map.vercel.app is never its
+#     auto-assigned production domain; the stale binding left by the first attempt was removed with
+#     DELETE /v9/projects/discovery-map-owner/domains/discovery-map.vercel.app (2026-09-04). If the
+#     anonymous check below ever returns 200 again, that binding is the first thing to look for.
 #
 # One-time:  vercel login          (device-code flow; interactive)
 # Then:      bash scripts/deploy-private-vercel.sh
 set -euo pipefail
 cd "$(dirname "$0")/.."
 PROJECT=discovery-map-owner
-ALIAS=discovery-map-private.vercel.app
+ALIAS=discovery-map.vercel.app
 LOG=/tmp/discovery-map-vercel-deploy.log
 [ -f dist-private/private.json ] || { echo "no dist-private/ -- run npm run build:private first" >&2; exit 1; }
 [ -f "$HOME/Library/Application Support/com.vercel.cli/auth.json" ] || { echo "not logged in to Vercel -- run: vercel login" >&2; exit 1; }
