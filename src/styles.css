@@ -532,6 +532,11 @@ select {
   vertical-align: middle;
 }
 
+/* the [hidden] attribute must beat the .control display rule on the public build */
+.show-all-control[hidden] {
+  display: none;
+}
+
 .show-all-control {
   display: flex;
   align-items: center;
