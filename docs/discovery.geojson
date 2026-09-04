@@ -22445,6 +22445,25 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Traze",
+        "category": "Meal",
+        "signal": "High",
+        "description": "A popular ten-year-old pizza pop-up has found a permanent home in Long Island City. Every element of its grandma-style squares — from its 72-hour fermented dough to its many sauces — are made in-house. Its French onion fungi pie ($24) features soupy caramelized onions, gruyere cheese, and huitlacoche mushrooms. Catch the breakfast menu of $6 slices like a veggie, egg and cheese pizza with a creamy herb sauce. Now a brick-and-mortar pizzeria and café at 21-03 45th Rd, Long Island City (first physical location after a decade as a Queens pop-up) — square grandma-style trays, 72-hour dough, the falafel pizza; closed Tuesdays.\n\nWas hidden as CLOSED_PERMANENTLY: the enricher read a neighbouring dead listing's closure chip (parser contamination, fixed in discovery-observe 2026-09-04). Verified OPERATIONAL 2026-09-04 (trazeus.com; Google panel).",
+        "secondary_tags": "pizza; pop-up; lic; owner-priority",
+        "city": "NYC",
+        "google_place_id": "ChIJ0QxSKQBZwokRCpfABgUi_SI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94760389999999,
+          40.7467323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Lou Yau Kee",
         "category": "Meal",
         "signal": "High",
@@ -39082,6 +39101,25 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "MASS MoCA",
+        "category": "Activities",
+        "signal": "Medium",
+        "description": "Contemporary art museum in the Berkshires; massive converted mill complex; celebrated large-scale installations; good Amtrak day trip or weekend from NYC",
+        "secondary_tags": "museum",
+        "city": "North Adams MA",
+        "google_place_id": "ChIJx30R4-5YwokRuFC0O5aPB2M"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1158854,
+          42.7012857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "NY Jumbo Bagels",
         "category": "Meal",
         "signal": "Medium",
@@ -41640,7 +41678,8 @@
         "signal": "High",
         "description": "Castello (Campiello della Pescaria 3968) — MC dedicated feature + EM (EAT VENICE) confirmed. Cesare Benelli's mission: rescue genuine Venetian lagoon cuisine from the tourist-lunch model. Two intimate rooms. Confirmed open Thu–Mon. Michelin Plate (possibly starred — sources conflict). Order: whatever the market delivered that day — ask, don't order off-menu instinct. Fritto misto and raw seafood preparations are the play. The kitchen is built around what's alive in the lagoon, not a fixed menu. Saturday dinner pick for this trip. Also featured in Gambero Rosso 2021 (outdoor-dining guide): It's a member of the Associazione dei Ristoranti della Buona Accoglienza Venezia, and sources produce from \"Osti in orto,\" a biodynamic farm on Sant'Erasmo island.",
         "secondary_tags": "dinner; seafood; michelin",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJneXTBCaufkcRaP5JHtVNvlE"
       },
       "geometry": {
         "type": "Point",
@@ -41658,7 +41697,8 @@
         "signal": "High",
         "description": "Santa Croce (Sottoportego de Siora Bettina) — garden courtyard, ~€25–30pp. Confirmed open Thu–Sun (closed Mon–Wed). Sunday dinner pick for this trip. Order: seasonal Venetian menu, the garden in the evening is the setting. Not a showpiece restaurant — honest, local, relaxed after a full Sunday of sightseeing. Also featured in Gambero Rosso 2025 (\"Trattorie e osterie di Venezia da scoprire questa estate\"): Named dishes: octopus-and-potato salad, spaghetti al nero di seppia, and a homemade pesto penne as the vegetarian option -- corroborates the rustic-courtyard positioning already noted here.",
         "secondary_tags": "dinner; garden",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJv9VITc-xfkcRNkZy5oCc8uI"
       },
       "geometry": {
         "type": "Point",
@@ -41676,7 +41716,8 @@
         "signal": "High",
         "description": "San Marco/Rialto (Salizada del Fontego dei Tedeschi 5546) — walk-in bacaro since 1997, kitchen till 1am, bar till 2–3am. The only Venice option with a kitchen confirmed running at midnight — Friday late-arrival fallback for this trip. Order: spritz + whatever cicchetti are still going at that hour. Note: 12% table service charge + ~€20 minimum if seated. Some 'tourist trap' chatter but complaints are about the surcharge, not the food. Real local following alongside the tourists.",
         "secondary_tags": "bacaro; cicchetti; late-night",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJ_SE7xduxfkcRzdX8aqPXfoI"
       },
       "geometry": {
         "type": "Point",
@@ -41694,7 +41735,8 @@
         "signal": "High",
         "description": "San Polo (Campiello delle Becarie, Rialto fish market) — cicchetti counter serving Rialto market workers since 1918. Tiny, standing-only, no seats. Order: ombra + baccalà mantecato crostino or whatever's freshest behind the counter. Come before 12:30pm when the market is still live and the cicchetti are at their freshest. Natural anchor after the Rialto Pescaria walk — same piazzetta.",
         "secondary_tags": "bacaro; cicchetti; market",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJQ4EuntuxfkcRwh-QDqCDmz4"
       },
       "geometry": {
         "type": "Point",
@@ -41712,7 +41754,8 @@
         "signal": "High",
         "description": "San Polo (Campiello dei Meloni) — fried seafood cones, open daily 9am–8pm. Order: fritto misto cone — choose your mix (shrimp, calamari rings, small lagoon fish). Eat walking. €5–8 for a full cone. Venetians actually eat here, not just tourists — the polenta base makes it local rather than generic fried-fish.",
         "secondary_tags": "street food; fritto misto; seafood",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJaUjwMsWxfkcR0I8orUAJZkQ"
       },
       "geometry": {
         "type": "Point",
@@ -41730,7 +41773,8 @@
         "signal": "High",
         "description": "San Polo (Campiello dei Meloni — same campiello as Acqua e Mais) — historic bakery. Open daily except Tuesdays. Order: zaleti (cornmeal-raisin cookies, a Venetian specialty), bussolà (ring-shaped butter biscuit), whatever cream pastry is fresh that morning. Frittelle are Carnevale-only (Feb) — don't look for them in August. The pastry case is the menu; point at what looks good.",
         "secondary_tags": "pastry; historic",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJe8_yy9qxfkcRNzCNQNb4T2Y"
       },
       "geometry": {
         "type": "Point",
@@ -41748,7 +41792,8 @@
         "signal": "High",
         "description": "San Polo (Rio Terà dei Nomboli, near Frari) — tramezzini, Sat 7am–3pm only, closed Sunday. Order: tramezzini — Venetian soft white-bread triangles, €2–3 each. Classic fillings: prosciutto e formaggio, tonno e cipolla, gamberi e maionese. Saturday-morning-only window for this trip. Quick standing stop, not a sit-down meal.",
         "secondary_tags": "tramezzini; saturday only",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJKfEyZcWxfkcRI2-aeL74NEU"
       },
       "geometry": {
         "type": "Point",
@@ -41766,7 +41811,8 @@
         "signal": "High",
         "description": "Dorsoduro (Calle della Toletta, near Accademia) — tramezzini, open daily 8am–7:30pm. The natural lunch-substitute during the Dorsoduro wander day. Order: tramezzini — pick 2–3 for a real lunch (€2–3 each). Low-key, local regulars, no tourist premium. No queue, no reservation, no ceremony.",
         "secondary_tags": "tramezzini; dorsoduro; lunch",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJ00gDes6xfkcRMs94EViqKXc"
       },
       "geometry": {
         "type": "Point",
@@ -41784,7 +41830,8 @@
         "signal": "High",
         "description": "Piazza San Marco — open since 1720, Europe's oldest continuously-operating café. Do once despite touristy. Orchestra surcharge ~€6–7pp; a coffee with orchestra = ~€12–15pp. Order: espresso or hot chocolate; the caffè storico (house-blended coffee) if they offer it. The ritual — sitting at a marble table under the Procuratie Vecchie with the orchestra — is the thing, not the coffee itself. Open daily. Sunday breakfast anchor when Rosa Salva is closed.",
         "secondary_tags": "historic; café; san-marco",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJK6iBP9exfkcRkwD7q8Uwaik"
       },
       "geometry": {
         "type": "Point",
@@ -41802,7 +41849,8 @@
         "signal": "High",
         "description": "San Marco 2840-2842, on the Grand Canal between the Accademia Bridge and Palazzo Cavalli-Franchetti. Monet and his wife Alice stayed here for two weeks in Oct 1908 — his only visit to Venice. From this balcony he painted three of the great palaces across the canal: Palazzo da Mula, Palazzo Dario, and Palazzo Contarini. Also the Henry James / John Singer Sargent circle's Venice base. Private residence, view from the exterior/canal only.",
         "secondary_tags": "monet; art-history; grand-canal",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJ89eW_s-xfkcRD-9Km-QtYhI"
       },
       "geometry": {
         "type": "Point",
@@ -41820,7 +41868,8 @@
         "signal": "High",
         "description": "Grand Canal, near the Giglio vaporetto stop / Santa Maria del Giglio. Monet relocated here partway through his 1908 stay — painted San Giorgio Maggiore and the Doge's Palace facade from his window and balcony. His daily routine: start painting at St Mark's Square, end the day on this balcony. Now a luxury hotel (was Westin Europa & Regina before the St. Regis rebrand) — the Grand Canal view is the same one Monet painted. Also relevant: the hotel's Grand Canal restaurant, Gio's: San Marco 2159, phone 041 240 0001 -- a Grand Canal-view restaurant at this hotel, per Gambero Rosso's 2021 outdoor-dining guide and its 2022 Biennale dining feature.",
         "secondary_tags": "monet; art-history; grand-canal; hotel",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJP0FuiHGxfkcRHdcHCSIKnfE"
       },
       "geometry": {
         "type": "Point",
@@ -41838,7 +41887,8 @@
         "signal": "Medium",
         "description": "Dorsoduro, Grand Canal near the Salute. One of the three palazzi Monet painted from Palazzo Barbaro's balcony in 1908. Famous as Venice's \"unlucky palace\" (a string of owner deaths/misfortunes) — also visually striking: leaning facade, inlaid colored marble roundels, distinct from the Gothic palazzi around it. View from the Grand Canal/vaporetto only, not open inside.",
         "secondary_tags": "monet; art-history; grand-canal",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJpU4mfdGxfkcRy3Huna_bzYQ"
       },
       "geometry": {
         "type": "Point",
@@ -41856,7 +41906,8 @@
         "signal": "Low",
         "description": "Dorsoduro, Grand Canal near Campo San Vio, close to Palazzo Barbaro. One of the three palazzi Monet painted from Barbaro's balcony in 1908 (alongside Dario and Contarini). Lower-confidence pin — exact building identification not independently re-verified beyond the source noting its proximity to Barbaro.",
         "secondary_tags": "monet; art-history; grand-canal",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJwwes6XqxfkcRPVZ7w3Y1xt0"
       },
       "geometry": {
         "type": "Point",
@@ -41910,7 +41961,8 @@
         "signal": "Medium",
         "description": "Giudecca. Palazzina/showroom/garden/boutique tour — the actual production floor stays permanently secret per the founder's will, viewable only by factory staff. Free cultural visits run 1st + last Wednesday of every month; fabric and finished goods purchasable in the showroom. See the history + garden + buy the output, not watch the craft happen (contrast with Bevilacqua above).",
         "secondary_tags": "craft; artisan; textile; giudecca",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJT7x5WSywfkcR_CRy4wx1YM8"
       },
       "geometry": {
         "type": "Point",
@@ -41928,7 +41980,8 @@
         "signal": "Medium",
         "description": "Dorsoduro. Mask atelier founded 1984, hand papier-mâché (cartapesta) technique per 800-year-old method — made masks for Kubrick's Eyes Wide Shut and the Vienna Opera. Most famous/most-reviewed mask workshop in Venice (genuinely artisan-run, not a factory, but not a hidden find either).",
         "secondary_tags": "craft; artisan; masks; dorsoduro",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJ8YkN5s6xfkcRBV1T3sUg6B0"
       },
       "geometry": {
         "type": "Point",
@@ -41946,7 +41999,8 @@
         "signal": "Medium",
         "description": "Murano. 3rd-generation glass-maker, holds the \"Vetro Artistico® Murano\" certification trademark (verifies traditional technique). Skip the free tourist \"glassblowing show\" funnel tours — book a private/small furnace visit here instead to actually watch a maestro work rather than sit through a sales-floor routine.",
         "secondary_tags": "craft; artisan; glass; murano",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJA0vOugKufkcRToL0zA2LLE8"
       },
       "geometry": {
         "type": "Point",
@@ -41964,7 +42018,8 @@
         "signal": "High",
         "description": "Dorsoduro, on Rio di San Trovaso. One of the few surviving squeri where gondolas are actually built and repaired — 17th-c. origin, distinctive Alpine-chalet architecture. Interior visits are by appointment only, but the free view from across the canal is itself a well-reviewed quiet-atmosphere stop, away from San Marco crowds. Pair with cicchetti at Cantine già Schiavi nearby.",
         "secondary_tags": "craft; artisan; gondola; dorsoduro; free",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJCc5DyM2xfkcRqJBesa_ACjs"
       },
       "geometry": {
         "type": "Point",
@@ -41982,7 +42037,8 @@
         "signal": "High",
         "description": "Castello, near Campo Santa Maria Formosa. Carlo Scarpa's 1961-63 ground-floor/garden redesign (controlled water, Istrian stone) is itself an atmospheric, almost meditative space. Intimate house-museum (18th-c. furnishings, Murano chandeliers) plus the Scarpa architectural intervention — both art-history and design-history in one visit. Café faces the garden, good for a quiet coffee/aperitivo.",
         "secondary_tags": "architecture; museum; castello",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJxbFSRdixfkcRnS-hIpQb-e4"
       },
       "geometry": {
         "type": "Point",
@@ -42000,7 +42056,8 @@
         "signal": "Medium",
         "description": "Castello. Restored Tintoretto-decorated camerini (Camerino di Callisto, Camerino di Apollo) plus a Doge-family palazzo most visitors skip entirely — genuinely off the standard circuit, good pairing with a Castello walk.",
         "secondary_tags": "architecture; museum; art-history; castello",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJXSSaitixfkcRh_mpgzOpNhY"
       },
       "geometry": {
         "type": "Point",
@@ -42018,7 +42075,8 @@
         "signal": "High",
         "description": "Palazzo Barbarigo Minotto, San Marco 2504, Fondamenta Duodo o Barbarigo (near the Giglio vaporetto stop, on the main walking route between St Mark's and the Accademia Bridge). Immersive opera moving room-to-room through a Grand Canal palazzo — performers interact with the audience across 3 acts/3 rooms. €95pp, book ahead. Honest caveat from reviews: \"touristy but still a nice evening.\" Rooms 2-3 have better sightlines than room 1.",
         "secondary_tags": "opera; music; signature-experience",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJ_cR3c9exfkcRkwwc61XMDeM"
       },
       "geometry": {
         "type": "Point",
@@ -42054,7 +42112,8 @@
         "signal": "Medium",
         "description": "Piazza San Marco. Astronomical clock mechanism + the two bronze Moors striking the bell — genuinely Venice-specific, not replicable elsewhere. Guided-tour-only, pre-booked, timed slots (not a walk-in). Worth it if a slot is available and doesn't collide with other timing.",
         "secondary_tags": "architecture; san-marco; booking-required",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJLbrmd9exfkcR4YVP0azgB4g"
       },
       "geometry": {
         "type": "Point",
@@ -42072,7 +42131,8 @@
         "signal": "Medium",
         "description": "Dorsoduro. Real locals/student hangout, cheap drinks, lively — the social counterpoint to the quiet-calli experience elsewhere in Dorsoduro. 2 min from Pasticceria Tonolo. Worth it if passing through in the evening, not a special detour.",
         "secondary_tags": "atmosphere; nightlife; dorsoduro",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJb0NF3tGxfkcR67J6HLy6w6Y"
       },
       "geometry": {
         "type": "Point",
@@ -42090,7 +42150,8 @@
         "signal": "Low",
         "description": "Cannaregio, lagoon-facing fondamenta. Blue-hour lantern + lagoon view, less touristy than Accademia/Salute — but on the opposite side of the city from the Dorsoduro sunset route, worth it only as a Cannaregio-day add-on rather than a dedicated trip.",
         "secondary_tags": "atmosphere; sunset; cannaregio",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJTyga9N2xfkcRkEBlc53eD3I"
       },
       "geometry": {
         "type": "Point",
@@ -42108,7 +42169,8 @@
         "signal": "High",
         "description": "Dorsoduro, walk the south edge along the Giudecca Canal (Zattere promenade), ending at Punta della Dogana. Two-time pick: early morning to watch the city's own logistics wake up (deliveries, boats — atmosphere not sights), then back at the same spot for sunset — San Giorgio Maggiore front-lit in golden light across the water. Sourced 2026-07-31: two independent r/ItalyTravel voices converged on this exact view unprompted (u/BrunoGerace's original 6-upvote post + thistle0's reply), and the thread's OP (abus00, established track record) confirmed it's likely this same Zattere-to-Punta-della-Dogana route. \"Worth the journey to Venice alone\" — BrunoGerace, an architect by trade.",
         "secondary_tags": "sunset; atmosphere; dorsoduro; free",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJu75WbMyxfkcRg9WWq-II_4c"
       },
       "geometry": {
         "type": "Point",
@@ -42126,7 +42188,8 @@
         "signal": "High",
         "description": "Cannaregio, near Fondamente Nove — established 1903, tiny family-run osteria. Slow Food Chiocciola claimed in earlier trip research (same soft sourcing as Al Portego above) — CORRECTION 2026-08-01: independent re-check found zero current Venice-city/lagoon-island Chiocciola holders; do not treat this as Chiocciola-designated, though the restaurant itself still reads as a genuine well-reviewed pick on its own merits. Classic Venetian seafood: baccalà mantecato, tagliatelle with seafood, duck ragu. Panna cotta (rosemary + black pepper) is the standout dessert. Verified 2026-08-01: consistently positive reviews, \"hidden gem\" praise across multiple sources, escape from the crowded tourist areas. Book ahead, not a big room.",
         "secondary_tags": "bacaro; cicchetti; slow-food",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJdWQ5ZdyxfkcRmPQWD7T3GSY"
       },
       "geometry": {
         "type": "Point",
@@ -42144,7 +42207,8 @@
         "signal": "High",
         "description": "Castello, Salizada dei Greci 3417. Casual sibling to a nearby Michelin-starred restaurant, same kitchen discipline in a relaxed room. Venetian classics (baccalà mantecato) with a Neapolitan thread from the owners' background. Gambero Rosso 2026 editorial pick.",
         "secondary_tags": "gambero rosso; castello",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJu1VzSjqvfkcRHybCrUjzrNY"
       },
       "geometry": {
         "type": "Point",
@@ -42162,7 +42226,8 @@
         "signal": "High",
         "description": "Castello, Calle del Pestrin 3829. Small, personal room run by a couple in the kitchen — Neapolitan and Venetian traditions in dialogue. Prawn-tartare risotto with liquorice, duck with friarielli, homemade pastiera for dessert. Gambero Rosso 2026 editorial pick.",
         "secondary_tags": "gambero rosso; castello",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJvfEmEiaufkcRlwHU0PulWK4"
       },
       "geometry": {
         "type": "Point",
@@ -42234,7 +42299,8 @@
         "signal": "Medium",
         "description": "Cannaregio, Calle larga dei Proverbi 4582a. Japanese-Venetian fusion from chef \"Masa\" — fish crudo, udon with katsuobushi, fried sardines with soy, a matcha tiramisu riff. Gambero Rosso 2026 editorial pick, distinctly non-traditional.",
         "secondary_tags": "gambero rosso; cannaregio",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJ7Sb9QdyxfkcR5PDLA9i2w9I"
       },
       "geometry": {
         "type": "Point",
@@ -42252,7 +42318,8 @@
         "signal": "High",
         "description": "Cannaregio, Fondamenta de la Sensa 3272. Open from 2pm for Venetian-style snacking — bread/butter/anchovies, a cartilage-bean-onion salad — with a genuinely curious international-leaning wine list by the glass. Gambero Rosso 2026 editorial pick.",
         "secondary_tags": "gambero rosso; cannaregio",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJFQzkG-qxfkcRmK0DdS0Y0Q4"
       },
       "geometry": {
         "type": "Point",
@@ -42270,7 +42337,8 @@
         "signal": "Medium",
         "description": "Cannaregio, Campo del Ghetto Nuovo 2888. \"Lagoon pizza\" — Venetian dishes reimagined as pizza toppings (schie e polenta, black cuttlefish). Owner's own advice: pair with natural/local wine, not beer. Gambero Rosso 2026 editorial pick, a genuine novelty rather than a traditional trattoria.",
         "secondary_tags": "gambero rosso; cannaregio; pizza",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJUV0XoAaxfkcRgXyo9Vr2w-A"
       },
       "geometry": {
         "type": "Point",
@@ -42306,7 +42374,8 @@
         "signal": "High",
         "description": "San Giorgio Maggiore island, right by the bell tower. Venice's only museum bistro — a tight three-dish-per-course menu built entirely around lagoon produce (Sant'Erasmo vegetables, seppie, risi e bisi). Gambero Rosso 2026 editorial pick. Directly useful if doing the bell-tower sunset — a real food option on the island itself, not just the view.",
         "secondary_tags": "gambero rosso; san-giorgio-maggiore; sunset",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJifpBtOCvfkcRZs1I4z4k850"
       },
       "geometry": {
         "type": "Point",
@@ -42324,7 +42393,8 @@
         "signal": "High",
         "description": "San Polo 692, steps from the Rialto market. Fish-only menu built around the day's market catch — spaghetti alle vongole, fried fish. Gambero Rosso 2026 editorial pick, good for a quick aperitivo or a full dinner.",
         "secondary_tags": "gambero rosso; san-polo; rialto",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJTQPYGtuxfkcRJZu-mxqp7RU"
       },
       "geometry": {
         "type": "Point",
@@ -42342,7 +42412,8 @@
         "signal": "Medium",
         "description": "Cannaregio 1268. More than the canal view it's known for — classic fish dishes (fritto misto, baccalà, sarde in saor, seafood ravioli) in a genuinely old-fashioned, unhurried room. Gambero Rosso 2026 editorial pick.",
         "secondary_tags": "gambero rosso; cannaregio",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJF3XtdpWxfkcRwJKGS5tn2sE"
       },
       "geometry": {
         "type": "Point",
@@ -42360,7 +42431,8 @@
         "signal": "Medium",
         "description": "Cannaregio, Calle dell'Oca 4367. Home-style, generous cooking — slow-cooked ossobuco ragu with bigoli, daily risotto. Gambero Rosso 2026 editorial pick, described as grandmother's-kitchen register.",
         "secondary_tags": "gambero rosso; cannaregio",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJAcPbGcGxfkcRy4_VYn5wkGM"
       },
       "geometry": {
         "type": "Point",
@@ -42414,7 +42486,8 @@
         "signal": "Medium",
         "description": "Cannaregio, Salizada del Pistor 4550. Traditional osteria pride in the heart of Venice — cuttlefish in its own ink with polenta, moeche in season, cuttlefish gnocchi. Gambero Rosso 2026 editorial pick.",
         "secondary_tags": "gambero rosso; cannaregio",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJKSkPZdyxfkcRfRbBCZoU30U"
       },
       "geometry": {
         "type": "Point",
@@ -42432,7 +42505,8 @@
         "signal": "High",
         "description": "Dorsoduro, Calle Crosera 3778, phone 041 476 4914. Run by two Venetians (Alberto and Dario), built around a 700+ label natural/sustainable wine list alongside handmade pasta and lagoon seafood -- the standout dish is bigoli in salsa made with Sant'Erasmo artichokes. Gambero Rosso 2025 editorial pick (\"No more tourist traps\") and currently a Michelin Guide Plate selection (recommended tier, not starred). Verified 2026-08-01: 4.4/5 Tripadvisor (950 reviews), 84/100 Sluurpometro -- confirms the critic pick.",
         "secondary_tags": "gambero rosso; michelin; dorsoduro; wine",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJ_RsoV8-xfkcRZt1hdgeurc0"
       },
       "geometry": {
         "type": "Point",
@@ -42450,7 +42524,8 @@
         "signal": "High",
         "description": "Dorsoduro, Fondamenta Briati 2540. Traditional lagoon cooking -- bovoletti (small snails) with garlic/oil/parsley, fried moeca (soft-shell crab) with a wasabi-mayo side salad, bigoli in salsa, plus a rotating local-fish special. Gambero Rosso 2025 pick (\"Trattorie e osterie di Venezia da scoprire questa estate\"). Verified 2026-08-01: 4.3/5 Tripadvisor (683 reviews, #269 of 1,474 Venice) -- confirms, praised as genuinely non-touristy.",
         "secondary_tags": "gambero rosso; dorsoduro",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJgVJ1ocmxfkcR9teAaju8sSM"
       },
       "geometry": {
         "type": "Point",
@@ -42468,7 +42543,8 @@
         "signal": "High",
         "description": "Burano, Via/Fondamenta Giudecca 88, phone 041 730120. Family-run since 1965, the specialty is risotto alla buranella; also pappardelle, scampi, smoked ricotta, and a strong vegetarian selection -- no meat dishes on the menu. Gambero Rosso 2025 pick and a current Michelin Guide Plate selection under the listed name \"Al Gatto Nero da Ruggero.\" Lower priority for this trip since the lagoon-islands day was dropped, but flagged here for completeness. Verified 2026-08-01: 4.5/5 Tripadvisor (2,400+ reviews, #2 of 53 in Burano) -- confirms strongly; only complaint pattern is price, not quality.",
         "secondary_tags": "gambero rosso; michelin; burano; lower-priority",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJC-OLfCStfkcRWFVM0sn7q8g"
       },
       "geometry": {
         "type": "Point",
@@ -42486,7 +42562,8 @@
         "signal": "High",
         "description": "San Marco, Corte Coppo 4346/a, phone 041 523 8269, aimercanti.com. 40-year family operation (Nadia and Diego, with son Simone), part of the \"resTour\" project -- roughly 35 Venetian restaurants that rotate monthly special dishes built on seasonal, local, lagoon-sourced ingredients. Menu rotates bimonthly; dishes have included salmon and tuna tartare, beef carpaccio with Parmesan, an octopus starter, and chocolate/panna cotta desserts. Gambero Rosso 2021 pick (outdoor-dining guide) and a current Michelin Guide Plate selection. Verified 2026-08-01: 4.5/5 Tripadvisor (1,839 reviews, #141 of 1,474 Venice) -- confirms.",
         "secondary_tags": "gambero rosso; michelin; san-marco",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJ01GxodCxfkcROfO_shSduB8"
       },
       "geometry": {
         "type": "Point",
@@ -42504,7 +42581,8 @@
         "signal": "High",
         "description": "Dorsoduro 173, phone 041 34281 (inside the Sina Centurion Palace hotel, near the Salute). Grand Canal view dining from chef Giancarlo Bellino, blending land and lagoon-seafood dishes. Gambero Rosso 2021 pick (outdoor-dining guide); separately holds a Gambero Rosso \"Due Forchette\" 2025 rating and a Veneto Food Excellence Award 2025. Verified 2026-08-01: 4.3/5 Tripadvisor (190 reviews) -- confirms, consistent with the award history.",
         "secondary_tags": "gambero rosso; dorsoduro; grand-canal; hotel",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJ8RSyWdGxfkcRq9Bs2us6krM"
       },
       "geometry": {
         "type": "Point",
@@ -42522,7 +42600,8 @@
         "signal": "High",
         "description": "San Polo, Calle Larga della Donzella 806, phone 041 458 7078. Daily-changing small menu -- cicchetti from 3 euros (5 euros for raw preparations), tagliolini with garlic/oil/chili and black cuttlefish, fried-food plates with house mayo, and a gianduia gelato with amaretti and hazelnuts for dessert. Gambero Rosso 2021 pick (outdoor-dining guide). Verified 2026-08-01: 4.6/5 Tripadvisor (488 reviews) and 4.6/5 RestaurantGuru (1,629 reviews), #71 of 1,442 Venice -- confirms.",
         "secondary_tags": "gambero rosso; san-polo",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJQVaZqtKxfkcRy8s8y5RdwYk"
       },
       "geometry": {
         "type": "Point",
@@ -42540,7 +42619,8 @@
         "signal": "Medium",
         "description": "Via XXII Marzo 2397, phone 041 520 8901. Upscale dining pairing lagoon seafood with an international menu, set in a garden built around historic Venetian wellheads (pozzi). Gambero Rosso 2021 pick (outdoor-dining guide). Verified 2026-08-01: 4.4/5 Tripadvisor (2,517 reviews, #82 of 1,473 Venice) -- confirms, long-running and still well-regarded; upscale price point.",
         "secondary_tags": "gambero rosso; san-marco; garden",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJCzmoINGxfkcRsEahuZ5D2Fs"
       },
       "geometry": {
         "type": "Point",
@@ -42594,7 +42674,8 @@
         "signal": "Medium",
         "description": "Castello 4928, phone 041 528 5332. Historic osteria with a courtyard -- sarde in saor, spider-crab (granceola) with oil and lemon, black cuttlefish-ink tagliolini, spaghetti alle vongole, and an Adriatic fritto misto. Gambero Rosso 2021 pick (outdoor-dining guide). Verified 2026-08-01: 4.1/5 Tripadvisor (1,734 reviews, #205 of 1,464 Venice) -- confirms, with some price/surcharge complaints in reviews worth noting. PERSONAL VERDICT 2026-08-01: went for dinner, not impressed -- confirms the 2026-04-01 ownership-change concern (modern/international menu, not the traditional Venetian kitchen the older sourcing described).",
         "secondary_tags": "gambero rosso; castello; courtyard",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJucDzX9ixfkcR5gIcJ20miTU"
       },
       "geometry": {
         "type": "Point",
@@ -42612,7 +42693,8 @@
         "signal": "Medium",
         "description": "San Polo, Calle Saoneri 2749, phone 041 523 4852. Roughly 70 years old, simple and informal with outdoor seating -- sarde in saor and tagliolini with spider crab (granseola) are the dishes to order. Member of the Associazione dei Ristoranti della Buona Accoglienza Venezia. Gambero Rosso 2021 pick (outdoor-dining guide). Verified 2026-08-01: 3.9/5 Tripadvisor (536 reviews, #478 of 1,463 Venice) -- confirms but is the softer end of this batch's ratings; still described as solid local fare, not a decline signal.",
         "secondary_tags": "gambero rosso; san-polo",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJibJNcMWxfkcR3lM5iZm0ERA"
       },
       "geometry": {
         "type": "Point",
@@ -42630,7 +42712,8 @@
         "signal": "Medium",
         "description": "Calle Stagneri 5242, phone 041 528 5147. Family-run since 1960, now run by three brothers (Mario, Guido, Luca) -- moscardini di Caorle in guazzetto, bigoli in salsa, and black cuttlefish with polenta and baccalà mantecato; a vegan menu is also offered. Gambero Rosso 2021 pick (outdoor-dining guide). Verified 2026-08-01: 4.1/5 Tripadvisor (1,443 reviews, #308 of 1,474 Venice) -- confirms.",
         "secondary_tags": "gambero rosso; san-marco; historic",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJRYJmKtqxfkcR3h-L56zQ18o"
       },
       "geometry": {
         "type": "Point",
@@ -42648,7 +42731,8 @@
         "signal": "High",
         "description": "Santa Croce, Calle dei Morti 2253, phone 041 721 301. Good-ingredient cooking in a romantic courtyard setting. Gambero Rosso 2021 pick (outdoor-dining guide). Verified 2026-08-01: 4.5/5 Tripadvisor (#70 of 1,729 Venice) -- confirms strongly, praised as calm and non-touristy, family-run.",
         "secondary_tags": "gambero rosso; santa-croce; courtyard",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJXV3NpcSxfkcRcUr_qW1IiRE"
       },
       "geometry": {
         "type": "Point",
@@ -42666,7 +42750,8 @@
         "signal": "High",
         "description": "Castello, Campo Santa Marina 5911, phone 041 528 5239. Seafood-focused kitchen built on seasonal, local ingredients with a respectful modern take on Venetian tradition; outdoor tables on Campo Santa Marina. Gambero Rosso 2021 pick (outdoor-dining guide). Verified 2026-08-01: 4.4/5 Tripadvisor (1,562 reviews, #185 of 1,469 Venice) -- confirms.",
         "secondary_tags": "gambero rosso; castello; seafood",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJrQ4xP9mxfkcRJjD1vZxgSe8"
       },
       "geometry": {
         "type": "Point",
@@ -42684,7 +42769,8 @@
         "signal": "High",
         "description": "Zattere, Dorsoduro 1473, phone 041 522 7621. Chef Samuele Silvestri runs a zero-waste kitchen with a Giudecca-canal view -- guinea fowl ragu risotto, octopus with peppers, mackerel with green apple, and beef tail with horseradish; the housemade bread is specifically called out. Gambero Rosso 2021 pick (outdoor-dining guide). Verified 2026-08-01: 4.6/5 RestaurantGuru (4,796 reviews), 8.9/10 TheFork, #96 of 1,427 Venice on Tripadvisor -- confirms strongly.",
         "secondary_tags": "gambero rosso; dorsoduro; zattere; zero-waste",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJk2xXSMmxfkcRwFwgu32XbqI"
       },
       "geometry": {
         "type": "Point",
@@ -42720,7 +42806,8 @@
         "signal": "High",
         "description": "Mazzorbo, Fondamenta Santa Caterina 3, phone 041 527 2281. Chefs Chiara Pavan and Francesco Brutto run an \"environmental cuisine\" kitchen built on wild lagoon herbs and local fish -- gnocchi with fig leaf, unripe fig, and tarragon oil; castraure-artichoke risotto; eel with black truffle and porcini; a smoked tiramisu with toasted nori. Tasting menus run 5/7/9 courses. Gambero Rosso 2021 pick (outdoor-dining guide) and currently a 1-star Michelin Guide restaurant with a Michelin Green Star for sustainability. This resolves an earlier-flagged gap from prior trip research. Verified 2026-08-01: 4.0/5 Tripadvisor (660 reviews, #2 of 4 in Mazzorbo) -- confirms qualitatively (\"a must for foodies\"); the numeric score is lower than the Michelin pedigree would suggest, likely reflecting steep tasting-menu pricing rather than a quality issue.",
         "secondary_tags": "gambero rosso; michelin; mazzorbo; tasting-menu",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJk7FQDKytfkcRY-Zc6O3TVGg"
       },
       "geometry": {
         "type": "Point",
@@ -42738,7 +42825,8 @@
         "signal": "Medium",
         "description": "Cannaregio, Rio Tera San Leonardo 1518, phone 041 716 170. Near the train station, open roughly 30 years and recently awarded \"locale storico\" (historic-venue) status. Crostini and fried snacks (spiedini, polpette, fried vegetables), plus two dialect specialties: spienza (boiled spleen with oil, vinegar, salt, pepper) and barbussai (boiled veal chin cut). Gambero Rosso 2025 bacaro-crawl pick (\"tre giorni e dieci cicchetti\"). Verified 2026-08-01: 3.8/5 Tripadvisor (#419 of 1,470 Venice) -- confirms as friendly/good cicchetti, though the softest rating of this crawl's stops.",
         "secondary_tags": "gambero rosso; cannaregio; bacaro",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJdzIVl8GxfkcR5iD41FMycXk"
       },
       "geometry": {
         "type": "Point",
@@ -42756,7 +42844,8 @@
         "signal": "High",
         "description": "Cannaregio, a five-minute walk northeast along Rio della Misericordia from Vino Vero. Casual, convivial osteria -- the Treviso-style-porchetta crostino is the one to grab fast (called excellent), plus assorted polpette, cheese/meat boards, and Select spritz (the Venetian original of the Aperol spritz). Gambero Rosso 2025 bacaro-crawl pick. Verified 2026-08-01: 4.6/5 RestaurantGuru (1,398 reviews), Tripadvisor Certificate of Excellence, roughly #154 of 1,568 -- confirms strongly.",
         "secondary_tags": "gambero rosso; cannaregio; bacaro",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJobTpB8KxfkcRZ3AL9RX4iKA"
       },
       "geometry": {
         "type": "Point",
@@ -42792,7 +42881,8 @@
         "signal": "High",
         "description": "San Polo, on the street connecting Ponte di Rialto to the Rialto market. A Florentine-Venetian fusion concept (Florentine-lily and gondola-prow decor at the entrance) -- schiacciata flatbreads topped either Tuscan-Venetian (finocchiona, pecorino cream, mushroom cream) or Venetian-straight (baccalà mantecato, tomato, parsley, lemon sauce, black pepper). Gambero Rosso 2025 bacaro-crawl pick. Verified 2026-08-01: Tripadvisor #2 of 56 Quick Bites in Venice (317 reviews, Certificate of Excellence), roughly 4.8 aggregate across platforms -- confirms strongly.",
         "secondary_tags": "gambero rosso; san-polo; rialto; bacaro",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJ2ck-uN2xfkcRv9qAuDfCGi0"
       },
       "geometry": {
         "type": "Point",
@@ -42810,7 +42900,8 @@
         "signal": "High",
         "description": "Dorsoduro, Campo Santa Margherita 3665, phone 041 241 2758, bakarovenezia.com. A young, modern take on the bacaro format, popular with university students for affordable prices -- mussels in pepper sauce with a bread crouton, and a tuna tartare with anchovies, toasted pine nuts, sesame, and redcurrant mayo. Gambero Rosso 2023 bacari guide pick. Now trading online as \"Bakarò - Osteria & Co.\" -- confirm it's the same Campo Santa Margherita address before booking. Verified 2026-08-01: 4.6/5 Tripadvisor (#38 of 1,473 Venice) -- confirms strongly.",
         "secondary_tags": "gambero rosso; dorsoduro; santa-margherita; bacaro",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJN-p6y8ixfkcRtQtNBgbqD2U"
       },
       "geometry": {
         "type": "Point",
@@ -42828,7 +42919,8 @@
         "signal": "High",
         "description": "Cannaregio, Rio Tera Farsetti 1847/A, phone 333 345 8811, cantinaaziendeagricole.com. Old-school, authentic bacaro look -- oven-baked meat and fish polpette, eggplant with cheese. No reservations; standing-bar, cash-friendly format typical of the genre. Gambero Rosso 2023 bacari guide pick. Verified 2026-08-01: 4.6/5 Tripadvisor (772 reviews, #105 of 1,442 Venice) -- confirms.",
         "secondary_tags": "gambero rosso; cannaregio; bacaro",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJez9Bl8GxfkcRoyIj7uIuquw"
       },
       "geometry": {
         "type": "Point",
@@ -42846,7 +42938,8 @@
         "signal": "Low",
         "description": "Giardini, inside the Biennale/Arsenale-end public gardens, serradeigiardini.org. A restored 19th-century greenhouse cafe -- described as a corner of Paris dropped into Venice, with grass seating in the garden. Gambero Rosso 2024 pick (\"Discovering secret Venice through its Cicchetti\"). Verified 2026-08-01: 3.6/5 Tripadvisor (#857 of 1,462 Venice) -- DECLINE SIGNAL: current reviews flag inconsistent service and only middling food/coffee, even though the greenhouse setting itself is still praised. Treat as a setting-first stop, not a food-first one -- reconsider vs. the Gambero Rosso framing.",
         "secondary_tags": "gambero rosso; giardini; decline-signal",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJCyqRDTCufkcRRl6tW0Q_Ogw"
       },
       "geometry": {
         "type": "Point",
@@ -42864,7 +42957,8 @@
         "signal": "High",
         "description": "Castello, Campo Santi Filippo e Giacomo 4509, phone 041 520 8280. Chef Gianni Bonaccorsi's tasting menus (5/7/9 courses) -- cucumber-wrapped sea bass with tartare and a saffron seafood soup, sweetbreads with sea bass; a 28-euro fixed lunch menu is also offered. Current 1-star Michelin Guide restaurant. Verified 2026-08-01: 4.2/5 Tripadvisor (1,274 reviews, #319 of 1,471 Venice) -- confirms, consistently positive.",
         "secondary_tags": "michelin; castello; fine-dining",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJiWB1GtixfkcR1g595YQMoaY"
       },
       "geometry": {
         "type": "Point",
@@ -42882,7 +42976,8 @@
         "signal": "High",
         "description": "Castello, Calle del Mondo Novo 5801, phone 041 522 7220. Tiny seafood-only room -- turbot fillet, spaghetti with clams, spider-crab tagliolini, Pilgrim scallops with lemon and peppermint, olive-oil-and-garlic razor clams, and moleche (soft-shell crab) in season. Current Michelin Guide Plate selection (recommended tier, not starred). Verified 2026-08-01: 4.4/5 Tripadvisor (1,679 reviews, #196 of 1,466 Venice) -- confirms, seafood reputation holds up.",
         "secondary_tags": "michelin; castello; seafood",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJTZhlPPOxfkcRVPNinHERw7k"
       },
       "geometry": {
         "type": "Point",
@@ -42900,7 +42995,8 @@
         "signal": "Medium",
         "description": "Castello, Calle del Pestrin 3886, phone 041 522 7024. Open since 1980 -- cuttlefish-ink spaghetti, Venetian-style tuna with white polenta, moeche (soft-shell crab, seasonal), ginger clams; an 85-euro seafood tasting menu is also offered. Current Michelin Guide Plate selection. Verified 2026-08-01: 4.1/5 Tripadvisor (1,346 reviews, #408 of 1,476 Venice) -- confirms overall, majority positive on seafood and the courtyard setting, though one visible complaint review flags a pricing dispute worth a light heads-up.",
         "secondary_tags": "michelin; castello; seafood; courtyard",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJb3wPKtmxfkcRkgz0O_Owlv0"
       },
       "geometry": {
         "type": "Point",
@@ -42918,7 +43014,8 @@
         "signal": "High",
         "description": "San Polo, Fondamenta del Forner 2908, phone 041 524 3373. Current 1-star Michelin Guide restaurant. Verified 2026-08-01: 4.7/5 Tripadvisor (417 reviews, #97 of 1,476 Venice), 4.7 Google (520 reviews) -- confirms strongly, no red flags.",
         "secondary_tags": "michelin; san-polo; fine-dining",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJC9bavOOxfkcRQ1E-5SEBVZw"
       },
       "geometry": {
         "type": "Point",
@@ -42936,7 +43033,8 @@
         "signal": "High",
         "description": "Castello, Salizada dei Greci 3303, phone 041 241 1128. The fine-dining sibling of the more casual \"Trattoria del Local\" (already captured in this dataset from Gambero Rosso's 2025 tourist-traps piece) -- same kitchen lineage, formal tasting-menu register. Current 1-star Michelin Guide restaurant. Verified 2026-08-01: 4.5/5 Tripadvisor (831 reviews, #177 of 1,476 Venice) -- confirms, no decline signals.",
         "secondary_tags": "michelin; castello; fine-dining",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJdzcksyeufkcRKolpWat_x9M"
       },
       "geometry": {
         "type": "Point",
@@ -42954,7 +43052,8 @@
         "signal": "Medium",
         "description": "Giudecca 10, phone 041 240801 (inside Hotel Cipriani). Current 1-star Michelin Guide restaurant, ultra-high-end hotel fine dining. Verified 2026-08-01: 4.2/5 Tripadvisor (372 reviews, #481 of 1,432 Venice) -- mixed: Michelin standing intact, but reviews split on value for money at roughly 600-euro-per-person pricing. Weakest of the Venice-star restaurants checked in this pass on rating, though that reads as price friction rather than a quality issue.",
         "secondary_tags": "michelin; giudecca; hotel; fine-dining",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJ0U-xZiqufkcR7NP7JREjP1E"
       },
       "geometry": {
         "type": "Point",
@@ -42972,7 +43071,8 @@
         "signal": "Medium",
         "description": "San Polo, Campo San Polo 2168, phone 041 275 0570. A pizzeria-trattoria named by a Hotel Cipriani/Oro chef as his personal pick for Venice's best pizza -- the diavola is the one to order. Gambero Rosso 2023 feature (\"I migliori ristoranti di Venezia: le dritte di un grande chef\"). Verified 2026-08-01: 3.9/5 Tripadvisor (1,981 reviews, #336 of 1,476 Venice) -- mixed-lean-confirm, decent for a large touristy pizzeria-trattoria with some \"average/touristy\" complaints, not a standout but no red flags.",
         "secondary_tags": "gambero rosso; san-polo; pizza",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJ0xsFH8WxfkcRE8ahL9qK31o"
       },
       "geometry": {
         "type": "Point",
@@ -42990,7 +43090,8 @@
         "signal": "Medium",
         "description": "San Polo, Calle del Tentor 1834, phone 346 075 0952. Billed as Venice's first mezcaleria/cocktail bar. Gambero Rosso 2023 feature (\"I migliori ristoranti di Venezia: le dritte di un grande chef\"). Verified 2026-08-01: 3.7/5 Tripadvisor (15 reviews) but 5.0/5 OpenTable (48 reviews) -- confirms with a low-sample caveat on the Tripadvisor side; some portion-size/price complaints noted, best treated as a niche cocktail stop rather than a full-meal venue.",
         "secondary_tags": "gambero rosso; san-polo; cocktails",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJJanpft6xfkcRteZ3ftWcLCU"
       },
       "geometry": {
         "type": "Point",
@@ -43008,7 +43109,8 @@
         "signal": "High",
         "description": "Mazzorbo, Fondamenta Santa Caterina 3. Venissa's more casual sister osteria on the same property -- a 4-course, roughly 70-euro menu. Gambero Rosso 2024 feature (\"La guida alla Venezia nascosta: i migliori ristoranti delle isole della laguna\"). Verified 2026-08-01: 4.0/5 Tripadvisor (332 reviews, #3 of 4 in Mazzorbo) -- confirms, solid and matches its positioning as Venissa's casual sibling.",
         "secondary_tags": "gambero rosso; mazzorbo",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJ656agf2tfkcRdlJuF4-1vz8"
       },
       "geometry": {
         "type": "Point",
@@ -43026,7 +43128,8 @@
         "signal": "High",
         "description": "Mazzorbo, Fondamenta Santa Caterina 7b. Risotto di go (goby fish) and moeche (soft-shell crab, seasonal) are the specialties. Gambero Rosso 2024 feature (\"La guida alla Venezia nascosta: i migliori ristoranti delle isole della laguna\"). Verified 2026-08-01: 4.5/5 Tripadvisor (692 reviews, #1 of 4 in Mazzorbo) -- confirms strongly, best-rated option on the island.",
         "secondary_tags": "gambero rosso; mazzorbo",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJIy5qnq6tfkcR-e1dnFL2gZs"
       },
       "geometry": {
         "type": "Point",
@@ -43098,7 +43201,8 @@
         "signal": "Medium",
         "description": "Burano, Via San Martino Destro 220, phone 041 730 030. Recognized as a Locali Storici d'Italia (Italy's historic-venues register). Gambero Rosso 2024 feature (\"Dove mangiare le moeche da Chioggia a Venezia\"). Lower priority for this trip since the lagoon-islands day was dropped. Verified 2026-08-01: 4.2/5 Tripadvisor (1,477 reviews, #5 of 53 in Burano), with recent 2026 reviews still positive -- confirms, sustained quality.",
         "secondary_tags": "gambero rosso; burano; historic; lower-priority",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJa5wpQlKsfkcRM0QAOw_Caqg"
       },
       "geometry": {
         "type": "Point",
@@ -43116,7 +43220,8 @@
         "signal": "Medium",
         "description": "San Marco 5556. The Alajmo family's bar/bistrot/pizza spot, designed by Philippe Starck. Gambero Rosso 2020 feature (\"Ristoranti tipici di Venezia: dove assaggiare i piatti della tradizione\"). Verified 2026-08-01: roughly 3.9/5 Tripadvisor (rank varies, roughly #530-580 of 1,400-1,700 Venice across snapshots) -- mixed-lean-confirm, decent but unexceptional for its luxury-retail-mall positioning rather than a critic darling; no serious red flags.",
         "secondary_tags": "gambero rosso; san-marco; alajmo",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJBXRYs9-xfkcRAZHbTwh_0vo"
       },
       "geometry": {
         "type": "Point",
@@ -43134,7 +43239,8 @@
         "signal": "High",
         "description": "Castello, Calle Lunga Santa Maria Formosa 5183, phone 041 523 0744. Wine bar run by Mauro Lorenzon, a Venetian wine-bar institution. Gambero Rosso 2020 feature (\"Ristoranti tipici di Venezia: dove assaggiare i piatti della tradizione\"). Verified 2026-08-01: roughly 4.0-4.1/5 Tripadvisor (931-985 reviews depending on listing variant -- appears under both \"Enoiteca Mascareta\" and \"Osteria Mascareta\") -- confirms, matches its long-standing reputation.",
         "secondary_tags": "gambero rosso; castello; wine",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJg-kletexfkcR2ZFz_e_ROz0"
       },
       "geometry": {
         "type": "Point",
@@ -43152,7 +43258,8 @@
         "signal": "Low",
         "description": "Giudecca 460, phone 041 406 8308. Gambero Rosso 2024 feature (\"Dove mangiare a Venezia durante la Festa del Redentore\"). Verified 2026-08-01: 5.0/5 Tripadvisor but only 3 reviews -- sample size is too small to treat as a verified confirmation of the critic mention; promising but unproven, worth an in-person read rather than booking ahead on this data alone.",
         "secondary_tags": "gambero rosso; giudecca; unverified-small-sample",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJLf0sOWuxfkcRA_l0E3L3J6I"
       },
       "geometry": {
         "type": "Point",
@@ -43170,7 +43277,8 @@
         "signal": "Low",
         "description": "Giudecca, Fondamenta Sant'Eufemia 609, phone 041 724 1086. Gambero Rosso 2024 feature (\"Dove mangiare a Venezia durante la Festa del Redentore\"). Verified 2026-08-01: 3.3/5 Tripadvisor (882 reviews, #761 of 1,472 Venice) -- DECLINE SIGNAL: below-average rating with recurring complaints about undercooked meat and service; current reputation does not match the critic mention, worth reconsidering.",
         "secondary_tags": "gambero rosso; giudecca; decline-signal",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJJVDTNM2xfkcRffTSumHEyQw"
       },
       "geometry": {
         "type": "Point",
@@ -43188,7 +43296,8 @@
         "signal": "High",
         "description": "Giudecca 810, phone 041 272 3316 (inside the Hilton Molino Stucky). Hotel fine dining with an award history including Luxury Hotel Restaurant of the Year 2019. Gambero Rosso 2024 feature (\"Dove mangiare a Venezia durante la Festa del Redentore\"). Verified 2026-08-01: 4.3/5 Tripadvisor (229 reviews, #421 of 1,421 Venice) -- confirms, current rating aligns with the award pedigree.",
         "secondary_tags": "gambero rosso; giudecca; hotel; fine-dining",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJFSXAXMuxfkcRORNFEhSPe6M"
       },
       "geometry": {
         "type": "Point",
@@ -43206,7 +43315,8 @@
         "signal": "High",
         "description": "Dorsoduro/San Polo border, Calle S. Pantalon 3757, near Campo San Pantalon. Third El Sbarlefo location (distinct from the Cannaregio and other Dorsoduro spots already on the map). Personal rec 2026-08-01: order the crostino con baccala mantecato (\"the best\"), and the polpette specifically the cacio e pepe and meat ones. Tiny room, just 6 tables, usually can't reserve -- go at or before 5pm for a real shot at a table.",
         "secondary_tags": "bacaro; cicchetti; dorsoduro; san-polo",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJk24JUM-xfkcRICvjxS7qcJ4"
       },
       "geometry": {
         "type": "Point",
@@ -43224,7 +43334,8 @@
         "signal": "Medium",
         "description": "('Zattere, Dorsoduro (Fondamenta Zattere 922). Opened 1937 by Giovanni \"Nico\" Causin, still run under the original name (current owners Maurizio Mutti and Valter Rossi took over early 2000s). Signature dish: the Gianduiotto -- a slab of gianduia (hazelnut-chocolate) gelato served in a glass, drowned in whipped cream and topped with more whipped cream. Eight euro, nine with black cherries added. Terrace suspended directly over the Giudecca Canal, real historic atmosphere -- was a regular haunt of Peggy Guggenheim (her home, now the Guggenheim Collection, is ~500m away). Open 7am-9pm, also does breakfast and aperitivo. CAVEAT 2026-08-02: real decline signal in current reviews -- genuinely mixed, some call the Gianduiotto \"tastes like Nutella, super good,\" others found it \"underwhelming-bland and flavourless.\" Go for the historic charm and canal-side terrace, not a guaranteed best-bite.',)",
         "secondary_tags": "dorsoduro; zattere; gelato; historic; mixed-signal",
-        "city": "Venice"
+        "city": "Venice",
+        "google_place_id": "ChIJQ-Fqo82xfkcRuCCd4JMXUcE"
       },
       "geometry": {
         "type": "Point",
@@ -43691,7 +43802,8 @@
         "signal": "High",
         "description": "Villa Laetitia, Lungotevere delle Armi, Prati. Art Nouveau villa setting, less touristy than Colosseum-view spots. ~€240-260pp. One reviewer called it better than La Pergola.2 Michelin stars, Gambero Rosso 91/100, OAD #8 Rome/#32 Italy, glowing from Sara Porro (OAD). \"Cleanest sentiment of the whole set\" per the research pass -- zero documented mixed reviews.",
         "secondary_tags": "fine-dining; prati; splurge",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJXSxaU_BgLxMRo5GX70m-__M"
       },
       "geometry": {
         "type": "Point",
@@ -44160,7 +44272,8 @@
         "signal": "Medium",
         "description": "Via di Torre Argentina, 5 min from the Pantheon. Hidden speakeasy-style entrance (unmarked door, buzz-in, old lift), 360-degree rooftop, small terrace. Membership/private-club model, EUR15 min spend, reservation recommended for sunset.More intimate/discovery-oriented register than Cielo (scene) or Borromini (formal) -- reviews note it's cheaper than the big hotel terraces. The club-entry mechanic adds friction similar to Borromini's booking requirement, not a clean walk-up win.",
         "secondary_tags": "rooftop; sunset; centro-storico; reservation-needed",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJPfN8W3xhLxMRplwz2H_lOR8"
       },
       "geometry": {
         "type": "Point",
@@ -44630,7 +44743,8 @@
         "signal": "Medium",
         "description": "~25min from the villa.Gambero Rosso Due Forchette (fine-dining scale) — 2026 new entry. Confirmed 2026-08-03.",
         "secondary_tags": "Gambero Rosso Due Forchette; new-2026",
-        "city": "Corciano"
+        "city": "Corciano",
+        "google_place_id": "ChIJicCU_swdLBMRZZ2JwdCZv4A"
       },
       "geometry": {
         "type": "Point",
@@ -44763,7 +44877,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Colle di Val d'Elsa.Designations (2026): Michelin 2 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Michelin 2 star",
-        "city": "Colle di Val d'Elsa"
+        "city": "Colle di Val d'Elsa",
+        "google_place_id": "ChIJHRIqD-A6KhMRDnWRom_Tpgw"
       },
       "geometry": {
         "type": "Point",
@@ -44781,7 +44896,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Viareggio.Designations (2026): Michelin 2 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Michelin 2 star",
-        "city": "Viareggio"
+        "city": "Viareggio",
+        "google_place_id": "ChIJQ7S_F5Wh1RIRLqip6sWThbM"
       },
       "geometry": {
         "type": "Point",
@@ -44872,7 +44988,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Tavarnelle Val di Pesa.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Michelin 1 star",
-        "city": "Tavarnelle Val di Pesa"
+        "city": "Tavarnelle Val di Pesa",
+        "google_place_id": "ChIJTf0t3xNIKhMR-NUMU8DxgO0"
       },
       "geometry": {
         "type": "Point",
@@ -44963,7 +45080,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Chiusdino.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Michelin 1 star",
-        "city": "Chiusdino"
+        "city": "Chiusdino",
+        "google_place_id": "ChIJvXhFzhqPKRMRB8_KT8z-dMs"
       },
       "geometry": {
         "type": "Point",
@@ -45072,7 +45190,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Forte dei Marmi.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Michelin 1 star",
-        "city": "Forte dei Marmi"
+        "city": "Forte dei Marmi",
+        "google_place_id": "ChIJ0yrpnQYK1RIRbid1aE-oiWQ"
       },
       "geometry": {
         "type": "Point",
@@ -45090,7 +45209,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Fosdinovo.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Michelin 1 star",
-        "city": "Fosdinovo"
+        "city": "Fosdinovo",
+        "google_place_id": "ChIJ-62g_Lsb1RIRkz7L75Op2YA"
       },
       "geometry": {
         "type": "Point",
@@ -45199,7 +45319,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Florence.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Michelin 1 star",
-        "city": "Florence"
+        "city": "Florence",
+        "google_place_id": "ChIJeQnHJxBUKhMRX5S3veq0ZXw"
       },
       "geometry": {
         "type": "Point",
@@ -45235,7 +45356,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Viareggio.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Michelin 1 star",
-        "city": "Viareggio"
+        "city": "Viareggio",
+        "google_place_id": "ChIJzQEonPKh1RIRK-92qGp80qA"
       },
       "geometry": {
         "type": "Point",
@@ -45292,7 +45414,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Forte dei Marmi.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Michelin 1 star",
-        "city": "Forte dei Marmi"
+        "city": "Forte dei Marmi",
+        "google_place_id": "ChIJg8hnlQMK1RIReNMK1t_24MI"
       },
       "geometry": {
         "type": "Point",
@@ -45366,7 +45489,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Capannori (Marlia).Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Michelin 1 star",
-        "city": "Capannori (Marlia)"
+        "city": "Capannori (Marlia)",
+        "google_place_id": "ChIJj1hkPsOD1RIRNLtpCdQWpqM"
       },
       "geometry": {
         "type": "Point",
@@ -45384,7 +45508,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Forte dei Marmi.Designations (2026): Michelin 1 star. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Michelin 1 star",
-        "city": "Forte dei Marmi"
+        "city": "Forte dei Marmi",
+        "google_place_id": "ChIJ50jKFh0K1RIRUbWjmFgZEmk"
       },
       "geometry": {
         "type": "Point",
@@ -46097,7 +46222,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Grosseto.Designations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Slow Food Chiocciola 2026",
-        "city": "Grosseto"
+        "city": "Grosseto",
+        "google_place_id": "ChIJJY0dJwK8KRMRhYZiJ5vXv9s"
       },
       "geometry": {
         "type": "Point",
@@ -46153,7 +46279,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Montecarlo (LU).Designations (2026): Slow Food Chiocciola 2026. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Slow Food Chiocciola 2026",
-        "city": "Montecarlo (LU)"
+        "city": "Montecarlo (LU)",
+        "google_place_id": "ChIJ94Z10D1_KhMR0fwut2VbV3Y"
       },
       "geometry": {
         "type": "Point",
@@ -46209,7 +46336,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Pietrasanta (LU).Designations (2026): Slow Food Chiocciola 2026; Gambero Rosso Due Gamberi. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Slow Food Chiocciola 2026; Gambero Rosso Due Gamberi; multi-accolade",
-        "city": "Pietrasanta (LU)"
+        "city": "Pietrasanta (LU)",
+        "google_place_id": "ChIJNd4pIgCh1RIRzfs_69IoZLU"
       },
       "geometry": {
         "type": "Point",
@@ -46341,7 +46469,8 @@
         "signal": "Medium",
         "description": "Tuscany-wide credential sweep pick, town: Firenze.Designations (2026): Gambero Rosso Due Gamberi. Confirmed via official Michelin/Slow Food/Gambero Rosso list cross-reference, 2026-08-03.",
         "secondary_tags": "Gambero Rosso Due Gamberi",
-        "city": "Firenze"
+        "city": "Firenze",
+        "google_place_id": "ChIJu77Ml8OKJRMRx95ETIAS7HE"
       },
       "geometry": {
         "type": "Point",
@@ -46639,7 +46768,8 @@
         "signal": "High",
         "description": "Salita de' Crescenzi 31, 00186 -- Roman trattoria, Gargioli family since 1961, now 3rd generation. Steps from the Pantheon.\n\nSlow Food Chiocciola 2026. Also Michelin Guide-listed (unstarred). ~150m from the 9Hotel Cesari cluster.",
         "secondary_tags": "slow food chiocciola",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJcwb92FFgLxMR_nDe5ODn_ZE"
       },
       "geometry": {
         "type": "Point",
@@ -46657,7 +46787,8 @@
         "signal": "High",
         "description": "Via del Pellegrino 117, 00186 -- Roman trattoria, sister restaurant to Da Cesare al Casaletto (same ownership team, took over 2022), centro storico location near Campo de' Fiori.\n\nSlow Food Chiocciola 2026.",
         "secondary_tags": "slow food chiocciola",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJl31Ckf1hLxMRwaLNVewqkrY"
       },
       "geometry": {
         "type": "Point",
@@ -46675,7 +46806,8 @@
         "signal": "High",
         "description": "Via delle Palme 44D, Centocelle -- Modern wine-and-kitchen spot in Centocelle, outside the tourist center.\n\nSlow Food Chiocciola 2026.",
         "secondary_tags": "slow food chiocciola",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJh2zxVEViLxMR3j75V6Bns8U"
       },
       "geometry": {
         "type": "Point",
@@ -46693,7 +46825,8 @@
         "signal": "High",
         "description": "Via Giovanni Da Empoli 5, 00154, Ostiense/Garbatella -- Lazio-cuisine trattoria, Ostiense/Garbatella.\n\nDUAL: Slow Food Chiocciola 2026 + Michelin Bib Gourmand -- one of the more decorated finds in this sweep. Note: food.md flags this restaurant as closed for August ferie this trip -- verify before planning around it.",
         "secondary_tags": "slow food chiocciola; bib gourmand",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJUyZGkitgLxMR94FH5oz5cOE"
       },
       "geometry": {
         "type": "Point",
@@ -46711,7 +46844,8 @@
         "signal": "High",
         "description": "Via Domenico Panaroli 35, Centocelle -- Neighborhood osteria in Centocelle, official signage reads \"Pro Loco D. O. L.\"\n\nSlow Food Chiocciola 2026. DUAL DESIGNATION found 2026-08-04: same address (Via Domenico Panaroli 35) also carries Gambero Rosso Pizzerie d'Italia Tre Spicchi, 91pts (sourced to a ~2023-edition article, current 2026 status unconfirmed) -- if accurate, this is both a Slow Food Chiocciola trattoria AND a Tre Spicchi pizzeria.",
         "secondary_tags": "slow food chiocciola",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJb9r_HENiLxMRMtJd-XX4elQ"
       },
       "geometry": {
         "type": "Point",
@@ -46729,7 +46863,8 @@
         "signal": "High",
         "description": "Viale Europa 339, EUR (verify vs. newer Via Simone Martini 6 location) -- Bakery/pizza-al-taglio format, EUR district, chef Francesco Arnesano -- possibly opened a second location in 2025 (Via Simone Martini 6), unclear which holds the award.\n\nSlow Food Chiocciola 2026 (location TBD between the two addresses).\n\nLocation resolved 2026-08-04: Via Simone Martini 6, EUR confirmed as the Gambero Rosso Pizzerie d'Italia Tre Rotelle (al taglio) address specifically -- this also likely resolves which of the two addresses holds the separately-found Slow Food Chiocciola tag.",
         "secondary_tags": "slow food chiocciola",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJhyF2wAKLJRMRiWrcqP50mf0"
       },
       "geometry": {
         "type": "Point",
@@ -46747,7 +46882,8 @@
         "signal": "High",
         "description": "Via Gallia 28, 00183, San Giovanni -- Modern Roman trattoria, San Giovanni neighborhood.\n\nSlow Food Chiocciola 2026.",
         "secondary_tags": "slow food chiocciola",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJVVVJzOthLxMRiJTSop4rebM"
       },
       "geometry": {
         "type": "Point",
@@ -46765,7 +46901,8 @@
         "signal": "High",
         "description": "Via del Pie' di Marmo 28, 00186, Pigna/Pantheon -- Chinese restaurant, near the Pantheon.\n\nMichelin Bib Gourmand, current guide. Unusual pick for the category -- worth knowing Rome's Bib list isn't all-Italian.",
         "secondary_tags": "bib gourmand",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJWeVk6U1gLxMRUBCI12TFLiI"
       },
       "geometry": {
         "type": "Point",
@@ -46783,7 +46920,8 @@
         "signal": "High",
         "description": "Via del Monte della Farina 53, 00186, Sant'Eustachio -- Contemporary Italian, Sant'Eustachio (near Campo de' Fiori/Pantheon cluster).\n\nMichelin Bib Gourmand, current guide.",
         "secondary_tags": "bib gourmand",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJi1GplgZhLxMR80T1H_wF8rs"
       },
       "geometry": {
         "type": "Point",
@@ -46801,7 +46939,8 @@
         "signal": "High",
         "description": "Via Satrico 21, 00183, Appio-Latino/Tuscolano -- Old-school Roman trattoria, Appio-Latino, since 1968 (same founding year as Tavernaccia Da Bruno -- an interesting parallel).\n\nMichelin Bib Gourmand, current guide.",
         "secondary_tags": "bib gourmand",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJMXHYIOhhLxMRh_7nt0r5Hog"
       },
       "geometry": {
         "type": "Point",
@@ -46819,7 +46958,8 @@
         "signal": "High",
         "description": "Via Goffredo Mameli 15, 00153, Trastevere -- Lazio-cuisine osteria in Trastevere -- name signals a tripe/offal focus, same register as the coda alla vaccinara/pajata dishes already tracked for this trip.\n\nMichelin Bib Gourmand, current guide.",
         "secondary_tags": "bib gourmand",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJB-bzydRhLxMRKF53el2SJDg"
       },
       "geometry": {
         "type": "Point",
@@ -46837,7 +46977,8 @@
         "signal": "High",
         "description": "Via Cipro 106, 00136, Prati/Trionfale (near Vatican) -- Roman-cuisine restaurant near the Vatican/Prati -- walkable from NH Collection Roma Centro.\n\nMichelin Bib Gourmand, current guide.",
         "secondary_tags": "bib gourmand",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJV52QVslhLxMRwkwmm7rsX8Q"
       },
       "geometry": {
         "type": "Point",
@@ -46855,7 +46996,8 @@
         "signal": "High",
         "description": "Via Angelo Bargoni 10, Trastevere/Porta Portese.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down). STYLE FLAG 2026-08-04: explicit Neapolitan/Roman HYBRID per press (\"halfway between fluffy Neapolitan and crunchy Roman\") -- not purely Roman style.",
         "secondary_tags": "gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJ7SN8yCRgLxMR6WFn4QXnkmM"
       },
       "geometry": {
         "type": "Point",
@@ -46873,7 +47015,8 @@
         "signal": "High",
         "description": "Via Fiume delle Perle 136/138, Mostacciano.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down).",
         "secondary_tags": "gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJtwpcKX2LJRMRHI9Dz9iKAzk"
       },
       "geometry": {
         "type": "Point",
@@ -46891,7 +47034,8 @@
         "signal": "High",
         "description": "Via Genazzano 32/34, Casilino/San Paolo.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down).",
         "secondary_tags": "gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJN2m5iE1jLxMR8It_53IsAFI"
       },
       "geometry": {
         "type": "Point",
@@ -46909,7 +47053,8 @@
         "signal": "High",
         "description": "Via Federico Ozanam 30, Monteverde.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down).",
         "secondary_tags": "gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJU1VgGgNgLxMRxykaY1BwCQA"
       },
       "geometry": {
         "type": "Point",
@@ -46945,7 +47090,8 @@
         "signal": "High",
         "description": "Via Valle Corteno 31, Montesacro.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down).",
         "secondary_tags": "gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJzZp6PVZhLxMRMM48JzSONS8"
       },
       "geometry": {
         "type": "Point",
@@ -46963,7 +47109,8 @@
         "signal": "High",
         "description": "Piazza Rondanini 47, Centro Storico.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026 (sit-down). Centro Storico -- walkable from the Pantheon cluster, worth checking distance. STYLE FLAG 2026-08-04: run by Enzo Coccia, a NEAPOLITAN pizzaiolo (\"incredibly light dough\") -- despite the Tre Spicchi tier and near-hotel proximity, this is likely Neapolitan-leaning, not classic Roman tonda. Do not recommend as the Roman-style pick without independently confirming the dough style.",
         "secondary_tags": "gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJo-m5ZfphLxMRTNVbeuVw_QI"
       },
       "geometry": {
         "type": "Point",
@@ -46999,7 +47146,8 @@
         "signal": "High",
         "description": "Via Tuscolana 26, Appio/Re di Roma.\n\nGambero Rosso Pizzerie d'Italia, Tre Rotelle 2026 (al taglio).",
         "secondary_tags": "gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJGS4qdAVhLxMRWH9sDepfJUk"
       },
       "geometry": {
         "type": "Point",
@@ -47017,7 +47165,8 @@
         "signal": "High",
         "description": "Viale Aventino 46, Aventino/Piramide.\n\nGambero Rosso Pizzerie d'Italia, Tre Rotelle 2026 (al taglio).",
         "secondary_tags": "gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJm5eiseZhLxMRQCWyoJRZR2c"
       },
       "geometry": {
         "type": "Point",
@@ -47035,7 +47184,8 @@
         "signal": "High",
         "description": "Via Clelia 63/A, Appio.\n\nGambero Rosso Pizzerie d'Italia, Tre Rotelle 2026 (al taglio).",
         "secondary_tags": "gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJM1pFVwBiLxMRg9Av9Czs7fU"
       },
       "geometry": {
         "type": "Point",
@@ -47053,7 +47203,8 @@
         "signal": "High",
         "description": "Via Antonio Pacinotti 83, Ostiense/Gazometro.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi 2026 (sit-down).",
         "secondary_tags": "gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJJ12AsCdgLxMRbm3HoEtsSBE"
       },
       "geometry": {
         "type": "Point",
@@ -47089,7 +47240,8 @@
         "signal": "High",
         "description": "Via Portuense 727 f/g, Portuense.\n\nGambero Rosso Gelaterie d'Italia, Due Coni (2027 edition, lower confidence).",
         "secondary_tags": "gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJjV6O3Y5jLxMRbJf2KruCSzs"
       },
       "geometry": {
         "type": "Point",
@@ -47107,7 +47259,8 @@
         "signal": "High",
         "description": "Via Silvio Spaventa 24/26, Sallustiano/Centro.\n\nGambero Rosso Gelaterie d'Italia, Due Coni (2027 edition, lower confidence).",
         "secondary_tags": "gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJDzdqEAhhLxMRyXr0LrH7xHc"
       },
       "geometry": {
         "type": "Point",
@@ -47125,7 +47278,8 @@
         "signal": "High",
         "description": "Piazza Verdi 9/E, Parioli.\n\nGambero Rosso Bar d'Italia 2026, Tre Chicchi e Tre Tazzine -- one of only 2 Rome venues at the max tier.",
         "secondary_tags": "gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJXUaZahphLxMRahQAtvU5Vus"
       },
       "geometry": {
         "type": "Point",
@@ -47143,7 +47297,8 @@
         "signal": "High",
         "description": "Via Cesena 6, Nomentano/Africano.\n\nGambero Rosso Ristoranti d'Italia (trattoria tier), Un Gambero 2026 -- \"nessun effetto speciale, solo sostanza,\" traditional Roman.",
         "secondary_tags": "gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJI05LjuxhLxMRbsqTBmKpHms"
       },
       "geometry": {
         "type": "Point",
@@ -47161,7 +47316,8 @@
         "signal": "High",
         "description": "Via Val di Sangro 35, Nomentano/Africano.\n\nGambero Rosso Ristoranti d'Italia (trattoria tier), Un Gambero 2026 -- eclectic/contemporary, small-producer ingredients.",
         "secondary_tags": "gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJpfIFfbtnLxMResO5_5xg7H0"
       },
       "geometry": {
         "type": "Point",
@@ -47179,7 +47335,8 @@
         "signal": "High",
         "description": "Via Vicenza 18, Castro Pretorio/Termini.\n\nGambero Rosso Ristoranti d'Italia (trattoria tier), Un Gambero 2026 -- old-school Roman, family-run since the 1960s.",
         "secondary_tags": "gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJXTJjIqFhLxMRCDn-bMwPOEw"
       },
       "geometry": {
         "type": "Point",
@@ -47197,7 +47354,8 @@
         "signal": "High",
         "description": "Via San Vito 13/A, Esquilino.\n\nGambero Rosso Ristoranti d'Italia (trattoria tier), Un Gambero 2026 -- Marche regional cuisine (vincisgrassi, ciauscolo), not Roman-specific.",
         "secondary_tags": "gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJC5hnqbxhLxMRh7PX5swtzyU"
       },
       "geometry": {
         "type": "Point",
@@ -47215,7 +47373,8 @@
         "signal": "High",
         "description": "Via Genzano 139, Appio-Tuscolano/Quadraro.\n\nGambero Rosso Ristoranti d'Italia (trattoria tier), Un Gambero 2026 -- 30-year neighborhood institution, Slow Food presidi ingredients.",
         "secondary_tags": "gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJhaFWqANiLxMR6JTRnI2OsnQ"
       },
       "geometry": {
         "type": "Point",
@@ -47233,7 +47392,8 @@
         "signal": "High",
         "description": "Via Macerata 89, Pigneto.\n\nGambero Rosso Ristoranti d'Italia (trattoria tier), Un Gambero 2026 -- traditional Roman.",
         "secondary_tags": "gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJh6Wu1txhLxMR_1aUYzMVHzk"
       },
       "geometry": {
         "type": "Point",
@@ -47251,7 +47411,8 @@
         "signal": "High",
         "description": "Via Rubattino 22, Testaccio.\n\nGambero Rosso Ristoranti d'Italia (trattoria tier), Un Gambero 2026 -- modern trattoria in classic Testaccio setting, noted carbonara.",
         "secondary_tags": "gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJJzF4D7dhLxMRcH1s8_lgx7A"
       },
       "geometry": {
         "type": "Point",
@@ -47269,7 +47430,8 @@
         "signal": "High",
         "description": "Via dei Pettinari 43, Campo de' Fiori (also Piazza Sant'Eustachio, Via Giolitti locations).\n\nGambero Rosso Gelaterie d'Italia, Due Coni -- current, per the 2025 Ice Cream Guide (not just historical). Campo de' Fiori location is walkable from the 9Hotel Cesari/Pantheon cluster.",
         "secondary_tags": "gambero rosso; due coni",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJTcNBI0ZgLxMRYIorWSw1OfA"
       },
       "geometry": {
         "type": "Point",
@@ -47287,7 +47449,8 @@
         "signal": "High",
         "description": "Via Pesaro 11, 00176, Pigneto.\n\nGambero Rosso Gelaterie d'Italia, Due Coni -- confirmed via live scheda page icon (2021 snapshot, page since redirected/merged, likely still active under a new URL, worth a live check).",
         "secondary_tags": "gambero rosso; due coni",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJ8T4IVYhhLxMRTphNJ7UgfHo"
       },
       "geometry": {
         "type": "Point",
@@ -47324,7 +47487,8 @@
         "signal": "High",
         "description": "Via Tor de' Schiavi 295, 00171, Centocelle.\n\nGambero Rosso Gelaterie d'Italia, Due Coni (2020 edition; current scheda page fetched but icon not re-confirmed in that snapshot -- likely unchanged, not independently re-verified).",
         "secondary_tags": "gambero rosso; due coni",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJ6VSBFE9iLxMRxrv04u5uF9s"
       },
       "geometry": {
         "type": "Point",
@@ -47360,7 +47524,8 @@
         "signal": "Medium",
         "description": "Via Bisagno 19, 00198.\n\nGambero Rosso Gelaterie d'Italia, Due Coni. Current 2027-edition status NOT independently confirmed -- treat as a lead to verify, not a locked-in current tier.",
         "secondary_tags": "gambero rosso; due coni; historical-2020-unconfirmed-current",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJU_9HE2phLxMRrnZGCBZNljc"
       },
       "geometry": {
         "type": "Point",
@@ -47378,7 +47543,8 @@
         "signal": "Medium",
         "description": "Via dei Coronari 65/66, 00186 (near Piazza Navona).\n\nGambero Rosso Gelaterie d'Italia, Due Coni. Current 2027-edition status NOT independently confirmed -- treat as a lead to verify, not a locked-in current tier.",
         "secondary_tags": "gambero rosso; due coni; historical-2020-unconfirmed-current",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJd5qTJltgLxMRBv4VbhbC9nA"
       },
       "geometry": {
         "type": "Point",
@@ -47396,7 +47562,8 @@
         "signal": "Medium",
         "description": "Via Tiburtina 190, 00185.\n\nGambero Rosso Gelaterie d'Italia, Due Coni. Current 2027-edition status NOT independently confirmed -- treat as a lead to verify, not a locked-in current tier.",
         "secondary_tags": "gambero rosso; due coni; historical-2020-unconfirmed-current",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJrbD_mplhLxMRdoYmiTcVZT4"
       },
       "geometry": {
         "type": "Point",
@@ -47432,7 +47599,8 @@
         "signal": "Medium",
         "description": "Viale Aurelio Galleppini 13, 00127.\n\nGambero Rosso Gelaterie d'Italia, Due Coni. Current 2027-edition status NOT independently confirmed -- treat as a lead to verify, not a locked-in current tier.",
         "secondary_tags": "gambero rosso; due coni; historical-2020-unconfirmed-current",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJAQBA36j0JRMRMrcVEQkM4-w"
       },
       "geometry": {
         "type": "Point",
@@ -47468,7 +47636,8 @@
         "signal": "Medium",
         "description": "Piazzale XII Ottobre 1492, Garbatella/Ostiense.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead).",
         "secondary_tags": "gambero rosso; due spicchi",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJZWfDBNVhLxMRaKC-dP57IGE"
       },
       "geometry": {
         "type": "Point",
@@ -47486,7 +47655,8 @@
         "signal": "Medium",
         "description": "Via Monte della Farina 28, Centro Storico.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead). Walkable from 9Hotel Cesari/Pantheon cluster.",
         "secondary_tags": "gambero rosso; due spicchi",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJidqXKE9gLxMRoPu1i7w_aOs"
       },
       "geometry": {
         "type": "Point",
@@ -47504,7 +47674,8 @@
         "signal": "Medium",
         "description": "Via degli Aurunci 6, San Lorenzo.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead).",
         "secondary_tags": "gambero rosso; due spicchi",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJt6jWB5phLxMRfBSwboqiB6M"
       },
       "geometry": {
         "type": "Point",
@@ -47522,7 +47693,8 @@
         "signal": "Medium",
         "description": "Via Orvieto 6, Piazza Bologna.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead).",
         "secondary_tags": "gambero rosso; due spicchi",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJPdFkjZJhLxMRFEVDscnvfZk"
       },
       "geometry": {
         "type": "Point",
@@ -47540,7 +47712,8 @@
         "signal": "Medium",
         "description": "Piazza Augusto Imperatore 46, Centro Storico.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead). Verify still trading under this name before relying on it.",
         "secondary_tags": "gambero rosso; due spicchi",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJ5TnbTX9hLxMRV6LaEWoTGWw"
       },
       "geometry": {
         "type": "Point",
@@ -47558,7 +47731,8 @@
         "signal": "Medium",
         "description": "Via dei Due Ponti 181, Due Ponti/Flaminio Nord.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead).",
         "secondary_tags": "gambero rosso; due spicchi",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJ9R68N-BnLxMRD_Ezzrof2TA"
       },
       "geometry": {
         "type": "Point",
@@ -47576,7 +47750,8 @@
         "signal": "Medium",
         "description": "Via Calpurnio Fiamma 40, Cinecittà.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead). CONFIRMED 2026-08-04: GioMa is a rename of the same entity (same address, same wood-fired oven, described as the renovated former \"storica pizzeria Moma\") -- not a different venue, not a tier loss.",
         "secondary_tags": "gambero rosso; due spicchi",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJ53I1Yn2AhYAR_Vl1vNygfMg"
       },
       "geometry": {
         "type": "Point",
@@ -47594,7 +47769,8 @@
         "signal": "Medium",
         "description": "Viale dei Parioli 93c, Parioli.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead).",
         "secondary_tags": "gambero rosso; due spicchi",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJE70FSCBhLxMRwM-EuaYUKAI"
       },
       "geometry": {
         "type": "Point",
@@ -47630,7 +47806,8 @@
         "signal": "Medium",
         "description": "Via del Lavatore 91, Trevi.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead). Corroborated by an independent romeing.it roundup, not just the GR list -- somewhat stronger signal. Near the Trevi/Pantheon cluster.",
         "secondary_tags": "gambero rosso; due spicchi",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJ42GGxaxhLxMR_KbsMktBF4I"
       },
       "geometry": {
         "type": "Point",
@@ -47648,7 +47825,8 @@
         "signal": "Medium",
         "description": "Via San Biagio Platani 320, Tor Bella Monaca (2nd loc. Furio Camillo/EUR).\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead).",
         "secondary_tags": "gambero rosso; due spicchi",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJ-RwtSeBhLxMRGc5QSwH21zY"
       },
       "geometry": {
         "type": "Point",
@@ -47666,7 +47844,8 @@
         "signal": "Medium",
         "description": "Via Fornaci di Tor di Quinto 10, Tor di Quinto.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (tier not reconfirmed against the newest edition -- treat as a lead).",
         "secondary_tags": "gambero rosso; due spicchi",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJcSFY0mBhLxMRdyve3P_Q8W8"
       },
       "geometry": {
         "type": "Point",
@@ -47720,7 +47899,8 @@
         "signal": "High",
         "description": "Viale delle Orchidee 2, 00171, Centocelle.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- GR's own story article confirms \"won two slices\" in 2023.",
         "secondary_tags": "gambero rosso; due spicchi",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJvcLcaoxjLxMRvG2pbxXBj1Y"
       },
       "geometry": {
         "type": "Point",
@@ -47738,7 +47918,8 @@
         "signal": "High",
         "description": "Viale Pinturicchio 38, 00196, Flaminio.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- GR's own story article confirms it's in \"the latest\" guide (opened ~1yr before the article, likely current 2025/26 edition). Higher confidence than the 2020-list batch.",
         "secondary_tags": "gambero rosso; due spicchi",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJc38GKrthLxMRNjck0Opc5vQ"
       },
       "geometry": {
         "type": "Point",
@@ -47774,7 +47955,8 @@
         "signal": "High",
         "description": "Via Siria 1, Roma (Appio-Latino).\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi 2026, 91 points -- confirmed 2026 edition. STYLE FLAG 2026-08-04: explicit Neapolitan/Roman HYBRID per press (\"blend of Neapolitan and Roman\") -- not purely Roman style.",
         "secondary_tags": "gambero rosso pizza",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJc-IVJ-ZhLxMRSG9x2FKjCHg"
       },
       "geometry": {
         "type": "Point",
@@ -47792,7 +47974,8 @@
         "signal": "High",
         "description": "Via del Casale Rocchi 22, Pietralata.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- plus won the 2026 special award \"Marinara dell'Anno\" (Pizza of the Year), a real distinguishing accolade beyond the base tier.",
         "secondary_tags": "gambero rosso pizza",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJy57nQDpjLxMR_jGcJ57r3i4"
       },
       "geometry": {
         "type": "Point",
@@ -47810,7 +47993,8 @@
         "signal": "High",
         "description": "Via Benedetta 23, Trastevere (flagship; also Testaccio, Parco Appio, Tuscolano/Don Bosco, San Giovanni locations).\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi -- confirmed for the 2025 edition, 2026 continuation not independently re-confirmed. Trastevere flagship is relevant if you're back in that neighborhood.",
         "secondary_tags": "gambero rosso pizza",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJDbeKk9RhLxMRd0d80qS1e-s"
       },
       "geometry": {
         "type": "Point",
@@ -47828,7 +48012,8 @@
         "signal": "Medium",
         "description": "Via Statilio Ottato 110, Tuscolano/Don Bosco.\n\nHistorically cited as the FIRST-EVER Tre Spicchi winner in Italy (Stefano Callegari) -- no 2026-dated source confirms current tier, treat as a strong historical lead not a locked-in current designation.",
         "secondary_tags": "gambero rosso pizza",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJ7yR2WH2BhYAR38peOxAXETE"
       },
       "geometry": {
         "type": "Point",
@@ -47865,7 +48050,8 @@
         "signal": "High",
         "description": "Via Oslavia 41, Prati/Della Vittoria border, ~1.0km from NH Collection Roma Centro.\n\nGambero Rosso Pizzerie d'Italia, Due Spicchi (sit-down) -- sister restaurant to San Martino Pizza e Bolle (Ostiense, Tre Spicchi). Real find near tonight's hotel.",
         "secondary_tags": "gambero rosso pizza; near NH hotel",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJ8ZgJfXZhLxMRiXIe_r4jV8c"
       },
       "geometry": {
         "type": "Point",
@@ -47902,7 +48088,8 @@
         "signal": "High",
         "description": "Via Vittorio Veneto, Roma.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi, 93 points.",
         "secondary_tags": "gambero rosso pizza",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJraY-3hxhLxMR5x8MFMZd78g"
       },
       "geometry": {
         "type": "Point",
@@ -47920,7 +48107,8 @@
         "signal": "High",
         "description": "Via Chiana 80, 00198, Coppede/Trieste.\n\nGambero Rosso Pizzerie d'Italia, Tre Spicchi -- Diego Vitagliano is a Naples-based pizzaiolo (also #10 nationally on 50 Top Pizza), explicitly \"pizza napoletana contemporanea\" per Italian press -- NOT Roman style. Earlier Via Flaminia 521-525 location appears superseded by this Coppede address.",
         "secondary_tags": "gambero rosso pizza",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJc6eEZAlhLxMRs-APfU6GsH0"
       },
       "geometry": {
         "type": "Point",
@@ -47938,7 +48126,8 @@
         "signal": "High",
         "description": "Via del Governo Vecchio 114, near Piazza Navona.\n\nThe iconic old-school Roman pizzeria -- thin, crispy, no-frills, cracker-crust tonda romana. Been doing this since before the gourmet-pizza scene existed. Expect a line, best ~6pm before the rush.",
         "secondary_tags": "roman-style pizza; verified",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJs1VwIkVgLxMRNRizMrFlqKg"
       },
       "geometry": {
         "type": "Point",
@@ -47956,7 +48145,8 @@
         "signal": "High",
         "description": "Via degli Scipioni 248, Prati, near NH Collection Roma Centro.\n\nServing Roman-style pizza since 2001. CAVEAT: specializes in pinsa, which is oval-shaped and a modern (2001-invented) product distinct from round pizza tonda romana, despite \"ancient Roman\" marketing -- doesn't match a \"round pizza\" ask specifically, know this before going.",
         "secondary_tags": "roman-style pizza; verified",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJJ2LS6ghhLxMRmoqMN1SFIJs"
       },
       "geometry": {
         "type": "Point",
@@ -47974,7 +48164,8 @@
         "signal": "High",
         "description": "Vicolo Savelli 13, near Piazza Navona.\n\nGenuinely Roman-style pizza -- thin, crispy dough, operating at this same location since 1986. Gambero Rosso has run an editorial feature on it (not confirmed as a Spicchi-tiered rating, but real institutional coverage). Casual neighborhood spot, can be chaotic/noisy at peak times. Closed Mondays.",
         "secondary_tags": "pizza",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJkf4uDEVgLxMRmMj0xuafWsc"
       },
       "geometry": {
         "type": "Point",
@@ -47992,7 +48183,8 @@
         "signal": "High",
         "description": "Piazza della Cancelleria 92.\n\nSTYLE FLAG: marketed as Roman but crust described as \"thin in the center, delicately puffy outside\" -- that puffy-edge trait is Neapolitan, not classic Roman tonda, same pattern as Vico/Sbanco. Heavily trafficked (40min wait typical, reservations recommended). Same piazza as the Aug 4 Grappolo d'Oro dinner (Piazza della Cancelleria 80) -- literally next door if you end up there anyway.",
         "secondary_tags": "pizza",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJYzFGdq9hLxMRyy8TnLBDdQU"
       },
       "geometry": {
         "type": "Point",
@@ -48010,7 +48202,8 @@
         "signal": "Medium",
         "description": "Via del Portico d'Ottavia 21/a, the Ghetto, behind the Synagogue.\n\nCarciofi alla giudia specialist (out of season in August, skip that dish specifically), also praised for supplì, baccalà fritto, vignarola.\n\nSOURCED FROM: r/italy Reddit post by italianjob17 (self-ID'd Garbatella-born Roman local), posted 2012 -- 14 years old. Track-record note: this same source independently named Perilli, Augustarello, Da Baffetto, Dar Filettaro, and Trapizzino's original Testaccio location, all of which separately earned real critic/institutional backing elsewhere -- raises trust in the source generally. BUT this specific pick has NOT been independently re-verified as currently open/good, same caveat class as a historical (non-current-year) Gambero Rosso tier finding. Verify before relying on it.",
         "secondary_tags": "local-rec-2012-unverified-current",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJs_DwX0lgLxMR3bow2S3uWlo"
       },
       "geometry": {
         "type": "Point",
@@ -48028,7 +48221,8 @@
         "signal": "Medium",
         "description": "Largo delle Sette Chiese, Garbatella -- entrance is stairs down behind a kiosk.\n\nHidden spot, huge pasta portions, cacio e pepe and saltimbocca alla romana specifically praised.\n\nSOURCED FROM: r/italy Reddit post by italianjob17 (self-ID'd Garbatella-born Roman local), posted 2012 -- 14 years old. Track-record note: this same source independently named Perilli, Augustarello, Da Baffetto, Dar Filettaro, and Trapizzino's original Testaccio location, all of which separately earned real critic/institutional backing elsewhere -- raises trust in the source generally. BUT this specific pick has NOT been independently re-verified as currently open/good, same caveat class as a historical (non-current-year) Gambero Rosso tier finding. Verify before relying on it.",
         "secondary_tags": "local-rec-2012-unverified-current",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJ2YD-_XyKJRMRtR1maSc9vQk"
       },
       "geometry": {
         "type": "Point",
@@ -48064,7 +48258,8 @@
         "signal": "Medium",
         "description": "Piazza Santa Maria Liberatrice 44, Testaccio.\n\nAuthentic Roman-style pizza, gets very crowded for dinner.\n\nSOURCED FROM: r/italy Reddit post by italianjob17 (self-ID'd Garbatella-born Roman local), posted 2012 -- 14 years old. Track-record note: this same source independently named Perilli, Augustarello, Da Baffetto, Dar Filettaro, and Trapizzino's original Testaccio location, all of which separately earned real critic/institutional backing elsewhere -- raises trust in the source generally. BUT this specific pick has NOT been independently re-verified as currently open/good, same caveat class as a historical (non-current-year) Gambero Rosso tier finding. Verify before relying on it.",
         "secondary_tags": "local-rec-2012-unverified-current",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJLc4-tTFgLxMRUqDagd_UXqQ"
       },
       "geometry": {
         "type": "Point",
@@ -48082,7 +48277,8 @@
         "signal": "Medium",
         "description": "Viale Trastevere 52, since 1921.\n\nPizza bianca sandwiches specifically praised (\"can raise the dead\").\n\nSOURCED FROM: r/italy Reddit post by italianjob17 (self-ID'd Garbatella-born Roman local), posted 2012 -- 14 years old. Track-record note: this same source independently named Perilli, Augustarello, Da Baffetto, Dar Filettaro, and Trapizzino's original Testaccio location, all of which separately earned real critic/institutional backing elsewhere -- raises trust in the source generally. BUT this specific pick has NOT been independently re-verified as currently open/good, same caveat class as a historical (non-current-year) Gambero Rosso tier finding. Verify before relying on it.",
         "secondary_tags": "local-rec-2012-unverified-current",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJj7JXlgJgLxMRilwpe6Gj3p0"
       },
       "geometry": {
         "type": "Point",
@@ -48100,7 +48296,8 @@
         "signal": "Medium",
         "description": "Via Albalonga 7, near Re di Roma metro (Line A).\n\nWell-known Rome tiramisu specialist, 3 flavors (traditional, banana-Nutella, cream-strawberry), sold to-go or eat-in, closed Mondays, gets crowded evenings. This one is more independently well-known/still-operating as a real chain, somewhat lower staleness risk than the smaller single-location picks on this list.\n\nSOURCED FROM: r/italy Reddit post by italianjob17 (self-ID'd Garbatella-born Roman local), posted 2012 -- 14 years old. Track-record note: this same source independently named Perilli, Augustarello, Da Baffetto, Dar Filettaro, and Trapizzino's original Testaccio location, all of which separately earned real critic/institutional backing elsewhere -- raises trust in the source generally. BUT this specific pick has NOT been independently re-verified as currently open/good, same caveat class as a historical (non-current-year) Gambero Rosso tier finding. Verify before relying on it.",
         "secondary_tags": "local-rec-2012-unverified-current",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJR14NGexhLxMRP-5UpfJuhHE"
       },
       "geometry": {
         "type": "Point",
@@ -48137,7 +48334,8 @@
         "signal": "High",
         "description": "Via del Gazometro 5a, Ostiense/Gazometro.\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. Sicily-native pastry chef Chiara Caruso, tall fragrant maritozzi with generous fresh whipped cream.",
         "secondary_tags": "maritozzo; gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJ8w4sfZuKJRMRSVz9S8XwJLs"
       },
       "geometry": {
         "type": "Point",
@@ -48155,7 +48353,8 @@
         "signal": "High",
         "description": "Viale Aventino 91/93, Aventino (2nd loc. Via dei Conciatori 5).\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. Glossy maritozzi with whipped cream and powdered sugar, by Giorgia Proia.",
         "secondary_tags": "maritozzo; gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJMwnC3sxhLxMRZdh-ypZZk2Q"
       },
       "geometry": {
         "type": "Point",
@@ -48173,7 +48372,8 @@
         "signal": "High",
         "description": "Via dell'Acquedotto del Peschiera 156, Monte Mario.\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. Light, airy maritozzi generously filled with fresh cream.",
         "secondary_tags": "maritozzo; gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJpcXABv1fLxMRt4vCm0m9rrM"
       },
       "geometry": {
         "type": "Point",
@@ -48191,7 +48391,8 @@
         "signal": "High",
         "description": "Via Voghera 10, San Giovanni.\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. Cafe/bistrot, maritozzi always available Saturdays.",
         "secondary_tags": "maritozzo; gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJEzoErQthLxMRbd0MoNvM5TU"
       },
       "geometry": {
         "type": "Point",
@@ -48227,7 +48428,8 @@
         "signal": "High",
         "description": "Vicolo del Cedro 26, Trastevere.\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. Specializes in SAVORY maritozzi (amatriciana, eggplant caponata, chicken curry apple, stracciatella anchovies) -- different register from the classic sweet version.",
         "secondary_tags": "maritozzo; gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJKeQr3OGKJRMR4gYG11TNVPY"
       },
       "geometry": {
         "type": "Point",
@@ -48245,7 +48447,8 @@
         "signal": "High",
         "description": "Largo Benedetto Bompiani 8, Tor Marancia/Ardeatino.\n\nNamed in Gambero Rosso's \"best maritozzi in Rome\" ranking. Well-leavened, soft maritozzi, non-cloying fresh whipped cream.",
         "secondary_tags": "maritozzo; gambero rosso",
-        "city": "Rome"
+        "city": "Rome",
+        "google_place_id": "ChIJ545vSHKKJRMRYp0d2rTEaf4"
       },
       "geometry": {
         "type": "Point",
@@ -48985,7 +49188,8 @@
         "signal": "Medium",
         "description": "Taishanese regional Chinese specialty in Chinatown, open till 3am, known for eel claypot rice; cult favorite among regional-Chinese connoisseurs.\n\n#11 SF Chronicle Top 100 (2026).",
         "secondary_tags": "chinese; chinatown; late-night",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJCeFn9laBhYAROdjC_OcIkqc"
       },
       "geometry": {
         "type": "Point",
@@ -49269,7 +49473,8 @@
         "signal": "Medium",
         "description": "Vietnamese pho restaurant; relocated to the Financial District after a 2023 closure, reopened Feb 2025.",
         "secondary_tags": "vietnamese; pho",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJOXalZgCBhYAROtROmWyZjFQ"
       },
       "geometry": {
         "type": "Point",
@@ -49534,7 +49739,8 @@
         "signal": "Medium",
         "description": "Small hilltop park/viewpoint, Noe Valley.",
         "secondary_tags": "park; viewpoint",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJKfERrm9-j4AROcxSCHx2gE0"
       },
       "geometry": {
         "type": "Point",
@@ -49742,7 +49948,8 @@
         "signal": "Medium",
         "description": "Boba tea, Kearny St / 3rd St locations.",
         "secondary_tags": "tea; boba",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJwepe04uAhYARnU2zWIw7TzM"
       },
       "geometry": {
         "type": "Point",
@@ -49893,7 +50100,8 @@
         "signal": "High",
         "description": "Worker-owned bakery (Inner Sunset, 9th Ave) — ginger molasses cookie, and the daily pizza slice; commenters rate the bread and pizza above the pastries.\n\n~79 vouches on r/AskSF bakery threads (2026-08).",
         "secondary_tags": "bakery; pizza",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJMdUfNVyHhYAR7pvCohDZC70"
       },
       "geometry": {
         "type": "Point",
@@ -49930,7 +50138,8 @@
         "signal": "Medium",
         "description": "Neighbourhood bakery in Noe Valley — chocolate cake, morning buns, scones, pomegranate galette.\n\n~39 vouches on r/AskSF bakery threads (2026-08).",
         "secondary_tags": "bakery",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJc-2jWRJ-j4AROB7b2Bw356o"
       },
       "geometry": {
         "type": "Point",
@@ -49967,7 +50176,8 @@
         "signal": "Medium",
         "description": "Bakery, Geary St location — cardamom lattice bun, sourdough.\n\n~35 vouches on r/AskSF bakery threads (2026-08).",
         "secondary_tags": "bakery",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJgdfmyLmAhYARS6fhSFcVbcY"
       },
       "geometry": {
         "type": "Point",
@@ -50042,7 +50252,8 @@
         "signal": "Medium",
         "description": "Outer Sunset bakery at 3876 Noriega St (also an Embarcadero branch) — the cinnamon roll is the named item; breakfast sandwiches.\n\n~22 vouches on r/AskSF bakery threads (2026-08).",
         "secondary_tags": "bakery",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJ50W8Jo6BhYAR_YLlgFuVDuw"
       },
       "geometry": {
         "type": "Point",
@@ -50098,7 +50309,8 @@
         "signal": "Low",
         "description": "Richmond staple Russian bakery/cafe.\n\n~10 vouches on r/AskSF bakery threads (2026-08).",
         "secondary_tags": "bakery; russian",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJG6DZVEeHhYARN90v8rBlRsY"
       },
       "geometry": {
         "type": "Point",
@@ -50301,6 +50513,24 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Kasama Cà Phê",
+        "category": "Cafe",
+        "signal": "Medium",
+        "description": "Southeast Asian coffee (Vietnamese, Filipino, Thai, Indonesian sourcing) — started as an SF pop-up in 2018, now a storefront at 130 Stockton Ave on The Alameda, San Jose, near SAP Center; daily 8-4. Not related to Chicago's Kasama.\n\nVerified open 2026-09-04 (kasamacaphe.com; Yelp Sep 2026).",
+        "secondary_tags": "coffee; southeast-asian",
+        "city": "San Jose"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9045503,
+          37.3330182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Bernal Cutlery",
         "category": "Activities",
         "signal": "High",
@@ -50439,7 +50669,8 @@
         "signal": "Medium",
         "description": "Viewpoint on Grizzly Peak Blvd in the Berkeley hills — the wide bay panorama (both bridges, SF skyline) at sunset. Public road pull-outs; no closure to check.\n\nFrom the 'Bay with Bae' KMZ, 2026-09-03.",
         "secondary_tags": "viewpoint; sunset",
-        "city": "Berkeley"
+        "city": "Berkeley",
+        "google_place_id": "ChIJa1amcUN8hYARqkmMjNrPhmU"
       },
       "geometry": {
         "type": "Point",
@@ -50514,7 +50745,8 @@
         "signal": "Medium",
         "description": "Ferry Building counter of the Valencia St knife shop — exclusives and best sellers, plus Sarah Kersten ceramics. Pinned separately because the Ferry Building is a cluster you'd be in anyway (Acme, Humphry Slocombe, Roli Roti market days).\n\nVerified open 2026-09-03 (Ferry Building directory).",
         "secondary_tags": "shopping; kitchenware; knives",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJTc57L9WBhYAROHdZm0Wwqzs"
       },
       "geometry": {
         "type": "Point",
@@ -50532,7 +50764,8 @@
         "signal": "Medium",
         "description": "Dogpatch scoop shop at 699 22nd St (opened May 2023) — one of the two remaining after the original Mission shop closed Oct 2024. Pinned because it sits in the Dogpatch cluster (Sohn, Neighbor Bakehouse, Breadbelly Pier 70).\n\nClosure-checked 2026-08-13.",
         "secondary_tags": "ice cream",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJAzHD_2Z_j4AREydRXsrZQKI"
       },
       "geometry": {
         "type": "Point",
@@ -50550,7 +50783,8 @@
         "signal": "High",
         "description": "Second Breadbelly, at Pier 70 in Dogpatch — same kaya toast, twice-baked croissant and shrimpwich as the Clement St original, outdoor seating. Pinned for the Dogpatch cluster.\n\n~74 vouches on r/AskSF bakery threads (2026-08).",
         "secondary_tags": "bakery; asian-american",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJb6hnOwB_j4AR7L6rcbBv-I8"
       },
       "geometry": {
         "type": "Point",
@@ -50796,7 +51030,8 @@
         "signal": "Medium",
         "description": "Cash-only northern Chinese spot at 937 Taraval St (Parkside) — beef roll in a crisp scallion pancake, lamb hand-pulled noodle soup, dumplings; big portions, cheap. Closed Wed; lunch 11-3 and dinner 5-9.\n\nFrom the 'Bay with Bae' KMZ (missed on 08-13); verified open 2026-09-03 (Yelp Sep 2026).",
         "secondary_tags": "chinese; northern-chinese; noodles",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJX77nnpF9j4AR-y4znSpMuYc"
       },
       "geometry": {
         "type": "Point",
@@ -50814,7 +51049,8 @@
         "signal": "High",
         "description": "Nite Yun's Cambodian noodle-and-rice counter in the Ferry Building (opened June 2024) — Khmer fried chicken wings in rice-flour batter with lime, kuy teav noodles, rice plates; all day, unfussy, well priced. In the Ferry Building cluster with Acme, Humphry Slocombe, Bernal Cutlery and Roli Roti.\n\nSuccessor to Nyum Bai (Oakland, closed 2022; Bon Appétit best new restaurants and James Beard semifinalist 2019 travel with the chef, not the door). SF Chronicle 2024: 'some of the best food in the city'. Verified open 2026-09-03 (Ferry Building directory).",
         "secondary_tags": "cambodian; asian-american; street food",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJhb-CeQCBhYARdpp2lKxtFdw"
       },
       "geometry": {
         "type": "Point",
@@ -51327,7 +51563,8 @@
         "signal": "Medium",
         "description": "Tartine's big Mission bakery-restaurant at 595 Alabama St, in the Heath Ceramics building — bread and pastry counter and coffee bar by day, dinner Wed-Sun 5-9. The one to sit down in; the Guerrero St original is the line for a loaf.\n\nVerified open 2026-09-03 (OpenTable, Infatuation). Owner request.",
         "secondary_tags": "bakery; californian; coffee; bread",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJu9EujzB-j4ARoyuqElfT14g"
       },
       "geometry": {
         "type": "Point",
@@ -51345,7 +51582,8 @@
         "signal": "Medium",
         "description": "The Mission's walking-and-shopping stretch of Valencia St, roughly 16th to 24th — pinned once at 19th; the stops worth a detour have their own pins: Bernal Cutlery (766), Craftsman and Wolves (746), Four Barrel Coffee (375), Tartine Bakery one block over on Guerrero, Tartine Manufactory at Alabama. Long-standing fixtures along the way, not individually verified today: Paxton Gate (824), Dog Eared Books (900), 826 Valencia.\n\nArea pin, added 2026-09-03 on owner request.",
         "secondary_tags": "shopping; corridor; vintage; bookstore; mission",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJGzvVKz1-j4ARN_ZsQTRjHl0"
       },
       "geometry": {
         "type": "Point",
@@ -51363,7 +51601,8 @@
         "signal": "Medium",
         "description": "Arsicault's Mission Rock shop at 1070 Bridgeview Way, by the ballpark — same almond and kouign amann as Arguello. Pinned because it sits on the Dogpatch → China Basin walk; the Civic Center shop (87 McAllister) is not pinned. A fourth SF shop is due at 88 Spear St and a Palo Alto one in fall 2026.\n\nVerified open 2026-09-03 (Yelp Jul 2026; SF Chronicle Jan 2026).",
         "secondary_tags": "bakery; croissant",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJLcElGgB_j4ARpydn-aR1UGQ"
       },
       "geometry": {
         "type": "Point",
@@ -51381,7 +51620,8 @@
         "signal": "High",
         "description": "The 1967 worker-owned cheese shop and bakery at 1504 Shattuck Ave (North Berkeley) that seeded the whole Arizmendi network — the pizzeria next door at 1512 does one vegetarian sourdough pizza a day, by the slice or half, Tue-Sat lunch and Wed-Sat dinner, with live jazz and a line on the median. The shop is mid-expansion in 2026: cheese, deli and bakery are sold from a shipping container out front until the corner store reopens (mid-to-late 2026).\n\nVerified 2026-09-03 (Berkeleyside Jan 2026; cheeseboardcollective.coop). Yelp lists the pizzeria as temporarily closed as of Aug 2026 — check the pizza schedule page before going.",
         "secondary_tags": "pizza; bakery; cheese; worker-coop; legacy",
-        "city": "Berkeley"
+        "city": "Berkeley",
+        "google_place_id": "ChIJr5hMNKF-hYARxmkk-5t0SzE"
       },
       "geometry": {
         "type": "Point",
@@ -51399,7 +51639,8 @@
         "signal": "Medium",
         "description": "The Mission Arizmendi at 1268 Valencia St — an independent worker co-op on the Cheese Board recipes: the daily sourdough pizza, morning buns, ginger molasses cookie. On the Valencia corridor walk.\n\nVerified 2026-09-03 (arizmendi.coop family list). Six Arizmendi bakeries exist; the co-op network is why they count as one small family rather than a chain.",
         "secondary_tags": "bakery; pizza; worker-coop",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJ23T9gUB-j4ARr_BcUfXfh6M"
       },
       "geometry": {
         "type": "Point",
@@ -51417,7 +51658,8 @@
         "signal": "Low",
         "description": "Emeryville Arizmendi at 4301 San Pablo Ave — same co-op pizza and pastries, the East Bay stop near Jered's Pottery.\n\nVerified 2026-09-03 (arizmendi.coop family list).",
         "secondary_tags": "bakery; pizza; worker-coop",
-        "city": "Emeryville"
+        "city": "Emeryville",
+        "google_place_id": "ChIJ7YbfORN-hYARoy9V0MUxYy4"
       },
       "geometry": {
         "type": "Point",
@@ -51435,7 +51677,8 @@
         "signal": "Low",
         "description": "Philz Noe Valley — 4298 24th St. Mint mojito, Philharmonic; one of 13 SF stores, pinned at owner request (chain by the count rule).\n\nphilzcoffee.com/locations, 2026-09-03.",
         "secondary_tags": "coffee; chain",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJXdV9NAx-j4ARbaEXhONbYvc"
       },
       "geometry": {
         "type": "Point",
@@ -51453,7 +51696,8 @@
         "signal": "Low",
         "description": "Philz Castro — 549 Castro St. Mint mojito, Philharmonic; one of 13 SF stores, pinned at owner request (chain by the count rule).\n\nphilzcoffee.com/locations, 2026-09-03.",
         "secondary_tags": "coffee; chain",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJcfQ5MRp-j4ARn3eA9EH16OA"
       },
       "geometry": {
         "type": "Point",
@@ -51471,7 +51715,8 @@
         "signal": "Low",
         "description": "Philz Potrero — 1775 17th St. Mint mojito, Philharmonic; one of 13 SF stores, pinned at owner request (chain by the count rule).\n\nphilzcoffee.com/locations, 2026-09-03.",
         "secondary_tags": "coffee; chain",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJI0-pzMx_j4ARxwxrIHSXl6E"
       },
       "geometry": {
         "type": "Point",
@@ -51489,7 +51734,8 @@
         "signal": "Low",
         "description": "Philz Russian Hill — 2234 Polk St. Mint mojito, Philharmonic; one of 13 SF stores, pinned at owner request (chain by the count rule).\n\nphilzcoffee.com/locations, 2026-09-03.",
         "secondary_tags": "coffee; chain",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJy7X4C72BhYARe6YfRIdai3Y"
       },
       "geometry": {
         "type": "Point",
@@ -51507,7 +51753,8 @@
         "signal": "Low",
         "description": "Philz Civic Center — 399 Golden Gate Ave. Mint mojito, Philharmonic; one of 13 SF stores, pinned at owner request (chain by the count rule).\n\nphilzcoffee.com/locations, 2026-09-03.",
         "secondary_tags": "coffee; chain",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJH7w1a5qAhYARSHYy_wjbPr4"
       },
       "geometry": {
         "type": "Point",
@@ -51525,7 +51772,8 @@
         "signal": "Low",
         "description": "Philz Embarcadero — 5 Embarcadero Center. Mint mojito, Philharmonic; one of 13 SF stores, pinned at owner request (chain by the count rule).\n\nphilzcoffee.com/locations, 2026-09-03.",
         "secondary_tags": "coffee; chain",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJrXyusmaAhYARHy-30QCG2e4"
       },
       "geometry": {
         "type": "Point",
@@ -51543,7 +51791,8 @@
         "signal": "Low",
         "description": "Philz Folsom & Beale — 300 Folsom St. Mint mojito, Philharmonic; one of 13 SF stores, pinned at owner request (chain by the count rule).\n\nphilzcoffee.com/locations, 2026-09-03.",
         "secondary_tags": "coffee; chain",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJF_paIXuAhYARO8nSqGWwaLo"
       },
       "geometry": {
         "type": "Point",
@@ -51561,7 +51810,8 @@
         "signal": "Low",
         "description": "Philz Front St — 1 Front St. Mint mojito, Philharmonic; one of 13 SF stores, pinned at owner request (chain by the count rule).\n\nphilzcoffee.com/locations, 2026-09-03.",
         "secondary_tags": "coffee; chain",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJ17mcM2KAhYARFGk0jnUJMEs"
       },
       "geometry": {
         "type": "Point",
@@ -51579,7 +51829,8 @@
         "signal": "Low",
         "description": "Philz Second Street — 425 Mission St. Mint mojito, Philharmonic; one of 13 SF stores, pinned at owner request (chain by the count rule).\n\nphilzcoffee.com/locations, 2026-09-03.",
         "secondary_tags": "coffee; chain",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJuR0tbgyBhYAR3CvPhEAqfZw"
       },
       "geometry": {
         "type": "Point",
@@ -51597,7 +51848,8 @@
         "signal": "Low",
         "description": "Philz Berry — 201 Berry St. Mint mojito, Philharmonic; one of 13 SF stores, pinned at owner request (chain by the count rule).\n\nphilzcoffee.com/locations, 2026-09-03.",
         "secondary_tags": "coffee; chain",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJdQfz0dZ_j4AR0eK1uTOUYgc"
       },
       "geometry": {
         "type": "Point",
@@ -51633,7 +51885,8 @@
         "signal": "Low",
         "description": "Philz Ocean Ave — 1110 Ocean Ave. Mint mojito, Philharmonic; one of 13 SF stores, pinned at owner request (chain by the count rule).\n\nphilzcoffee.com/locations, 2026-09-03.",
         "secondary_tags": "coffee; chain",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJwcztMdN9j4AR6AhRdPvXpQo"
       },
       "geometry": {
         "type": "Point",
@@ -51651,7 +51904,8 @@
         "signal": "Low",
         "description": "El Farolito 24th St — 2950 24th St, open late (most nights past 1 AM). One of 10 Bay Area locations; 2779 Mission is the flagship. Pinned at owner request.\n\nelfarolitosf.com/locations, 2026-09-03.",
         "secondary_tags": "mexican; taqueria; chain",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJDxhR8kh-j4ARvvkvt81j1QQ"
       },
       "geometry": {
         "type": "Point",
@@ -51669,7 +51923,8 @@
         "signal": "Low",
         "description": "El Farolito Excelsior — 4817 Mission St, open late (most nights past 1 AM). One of 10 Bay Area locations; 2779 Mission is the flagship. Pinned at owner request.\n\nelfarolitosf.com/locations, 2026-09-03.",
         "secondary_tags": "mexican; taqueria; chain",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJ0SA6CIV-j4ARfTx2pRocSD4"
       },
       "geometry": {
         "type": "Point",
@@ -51687,7 +51942,8 @@
         "signal": "Low",
         "description": "El Farolito North Beach — 1230 Grant Ave, open late (most nights past 1 AM). One of 10 Bay Area locations; 2779 Mission is the flagship. Pinned at owner request.\n\nelfarolitosf.com/locations, 2026-09-03.",
         "secondary_tags": "mexican; taqueria; chain",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJiahyZU-BhYARGW66BKQO11k"
       },
       "geometry": {
         "type": "Point",
@@ -51705,7 +51961,8 @@
         "signal": "Low",
         "description": "El Farolito Oakland — 3646 International Blvd, open late (most nights past 1 AM). One of 10 Bay Area locations; 2779 Mission is the flagship. Pinned at owner request.\n\nelfarolitosf.com/locations, 2026-09-03.",
         "secondary_tags": "mexican; taqueria; chain",
-        "city": "Oakland"
+        "city": "Oakland",
+        "google_place_id": "ChIJyXpGsoqGj4ARinQscvS8dho"
       },
       "geometry": {
         "type": "Point",
@@ -51723,7 +51980,8 @@
         "signal": "Medium",
         "description": "Arsicault's Civic Center shop, ~3,000 sq ft with an open kitchen, daily 8-3. 87 McAllister St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
         "secondary_tags": "bakery; croissant",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJ90JImRKBhYARXrwUAyZIhqw"
       },
       "geometry": {
         "type": "Point",
@@ -51741,7 +51999,8 @@
         "signal": "Medium",
         "description": "Reem's worker-owned flagship and commissary in Jack London Square, opened 26 Jun 2026 — mana'eesh from the saj; the Mission SF shop is temporarily closed through ~Oct 2026. 85 Webster St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
         "secondary_tags": "palestinian; arab; bakery; worker-coop",
-        "city": "Oakland"
+        "city": "Oakland",
+        "google_place_id": "ChIJUwo9WACBj4ARQ3rMjo4beMA"
       },
       "geometry": {
         "type": "Point",
@@ -51759,7 +52018,8 @@
         "signal": "Medium",
         "description": "Bake Sum's second shop inside Alameda Marketplace, opened May 2026 — the Asian American viennoiserie plus sandwiches and cakes. 1650 Park St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
         "secondary_tags": "bakery; asian-american",
-        "city": "Alameda"
+        "city": "Alameda",
+        "google_place_id": "ChIJ6eS7OQCHj4ARL_QbhDqwXRE"
       },
       "geometry": {
         "type": "Point",
@@ -51777,7 +52037,8 @@
         "signal": "Low",
         "description": "C&W's Bayview production bakery and café, weekday hours only. 1598 Yosemite Ave.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
         "secondary_tags": "bakery",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJh9aDwBl_j4AR_54Nm-1T2Zs"
       },
       "geometry": {
         "type": "Point",
@@ -51795,7 +52056,8 @@
         "signal": "Medium",
         "description": "Cinderella's new 3,500 sq ft Mission shop at 24th and Alabama, opened 28 Aug 2026 after eight years of delays; near-identical menu to the Richmond original. 2937 24th St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
         "secondary_tags": "bakery; russian",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJN6vJFgB_j4AR293XjkRtRzs"
       },
       "geometry": {
         "type": "Point",
@@ -51813,7 +52075,8 @@
         "signal": "Low",
         "description": "Second Devil's Teeth, opened 2020 — cinnamon rolls and breakfast sandwiches. 3619 Balboa St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
         "secondary_tags": "bakery",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJIQxgbuKHhYARMxc7ZR5MUIg"
       },
       "geometry": {
         "type": "Point",
@@ -51831,7 +52094,8 @@
         "signal": "Low",
         "description": "Devil's Teeth's downtown counter in Embarcadero Center. 1 Embarcadero Center.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
         "secondary_tags": "bakery",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJ50W8Jo6BhYAR_YLlgFuVDuw"
       },
       "geometry": {
         "type": "Point",
@@ -51849,7 +52113,8 @@
         "signal": "Low",
         "description": "Jane's Fillmore St café — one of seven Jane locations (chain by count, pinned at owner request). 2123 Fillmore St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
         "secondary_tags": "bakery; cafe",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJ7ctrNsaAhYARdwAVqJAAjlQ"
       },
       "geometry": {
         "type": "Point",
@@ -51867,7 +52132,8 @@
         "signal": "Low",
         "description": "Jane on Larkin, Mon-Fri 7-4, Sat-Sun 8-4. 925 Larkin St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
         "secondary_tags": "bakery; cafe",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJPYugVJGAhYARLGnvHUwQkqs"
       },
       "geometry": {
         "type": "Point",
@@ -51885,7 +52151,8 @@
         "signal": "Low",
         "description": "Jane counter inside the Cal-Mart grocery, Presidio Heights. 3585 California St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
         "secondary_tags": "bakery; cafe",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJPVKoRDGHhYARNvctAMocRd0"
       },
       "geometry": {
         "type": "Point",
@@ -51903,7 +52170,8 @@
         "signal": "Low",
         "description": "Jane's take on the old Toy Boat Dessert Cafe on Clement — near Breadbelly and Kamei. 401 Clement St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
         "secondary_tags": "bakery; cafe; ice cream",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJ6TT_-TuHhYARYnxWYzdyHik"
       },
       "geometry": {
         "type": "Point",
@@ -51921,7 +52189,8 @@
         "signal": "Low",
         "description": "Jane's SFMOMA ground-floor café, opened Aug 2025. 151 3rd St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
         "secondary_tags": "bakery; cafe",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJuRA4BV6BhYARg84jbkAbpTM"
       },
       "geometry": {
         "type": "Point",
@@ -51939,7 +52208,8 @@
         "signal": "Low",
         "description": "Noe Valley Bakery's second shop, West Portal, since 2017. 28 West Portal Ave.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
         "secondary_tags": "bakery",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJaa96Vup9j4ARldDj3cZVJ-M"
       },
       "geometry": {
         "type": "Point",
@@ -51957,7 +52227,8 @@
         "signal": "Medium",
         "description": "Tartine's Inner Sunset hybrid bakery/Manufactory, daily 8-4 — the Golden Gate Park-side Tartine. The Berkeley Tartine (Graduate Hotel) is closed. 1226 9th Ave.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
         "secondary_tags": "bakery; bread",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJ0Q91SDiHhYARqyW_QFvhdSI"
       },
       "geometry": {
         "type": "Point",
@@ -51975,7 +52246,8 @@
         "signal": "Low",
         "description": "Plentea's Mission Bay shop. 1515 3rd St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
         "secondary_tags": "tea; boba",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJOYB5-KZ_j4ARSemrF-cBwX0"
       },
       "geometry": {
         "type": "Point",
@@ -51993,7 +52265,8 @@
         "signal": "Low",
         "description": "Plentea Berkeley, by campus. 2430 Durant Ave.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
         "secondary_tags": "tea; boba",
-        "city": "Berkeley"
+        "city": "Berkeley",
+        "google_place_id": "ChIJNVl6NS98hYAR9ZCCOrn0Y4s"
       },
       "geometry": {
         "type": "Point",
@@ -52011,7 +52284,8 @@
         "signal": "Medium",
         "description": "Emily Winston's Boichik Bagels — the New York-style bagel that critics have called the best in the country; this is the West Berkeley bagel factory and shop. 12 shops now (chain by count, pinned at owner request). 1225 6th St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
         "secondary_tags": "bagels; jewish",
-        "city": "Berkeley"
+        "city": "Berkeley",
+        "google_place_id": "ChIJLSVYoEt_hYAR1MWSSqcSq9Q"
       },
       "geometry": {
         "type": "Point",
@@ -52029,7 +52303,8 @@
         "signal": "Low",
         "description": "Boichik's original Elmwood shop (2019). 3170 College Ave.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
         "secondary_tags": "bagels; jewish",
-        "city": "Berkeley"
+        "city": "Berkeley",
+        "google_place_id": "ChIJn9T-ECV9hYARV4O5ll6y04k"
       },
       "geometry": {
         "type": "Point",
@@ -52047,7 +52322,8 @@
         "signal": "Low",
         "description": "Boichik's Sacramento St shop. 3665 Sacramento St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
         "secondary_tags": "bagels; jewish",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJ664hEwCHhYARISUlC2vqVTw"
       },
       "geometry": {
         "type": "Point",
@@ -52065,7 +52341,8 @@
         "signal": "Low",
         "description": "Boichik on Fillmore. 1946 Fillmore St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
         "secondary_tags": "bagels; jewish",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJm6lJHQCBhYAR53b-v74tjPA"
       },
       "geometry": {
         "type": "Point",
@@ -52083,7 +52360,8 @@
         "signal": "Low",
         "description": "Boichik's FiDi shop. 22 Battery St.\n\nBranch verified open 2026-09-03 (agent sweep: official sites / Yelp 2026).",
         "secondary_tags": "bagels; jewish",
-        "city": "San Francisco"
+        "city": "San Francisco",
+        "google_place_id": "ChIJHcjNJwCBhYARAtVX3VYvw-c"
       },
       "geometry": {
         "type": "Point",
