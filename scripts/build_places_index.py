@@ -335,7 +335,18 @@ def write_json_atomic(path: Path, payload: dict) -> None:
 
 
 # --- main ----------------------------------------------------------------------------------------
-def build(vault: Path, out: Path, seed: bool, public: bool) -> dict:
+MUTATION_RE = re.compile(r"\(mutation ([0-9a-f-]{8,})\)")
+
+
+def applied_mutations(recs: list[dict]) -> list[str]:
+    """Mutation ids the applier stamped into ## Log lines; the owner build drops its pending overlay for these."""
+    ids = []
+    for r in recs:
+        ids += MUTATION_RE.findall(r["sec"].get("Log", ""))
+    return sorted(set(ids))
+
+
+def build(vault: Path, out: Path, seed: bool, public: bool, provoke_leak: bool = False) -> dict:
     places, vocab = vault / "domains" / "things-to-do" / "places", vault / "domains" / "things-to-do" / "vocab"
     signals_dir = out / "signals"
     private_path, public_path, db_path = out / "private" / "private.json", out / "public.json", out / "index.db"
@@ -351,6 +362,7 @@ def build(vault: Path, out: Path, seed: bool, public: bool) -> dict:
 
     private = {"type": "FeatureCollection", "name": "discovery-map-private",
                "built_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+               "applied_mutations": applied_mutations(recs),
                "features": [f for f in (private_feature(r, signals.get(r["fm"]["id"])) for r in recs) if f]}
     report = {"records": len(recs), "private_features": len(private["features"]),
               "no_coords": sum(1 for r in recs if not r["fm"].get("locations")),
@@ -360,6 +372,10 @@ def build(vault: Path, out: Path, seed: bool, public: bool) -> dict:
         allow = load_allowlist(REPO / "public-allowlist.yml")
         pub = {"type": "FeatureCollection", "name": "discovery-map",
                "features": [f for f in (public_feature(r, allow, signals.get(r["fm"]["id"])) for r in recs) if f]}
+        if provoke_leak and pub["features"]:
+            # Step 5 drill: plant a vault deep link inside an ALLOWLISTED field. The field-set diff
+            # cannot see it (the key is legal); the egress scan must, and the build must die.
+            pub["features"][0]["properties"]["why"] = "obsidian://open?vault=executive-function&file=notes/x -- PROVOKED LEAK"
         assert_public(pub, allow)
         report["public_features"] = len(pub["features"])
 
@@ -377,8 +393,9 @@ def main():
     ap.add_argument("--out", default=str(REPO))
     ap.add_argument("--seed-signals-from-legacy", action="store_true")
     ap.add_argument("--public", action="store_true", help="also build public.json (step 5 deploys it)")
+    ap.add_argument("--provoke-leak", action="store_true", help="drill: plant a forbidden value in a public field; the build MUST abort")
     a = ap.parse_args()
-    report = build(Path(a.vault).expanduser(), Path(a.out).resolve(), a.seed_signals_from_legacy, a.public)
+    report = build(Path(a.vault).expanduser(), Path(a.out).resolve(), a.seed_signals_from_legacy, a.public, a.provoke_leak)
     print(json.dumps(report))
 
 

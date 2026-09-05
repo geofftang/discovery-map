@@ -575,3 +575,79 @@ select {
   font-size: 0.85rem;
   color: #334155;
 }
+
+/* --- owner build: the four-verb edit section ------------------------------------ */
+.details-edit {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.edit-verbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.edit-verbs button,
+.edit-note button,
+.details-pending button {
+  padding: 0.35rem 0.7rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  background: #fff;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.edit-note {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.edit-note textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font: inherit;
+  font-size: 0.85rem;
+  resize: vertical;
+}
+
+.details-pending {
+  margin: 0.5rem 0 0;
+  padding-left: 1.1rem;
+  font-size: 0.8rem;
+  color: #92400e;
+}
+
+.details-pending:empty {
+  display: none;
+}
+
+.edit-error {
+  position: fixed;
+  left: 50%;
+  bottom: 1rem;
+  transform: translateX(-50%);
+  z-index: 20;
+  max-width: min(92vw, 520px);
+  padding: 0.6rem 0.9rem;
+  border-radius: 10px;
+  background: #991b1b;
+  color: #fff;
+  font-size: 0.85rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.edit-error button {
+  margin-left: 0.5rem;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+}

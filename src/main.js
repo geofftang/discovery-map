@@ -12,6 +12,13 @@ import restaurantIcon from '@mapbox/maki/icons/restaurant.svg?raw';
 // reads ./private.json, the owner payload built by scripts/build_places_index.py.
 const DATA_URL = import.meta.env.VITE_DATA_URL || './discovery.geojson';
 const PRIVATE = import.meta.env.VITE_PRIVATE === '1';
+// Council step 7 -- the map captures, it does not author. Four verbs, local-first outbox, pending
+// overlay until the rebuilt payload lists the mutation id, device-provisioned token (owner build only).
+const EDIT_TOKEN = import.meta.env.VITE_EDIT_TOKEN || '';
+const EDITS_URL = './api/edits';
+const OUTBOX_KEY = 'discovery-map-outbox-v1';
+const STALE_MS = 14 * 24 * 3600 * 1000;
+const MAX_FLUSH_FAILURES = 3;
 // Fallback default when no one has ever set a home view (see HOME_STORAGE_KEY below).
 // Currently Venice — the active trip leg. Update as the trip moves, or just use the
 // "Set as home" button so this doesn't need a code change each time.
@@ -22,6 +29,17 @@ const BASE_STYLE = 'https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json
 // Free, no-key OpenStreetMap geocoder (CORS-enabled public instance). Lets the
 // search box find places that aren't on the map yet, not just filter the dataset.
 const PHOTON_URL = 'https://photon.komoot.io/api/';
+// The record-derived feed (public-allowlist.yml) names things kind/why/tags; the legacy CSV feed
+// named them category/description/secondary_tags. Read both so either payload renders.
+const KIND_CATEGORY = { meal: 'Meal', cafe: 'Cafe', dessert: 'Dessert', drinks: 'Drinks', activities: 'Activities' };
+function normalizeFeature(feature) {
+  const p = feature.properties || {};
+  if (!p.category && p.kind) p.category = KIND_CATEGORY[Array.isArray(p.kind) ? p.kind[0] : p.kind] || 'Activities';
+  if (p.description === undefined && p.why !== undefined) p.description = p.why;
+  if (p.secondary_tags === undefined && p.tags !== undefined) p.secondary_tags = p.tags;
+  return feature;
+}
+
 const CATEGORY_COLORS = {
   Activities: '#16a34a',
   Cafe: '#f59e0b',
@@ -52,6 +70,9 @@ const state = {
   allCategories: new Set(),
   search: '',
   showAll: false,
+  outbox: [],
+  moveTarget: null,
+  errorDismissed: false,
   geoResults: [],
   geoPending: false,
   geoController: null,
@@ -70,6 +91,16 @@ const elements = {
   detailsAdvisory: document.querySelector('#details-advisory'),
   detailsEvidenceBlock: document.querySelector('#details-evidence-block'),
   detailsEvidence: document.querySelector('#details-evidence'),
+  detailsEdit: document.querySelector('#details-edit'),
+  editHide: document.querySelector('#edit-hide'),
+  editStatus: document.querySelector('#edit-status'),
+  editMove: document.querySelector('#edit-move'),
+  editNoteText: document.querySelector('#edit-note-text'),
+  editNoteSave: document.querySelector('#edit-note-save'),
+  detailsPending: document.querySelector('#details-pending'),
+  editError: document.querySelector('#edit-error'),
+  editErrorText: document.querySelector('#edit-error-text'),
+  editErrorDismiss: document.querySelector('#edit-error-dismiss'),
   searchInput: document.querySelector('#search-input'),
   searchClear: document.querySelector('#search-clear'),
   searchResults: document.querySelector('#search-results'),
@@ -197,9 +228,112 @@ function searchableText(feature) {
   ].filter(Boolean).join(' '));
 }
 
+// --- outbox (local-first queue) -----------------------------------------------------------
+function loadOutbox() {
+  try { state.outbox = JSON.parse(localStorage.getItem(OUTBOX_KEY) || '[]'); } catch { state.outbox = []; }
+  if (!Array.isArray(state.outbox)) state.outbox = [];
+}
+function saveOutbox() {
+  try { localStorage.setItem(OUTBOX_KEY, JSON.stringify(state.outbox)); } catch { /* storage unavailable: overlay still works this session */ }
+}
+function pendingFor(placeId) {
+  return state.outbox.filter((m) => m.place_id === placeId);
+}
+function isStale(m) {
+  return Date.now() - Date.parse(m.ts) > STALE_MS;
+}
+// Drop entries the rebuilt payload has already absorbed (their id is stamped in the record's ## Log).
+function pruneOutbox(appliedIds) {
+  const applied = new Set(appliedIds || []);
+  const before = state.outbox.length;
+  state.outbox = state.outbox.filter((m) => !applied.has(m.mid));
+  if (state.outbox.length !== before) saveOutbox();
+}
+function enqueue(feature, verb, payload) {
+  const props = feature.properties || {};
+  state.outbox.push({
+    mid: crypto.randomUUID(), place_id: props.id, name: props.name, verb, payload: payload || {},
+    ts: new Date().toISOString(), attempts: 0, synced: false, last_error: null,
+  });
+  saveOutbox();
+  updateSource();
+  const fresh = state.filteredData.features.find((f) => f.properties?.id === props.id) || applyOverlay(feature);
+  openDetails(fresh);
+  flushOutbox();
+}
+// Pending edits render immediately; the overlay stays until the payload carries the mutation id.
+function applyOverlay(feature) {
+  const props = feature.properties || {};
+  const pending = props.id ? pendingFor(props.id) : [];
+  if (!pending.length) return feature;
+  const out = { ...feature, properties: { ...props, _pending: true }, geometry: { ...feature.geometry } };
+  for (const m of pending) {
+    if (m.verb === 'hide') out.properties.hidden = true;
+    else if (m.verb === 'unhide') out.properties.hidden = false;
+    else if (m.verb === 'set-status') out.properties.status = m.payload.status;
+    else if (m.verb === 'move-pin') out.geometry = { type: 'Point', coordinates: [m.payload.lon, m.payload.lat] };
+  }
+  return out;
+}
+function showEditError(text) {
+  if (state.errorDismissed) return;
+  elements.editErrorText.textContent = text;
+  elements.editError.hidden = false;
+}
+let flushing = false;
+async function flushOutbox() {
+  if (!PRIVATE || flushing) return;
+  const due = state.outbox.filter((m) => !m.synced && (!isStale(m) || m.confirmed_stale));
+  if (!due.length) return;
+  if (!EDIT_TOKEN) { showEditError('This build has no edit credential; edits stay on this phone.'); return; }
+  flushing = true;
+  try {
+    const res = await fetch(EDITS_URL, {
+      method: 'POST', credentials: 'same-origin',
+      headers: { 'Content-Type': 'application/json', 'X-Edit-Token': EDIT_TOKEN },
+      body: JSON.stringify({ mutations: due.map(({ attempts, synced, last_error, name, ...m }) => m) }),
+    });
+    if (!res.ok) throw new Error(`edit endpoint ${res.status}`);
+    const body = await res.json();
+    const accepted = new Set(body.accepted || []);
+    const rejected = new Map((body.rejected || []).map((r) => [r.mid, r.why]));
+    for (const m of state.outbox) {
+      if (accepted.has(m.mid)) { m.synced = true; m.last_error = null; }
+      else if (rejected.has(m.mid)) { m.attempts = MAX_FLUSH_FAILURES; m.last_error = `rejected: ${rejected.get(m.mid)}`; }
+    }
+  } catch (error) {
+    for (const m of due) { m.attempts += 1; m.last_error = String(error.message || error); }
+  } finally {
+    flushing = false;
+    saveOutbox();
+    const failing = state.outbox.filter((m) => !m.synced && m.attempts >= MAX_FLUSH_FAILURES);
+    if (failing.length) showEditError(`${failing.length} edit(s) could not sync: ${failing[0].last_error}. They stay queued on this phone.`);
+    if (!elements.details.hidden) renderPending(currentDetailsId());
+  }
+}
+function currentDetailsId() {
+  return elements.details.dataset.placeId || null;
+}
+function renderPending(placeId) {
+  const pending = placeId ? pendingFor(placeId) : [];
+  elements.detailsPending.replaceChildren(...pending.map((m) => {
+    const li = document.createElement('li');
+    const label = m.verb === 'append-note' ? `note: ${m.payload.text}` : m.verb === 'set-status' ? `status → ${m.payload.status}` : m.verb;
+    const stateText = m.synced ? 'synced, applies at next build' : isStale(m) && !m.confirmed_stale ? 'older than 14 days — not sent' : m.attempts ? `retrying (${m.attempts})` : 'syncing…';
+    li.textContent = `${label} · ${stateText}`;
+    if (isStale(m) && !m.synced && !m.confirmed_stale) {
+      const btn = document.createElement('button');
+      btn.type = 'button'; btn.textContent = 'Still apply';
+      btn.addEventListener('click', () => { m.confirmed_stale = true; saveOutbox(); flushOutbox(); renderPending(placeId); });
+      li.append(' ', btn);
+    }
+    return li;
+  }));
+}
+
 function filterData() {
   const search = normalize(state.search);
-  const features = state.allData.features.filter((feature) => {
+  const features = state.allData.features.map(applyOverlay).filter((feature) => {
     const props = feature.properties || {};
     const categoryMatch = !state.selectedCategories.size || state.selectedCategories.has(props.category);
     const searchMatch = !search || searchableText(feature).includes(search);
@@ -399,7 +533,21 @@ function openDetails(feature) {
   elements.detailsNotesLabel.hidden = !(take && notes);
   elements.detailsDescription.textContent = notes || (take ? '' : 'No notes yet.');
   elements.googleLink.href = googleMapsUrl(feature);
+  elements.details.dataset.placeId = props.id || '';
+
+  const editable = PRIVATE && !!props.id;
+  elements.detailsEdit.hidden = !editable;
+  if (editable) {
+    elements.editHide.textContent = props.hidden ? 'Unhide' : 'Hide';
+    elements.editStatus.textContent = props.status === 'closed' ? 'Mark open' : 'Mark closed';
+    elements.editNoteText.value = '';
+    elements.detailsEdit.dataset.feature = JSON.stringify({ type: 'Feature', properties: props, geometry: feature.geometry });
+    renderPending(props.id);
+  }
   elements.details.hidden = false;
+}
+function detailsFeature() {
+  try { return JSON.parse(elements.detailsEdit.dataset.feature || 'null'); } catch { return null; }
 }
 
 function closeDetails() {
@@ -425,7 +573,8 @@ function localMatches(query) {
   if (!state.allData) return [];
   return state.allData.features
     .filter((f) => searchableText(f).includes(query))
-    .slice(0, 5);
+    .slice(0, 5)
+    .map(applyOverlay); // search results open the same pending-aware view the map shows
 }
 
 function clearTempMarker() {
@@ -631,7 +780,8 @@ function addPlaceLayers(data) {
     paint: {
       'circle-color': categoryColorExpression(),
       'circle-radius': 11,
-      'circle-stroke-color': '#ffffff',
+      // amber ring = an edit is pending on this pin (owner build only ever sets _pending)
+      'circle-stroke-color': ['case', ['to-boolean', ['get', '_pending']], '#f59e0b', '#ffffff'],
       'circle-stroke-width': 2.5,
     },
   });
@@ -686,8 +836,22 @@ function bindMapInteractions() {
   });
 
   map.on('click', 'unclustered-point', (event) => {
+    if (state.moveTarget) return; // in move mode the tap is a location, not a selection
     const feature = event.features?.[0];
     if (feature) openDetails(feature);
+  });
+
+  // Move mode: the next tap anywhere on the map is the new location (verb: move-pin).
+  map.on('click', (event) => {
+    const target = state.moveTarget;
+    if (!target) return;
+    const { lng, lat } = event.lngLat;
+    state.moveTarget = null;
+    map.getCanvas().style.cursor = '';
+    clearStatus();
+    if (window.confirm(`Move ${target.properties?.name || 'this pin'} here?`)) {
+      enqueue(target, 'move-pin', { lat: Number(lat.toFixed(6)), lon: Number(lng.toFixed(6)) });
+    }
   });
 
   for (const layerId of ['clusters', 'unclustered-point']) {
@@ -706,6 +870,8 @@ async function loadData() {
 
   const data = await response.json();
   if (!Array.isArray(data.features)) throw new Error('GeoJSON does not contain a features array.');
+  data.features.forEach(normalizeFeature);
+  if (PRIVATE) { loadOutbox(); pruneOutbox(data.applied_mutations); }
 
   return data;
 }
@@ -722,6 +888,7 @@ map.on('load', async () => {
     bindMapInteractions();
     updateSource();
     clearStatus();
+    if (PRIVATE) flushOutbox();
   } catch (error) {
     console.error(error);
     setStatus('Could not load the discovery map data.');
@@ -803,6 +970,30 @@ elements.toolbarToggle.addEventListener('click', () => {
 elements.detailsClose.addEventListener('click', closeDetails);
 
 if (PRIVATE) {
+  elements.editHide.addEventListener('click', () => {
+    const f = detailsFeature(); if (!f) return;
+    enqueue(f, f.properties.hidden ? 'unhide' : 'hide');
+  });
+  elements.editStatus.addEventListener('click', () => {
+    const f = detailsFeature(); if (!f) return;
+    enqueue(f, 'set-status', { status: f.properties.status === 'closed' ? 'open' : 'closed' });
+  });
+  elements.editMove.addEventListener('click', () => {
+    const f = detailsFeature(); if (!f) return;
+    state.moveTarget = f;
+    closeDetails();
+    map.getCanvas().style.cursor = 'crosshair';
+    setStatus(`Tap the new location for ${f.properties.name}. Press Escape to cancel.`);
+  });
+  elements.editNoteSave.addEventListener('click', () => {
+    const f = detailsFeature(); const text = elements.editNoteText.value.trim();
+    if (!f || !text) return;
+    enqueue(f, 'append-note', { text });
+  });
+  elements.editErrorDismiss.addEventListener('click', () => {
+    elements.editError.hidden = true;
+    state.errorDismissed = true; // dismissible once per load; the pending marks stay
+  });
   elements.privateBadge.hidden = false;
   elements.showAllControl.hidden = false;
   elements.showAll.addEventListener('change', (event) => {
@@ -813,5 +1004,8 @@ if (PRIVATE) {
 }
 
 document.addEventListener('keydown', (event) => {
-  if (event.key === 'Escape') closeDetails();
+  if (event.key === 'Escape') {
+    closeDetails();
+    if (state.moveTarget) { state.moveTarget = null; map.getCanvas().style.cursor = ''; clearStatus(); }
+  }
 });

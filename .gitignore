@@ -10,3 +10,7 @@ signals/
 index.db
 index.db.tmp
 /public.json
+
+# local env (edit token, blob token) -- never committed
+*.local
+.vercel/
