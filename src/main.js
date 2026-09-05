@@ -572,7 +572,8 @@ async function loadHistory(slug) {
         if (c.field === 'record') { details.push('created'); continue; }
         details.push(`${c.field}: ${fmtVal(c.before)} → ${fmtVal(c.after)}`);
       }
-      for (const l of e.log_added || []) details.push(l);
+      // log lines carry a machine suffix and a full ISO stamp; people need neither
+      for (const l of e.log_added || []) details.push(l.replace(/\s*\(mutation [0-9a-f-]+\)$/i, '').replace(/^(\d{4}-\d{2}-\d{2})T(\d{2}:\d{2})[^\s]*/, '$1 $2'));
       if (details.length) {
         const ul = document.createElement('ul');
         for (const d of details) { const sub = document.createElement('li'); sub.textContent = d; ul.appendChild(sub); }

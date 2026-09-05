@@ -322,7 +322,7 @@ select {
   letter-spacing: 0;
 }
 
-.details button {
+.details-header button {
   width: 34px;
   height: 34px;
   border: 1px solid var(--line);
@@ -578,9 +578,9 @@ select {
 
 /* --- owner build: the four-verb edit section ------------------------------------ */
 .details-edit {
-  margin-top: 0.5rem;
-  padding-top: 0.5rem;
-  border-top: 1px solid #e2e8f0;
+  margin: 0 0 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
 }
 
 .edit-verbs {
@@ -590,27 +590,51 @@ select {
   margin-bottom: 0.5rem;
 }
 
+/* same geometry as .primary-action, outlined: secondary actions on the owner build */
 .edit-verbs button,
 .edit-note button,
 .details-pending button {
-  padding: 0.35rem 0.7rem;
-  border: 1px solid #cbd5e1;
-  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
   background: #fff;
-  font-size: 0.85rem;
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 650;
+  line-height: 1;
+  white-space: nowrap;
   cursor: pointer;
+}
+
+.edit-verbs button:hover,
+.edit-note button:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.details-pending button {
+  min-height: 28px;
+  padding: 0 10px;
+  font-size: 12px;
 }
 
 .edit-note {
   display: grid;
-  gap: 0.4rem;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+  align-items: start;
 }
 
 .edit-note textarea {
   width: 100%;
   box-sizing: border-box;
-  padding: 0.45rem 0.6rem;
-  border: 1px solid #cbd5e1;
+  min-height: 36px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
   border-radius: 8px;
   font: inherit;
   font-size: 0.85rem;
