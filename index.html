@@ -46,19 +46,6 @@
         <div id="details-meta" class="details-meta"></div>
         <p id="details-advisory" class="details-advisory" hidden></p>
         <div id="details-scroll" class="details-scroll">
-          <section id="details-edit" class="details-edit" hidden>
-            <h3 class="details-label">Edit</h3>
-            <div class="edit-verbs">
-              <button id="edit-hide" type="button">Hide</button>
-              <button id="edit-status" type="button">Mark closed</button>
-              <button id="edit-move" type="button">Move pin</button>
-            </div>
-            <div class="edit-note">
-              <textarea id="edit-note-text" rows="2" maxlength="2000" placeholder="Add a note (goes to this place's log)"></textarea>
-              <button id="edit-note-save" type="button">Save note</button>
-            </div>
-            <ul id="details-pending" class="details-pending"></ul>
-          </section>
           <section id="details-take-block" class="details-take" hidden>
             <h3 class="details-label details-label--take">My take</h3>
             <p id="details-take" class="details-take-body"></p>
@@ -74,6 +61,19 @@
           <section id="details-history-block" hidden>
             <h3 class="details-label">History</h3>
             <ul id="details-history" class="details-history"></ul>
+          </section>
+          <section id="details-edit" class="details-edit" hidden>
+            <h3 class="details-label">Edit</h3>
+            <div class="edit-verbs">
+              <button id="edit-hide" type="button">Hide</button>
+              <button id="edit-status" type="button">Mark closed</button>
+              <button id="edit-move" type="button">Move pin</button>
+            </div>
+            <div class="edit-note">
+              <textarea id="edit-note-text" rows="2" maxlength="2000" placeholder="Add a note (goes to this place's log)"></textarea>
+              <button id="edit-note-save" type="button">Save note</button>
+            </div>
+            <ul id="details-pending" class="details-pending"></ul>
           </section>
         </div>
         <a id="google-link" class="primary-action" href="#" target="_blank" rel="noopener">Open in Google Maps</a>
