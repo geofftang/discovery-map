@@ -14,3 +14,4 @@ index.db.tmp
 # local env (edit token, blob token) -- never committed
 *.local
 .vercel/
+edits-inbox-local/
