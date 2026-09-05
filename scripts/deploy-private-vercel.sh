@@ -24,6 +24,7 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 PROJECT=discovery-map-owner
 ALIAS=discovery-map.vercel.app
+EXTRA_ALIASES="discovery-map-private.vercel.app"   # earlier name; kept so old bookmarks keep working
 LOG=/tmp/discovery-map-vercel-deploy.log
 [ -f dist-private/private.json ] || { echo "no dist-private/ -- run npm run build:private first" >&2; exit 1; }
 [ -f "$HOME/Library/Application Support/com.vercel.cli/auth.json" ] || { echo "not logged in to Vercel -- run: vercel login" >&2; exit 1; }
@@ -51,4 +52,8 @@ if [ "$code" = "200" ]; then
   vercel remove "$URL" --yes >/dev/null 2>&1 || true
   exit 5
 fi
-echo "deployed and login-gated ($code anonymously): https://$ALIAS/"
+for extra in $EXTRA_ALIASES; do
+  vercel alias set "$URL" "$extra" >/dev/null 2>&1
+  [ "$(gate "https://$extra")" = "200" ] && { echo "REFUSING: https://$extra public -- removing alias" >&2; vercel alias remove "$extra" --yes >/dev/null 2>&1 || true; exit 5; }
+done
+echo "deployed and login-gated ($code anonymously): https://$ALIAS/  (also: $EXTRA_ALIASES)"
