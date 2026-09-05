@@ -2,7 +2,9 @@
 // SW, this also caches cross-origin responses (CartoCDN basemap tiles, Photon geocoder) —
 // both are CORS-enabled public endpoints with no auth/cookies, and the tiles/geocoder ARE
 // the offline value here (the app shell alone is just an empty page without them).
-const CACHE_NAME = "discovery-map-v1";
+// The build stamps this name (scripts/stamp-sw.mjs), so every deploy installs a fresh worker and
+// drops the previous cache; a byte-identical worker would never reinstall and the shell would stick.
+const CACHE_NAME = "discovery-map-__BUILD__";
 const ROOT = new URL(".", self.location.href).href;
 // The private build (dist-private/) copies this file and serves ./private.json instead.
 const APP_SHELL = [ROOT];
@@ -47,6 +49,23 @@ const NETWORK_FIRST_PATTERN = /(discovery\.geojson|private\.json)$/;
 self.addEventListener("fetch", (event) => {
   const { request } = event;
   if (request.method !== "GET") return;
+
+  // Page loads are network-first: a reload must show the current build, not the cached shell.
+  // Offline still works from the cached copy. (Before this, a new deploy needed two reloads.)
+  if (request.mode === "navigate" || request.destination === "document") {
+    event.respondWith(
+      caches.open(CACHE_NAME).then(async (cache) => {
+        try {
+          const response = await fetch(request);
+          if (response.ok) cache.put(request, response.clone());
+          return response;
+        } catch {
+          return (await cache.match(request)) || (await cache.match(ROOT)) || Response.error();
+        }
+      })
+    );
+    return;
+  }
 
   if (NETWORK_FIRST_PATTERN.test(request.url)) {
     event.respondWith(

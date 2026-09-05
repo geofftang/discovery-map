@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build": "vite build",
+    "build": "vite build && node scripts/stamp-sw.mjs dist",
     "preview": "vite preview --host 127.0.0.1",
-    "build:private": "vite build --mode private && cp docs/sw.js dist-private/sw.js && cp -R private-api/. dist-private/",
+    "build:private": "vite build --mode private && cp docs/sw.js dist-private/sw.js && cp -R private-api/. dist-private/ && node scripts/stamp-sw.mjs dist-private",
     "test": "python3 scripts/test_build_discovery_geojson.py && python3 scripts/test_build_places_index.py"
   },
   "dependencies": {
