@@ -239,6 +239,33 @@ def test_unknown_allowlist_field_blocks_build():
         t.cleanup()
 
 
+def test_history_from_git_lists_commits_and_field_changes():
+    import subprocess
+    t = Tree({"katz": record("katz")})
+    env = {"GIT_AUTHOR_NAME": "t", "GIT_AUTHOR_EMAIL": "t@x", "GIT_COMMITTER_NAME": "t", "GIT_COMMITTER_EMAIL": "t@x", "PATH": "/usr/bin:/bin:/usr/local/bin"}
+    g = lambda *a: subprocess.run(["git", *a], cwd=t.vault, check=True, capture_output=True, env=env)
+    g("init", "-q"); g("add", "."); g("commit", "-q", "-m", "import")
+    p = t.vault / "domains" / "things-to-do" / "places" / "katz.md"
+    p.write_text(p.read_text().replace("status: open", "status: closed") + "- 2026-09-05 via map: set-status -> closed (mutation abc)\n")
+    g("add", "."); g("commit", "-q", "-m", "map edit")
+    rep = t.build()
+    assert rep["history_files"] == 1
+    h = json.loads((t.out / "private" / "history" / "katz.json").read_text())
+    assert [e["subject"] for e in h["entries"]] == ["map edit", "import"]
+    assert h["entries"][0]["changed"] == [{"field": "status", "before": "open", "after": "closed"}]
+    assert h["entries"][0]["log_added"] == ["2026-09-05 via map: set-status -> closed (mutation abc)"]
+    assert h["entries"][1]["changed"][0]["after"] == "created" and h["uncommitted"] is False
+    assert "legacy_import" not in json.dumps(h)
+    t.cleanup()
+
+
+def test_history_skipped_outside_git():
+    t = Tree({"katz": record("katz")})
+    rep = t.build()
+    assert rep["history_files"] == 0 and not (t.out / "private" / "history").exists()
+    t.cleanup()
+
+
 if __name__ == "__main__":
     tests = [v for k, v in sorted(globals().items()) if k.startswith("test_") and callable(v)]
     for fn in tests:

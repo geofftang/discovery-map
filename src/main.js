@@ -92,6 +92,8 @@ const elements = {
   detailsEvidenceBlock: document.querySelector('#details-evidence-block'),
   detailsEvidence: document.querySelector('#details-evidence'),
   detailsEdit: document.querySelector('#details-edit'),
+  detailsHistoryBlock: document.querySelector('#details-history-block'),
+  detailsHistory: document.querySelector('#details-history'),
   editHide: document.querySelector('#edit-hide'),
   editStatus: document.querySelector('#edit-status'),
   editMove: document.querySelector('#edit-move'),
@@ -535,6 +537,7 @@ function openDetails(feature) {
   elements.googleLink.href = googleMapsUrl(feature);
   elements.details.dataset.placeId = props.id || '';
 
+  if (PRIVATE && props.slug) loadHistory(props.slug); else elements.detailsHistoryBlock.hidden = true;
   const editable = PRIVATE && !!props.id;
   elements.detailsEdit.hidden = !editable;
   if (editable) {
@@ -545,6 +548,54 @@ function openDetails(feature) {
     renderPending(props.id);
   }
   elements.details.hidden = false;
+}
+// Step 6: per-place git history, built nightly into ./history/<slug>.json (owner build only).
+let historyController = null;
+async function loadHistory(slug) {
+  if (historyController) historyController.abort();
+  const controller = new AbortController();
+  historyController = controller;
+  elements.detailsHistory.replaceChildren();
+  elements.detailsHistoryBlock.hidden = true;
+  try {
+    const res = await fetch(`./history/${encodeURIComponent(slug)}.json`, { signal: controller.signal });
+    if (!res.ok) return;
+    const h = await res.json();
+    if (controller.signal.aborted || !h.entries?.length) return;
+    const items = h.entries.map((e) => {
+      const li = document.createElement('li');
+      const when = document.createElement('strong');
+      when.textContent = String(e.ts || '').slice(0, 10);
+      li.append(when, ` ${e.subject || ''}`);
+      const details = [];
+      for (const c of e.changed || []) {
+        if (c.field === 'record') { details.push('created'); continue; }
+        details.push(`${c.field}: ${fmtVal(c.before)} → ${fmtVal(c.after)}`);
+      }
+      for (const l of e.log_added || []) details.push(l);
+      if (details.length) {
+        const ul = document.createElement('ul');
+        for (const d of details) { const sub = document.createElement('li'); sub.textContent = d; ul.appendChild(sub); }
+        li.appendChild(ul);
+      }
+      return li;
+    });
+    if (h.uncommitted) {
+      const li = document.createElement('li');
+      li.textContent = 'uncommitted changes on disk (not yet in history)';
+      items.unshift(li);
+    }
+    elements.detailsHistory.replaceChildren(...items);
+    elements.detailsHistoryBlock.hidden = false;
+  } catch (error) {
+    if (error.name !== 'AbortError') console.error('history', error);
+  }
+}
+function fmtVal(v) {
+  if (v === null || v === undefined) return '—';
+  if (Array.isArray(v)) return v.length ? v.join(', ') : '—';
+  if (typeof v === 'object') return JSON.stringify(v);
+  return String(v);
 }
 function detailsFeature() {
   try { return JSON.parse(elements.detailsEdit.dataset.feature || 'null'); } catch { return null; }

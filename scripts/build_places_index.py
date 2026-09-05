@@ -325,6 +325,89 @@ def build_index(recs: list[dict], signals: dict, db_path: Path) -> None:
     os.replace(tmp, db_path)
 
 
+# --- emit: per-place history (council step 6, downstream read 8) --------------------------------
+HISTORY_CAP = 20
+HISTORY_SKIP_KEYS = {"legacy_import", "import"}
+
+
+def _git(vault: Path, *args) -> str | None:
+    import subprocess
+    try:
+        return subprocess.run(["git", *args], cwd=vault, text=True, capture_output=True, check=True, timeout=300).stdout
+    except Exception:  # noqa: BLE001  (not a repo, git missing, path untracked)
+        return None
+
+
+def _field_changes(before_text: str | None, after_text: str) -> dict:
+    """Frontmatter fields that differ between two versions of a record, plus ## Log lines added."""
+    try:
+        a_fm, a_body = split_record(after_text)
+    except Exception:  # noqa: BLE001
+        return {}
+    b_fm, b_body = ({}, "")
+    if before_text:
+        try:
+            b_fm, b_body = split_record(before_text)
+        except Exception:  # noqa: BLE001
+            pass
+    changed = []
+    for k in sorted(set(a_fm) | set(b_fm)):
+        if k in HISTORY_SKIP_KEYS or a_fm.get(k) == b_fm.get(k):
+            continue
+        changed.append({"field": k, "before": b_fm.get(k), "after": a_fm.get(k)})
+    a_log = [ln for ln in sections(a_body).get("Log", "").splitlines() if ln.startswith("- ")]
+    b_log = set(ln for ln in sections(b_body).get("Log", "").splitlines() if ln.startswith("- "))
+    log_added = [ln[2:] for ln in a_log if ln not in b_log]
+    out = {}
+    if changed:
+        out["changed"] = changed
+    if log_added:
+        out["log_added"] = log_added
+    return out
+
+
+def build_history(vault: Path, places: Path, recs: list[dict], out_dir: Path) -> int:
+    """One git log pass -> commits per record; field diffs only where a record has >1 commit."""
+    rel = str(places.relative_to(vault))
+    raw = _git(vault, "log", "--format=%x1e%H%x1f%ct%x1f%an%x1f%s", "--name-only", "--", rel)
+    if raw is None:
+        return 0
+    per_file: dict[str, list[dict]] = {}
+    for chunk in raw.split("\x1e"):
+        chunk = chunk.strip("\n")
+        if not chunk:
+            continue
+        head, _, files = chunk.partition("\n")
+        sha, ts, author, subject = (head.split("\x1f") + ["", "", "", ""])[:4]
+        for f in files.splitlines():
+            f = f.strip()
+            if f.startswith(rel + "/") and f.endswith(".md"):
+                per_file.setdefault(f[len(rel) + 1:-3], []).append(
+                    {"sha": sha[:10], "ts": datetime.fromtimestamp(int(ts), timezone.utc).isoformat(timespec="seconds"), "author": author, "subject": subject})
+    # one status pass, not one per record (3,129 subprocesses cost ~3 minutes)
+    dirty = {ln[3:].strip()[len(rel) + 1:-3] for ln in (_git(vault, "status", "--short", "--", rel) or "").splitlines()
+             if ln[3:].strip().startswith(rel + "/") and ln.strip().endswith(".md")}
+    out_dir.mkdir(parents=True, exist_ok=True)
+    created = [{"field": "record", "before": None, "after": "created"}]
+    n = 0
+    for r in recs:
+        entries = per_file.get(r["slug"], [])[:HISTORY_CAP]  # git log is newest-first
+        if len(entries) > 1:
+            path = f"{rel}/{r['slug']}.md"
+            versions = [_git(vault, "show", f"{e['sha']}:{path}") for e in entries]
+            for i, e in enumerate(entries):
+                if i + 1 >= len(versions):
+                    e["changed"] = created  # oldest known version: the whole record is the change
+                elif versions[i] is not None:
+                    e.update(_field_changes(versions[i + 1], versions[i]))
+        elif entries:
+            entries[0]["changed"] = created
+        write_json_atomic(out_dir / f"{r['slug']}.json", {"slug": r["slug"], "id": r["fm"]["id"], "entries": entries,
+                                                            "uncommitted": r["slug"] in dirty})
+        n += 1
+    return n
+
+
 def write_json_atomic(path: Path, payload: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     fd, tmp = tempfile.mkstemp(dir=path.parent, prefix=path.name, suffix=".tmp")
@@ -382,6 +465,7 @@ def build(vault: Path, out: Path, seed: bool, public: bool, provoke_leak: bool =
     # all gates passed -> publish (WAP)
     build_index(recs, signals, db_path)
     write_json_atomic(private_path, private)
+    report["history_files"] = build_history(vault, places, recs, private_path.parent / "history")
     if pub is not None:
         write_json_atomic(public_path, pub)
     return report
