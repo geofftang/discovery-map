@@ -194,12 +194,17 @@ def load_allowlist(path: Path) -> dict:
 
 
 def trusted_place_id(r: dict) -> str | None:
-    """Status-gated. TRANSITIONAL RULE (until council step 8): the record does not yet carry an
-    identity-confidence field, so the legacy verification state is the only trust signal there is.
-    Mirrors build-discovery-geojson.trusted_place_id so the public surface does not change at cutover."""
-    pid = (r["fm"].get("provider_ids") or {}).get("maps")
+    """Identity-trust gate for the public surface.
+    Records written since cutover (2026-09-05) carry `provider_ids.maps_verified` (the resolved business
+    name matched the search). Imported records carry no such field; for them the legacy verification
+    state inside `legacy_import` is the only trust signal, mirroring the retired CSV builder so the
+    public surface did not change at cutover."""
+    ids = r["fm"].get("provider_ids") or {}
+    pid = ids.get("maps")
     if not pid:
         return None
+    if ids.get("maps_verified") is True:
+        return pid
     leg = r["fm"].get("legacy_import") or {}
     listing = (leg.get("Listing_Status") or "").strip()
     sanity = (leg.get("Sanity_Status") or "").strip()

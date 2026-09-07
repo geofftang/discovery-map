@@ -214,6 +214,21 @@ def test_place_id_is_status_gated():
     t.cleanup()
 
 
+def test_place_id_verified_flag_publishes_without_legacy_state():
+    """Post-cutover records have no legacy_import; provider_ids.maps_verified is the trust signal."""
+    import re as _re
+    strip = lambda txt: _re.sub(r"legacy_import:\n(?:  .*\n)+", "", txt)
+    ok = strip(record("ok")).replace("  maps: ChIJCar0f49ZwokR6ozLV-dHNTE\n", "  maps: ChIJCar0f49ZwokR6ozLV-dHNTE\n  maps_verified: true\n")
+    unv = strip(record("unv", pid="ChIJunverified"))
+    assert "legacy_import" not in ok and "legacy_import" not in unv
+    t = Tree({"ok": ok, "unv": unv})
+    t.build()
+    pub = {f["properties"]["name"]: f["properties"] for f in t.public()["features"]}
+    assert pub["Ok"]["google_place_id"] == "ChIJCar0f49ZwokR6ozLV-dHNTE"
+    assert "google_place_id" not in pub["Unv"]
+    t.cleanup()
+
+
 def test_scan_catches_planted_leaks():
     for poisoned in ({"x": "obsidian://open?vault=life"}, {"x": "/Users/geoff/vault/note.md"},
                      {"x": "reach me at geoff@example.com"}, {"nested": {"deep": ["vault=life-design"]}},
