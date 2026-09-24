@@ -738,35 +738,6 @@ select {
   100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); }
 }
 
-.recenter-pill {
-  position: fixed;
-  bottom: 82px;
-  bottom: calc(82px + env(safe-area-inset-bottom, 0px));
-  right: 18px;
-  z-index: 10;
-  background: #1e293b;
-  color: #f8fafc;
-  padding: 8px 14px;
-  border-radius: 999px;
-  font-size: 0.82rem;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.recenter-pill:hover {
-  background: #0f172a;
-  transform: translateY(-2px);
-}
-
-.recenter-pill:active {
-  transform: scale(0.96);
-}
 
 /* User location radar pulse marker */
 .user-marker {

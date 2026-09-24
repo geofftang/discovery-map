@@ -164,19 +164,7 @@ followBtn.innerHTML = `
   </svg>
 `;
 
-const recenterPill = document.createElement('div');
-recenterPill.className = 'recenter-pill';
-recenterPill.hidden = true;
-recenterPill.innerHTML = `
-  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-    <circle cx="12" cy="12" r="10"/>
-    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
-  </svg>
-  <span>Follow Me</span>
-`;
-
 document.body.appendChild(followBtn);
-document.body.appendChild(recenterPill);
 
 function startContinuousTracking() {
   if (!('geolocation' in navigator)) {
@@ -226,7 +214,6 @@ function startContinuousTracking() {
       // Smoothly follow user if follow mode is active
       if (isFollowing) {
         followBtn.classList.add('active');
-        recenterPill.hidden = true;
         map.easeTo({
           center: userCoords,
           zoom: Math.max(map.getZoom(), 16),
@@ -255,7 +242,6 @@ map.on('dragstart', () => {
   if (isFollowing && userCoords) {
     isFollowing = false;
     followBtn.classList.remove('active');
-    recenterPill.hidden = false;
   }
 });
 
@@ -272,7 +258,6 @@ followBtn.addEventListener('click', () => {
   localStorage.setItem(FOLLOW_STORAGE_KEY, isFollowing ? 'true' : 'false');
   if (isFollowing) {
     followBtn.classList.add('active');
-    recenterPill.hidden = true;
     map.easeTo({
       center: userCoords,
       zoom: Math.max(map.getZoom(), 16),
@@ -280,22 +265,6 @@ followBtn.addEventListener('click', () => {
     });
   } else {
     followBtn.classList.remove('active');
-    recenterPill.hidden = true;
-  }
-});
-
-// Tap "Follow Me" pill to re-center
-recenterPill.addEventListener('click', () => {
-  if (userCoords) {
-    isFollowing = true;
-    localStorage.setItem(FOLLOW_STORAGE_KEY, 'true');
-    followBtn.classList.add('active');
-    recenterPill.hidden = true;
-    map.easeTo({
-      center: userCoords,
-      zoom: Math.max(map.getZoom(), 16),
-      duration: 800,
-    });
   }
 });
 
