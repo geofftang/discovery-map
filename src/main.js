@@ -20,10 +20,9 @@ const OUTBOX_KEY = 'discovery-map-outbox-v1';
 const STALE_MS = 14 * 24 * 3600 * 1000;
 const MAX_FLUSH_FAILURES = 3;
 // Fallback default when no one has ever set a home view (see HOME_STORAGE_KEY below).
-// Currently Venice — the active trip leg. Update as the trip moves, or just use the
-// "Set as home" button so this doesn't need a code change each time.
-const DEFAULT_CENTER = [12.3358, 45.4342];
-const DEFAULT_ZOOM = 13;
+// Defaults to NYC (primary vault concentration).
+const DEFAULT_CENTER = [-73.985, 40.748];
+const DEFAULT_ZOOM = 12;
 const HOME_STORAGE_KEY = 'discovery-map-home-view';
 const BASE_STYLE = 'https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json';
 // Free, no-key OpenStreetMap geocoder (CORS-enabled public instance). Lets the
@@ -146,13 +145,22 @@ const map = new maplibregl.Map({
 });
 
 map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), 'top-right');
-map.addControl(
-  new maplibregl.GeolocateControl({
-    positionOptions: { enableHighAccuracy: true },
-    trackUserLocation: false,
-  }),
-  'top-right',
-);
+const geolocate = new maplibregl.GeolocateControl({
+  positionOptions: {
+    enableHighAccuracy: true,
+    timeout: 10000,
+    maximumAge: 10000, // 10s position cache for battery-friendly updates
+  },
+  trackUserLocation: true,
+  showUserLocation: true,
+  showUserHeading: true,
+});
+map.addControl(geolocate, 'top-right');
+
+// Auto-trigger location finding when map loads
+map.on('load', () => {
+  geolocate.trigger();
+});
 
 // Small custom control, styled to match the built-in nav/geolocate buttons above it.
 // Saves the current view as the load-time default (see loadHomeView/saveHomeView) —
