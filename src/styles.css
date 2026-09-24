@@ -689,3 +689,129 @@ select {
   padding-left: 1rem;
   color: #64748b;
 }
+
+/* --- Dedicated Follow Me & User Location Marker --------------------------- */
+.follow-me-btn {
+  position: fixed;
+  right: 18px;
+  bottom: 24px;
+  bottom: calc(24px + env(safe-area-inset-bottom, 0px));
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #64748b;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.follow-me-btn:hover {
+  transform: scale(1.06);
+}
+
+.follow-me-btn:active {
+  transform: scale(0.95);
+}
+
+.follow-me-btn.active {
+  color: #2563eb;
+  background: #ffffff;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3), 0 6px 24px rgba(37, 99, 235, 0.25);
+}
+
+.follow-me-btn.searching {
+  animation: follow-pulse 1.5s infinite;
+}
+
+@keyframes follow-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4); }
+  70% { box-shadow: 0 0 0 10px rgba(59, 130, 246, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); }
+}
+
+.recenter-pill {
+  position: fixed;
+  bottom: 82px;
+  bottom: calc(82px + env(safe-area-inset-bottom, 0px));
+  right: 18px;
+  z-index: 10;
+  background: #1e293b;
+  color: #f8fafc;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.recenter-pill:hover {
+  background: #0f172a;
+  transform: translateY(-2px);
+}
+
+.recenter-pill:active {
+  transform: scale(0.96);
+}
+
+/* User location radar pulse marker */
+.user-marker {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.user-marker-pulse {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(37, 99, 235, 0.2);
+  border: 1.5px solid rgba(37, 99, 235, 0.45);
+  animation: radar-pulse 2s ease-out infinite;
+}
+
+.user-marker-dot {
+  position: relative;
+  z-index: 2;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #2563eb;
+  border: 3px solid #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.user-marker-heading {
+  position: absolute;
+  top: -12px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 12px solid #2563eb;
+  transform-origin: bottom center;
+}
+
+@keyframes radar-pulse {
+  0% { transform: scale(0.5); opacity: 1; }
+  100% { transform: scale(1.6); opacity: 0; }
+}

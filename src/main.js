@@ -145,21 +145,156 @@ const map = new maplibregl.Map({
 });
 
 map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), 'top-right');
-const geolocate = new maplibregl.GeolocateControl({
-  positionOptions: {
-    enableHighAccuracy: true,
-    timeout: 10000,
-    maximumAge: 10000, // 10s position cache for battery-friendly updates
-  },
-  trackUserLocation: true,
-  showUserLocation: true,
-  showUserHeading: true,
-});
-map.addControl(geolocate, 'top-right');
 
-// Auto-trigger location finding when map loads
+// --- Continuous Auto-Follow Location Engine ---------------------------------
+let userCoords = null;
+let isFollowing = true; // Auto-follow by default
+let userMarker = null;
+let watchId = null;
+
+const followBtn = document.createElement('button');
+followBtn.type = 'button';
+followBtn.className = 'follow-me-btn active';
+followBtn.title = 'Auto-Follow Location';
+followBtn.setAttribute('aria-label', 'Auto-Follow Location');
+followBtn.innerHTML = `
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <polygon points="3 11 22 2 13 21 11 13 3 11"/>
+  </svg>
+`;
+
+const recenterPill = document.createElement('div');
+recenterPill.className = 'recenter-pill';
+recenterPill.hidden = true;
+recenterPill.innerHTML = `
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+    <circle cx="12" cy="12" r="10"/>
+    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
+  </svg>
+  <span>Follow Me</span>
+`;
+
+document.body.appendChild(followBtn);
+document.body.appendChild(recenterPill);
+
+function startContinuousTracking() {
+  if (!('geolocation' in navigator)) {
+    console.warn('Geolocation not supported');
+    return;
+  }
+
+  followBtn.classList.add('searching');
+
+  if (watchId !== null) {
+    navigator.geolocation.clearWatch(watchId);
+  }
+
+  watchId = navigator.geolocation.watchPosition(
+    (pos) => {
+      followBtn.classList.remove('searching');
+      const { longitude, latitude, heading } = pos.coords;
+      userCoords = [longitude, latitude];
+
+      // Create or update pulsating user marker
+      if (!userMarker) {
+        const markerEl = document.createElement('div');
+        markerEl.className = 'user-marker';
+        markerEl.innerHTML = `
+          <div class="user-marker-pulse"></div>
+          <div class="user-marker-dot"></div>
+          <div class="user-marker-heading" style="display: none;"></div>
+        `;
+        userMarker = new maplibregl.Marker({ element: markerEl, pitchAlignment: 'map' })
+          .setLngLat(userCoords)
+          .addTo(map);
+      } else {
+        userMarker.setLngLat(userCoords);
+      }
+
+      // Update heading indicator if available
+      const headingEl = userMarker.getElement().querySelector('.user-marker-heading');
+      if (headingEl) {
+        if (heading !== null && !isNaN(heading)) {
+          headingEl.style.display = 'block';
+          headingEl.style.transform = `rotate(${heading}deg)`;
+        } else {
+          headingEl.style.display = 'none';
+        }
+      }
+
+      // Smoothly follow user if follow mode is active
+      if (isFollowing) {
+        followBtn.classList.add('active');
+        recenterPill.hidden = true;
+        map.easeTo({
+          center: userCoords,
+          zoom: Math.max(map.getZoom(), 16),
+          duration: 1000,
+        });
+      }
+    },
+    (err) => {
+      followBtn.classList.remove('searching', 'active');
+      console.warn('Geolocation watch error:', err.code, err.message);
+      if (err.code === 1) {
+        setStatus('Location permission required. Enable in browser Settings.');
+        setTimeout(clearStatus, 6000);
+      }
+    },
+    {
+      enableHighAccuracy: true,
+      maximumAge: 2000,
+      timeout: 15000,
+    }
+  );
+}
+
+// Pause following when user touches/drags map
+map.on('dragstart', () => {
+  if (isFollowing && userCoords) {
+    isFollowing = false;
+    followBtn.classList.remove('active');
+    recenterPill.hidden = false;
+  }
+});
+
+// Toggle follow mode on button click
+followBtn.addEventListener('click', () => {
+  if (!userCoords) {
+    startContinuousTracking();
+    return;
+  }
+  isFollowing = !isFollowing;
+  if (isFollowing) {
+    followBtn.classList.add('active');
+    recenterPill.hidden = true;
+    map.easeTo({
+      center: userCoords,
+      zoom: Math.max(map.getZoom(), 16),
+      duration: 800,
+    });
+  } else {
+    followBtn.classList.remove('active');
+    recenterPill.hidden = true;
+  }
+});
+
+// Tap "Follow Me" pill to re-center
+recenterPill.addEventListener('click', () => {
+  if (userCoords) {
+    isFollowing = true;
+    followBtn.classList.add('active');
+    recenterPill.hidden = true;
+    map.easeTo({
+      center: userCoords,
+      zoom: Math.max(map.getZoom(), 16),
+      duration: 800,
+    });
+  }
+});
+
 map.on('load', () => {
-  geolocate.trigger();
+  startContinuousTracking();
 });
 
 // Small custom control, styled to match the built-in nav/geolocate buttons above it.
