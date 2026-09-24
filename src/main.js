@@ -147,14 +147,15 @@ const map = new maplibregl.Map({
 map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), 'top-right');
 
 // --- Continuous Auto-Follow Location Engine ---------------------------------
+const FOLLOW_STORAGE_KEY = 'discovery-map-auto-follow';
 let userCoords = null;
-let isFollowing = true; // Auto-follow by default
+let isFollowing = localStorage.getItem(FOLLOW_STORAGE_KEY) !== 'false'; // Always default to TRUE across visits
 let userMarker = null;
 let watchId = null;
 
 const followBtn = document.createElement('button');
 followBtn.type = 'button';
-followBtn.className = 'follow-me-btn active';
+followBtn.className = isFollowing ? 'follow-me-btn active' : 'follow-me-btn';
 followBtn.title = 'Auto-Follow Location';
 followBtn.setAttribute('aria-label', 'Auto-Follow Location');
 followBtn.innerHTML = `
@@ -261,10 +262,14 @@ map.on('dragstart', () => {
 // Toggle follow mode on button click
 followBtn.addEventListener('click', () => {
   if (!userCoords) {
+    isFollowing = true;
+    localStorage.setItem(FOLLOW_STORAGE_KEY, 'true');
+    followBtn.classList.add('active');
     startContinuousTracking();
     return;
   }
   isFollowing = !isFollowing;
+  localStorage.setItem(FOLLOW_STORAGE_KEY, isFollowing ? 'true' : 'false');
   if (isFollowing) {
     followBtn.classList.add('active');
     recenterPill.hidden = true;
@@ -283,6 +288,7 @@ followBtn.addEventListener('click', () => {
 recenterPill.addEventListener('click', () => {
   if (userCoords) {
     isFollowing = true;
+    localStorage.setItem(FOLLOW_STORAGE_KEY, 'true');
     followBtn.classList.add('active');
     recenterPill.hidden = true;
     map.easeTo({
@@ -293,9 +299,13 @@ recenterPill.addEventListener('click', () => {
   }
 });
 
-map.on('load', () => {
+// Start tracking immediately without waiting for tiles/map render
+startContinuousTracking();
+if (map.loaded()) {
   startContinuousTracking();
-});
+} else {
+  map.on('load', startContinuousTracking);
+}
 
 // Small custom control, styled to match the built-in nav/geolocate buttons above it.
 // Saves the current view as the load-time default (see loadHomeView/saveHomeView) —
