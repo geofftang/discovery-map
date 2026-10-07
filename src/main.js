@@ -8,6 +8,30 @@ import cafeIcon from '@mapbox/maki/icons/cafe.svg?raw';
 import playgroundIcon from '@mapbox/maki/icons/playground.svg?raw';
 import restaurantIcon from '@mapbox/maki/icons/restaurant.svg?raw';
 
+// Intercept and decorate fetch calls with auth vault_token if present in query or localStorage
+(function() {
+  try {
+    const params = new URLSearchParams(window.location.search);
+    const token = params.get('vault_token') || localStorage.getItem('ef_vault_token');
+    if (token) {
+      localStorage.setItem('ef_vault_token', token);
+      const origFetch = window.fetch;
+      window.fetch = function(url, opts) {
+        if (typeof url === 'string' && (url.includes('private.json') || url.includes('/api/'))) {
+          const u = new URL(url, window.location.href);
+          if (!u.searchParams.has('vault_token')) {
+            u.searchParams.set('vault_token', token);
+          }
+          url = u.href;
+        }
+        return origFetch.call(this, url, opts);
+      };
+    }
+  } catch (e) {
+    console.warn('Auth token interceptor error:', e);
+  }
+})();
+
 // Public build reads the committed GeoJSON; the private build (vite --mode private, .env.private)
 // reads ./private.json, the owner payload built by scripts/build_places_index.py.
 const DATA_URL = import.meta.env.VITE_DATA_URL || './discovery.geojson';
@@ -1065,7 +1089,15 @@ map.on('load', async () => {
     if (PRIVATE) flushOutbox();
   } catch (error) {
     console.error(error);
-    setStatus('Could not load the discovery map data.');
+    if (PRIVATE && (error.message.includes('401') || error.message.includes('Unauthorized') || !localStorage.getItem('ef_vault_token'))) {
+      setStatus('Personal Vault locked. Tap here to unlock.');
+      elements.status.style.cursor = 'pointer';
+      elements.status.onclick = () => {
+        window.location.href = `/login?next=${encodeURIComponent(window.location.pathname + window.location.search)}`;
+      };
+    } else {
+      setStatus('Could not load the discovery map data.');
+    }
   }
 });
 
