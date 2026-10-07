@@ -190,7 +190,7 @@ followBtn.innerHTML = `
 
 document.body.appendChild(followBtn);
 
-function startContinuousTracking(userInitiated = false) {
+function requestUserLocation(userInitiated = false) {
   if (!('geolocation' in navigator)) {
     if (userInitiated) {
       setStatus('Geolocation is not supported by your browser.');
@@ -201,70 +201,101 @@ function startContinuousTracking(userInitiated = false) {
 
   followBtn.classList.add('searching');
 
+  const onPositionSuccess = (pos) => {
+    followBtn.classList.remove('searching');
+    const { longitude, latitude, heading } = pos.coords;
+    const isFirstFix = !userCoords;
+    userCoords = [longitude, latitude];
+
+    // Create or update pulsating user marker
+    if (!userMarker) {
+      const markerEl = document.createElement('div');
+      markerEl.className = 'user-marker';
+      markerEl.innerHTML = `
+        <div class="user-marker-pulse"></div>
+        <div class="user-marker-dot"></div>
+        <div class="user-marker-heading" style="display: none;"></div>
+      `;
+      userMarker = new maplibregl.Marker({ element: markerEl, pitchAlignment: 'map' })
+        .setLngLat(userCoords)
+        .addTo(map);
+    } else {
+      userMarker.setLngLat(userCoords);
+    }
+
+    // Update heading indicator if available
+    const headingEl = userMarker.getElement().querySelector('.user-marker-heading');
+    if (headingEl) {
+      if (heading !== null && !isNaN(heading)) {
+        headingEl.style.display = 'block';
+        headingEl.style.transform = `rotate(${heading}deg)`;
+      } else {
+        headingEl.style.display = 'none';
+      }
+    }
+
+    // Smoothly fly to user location on first fix or when follow mode is active
+    if (isFollowing || isFirstFix || userInitiated) {
+      followBtn.classList.add('active');
+      isFollowing = true;
+      try { localStorage.setItem(FOLLOW_STORAGE_KEY, 'true'); } catch (e) {}
+      map.easeTo({
+        center: userCoords,
+        zoom: Math.max(map.getZoom(), 16),
+        duration: 1000,
+      });
+    }
+  };
+
+  const onPositionError = (err) => {
+    console.warn('Geolocation error:', err.code, err.message);
+    // If high accuracy times out (code 3), retry immediately with low accuracy
+    if (err.code === 3) {
+      navigator.geolocation.getCurrentPosition(
+        onPositionSuccess,
+        (fallbackErr) => {
+          followBtn.classList.remove('searching', 'active');
+          if (userInitiated) {
+            setStatus('Location request timed out. Please try again.');
+            setTimeout(clearStatus, 4000);
+          }
+        },
+        { enableHighAccuracy: false, timeout: 8000, maximumAge: 60000 }
+      );
+      return;
+    }
+
+    followBtn.classList.remove('searching', 'active');
+    if (err.code === 1) {
+      isFollowing = false;
+      try { localStorage.setItem(FOLLOW_STORAGE_KEY, 'false'); } catch (e) {}
+      if (userInitiated) {
+        setStatus('Location permission required. Enable in browser Settings.');
+        setTimeout(clearStatus, 6000);
+      }
+    } else if (userInitiated) {
+      setStatus('Unable to acquire current location.');
+      setTimeout(clearStatus, 4000);
+    }
+  };
+
+  // 1. Immediately request initial fix via getCurrentPosition (fires browser prompt instantly)
+  navigator.geolocation.getCurrentPosition(
+    onPositionSuccess,
+    onPositionError,
+    { enableHighAccuracy: true, timeout: 8000, maximumAge: 5000 }
+  );
+
+  // 2. Start continuous watch for position updates
   if (watchId !== null) {
     navigator.geolocation.clearWatch(watchId);
   }
-
   watchId = navigator.geolocation.watchPosition(
-    (pos) => {
-      followBtn.classList.remove('searching');
-      const { longitude, latitude, heading } = pos.coords;
-      userCoords = [longitude, latitude];
-
-      // Create or update pulsating user marker
-      if (!userMarker) {
-        const markerEl = document.createElement('div');
-        markerEl.className = 'user-marker';
-        markerEl.innerHTML = `
-          <div class="user-marker-pulse"></div>
-          <div class="user-marker-dot"></div>
-          <div class="user-marker-heading" style="display: none;"></div>
-        `;
-        userMarker = new maplibregl.Marker({ element: markerEl, pitchAlignment: 'map' })
-          .setLngLat(userCoords)
-          .addTo(map);
-      } else {
-        userMarker.setLngLat(userCoords);
-      }
-
-      // Update heading indicator if available
-      const headingEl = userMarker.getElement().querySelector('.user-marker-heading');
-      if (headingEl) {
-        if (heading !== null && !isNaN(heading)) {
-          headingEl.style.display = 'block';
-          headingEl.style.transform = `rotate(${heading}deg)`;
-        } else {
-          headingEl.style.display = 'none';
-        }
-      }
-
-      // Smoothly follow user if follow mode is active
-      if (isFollowing) {
-        followBtn.classList.add('active');
-        map.easeTo({
-          center: userCoords,
-          zoom: Math.max(map.getZoom(), 16),
-          duration: 1000,
-        });
-      }
+    onPositionSuccess,
+    (watchErr) => {
+      console.warn('Geolocation watch error:', watchErr.code);
     },
-    (err) => {
-      followBtn.classList.remove('searching', 'active');
-      console.warn('Geolocation watch error:', err.code, err.message);
-      if (err.code === 1) {
-        isFollowing = false;
-        try { localStorage.setItem(FOLLOW_STORAGE_KEY, 'false'); } catch (e) {}
-        if (userInitiated) {
-          setStatus('Location permission required. Enable in browser Settings.');
-          setTimeout(clearStatus, 6000);
-        }
-      }
-    },
-    {
-      enableHighAccuracy: true,
-      maximumAge: 2000,
-      timeout: 15000,
-    }
+    { enableHighAccuracy: true, timeout: 15000, maximumAge: 5000 }
   );
 }
 
@@ -282,7 +313,7 @@ followBtn.addEventListener('click', () => {
     isFollowing = true;
     try { localStorage.setItem(FOLLOW_STORAGE_KEY, 'true'); } catch (e) {}
     followBtn.classList.add('active');
-    startContinuousTracking(true);
+    requestUserLocation(true);
     return;
   }
   isFollowing = !isFollowing;
@@ -299,19 +330,9 @@ followBtn.addEventListener('click', () => {
   }
 });
 
-// Smoothly probe location on startup only if permissions are already granted or user had following active
-if ('permissions' in navigator) {
-  navigator.permissions.query({ name: 'geolocation' }).then((status) => {
-    if (status.state === 'granted') {
-      startContinuousTracking(false);
-    } else if (status.state === 'prompt' && isFollowing) {
-      startContinuousTracking(false);
-    }
-  }).catch(() => {
-    if (isFollowing) startContinuousTracking(false);
-  });
-} else if (isFollowing) {
-  startContinuousTracking(false);
+// Auto-prompt location on page load over secure HTTPS
+if ('geolocation' in navigator) {
+  requestUserLocation(false);
 }
 
 // Small custom control, styled to match the built-in nav/geolocate buttons above it.
@@ -323,15 +344,23 @@ class SetHomeControl {
     this._container.className = 'maplibregl-ctrl maplibregl-ctrl-group';
     this._button = document.createElement('button');
     this._button.type = 'button';
-    this._button.title = 'Set current view as the default on load';
-    this._button.setAttribute('aria-label', 'Set current view as the default on load');
-    this._button.textContent = '📍';
+    this._button.title = 'Save this view as default home view';
+    this._button.setAttribute('aria-label', 'Save this view as default home view');
+    this._button.innerHTML = `
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;">
+        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+        <polyline points="9 22 9 12 15 12 15 22"/>
+      </svg>
+    `;
     this._button.addEventListener('click', () => {
       saveHomeView();
-      this._button.textContent = '✓';
+      const origHtml = this._button.innerHTML;
+      this._button.innerHTML = '<span style="color:#0f766e;font-weight:bold;font-size:16px;">✓</span>';
+      setStatus('Default home view saved.');
       setTimeout(() => {
-        this._button.textContent = '📍';
-      }, 1200);
+        this._button.innerHTML = origHtml;
+        clearStatus();
+      }, 1500);
     });
     this._container.appendChild(this._button);
     return this._container;

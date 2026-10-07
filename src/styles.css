@@ -474,12 +474,14 @@ select {
 .maplibregl-ctrl-top-right {
   top: 14px;
   right: 14px;
+  z-index: 4;
 }
 
 @media (max-width: 760px) {
   .toolbar {
-    right: 14px;
+    right: 64px;
     width: auto;
+    max-width: calc(100vw - 78px);
     grid-template-columns: 1fr;
     gap: 10px;
   }
@@ -514,7 +516,9 @@ select {
   }
 
   .maplibregl-ctrl-top-right {
-    top: 158px;
+    top: 14px;
+    right: 14px;
+    z-index: 4;
   }
 }
 
@@ -740,14 +744,15 @@ select {
 
 
 /* User location radar pulse marker */
+.maplibregl-marker.user-marker,
 .user-marker {
-  position: relative;
   width: 24px;
   height: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
   pointer-events: none;
+  z-index: 50 !important;
 }
 
 .user-marker-pulse {
