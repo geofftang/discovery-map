@@ -173,7 +173,7 @@ map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), 'top-
 // --- Continuous Auto-Follow Location Engine ---------------------------------
 const FOLLOW_STORAGE_KEY = 'discovery-map-auto-follow';
 let userCoords = null;
-let isFollowing = localStorage.getItem(FOLLOW_STORAGE_KEY) !== 'false'; // Always default to TRUE across visits
+let isFollowing = localStorage.getItem(FOLLOW_STORAGE_KEY) === 'true'; // Only follow if user previously explicitly turned it on
 let userMarker = null;
 let watchId = null;
 
@@ -190,9 +190,12 @@ followBtn.innerHTML = `
 
 document.body.appendChild(followBtn);
 
-function startContinuousTracking() {
+function startContinuousTracking(userInitiated = false) {
   if (!('geolocation' in navigator)) {
-    console.warn('Geolocation not supported');
+    if (userInitiated) {
+      setStatus('Geolocation is not supported by your browser.');
+      setTimeout(clearStatus, 4000);
+    }
     return;
   }
 
@@ -249,8 +252,12 @@ function startContinuousTracking() {
       followBtn.classList.remove('searching', 'active');
       console.warn('Geolocation watch error:', err.code, err.message);
       if (err.code === 1) {
-        setStatus('Location permission required. Enable in browser Settings.');
-        setTimeout(clearStatus, 6000);
+        isFollowing = false;
+        try { localStorage.setItem(FOLLOW_STORAGE_KEY, 'false'); } catch (e) {}
+        if (userInitiated) {
+          setStatus('Location permission required. Enable in browser Settings.');
+          setTimeout(clearStatus, 6000);
+        }
       }
     },
     {
@@ -273,13 +280,13 @@ map.on('dragstart', () => {
 followBtn.addEventListener('click', () => {
   if (!userCoords) {
     isFollowing = true;
-    localStorage.setItem(FOLLOW_STORAGE_KEY, 'true');
+    try { localStorage.setItem(FOLLOW_STORAGE_KEY, 'true'); } catch (e) {}
     followBtn.classList.add('active');
-    startContinuousTracking();
+    startContinuousTracking(true);
     return;
   }
   isFollowing = !isFollowing;
-  localStorage.setItem(FOLLOW_STORAGE_KEY, isFollowing ? 'true' : 'false');
+  try { localStorage.setItem(FOLLOW_STORAGE_KEY, isFollowing ? 'true' : 'false'); } catch (e) {}
   if (isFollowing) {
     followBtn.classList.add('active');
     map.easeTo({
@@ -292,12 +299,19 @@ followBtn.addEventListener('click', () => {
   }
 });
 
-// Start tracking immediately without waiting for tiles/map render
-startContinuousTracking();
-if (map.loaded()) {
-  startContinuousTracking();
-} else {
-  map.on('load', startContinuousTracking);
+// Smoothly probe location on startup only if permissions are already granted or user had following active
+if ('permissions' in navigator) {
+  navigator.permissions.query({ name: 'geolocation' }).then((status) => {
+    if (status.state === 'granted') {
+      startContinuousTracking(false);
+    } else if (status.state === 'prompt' && isFollowing) {
+      startContinuousTracking(false);
+    }
+  }).catch(() => {
+    if (isFollowing) startContinuousTracking(false);
+  });
+} else if (isFollowing) {
+  startContinuousTracking(false);
 }
 
 // Small custom control, styled to match the built-in nav/geolocate buttons above it.
@@ -1063,8 +1077,22 @@ function bindMapInteractions() {
 }
 
 async function loadData() {
-  const response = await fetch(DATA_URL);
-  if (!response.ok) throw new Error(`Failed to load ${DATA_URL}: ${response.status}`);
+  const token = new URLSearchParams(window.location.search).get('vault_token') || localStorage.getItem('ef_vault_token');
+  let url = DATA_URL;
+  if (PRIVATE && token && (url.includes('private.json') || url.includes('/api/'))) {
+    const u = new URL(url, window.location.href);
+    if (!u.searchParams.has('vault_token')) {
+      u.searchParams.set('vault_token', token);
+    }
+    url = u.href;
+  }
+  const response = await fetch(url);
+  if (!response.ok) {
+    if (response.status === 401) {
+      throw new Error('401 Unauthorized: Vault locked');
+    }
+    throw new Error(`Failed to load ${DATA_URL}: ${response.status}`);
+  }
 
   const data = await response.json();
   if (!Array.isArray(data.features)) throw new Error('GeoJSON does not contain a features array.');
