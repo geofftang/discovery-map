@@ -20,12 +20,15 @@ npm run build:private
 echo "Syncing dist-private/ to map.efsystem.uk ($TARGET_HOST:$REMOTE_DIR)..."
 rsync -avz --delete -e "ssh -i $SSH_KEY" dist-private/ "$TARGET_HOST:$REMOTE_DIR"
 
+echo "Syncing dist-private/ to efsystem.uk/map ($TARGET_HOST:/home/ubuntu/homepage/map/)..."
+rsync -avz --delete -e "ssh -i $SSH_KEY" dist-private/ "$TARGET_HOST:/home/ubuntu/homepage/map/"
+
 echo "Verifying remote endpoint..."
-STATUS=$(ssh -i "$SSH_KEY" -o BatchMode=yes "$TARGET_HOST" "curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:8082/")
+STATUS=$(ssh -i "$SSH_KEY" -o BatchMode=yes "$TARGET_HOST" "sudo systemctl restart efsystem-homepage.service && curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:8082/")
 if [ "$STATUS" != "200" ]; then
   echo "WARNING: Local probe returned HTTP $STATUS" >&2
 else
   echo "Verified: internal service returned HTTP 200 on port 8082"
 fi
 
-echo "Deployed successfully to: https://map.efsystem.uk/"
+echo "Deployed successfully to: https://map.efsystem.uk/ and https://efsystem.uk/map"
