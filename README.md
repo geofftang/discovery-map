@@ -11,8 +11,9 @@ An interactive map of 2,300+ curated places — restaurants, cafés, bakeries, b
 - Thousands of places rendered as clustered **GL layers** (not DOM markers) — stays smooth fully zoomed out.
 - Category filter, with a distinct color + icon per category.
 - Search your places **and anywhere** — a free OpenStreetMap geocoder finds places not on the map yet and flies you there.
-- Detail panel with your notes/tags + one-click **Open in Google Maps**.
-- Locate-me button.
+- Detail panel with curated notes, tags, top directions link + **Open in Google Maps**.
+- **Street-level navigation:** steady North-up map perspective with a smooth directional flashlight beam, real-time walking distance & ETAs, and ambient operating hours with closing-soon badges.
+- **Private Cockpit & Actions (Owner build):** 1-tap `[ Log visit ]` with smart structured note cleanup, `[ Hide pin ]`, `[ Mark closed ]`, and agent prompts synced back to vault Markdown records.
 
 ## How it works
 
@@ -90,7 +91,7 @@ The unattended publisher runs an independent copy of the scan before every push.
 
 ## Out of scope
 
-Editing places from the map, accounts, routing/itineraries, and live opening-hours — the map is a fast read-only view; curation happens in the source dataset. Live Google details would need a separate cache/cost design and are deliberately deferred.
+Full routing turn-by-turn navigation, multi-stop itineraries, and real-time paid API queries — the map uses client-side haversine walking estimates and a cached signals provider dataset (`signals/`), deliberately avoiding recurring third-party API bills.
 
 ## License
 
