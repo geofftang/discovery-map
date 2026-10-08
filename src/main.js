@@ -228,7 +228,8 @@ function applyHeadingUpdate(rawAngle) {
     let diff = (rawAngle - currentHeading) % 360;
     if (diff < -180) diff += 360;
     if (diff > 180) diff -= 360;
-    currentHeading = (currentHeading + diff * 0.25) % 360;
+    // Low-pass dampening factor (0.12) to avoid twitching while walking
+    currentHeading = (currentHeading + diff * 0.12) % 360;
     if (currentHeading < 0) currentHeading += 360;
   }
 
@@ -236,16 +237,9 @@ function applyHeadingUpdate(rawAngle) {
     const headingEl = userMarker.getElement().querySelector('.user-marker-heading');
     if (headingEl) {
       headingEl.style.display = 'block';
-      // In compass mode (course-up), map rotates, so marker cone points up (0deg);
-      // in standard mode, marker cone rotates relative to north.
-      const coneRotation = followMode === 'compass' ? 0 : currentHeading;
-      headingEl.style.transform = `rotate(${coneRotation}deg)`;
+      // Map stays North-up; cone rotates smoothly to face user's direction
+      headingEl.style.transform = `rotate(${currentHeading}deg)`;
     }
-  }
-
-  // If in Course-Up mode, smoothly rotate map camera to match user's bearing
-  if (followMode === 'compass') {
-    map.setBearing(currentHeading);
   }
 }
 
@@ -284,10 +278,9 @@ const followBtn = document.createElement('button');
 followBtn.type = 'button';
 followBtn.className = 'follow-me-btn';
 if (followMode === 'follow') followBtn.classList.add('active');
-if (followMode === 'compass') followBtn.classList.add('active', 'compass-mode');
 
 function updateFollowBtnUI() {
-  followBtn.classList.remove('active', 'compass-mode');
+  followBtn.classList.remove('active');
   if (followMode === 'none') {
     followBtn.title = 'Location: Free pan (tap to center)';
     followBtn.setAttribute('aria-label', 'Location: Free pan');
@@ -296,23 +289,13 @@ function updateFollowBtnUI() {
         <polygon points="3 11 22 2 13 21 11 13 3 11"/>
       </svg>
     `;
-  } else if (followMode === 'follow') {
+  } else {
     followBtn.classList.add('active');
-    followBtn.title = 'Location: Centered (tap for Course-Up compass)';
+    followBtn.title = 'Location: Centered (tap to free pan)';
     followBtn.setAttribute('aria-label', 'Location: Centered');
     followBtn.innerHTML = `
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
         <polygon points="12 2 19 21 12 17 5 21 12 2"/>
-      </svg>
-    `;
-  } else if (followMode === 'compass') {
-    followBtn.classList.add('active', 'compass-mode');
-    followBtn.title = 'Location: Course-Up compass (tap to exit)';
-    followBtn.setAttribute('aria-label', 'Location: Course-Up compass');
-    followBtn.innerHTML = `
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-        <circle cx="12" cy="12" r="10"/>
-        <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" fill="currentColor"/>
       </svg>
     `;
   }
@@ -449,7 +432,7 @@ map.on('dragstart', () => {
   }
 });
 
-// 3-state Cycle: None (Free Pan) -> Follow (Center) -> Compass (Course-Up) -> None
+// 2-state Toggle: Free Pan <-> Centered (Map stays North-up; cone rotates with user facing direction)
 followBtn.addEventListener('click', () => {
   if (!userCoords) {
     followMode = 'follow';
@@ -469,27 +452,10 @@ followBtn.addEventListener('click', () => {
       bearing: 0,
       duration: 800,
     });
-  } else if (followMode === 'follow') {
-    followMode = 'compass';
-    try { localStorage.setItem(FOLLOW_STORAGE_KEY, 'compass'); } catch (e) {}
-    initDeviceOrientation();
-    updateFollowBtnUI();
-    if (currentHeading !== null) {
-      map.easeTo({
-        center: userCoords,
-        zoom: Math.max(map.getZoom(), 16.5),
-        bearing: currentHeading,
-        duration: 600,
-      });
-    }
   } else {
     followMode = 'none';
     try { localStorage.setItem(FOLLOW_STORAGE_KEY, 'none'); } catch (e) {}
     updateFollowBtnUI();
-    map.easeTo({
-      bearing: 0,
-      duration: 600,
-    });
   }
 });
 
@@ -497,6 +463,17 @@ followBtn.addEventListener('click', () => {
 if ('geolocation' in navigator) {
   requestUserLocation(false);
 }
+
+// In iOS Safari, DeviceOrientation permission state is retained once granted per origin.
+// Calling initDeviceOrientation on the first touch/click ensures the orientation listener
+// attaches immediately without requiring tapping the compass button specifically.
+const onFirstUserTouch = () => {
+  initDeviceOrientation();
+  window.removeEventListener('touchstart', onFirstUserTouch, true);
+  window.removeEventListener('click', onFirstUserTouch, true);
+};
+window.addEventListener('touchstart', onFirstUserTouch, { capture: true, passive: true });
+window.addEventListener('click', onFirstUserTouch, { capture: true, passive: true });
 
 // Small custom control, styled to match the built-in nav/geolocate buttons above it.
 // Saves the current view as the load-time default (see loadHomeView/saveHomeView) —
