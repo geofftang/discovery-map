@@ -137,6 +137,7 @@ const elements = {
   detailsTakeBlock: document.querySelector('#details-take-block'),
   detailsNotesLabel: document.querySelector('#details-notes-label'),
   detailsClose: document.querySelector('#details-close'),
+  detailsMapsQuick: document.querySelector('#details-maps-quick'),
   googleLink: document.querySelector('#google-link'),
 };
 
@@ -998,11 +999,13 @@ function openDetails(feature) {
   const providerStatus = String(props.provider_status || '');
   let advisory = '';
   if (props.temporarily_closed || providerStatus === 'CLOSED_TEMPORARILY') {
-    advisory = '⚠️ Google reports this place is temporarily closed.';
+    advisory = '⚠️ Google reports temporarily closed.';
   } else if (providerStatus && providerStatus !== 'OPERATIONAL') {
-    advisory = `⚠️ Google reports ${providerStatus.toLowerCase().replaceAll('_', ' ')}`
-      + (props.provider_observed_at ? ` (checked ${String(props.provider_observed_at).slice(0, 10)})` : '')
-      + (PRIVATE ? ` — your record says ${props.status || 'open'}` : '');
+    const readableStatus = providerStatus.toLowerCase().replaceAll('_', ' ');
+    const checkDate = props.provider_observed_at ? `as of ${String(props.provider_observed_at).slice(0, 10)}` : '';
+    const dateSuffix = checkDate ? ` (${checkDate})` : '';
+    advisory = `⚠️ Google reports ${readableStatus}${dateSuffix}`
+      + (PRIVATE ? ` · Marked ${props.status || 'open'} in your records` : '');
   }
   elements.detailsAdvisory.hidden = !advisory;
   elements.detailsAdvisory.textContent = advisory;
@@ -1029,14 +1032,16 @@ function openDetails(feature) {
   // Only label the notes when there is a take to distinguish them from.
   elements.detailsNotesLabel.hidden = !(take && notes);
   elements.detailsDescription.textContent = notes || (take ? '' : 'No notes yet.');
-  elements.googleLink.href = googleMapsUrl(feature);
+  const mapUrl = googleMapsUrl(feature);
+  elements.googleLink.href = mapUrl;
+  if (elements.detailsMapsQuick) elements.detailsMapsQuick.href = mapUrl;
   elements.details.dataset.placeId = props.id || '';
 
   if (PRIVATE && props.slug) loadHistory(props.slug); else elements.detailsHistoryBlock.hidden = true;
   const editable = PRIVATE && !!props.id;
   elements.detailsEdit.hidden = !editable;
   if (editable) {
-    elements.editHide.textContent = props.hidden ? 'Restore pin' : 'Drop pin';
+    elements.editHide.textContent = props.hidden ? 'Unhide pin' : 'Hide pin';
     elements.editStatus.textContent = props.status === 'closed' ? 'Mark open' : 'Mark closed';
     elements.editNoteText.value = '';
     elements.detailsEdit.dataset.feature = JSON.stringify({ type: 'Feature', properties: props, geometry: feature.geometry });
