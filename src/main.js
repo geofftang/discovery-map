@@ -218,6 +218,127 @@ function formatWalkingDistance(meters) {
   };
 }
 
+// Parses Google operating hours string against current client time.
+// Supports standard formats like:
+//   "Tuesday: 11:00 AM – 10:00 PM"
+//   "Tuesday: 11:30 AM – 3:00 PM, 5:00 – 10:00 PM"
+//   "Open · Closes 11 PM"
+//   "Closed · Opens 11 AM"
+function parseOperatingHours(hoursStr) {
+  if (!hoursStr || typeof hoursStr !== 'string') return null;
+  const s = hoursStr.trim();
+  const lower = s.toLowerCase();
+
+  const now = new Date();
+  const currentMinutes = now.getHours() * 60 + now.getMinutes();
+
+  if (lower.includes('closed') && !lower.includes('closes') && !lower.includes('open')) {
+    return { status: 'closed', text: '🔴 Closed today', variant: 'hours-closed' };
+  }
+
+  // Pre-formatted Google summary: "Open · Closes 10 PM" or "Closed · Opens 11 AM"
+  if (lower.startsWith('open · closes ')) {
+    const timeMatch = s.match(/closes\s+([^·\n]+)/i);
+    const closeStr = timeMatch ? timeMatch[1].trim() : '';
+    return { status: 'open', text: `🟢 Open · Closes ${closeStr}`, variant: 'hours-open' };
+  }
+  if (lower.startsWith('closed · opens ')) {
+    const timeMatch = s.match(/opens\s+([^·\n]+)/i);
+    const openStr = timeMatch ? timeMatch[1].trim() : '';
+    return { status: 'closed', text: `🔴 Closed · Opens ${openStr}`, variant: 'hours-closed' };
+  }
+
+  // Day-of-week format: "Tuesday: 11:00 AM – 10:00 PM"
+  const colonIdx = s.indexOf(':');
+  if (colonIdx === -1) return null;
+  const intervalsPart = s.slice(colonIdx + 1).trim();
+  if (!intervalsPart || intervalsPart.toLowerCase() === 'closed') {
+    return { status: 'closed', text: '🔴 Closed today', variant: 'hours-closed' };
+  }
+
+  // Helper to convert "10:30 PM", "11 AM", "12:00 AM" to minutes of day (0..1439)
+  function parseTimeToMinutes(str) {
+    if (!str) return null;
+    const clean = str.replaceAll(/[\u202f\u2009\s]/g, ' ').trim().toUpperCase();
+    const m = clean.match(/^(\d{1,2})(?::(\d{2}))?\s*(AM|PM)$/);
+    if (!m) return null;
+    let hours = parseInt(m[1], 10);
+    const mins = m[2] ? parseInt(m[2], 10) : 0;
+    const meridiem = m[3];
+    if (meridiem === 'PM' && hours < 12) hours += 12;
+    if (meridiem === 'AM' && hours === 12) hours = 0;
+    return hours * 60 + mins;
+  }
+
+  function formatDisplayTime(minutes) {
+    const m = minutes % (24 * 60);
+    let h = Math.floor(m / 60);
+    const min = m % 60;
+    const ampm = h >= 12 ? 'PM' : 'AM';
+    h = h % 12;
+    if (h === 0) h = 12;
+    return min === 0 ? `${h} ${ampm}` : `${h}:${String(min).padStart(2, '0')} ${ampm}`;
+  }
+
+  // Parse ranges separated by commas e.g. "11:30 AM – 3:00 PM, 5:00 PM – 10:00 PM"
+  const intervals = intervalsPart.split(',').map((range) => {
+    const parts = range.split(/[–—-]/);
+    if (parts.length !== 2) return null;
+    let startM = parseTimeToMinutes(parts[0]);
+    let endM = parseTimeToMinutes(parts[1]);
+    // Inherit PM from end time if missing on start (e.g. "5:00 - 10:00 PM")
+    if (startM === null && parts[0].trim().match(/^\d{1,2}(?::\d{2})?$/)) {
+      const isEndPM = parts[1].toUpperCase().includes('PM');
+      startM = parseTimeToMinutes(`${parts[0].trim()} ${isEndPM ? 'PM' : 'AM'}`);
+    }
+    if (startM === null || endM === null) return null;
+    // Crosses midnight e.g. 5:00 PM - 2:00 AM
+    if (endM <= startM) endM += 24 * 60;
+    return { start: startM, end: endM };
+  }).filter(Boolean);
+
+  if (!intervals.length) return null;
+
+  for (const iv of intervals) {
+    const adjustedNow = (currentMinutes < iv.start && iv.end > 24 * 60 && currentMinutes < iv.end - 24 * 60)
+      ? currentMinutes + 24 * 60
+      : currentMinutes;
+
+    if (adjustedNow >= iv.start && adjustedNow < iv.end) {
+      const remainingMinutes = iv.end - adjustedNow;
+      const closeDisplay = formatDisplayTime(iv.end);
+
+      // Within 60 minutes: Yellow "Closing soon" warning
+      if (remainingMinutes <= 60) {
+        return {
+          status: 'closing-soon',
+          remainingMinutes,
+          text: `🟠 Closes in ${remainingMinutes} min (${closeDisplay})`,
+          variant: 'hours-closing-soon',
+        };
+      }
+      return {
+        status: 'open',
+        remainingMinutes,
+        text: `🟢 Open until ${closeDisplay}`,
+        variant: 'hours-open',
+      };
+    }
+  }
+
+  // Check if opening later today
+  const upcoming = intervals.find((iv) => iv.start > currentMinutes);
+  if (upcoming) {
+    return {
+      status: 'closed',
+      text: `🔴 Closed · Opens ${formatDisplayTime(upcoming.start)}`,
+      variant: 'hours-closed',
+    };
+  }
+
+  return { status: 'closed', text: '🔴 Closed now', variant: 'hours-closed' };
+}
+
 // Low-pass exponential filter for smooth compass cone rotation
 function applyHeadingUpdate(rawAngle) {
   if (rawAngle === null || isNaN(rawAngle)) return;
@@ -853,6 +974,15 @@ function openDetails(feature) {
     const walk = formatWalkingDistance(meters);
     if (walk) {
       elements.detailsMeta.appendChild(pill(`🚶 ${walk.text}`, 'distance'));
+    }
+  }
+
+  // Ambient operating hours status badge (Open / Closing soon in yellow / Closed)
+  const rawHours = props.hours || props.provider_hours;
+  if (rawHours) {
+    const hoursInfo = parseOperatingHours(rawHours);
+    if (hoursInfo) {
+      elements.detailsMeta.appendChild(pill(hoursInfo.text, hoursInfo.variant));
     }
   }
 
