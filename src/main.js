@@ -119,7 +119,7 @@ const elements = {
   detailsHistory: document.querySelector('#details-history'),
   editHide: document.querySelector('#edit-hide'),
   editStatus: document.querySelector('#edit-status'),
-  editMove: document.querySelector('#edit-move'),
+  editVisit: document.querySelector('#edit-visit'),
   editNoteText: document.querySelector('#edit-note-text'),
   editNoteSave: document.querySelector('#edit-note-save'),
   detailsPending: document.querySelector('#details-pending'),
@@ -1056,19 +1056,29 @@ async function loadHistory(slug) {
     const res = await fetch(`./history/${encodeURIComponent(slug)}.json`, { signal: controller.signal });
     if (!res.ok) return;
     const h = await res.json();
-    if (controller.signal.aborted || !h.entries?.length) return;
-    const items = h.entries.map((e) => {
+    // Filter out bulk engineering git commits ("imported from master-discovery...", "batch 2026-09-04...")
+    const humanEntries = h.entries.filter((e) => {
+      const subj = (e.subject || '').toLowerCase();
+      return !subj.includes('imported from master-discovery') && !subj.includes('batch 2026-') && !subj.includes('discovery: 3129');
+    });
+
+    if (!humanEntries.length && !h.uncommitted) return;
+
+    const items = humanEntries.map((e) => {
       const li = document.createElement('li');
       const when = document.createElement('strong');
       when.textContent = String(e.ts || '').slice(0, 10);
       li.append(when, ` ${e.subject || ''}`);
       const details = [];
       for (const c of e.changed || []) {
-        if (c.field === 'record') { details.push('created'); continue; }
+        if (c.field === 'record') continue;
         details.push(`${c.field}: ${fmtVal(c.before)} → ${fmtVal(c.after)}`);
       }
       // log lines carry a machine suffix and a full ISO stamp; people need neither
-      for (const l of e.log_added || []) details.push(l.replace(/\s*\(mutation [0-9a-f-]+\)$/i, '').replace(/^(\d{4}-\d{2}-\d{2})T(\d{2}:\d{2})[^\s]*/, '$1 $2'));
+      for (const l of e.log_added || []) {
+        if (l.includes('imported from master-discovery')) continue;
+        details.push(l.replace(/\s*\(mutation [0-9a-f-]+\)$/i, '').replace(/^(\d{4}-\d{2}-\d{2})T(\d{2}:\d{2})[^\s]*/, '$1 $2'));
+      }
       if (details.length) {
         const ul = document.createElement('ul');
         for (const d of details) { const sub = document.createElement('li'); sub.textContent = d; ul.appendChild(sub); }
@@ -1081,8 +1091,10 @@ async function loadHistory(slug) {
       li.textContent = 'uncommitted changes on disk (not yet in history)';
       items.unshift(li);
     }
-    elements.detailsHistory.replaceChildren(...items);
-    elements.detailsHistoryBlock.hidden = false;
+    if (items.length) {
+      elements.detailsHistory.replaceChildren(...items);
+      elements.detailsHistoryBlock.hidden = false;
+    }
   } catch (error) {
     if (error.name !== 'AbortError') console.error('history', error);
   }
@@ -1585,17 +1597,29 @@ if (PRIVATE) {
     const f = detailsFeature(); if (!f) return;
     enqueue(f, 'set-status', { status: f.properties.status === 'closed' ? 'open' : 'closed' });
   });
-  elements.editMove.addEventListener('click', () => {
-    const f = detailsFeature(); if (!f) return;
-    state.moveTarget = f;
-    closeDetails();
-    map.getCanvas().style.cursor = 'crosshair';
-    setStatus(`Tap the new location for ${f.properties.name}. Press Escape to cancel.`);
+  elements.editVisit.addEventListener('click', () => {
+    const today = new Date().toISOString().slice(0, 10);
+    const scaffold = `Visited ${today}:\n- dishes: \n- rating: \n- notes: `;
+    elements.editNoteText.value = scaffold;
+    elements.editNoteText.focus();
+    // Position cursor right after dishes: for instant typing/dictation
+    const dishPos = scaffold.indexOf('- dishes: ') + '- dishes: '.length;
+    elements.editNoteText.setSelectionRange(dishPos, dishPos);
   });
   elements.editNoteSave.addEventListener('click', () => {
-    const f = detailsFeature(); const text = elements.editNoteText.value.trim();
+    const f = detailsFeature();
+    let text = elements.editNoteText.value.trim();
     if (!f || !text) return;
+
+    // Clean up empty template fields e.g. "- rating: " left blank
+    const lines = text.split('\n')
+      .map((l) => l.trim())
+      .filter((l) => !l.match(/^-\s*(dishes|rating|notes|people):\s*$/i));
+    text = lines.join('\n').trim();
+    if (!text) return;
+
     enqueue(f, 'append-note', { text });
+    elements.editNoteText.value = '';
   });
   elements.editErrorDismiss.addEventListener('click', () => {
     elements.editError.hidden = true;
