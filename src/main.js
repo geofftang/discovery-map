@@ -170,27 +170,161 @@ const map = new maplibregl.Map({
 
 map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), 'top-right');
 
-// --- Continuous Auto-Follow Location Engine ---------------------------------
+// --- Continuous Auto-Follow & Course-Up Location Engine ----------------------
 const FOLLOW_STORAGE_KEY = 'discovery-map-auto-follow';
 let userCoords = null;
-let isFollowing = localStorage.getItem(FOLLOW_STORAGE_KEY) === 'true'; // Only follow if user previously explicitly turned it on
+// Follow modes: 'none' (free pan), 'follow' (center map on user), 'compass' (course-up: rotate map with heading)
+let followMode = localStorage.getItem(FOLLOW_STORAGE_KEY) === 'compass'
+  ? 'compass'
+  : (localStorage.getItem(FOLLOW_STORAGE_KEY) === 'true' || localStorage.getItem(FOLLOW_STORAGE_KEY) === 'follow' ? 'follow' : 'none');
 let userMarker = null;
 let watchId = null;
+let currentHeading = null;
+let orientationListening = false;
+
+// Dynamic distance and walking ETA helpers (Standard urban walking pace: ~4.8 km/h or 80 m/min)
+function haversineDistanceMeters(coord1, coord2) {
+  if (!coord1 || !coord2) return null;
+  const [lon1, lat1] = coord1;
+  const [lon2, lat2] = coord2;
+  const R = 6371e3; // metres
+  const phi1 = (lat1 * Math.PI) / 180;
+  const phi2 = (lat2 * Math.PI) / 180;
+  const deltaPhi = ((lat2 - lat1) * Math.PI) / 180;
+  const deltaLambda = ((lon2 - lon1) * Math.PI) / 180;
+
+  const a = Math.sin(deltaPhi / 2) * Math.sin(deltaPhi / 2)
+    + Math.cos(phi1) * Math.cos(phi2)
+    * Math.sin(deltaLambda / 2) * Math.sin(deltaLambda / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  return R * c;
+}
+
+function formatWalkingDistance(meters) {
+  if (meters === null || meters === undefined || isNaN(meters)) return null;
+  const walkMinutes = Math.max(1, Math.round(meters / 80)); // 80 meters/minute
+  let distStr = '';
+  if (meters < 1000) {
+    distStr = `${Math.round(meters)}m`;
+  } else {
+    const km = (meters / 1000).toFixed(1);
+    distStr = `${km}km`;
+  }
+  return {
+    meters,
+    minutes: walkMinutes,
+    text: `${walkMinutes} min walk (${distStr})`,
+    shortText: `${walkMinutes}m walk · ${distStr}`,
+  };
+}
+
+// Low-pass exponential filter for smooth compass cone rotation
+function applyHeadingUpdate(rawAngle) {
+  if (rawAngle === null || isNaN(rawAngle)) return;
+  if (currentHeading === null) {
+    currentHeading = rawAngle;
+  } else {
+    // Handle 0/360 wrap-around smoothly
+    let diff = (rawAngle - currentHeading) % 360;
+    if (diff < -180) diff += 360;
+    if (diff > 180) diff -= 360;
+    currentHeading = (currentHeading + diff * 0.25) % 360;
+    if (currentHeading < 0) currentHeading += 360;
+  }
+
+  if (userMarker) {
+    const headingEl = userMarker.getElement().querySelector('.user-marker-heading');
+    if (headingEl) {
+      headingEl.style.display = 'block';
+      // In compass mode (course-up), map rotates, so marker cone points up (0deg);
+      // in standard mode, marker cone rotates relative to north.
+      const coneRotation = followMode === 'compass' ? 0 : currentHeading;
+      headingEl.style.transform = `rotate(${coneRotation}deg)`;
+    }
+  }
+
+  // If in Course-Up mode, smoothly rotate map camera to match user's bearing
+  if (followMode === 'compass') {
+    map.setBearing(currentHeading);
+  }
+}
+
+function initDeviceOrientation() {
+  if (orientationListening) return;
+  const handleOrientation = (e) => {
+    // iOS Safari compass heading: webkitCompassHeading (0 = magnetic north)
+    if (typeof e.webkitCompassHeading === 'number') {
+      applyHeadingUpdate(e.webkitCompassHeading);
+    } else if (e.alpha !== null && e.absolute) {
+      // Standard Android Absolute Orientation (0 = north, counterclockwise)
+      applyHeadingUpdate((360 - e.alpha) % 360);
+    }
+  };
+
+  // iOS 13+ requires explicit permission requested on a user interaction
+  if (typeof DeviceOrientationEvent !== 'undefined' && typeof DeviceOrientationEvent.requestPermission === 'function') {
+    DeviceOrientationEvent.requestPermission()
+      .then((state) => {
+        if (state === 'granted') {
+          window.addEventListener('deviceorientation', handleOrientation, true);
+          orientationListening = true;
+        }
+      })
+      .catch(() => {});
+  } else if ('ondeviceorientationabsolute' in window) {
+    window.addEventListener('deviceorientationabsolute', handleOrientation, true);
+    orientationListening = true;
+  } else if ('ondeviceorientation' in window) {
+    window.addEventListener('deviceorientation', handleOrientation, true);
+    orientationListening = true;
+  }
+}
 
 const followBtn = document.createElement('button');
 followBtn.type = 'button';
-followBtn.className = isFollowing ? 'follow-me-btn active' : 'follow-me-btn';
-followBtn.title = 'Auto-Follow Location';
-followBtn.setAttribute('aria-label', 'Auto-Follow Location');
-followBtn.innerHTML = `
-  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-    <polygon points="3 11 22 2 13 21 11 13 3 11"/>
-  </svg>
-`;
+followBtn.className = 'follow-me-btn';
+if (followMode === 'follow') followBtn.classList.add('active');
+if (followMode === 'compass') followBtn.classList.add('active', 'compass-mode');
+
+function updateFollowBtnUI() {
+  followBtn.classList.remove('active', 'compass-mode');
+  if (followMode === 'none') {
+    followBtn.title = 'Location: Free pan (tap to center)';
+    followBtn.setAttribute('aria-label', 'Location: Free pan');
+    followBtn.innerHTML = `
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <polygon points="3 11 22 2 13 21 11 13 3 11"/>
+      </svg>
+    `;
+  } else if (followMode === 'follow') {
+    followBtn.classList.add('active');
+    followBtn.title = 'Location: Centered (tap for Course-Up compass)';
+    followBtn.setAttribute('aria-label', 'Location: Centered');
+    followBtn.innerHTML = `
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <polygon points="12 2 19 21 12 17 5 21 12 2"/>
+      </svg>
+    `;
+  } else if (followMode === 'compass') {
+    followBtn.classList.add('active', 'compass-mode');
+    followBtn.title = 'Location: Course-Up compass (tap to exit)';
+    followBtn.setAttribute('aria-label', 'Location: Course-Up compass');
+    followBtn.innerHTML = `
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" fill="currentColor"/>
+      </svg>
+    `;
+  }
+}
+updateFollowBtnUI();
 
 document.body.appendChild(followBtn);
 
 function requestUserLocation(userInitiated = false) {
+  if (userInitiated) {
+    initDeviceOrientation();
+  }
   if (!('geolocation' in navigator)) {
     if (userInitiated) {
       setStatus('Geolocation is not supported by your browser.');
@@ -212,9 +346,9 @@ function requestUserLocation(userInitiated = false) {
       const markerEl = document.createElement('div');
       markerEl.className = 'user-marker';
       markerEl.innerHTML = `
+        <div class="user-marker-heading" style="display: none;"></div>
         <div class="user-marker-pulse"></div>
         <div class="user-marker-dot"></div>
-        <div class="user-marker-heading" style="display: none;"></div>
       `;
       userMarker = new maplibregl.Marker({ element: markerEl, pitchAlignment: 'map' })
         .setLngLat(userCoords)
@@ -223,27 +357,32 @@ function requestUserLocation(userInitiated = false) {
       userMarker.setLngLat(userCoords);
     }
 
-    // Update heading indicator if available
-    const headingEl = userMarker.getElement().querySelector('.user-marker-heading');
-    if (headingEl) {
-      if (heading !== null && !isNaN(heading)) {
-        headingEl.style.display = 'block';
-        headingEl.style.transform = `rotate(${heading}deg)`;
-      } else {
-        headingEl.style.display = 'none';
-      }
+    // If GPS heading is provided (user in active motion), prioritize it
+    if (heading !== null && !isNaN(heading)) {
+      applyHeadingUpdate(heading);
+    }
+
+    // Refresh distance badge in currently open details card if any
+    if (typeof updateActiveDetailsDistance === 'function') {
+      updateActiveDetailsDistance();
     }
 
     // Smoothly fly to user location on first fix or when follow mode is active
-    if (isFollowing || isFirstFix || userInitiated) {
-      followBtn.classList.add('active');
-      isFollowing = true;
-      try { localStorage.setItem(FOLLOW_STORAGE_KEY, 'true'); } catch (e) {}
-      map.easeTo({
+    if (followMode !== 'none' || isFirstFix || userInitiated) {
+      if (followMode === 'none') {
+        followMode = 'follow';
+        try { localStorage.setItem(FOLLOW_STORAGE_KEY, 'follow'); } catch (e) {}
+      }
+      updateFollowBtnUI();
+      const flyOpts = {
         center: userCoords,
         zoom: Math.max(map.getZoom(), 16),
-        duration: 1000,
-      });
+        duration: 800,
+      };
+      if (followMode === 'compass' && currentHeading !== null) {
+        flyOpts.bearing = currentHeading;
+      }
+      map.easeTo(flyOpts);
     }
   };
 
@@ -254,7 +393,8 @@ function requestUserLocation(userInitiated = false) {
       navigator.geolocation.getCurrentPosition(
         onPositionSuccess,
         (fallbackErr) => {
-          followBtn.classList.remove('searching', 'active');
+          followBtn.classList.remove('searching');
+          updateFollowBtnUI();
           if (userInitiated) {
             setStatus('Location request timed out. Please try again.');
             setTimeout(clearStatus, 4000);
@@ -265,10 +405,11 @@ function requestUserLocation(userInitiated = false) {
       return;
     }
 
-    followBtn.classList.remove('searching', 'active');
+    followBtn.classList.remove('searching');
     if (err.code === 1) {
-      isFollowing = false;
-      try { localStorage.setItem(FOLLOW_STORAGE_KEY, 'false'); } catch (e) {}
+      followMode = 'none';
+      try { localStorage.setItem(FOLLOW_STORAGE_KEY, 'none'); } catch (e) {}
+      updateFollowBtnUI();
       if (userInitiated) {
         setStatus('Location permission required. Enable in browser Settings.');
         setTimeout(clearStatus, 6000);
@@ -299,34 +440,56 @@ function requestUserLocation(userInitiated = false) {
   );
 }
 
-// Pause following when user touches/drags map
+// Pause following when user touches/drags map, resetting to free pan (standard Google/Apple Maps behavior)
 map.on('dragstart', () => {
-  if (isFollowing && userCoords) {
-    isFollowing = false;
-    followBtn.classList.remove('active');
+  if (followMode !== 'none' && userCoords) {
+    followMode = 'none';
+    try { localStorage.setItem(FOLLOW_STORAGE_KEY, 'none'); } catch (e) {}
+    updateFollowBtnUI();
   }
 });
 
-// Toggle follow mode on button click
+// 3-state Cycle: None (Free Pan) -> Follow (Center) -> Compass (Course-Up) -> None
 followBtn.addEventListener('click', () => {
   if (!userCoords) {
-    isFollowing = true;
-    try { localStorage.setItem(FOLLOW_STORAGE_KEY, 'true'); } catch (e) {}
-    followBtn.classList.add('active');
+    followMode = 'follow';
+    try { localStorage.setItem(FOLLOW_STORAGE_KEY, 'follow'); } catch (e) {}
+    updateFollowBtnUI();
     requestUserLocation(true);
     return;
   }
-  isFollowing = !isFollowing;
-  try { localStorage.setItem(FOLLOW_STORAGE_KEY, isFollowing ? 'true' : 'false'); } catch (e) {}
-  if (isFollowing) {
-    followBtn.classList.add('active');
+
+  if (followMode === 'none') {
+    followMode = 'follow';
+    try { localStorage.setItem(FOLLOW_STORAGE_KEY, 'follow'); } catch (e) {}
+    updateFollowBtnUI();
     map.easeTo({
       center: userCoords,
       zoom: Math.max(map.getZoom(), 16),
+      bearing: 0,
       duration: 800,
     });
+  } else if (followMode === 'follow') {
+    followMode = 'compass';
+    try { localStorage.setItem(FOLLOW_STORAGE_KEY, 'compass'); } catch (e) {}
+    initDeviceOrientation();
+    updateFollowBtnUI();
+    if (currentHeading !== null) {
+      map.easeTo({
+        center: userCoords,
+        zoom: Math.max(map.getZoom(), 16.5),
+        bearing: currentHeading,
+        duration: 600,
+      });
+    }
   } else {
-    followBtn.classList.remove('active');
+    followMode = 'none';
+    try { localStorage.setItem(FOLLOW_STORAGE_KEY, 'none'); } catch (e) {}
+    updateFollowBtnUI();
+    map.easeTo({
+      bearing: 0,
+      duration: 600,
+    });
   }
 });
 
@@ -637,22 +800,22 @@ async function registerCategoryIcons() {
 function googleMapsUrl(feature) {
   const props = feature.properties || {};
   const [lng, lat] = feature.geometry?.coordinates || [];
-  const placeQuery = [props.name, props.city || 'NYC'].filter(Boolean).join(' ');
-  const query = encodeURIComponent(placeQuery);
+  const name = props.name ? props.name.trim() : '';
 
-  if (props.google_place_id) {
-    return `https://www.google.com/maps/search/?api=1&query=${query}&query_place_id=${encodeURIComponent(props.google_place_id)}`;
+  // Geo-anchored search: Search by venue name AT the exact pin coordinates.
+  // Google Maps locks onto the exact venue at that latitude/longitude within ~200m,
+  // preventing stale Place IDs or mismatched city queries from hijacking the link
+  // to an old closed branch or different borough across town.
+  if (name && Number.isFinite(lat) && Number.isFinite(lng)) {
+    return `https://www.google.com/maps/search/${encodeURIComponent(name)}/@${lat},${lng},17z`;
   }
 
   if (Number.isFinite(lat) && Number.isFinite(lng)) {
     return `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
   }
 
-  if (placeQuery.trim()) {
-    return `https://www.google.com/maps/search/?api=1&query=${query}`;
-  }
-
-  return `https://www.google.com/maps/search/?api=1&query=${query}`;
+  const placeQuery = [name, props.city || 'NYC'].filter(Boolean).join(' ');
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(placeQuery)}`;
 }
 
 function pill(label, variant = '') {
@@ -666,7 +829,30 @@ function categoryClass(category) {
   return `category-${normalize(category).replaceAll(/[^a-z0-9]+/g, '-')}`;
 }
 
+let activeDetailsFeature = null;
+
+function updateActiveDetailsDistance() {
+  if (!activeDetailsFeature || elements.details.hidden) return;
+  const coords = activeDetailsFeature.geometry?.coordinates;
+  const distEl = elements.detailsMeta.querySelector('.pill.distance');
+  if (userCoords && coords) {
+    const meters = haversineDistanceMeters(userCoords, coords);
+    const walk = formatWalkingDistance(meters);
+    if (walk) {
+      if (distEl) {
+        distEl.textContent = `🚶 ${walk.text}`;
+      } else {
+        const p = pill(`🚶 ${walk.text}`, 'distance');
+        elements.detailsMeta.prepend(p);
+      }
+      return;
+    }
+  }
+  if (distEl) distEl.remove();
+}
+
 function openDetails(feature) {
+  activeDetailsFeature = feature;
   const props = feature.properties || {};
   const tags = splitTags(props.secondary_tags ?? props.tags).slice(0, 6);
   const facetPills = PRIVATE
@@ -683,6 +869,16 @@ function openDetails(feature) {
   elements.detailsName.textContent = props.name || 'Untitled place';
   elements.detailsMeta.replaceChildren();
 
+  // Dynamic walking distance badge (Google / Apple Maps style)
+  const coords = feature.geometry?.coordinates;
+  if (userCoords && coords) {
+    const meters = haversineDistanceMeters(userCoords, coords);
+    const walk = formatWalkingDistance(meters);
+    if (walk) {
+      elements.detailsMeta.appendChild(pill(`🚶 ${walk.text}`, 'distance'));
+    }
+  }
+
   if (props.category) elements.detailsMeta.appendChild(pill(props.category, categoryClass(props.category)));
   if (props.signal) elements.detailsMeta.appendChild(pill(props.signal, 'subtle'));
   if (PRIVATE && props.status && props.status !== 'open') elements.detailsMeta.appendChild(pill(props.status, 'status'));
@@ -690,14 +886,17 @@ function openDetails(feature) {
   facetPills.forEach((p) => elements.detailsMeta.appendChild(p));
   tags.forEach((tag) => elements.detailsMeta.appendChild(pill(tag, 'subtle')));
 
-  // Provider claim rendered as an advisory beside the owner's status -- surfaced, never resolved
-  // (a Google closure has been wrong three times out of three noticed). Only the owner build has it.
+  // Provider claim or rebrand notice rendered as an advisory beside the owner's status.
+  // Surfaced on both public and private builds so visitors/friends know before walking there.
   const providerStatus = String(props.provider_status || '');
-  const advisory = PRIVATE && providerStatus && providerStatus !== 'OPERATIONAL'
-    ? `Google reports ${providerStatus.toLowerCase().replaceAll('_', ' ')}`
-      + (props.provider_observed_at ? `, seen ${String(props.provider_observed_at).slice(0, 10)}` : '')
-      + ` — your record says ${props.status || 'open'}`
-    : '';
+  let advisory = '';
+  if (props.temporarily_closed || providerStatus === 'CLOSED_TEMPORARILY') {
+    advisory = '⚠️ Google reports this place is temporarily closed.';
+  } else if (providerStatus && providerStatus !== 'OPERATIONAL') {
+    advisory = `⚠️ Google reports ${providerStatus.toLowerCase().replaceAll('_', ' ')}`
+      + (props.provider_observed_at ? ` (checked ${String(props.provider_observed_at).slice(0, 10)})` : '')
+      + (PRIVATE ? ` — your record says ${props.status || 'open'}` : '');
+  }
   elements.detailsAdvisory.hidden = !advisory;
   elements.detailsAdvisory.textContent = advisory;
 
@@ -730,7 +929,7 @@ function openDetails(feature) {
   const editable = PRIVATE && !!props.id;
   elements.detailsEdit.hidden = !editable;
   if (editable) {
-    elements.editHide.textContent = props.hidden ? 'Unhide' : 'Hide';
+    elements.editHide.textContent = props.hidden ? 'Restore pin' : 'Drop pin';
     elements.editStatus.textContent = props.status === 'closed' ? 'Mark open' : 'Mark closed';
     elements.editNoteText.value = '';
     elements.detailsEdit.dataset.feature = JSON.stringify({ type: 'Feature', properties: props, geometry: feature.geometry });
@@ -792,10 +991,11 @@ function detailsFeature() {
 }
 
 function closeDetails() {
+  activeDetailsFeature = null;
   elements.details.hidden = true;
 }
 
-function buildResultItem({ title, subtitle, remote, onSelect }) {
+function buildResultItem({ title, subtitle, distance, remote, onSelect }) {
   const item = document.createElement('button');
   item.type = 'button';
   item.className = remote ? 'search-result-item search-result-item--remote' : 'search-result-item';
@@ -806,16 +1006,36 @@ function buildResultItem({ title, subtitle, remote, onSelect }) {
   subEl.className = 'search-result-cat';
   subEl.textContent = subtitle || '';
   item.append(nameEl, subEl);
+
+  if (distance) {
+    const distEl = document.createElement('span');
+    distEl.className = 'search-result-distance';
+    distEl.textContent = distance;
+    item.appendChild(distEl);
+  }
+
   item.addEventListener('click', onSelect);
   return item;
 }
 
 function localMatches(query) {
   if (!state.allData) return [];
-  return state.allData.features
+  const matches = state.allData.features
     .filter((f) => searchableText(f).includes(query))
-    .slice(0, 5)
     .map(applyOverlay); // search results open the same pending-aware view the map shows
+
+  // If user location is known, sort by walking proximity (Apple/Google Maps style)
+  if (userCoords) {
+    matches.sort((a, b) => {
+      const coordA = a.geometry?.coordinates;
+      const coordB = b.geometry?.coordinates;
+      const distA = coordA ? haversineDistanceMeters(userCoords, coordA) : Infinity;
+      const distB = coordB ? haversineDistanceMeters(userCoords, coordB) : Infinity;
+      return distA - distB;
+    });
+  }
+
+  return matches.slice(0, 6);
 }
 
 function clearTempMarker() {
@@ -888,9 +1108,18 @@ function renderSearchResults() {
 
   for (const feature of local) {
     const props = feature.properties || {};
+    const coords = feature.geometry?.coordinates;
+    let distBadge = null;
+    if (userCoords && coords) {
+      const meters = haversineDistanceMeters(userCoords, coords);
+      const walk = formatWalkingDistance(meters);
+      if (walk) distBadge = walk.shortText;
+    }
+
     frag.appendChild(buildResultItem({
       title: props.name,
       subtitle: props.category || '',
+      distance: distBadge,
       onSelect: () => {
         const [lng, lat] = feature.geometry.coordinates;
         clearTempMarker();
@@ -909,9 +1138,17 @@ function renderSearchResults() {
     frag.appendChild(header);
     for (const feature of state.geoResults) {
       const props = feature.properties || {};
+      const coords = feature.geometry?.coordinates;
+      let distBadge = null;
+      if (userCoords && coords) {
+        const meters = haversineDistanceMeters(userCoords, coords);
+        const walk = formatWalkingDistance(meters);
+        if (walk) distBadge = walk.shortText;
+      }
       frag.appendChild(buildResultItem({
         title: props.name,
         subtitle: props.description || '',
+        distance: distBadge,
         remote: true,
         onSelect: () => selectGeocoded(feature),
       }));
