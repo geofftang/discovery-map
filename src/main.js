@@ -48,7 +48,8 @@ const MAX_FLUSH_FAILURES = 3;
 const DEFAULT_CENTER = [-73.985, 40.748];
 const DEFAULT_ZOOM = 12;
 const HOME_STORAGE_KEY = 'discovery-map-home-view';
-const BASE_STYLE = 'https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json';
+const mapTheme = window.matchMedia('(prefers-color-scheme: dark)');
+const baseStyle = () => `https://basemaps.cartocdn.com/gl/${mapTheme.matches ? 'dark-matter' : 'voyager'}-gl-style/style.json`;
 // Free, no-key OpenStreetMap geocoder (CORS-enabled public instance). Lets the
 // search box find places that aren't on the map yet, not just filter the dataset.
 const PHOTON_URL = 'https://photon.komoot.io/api/';
@@ -163,7 +164,7 @@ const homeView = loadHomeView();
 
 const map = new maplibregl.Map({
   container: 'map',
-  style: BASE_STYLE,
+  style: baseStyle(),
   center: homeView.center,
   zoom: homeView.zoom,
   maxZoom: 18,
@@ -1516,6 +1517,19 @@ map.on('load', async () => {
     } else {
       setStatus('Could not load the discovery map data.');
     }
+  }
+});
+
+mapTheme.addEventListener('change', () => map.setStyle(baseStyle()));
+map.on('style.load', async () => {
+  if (!state.filteredData || map.getSource('places')) return;
+  try {
+    await registerCategoryIcons();
+    if (!map.getSource('places')) addPlaceLayers(state.filteredData);
+    updateSource();
+  } catch (error) {
+    console.error(error);
+    setStatus('Could not update the map appearance. Reload to try again.');
   }
 });
 

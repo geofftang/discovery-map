@@ -1,12 +1,13 @@
 :root {
-  color-scheme: light;
-  --surface: #ffffff;
-  --ink: #172026;
-  --muted: #667582;
-  --line: #d9e2e7;
-  --accent: #0f766e;
-  --accent-strong: #115e59;
-  --subtle: #eef3f5;
+  color-scheme: light dark;
+  --surface: light-dark(#ffffff, #202b30);
+  --ink: light-dark(#172026, #e7eff2);
+  --muted: light-dark(#667582, #b3c2cb);
+  --line: light-dark(#d9e2e7, #46565e);
+  --accent: light-dark(#0f766e, #8bd8ca);
+  --accent-strong: light-dark(#115e59, #a4e4d9);
+  --action-ink: light-dark(#fff, #12251f);
+  --subtle: light-dark(#eef3f5, #29373e);
   --shadow: 0 16px 42px rgba(15, 23, 42, 0.16);
 }
 
@@ -27,7 +28,7 @@ body {
   overflow: hidden;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   color: var(--ink);
-  background: #dbe3e7;
+  background: light-dark(#dbe3e7, #152027);
 }
 
 button,
@@ -52,9 +53,9 @@ select {
   gap: 12px;
   align-items: center;
   padding: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.78);
+  border: 1px solid light-dark(rgba(255, 255, 255, 0.78), rgba(32, 43, 48, 0.78));
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.94);
+  background: light-dark(rgba(255, 255, 255, 0.94), rgba(32, 43, 48, 0.94));
   box-shadow: 0 10px 28px rgba(15, 23, 42, 0.13);
   backdrop-filter: blur(14px);
 }
@@ -85,7 +86,7 @@ select {
   border: 1px solid var(--line);
   border-radius: 8px;
   color: var(--ink);
-  background: #fff;
+  background: light-dark(#fff, #202b30);
   font-size: 22px;
   line-height: 1;
   cursor: pointer;
@@ -143,7 +144,7 @@ select {
   left: 0;
   right: 0;
   z-index: 10;
-  background: #fff;
+  background: light-dark(#fff, #202b30);
   border: 1px solid var(--line);
   border-radius: 8px;
   box-shadow: var(--shadow);
@@ -229,7 +230,7 @@ select {
   border-radius: 8px;
   padding: 0 32px 0 10px;
   color: var(--ink);
-  background: #fff;
+  background: light-dark(#fff, #202b30);
   outline: none;
 }
 
@@ -261,8 +262,8 @@ select {
   border: 1px solid var(--line);
   border-radius: 999px;
   padding: 5px 11px;
-  background: #fff;
-  color: #34414b;
+  background: light-dark(#fff, #202b30);
+  color: light-dark(#34414b, #d3dfe5);
   font-size: 12px;
   font-weight: 700;
   cursor: pointer;
@@ -283,7 +284,7 @@ select {
   width: 10px;
   height: 10px;
   border-radius: 999px;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.7);
+  box-shadow: inset 0 0 0 1px light-dark(rgba(255, 255, 255, 0.7), rgba(32, 43, 48, 0.7));
 }
 
 .details {
@@ -297,9 +298,9 @@ select {
   flex-direction: column;
   overflow: hidden;
   padding: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.82);
+  border: 1px solid light-dark(rgba(255, 255, 255, 0.82), rgba(32, 43, 48, 0.82));
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.96);
+  background: light-dark(rgba(255, 255, 255, 0.96), rgba(32, 43, 48, 0.96));
   box-shadow: var(--shadow);
   backdrop-filter: blur(14px);
 }
@@ -349,7 +350,7 @@ select {
   border: 1px solid var(--line);
   border-radius: 8px;
   color: var(--ink);
-  background: #fff;
+  background: light-dark(#fff, #202b30);
   font-size: 22px;
   line-height: 1;
   cursor: pointer;
@@ -368,7 +369,7 @@ select {
   align-items: center;
   border-radius: 999px;
   padding: 3px 8px;
-  background: #e6f4f1;
+  background: light-dark(#e6f4f1, #24433e);
   color: var(--accent-strong);
   font-size: 12px;
   font-weight: 700;
@@ -376,32 +377,32 @@ select {
 
 .pill.subtle {
   background: var(--subtle);
-  color: #47545f;
+  color: light-dark(#47545f, #becdd5);
 }
 
 .pill.category-activities {
-  background: #e8f7ed;
-  color: #15803d;
+  background: light-dark(#e8f7ed, #23412e);
+  color: light-dark(#15803d, #9addae);
 }
 
 .pill.category-cafe {
-  background: #fff4d6;
-  color: #b45309;
+  background: light-dark(#fff4d6, #493c24);
+  color: light-dark(#b45309, #f3cb8f);
 }
 
 .pill.category-dessert {
-  background: #fde8f3;
-  color: #be185d;
+  background: light-dark(#fde8f3, #452a3b);
+  color: light-dark(#be185d, #f4a8d1);
 }
 
 .pill.category-drinks {
-  background: #f0e8ff;
-  color: #5b21b6;
+  background: light-dark(#f0e8ff, #3a2c4c);
+  color: light-dark(#5b21b6, #d3b8fa);
 }
 
 .pill.category-meal {
-  background: #fff0df;
-  color: #b45309;
+  background: light-dark(#fff0df, #493826);
+  color: light-dark(#b45309, #f3cb8f);
 }
 
 /* Scroll container for the two content blocks (my take + notes). */
@@ -445,7 +446,7 @@ select {
 
 .details-description {
   margin: 0;
-  color: #303b44;
+  color: light-dark(#303b44, #d2dfe6);
   font-size: 14px;
   line-height: 1.45;
   white-space: pre-wrap;
@@ -460,7 +461,7 @@ select {
   border: 1px solid var(--accent);
   border-radius: 8px;
   padding: 0 13px;
-  color: #fff;
+  color: var(--action-ink);
   background: var(--accent);
   font-size: 14px;
   font-weight: 750;
@@ -548,8 +549,8 @@ select {
   margin-left: 0.5rem;
   padding: 0.1rem 0.45rem;
   border-radius: 999px;
-  background: #7c3aed;
-  color: #fff;
+  background: light-dark(#7c3aed, #cbb2ff);
+  color: var(--action-ink);
   font-size: 0.7rem;
   font-weight: 600;
   letter-spacing: 0.04em;
@@ -571,26 +572,26 @@ select {
 }
 
 .pill.facet {
-  background: #ecfeff;
-  color: #155e75;
+  background: light-dark(#ecfeff, #203e47);
+  color: light-dark(#155e75, #a9dbe9);
 }
 
 .pill.list {
-  background: #fef3c7;
-  color: #92400e;
+  background: light-dark(#fef3c7, #493c24);
+  color: light-dark(#92400e, #f1ce9d);
 }
 
 .pill.status {
-  background: #fee2e2;
-  color: #991b1b;
+  background: light-dark(#fee2e2, #4c2929);
+  color: light-dark(#991b1b, #f5b2ac);
 }
 
 .details-advisory {
   margin: 0.25rem 0 0.5rem;
   padding: 0.45rem 0.6rem;
   border-left: 3px solid #f59e0b;
-  background: #fffbeb;
-  color: #78350f;
+  background: light-dark(#fffbeb, #493c24);
+  color: light-dark(#78350f, #f1ce9d);
   font-size: 0.85rem;
 }
 
@@ -598,7 +599,7 @@ select {
   margin: 0.25rem 0 0.75rem;
   padding-left: 1.1rem;
   font-size: 0.85rem;
-  color: #334155;
+  color: light-dark(#334155, #c6d3de);
 }
 
 /* --- owner build: the four-verb edit section ------------------------------------ */
@@ -626,7 +627,7 @@ select {
   padding: 0 12px;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: #fff;
+  background: light-dark(#fff, #202b30);
   color: var(--ink);
   font-size: 14px;
   font-weight: 650;
@@ -645,14 +646,14 @@ select {
 .edit-verbs button.btn-action-primary {
   background: var(--accent);
   border-color: var(--accent);
-  color: #fff;
+  color: var(--action-ink);
   font-weight: 700;
 }
 
 .edit-verbs button.btn-action-primary:hover {
   background: var(--accent-strong);
   border-color: var(--accent-strong);
-  color: #fff;
+  color: var(--action-ink);
 }
 
 .details-pending button {
@@ -684,7 +685,7 @@ select {
   margin: 0.5rem 0 0;
   padding-left: 1.1rem;
   font-size: 0.8rem;
-  color: #92400e;
+  color: light-dark(#92400e, #f1ce9d);
 }
 
 .details-pending:empty {
@@ -700,7 +701,7 @@ select {
   max-width: min(92vw, 520px);
   padding: 0.6rem 0.9rem;
   border-radius: 10px;
-  background: #991b1b;
+  background: light-dark(#991b1b, #732e2e);
   color: #fff;
   font-size: 0.85rem;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
@@ -720,13 +721,13 @@ select {
   margin: 0.25rem 0 0.75rem;
   padding-left: 1.1rem;
   font-size: 0.82rem;
-  color: #334155;
+  color: light-dark(#334155, #c6d3de);
 }
 
 .details-history ul {
   margin: 0.15rem 0 0.35rem;
   padding-left: 1rem;
-  color: #64748b;
+  color: light-dark(#64748b, #b2c3d6);
 }
 
 /* --- Dedicated Follow Me & User Location Marker --------------------------- */
@@ -739,14 +740,14 @@ select {
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.95);
+  background: light-dark(rgba(255, 255, 255, 0.95), rgba(32, 43, 48, 0.95));
   border: 1px solid rgba(0, 0, 0, 0.12);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  color: #64748b;
+  color: light-dark(#64748b, #b2c3d6);
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -761,14 +762,14 @@ select {
 }
 
 .follow-me-btn.active {
-  color: #2563eb;
-  background: #ffffff;
+  color: light-dark(#2563eb, #9bc2ff);
+  background: light-dark(#ffffff, #202b30);
   border-color: #3b82f6;
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3), 0 6px 24px rgba(37, 99, 235, 0.25);
 }
 
 .follow-me-btn.compass-mode {
-  color: #7c3aed;
+  color: light-dark(#7c3aed, #cbb2ff);
   border-color: #8b5cf6;
   box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.35), 0 6px 24px rgba(124, 58, 237, 0.3);
 }
@@ -859,41 +860,49 @@ select {
 
 /* Walking distance & ETA badges */
 .pill.distance {
-  background: #eff6ff;
-  color: #1d4ed8;
+  background: light-dark(#eff6ff, #263a53);
+  color: light-dark(#1d4ed8, #a6c8ff);
   font-weight: 600;
   border: 1px solid rgba(59, 130, 246, 0.2);
 }
 
 /* Operating hours status badges */
 .pill.hours-open {
-  background: #ecfdf5;
-  color: #065f46;
+  background: light-dark(#ecfdf5, #244237);
+  color: light-dark(#065f46, #a4dec5);
   font-weight: 600;
   border: 1px solid rgba(16, 185, 129, 0.25);
 }
 
 /* Closing soon: crisp yellow banner for within 60 minutes */
 .pill.hours-closing-soon {
-  background: #fefce8;
-  color: #854d0e;
+  background: light-dark(#fefce8, #454023);
+  color: light-dark(#854d0e, #e4d299);
   font-weight: 600;
   border: 1px solid rgba(234, 179, 8, 0.4);
 }
 
 .pill.hours-closed {
-  background: #fef2f2;
-  color: #991b1b;
+  background: light-dark(#fef2f2, #4a2c2c);
+  color: light-dark(#991b1b, #f5b2ac);
   font-weight: 600;
   border: 1px solid rgba(239, 68, 68, 0.25);
 }
 
 .search-result-distance {
   font-size: 11px;
-  color: #2563eb;
+  color: light-dark(#2563eb, #9bc2ff);
   font-weight: 600;
   margin-left: auto;
   padding-left: 6px;
   flex-shrink: 0;
 }
 
+
+/* Native map widgets share the surrounding panel palette, without tinting map tiles. */
+.maplibregl-ctrl-group, .maplibregl-popup-content, .maplibregl-ctrl-attrib { background: var(--surface); color: var(--ink); }
+@media (prefers-color-scheme: dark) {
+  .maplibregl-ctrl-icon { filter: invert(1); }
+  .maplibregl-ctrl-attrib a { color: var(--ink); }
+  .maplibregl-popup-anchor-bottom .maplibregl-popup-tip { border-top-color: var(--surface); }
+}
