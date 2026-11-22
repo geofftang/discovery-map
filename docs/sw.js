@@ -57,7 +57,7 @@ async function networkFirst(event, cacheName, request, fallbacks) {
   });
   const lookup = async () => {
     for (const key of fallbacks || [request]) {
-      const hit = await cache.match(key);
+      const hit = await cache.match(key, { ignoreSearch: true });
       if (hit) return hit;
     }
     return null;
@@ -77,10 +77,36 @@ async function networkFirst(event, cacheName, request, fallbacks) {
   }
 }
 
+let tilePutCount = 0;
 async function trimTiles(cache) {
   const keys = await cache.keys();
   if (keys.length <= TILE_CAP) return;
   await Promise.all(keys.slice(0, keys.length - TILE_CAP).map((k) => cache.delete(k)));
+}
+
+// Stale-while-revalidate for the data feed: instant paint from cache, silent background refresh.
+// ignoreSearch: true ensures auth query tokens (?vault_token=...) never cause cache misses.
+async function staleWhileRevalidateData(event, request) {
+  const cache = await caches.open(DATA_CACHE);
+  const cached = await cache.match(request, { ignoreSearch: true });
+  const networkFetch = fetch(request)
+    .then(async (response) => {
+      if (response.ok) {
+        await cache.put(request, response.clone());
+        if (cached) {
+          const clients = await self.clients.matchAll();
+          clients.forEach((c) => c.postMessage({ type: 'DATA_UPDATED' }));
+        }
+      }
+      return response;
+    })
+    .catch(() => cached || Response.error());
+
+  if (cached) {
+    event.waitUntil(networkFetch);
+    return cached;
+  }
+  return networkFetch;
 }
 
 // Stale-while-revalidate: tiles, style, sprites, fonts and geocoder answers are stable enough
@@ -91,7 +117,10 @@ async function staleWhileRevalidate(event, request) {
   const networkFetch = fetch(request)
     .then((response) => {
       if (response.ok) {
-        cache.put(request, response.clone()).then(() => trimTiles(cache));
+        cache.put(request, response.clone()).then(() => {
+          tilePutCount++;
+          if (tilePutCount % 50 === 0) trimTiles(cache);
+        });
       }
       return response;
     })
@@ -116,9 +145,9 @@ self.addEventListener("fetch", (event) => {
   // Mutation API: never cached.
   if (new URL(request.url).pathname.includes("/api/")) return;
 
-  // The place feed changes on every publish; staleness shows outdated hours, so prefer the network.
+  // The place feed: stale-while-revalidate for instant load (<100ms) with background update.
   if (DATA_PATTERN.test(new URL(request.url).pathname)) {
-    event.respondWith(networkFirst(event, DATA_CACHE, request));
+    event.respondWith(staleWhileRevalidateData(event, request));
     return;
   }
 

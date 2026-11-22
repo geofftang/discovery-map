@@ -526,11 +526,19 @@ function requestUserLocation(userInitiated = false) {
     }
   };
 
-  // 1. Immediately request initial fix via getCurrentPosition (fires browser prompt instantly)
+  // 1. Progressive fix: First attempt fast low-accuracy fix (cell/Wi-Fi, near-instant ~50ms)
+  // so the map is anchored and responsive without waiting 5-8s for satellite GPS.
   navigator.geolocation.getCurrentPosition(
     onPositionSuccess,
-    onPositionError,
-    { enableHighAccuracy: true, timeout: 8000, maximumAge: 5000 }
+    (fastErr) => {
+      // If low accuracy fails, fall back to high accuracy
+      navigator.geolocation.getCurrentPosition(
+        onPositionSuccess,
+        onPositionError,
+        { enableHighAccuracy: true, timeout: 8000, maximumAge: 5000 }
+      );
+    },
+    { enableHighAccuracy: false, timeout: 4000, maximumAge: 60000 }
   );
 
   // 2. Start continuous watch for position updates
@@ -1493,17 +1501,39 @@ async function loadData() {
   return data;
 }
 
+// Parallelize data fetch immediately on boot rather than deferring until after map style/tiles render
+const initialDataPromise = loadData();
+
+// Listen for service worker background data updates to hot-swap places silently
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.addEventListener('message', async (event) => {
+    if (event.data?.type === 'DATA_UPDATED') {
+      try {
+        const fresh = await loadData();
+        state.allData = fresh;
+        updateSource();
+      } catch (err) {
+        console.warn('Background data sync update failed:', err);
+      }
+    }
+  });
+}
+
 map.on('load', async () => {
   try {
     setStatus('Loading places...');
-    state.allData = await loadData();
-    state.filteredData = state.allData;
+    state.allData = await initialDataPromise;
+    state.filteredData = filterData();
 
     fillCategoryOptions(state.allData);
     await registerCategoryIcons();
     addPlaceLayers(state.filteredData);
     bindMapInteractions();
-    updateSource();
+    const visible = state.filteredData.features.length;
+    const total = state.allData.features.length;
+    elements.resultCount.textContent = visible === total
+      ? `${total.toLocaleString()} places`
+      : `${visible.toLocaleString()} of ${total.toLocaleString()} places`;
     clearStatus();
     if (PRIVATE) flushOutbox();
   } catch (error) {
