@@ -745,6 +745,7 @@ function showEditError(text) {
 let flushing = false;
 async function flushOutbox() {
   if (!PRIVATE || flushing) return;
+  if (typeof navigator !== 'undefined' && !navigator.onLine) return;
   const due = state.outbox.filter((m) => !m.synced && (!isStale(m) || m.confirmed_stale));
   if (!due.length) return;
   if (!EDIT_TOKEN) { showEditError('This build has no edit credential; edits stay on this phone.'); return; }
@@ -764,7 +765,16 @@ async function flushOutbox() {
       else if (rejected.has(m.mid)) { m.attempts = MAX_FLUSH_FAILURES; m.last_error = `rejected: ${rejected.get(m.mid)}`; }
     }
   } catch (error) {
-    for (const m of due) { m.attempts += 1; m.last_error = String(error.message || error); }
+    const isNetworkDisconnect = (typeof navigator !== 'undefined' && !navigator.onLine)
+      || error.name === 'TypeError'
+      || String(error.message || '').toLowerCase().includes('fetch');
+    for (const m of due) {
+      // Don't burn retry attempts or trigger user-facing errors for ordinary offline/tunnel disconnects
+      if (!isNetworkDisconnect) {
+        m.attempts += 1;
+      }
+      m.last_error = String(error.message || error);
+    }
   } finally {
     flushing = false;
     saveOutbox();
@@ -773,6 +783,21 @@ async function flushOutbox() {
     if (!elements.details.hidden) renderPending(currentDetailsId());
   }
 }
+
+// Auto-flush pending mutations the moment the phone regains cellular or Wi-Fi connectivity
+window.addEventListener('online', () => {
+  if (PRIVATE) flushOutbox();
+});
+
+// Auto-flush and refresh active card details when user switches back to the map
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible') {
+    if (PRIVATE) flushOutbox();
+    if (typeof updateActiveDetailsDistance === 'function') {
+      updateActiveDetailsDistance();
+    }
+  }
+});
 function currentDetailsId() {
   return elements.details.dataset.placeId || null;
 }
@@ -953,10 +978,21 @@ function updateActiveDetailsDistance() {
         const p = pill(`🚶 ${walk.text}`, 'distance');
         elements.detailsMeta.prepend(p);
       }
-      return;
+    }
+  } else if (distEl) {
+    distEl.remove();
+  }
+
+  // Ambient operating hours: update in real-time as minutes elapse
+  const rawHours = activeDetailsFeature.properties?.hours || activeDetailsFeature.properties?.provider_hours;
+  const hoursEl = elements.detailsMeta.querySelector('.pill.hours-open, .pill.hours-closing-soon, .pill.hours-closed');
+  if (rawHours && hoursEl) {
+    const hoursInfo = parseOperatingHours(rawHours);
+    if (hoursInfo) {
+      hoursEl.textContent = hoursInfo.text;
+      hoursEl.className = `pill ${hoursInfo.variant}`;
     }
   }
-  if (distEl) distEl.remove();
 }
 
 function openDetails(feature) {
