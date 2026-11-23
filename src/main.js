@@ -144,6 +144,11 @@ const elements = {
   detailsClose: document.querySelector('#details-close'),
   detailsMapsQuick: document.querySelector('#details-maps-quick'),
   googleLink: document.querySelector('#google-link'),
+  viewportDrawer: document.querySelector('#viewport-drawer'),
+  viewportDrawerHandle: document.querySelector('#viewport-drawer-handle'),
+  viewportDrawerContent: document.querySelector('#viewport-drawer-content'),
+  viewportCount: document.querySelector('#viewport-count'),
+  viewportList: document.querySelector('#viewport-list'),
 };
 
 function loadHomeView() {
@@ -475,6 +480,9 @@ function requestUserLocation(userInitiated = false) {
     // Refresh distance badge in currently open details card if any
     if (typeof updateActiveDetailsDistance === 'function') {
       updateActiveDetailsDistance();
+    }
+    if (typeof debouncedUpdateViewport === 'function') {
+      debouncedUpdateViewport();
     }
 
     // Smoothly fly to user location on first fix or when follow mode is active
@@ -853,6 +861,7 @@ function updateSource() {
   elements.resultCount.textContent = visible === total
     ? `${total.toLocaleString()} places`
     : `${visible.toLocaleString()} of ${total.toLocaleString()} places`;
+  if (typeof debouncedUpdateViewport === 'function') debouncedUpdateViewport();
 }
 
 function fillCategoryOptions(data) {
@@ -1114,6 +1123,7 @@ function openDetails(feature) {
     renderPending(props.id);
   }
   elements.details.hidden = false;
+  if (elements.viewportDrawer) elements.viewportDrawer.hidden = true;
 }
 // Step 6: per-place git history, built nightly into ./history/<slug>.json (owner build only).
 let historyController = null;
@@ -1183,6 +1193,7 @@ function detailsFeature() {
 function closeDetails() {
   activeDetailsFeature = null;
   elements.details.hidden = true;
+  if (elements.viewportDrawer) elements.viewportDrawer.hidden = false;
 }
 
 function buildResultItem({ title, subtitle, distance, remote, onSelect }) {
@@ -1433,6 +1444,134 @@ function debounce(fn, wait) {
   };
 }
 
+function updateViewportList() {
+  if (!map || !state.filteredData || !elements.viewportDrawer) return;
+  const bounds = map.getBounds();
+  if (!bounds) return;
+
+  const inView = [];
+  for (const feature of state.filteredData.features) {
+    const [lng, lat] = feature.geometry?.coordinates || [];
+    if (Number.isFinite(lng) && Number.isFinite(lat) && bounds.contains([lng, lat])) {
+      inView.push(feature);
+    }
+  }
+
+  const referenceCoords = userCoords || [map.getCenter().lng, map.getCenter().lat];
+  inView.sort((a, b) => {
+    const distA = haversineDistanceMeters(referenceCoords, a.geometry.coordinates);
+    const distB = haversineDistanceMeters(referenceCoords, b.geometry.coordinates);
+    return distA - distB;
+  });
+
+  if (elements.viewportCount) {
+    elements.viewportCount.textContent = `(${inView.length})`;
+  }
+
+  // Only render the card DOM elements when the drawer is actually opened
+  if (!elements.viewportDrawer.classList.contains('expanded')) {
+    return;
+  }
+
+  if (!inView.length) {
+    elements.viewportList.replaceChildren();
+    const empty = document.createElement('div');
+    empty.className = 'viewport-empty';
+    empty.textContent = 'No pins in current map view. Zoom out or pan to discover nearby spots.';
+    elements.viewportList.appendChild(empty);
+    return;
+  }
+
+  const frag = document.createDocumentFragment();
+  const displayItems = inView.slice(0, 20);
+
+  for (const feature of displayItems) {
+    const props = feature.properties || {};
+    const [lng, lat] = feature.geometry?.coordinates || [];
+    const cat = props.category || 'Activities';
+    const color = CATEGORY_COLORS[cat] || DEFAULT_CATEGORY_COLOR;
+
+    const item = document.createElement('button');
+    item.type = 'button';
+    item.className = 'viewport-item';
+
+    const topRow = document.createElement('div');
+    topRow.className = 'viewport-item-top';
+
+    const titleGroup = document.createElement('div');
+    titleGroup.className = 'viewport-item-title';
+
+    const swatch = document.createElement('span');
+    swatch.className = 'viewport-item-swatch';
+    swatch.style.backgroundColor = color;
+
+    const nameEl = document.createElement('span');
+    nameEl.className = 'viewport-item-name';
+    nameEl.textContent = props.name || 'Untitled';
+
+    titleGroup.append(swatch, nameEl);
+    topRow.appendChild(titleGroup);
+
+    if (userCoords && Number.isFinite(lng) && Number.isFinite(lat)) {
+      const meters = haversineDistanceMeters(userCoords, [lng, lat]);
+      const walk = formatWalkingDistance(meters);
+      if (walk) {
+        const distEl = document.createElement('span');
+        distEl.className = 'viewport-item-dist';
+        distEl.textContent = `🚶 ${walk.shortText}`;
+        topRow.appendChild(distEl);
+      }
+    }
+    item.appendChild(topRow);
+
+    const bottomRow = document.createElement('div');
+    bottomRow.className = 'viewport-item-bottom';
+
+    const catEl = document.createElement('span');
+    catEl.className = 'viewport-item-cat';
+    catEl.textContent = cat;
+    bottomRow.appendChild(catEl);
+
+    const rawHours = props.hours || props.provider_hours;
+    if (rawHours) {
+      const hoursInfo = parseOperatingHours(rawHours);
+      if (hoursInfo) {
+        bottomRow.appendChild(pill(hoursInfo.text, hoursInfo.variant));
+      }
+    }
+    item.appendChild(bottomRow);
+
+    if (props.my_take) {
+      const takeEl = document.createElement('p');
+      takeEl.className = 'viewport-item-take';
+      takeEl.textContent = `“${props.my_take}”`;
+      item.appendChild(takeEl);
+    }
+
+    item.addEventListener('click', () => {
+      map.flyTo({ center: [lng, lat], zoom: Math.max(map.getZoom(), 16), duration: 450 });
+      openDetails(feature);
+    });
+
+    frag.appendChild(item);
+  }
+
+  elements.viewportList.replaceChildren(frag);
+}
+
+const debouncedUpdateViewport = debounce(updateViewportList, 200);
+
+if (elements.viewportDrawerHandle) {
+  elements.viewportDrawerHandle.addEventListener('click', () => {
+    const isExpanded = elements.viewportDrawer.classList.toggle('expanded');
+    elements.viewportDrawerHandle.setAttribute('aria-expanded', String(isExpanded));
+    elements.viewportDrawerContent.hidden = !isExpanded;
+    if (isExpanded) {
+      updateViewportList();
+    }
+  });
+}
+
 function addPlaceLayers(data) {
   map.addSource('places', {
     type: 'geojson',
@@ -1622,6 +1761,8 @@ map.on('load', async () => {
       : `${visible.toLocaleString()} of ${total.toLocaleString()} places`;
     clearStatus();
     if (PRIVATE) flushOutbox();
+    map.on('moveend', debouncedUpdateViewport);
+    updateViewportList();
   } catch (error) {
     console.error(error);
     if (PRIVATE && (error.message.includes('401') || error.message.includes('Unauthorized') || !localStorage.getItem('ef_vault_token'))) {

@@ -82,6 +82,18 @@
         <a id="google-link" class="primary-action" href="#" target="_blank" rel="noopener">Open in Google Maps</a>
       </aside>
 
+      <!-- Viewport Bottom Drawer (Trial) -->
+      <section id="viewport-drawer" class="viewport-drawer" aria-label="Places in view">
+        <button id="viewport-drawer-handle" class="viewport-drawer-handle" type="button" aria-expanded="false">
+          <span class="viewport-handle-bar"></span>
+          <span class="viewport-handle-text">In view <span id="viewport-count">(0)</span></span>
+          <span id="viewport-arrow" class="viewport-arrow">▴</span>
+        </button>
+        <div id="viewport-drawer-content" class="viewport-drawer-content" hidden>
+          <div id="viewport-list" class="viewport-list"></div>
+        </div>
+      </section>
+
       <div id="status" class="status" role="status">Loading map...</div>
       <div id="edit-error" class="edit-error" role="alert" hidden><span id="edit-error-text"></span> <button id="edit-error-dismiss" type="button" aria-label="Dismiss">×</button></div>
     </div>
