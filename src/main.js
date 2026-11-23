@@ -211,20 +211,23 @@ function haversineDistanceMeters(coord1, coord2) {
   return R * c;
 }
 
-function formatWalkingDistance(meters) {
-  if (meters === null || meters === undefined || isNaN(meters)) return null;
-  const walkMinutes = Math.max(1, Math.round(meters / 80)); // 80 meters/minute
+function formatWalkingDistance(straightLineMeters) {
+  if (straightLineMeters === null || straightLineMeters === undefined || isNaN(straightLineMeters)) return null;
+  // Urban street grid circuity factor: real walking path around city blocks is ~1.32x straight-line
+  const streetMeters = straightLineMeters * 1.32;
+  // Realistic urban walking speed: ~75 m/min (~4.5 km/h, accounting for pedestrian signals & crosswalks)
+  const walkMinutes = Math.max(1, Math.round(streetMeters / 75));
   let distStr = '';
-  if (meters < 1000) {
-    distStr = `${Math.round(meters)}m`;
+  if (streetMeters < 950) {
+    distStr = `${Math.round(streetMeters / 10) * 10}m`;
   } else {
-    const km = (meters / 1000).toFixed(1);
+    const km = (streetMeters / 1000).toFixed(1);
     distStr = `${km}km`;
   }
   return {
-    meters,
+    meters: streetMeters,
     minutes: walkMinutes,
-    text: `${walkMinutes} min walk (${distStr})`,
+    text: `${walkMinutes} min walk (~${distStr})`,
     shortText: `${walkMinutes}m walk · ${distStr}`,
   };
 }

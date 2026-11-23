@@ -47,34 +47,26 @@ self.addEventListener("activate", (event) => {
   );
 });
 
-// Network first, but if the network has not answered within NETWORK_TIMEOUT_MS and a cached copy
-// exists, serve the cache and let the fetch finish in the background to refresh it.
-async function networkFirst(event, cacheName, request, fallbacks) {
-  const cache = await caches.open(cacheName);
-  const network = fetch(request).then((response) => {
-    if (response.ok) cache.put(request, response.clone());
-    return response;
-  });
-  const lookup = async () => {
-    for (const key of fallbacks || [request]) {
-      const hit = await cache.match(key, { ignoreSearch: true });
-      if (hit) return hit;
-    }
-    return null;
-  };
-  const timeout = new Promise((resolve) =>
-    setTimeout(async () => resolve(await lookup()), NETWORK_TIMEOUT_MS)
-  );
-  event.waitUntil(network.catch(() => {}));
-  try {
-    const first = await Promise.race([network, timeout]);
-    if (first) return first;
-    return await network; // timed out with nothing cached: keep waiting on the network
-  } catch {
-    const cached = await lookup();
-    if (cached) return cached;
-    return Response.error();
+// Stale-while-revalidate for the app shell: instant 5ms boot from cache, background refresh.
+async function staleWhileRevalidateShell(event, request) {
+  const cache = await caches.open(SHELL_CACHE);
+  const cached = (await cache.match(request, { ignoreSearch: true }))
+    || (await cache.match(ROOT, { ignoreSearch: true }))
+    || (await cache.match(new URL('.', self.location.href).href, { ignoreSearch: true }))
+    || (await cache.match(self.location.pathname.replace(/sw\.js$/, ''), { ignoreSearch: true }));
+
+  const networkFetch = fetch(request)
+    .then((response) => {
+      if (response.ok) cache.put(request, response.clone());
+      return response;
+    })
+    .catch(() => cached || Response.error());
+
+  if (cached) {
+    event.waitUntil(networkFetch);
+    return cached;
   }
+  return networkFetch;
 }
 
 let tilePutCount = 0;
@@ -85,14 +77,16 @@ async function trimTiles(cache) {
 }
 
 // Stale-while-revalidate for the data feed: instant paint from cache, silent background refresh.
-// ignoreSearch: true ensures auth query tokens (?vault_token=...) never cause cache misses.
+// Uses canonical pathname as key so query auth tokens (?vault_token=...) never cause cache misses.
 async function staleWhileRevalidateData(event, request) {
   const cache = await caches.open(DATA_CACHE);
-  const cached = await cache.match(request, { ignoreSearch: true });
+  const url = new URL(request.url);
+  const cacheKey = url.pathname;
+  const cached = (await cache.match(cacheKey)) || (await cache.match(request, { ignoreSearch: true }));
   const networkFetch = fetch(request)
     .then(async (response) => {
       if (response.ok) {
-        await cache.put(request, response.clone());
+        await cache.put(cacheKey, response.clone());
         if (cached) {
           const clients = await self.clients.matchAll();
           clients.forEach((c) => c.postMessage({ type: 'DATA_UPDATED' }));
@@ -136,9 +130,9 @@ self.addEventListener("fetch", (event) => {
   const { request } = event;
   if (request.method !== "GET") return;
 
-  // Page loads: a reload must show the current build, but never hang on weak signal.
+  // Page loads: stale-while-revalidate for sub-5ms instant app boot.
   if (request.mode === "navigate" || request.destination === "document") {
-    event.respondWith(networkFirst(event, SHELL_CACHE, request, [request, ROOT]));
+    event.respondWith(staleWhileRevalidateShell(event, request));
     return;
   }
 
