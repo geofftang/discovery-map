@@ -17,7 +17,11 @@ import restaurantIcon from '@mapbox/maki/icons/restaurant.svg?raw';
       localStorage.setItem('ef_vault_token', token);
       const origFetch = window.fetch;
       window.fetch = function(url, opts) {
-        if (typeof url === 'string' && (url.includes('private.json') || url.includes('/api/'))) {
+        const isInternal = typeof url === 'string' && (
+          !url.startsWith('http://') && !url.startsWith('https://') ||
+          url.startsWith(window.location.origin)
+        );
+        if (isInternal && (url.includes('private.json') || url.includes('/api/edits'))) {
           const u = new URL(url, window.location.href);
           if (!u.searchParams.has('vault_token')) {
             u.searchParams.set('vault_token', token);
@@ -951,11 +955,12 @@ function googleMapsUrl(feature) {
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(placeQuery)}`;
 }
 
-// Turn-by-turn walking navigation intent directly to the pin coordinates
-function walkingDirectionsUrl(feature) {
+// Universal directions intent: opens Google Maps with destination coordinates prefilled,
+// letting Google choose the best mode (walking/transit) and letting the user switch modes.
+function directionsUrl(feature) {
   const [lng, lat] = feature.geometry?.coordinates || [];
   if (!Number.isFinite(lat) || !Number.isFinite(lng)) return googleMapsUrl(feature);
-  return `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}&travelmode=walking`;
+  return `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}`;
 }
 
 function pill(label, variant = '') {
@@ -1087,8 +1092,8 @@ function openDetails(feature) {
   const mapUrl = googleMapsUrl(feature);
   elements.googleLink.href = mapUrl;
   if (elements.detailsMapsQuick) {
-    elements.detailsMapsQuick.href = walkingDirectionsUrl(feature);
-    elements.detailsMapsQuick.title = 'Start walking directions in Google Maps';
+    elements.detailsMapsQuick.href = directionsUrl(feature);
+    elements.detailsMapsQuick.title = 'Get transit or walking directions in Google Maps';
   }
   elements.details.dataset.placeId = props.id || '';
 
