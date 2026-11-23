@@ -951,6 +951,13 @@ function googleMapsUrl(feature) {
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(placeQuery)}`;
 }
 
+// Turn-by-turn walking navigation intent directly to the pin coordinates
+function walkingDirectionsUrl(feature) {
+  const [lng, lat] = feature.geometry?.coordinates || [];
+  if (!Number.isFinite(lat) || !Number.isFinite(lng)) return googleMapsUrl(feature);
+  return `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}&travelmode=walking`;
+}
+
 function pill(label, variant = '') {
   const item = document.createElement('span');
   item.className = variant ? `pill ${variant}` : 'pill';
@@ -1079,7 +1086,10 @@ function openDetails(feature) {
   elements.detailsDescription.textContent = notes || (take ? '' : 'No notes yet.');
   const mapUrl = googleMapsUrl(feature);
   elements.googleLink.href = mapUrl;
-  if (elements.detailsMapsQuick) elements.detailsMapsQuick.href = mapUrl;
+  if (elements.detailsMapsQuick) {
+    elements.detailsMapsQuick.href = walkingDirectionsUrl(feature);
+    elements.detailsMapsQuick.title = 'Start walking directions in Google Maps';
+  }
   elements.details.dataset.placeId = props.id || '';
 
   if (PRIVATE && props.slug) loadHistory(props.slug); else elements.detailsHistoryBlock.hidden = true;
