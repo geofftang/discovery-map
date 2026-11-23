@@ -955,11 +955,17 @@ function googleMapsUrl(feature) {
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(placeQuery)}`;
 }
 
-// Universal directions intent: opens Google Maps with destination coordinates prefilled,
-// letting Google choose the best mode (walking/transit) and letting the user switch modes.
+// Universal directions intent: opens Google Maps with destination coordinates prefilled.
+// Proximity-aware: if within walking distance (<= 2.5 km / ~30 min walk) or user location
+// is unavailable, launches directly into turn-by-turn walking mode. If further away across
+// boroughs, opens multi-modal directions so transit options are immediately accessible.
 function directionsUrl(feature) {
   const [lng, lat] = feature.geometry?.coordinates || [];
   if (!Number.isFinite(lat) || !Number.isFinite(lng)) return googleMapsUrl(feature);
+  const meters = userCoords ? haversineDistanceMeters(userCoords, [lng, lat]) : null;
+  if (meters === null || meters <= 2500) {
+    return `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}&travelmode=walking`;
+  }
   return `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}`;
 }
 
@@ -1342,9 +1348,38 @@ function renderSearchResults() {
     pending.className = 'search-result-pending';
     pending.textContent = 'Searching everywhere…';
     frag.appendChild(pending);
+  } else if (!local.length && !state.geoResults.length && query.length >= 3) {
+    const emptyEl = document.createElement('div');
+    emptyEl.className = 'search-result-pending';
+    emptyEl.textContent = 'No places found on map or OpenStreetMap';
+    frag.appendChild(emptyEl);
   }
 
-  const hasContent = local.length || state.geoResults.length || state.geoPending;
+  // 1-tap external Google Maps search fallback
+  if (query.length >= 2) {
+    const center = map.getCenter();
+    const gmapsItem = document.createElement('a');
+    gmapsItem.className = 'search-result-item search-result-item--fallback';
+    gmapsItem.target = '_blank';
+    gmapsItem.rel = 'noopener noreferrer';
+    gmapsItem.href = `https://www.google.com/maps/search/${encodeURIComponent(state.search)}/@${center.lat},${center.lng},15z`;
+
+    const nameEl = document.createElement('span');
+    nameEl.className = 'search-result-name';
+    nameEl.textContent = `Search Google Maps for "${state.search}"`;
+
+    const catEl = document.createElement('span');
+    catEl.className = 'search-result-cat';
+    catEl.textContent = 'Google Maps ↗';
+
+    gmapsItem.append(nameEl, catEl);
+    gmapsItem.addEventListener('click', () => {
+      elements.searchResults.hidden = true;
+    });
+    frag.appendChild(gmapsItem);
+  }
+
+  const hasContent = local.length || state.geoResults.length || state.geoPending || (query.length >= 2);
   elements.searchResults.replaceChildren(frag);
   elements.searchResults.hidden = !hasContent;
 }

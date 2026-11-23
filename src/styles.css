@@ -206,6 +206,22 @@ select {
   color: var(--muted);
 }
 
+.search-result-item--fallback {
+  text-decoration: none;
+  background: var(--subtle);
+  border-top: 1px solid var(--line);
+  color: var(--ink);
+}
+
+.search-result-item--fallback:hover {
+  background: light-dark(#e2e8f0, #2c3a42);
+}
+
+.search-result-item--fallback .search-result-name {
+  color: light-dark(#2563eb, #9bc2ff);
+  font-weight: 500;
+}
+
 /* Geocoded (off-map) hits: name can be short, address is the long part — let it truncate. */
 .search-result-item--remote .search-result-name {
   flex-shrink: 0;
