@@ -1747,7 +1747,16 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-map.on('load', async () => {
+let placesInitialized = false;
+
+async function setupPlaces() {
+  if (placesInitialized) return;
+  if (!map.isStyleLoaded()) {
+    map.once('style.load', setupPlaces);
+    return;
+  }
+  placesInitialized = true;
+
   try {
     setStatus('Loading places...');
     state.allData = await initialDataPromise;
@@ -1755,7 +1764,9 @@ map.on('load', async () => {
 
     fillCategoryOptions(state.allData);
     await registerCategoryIcons();
-    addPlaceLayers(state.filteredData);
+    if (!map.getSource('places')) {
+      addPlaceLayers(state.filteredData);
+    }
     bindMapInteractions();
     const visible = state.filteredData.features.length;
     const total = state.allData.features.length;
@@ -1767,6 +1778,7 @@ map.on('load', async () => {
     map.on('moveend', debouncedUpdateViewport);
     updateViewportList();
   } catch (error) {
+    placesInitialized = false;
     console.error(error);
     if (PRIVATE && (error.message.includes('401') || error.message.includes('Unauthorized') || !localStorage.getItem('ef_vault_token'))) {
       setStatus('Personal Vault locked. Tap here to unlock.');
@@ -1778,11 +1790,20 @@ map.on('load', async () => {
       setStatus('Could not load the discovery map data.');
     }
   }
-});
+}
+
+// When map style is ready, mount places immediately rather than waiting for all background basemap vector tiles
+if (map.isStyleLoaded()) {
+  setupPlaces();
+} else {
+  map.once('style.load', setupPlaces);
+}
+// Fallback in case style.load was already dispatched before listener attached
+map.once('load', setupPlaces);
 
 mapTheme.addEventListener('change', () => map.setStyle(baseStyle()));
 map.on('style.load', async () => {
-  if (!state.filteredData || map.getSource('places')) return;
+  if (!placesInitialized || !state.filteredData) return;
   try {
     await registerCategoryIcons();
     if (!map.getSource('places')) addPlaceLayers(state.filteredData);
