@@ -22,14 +22,22 @@ const DATA_PATTERN = /(discovery\.geojson|private\.json)$/;
 // JS/CSS bundle IS the app. Those filenames change every build, so we can't hardcode them;
 // instead parse them out of the just-fetched index.html and precache alongside the shell.
 async function precacheAppShell(cache) {
-  await cache.addAll(APP_SHELL);
   try {
-    const html = await (await fetch(ROOT)).text();
-    const assetPaths = [...html.matchAll(/(?:src|href)="([^"]+\.(?:js|css))"/g)].map((m) => m[1]);
-    const assetUrls = assetPaths.map((p) => new URL(p, ROOT).href);
-    await cache.addAll(assetUrls);
-  } catch {
-    // best-effort — the fetch handler's opportunistic caching still covers this on next visit
+    const res = await fetch(ROOT);
+    if (res.ok) {
+      await cache.put(ROOT, res.clone());
+      const html = await res.text();
+      const assetPaths = [...html.matchAll(/(?:src|href)="([^"]+\.(?:js|css))"/g)].map((m) => m[1]);
+      const assetUrls = assetPaths.map((p) => new URL(p, ROOT).href);
+      await Promise.all(assetUrls.map(async (url) => {
+        try {
+          const aRes = await fetch(url);
+          if (aRes.ok) await cache.put(url, aRes);
+        } catch {}
+      }));
+    }
+  } catch (err) {
+    console.warn('Precache app shell skipped:', err);
   }
 }
 
@@ -47,26 +55,25 @@ self.addEventListener("activate", (event) => {
   );
 });
 
-// Stale-while-revalidate for the app shell: instant 5ms boot from cache, background refresh.
-async function staleWhileRevalidateShell(event, request) {
+// Navigation: Network-first so new deploys activate immediately on page reload.
+// Falls back to cached shell if offline.
+async function networkFirstShell(event, request) {
   const cache = await caches.open(SHELL_CACHE);
+  try {
+    const response = await fetch(request);
+    if (response.ok) {
+      cache.put(request, response.clone());
+      return response;
+    }
+  } catch (err) {
+    // Offline / network failure
+  }
   const cached = (await cache.match(request, { ignoreSearch: true }))
     || (await cache.match(ROOT, { ignoreSearch: true }))
     || (await cache.match(new URL('.', self.location.href).href, { ignoreSearch: true }))
     || (await cache.match(self.location.pathname.replace(/sw\.js$/, ''), { ignoreSearch: true }));
-
-  const networkFetch = fetch(request)
-    .then((response) => {
-      if (response.ok) cache.put(request, response.clone());
-      return response;
-    })
-    .catch(() => cached || Response.error());
-
-  if (cached) {
-    event.waitUntil(networkFetch);
-    return cached;
-  }
-  return networkFetch;
+  if (cached) return cached;
+  return Response.error();
 }
 
 let tilePutCount = 0;
@@ -130,9 +137,9 @@ self.addEventListener("fetch", (event) => {
   const { request } = event;
   if (request.method !== "GET") return;
 
-  // Page loads: stale-while-revalidate for sub-5ms instant app boot.
+  // Page loads: network-first so new builds activate immediately on reload.
   if (request.mode === "navigate" || request.destination === "document") {
-    event.respondWith(staleWhileRevalidateShell(event, request));
+    event.respondWith(networkFirstShell(event, request));
     return;
   }
 

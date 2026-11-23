@@ -18,10 +18,12 @@ npm run build:private
 [ -f dist-private/private.json ] || { echo "ERROR: dist-private/private.json missing" >&2; exit 1; }
 
 echo "Syncing dist-private/ to map.efsystem.uk ($TARGET_HOST:$REMOTE_DIR)..."
-rsync -avz --delete -e "ssh -i $SSH_KEY" dist-private/ "$TARGET_HOST:$REMOTE_DIR"
+rsync -avz --delete --exclude='assets/' -e "ssh -i $SSH_KEY" dist-private/ "$TARGET_HOST:$REMOTE_DIR"
+rsync -avz -e "ssh -i $SSH_KEY" dist-private/assets/ "$TARGET_HOST:${REMOTE_DIR}assets/"
 
 echo "Syncing dist-private/ to efsystem.uk/map ($TARGET_HOST:/home/ubuntu/homepage/map/)..."
-rsync -avz --delete -e "ssh -i $SSH_KEY" dist-private/ "$TARGET_HOST:/home/ubuntu/homepage/map/"
+rsync -avz --delete --exclude='assets/' -e "ssh -i $SSH_KEY" dist-private/ "$TARGET_HOST:/home/ubuntu/homepage/map/"
+rsync -avz -e "ssh -i $SSH_KEY" dist-private/assets/ "$TARGET_HOST:/home/ubuntu/homepage/map/assets/"
 
 echo "Verifying remote endpoint..."
 STATUS=$(ssh -i "$SSH_KEY" -o BatchMode=yes "$TARGET_HOST" "sudo systemctl restart efsystem-homepage.service && curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:8082/")
