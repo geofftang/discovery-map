@@ -946,12 +946,13 @@ function svgToImage(svgText) {
 }
 
 async function registerCategoryIcons() {
-  for (const [category, svgText] of Object.entries(CATEGORY_ICONS)) {
-    const iconId = CATEGORY_ICON_IDS[category];
-
-    if (!map.hasImage(iconId)) {
-      map.addImage(iconId, await svgToImage(svgText), { pixelRatio: 1 });
-    }
+  // In parallel: one after another, each icon waited for its own decode before the next began,
+  // and on a phone that kept the dots off the map for seconds.
+  const pending = Object.entries(CATEGORY_ICONS)
+    .filter(([category]) => !map.hasImage(CATEGORY_ICON_IDS[category]))
+    .map(async ([category, svgText]) => [CATEGORY_ICON_IDS[category], await svgToImage(svgText)]);
+  for (const [iconId, image] of await Promise.all(pending)) {
+    if (!map.hasImage(iconId)) map.addImage(iconId, image, { pixelRatio: 1 });
   }
 }
 
@@ -1775,7 +1776,9 @@ async function setupPlaces() {
     state.filteredData = filterData();
 
     fillCategoryOptions(state.allData);
+    mark('filtered');
     await registerCategoryIcons();
+    mark('icons');
     if (!map.getSource('places')) {
       addPlaceLayers(state.filteredData);
     }

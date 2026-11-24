@@ -27,6 +27,8 @@ function render() {
     `app start   ${marks.start ?? '-'}ms`,
     `style ready ${marks.style ?? '-'}ms`,
     `data ready  ${marks.data ?? '-'}ms  (${transfer(/private\.json|discovery\.geojson/)})`,
+    `filtered    ${marks.filtered ?? '-'}ms`,
+    `icons ready ${marks.icons ?? '-'}ms`,
     `dots drawn  ${marks.dots ?? '-'}ms`,
     `map idle    ${marks.idle ?? '-'}ms`,
   ];
