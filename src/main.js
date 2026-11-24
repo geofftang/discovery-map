@@ -1764,16 +1764,18 @@ let placesInitialized = false;
 
 async function setupPlaces() {
   if (placesInitialized) return;
-  if (!map.isStyleLoaded()) {
-    map.once('style.load', setupPlaces);
-    return;
-  }
+  // No isStyleLoaded() gate here. It is false on a phone while the sprite and tiles are still
+  // arriving, and 'style.load' has already fired by then and never fires again, so the dots waited
+  // for the 'load' event (all basemap tiles) -- about 2 s. The style object is ready to take sources,
+  // layers and images as soon as 'style.load' has fired; tiles can keep arriving underneath.
   placesInitialized = true;
 
   try {
     setStatus('Loading places...');
     state.allData = await initialDataPromise;
+    mark('got');
     state.filteredData = filterData();
+    mark('filter');
 
     fillCategoryOptions(state.allData);
     mark('filtered');
