@@ -55,25 +55,25 @@ self.addEventListener("activate", (event) => {
   );
 });
 
-// Navigation: Network-first so new deploys activate immediately on page reload.
-// Falls back to cached shell if offline.
-async function networkFirstShell(event, request) {
+// Navigation: stale-while-revalidate so the app boots from cache with no network wait; the
+// fresh copy is fetched in the background and shows on the next open. A real HTTP answer below
+// 500 with no cached copy (e.g. the owner build's 401 login page) is passed straight through, so a
+// signed-out phone sees the login form instead of a blank "can't load" page.
+async function staleWhileRevalidateShell(event, request) {
   const cache = await caches.open(SHELL_CACHE);
-  try {
-    const response = await fetch(request);
-    if (response.ok) {
-      cache.put(request, response.clone());
-      return response;
-    }
-  } catch (err) {
-    // Offline / network failure
-  }
   const cached = (await cache.match(request, { ignoreSearch: true }))
-    || (await cache.match(ROOT, { ignoreSearch: true }))
-    || (await cache.match(new URL('.', self.location.href).href, { ignoreSearch: true }))
-    || (await cache.match(self.location.pathname.replace(/sw\.js$/, ''), { ignoreSearch: true }));
-  if (cached) return cached;
-  return Response.error();
+    || (await cache.match(ROOT, { ignoreSearch: true }));
+  const networkFetch = fetch(request)
+    .then((response) => {
+      if (response.ok) cache.put(request, response.clone());
+      return response;
+    })
+    .catch(() => cached || Response.error());
+  if (cached) {
+    event.waitUntil(networkFetch);
+    return cached;
+  }
+  return networkFetch;
 }
 
 let tilePutCount = 0;
@@ -93,8 +93,13 @@ async function staleWhileRevalidateData(event, request) {
   const networkFetch = fetch(request)
     .then(async (response) => {
       if (response.ok) {
+        // Tell the page only when the feed really changed. The page answers DATA_UPDATED by
+        // re-fetching the feed, which revalidates again: notifying on every revalidation made a
+        // loop that re-downloaded the whole file every few seconds.
+        const sig = (r) => r && (r.headers.get('etag') || r.headers.get('last-modified') || r.headers.get('content-length'));
+        const changed = !!cached && !!sig(response) && sig(response) !== sig(cached);
         await cache.put(cacheKey, response.clone());
-        if (cached) {
+        if (changed) {
           const clients = await self.clients.matchAll();
           clients.forEach((c) => c.postMessage({ type: 'DATA_UPDATED' }));
         }
@@ -137,9 +142,9 @@ self.addEventListener("fetch", (event) => {
   const { request } = event;
   if (request.method !== "GET") return;
 
-  // Page loads: network-first so new builds activate immediately on reload.
+  // Page loads: stale-while-revalidate for instant boot; a new build shows on the open after it deploys.
   if (request.mode === "navigate" || request.destination === "document") {
-    event.respondWith(networkFirstShell(event, request));
+    event.respondWith(staleWhileRevalidateShell(event, request));
     return;
   }
 
