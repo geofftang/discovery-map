@@ -12,6 +12,9 @@ REMOTE_DIR="/home/ubuntu/discovery-map-vault/dist/"
 
 [ -f "$SSH_KEY" ] || { echo "ERROR: SSH key $SSH_KEY not found" >&2; exit 1; }
 
+echo "Running tests..."
+node --test scripts/test_sw.mjs >/dev/null || { echo "ERROR: service-worker tests failed; not deploying" >&2; exit 1; }
+
 echo "Building private discovery map..."
 npm run build:private
 
@@ -34,3 +37,17 @@ else
 fi
 
 echo "Deployed successfully to: https://map.efsystem.uk/ and https://efsystem.uk/map"
+
+# The live worker must be the one just built (a stale edge copy once left phones on the old one).
+# A random query string bypasses any CDN copy, so this checks what the origin really serves.
+BUILT=$(shasum -a 256 dist-private/sw.js | cut -d' ' -f1)
+LIVE=""
+for _ in 1 2 3 4 5 6; do  # the service was just restarted: allow it a few seconds to come back
+  LIVE=$(curl -fsS "https://efsystem.uk/map/sw.js?verify=$RANDOM$RANDOM" 2>/dev/null | shasum -a 256 | cut -d' ' -f1) && [ -n "$LIVE" ] && break
+  sleep 3
+done
+if [ "$BUILT" != "$LIVE" ]; then
+  echo "ERROR: live /map/sw.js does not match this build (built $BUILT, live $LIVE)" >&2
+  exit 1
+fi
+echo "Verified: live /map/sw.js matches this build."
