@@ -7,7 +7,8 @@ mark('start');
 if (import.meta.env.MODE === 'private') {
   // Owner build only (the public site has no /shared): report this device's load times to the portal.
   const rum = document.createElement('script');
-  rum.src = '/shared/ef-rum.js';
+  // Per-build query string: the CDN caches /shared files for hours, and a new URL is a new cache entry.
+  rum.src = `/shared/ef-rum.js?v=${__SW_BUILD__}`;
   rum.defer = true;
   document.head.appendChild(rum);
 }
