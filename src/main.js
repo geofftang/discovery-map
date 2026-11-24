@@ -2,6 +2,8 @@ import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import './styles.css';
 import './registerServiceWorker.js';
+import { mark } from './perfProbe.js';
+mark('start');
 import bakeryIcon from '@mapbox/maki/icons/bakery.svg?raw';
 import barIcon from '@mapbox/maki/icons/bar.svg?raw';
 import cafeIcon from '@mapbox/maki/icons/cafe.svg?raw';
@@ -1730,7 +1732,7 @@ async function loadData() {
 }
 
 // Parallelize data fetch immediately on boot rather than deferring until after map style/tiles render
-const initialDataPromise = loadData();
+const initialDataPromise = loadData().then((d) => { mark('data'); return d; });
 
 // Listen for service worker background data updates to hot-swap places silently
 if ('serviceWorker' in navigator) {
@@ -1746,6 +1748,9 @@ if ('serviceWorker' in navigator) {
     }
   });
 }
+
+map.once('style.load', () => mark('style'));
+map.once('idle', () => mark('idle'));
 
 let placesInitialized = false;
 
@@ -1767,6 +1772,7 @@ async function setupPlaces() {
     if (!map.getSource('places')) {
       addPlaceLayers(state.filteredData);
     }
+    mark('dots');
     bindMapInteractions();
     const visible = state.filteredData.features.length;
     const total = state.allData.features.length;
