@@ -4,6 +4,13 @@ import './styles.css';
 import './registerServiceWorker.js';
 import { mark } from './perfProbe.js';
 mark('start');
+if (import.meta.env.MODE === 'private') {
+  // Owner build only (the public site has no /shared): report this device's load times to the portal.
+  const rum = document.createElement('script');
+  rum.src = '/shared/ef-rum.js';
+  rum.defer = true;
+  document.head.appendChild(rum);
+}
 import bakeryIcon from '@mapbox/maki/icons/bakery.svg?raw';
 import barIcon from '@mapbox/maki/icons/bar.svg?raw';
 import cafeIcon from '@mapbox/maki/icons/cafe.svg?raw';

@@ -3,9 +3,11 @@
 const on = typeof location !== 'undefined' && location.hash.includes('perf');
 const marks = {};
 export function mark(name) {
-  if (!on || marks[name] !== undefined) return;
+  if (marks[name] !== undefined) return;
   marks[name] = Math.round(performance.now());
-  render();
+  // The portal's shared real-user timing script (/shared/ef-rum.js) reads these when it reports.
+  (window.__efMarks = window.__efMarks || {})[name] = marks[name];
+  if (on) render();
 }
 function transfer(re) {
   const e = performance.getEntriesByType('resource').find((r) => re.test(r.name));
