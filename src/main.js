@@ -466,6 +466,7 @@ function requestUserLocation(userInitiated = false) {
     followBtn.classList.remove('searching');
     const { longitude, latitude, heading } = pos.coords;
     const isFirstFix = !userCoords;
+    if (isFirstFix) mark('geo');
     userCoords = [longitude, latitude];
 
     // Create or update pulsating user marker
@@ -1759,6 +1760,7 @@ if ('serviceWorker' in navigator) {
 
 map.once('style.load', () => mark('style'));
 map.once('idle', () => mark('idle'));
+map.once('load', () => mark('maploaded'));
 
 let placesInitialized = false;
 

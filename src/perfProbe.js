@@ -29,7 +29,9 @@ function render() {
     `data ready  ${marks.data ?? '-'}ms  (${transfer(/private\.json|discovery\.geojson/)})`,
     `filtered    ${marks.filtered ?? '-'}ms`,
     `icons ready ${marks.icons ?? '-'}ms`,
-    `dots drawn  ${marks.dots ?? '-'}ms`,
+    `dots added  ${marks.dots ?? '-'}ms`,
+    `gps fix     ${marks.geo ?? '-'}ms`,
+    `tiles done  ${marks.maploaded ?? '-'}ms`,
     `map idle    ${marks.idle ?? '-'}ms`,
   ];
   if (marks.idle !== undefined) {
