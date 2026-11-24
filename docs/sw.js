@@ -157,7 +157,10 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // Same-origin app assets (hashed JS/CSS) are immutable per build: shell cache, cache-first.
+  // Same-origin hashed bundles (under /assets/) are immutable per build: shell cache, cache-first.
+  // Anything else on this origin (e.g. the portal's shared /shared/ef-rum.js, which changes on its
+  // own schedule) is not ours to freeze: leave it to the browser, or it stays stale for the whole build.
+  if (new URL(request.url).origin === self.location.origin && !new URL(request.url).pathname.includes('/assets/')) return;
   if (new URL(request.url).origin === self.location.origin) {
     event.respondWith(
       caches.open(SHELL_CACHE).then(async (cache) => {

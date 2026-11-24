@@ -24,7 +24,7 @@ function boot(fetchImpl, seed = {}) {
   const listeners = {};
   const posted = [];
   const self = {
-    location: { href: 'https://h/map/sw.js' },
+    location: { href: 'https://h/map/sw.js', origin: 'https://h' },
     addEventListener: (t, fn) => { listeners[t] = fn; },
     skipWaiting() {},
     clients: { claim: async () => {}, matchAll: async () => [{ postMessage: (m) => posted.push(m) }] },
@@ -84,4 +84,23 @@ test('feed revalidation notifies the page only when the feed changed (no refetch
   assert.equal(posted.length, 1, 'new version notifies once');
   await dispatch(listeners, feed());
   assert.equal(posted.length, 1, 'and not again for the same version');
+});
+
+test('files the app does not own (portal /shared scripts) are never frozen in the shell cache', async () => {
+  let served = 'v1';
+  const shell = new FakeCache();
+  const { listeners } = boot(async () => new Response(served), { [SHELL]: shell });
+  const req = { url: 'https://h/shared/ef-rum.js', method: 'GET', mode: 'no-cors', destination: 'script' };
+  let responded = false;
+  listeners.fetch({ request: req, respondWith: () => { responded = true; }, waitUntil: () => {} });
+  assert.equal(responded, false, 'the worker must not intercept it, so the browser fetches the current copy');
+  assert.equal((await shell.keys()).length, 0, 'and nothing is written to the shell cache');
+});
+
+test('hashed bundles are still served cache-first', async () => {
+  const shell = new FakeCache();
+  shell.m.set('https://h/map/assets/index-abc.js', new Response('bundle'));
+  const { listeners } = boot(async () => { throw new Error('should not hit the network'); }, { [SHELL]: shell });
+  const res = await dispatch(listeners, { url: 'https://h/map/assets/index-abc.js', method: 'GET', mode: 'no-cors', destination: 'script' });
+  assert.equal(await res.text(), 'bundle');
 });
